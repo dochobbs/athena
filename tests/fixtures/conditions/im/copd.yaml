@@ -1,0 +1,63 @@
+id: copd
+display_name: "COPD"
+aliases:
+  - chronic obstructive pulmonary disease
+  - emphysema
+  - chronic bronchitis
+snomed: "13645005"
+icd10:
+  - "J44.1"
+  - "J44.0"
+  - "J44.9"
+rxnorm_primary: "2123111"
+category: chronic
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 480
+complexity:
+  student: moderate
+  resident: moderate
+  attending: straightforward
+vitals_impact:
+  respiratory_rate:
+    modifier: elevated
+    range: [20, 36]
+  spo2:
+    modifier: decreased
+    range: [82, 92]
+presentation:
+  symptoms:
+    - name: dyspnea
+      probability: 0.95
+      description: "Progressive dyspnea on exertion"
+    - name: chronic cough
+      probability: 0.85
+      description: "Productive cough, especially morning"
+    - name: wheezing
+      probability: 0.6
+  physical_exam:
+    - system: respiratory
+      finding: "Barrel chest, hyperresonance to percussion"
+      probability: 0.5
+    - system: respiratory
+      finding: "Diminished breath sounds"
+      probability: 0.7
+    - system: respiratory
+      finding: "Prolonged expiratory phase"
+      probability: 0.8
+treatment:
+  approach: bronchodilator_and_steroid
+  medications:
+    - agent: tiotropium
+      rxnorm: "2123111"
+      frequency: "daily"
+      route: inhaler
+      indication: maintenance COPD
+    - agent: albuterol
+      rxnorm: "435"
+      frequency: "q4-6h PRN"
+      route: inhaler
+      indication: acute bronchospasm
+      prn: true

@@ -1,0 +1,35 @@
+id: asthma
+topic: Asthma
+category: pulmonary
+specialties:
+  - peds
+  - im
+teaching_goals:
+  - Recognize wheezing patterns and classify severity
+  - Develop appropriate step therapy plan
+  - Create and explain asthma action plan
+common_mistakes:
+  - Missing exercise-induced component
+  - Not assessing inhaler technique
+  - Undertreating persistent asthma
+red_flags:
+  - Silent chest (severe obstruction)
+  - Accessory muscle use at rest
+  - Unable to speak in full sentences
+clinical_pearls:
+  - Step therapy compliance prevents ED visits
+  - Always check technique before stepping up
+key_history_questions:
+  - Frequency of daytime symptoms?
+  - Nighttime awakening due to symptoms?
+  - Activity limitation?
+  - Rescue inhaler use frequency?
+key_exam_findings:
+  - Expiratory wheezing
+  - Prolonged expiratory phase
+  - Accessory muscle use
+  - I:E ratio
+treatment_principles:
+  - Quick relief (SABA) for all patients
+  - Controller therapy for persistent asthma
+  - Step up if not controlled, step down if stable 3+ months

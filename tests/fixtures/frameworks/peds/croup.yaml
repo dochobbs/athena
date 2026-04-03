@@ -1,0 +1,41 @@
+id: croup
+topic: Croup
+category: respiratory
+specialties:
+  - peds
+age_range_months: [6, 72]
+teaching_goals:
+  - Identify classic barky cough presentation
+  - Classify severity using Westley score
+  - Apply single-dose dexamethasone protocol
+common_mistakes:
+  - Ordering unnecessary imaging
+  - Forgetting single-dose dexamethasone effectiveness
+  - Not observing post-nebulized epinephrine
+red_flags:
+  - Stridor at rest
+  - Drooling (consider epiglottitis)
+  - Toxic appearance
+  - No response to standard treatment
+clinical_pearls:
+  - Single dose dexamethasone is the standard of care
+  - Nebulized epinephrine for moderate-severe cases
+  - Observe 3-4 hours after epinephrine for rebound
+key_history_questions:
+  - Duration of barky cough?
+  - Stridor at rest vs. only when agitated?
+  - Able to drink fluids?
+  - Any drooling?
+key_exam_findings:
+  - Character of stridor (inspiratory vs. biphasic)
+  - Chest wall retractions
+  - Air entry quality
+  - Mental status
+treatment_principles:
+  - Dexamethasone 0.6 mg/kg PO/IM (max 16mg) single dose
+  - Nebulized epinephrine for moderate-severe
+  - Humidified air (limited evidence but commonly used)
+disposition_guidance:
+  - Discharge if improved after dexamethasone and no stridor at rest
+  - Admit if stridor at rest persists
+  - Observe 3-4 hours post-epinephrine

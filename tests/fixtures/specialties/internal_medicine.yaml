@@ -1,0 +1,8 @@
+id: internal_medicine
+display_name: Internal Medicine
+description: "Diagnosis and treatment of adult diseases across organ systems"
+age_range:
+  min_months: 216
+knowledge_pools:
+  - im
+  - shared

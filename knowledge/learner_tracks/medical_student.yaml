@@ -1,0 +1,32 @@
+tracks:
+  - id: ms3_peds
+    display_name: "MS3 Pediatrics Clerkship"
+    level: student
+    specialty: pediatrics
+    year: 3
+    complexity_cap: moderate
+    description: "Third-year medical student on pediatrics clerkship rotation"
+
+  - id: ms3_im
+    display_name: "MS3 Internal Medicine Clerkship"
+    level: student
+    specialty: internal_medicine
+    year: 3
+    complexity_cap: moderate
+    description: "Third-year medical student on internal medicine clerkship rotation"
+
+  - id: ms3_fm
+    display_name: "MS3 Family Medicine Clerkship"
+    level: student
+    specialty: family_practice
+    year: 3
+    complexity_cap: moderate
+    description: "Third-year medical student on family medicine clerkship rotation"
+
+  - id: ms4_acting_intern
+    display_name: "MS4 Acting Intern"
+    level: student
+    specialty: family_practice
+    year: 4
+    complexity_cap: challenging
+    description: "Fourth-year medical student acting internship"

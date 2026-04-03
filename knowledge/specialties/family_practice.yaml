@@ -1,0 +1,9 @@
+id: family_practice
+display_name: Family Practice
+description: "Comprehensive primary care across all ages, combining pediatric and adult medicine"
+age_range:
+  min_months: 0
+knowledge_pools:
+  - peds
+  - im
+  - shared

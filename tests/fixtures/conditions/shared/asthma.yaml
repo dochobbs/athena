@@ -1,0 +1,85 @@
+id: asthma
+display_name: Asthma
+aliases:
+  - reactive airway disease
+  - bronchial asthma
+snomed: "195967001"
+icd10:
+  - "J45.909"
+  - "J45.20"
+  - "J45.30"
+  - "J45.40"
+  - "J45.50"
+rxnorm_primary: "435"
+category: chronic
+system: pulmonary
+specialties:
+  - peds
+  - im
+age_range:
+  min_months: 12
+complexity:
+  student: moderate
+  resident: straightforward
+  attending: straightforward
+specialty_variants:
+  peds:
+    typical_age: "5-12 years"
+    common_triggers:
+      - viral URI
+      - exercise
+      - allergens
+    teaching_emphasis: "action plan compliance, spacer technique, exercise-induced"
+    key_differentials:
+      - bronchiolitis
+      - foreign body
+      - croup
+  im:
+    typical_age: "25-65 years"
+    common_triggers:
+      - occupational
+      - GERD
+      - obesity
+      - aspirin
+    teaching_emphasis: "step therapy, biologic eligibility, COPD-asthma overlap"
+    key_differentials:
+      - COPD
+      - CHF
+      - PE
+      - vocal cord dysfunction
+vitals_impact:
+  respiratory_rate:
+    modifier: elevated
+    range: [22, 40]
+  spo2:
+    modifier: decreased
+    range: [88, 95]
+presentation:
+  symptoms:
+    - name: wheezing
+      probability: 0.9
+      description: "Expiratory wheezing on auscultation"
+    - name: cough
+      probability: 0.8
+      description: "Persistent cough, often worse at night"
+    - name: dyspnea
+      probability: 0.7
+      description: "Shortness of breath with activity"
+  physical_exam:
+    - system: respiratory
+      finding: "Expiratory wheezing bilateral"
+      probability: 0.85
+    - system: respiratory
+      finding: "Prolonged expiratory phase"
+      probability: 0.7
+treatment:
+  approach: bronchodilator_and_controller
+  medications:
+    - agent: albuterol
+      rxnorm: "435"
+      dose_mg_kg: 0.15
+      max_dose_mg: 5
+      frequency: "q4-6h PRN"
+      route: nebulizer
+      indication: acute bronchospasm
+      prn: true

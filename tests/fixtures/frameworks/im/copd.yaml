@@ -1,0 +1,45 @@
+id: copd
+topic: COPD
+category: pulmonary
+specialties:
+  - im
+teaching_goals:
+  - Classify COPD severity using GOLD criteria
+  - Differentiate COPD from asthma
+  - Apply stepped pharmacotherapy approach
+  - Identify indications for oxygen therapy
+common_mistakes:
+  - Missing COPD-asthma overlap syndrome
+  - Not checking for alpha-1 antitrypsin deficiency
+  - Inappropriate oxygen targets (maintaining SpO2 88-92%)
+  - Not addressing smoking cessation at every visit
+red_flags:
+  - Acute CO2 retention
+  - Altered mental status
+  - Hemodynamic instability
+  - New onset peripheral edema (cor pulmonale)
+clinical_pearls:
+  - Smoking cessation is the only intervention that slows decline
+  - Target SpO2 88-92% to avoid suppressing hypoxic drive
+  - GOLD staging uses post-bronchodilator FEV1
+  - Check alpha-1 antitrypsin in patients <45 or non-smokers
+key_history_questions:
+  - Pack-year smoking history?
+  - Frequency and triggers of exacerbations?
+  - Current exercise tolerance (MRC dyspnea scale)?
+  - Number of exacerbations in past year?
+key_exam_findings:
+  - Barrel chest
+  - Hyperresonance to percussion
+  - Diminished breath sounds
+  - Prolonged expiratory phase
+  - Pursed lip breathing
+treatment_principles:
+  - LAMA monotherapy for initial maintenance
+  - Add LABA if symptomatic on LAMA alone
+  - Add ICS only if frequent exacerbations (>= 2/year)
+  - Pulmonary rehab for all symptomatic patients
+disposition_guidance:
+  - Admit if acute exacerbation with respiratory failure
+  - Outpatient management for stable exacerbations
+  - ICU if pH < 7.25 or altered mental status

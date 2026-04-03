@@ -1,0 +1,64 @@
+tracks:
+  - id: pgy1_peds
+    display_name: "PGY-1 Pediatrics Resident"
+    level: resident
+    specialty: pediatrics
+    year: 1
+    complexity_cap: moderate
+    description: "First-year pediatrics resident"
+
+  - id: pgy2_peds
+    display_name: "PGY-2 Pediatrics Resident"
+    level: resident
+    specialty: pediatrics
+    year: 2
+    complexity_cap: challenging
+    description: "Second-year pediatrics resident"
+
+  - id: pgy3_peds
+    display_name: "PGY-3 Pediatrics Resident"
+    level: resident
+    specialty: pediatrics
+    year: 3
+    complexity_cap: challenging
+    description: "Third-year pediatrics chief resident"
+
+  - id: pgy1_im
+    display_name: "PGY-1 Internal Medicine Resident"
+    level: resident
+    specialty: internal_medicine
+    year: 1
+    complexity_cap: moderate
+    description: "First-year internal medicine resident"
+
+  - id: pgy2_im
+    display_name: "PGY-2 Internal Medicine Resident"
+    level: resident
+    specialty: internal_medicine
+    year: 2
+    complexity_cap: challenging
+    description: "Second-year internal medicine resident"
+
+  - id: pgy3_im
+    display_name: "PGY-3 Internal Medicine Resident"
+    level: resident
+    specialty: internal_medicine
+    year: 3
+    complexity_cap: challenging
+    description: "Third-year internal medicine chief resident"
+
+  - id: pgy1_fm
+    display_name: "PGY-1 Family Medicine Resident"
+    level: resident
+    specialty: family_practice
+    year: 1
+    complexity_cap: moderate
+    description: "First-year family medicine resident"
+
+  - id: pgy2_fm
+    display_name: "PGY-2 Family Medicine Resident"
+    level: resident
+    specialty: family_practice
+    year: 2
+    complexity_cap: challenging
+    description: "Second-year family medicine resident"

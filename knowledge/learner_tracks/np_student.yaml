@@ -1,0 +1,21 @@
+tracks:
+  - id: np_student_peds
+    display_name: "Pediatric NP Student"
+    level: np_student
+    specialty: pediatrics
+    complexity_cap: moderate
+    description: "Nurse practitioner student specializing in pediatrics"
+
+  - id: np_student_adult
+    display_name: "Adult-Gerontology NP Student"
+    level: np_student
+    specialty: internal_medicine
+    complexity_cap: moderate
+    description: "Nurse practitioner student specializing in adult-gerontology primary care"
+
+  - id: np_student_fnp
+    display_name: "Family NP Student"
+    level: np_student
+    specialty: family_practice
+    complexity_cap: moderate
+    description: "Family nurse practitioner student"

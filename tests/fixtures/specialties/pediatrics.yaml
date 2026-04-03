@@ -1,0 +1,9 @@
+id: pediatrics
+display_name: Pediatrics
+description: "Care of infants, children, and adolescents from birth through age 18"
+age_range:
+  min_months: 0
+  max_months: 216
+knowledge_pools:
+  - peds
+  - shared
