@@ -1,0 +1,38 @@
+id: ringworm
+display_name: Ringworm
+aliases:
+- Tinea corporis
+- Tinea capitis
+- Dermatophyte infection
+icd10:
+- B35.4
+- B35.0
+category: acute
+system: dermatological
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 264
+prevalence:
+  notes: Very contagious, common in school-age children
+seasonality:
+  weight_multiplier: 1.0
+presentation:
+  symptoms:
+  - ring-shaped rash
+  - scaling
+  - pruritus
+  - hair loss if scalp
+  duration_days:
+  - 14
+  - 28
+treatment:
+  approach: antifungal
+  items:
+  - category: medication
+    description: Topical antifungal (clotrimazole, terbinafine) for body
+  - category: medication
+    description: Oral griseofulvin or terbinafine for scalp involvement
+  - category: education
+    description: Do not share combs, hats, or towels

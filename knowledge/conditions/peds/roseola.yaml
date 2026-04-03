@@ -1,0 +1,37 @@
+id: roseola
+display_name: Roseola
+aliases:
+- Sixth disease
+- Exanthem subitum
+- HHV-6
+icd10:
+- B08.20
+category: acute
+system: infectious
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 48
+prevalence:
+  by_kindergarten: 0.95
+  notes: Almost universal childhood infection
+seasonality:
+  weight_multiplier: 1.0
+presentation:
+  symptoms:
+  - high fever 3-5 days
+  - rash appears as fever breaks
+  - irritability
+  duration_days:
+  - 5
+  - 7
+treatment:
+  approach: supportive
+  items:
+  - category: medication
+    description: Acetaminophen or ibuprofen for fever control
+  - category: education
+    description: Rash is not contagious; fever precedes rash
+  - category: education
+    description: Monitor for febrile seizures during high fever

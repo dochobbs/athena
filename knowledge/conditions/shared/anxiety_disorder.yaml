@@ -1,0 +1,45 @@
+id: anxiety_disorder
+display_name: Anxiety Disorder
+aliases:
+- Generalized anxiety
+- Separation anxiety
+- Social anxiety
+icd10:
+- F41.1
+- F93.0
+- F40.10
+category: chronic
+system: mental_health
+specialties:
+- peds
+- im
+age_range:
+  min_months: 36
+  max_months: 264
+prevalence:
+  percent: 10
+  notes: Often undiagnosed; more common in girls
+presentation:
+  symptoms:
+  - excessive worry
+  - physical symptoms (stomachache, headache)
+  - avoidance
+  - sleep difficulties
+treatment:
+  approach: cbt_plus_consideration_medication
+  items:
+  - category: referral
+    description: Counseling/therapy referral for CBT
+  - category: education
+    description: Coping strategies and relaxation techniques discussed
+  - category: medication
+    description: Consider SSRI if moderate-severe and CBT insufficient
+  - category: follow-up
+    description: Follow up in 4-6 weeks to assess progress
+comorbidities:
+  strong:
+  - depression
+  - adhd
+  moderate:
+  - somatic_complaints
+  - school_refusal

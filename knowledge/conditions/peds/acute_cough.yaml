@@ -1,0 +1,42 @@
+id: acute_cough
+display_name: Cough
+aliases:
+- Acute cough
+- Cough illness
+icd10:
+- R05
+category: acute
+system: respiratory
+specialties:
+- peds
+age_range:
+  min_months: 1
+  max_months: 264
+prevalence:
+  notes: Very common symptom; usually viral
+seasonality:
+  peak_months:
+  - 10
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  weight_multiplier: 2.0
+presentation:
+  symptoms:
+  - cough
+  - may have URI symptoms
+  - may have fever
+  duration_days:
+  - 7
+  - 21
+treatment:
+  approach: supportive
+  items:
+  - category: education
+    description: Honey (>1 year) for cough; humidifier
+  - category: medication
+    description: Avoid OTC cough/cold medicines in young children
+  - category: education
+    description: Return if difficulty breathing, prolonged fever, or not improving

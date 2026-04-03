@@ -1,0 +1,43 @@
+id: insect_bite_reaction
+display_name: Insect Bite Reaction
+aliases:
+- Bug bite
+- Insect sting reaction
+icd10:
+- T63.4
+- W57
+category: acute
+system: dermatological
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 264
+prevalence:
+  notes: Very common in warmer months
+seasonality:
+  peak_months:
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  weight_multiplier: 4.0
+presentation:
+  symptoms:
+  - localized swelling
+  - erythema
+  - pruritus
+  - pain at site
+  duration_days:
+  - 3
+  - 7
+treatment:
+  approach: symptomatic
+  items:
+  - category: medication
+    description: Oral antihistamine for itching
+  - category: other
+    description: Cool compresses, topical hydrocortisone
+  - category: education
+    description: Return if signs of cellulitis or systemic reaction

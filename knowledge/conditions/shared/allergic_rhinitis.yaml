@@ -1,0 +1,60 @@
+id: allergic_rhinitis
+display_name: Allergic Rhinitis
+aliases:
+- Hay fever
+- Seasonal allergies
+- Environmental allergies
+icd10:
+- J30.9
+- J30.1
+- J30.89
+category: chronic
+system: ent
+specialties:
+- peds
+- im
+age_range:
+  min_months: 24
+  max_months: 264
+prevalence:
+  percent: 15
+  notes: Develops after sensitization over time
+seasonality:
+  tree_pollen:
+  - 3
+  - 4
+  - 5
+  grass_pollen:
+  - 5
+  - 6
+  - 7
+  ragweed:
+  - 8
+  - 9
+  - 10
+  perennial: true
+presentation:
+  symptoms:
+  - sneezing
+  - rhinorrhea
+  - nasal congestion
+  - itchy eyes
+  - allergic shiners
+treatment:
+  approach: antihistamine_plus_nasal_steroid
+  items:
+  - category: medication
+    description: Second-generation antihistamine (cetirizine, loratadine)
+  - category: medication
+    description: Intranasal corticosteroid for persistent symptoms
+  - category: education
+    description: Allergen avoidance strategies
+  - category: referral
+    description: Consider allergy testing if poorly controlled
+comorbidities:
+  strong:
+  - asthma
+  - eczema
+  moderate:
+  - sinusitis
+  - otitis_media

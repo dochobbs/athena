@@ -1,0 +1,58 @@
+name: RSV → Reactive Airway → Asthma
+description: Progression from severe RSV bronchiolitis to recurrent wheeze and eventual
+  asthma diagnosis.
+stages:
+- condition_key: bronchiolitis
+  display_name: RSV Bronchiolitis
+  typical_age_range:
+  - 1
+  - 12
+  symptoms:
+  - wheeze
+  - tachypnea
+  - hypoxia
+  - poor feeding
+  treatments:
+  - supportive care
+  - supplemental oxygen
+  transition_triggers:
+  - severe illness
+  - hospitalization
+- condition_key: reactive_airway_disease
+  display_name: Reactive Airway Disease
+  typical_age_range:
+  - 12
+  - 48
+  symptoms:
+  - recurrent wheeze with viral illness
+  treatments:
+  - albuterol PRN
+  transition_triggers:
+  - repeated viral-induced wheeze
+  - 3+ episodes
+- condition_key: asthma
+  display_name: Asthma
+  typical_age_range:
+  - 36
+  - 96
+  symptoms:
+  - persistent wheeze
+  - nocturnal cough
+  - exercise intolerance
+  treatments:
+  - rescue inhaler
+  - inhaled corticosteroids
+  transition_triggers:
+  - symptoms between infections
+  - spirometry abnormal
+clinical_pearls:
+- 30-40% of infants hospitalized with RSV develop recurrent wheeze
+- 'Risk factors: severe bronchiolitis, family history, atopy'
+- RAD diagnosis is provisional - asthma diagnosis made after age 4-5
+- Palivizumab for high-risk infants reduces RSV severity
+references:
+- 'AAP Clinical Practice Guideline: Bronchiolitis 2014'
+- NAEPP Guidelines for Asthma 2020
+id: rsv_to_asthma
+specialties:
+- peds

@@ -1,0 +1,103 @@
+id: viral_gastroenteritis
+display_name: Viral Gastroenteritis
+aliases:
+- Stomach flu
+- Gastroenteritis
+- Acute diarrhea
+snomed: '25374005'
+icd10:
+- A08.4
+- A09
+category: acute
+system: gastrointestinal
+specialties:
+- peds
+age_range:
+  min_months: 2
+  max_months: 264
+  peak: &id001
+  - 6
+  - 60
+demographics:
+  age_months:
+    min: 2
+    peak: *id001
+    max: 264
+  gender_bias:
+    male: 0.5
+    female: 0.5
+  risk_factors:
+  - daycare
+  - household_contact
+  - contaminated_food_water
+prevalence:
+  annual_episodes: 1.5
+  notes: Rotavirus most common cause in young children
+seasonality:
+  peak_months:
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  summer_peak:
+  - 6
+  - 7
+  - 8
+  weight_multiplier: 1.5
+vitals_impact:
+  temp_f:
+  - 99.0
+  - 101.5
+  hr_multiplier: 1.15
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+  - name: vomiting
+    probability: 0.85
+    description: non-bilious vomiting
+  - name: diarrhea
+    probability: 0.9
+    description: watery, non-bloody stools
+  - name: abdominal cramps
+    probability: 0.7
+    description: periumbilical cramping
+  - name: low-grade fever
+    probability: 0.5
+    description: temperature 99-101F
+  - name: decreased appetite
+    probability: 0.8
+    description: refusing feeds
+  duration_days:
+  - 3
+  - 7
+  physical_exam:
+  - system: general
+    finding: Child appears mildly dehydrated
+    probability: 0.4
+  - system: abdomen
+    finding: Soft, diffusely tender, hyperactive bowel sounds
+    probability: 0.8
+  - system: skin
+    finding: Mucous membranes slightly dry
+    probability: 0.4
+diagnostics:
+  labs: []
+treatment:
+  approach: supportive
+  medications:
+  - agent: Ondansetron
+    rxnorm: '26225'
+    dose_mg_kg: 0.15
+    max_dose_mg: 8
+    frequency: x1 dose PRN
+    route: oral
+    indication: for persistent vomiting to enable oral rehydration
+    prn: true
+  patient_instructions:
+  - Oral rehydration with small frequent amounts (1-2 tsp every 5 minutes)
+  - Use Pedialyte or similar oral rehydration solution
+  - Advance diet as tolerated - no need for BRAT restriction
+  - 'Return if: unable to keep fluids down, no urine in 8 hours, blood in stool, or
+    appears very ill'

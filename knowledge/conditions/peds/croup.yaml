@@ -1,0 +1,105 @@
+id: croup
+display_name: Croup
+aliases:
+- Laryngotracheobronchitis
+- Viral croup
+snomed: '71186008'
+icd10:
+- J05.0
+category: acute
+system: respiratory
+specialties:
+- peds
+age_range:
+  min_months: 3
+  max_months: 72
+  peak: &id001
+  - 6
+  - 36
+demographics:
+  age_months:
+    min: 3
+    peak: *id001
+    max: 72
+  gender_bias:
+    male: 0.6
+    female: 0.4
+  risk_factors:
+  - fall_season
+  - viral_exposure
+prevalence:
+  annual_incidence_per_1000: 5.32
+  notes: Affects 3% of children under 5
+seasonality:
+  peak_months:
+  - 9
+  - 10
+  - 11
+  - 12
+  weight_multiplier: 2.5
+vitals_impact:
+  temp_f:
+  - 99.0
+  - 101.5
+  hr_multiplier: 1.15
+  rr_multiplier: 1.1
+  spo2_min: 94
+presentation:
+  symptoms:
+  - name: barking cough
+    probability: 0.95
+    description: seal-like barking cough
+  - name: stridor
+    probability: 0.8
+    description: inspiratory stridor, worse when agitated
+  - name: hoarseness
+    probability: 0.85
+    description: hoarse voice or cry
+  - name: low-grade fever
+    probability: 0.6
+    description: temperature 99-101F
+  duration_days:
+  - 3
+  - 7
+  worse_at_night: true
+  physical_exam:
+  - system: general
+    finding: Child with characteristic barking cough
+    probability: 0.95
+  - system: respiratory
+    finding: Inspiratory stridor, may worsen with agitation
+    probability: 0.8
+  - system: respiratory
+    finding: Clear to auscultation, no wheezes
+    probability: 0.85
+  - system: heent
+    finding: Hoarse voice or cry
+    probability: 0.85
+diagnostics:
+  labs: []
+  imaging:
+  - name: AP Neck X-ray
+    modality: X-ray
+    loinc: 36572-6
+    finding_positive: Subglottic narrowing with 'steeple sign' appearance.
+    finding_negative: No subglottic narrowing. Airway appears patent.
+    impression_positive: 'IMPRESSION: Subglottic narrowing consistent with croup.'
+    impression_negative: 'IMPRESSION: No radiographic evidence of airway obstruction.'
+    probability_positive: 0.75
+  notes: Imaging not routinely required - clinical diagnosis
+treatment:
+  approach: steroid_plus_supportive
+  medications:
+  - agent: Dexamethasone
+    rxnorm: '3264'
+    dose_mg_kg: 0.6
+    max_dose_mg: 10
+    frequency: x1 dose
+    duration_days: 1
+    route: oral
+    indication: reduce airway inflammation
+  patient_instructions:
+  - Single dose of dexamethasone is typically curative
+  - Cool mist or night air may provide temporary relief
+  - Keep child calm - crying worsens stridor
+  - Return IMMEDIATELY for stridor at rest, drooling, or respiratory distress

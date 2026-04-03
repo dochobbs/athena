@@ -1,0 +1,124 @@
+id: pharyngitis
+display_name: Pharyngitis
+aliases:
+- Sore throat
+- Strep throat
+- Streptococcal pharyngitis
+snomed: '405737000'
+icd10:
+- J02.9
+- J02.0
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 24
+  max_months: 264
+  peak: &id001
+  - 60
+  - 180
+demographics:
+  age_months:
+    min: 24
+    peak: *id001
+    max: 264
+  gender_bias:
+    male: 0.5
+    female: 0.5
+  risk_factors:
+  - school_exposure
+  - household_contact
+  - winter_season
+prevalence:
+  strep_positive_rate: 0.3
+  notes: Viral causes more common than bacterial
+seasonality:
+  peak_months:
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  - 4
+  weight_multiplier: 1.5
+vitals_impact:
+  temp_f:
+  - 100.5
+  - 103.0
+  hr_multiplier: 1.1
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+  - name: sore throat
+    probability: 0.95
+    description: odynophagia, difficulty swallowing
+  - name: fever
+    probability: 0.8
+    description: temperature 101-103F
+  - name: tonsillar exudate
+    probability: 0.6
+    description: white patches on tonsils
+  - name: cervical lymphadenopathy
+    probability: 0.7
+    description: tender anterior cervical nodes
+  - name: headache
+    probability: 0.5
+    description: associated headache
+  - name: abdominal pain
+    probability: 0.3
+    description: may have nausea or vomiting
+  duration_days:
+  - 3
+  - 7
+  physical_exam:
+  - system: heent
+    finding: Pharynx erythematous with tonsillar hypertrophy
+    probability: 0.9
+  - system: heent
+    finding: Tonsillar exudate present
+    probability: 0.6
+  - system: heent
+    finding: Palatal petechiae
+    probability: 0.3
+  - system: neck
+    finding: Tender anterior cervical lymphadenopathy
+    probability: 0.7
+diagnostics:
+  labs:
+  - name: Rapid Strep Test
+    loinc: 78012-2
+    result_positive: Positive for Group A Strep
+    result_negative: Negative
+    probability_positive: 0.3
+treatment:
+  approach: test_and_treat
+  medications:
+  - agent: Amoxicillin
+    rxnorm: '723'
+    dose_mg_kg: 50
+    max_dose_mg: 1000
+    frequency: once daily
+    duration_days: 10
+    route: oral
+    indication: Group A strep pharyngitis
+  - agent: Penicillin V
+    rxnorm: '7984'
+    fixed_dose_mg: 250
+    frequency: BID-TID
+    duration_days: 10
+    route: oral
+    indication: alternative for Group A strep
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: Q6H PRN
+    indication: pain and fever
+    prn: true
+  patient_instructions:
+  - Rapid strep test performed; antibiotics if positive
+  - Complete full 10-day course of antibiotics if prescribed
+  - May return to school 24 hours after starting antibiotics
+  - 'Return if: difficulty breathing/swallowing, drooling, or neck stiffness'

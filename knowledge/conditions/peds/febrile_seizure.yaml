@@ -1,0 +1,37 @@
+id: febrile_seizure
+display_name: Febrile Seizure
+aliases:
+- Fever seizure
+- Febrile convulsion
+icd10:
+- R56.00
+- R56.01
+category: acute
+system: neurological
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 72
+prevalence:
+  percent: 4
+  notes: Most common childhood seizure type
+seasonality:
+  weight_multiplier: 1.0
+presentation:
+  symptoms:
+  - generalized tonic-clonic seizure
+  - associated with fever
+  - postictal drowsiness
+  duration_minutes:
+  - 1
+  - 5
+treatment:
+  approach: supportive_and_education
+  items:
+  - category: education
+    description: Simple febrile seizures are benign; 2-7% risk of epilepsy
+  - category: medication
+    description: Antipyretics do not prevent recurrence
+  - category: education
+    description: Return immediately for prolonged seizure or focal features

@@ -1,0 +1,29 @@
+id: recurrent_otitis_media
+display_name: Recurrent Otitis Media
+aliases:
+- Chronic ear infections
+- Recurrent AOM
+icd10:
+- H66.90
+category: chronic
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 84
+prevalence:
+  notes: Defined as 3+ episodes in 6 months or 4+ in 12 months
+treatment:
+  approach: prophylaxis_or_tubes
+  items:
+  - category: referral
+    description: ENT referral for possible tympanostomy tubes
+  - category: education
+    description: 'Consider risk factors: daycare, smoke exposure, pacifier use'
+  - category: order
+    description: Hearing evaluation
+comorbidities:
+  moderate:
+  - hearing_loss
+  - speech_delay

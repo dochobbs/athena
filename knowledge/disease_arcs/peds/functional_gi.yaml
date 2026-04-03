@@ -1,0 +1,57 @@
+name: Functional GI Disorders
+description: Evolution of functional gastrointestinal disorders in childhood.
+stages:
+- condition_key: gerd
+  display_name: Infant Reflux
+  typical_age_range:
+  - 0
+  - 12
+  symptoms:
+  - regurgitation
+  - irritability with feeds
+  treatments:
+  - positioning
+  - thickened feeds
+  transition_triggers:
+  - resolution or persistence
+- condition_key: functional_constipation
+  display_name: Functional Constipation
+  typical_age_range:
+  - 24
+  - 72
+  symptoms:
+  - withholding
+  - hard stools
+  - abdominal pain
+  treatments:
+  - osmotic laxatives
+  - behavioral modification
+  transition_triggers:
+  - toilet training stress
+  - dietary factors
+- condition_key: functional_abdominal_pain
+  display_name: Functional Abdominal Pain
+  typical_age_range:
+  - 48
+  - 144
+  symptoms:
+  - periumbilical pain
+  - no organic cause
+  treatments:
+  - reassurance
+  - CBT
+  - dietary modification
+  transition_triggers:
+  - school stress
+  - anxiety
+clinical_pearls:
+- Rome IV criteria define functional GI disorders
+- Constipation is the most common cause of abdominal pain in children
+- 'Red flags: weight loss, bloody stool, nighttime symptoms, growth failure'
+- Gut-brain axis plays key role in functional pain
+references:
+- 'NASPGHAN Guidelines: Constipation 2014'
+- Rome IV Criteria for Pediatric Functional GI Disorders
+id: functional_gi
+specialties:
+- peds

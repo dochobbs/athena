@@ -1,0 +1,77 @@
+name: Atopic March
+description: Classic allergic disease progression from eczema through food allergy,
+  asthma, and allergic rhinitis.
+stages:
+- condition_key: eczema
+  display_name: Eczema
+  typical_age_range:
+  - 1
+  - 12
+  symptoms:
+  - dry skin
+  - pruritus
+  - erythematous patches
+  treatments:
+  - emollients
+  - topical steroids
+  transition_triggers:
+  - persistent atopy
+  - IgE sensitization
+- condition_key: food_allergy
+  display_name: Food Allergy
+  typical_age_range:
+  - 6
+  - 24
+  symptoms:
+  - urticaria
+  - angioedema
+  - GI symptoms
+  treatments:
+  - allergen avoidance
+  - epinephrine auto-injector
+  transition_triggers:
+  - allergen exposure
+  - IgE-mediated sensitization
+- condition_key: asthma
+  display_name: Asthma
+  typical_age_range:
+  - 24
+  - 84
+  symptoms:
+  - wheezing
+  - cough
+  - shortness of breath
+  treatments:
+  - rescue inhaler
+  - controller medications
+  transition_triggers:
+  - viral illness
+  - allergen exposure
+  - exercise
+- condition_key: allergic_rhinitis
+  display_name: Allergic Rhinitis
+  typical_age_range:
+  - 48
+  - 120
+  symptoms:
+  - sneezing
+  - rhinorrhea
+  - nasal congestion
+  - itchy eyes
+  treatments:
+  - antihistamines
+  - nasal steroids
+  transition_triggers:
+  - pollen seasons
+  - environmental allergens
+clinical_pearls:
+- 60% of infants with moderate-severe eczema develop asthma
+- Early aggressive eczema treatment may reduce atopic march progression
+- Food allergy often resolves (milk, egg) but peanut/tree nut usually persist
+- Allergen immunotherapy may modify disease course
+references:
+- 'AAAAI Practice Parameter: Atopic Dermatitis 2024'
+- GINA Guidelines 2023
+id: atopic_march
+specialties:
+- peds

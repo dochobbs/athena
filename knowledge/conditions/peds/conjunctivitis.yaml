@@ -1,0 +1,115 @@
+id: conjunctivitis
+display_name: Conjunctivitis
+aliases:
+- Pink eye
+- Eye infection
+snomed: '9826008'
+icd10:
+- H10.9
+- H10.30
+- H10.10
+category: acute
+system: eye
+specialties:
+- peds
+age_range:
+  min_months: 1
+  max_months: 264
+  peak: &id001
+  - 12
+  - 84
+demographics:
+  age_months:
+    min: 1
+    peak: *id001
+    max: 264
+  gender_bias:
+    male: 0.5
+    female: 0.5
+  risk_factors:
+  - daycare
+  - school_exposure
+  - recent_URI
+  - contact_lens_use
+prevalence:
+  notes: Very common, highly contagious; viral most common cause
+seasonality:
+  peak_months:
+  - 3
+  - 4
+  - 5
+  - 9
+  - 10
+  weight_multiplier: 1.3
+vitals_impact:
+  temp_f:
+  - 98.6
+  - 99.5
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 99
+presentation:
+  symptoms:
+  - name: eye redness
+    probability: 0.95
+    description: conjunctival injection
+  - name: discharge
+    probability: 0.85
+    description: purulent (bacterial) or watery (viral)
+  - name: crusting
+    probability: 0.75
+    description: eyelids stuck together in morning
+  - name: itching
+    probability: 0.6
+    description: more prominent with allergic etiology
+  - name: tearing
+    probability: 0.7
+    description: excessive lacrimation
+  - name: foreign body sensation
+    probability: 0.45
+    description: gritty feeling in eye
+  duration_days:
+  - 5
+  - 10
+  physical_exam:
+  - system: heent
+    finding: Conjunctival injection with discharge
+    probability: 0.95
+  - system: heent
+    finding: Eyelid edema
+    probability: 0.5
+  - system: heent
+    finding: Preauricular lymphadenopathy (viral)
+    probability: 0.4
+  - system: heent
+    finding: Normal cornea and visual acuity
+    probability: 0.98
+diagnostics:
+  labs: []
+treatment:
+  approach: varies_by_etiology
+  medications:
+  - agent: Erythromycin Ophthalmic Ointment
+    rxnorm: '310134'
+    frequency: Apply 0.5 inch ribbon QID
+    duration_days: 7
+    route: ophthalmic
+    indication: bacterial conjunctivitis
+  - agent: Polymyxin B-Trimethoprim Ophthalmic
+    rxnorm: '197879'
+    frequency: 1-2 drops Q3H for 7-10 days
+    duration_days: 7
+    route: ophthalmic
+    indication: bacterial conjunctivitis, alternative
+  - agent: Ofloxacin Ophthalmic
+    rxnorm: '198214'
+    frequency: 1-2 drops Q2-4H
+    duration_days: 7
+    route: ophthalmic
+    indication: bacterial conjunctivitis, contact lens wearers
+  patient_instructions:
+  - Antibiotic drops for bacterial; supportive care for viral
+  - Good hand hygiene to prevent spread
+  - Do not share towels, pillowcases, or eye makeup
+  - May return to school 24 hours after starting treatment if bacterial
+  - 'Return if: vision changes, severe pain, or photophobia'

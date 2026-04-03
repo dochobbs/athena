@@ -1,0 +1,141 @@
+id: asthma
+display_name: Asthma
+aliases:
+- Reactive airway disease
+- RAD
+snomed: '195967001'
+icd10:
+- J45.20
+- J45.30
+- J45.40
+- J45.50
+category: chronic
+system: respiratory
+specialties:
+- peds
+- im
+age_range:
+  min_months: 12
+  max_months: 264
+  peak: &id001
+  - 24
+  - 84
+demographics:
+  age_months:
+    min: 12
+    peak: *id001
+    max: 264
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - family_history
+  - eczema
+  - allergic_rhinitis
+  - smoke_exposure
+  - prematurity
+prevalence:
+  percent: 8
+  notes: Most common chronic disease of childhood
+vitals_impact:
+  temp_f:
+  - 98.6
+  - 99.5
+  hr_multiplier: 1.2
+  rr_multiplier: 1.3
+  spo2_min: 90
+presentation:
+  symptoms:
+  - name: wheezing
+    probability: 0.9
+    description: expiratory wheeze on auscultation
+  - name: cough
+    probability: 0.85
+    description: dry cough, worse at night or with exercise
+  - name: shortness of breath
+    probability: 0.75
+    description: dyspnea with activity or at rest (severe)
+  - name: chest tightness
+    probability: 0.6
+    description: sensation of chest constriction
+  - name: exercise intolerance
+    probability: 0.55
+    description: symptoms with physical activity
+  triggers:
+  - viral illness
+  - exercise
+  - allergens
+  - cold air
+  - smoke
+  - strong odors
+  physical_exam:
+  - system: respiratory
+    finding: Expiratory wheezes bilaterally
+    probability: 0.85
+  - system: respiratory
+    finding: Prolonged expiratory phase
+    probability: 0.7
+  - system: respiratory
+    finding: Use of accessory muscles
+    probability: 0.5
+  - system: general
+    finding: No acute distress when well-controlled
+    probability: 0.8
+diagnostics:
+  labs:
+  - name: Spirometry
+    loinc: 19926-5
+    result_positive: FEV1/FVC ratio <80% predicted
+    result_negative: Normal
+    probability_positive: 0.75
+  notes: Spirometry reliable in children age 5+; diagnosis often clinical in younger
+    children
+treatment:
+  approach: stepwise_management
+  medications:
+  - agent: Albuterol HFA Inhaler
+    rxnorm: '351137'
+    frequency: 1-2 puffs Q4-6H PRN
+    route: inhaled
+    indication: rescue medication for acute symptoms
+    prn: true
+  - agent: Fluticasone Propionate HFA
+    rxnorm: '966524'
+    frequency: 1-2 puffs BID
+    route: inhaled
+    indication: controller medication for persistent asthma
+  - agent: Montelukast
+    rxnorm: '88249'
+    frequency: once daily at bedtime
+    route: oral
+    indication: add-on controller, exercise-induced asthma
+    dose_by_age:
+    - age_range: 12-23 months
+      dose: 4mg granules
+    - age_range: 2-5 years
+      dose: 4mg chewable
+    - age_range: 6-14 years
+      dose: 5mg chewable
+    - age_range: 15+ years
+      dose: 10mg tablet
+  patient_instructions:
+  - Use spacer with MDI for better medication delivery
+  - Rinse mouth after using inhaled corticosteroid
+  - 'Follow asthma action plan: green-yellow-red zones'
+  - Identify and avoid known triggers
+  - 'Return if: increased rescue inhaler use, nighttime symptoms, or poor control'
+comorbidities:
+  strong:
+  - eczema
+  - allergic_rhinitis
+  - food_allergy
+  moderate:
+  - obesity
+  - anxiety
+  - gerd
+monitoring_requirements:
+  followup_frequency: every 3-6 months
+  required_labs_at_followup:
+  - spirometry
+  - peak_flow
+  monitoring_notes: Spirometry for children 5+; clinical assessment for younger

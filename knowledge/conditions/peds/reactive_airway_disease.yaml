@@ -1,0 +1,97 @@
+id: reactive_airway_disease
+display_name: Reactive Airway Disease
+aliases:
+- RAD
+- Recurrent wheeze
+- Post-viral wheeze
+snomed: '195967001'
+icd10:
+- J45.20
+category: chronic
+system: respiratory
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 60
+  peak: &id001
+  - 12
+  - 48
+demographics:
+  age_months:
+    min: 6
+    peak: *id001
+    max: 60
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - prior_bronchiolitis
+  - family_history_asthma
+  - eczema
+  - smoke_exposure
+prevalence:
+  notes: Transitional diagnosis before formal asthma diagnosis in young children
+vitals_impact:
+  temp_f:
+  - 98.6
+  - 100.0
+  hr_multiplier: 1.15
+  rr_multiplier: 1.2
+  spo2_min: 93
+presentation:
+  symptoms:
+  - name: wheezing
+    probability: 0.85
+    description: expiratory wheeze with viral illness
+  - name: cough
+    probability: 0.8
+    description: worse at night, triggered by URI
+  - name: tachypnea
+    probability: 0.6
+    description: during exacerbations
+  triggers:
+  - viral illness
+  - cold air
+  physical_exam:
+  - system: respiratory
+    finding: Expiratory wheezes during exacerbation
+    probability: 0.8
+  - system: respiratory
+    finding: Clear lungs between episodes
+    probability: 0.9
+diagnostics:
+  labs: []
+treatment:
+  approach: rescue_medication
+  medications:
+  - agent: Albuterol HFA Inhaler
+    rxnorm: '351137'
+    frequency: 1-2 puffs Q4-6H PRN
+    route: inhaled
+    indication: rescue medication for wheeze episodes
+    prn: true
+  patient_instructions:
+  - Use albuterol when wheezing or with respiratory illness
+  - Use spacer with mask for young children
+  - Return if increased work of breathing or rescue inhaler use increases
+progression:
+- to: asthma
+  trigger:
+    type: episode_count
+    episodes: 4
+    within_months: 12
+  probability: 0.6
+  decision_point:
+    description: Multiple wheeze episodes - start daily controller?
+    alternatives:
+    - Continue PRN only
+    - Start low-dose ICS
+    - Pulmonology referral
+    typical_decision: Start low-dose inhaled corticosteroid
+- to: resolution
+  trigger:
+    type: age_reached
+    age_months: 60
+  probability: 0.4
+  notes: Many children with post-viral wheeze don't develop persistent asthma

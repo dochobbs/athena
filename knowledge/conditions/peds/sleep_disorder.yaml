@@ -1,0 +1,43 @@
+id: sleep_disorder
+display_name: Sleep Disorder
+aliases:
+- Insomnia
+- Behavioral insomnia of childhood
+- Sleep problems
+icd10:
+- G47.9
+- F51.0
+category: chronic
+system: neurological
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 264
+prevalence:
+  percent: 25
+  notes: Behavioral causes most common in young children
+presentation:
+  symptoms:
+  - difficulty falling asleep
+  - night wakings
+  - bedtime resistance
+  - daytime sleepiness
+treatment:
+  approach: behavioral
+  items:
+  - category: education
+    description: 'Sleep hygiene: consistent bedtime routine, dark room, no screens'
+  - category: education
+    description: Graduated extinction or bedtime fading techniques
+  - category: medication
+    description: Melatonin may be considered for sleep onset
+  - category: follow-up
+    description: Return in 2-4 weeks to assess improvement
+comorbidities:
+  strong:
+  - adhd
+  - anxiety
+  moderate:
+  - autism
+  - depression

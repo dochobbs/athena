@@ -1,0 +1,46 @@
+id: influenza
+display_name: Influenza
+aliases:
+- Flu
+- Influenza-like illness
+icd10:
+- J09
+- J10
+- J11
+category: acute
+system: respiratory
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 264
+prevalence:
+  annual_attack_rate: 0.2
+  notes: Vaccine-preventable
+seasonality:
+  peak_months:
+  - 12
+  - 1
+  - 2
+  - 3
+  weight_multiplier: 4.0
+presentation:
+  symptoms:
+  - high fever
+  - myalgia
+  - headache
+  - cough
+  - sore throat
+  - fatigue
+  duration_days:
+  - 5
+  - 10
+treatment:
+  approach: antiviral_if_early
+  items:
+  - category: medication
+    description: Consider oseltamivir if within 48 hours of symptom onset
+  - category: medication
+    description: Acetaminophen or ibuprofen for fever and discomfort
+  - category: education
+    description: Rest, hydration, isolation until afebrile 24 hours

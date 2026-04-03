@@ -99,6 +99,10 @@ class KnowledgeStore:
       for data, stem in self._load_yaml_dir(pool_dir):
         if "id" not in data:
           data["id"] = stem
+        # Normalize stage field names (Oread uses condition_key)
+        for stage in data.get("stages", []):
+          if "condition_key" in stage and "condition_id" not in stage:
+            stage["condition_id"] = stage.pop("condition_key")
         arc = DiseaseArc(**data)
         self._disease_arcs[arc.id] = arc
 

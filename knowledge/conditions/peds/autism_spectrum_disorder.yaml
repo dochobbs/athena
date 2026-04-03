@@ -1,0 +1,47 @@
+id: autism_spectrum_disorder
+display_name: Autism Spectrum Disorder
+aliases:
+- ASD
+- Autism
+icd10:
+- F84.0
+category: chronic
+system: neurodevelopmental
+specialties:
+- peds
+age_range:
+  min_months: 18
+  max_months: 264
+prevalence:
+  ratio: '1:36'
+  male_to_female_ratio: 4.0
+  notes: Early intervention crucial
+presentation:
+  social_symptoms:
+  - limited eye contact
+  - difficulty with reciprocal conversation
+  - challenges with friendships
+  behavioral_symptoms:
+  - restricted interests
+  - repetitive behaviors
+  - insistence on sameness
+treatment:
+  approach: early_intervention
+  items:
+  - category: referral
+    description: Developmental pediatrician or child psychiatrist for evaluation
+  - category: referral
+    description: Early intervention services (speech, OT, ABA therapy)
+  - category: education
+    description: Parent training and support resources
+  - category: follow-up
+    description: Regular developmental monitoring
+comorbidities:
+  strong:
+  - adhd
+  - anxiety
+  - sensory_processing
+  moderate:
+  - intellectual_disability
+  - epilepsy
+  - gi_disorders

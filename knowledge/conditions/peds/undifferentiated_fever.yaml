@@ -1,0 +1,36 @@
+id: undifferentiated_fever
+display_name: Fever
+aliases:
+- Fever without source
+- FWS
+- Undifferentiated fever
+icd10:
+- R50.9
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 264
+prevalence:
+  notes: Common chief complaint; requires age-based evaluation
+seasonality:
+  weight_multiplier: 1.0
+presentation:
+  symptoms:
+  - elevated temperature
+  - irritability
+  - decreased appetite
+  duration_days:
+  - 1
+  - 5
+treatment:
+  approach: evaluate_and_supportive
+  items:
+  - category: medication
+    description: Acetaminophen or ibuprofen for temperature control
+  - category: education
+    description: Monitor for source of infection
+  - category: education
+    description: Return if fever persists >3 days or child appears ill

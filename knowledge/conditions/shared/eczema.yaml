@@ -1,0 +1,185 @@
+id: eczema
+display_name: Eczema
+aliases:
+- Atopic dermatitis
+- AD
+snomed: '43116000'
+icd10:
+- L20.9
+- L20.89
+- L20.81
+category: chronic
+system: dermatological
+specialties:
+- peds
+- im
+age_range:
+  min_months: 1
+  max_months: 264
+  peak: &id001
+  - 1
+  - 72
+demographics:
+  age_months:
+    min: 1
+    peak: *id001
+    max: 264
+  gender_bias:
+    male: 0.5
+    female: 0.5
+  risk_factors:
+  - family_history_atopy
+  - filaggrin_mutation
+  - urban_environment
+  - hard_water
+prevalence:
+  percent: 20
+  resolves_by_age_6: 0.6
+  notes: First step in the atopic march
+vitals_impact:
+  temp_f:
+  - 98.6
+  - 98.6
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 99
+presentation:
+  symptoms:
+  - name: pruritus
+    probability: 0.95
+    description: intense itching, often worse at night
+  - name: dry skin
+    probability: 0.9
+    description: xerosis with fine scaling
+  - name: erythematous rash
+    probability: 0.85
+    description: red, inflamed patches
+  - name: excoriation
+    probability: 0.6
+    description: scratch marks from pruritus
+  - name: sleep disturbance
+    probability: 0.55
+    description: difficulty sleeping due to itch
+  - name: lichenification
+    probability: 0.4
+    description: thickened skin from chronic scratching
+    age_min: 24
+  location_infant:
+  - face
+  - scalp
+  - extensor surfaces
+  location_older:
+  - flexural areas
+  - hands
+  - feet
+  - neck
+  physical_exam:
+  - system: skin
+    finding: Erythematous, scaly patches with xerosis
+    probability: 0.9
+  - system: skin
+    finding: Flexural distribution (antecubital, popliteal fossae)
+    probability: 0.75
+  - system: skin
+    finding: Excoriations from scratching
+    probability: 0.65
+  - system: skin
+    finding: No honey crusting (no superinfection)
+    probability: 0.85
+  - system: heent
+    finding: Dennie-Morgan lines (infraorbital folds)
+    probability: 0.4
+diagnostics:
+  labs: []
+treatment:
+  approach: emollient_plus_steroids
+  medications:
+  - agent: Hydrocortisone 1% Cream
+    rxnorm: '310323'
+    frequency: Apply BID to affected areas
+    route: topical
+    indication: mild eczema, face/intertriginous areas
+  - agent: Triamcinolone 0.1% Cream
+    rxnorm: '310316'
+    frequency: Apply BID to affected areas
+    route: topical
+    indication: moderate eczema, body
+  - agent: Tacrolimus 0.03% Ointment
+    rxnorm: '835901'
+    frequency: Apply BID to affected areas
+    route: topical
+    indication: steroid-sparing for face/sensitive areas
+    age_min_months: 24
+  - agent: Diphenhydramine
+    rxnorm: '3498'
+    dose_mg_kg: 1.25
+    max_dose_mg: 50
+    frequency: Q6H PRN
+    route: oral
+    indication: for nighttime pruritus
+    prn: true
+  patient_instructions:
+  - Apply thick emollient (Aquaphor, CeraVe, Vanicream) daily, especially after bathing
+  - Short lukewarm baths, pat dry, apply emollient within 3 minutes
+  - Use fragrance-free products; wash new clothes before wearing
+  - Cotton clothing; avoid wool and synthetic fabrics
+  - Keep fingernails short to minimize excoriation
+  - 'Return if: signs of infection (honey crusting, increasing redness, fever)'
+comorbidities:
+  strong:
+  - asthma
+  - allergic_rhinitis
+  - food_allergy
+  moderate:
+  - anxiety
+  - sleep_disorders
+progression:
+- to: food_allergy
+  trigger:
+    type: age_reached
+    age_months: 12
+  probability: 0.35
+  risk_factors:
+  - family_history_atopy
+  - severe_eczema
+  decision_point:
+    description: Consider early allergen introduction?
+    alternatives:
+    - Early introduction
+    - Delayed introduction
+    - Allergen testing first
+    typical_decision: Early introduction of peanut/egg per LEAP study findings
+- to: asthma
+  trigger:
+    type: age_reached
+    age_months: 36
+  probability: 0.3
+  risk_factors:
+  - family_history_asthma
+  - severe_eczema
+  - food_allergy
+  decision_point:
+    description: Start asthma controller therapy?
+    alternatives:
+    - PRN albuterol only
+    - Low-dose ICS
+    - Montelukast
+    typical_decision: Start low-dose ICS based on symptom frequency
+- to: allergic_rhinitis
+  trigger:
+    type: age_reached
+    age_months: 72
+  probability: 0.4
+  decision_point:
+    description: Add intranasal steroid?
+    alternatives:
+    - Oral antihistamine only
+    - Add nasal steroid
+    - Referral for immunotherapy
+    typical_decision: Trial of intranasal corticosteroid
+- to: resolution
+  trigger:
+    type: age_reached
+    age_months: 72
+  probability: 0.5
+  notes: 50% of children outgrow eczema by school age

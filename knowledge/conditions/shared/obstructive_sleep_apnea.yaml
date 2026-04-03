@@ -1,0 +1,47 @@
+id: obstructive_sleep_apnea
+display_name: Obstructive Sleep Apnea
+aliases:
+- OSA
+- Sleep apnea
+- Pediatric OSA
+icd10:
+- G47.33
+category: chronic
+system: respiratory
+specialties:
+- peds
+- im
+age_range:
+  min_months: 24
+  max_months: 264
+prevalence:
+  percent: 3
+  notes: Often underdiagnosed; associated with adenotonsillar hypertrophy
+presentation:
+  symptoms:
+  - snoring
+  - witnessed apneas
+  - restless sleep
+  - mouth breathing
+  - daytime sleepiness
+  behavioral:
+  - hyperactivity
+  - attention problems
+  - morning headaches
+treatment:
+  approach: surgical_or_cpap
+  items:
+  - category: referral
+    description: ENT evaluation for adenotonsillectomy consideration
+  - category: order
+    description: Polysomnography (sleep study) for diagnosis
+  - category: education
+    description: Weight loss if obesity is contributing factor
+comorbidities:
+  strong:
+  - obesity
+  - adenotonsillar_hypertrophy
+  moderate:
+  - adhd
+  - behavioral_issues
+  - enuresis

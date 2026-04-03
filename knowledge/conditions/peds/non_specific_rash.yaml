@@ -1,0 +1,41 @@
+id: non_specific_rash
+display_name: Rash
+aliases:
+- Non-specific rash
+- Skin eruption
+- Exanthem
+icd10:
+- R21
+category: acute
+system: dermatological
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 264
+prevalence:
+  notes: Common chief complaint with many possible etiologies
+seasonality:
+  peak_months:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  weight_multiplier: 1.2
+presentation:
+  symptoms:
+  - skin changes
+  - pruritus possible
+  - may be localized or generalized
+  duration_days:
+  - 3
+  - 14
+treatment:
+  approach: identify_cause
+  items:
+  - category: other
+    description: Evaluate rash characteristics to determine etiology
+  - category: education
+    description: Return if rash spreads, becomes painful, or fever develops

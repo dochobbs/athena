@@ -1,0 +1,35 @@
+id: enuresis
+display_name: Enuresis
+aliases:
+- Bedwetting
+- Nocturnal enuresis
+icd10:
+- F98.0
+- R32
+category: chronic
+system: genitourinary
+specialties:
+- peds
+age_range:
+  min_months: 60
+  max_months: 180
+prevalence:
+  age_5_percent: 15
+  age_10_percent: 5
+  notes: 15% spontaneous resolution per year
+treatment:
+  approach: behavioral_plus_medication
+  items:
+  - category: education
+    description: Reassurance; limit fluids before bed; regular voiding
+  - category: other
+    description: Bedwetting alarm (most effective long-term)
+  - category: medication
+    description: Desmopressin for short-term control (sleepovers, camp)
+  - category: education
+    description: Screen for constipation; treat if present
+comorbidities:
+  moderate:
+  - constipation
+  - adhd
+  - sleep_apnea

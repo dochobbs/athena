@@ -1,0 +1,140 @@
+id: bronchiolitis
+display_name: Bronchiolitis
+aliases:
+- RSV bronchiolitis
+- Viral bronchiolitis
+snomed: '4120002'
+icd10:
+- J21.0
+- J21.9
+category: acute
+system: respiratory
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 24
+  peak: &id001
+  - 2
+  - 6
+demographics:
+  age_months:
+    min: 0
+    peak: *id001
+    max: 24
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - premature_birth
+  - daycare
+  - smoke_exposure
+  - no_breastfeeding
+  - older_siblings
+prevalence:
+  hospitalization_rate_under_1: 0.02
+  notes: Leading cause of hospitalization in infants
+seasonality:
+  peak_months:
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  weight_multiplier: 3.0
+vitals_impact:
+  temp_f:
+  - 99.5
+  - 101.5
+  hr_multiplier: 1.2
+  rr_multiplier: 1.4
+  spo2_min: 90
+presentation:
+  symptoms:
+  - name: wheezing
+    probability: 0.85
+    description: expiratory wheeze on auscultation
+  - name: tachypnea
+    probability: 0.9
+    description: respiratory rate elevated for age
+  - name: nasal flaring
+    probability: 0.6
+    description: visible nasal flaring with breathing
+  - name: retractions
+    probability: 0.7
+    description: subcostal and intercostal retractions
+  - name: cough
+    probability: 0.8
+    description: harsh, dry cough
+  - name: rhinorrhea
+    probability: 0.85
+    description: copious nasal secretions
+  - name: poor feeding
+    probability: 0.65
+    description: decreased oral intake
+  duration_days:
+  - 7
+  - 14
+  physical_exam:
+  - system: general
+    finding: Infant with increased work of breathing
+    probability: 0.8
+  - system: respiratory
+    finding: Diffuse wheezes and crackles bilaterally
+    probability: 0.85
+  - system: respiratory
+    finding: Subcostal and intercostal retractions
+    probability: 0.7
+  - system: respiratory
+    finding: Nasal flaring present
+    probability: 0.6
+  - system: heent
+    finding: Copious clear rhinorrhea
+    probability: 0.85
+diagnostics:
+  labs:
+  - name: RSV Rapid Antigen
+    loinc: 40987-4
+    result_positive: Positive
+    result_negative: Negative
+    probability_positive: 0.6
+treatment:
+  approach: supportive
+  medications: []
+  patient_instructions:
+  - Supportive care with nasal suctioning before feeds
+  - Maintain hydration with frequent small feeds
+  - Monitor for respiratory distress and feeding difficulties
+  - 'Return IMMEDIATELY if: breathing worsens, color change, stops eating, or appears
+    very ill'
+  - Consider hospitalization if SpO2 <90%, severe distress, or poor feeding
+progression:
+- to: reactive_airway_disease
+  trigger:
+    type: age_reached
+    age_months: 18
+  probability: 0.3
+  risk_factors:
+  - hospitalized_for_rsv
+  - family_history_asthma
+  - eczema
+  decision_point:
+    description: Start albuterol PRN for recurrent wheeze?
+    alternatives:
+    - Observation only
+    - Albuterol PRN
+    - Daily controller
+    typical_decision: Prescribe albuterol PRN with asthma action plan
+- to: asthma
+  trigger:
+    type: condition_duration
+    from_condition: reactive_airway_disease
+    duration_months: 24
+  probability: 0.4
+  decision_point:
+    description: Transition from RAD to asthma diagnosis?
+    alternatives:
+    - Continue RAD label
+    - Diagnose asthma
+    - Spirometry testing
+    typical_decision: Diagnose asthma and start inhaled corticosteroid

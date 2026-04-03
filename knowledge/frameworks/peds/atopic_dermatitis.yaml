@@ -1,0 +1,89 @@
+topic: Atopic Dermatitis
+aliases:
+- eczema
+- atopic eczema
+category: derm
+age_range_months:
+- 1
+- 216
+teaching_goals:
+- Master soak and seal technique
+- Address steroid phobia
+- Understand food rarely causes eczema
+- Know when to escalate therapy
+common_mistakes:
+- Under-treating due to steroid phobia
+- Using creams instead of ointments
+- Elimination diets without proven food allergy
+- Not addressing skin barrier (moisturizers)
+red_flags:
+- Eczema herpeticum (HSV superinfection)
+- Severe, widespread disease
+- Failure to respond to appropriate treatment
+- Associated with failure to thrive
+clinical_pearls:
+- 'SOAK AND SEAL: Bathe → Pat dry → Apply meds/moisturizer while DAMP'
+- Ointments > Creams (better hydration, fewer additives)
+- Topical steroids are SAFE - under-treatment is the bigger risk
+- Food allergy rarely CAUSES eczema - avoid elimination diets without proof
+key_history_questions:
+- When did it start? Where?
+- What makes it better or worse?
+- Current skin care routine?
+- What treatments have been tried?
+- Family history of eczema, asthma, allergies?
+- Any suspected food triggers?
+key_exam_findings:
+- Distribution (flexural in older children, face/extensors in infants)
+- Xerosis (dry skin)
+- Lichenification (chronic changes)
+- Signs of infection (crusting, pustules)
+- Severity assessment
+treatment_principles:
+- 'Moisturizers: Thick ointments, apply immediately after bathing'
+- 'Topical steroids: Match potency to severity and location'
+- 'Flare: Increase steroid potency temporarily'
+- 'Maintenance: Low-potency steroid or calcineurin inhibitor for chronic areas'
+- 'Bleach baths: For recurrent infections'
+disposition_guidance:
+- 'Outpatient: Most cases'
+- 'Dermatology referral: Severe, refractory, needing systemic therapy'
+- 'Urgent: Eczema herpeticum, severe bacterial superinfection'
+parent_styles:
+- steroid-phobic
+- exhausted
+- wants-elimination-diet
+images:
+- key: infant_eczema
+  url: PLACEHOLDER
+  caption: Infant eczema - erythematous, scaly patches on cheeks and extensor surfaces
+  phase: exam
+  alt_text: Infant with red, rough patches on cheeks and outer arms
+  source: NIH DermNet
+- key: flexural_eczema
+  url: PLACEHOLDER
+  caption: Flexural eczema in older child - lichenified patches in antecubital and
+    popliteal fossae
+  phase: exam
+  alt_text: Child's arm bend showing thickened, darkened skin with accentuated lines
+  source: NIH DermNet
+- key: eczema_herpeticum
+  url: PLACEHOLDER
+  caption: Eczema herpeticum - EMERGENCY - punched-out erosions, vesicles in eczematous
+    skin
+  phase: exam
+  alt_text: Skin with clustered vesicles and punched-out ulcers in area of eczema
+  source: CDC PHIL
+- key: soak_and_seal
+  url: PLACEHOLDER
+  caption: 'Soak and Seal technique: bathe → pat dry → apply medication/moisturizer
+    while damp'
+  phase: debrief
+  alt_text: Diagram showing three-step soak and seal moisturizing process
+  source: AAP
+sources:
+- 'Eichenfield LF, et al. JAAD: Guidelines for Management of Atopic Dermatitis'
+- 'AAP Clinical Report: Management of Atopic Dermatitis'
+id: atopic_dermatitis
+specialties:
+- peds

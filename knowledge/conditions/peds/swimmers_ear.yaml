@@ -1,0 +1,42 @@
+id: swimmers_ear
+display_name: Swimmer's Ear
+aliases:
+- Otitis externa
+- External ear infection
+icd10:
+- H60.9
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 264
+prevalence:
+  notes: Common in swimmers and humid climates
+seasonality:
+  peak_months:
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  weight_multiplier: 3.0
+presentation:
+  symptoms:
+  - ear pain with tragal pressure
+  - ear discharge
+  - itching
+  - decreased hearing
+  duration_days:
+  - 7
+  - 10
+treatment:
+  approach: topical_antibiotic
+  items:
+  - category: medication
+    description: Otic antibiotic drops (ofloxacin or ciprofloxacin/dexamethasone)
+  - category: education
+    description: Keep ear dry; use ear plugs for swimming
+  - category: follow-up
+    description: Return if not improving in 48-72 hours

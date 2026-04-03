@@ -1,0 +1,43 @@
+id: learning_disorder
+display_name: Learning Disorder
+aliases:
+- Learning disability
+- Specific learning disorder
+- LD
+icd10:
+- F81.9
+- F81.0
+- F81.81
+category: chronic
+system: developmental
+specialties:
+- peds
+age_range:
+  min_months: 60
+  max_months: 264
+prevalence:
+  percent: 8
+  notes: Includes dyslexia, dyscalculia, dysgraphia
+presentation:
+  symptoms:
+  - academic underperformance
+  - difficulty with reading/math/writing
+  - avoidance of schoolwork
+treatment:
+  approach: educational_intervention
+  items:
+  - category: referral
+    description: Psychoeducational evaluation
+  - category: referral
+    description: School evaluation for IEP or 504 plan
+  - category: education
+    description: Specialized tutoring and accommodations
+  - category: follow-up
+    description: Monitor academic progress
+comorbidities:
+  strong:
+  - adhd
+  moderate:
+  - anxiety
+  - depression
+  - speech_language_delay

@@ -1,0 +1,36 @@
+id: speech_language_delay
+display_name: Speech/Language Delay
+aliases:
+- Language delay
+- Speech delay
+- Expressive language disorder
+icd10:
+- F80.1
+- F80.2
+- F80.9
+category: chronic
+system: developmental
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 84
+prevalence:
+  percent: 5
+  notes: More common in boys; often improves with therapy
+treatment:
+  approach: early_intervention
+  items:
+  - category: order
+    description: Hearing evaluation to rule out hearing loss
+  - category: referral
+    description: Speech-language pathology evaluation
+  - category: referral
+    description: Early intervention services if under 3
+  - category: follow-up
+    description: Monitor developmental milestones
+comorbidities:
+  moderate:
+  - hearing_loss
+  - autism
+  - developmental_delay

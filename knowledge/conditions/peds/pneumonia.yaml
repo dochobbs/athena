@@ -1,0 +1,177 @@
+id: pneumonia
+display_name: Pneumonia
+aliases:
+- Community-acquired pneumonia
+- CAP
+- Lung infection
+snomed: '233604007'
+icd10:
+- J18.9
+- J15.9
+- J12.9
+category: acute
+system: respiratory
+specialties:
+- peds
+age_range:
+  min_months: 1
+  max_months: 264
+  peak: &id001
+  - 6
+  - 60
+demographics:
+  age_months:
+    min: 1
+    peak: *id001
+    max: 264
+  gender_bias:
+    male: 0.52
+    female: 0.48
+  risk_factors:
+  - daycare
+  - smoke_exposure
+  - immunodeficiency
+  - asthma
+  - prematurity
+prevalence:
+  annual_incidence_per_1000: 15
+  notes: Significant cause of pediatric hospitalization
+seasonality:
+  peak_months:
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  weight_multiplier: 2.0
+vitals_impact:
+  temp_f:
+  - 101.0
+  - 104.0
+  hr_multiplier: 1.25
+  rr_multiplier: 1.4
+  spo2_min: 88
+presentation:
+  symptoms:
+  - name: cough
+    probability: 0.95
+    description: productive or dry cough
+  - name: fever
+    probability: 0.9
+    description: temperature 101-104F
+  - name: tachypnea
+    probability: 0.85
+    description: respiratory rate elevated for age
+  - name: retractions
+    probability: 0.65
+    description: subcostal and intercostal retractions
+  - name: decreased appetite
+    probability: 0.7
+    description: poor oral intake
+  - name: lethargy
+    probability: 0.5
+    description: decreased activity level
+  - name: chest pain
+    probability: 0.3
+    description: pleuritic chest pain
+    age_min: 48
+  duration_days:
+  - 7
+  - 14
+  physical_exam:
+  - system: general
+    finding: Child appears ill, increased work of breathing
+    probability: 0.8
+  - system: respiratory
+    finding: Crackles/rales on auscultation
+    probability: 0.85
+  - system: respiratory
+    finding: Decreased breath sounds over affected area
+    probability: 0.7
+  - system: respiratory
+    finding: Dullness to percussion
+    probability: 0.5
+  - system: respiratory
+    finding: Tachypnea with subcostal retractions
+    probability: 0.75
+  - system: respiratory
+    finding: Nasal flaring
+    probability: 0.45
+diagnostics:
+  labs:
+  - name: White Blood Cell Count
+    loinc: 6690-2
+    value_type: numeric
+    unit: K/uL
+    normal_range_low: 4.5
+    normal_range_high: 13.5
+    abnormal_high_min: 13.6
+    abnormal_high_max: 25.0
+    probability_abnormal: 0.7
+    age_ranges:
+    - age_min: 0
+      age_max: 12
+      normal_low: 6.0
+      normal_high: 17.5
+    - age_min: 12
+      age_max: 48
+      normal_low: 5.5
+      normal_high: 15.5
+    - age_min: 48
+      age_max: 216
+      normal_low: 4.5
+      normal_high: 13.5
+  - name: C-Reactive Protein
+    loinc: 1988-5
+    value_type: numeric
+    unit: mg/L
+    normal_range_low: 0.0
+    normal_range_high: 3.0
+    abnormal_high_min: 3.1
+    abnormal_high_max: 150.0
+    probability_abnormal: 0.75
+  imaging:
+  - name: Chest X-ray PA and Lateral
+    modality: X-ray
+    loinc: 36643-5
+    finding_positive: Right lower lobe consolidation with air bronchograms. No pleural
+      effusion.
+    finding_negative: Clear lung fields bilaterally. No focal consolidation or effusion.
+    impression_positive: 'IMPRESSION: Findings consistent with pneumonia in right
+      lower lobe.'
+    impression_negative: 'IMPRESSION: No acute cardiopulmonary disease.'
+    probability_positive: 0.85
+  notes: CXR not required for uncomplicated outpatient management
+treatment:
+  approach: antibiotic
+  medications:
+  - agent: Amoxicillin
+    rxnorm: '723'
+    dose_mg_kg: 90
+    max_dose_mg: 4000
+    frequency: divided TID
+    duration_days: 7
+    route: oral
+    indication: first-line for typical bacterial CAP
+  - agent: Azithromycin
+    rxnorm: '18631'
+    dose_mg_kg: 10
+    max_dose_mg: 500
+    frequency: once daily day 1, then 5mg/kg days 2-5
+    duration_days: 5
+    route: oral
+    indication: for atypical pathogens or penicillin allergy
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: Q6H PRN
+    indication: fever and discomfort
+    prn: true
+  patient_instructions:
+  - Complete full course of antibiotics
+  - Rest and maintain hydration
+  - Monitor for worsening respiratory distress
+  - 'Return IMMEDIATELY if: severe difficulty breathing, color change, unable to drink,
+    or appears very ill'
+  - Follow up in 48-72 hours if not improving

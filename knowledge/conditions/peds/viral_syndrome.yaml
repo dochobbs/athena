@@ -1,0 +1,44 @@
+id: viral_syndrome
+display_name: Viral Syndrome
+aliases:
+- Viral illness
+- Non-specific viral infection
+icd10:
+- B34.9
+category: acute
+system: infectious
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 264
+prevalence:
+  notes: Very common; catch-all for non-specific viral illness
+seasonality:
+  peak_months:
+  - 10
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  weight_multiplier: 1.5
+presentation:
+  symptoms:
+  - fever
+  - malaise
+  - decreased appetite
+  - fussiness
+  - mild URI symptoms
+  duration_days:
+  - 3
+  - 7
+treatment:
+  approach: supportive
+  items:
+  - category: other
+    description: Supportive care with rest and hydration
+  - category: medication
+    description: Acetaminophen or ibuprofen PRN for fever/discomfort
+  - category: education
+    description: Return if fever persists >3 days or new symptoms develop

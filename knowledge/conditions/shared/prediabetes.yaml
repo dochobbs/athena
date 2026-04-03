@@ -1,0 +1,35 @@
+id: prediabetes
+display_name: Prediabetes
+aliases:
+- Impaired glucose tolerance
+- Impaired fasting glucose
+icd10:
+- R73.03
+- R73.09
+category: chronic
+system: metabolic
+specialties:
+- peds
+- im
+age_range:
+  min_months: 120
+  max_months: 264
+prevalence:
+  notes: Rising with obesity epidemic
+treatment:
+  approach: intensive_lifestyle
+  items:
+  - category: education
+    description: Lifestyle modification is primary treatment
+  - category: referral
+    description: Dietitian and possibly diabetes educator
+  - category: follow-up
+    description: Repeat screening annually if risk factors persist
+comorbidities:
+  strong:
+  - obesity
+  - dyslipidemia
+  - hypertension
+  moderate:
+  - acanthosis_nigricans
+  - pcos

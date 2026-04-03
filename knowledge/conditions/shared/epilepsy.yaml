@@ -1,0 +1,35 @@
+id: epilepsy
+display_name: Epilepsy
+aliases:
+- Seizure disorder
+- Recurrent seizures
+icd10:
+- G40.909
+category: chronic
+system: neurological
+specialties:
+- peds
+- im
+age_range:
+  min_months: 1
+  max_months: 264
+prevalence:
+  percent: 1
+  notes: Various seizure types and syndromes
+treatment:
+  approach: antiepileptic_medication
+  items:
+  - category: referral
+    description: Pediatric neurology referral
+  - category: order
+    description: EEG and possibly MRI brain
+  - category: medication
+    description: Antiepileptic drug based on seizure type
+  - category: education
+    description: Seizure precautions, medication adherence
+comorbidities:
+  moderate:
+  - adhd
+  - learning_disability
+  - depression
+  - anxiety

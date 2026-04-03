@@ -1,0 +1,45 @@
+id: migraine
+display_name: Migraine
+aliases:
+- Pediatric migraine
+- Migraine headache
+icd10:
+- G43.909
+category: chronic
+system: neurological
+specialties:
+- peds
+- im
+age_range:
+  min_months: 48
+  max_months: 264
+prevalence:
+  school_age_percent: 5
+  adolescent_percent: 10
+  notes: More common in boys pre-puberty, girls post-puberty
+presentation:
+  symptoms:
+  - unilateral or bilateral headache
+  - nausea/vomiting
+  - photophobia
+  - phonophobia
+  pediatric_features:
+  - shorter duration
+  - bilateral more common
+  - GI symptoms prominent
+treatment:
+  approach: acute_plus_preventive
+  items:
+  - category: medication
+    description: Ibuprofen or acetaminophen at onset
+  - category: education
+    description: Identify triggers, maintain regular sleep and meals
+  - category: medication
+    description: Consider preventive if frequent (>4/month)
+  - category: referral
+    description: Neurology if refractory or atypical features
+comorbidities:
+  moderate:
+  - anxiety
+  - depression
+  - motion_sickness

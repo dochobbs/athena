@@ -1,0 +1,42 @@
+id: functional_constipation
+display_name: Functional Constipation
+aliases:
+- Constipation
+- Chronic constipation
+icd10:
+- K59.00
+- K59.09
+category: chronic
+system: gastrointestinal
+specialties:
+- peds
+- im
+age_range:
+  min_months: 6
+  max_months: 264
+prevalence:
+  percent: 10
+  notes: Common during toilet training
+presentation:
+  symptoms:
+  - infrequent stools
+  - hard stools
+  - painful defecation
+  - withholding behavior
+  - abdominal pain
+treatment:
+  approach: education_plus_osmotic_laxative
+  items:
+  - category: education
+    description: Increase fiber and fluid intake; regular toilet time
+  - category: medication
+    description: MiraLAX or similar osmotic laxative
+  - category: education
+    description: Positive reinforcement; avoid punishment for accidents
+  - category: follow-up
+    description: Return in 2-4 weeks; treatment often needed for months
+comorbidities:
+  moderate:
+  - encopresis
+  - uti
+  - behavioral_issues

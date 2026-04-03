@@ -1,0 +1,50 @@
+id: depression
+display_name: Depression
+aliases:
+- Major depressive disorder
+- MDD
+- Depressive disorder
+icd10:
+- F32.9
+- F33.9
+category: chronic
+system: mental_health
+specialties:
+- peds
+- im
+age_range:
+  min_months: 72
+  max_months: 264
+prevalence:
+  adolescent_percent: 15
+  notes: Rising prevalence in adolescents; screen all 12+
+presentation:
+  symptoms:
+  - persistent sadness
+  - anhedonia
+  - sleep changes
+  - appetite changes
+  - fatigue
+  - worthlessness
+  adolescent_presentation:
+  - irritability
+  - social withdrawal
+  - academic decline
+treatment:
+  approach: therapy_plus_medication
+  items:
+  - category: referral
+    description: Mental health referral for therapy (CBT, IPT)
+  - category: medication
+    description: SSRI (fluoxetine first-line in adolescents)
+  - category: education
+    description: Safety planning; discuss warning signs
+  - category: follow-up
+    description: Close follow-up during medication initiation
+comorbidities:
+  strong:
+  - anxiety
+  - substance_use
+  moderate:
+  - adhd
+  - eating_disorders

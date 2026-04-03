@@ -1,0 +1,29 @@
+id: iron_deficiency_anemia
+display_name: Iron Deficiency Anemia
+aliases:
+- IDA
+- Anemia
+icd10:
+- D50.9
+category: chronic
+system: hematological
+specialties:
+- peds
+- im
+age_range:
+  min_months: 6
+  max_months: 264
+prevalence:
+  toddler_percent: 7
+  notes: Common in toddlers, adolescent females
+treatment:
+  approach: iron_supplementation
+  items:
+  - category: order
+    description: CBC, iron studies, consider lead level
+  - category: medication
+    description: Oral iron supplementation (3-6 mg/kg/day elemental iron)
+  - category: education
+    description: Dietary counseling; limit milk to 16-24 oz/day
+  - category: follow-up
+    description: Recheck hemoglobin in 4-6 weeks

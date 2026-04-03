@@ -1,0 +1,121 @@
+id: otitis_media
+display_name: Acute Otitis Media
+aliases:
+- Ear infection
+- AOM
+- Middle ear infection
+snomed: '65363002'
+icd10:
+- H66.90
+- H66.91
+- H66.92
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 144
+  peak: &id001
+  - 6
+  - 36
+demographics:
+  age_months:
+    min: 6
+    peak: *id001
+    max: 144
+  gender_bias:
+    male: 0.52
+    female: 0.48
+  risk_factors:
+  - daycare
+  - bottle_propping
+  - smoke_exposure
+  - pacifier_use
+  - no_breastfeeding
+prevalence:
+  lifetime_by_age_3: 0.83
+  notes: Most common reason for pediatric antibiotic prescriptions
+seasonality:
+  peak_months:
+  - 10
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  weight_multiplier: 1.8
+vitals_impact:
+  temp_f:
+  - 100.4
+  - 102.5
+  hr_multiplier: 1.1
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+  - name: ear pain
+    probability: 0.9
+    description: otalgia, pulling/tugging at ear
+    age_min: 6
+  - name: fever
+    probability: 0.7
+    description: temperature 100-102F
+  - name: irritability
+    probability: 0.85
+    description: fussiness, poor sleep, crying
+  - name: decreased hearing
+    probability: 0.5
+    description: not responding to sounds
+  - name: preceding URI
+    probability: 0.6
+    description: rhinorrhea, congestion before onset
+  duration_days:
+  - 3
+  - 7
+  physical_exam:
+  - system: heent
+    finding: TM erythematous and bulging with loss of light reflex
+    probability: 0.85
+  - system: heent
+    finding: Decreased TM mobility on pneumatic otoscopy
+    probability: 0.9
+  - system: heent
+    finding: Middle ear effusion visible
+    probability: 0.75
+  - system: neck
+    finding: Cervical lymphadenopathy
+    probability: 0.3
+diagnostics:
+  labs: []
+treatment:
+  approach: antibiotic_or_watchful_waiting
+  medications:
+  - agent: Amoxicillin
+    rxnorm: '723'
+    dose_mg_kg: 90
+    max_dose_mg: 3000
+    frequency: divided BID
+    duration_days: 10
+    route: oral
+    indication: first-line for AOM
+  - agent: Amoxicillin-Clavulanate
+    rxnorm: '1043'
+    dose_mg_kg: 90
+    max_dose_mg: 3000
+    frequency: divided BID
+    duration_days: 10
+    route: oral
+    indication: if amoxicillin failure or recent antibiotic use
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: Q6H PRN
+    indication: pain management
+    prn: true
+  patient_instructions:
+  - Complete full course of antibiotics
+  - Ibuprofen or acetaminophen for pain control
+  - Return if no improvement in 48-72 hours
+  - Return immediately for high fever, facial swelling, or severe pain

@@ -1,0 +1,92 @@
+id: adhd
+display_name: ADHD
+aliases:
+- Attention Deficit Hyperactivity Disorder
+- ADD
+icd10:
+- F90.0
+- F90.1
+- F90.2
+- F90.9
+category: chronic
+system: neurodevelopmental
+specialties:
+- peds
+age_range:
+  min_months: 48
+  max_months: 264
+prevalence:
+  percent: 10
+  male_to_female_ratio: 2.0
+  notes: Often co-occurs with other conditions
+presentation:
+  inattentive_symptoms:
+  - difficulty focusing
+  - easily distracted
+  - forgetful
+  - loses things
+  hyperactive_symptoms:
+  - fidgety
+  - talks excessively
+  - difficulty waiting turn
+  - impulsive
+treatment:
+  approach: behavioral_plus_medication
+  items:
+  - category: education
+    description: ADHD education; behavioral strategies discussed
+  - category: medication
+    description: Consider stimulant medication after age 6 (methylphenidate, amphetamines)
+  - category: referral
+    description: School evaluation for IEP/504 accommodations
+  - category: follow-up
+    description: Return in 4-6 weeks for medication titration
+comorbidities:
+  strong:
+  - anxiety
+  - depression
+  - oppositional_defiant_disorder
+  moderate:
+  - learning_disability
+  - autism
+  - tic_disorder
+monitoring_requirements:
+  followup_frequency: every 1-3 months during titration, then every 3-6 months
+  required_labs_at_followup:
+  - height_weight
+  - blood_pressure
+  - heart_rate
+  monitoring_notes: Monitor growth, vital signs, and medication side effects
+progression:
+- to: anxiety_disorder
+  trigger:
+    type: age_reached
+    age_months: 96
+  probability: 0.35
+  risk_factors:
+  - academic_struggles
+  - family_history_anxiety
+  - social_difficulties
+  decision_point:
+    description: ADHD with emerging anxiety - add anxiety treatment?
+    alternatives:
+    - Behavioral therapy only
+    - Add SSRI
+    - Combined therapy + medication
+    typical_decision: Start CBT for anxiety, continue ADHD medication
+- to: depression
+  trigger:
+    type: age_reached
+    age_months: 144
+  probability: 0.25
+  risk_factors:
+  - anxiety_disorder
+  - chronic_adhd
+  - social_isolation
+  decision_point:
+    description: Depression developing in adolescent with ADHD - treatment approach?
+    alternatives:
+    - Therapy only
+    - Add SSRI
+    - Psychiatry referral
+    typical_decision: Add SSRI and therapy referral

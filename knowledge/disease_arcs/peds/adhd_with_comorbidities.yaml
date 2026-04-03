@@ -1,0 +1,60 @@
+name: ADHD + Internalizing Disorders
+description: Evolution of ADHD with development of anxiety and/or depression over
+  time.
+stages:
+- condition_key: adhd
+  display_name: ADHD
+  typical_age_range:
+  - 48
+  - 96
+  symptoms:
+  - inattention
+  - hyperactivity
+  - impulsivity
+  treatments:
+  - behavioral therapy
+  - stimulant medication
+  transition_triggers:
+  - academic stress
+  - social challenges
+- condition_key: anxiety_disorder
+  display_name: Anxiety Disorder
+  typical_age_range:
+  - 72
+  - 144
+  symptoms:
+  - excessive worry
+  - somatic complaints
+  - avoidance
+  treatments:
+  - CBT
+  - SSRI if needed
+  transition_triggers:
+  - chronic stress
+  - academic pressure
+- condition_key: depression
+  display_name: Depression
+  typical_age_range:
+  - 120
+  - 192
+  symptoms:
+  - persistent sadness
+  - anhedonia
+  - sleep changes
+  treatments:
+  - therapy
+  - SSRI
+  transition_triggers:
+  - adolescent transition
+  - social isolation
+clinical_pearls:
+- 50-60% of children with ADHD have a comorbid condition
+- Anxiety is the most common ADHD comorbidity
+- Screen for depression annually in adolescents with ADHD
+- Treat most impairing condition first
+references:
+- AAP ADHD Clinical Practice Guideline 2019
+- 'AACAP Practice Parameter: ADHD 2007'
+id: adhd_with_comorbidities
+specialties:
+- peds

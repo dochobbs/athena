@@ -1,0 +1,56 @@
+name: Recurrent AOM → Tubes
+description: Pattern of recurrent ear infections leading to tympanostomy tube placement.
+stages:
+- condition_key: otitis_media
+  display_name: First AOM Episode
+  typical_age_range:
+  - 6
+  - 18
+  symptoms:
+  - ear pain
+  - fever
+  - irritability
+  treatments:
+  - antibiotics
+  - pain management
+  transition_triggers:
+  - resolved episode
+- condition_key: recurrent_otitis_media
+  display_name: Recurrent AOM
+  typical_age_range:
+  - 12
+  - 36
+  symptoms:
+  - 3+ episodes in 6 months
+  - OME between episodes
+  treatments:
+  - prophylactic antibiotics consideration
+  - ENT referral
+  transition_triggers:
+  - persistent OME
+  - hearing concerns
+- condition_key: tympanostomy_tubes
+  display_name: Tympanostomy Tubes
+  typical_age_range:
+  - 12
+  - 48
+  symptoms:
+  - post-tube status
+  - improved hearing
+  treatments:
+  - water precautions
+  - follow-up audiometry
+  transition_triggers:
+  - tube extrusion
+  - resolution
+clinical_pearls:
+- 'Recurrent AOM: 3+ in 6 months or 4+ in 12 months'
+- 'Risk factors: daycare, bottle propping, pacifier, smoke exposure'
+- Tubes reduce frequency of AOM and improve hearing
+- Most children outgrow susceptibility by age 3-4
+references:
+- 'AAP Clinical Practice Guideline: Otitis Media with Effusion 2016'
+- 'AAO-HNS Clinical Practice Guideline: Tympanostomy Tubes 2022'
+id: recurrent_aom
+specialties:
+- peds

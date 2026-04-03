@@ -1,0 +1,43 @@
+id: fifth_disease
+display_name: Fifth Disease
+aliases:
+- Erythema infectiosum
+- Slapped cheek disease
+- Parvovirus B19
+icd10:
+- B08.3
+category: acute
+system: infectious
+specialties:
+- peds
+age_range:
+  min_months: 36
+  max_months: 264
+prevalence:
+  notes: Common in school-age children
+seasonality:
+  peak_months:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  weight_multiplier: 1.5
+presentation:
+  symptoms:
+  - slapped cheek rash
+  - lacy rash on body
+  - low-grade fever
+  - mild URI symptoms
+  duration_days:
+  - 7
+  - 21
+treatment:
+  approach: supportive
+  items:
+  - category: education
+    description: Self-limited; no specific treatment needed
+  - category: medication
+    description: Acetaminophen if mild fever or joint pain
+  - category: education
+    description: Not contagious once rash appears

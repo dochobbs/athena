@@ -1,0 +1,41 @@
+id: impetigo
+display_name: Impetigo
+aliases:
+- Skin infection
+- Staph/strep skin infection
+icd10:
+- L01.0
+category: acute
+system: dermatological
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 144
+prevalence:
+  notes: Common in warm, humid climates
+seasonality:
+  peak_months:
+  - 6
+  - 7
+  - 8
+  - 9
+  weight_multiplier: 1.5
+presentation:
+  symptoms:
+  - honey-crusted lesions
+  - bullae
+  - pruritus
+  - surrounding erythema
+  duration_days:
+  - 7
+  - 14
+treatment:
+  approach: topical_or_systemic_antibiotic
+  items:
+  - category: medication
+    description: Mupirocin ointment TID for localized; oral antibiotics if extensive
+  - category: education
+    description: Keep lesions covered; good hand hygiene
+  - category: education
+    description: May return to school after 24 hours of treatment

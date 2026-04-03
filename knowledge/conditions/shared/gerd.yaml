@@ -1,0 +1,44 @@
+id: gerd
+display_name: GERD
+aliases:
+- Gastroesophageal reflux disease
+- Acid reflux
+icd10:
+- K21.0
+- K21.9
+category: chronic
+system: gastrointestinal
+specialties:
+- peds
+- im
+age_range:
+  min_months: 0
+  max_months: 264
+prevalence:
+  infant_percent: 25
+  notes: Usually physiological in infants
+presentation:
+  infant_symptoms:
+  - regurgitation
+  - irritability
+  - feeding difficulties
+  - arching
+  older_child_symptoms:
+  - heartburn
+  - chest pain
+  - dysphagia
+treatment:
+  approach: conservative_first
+  items:
+  - category: education
+    description: Feeding modifications, upright positioning, thickened feeds
+  - category: medication
+    description: H2 blocker or PPI if persistent symptoms
+  - category: follow-up
+    description: Most infants improve by 12-18 months
+comorbidities:
+  strong:
+  - obesity
+  moderate:
+  - asthma
+  - chronic_cough

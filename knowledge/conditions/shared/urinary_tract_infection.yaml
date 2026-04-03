@@ -1,0 +1,170 @@
+id: urinary_tract_infection
+display_name: Urinary Tract Infection
+aliases:
+- UTI
+- Bladder infection
+- Cystitis
+snomed: '68566005'
+icd10:
+- N39.0
+- N30.90
+category: acute
+system: genitourinary
+specialties:
+- peds
+- im
+age_range:
+  min_months: 1
+  max_months: 264
+  peak: &id001
+  - 24
+  - 72
+demographics:
+  age_months:
+    min: 1
+    peak: *id001
+    max: 264
+  gender_bias:
+    male: 0.2
+    female: 0.8
+  risk_factors:
+  - female_sex
+  - uncircumcised_male
+  - constipation
+  - voiding_dysfunction
+  - vesicoureteral_reflux
+prevalence:
+  females_percent: 5
+  males_percent: 1
+  notes: More common in females after infancy; in infants, uncircumcised males higher
+    risk
+seasonality:
+  weight_multiplier: 1.0
+vitals_impact:
+  temp_f:
+  - 100.4
+  - 103.0
+  hr_multiplier: 1.1
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+  - name: dysuria
+    probability: 0.85
+    description: burning with urination
+    age_min: 24
+  - name: frequency
+    probability: 0.75
+    description: frequent urination
+    age_min: 24
+  - name: urgency
+    probability: 0.7
+    description: urinary urgency
+    age_min: 24
+  - name: fever
+    probability: 0.65
+    description: temperature 100-103F
+  - name: abdominal pain
+    probability: 0.5
+    description: suprapubic or lower abdominal discomfort
+  - name: irritability
+    probability: 0.8
+    description: fussiness (infants)
+    age_max: 24
+  - name: poor feeding
+    probability: 0.7
+    description: decreased oral intake (infants)
+    age_max: 24
+  - name: vomiting
+    probability: 0.4
+    description: may have vomiting (infants)
+    age_max: 24
+  - name: foul-smelling urine
+    probability: 0.55
+    description: malodorous urine
+  duration_days:
+  - 3
+  - 7
+  physical_exam:
+  - system: abdomen
+    finding: Suprapubic tenderness
+    probability: 0.5
+  - system: abdomen
+    finding: No costovertebral angle tenderness (cystitis)
+    probability: 0.85
+  - system: genitourinary
+    finding: No labial adhesions or phimosis
+    probability: 0.9
+diagnostics:
+  labs:
+  - name: Urine WBC
+    loinc: 5821-4
+    value_type: numeric
+    unit: /HPF
+    normal_range_low: 0
+    normal_range_high: 5
+    abnormal_high_min: 6
+    abnormal_high_max: 100
+    probability_abnormal: 0.9
+  - name: Urine RBC
+    loinc: 5822-2
+    value_type: numeric
+    unit: /HPF
+    normal_range_low: 0
+    normal_range_high: 2
+    abnormal_high_min: 3
+    abnormal_high_max: 50
+    probability_abnormal: 0.4
+  - name: Leukocyte Esterase
+    loinc: 5799-2
+    value_type: binary
+    result_positive: Positive
+    result_negative: Negative
+    probability_positive: 0.88
+  - name: Nitrites
+    loinc: 5802-4
+    value_type: binary
+    result_positive: Positive
+    result_negative: Negative
+    probability_positive: 0.5
+  - name: Urine Culture
+    loinc: 630-4
+    value_type: binary
+    result_positive: '>50,000 CFU/mL E. coli'
+    result_negative: No growth at 48 hours
+    probability_positive: 0.85
+treatment:
+  approach: antibiotic
+  medications:
+  - agent: Cephalexin
+    rxnorm: '2393'
+    dose_mg_kg: 50
+    max_dose_mg: 2000
+    frequency: divided BID-QID
+    duration_days: 7
+    route: oral
+    indication: first-line empiric therapy
+  - agent: Trimethoprim-Sulfamethoxazole
+    rxnorm: '10829'
+    dose_mg_kg: 8
+    max_dose_mg: 320
+    frequency: divided BID
+    duration_days: 7
+    route: oral
+    indication: alternative if susceptible
+    age_min_months: 2
+  - agent: Nitrofurantoin
+    rxnorm: '7454'
+    dose_mg_kg: 5
+    max_dose_mg: 400
+    frequency: divided QID
+    duration_days: 7
+    route: oral
+    indication: for lower tract infection only
+    age_min_months: 1
+  patient_instructions:
+  - Complete full course of antibiotics
+  - Encourage adequate fluid intake
+  - Recheck urine if symptoms persist after 48-72 hours
+  - Consider renal ultrasound for first febrile UTI
+  - 'Return if: high fever, back pain, vomiting, or unable to keep down medications'

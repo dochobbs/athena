@@ -1,0 +1,74 @@
+id: obesity
+display_name: Obesity
+aliases:
+- Overweight
+- Pediatric obesity
+icd10:
+- E66.9
+- E66.01
+category: chronic
+system: metabolic
+specialties:
+- peds
+- im
+age_range:
+  min_months: 24
+  max_months: 264
+prevalence:
+  percent: 20
+  notes: Rates increasing; associated with multiple comorbidities
+treatment:
+  approach: lifestyle_modification
+  items:
+  - category: education
+    description: Nutrition counseling; goal of modest lifestyle changes
+  - category: referral
+    description: Refer to dietitian for comprehensive nutrition plan
+  - category: education
+    description: Increase physical activity; decrease screen time
+  - category: order
+    description: Screen for comorbidities (lipids, glucose, liver enzymes)
+  - category: follow-up
+    description: Return in 3 months for weight check
+comorbidities:
+  strong:
+  - prediabetes
+  - type_2_diabetes
+  - hypertension
+  - dyslipidemia
+  moderate:
+  - asthma
+  - sleep_apnea
+  - gerd
+  - depression
+  - nafld
+progression:
+- to: prediabetes
+  trigger:
+    type: age_reached
+    age_months: 120
+  probability: 0.25
+  risk_factors:
+  - family_history_t2dm
+  - acanthosis_nigricans
+  - severe_obesity
+  decision_point:
+    description: Prediabetes identified - intensify intervention?
+    alternatives:
+    - Lifestyle modification only
+    - Add metformin
+    - Diabetes prevention program
+    typical_decision: Intensive lifestyle modification with dietitian
+- to: type_2_diabetes
+  trigger:
+    type: condition_duration
+    from_condition: prediabetes
+    duration_months: 24
+  probability: 0.3
+  decision_point:
+    description: Progression to Type 2 DM - start metformin?
+    alternatives:
+    - Metformin only
+    - Metformin + lifestyle
+    - Endocrinology referral
+    typical_decision: Start metformin and refer to pediatric endocrinology

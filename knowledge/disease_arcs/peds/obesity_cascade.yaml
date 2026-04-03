@@ -1,0 +1,67 @@
+name: Obesity → Metabolic Syndrome
+description: Progression from overweight through obesity to metabolic complications.
+stages:
+- condition_key: overweight
+  display_name: Overweight
+  typical_age_range:
+  - 48
+  - 120
+  symptoms:
+  - BMI 85-95th percentile
+  treatments:
+  - lifestyle counseling
+  transition_triggers:
+  - continued weight gain
+  - sedentary lifestyle
+- condition_key: obesity
+  display_name: Obesity
+  typical_age_range:
+  - 72
+  - 168
+  symptoms:
+  - BMI >95th percentile
+  - acanthosis nigricans
+  treatments:
+  - intensive lifestyle modification
+  - dietitian referral
+  transition_triggers:
+  - insulin resistance
+  - metabolic changes
+- condition_key: prediabetes
+  display_name: Prediabetes
+  typical_age_range:
+  - 120
+  - 192
+  symptoms:
+  - impaired fasting glucose
+  - impaired glucose tolerance
+  treatments:
+  - lifestyle modification
+  - metformin consideration
+  transition_triggers:
+  - progressive insulin resistance
+- condition_key: type_2_diabetes
+  display_name: Type 2 Diabetes
+  typical_age_range:
+  - 144
+  - 216
+  symptoms:
+  - hyperglycemia
+  - polyuria
+  - polydipsia
+  treatments:
+  - metformin
+  - lifestyle modification
+  transition_triggers:
+  - beta cell failure
+clinical_pearls:
+- Screen overweight children 10+ with risk factors
+- Acanthosis nigricans indicates insulin resistance
+- 7% weight loss can prevent progression from prediabetes
+- 'Comorbidities: NAFLD, hypertension, dyslipidemia, sleep apnea'
+references:
+- 'AAP Clinical Practice Guideline: Obesity 2023'
+- ADA Standards of Care in Diabetes 2024
+id: obesity_cascade
+specialties:
+- peds

@@ -1,0 +1,96 @@
+topic: Impetigo
+aliases:
+- school sores
+- bullous impetigo
+- non-bullous impetigo
+category: infectious
+age_range_months:
+- 6
+- 144
+teaching_goals:
+- Distinguish non-bullous from bullous impetigo
+- Know when topical vs oral antibiotics indicated
+- Understand transmission and school exclusion
+- Recognize complications
+- Choose appropriate antibiotic coverage
+common_mistakes:
+- Using topical antibiotics for extensive disease
+- Missing MRSA in treatment failures
+- Inadequate wound hygiene instruction
+- Not covering for S. aureus
+- Excessive school exclusion
+red_flags:
+- Periorbital involvement (risk of cellulitis)
+- Rapidly spreading despite treatment
+- Systemic symptoms (fever, lymphadenopathy)
+- Signs of deeper infection
+- Immunocompromised patient
+- Post-streptococcal glomerulonephritis (hematuria, edema)
+clinical_pearls:
+- 'Non-bullous (most common): honey-crusted lesions, S. aureus and/or GAS'
+- 'Bullous: flaccid blisters that rupture, S. aureus toxin-mediated'
+- 'Ecthyma: ulcerative form, deeper dermis involvement'
+- Topical mupirocin or retapamulin for localized disease
+- Oral antibiotics for extensive, bullous, or treatment failure
+- Cover for S. aureus (including MRSA in high-prevalence areas)
+- Post-strep glomerulonephritis can follow GAS impetigo
+- Contagious until 24-48h after starting antibiotics
+key_history_questions:
+- When did lesions start?
+- How are they spreading?
+- Any preceding insect bites, cuts, or eczema?
+- Fever?
+- Sick contacts?
+- Previous skin infections? MRSA history?
+- Any treatments tried?
+key_exam_findings:
+- 'Non-bullous: erythematous papules → vesicles → honey-crusted erosions'
+- 'Bullous: flaccid bullae with clear/cloudy fluid → thin brown crust'
+- 'Distribution: face (around nose, mouth), extremities'
+- Regional lymphadenopathy
+- Signs of secondary spread
+- Deeper tissue involvement (ecthyma)
+treatment_principles:
+- 'Localized non-bullous: topical mupirocin TID x 5-7 days'
+- 'Extensive, bullous, or treatment failure: oral antibiotics'
+- 'First-line oral: cephalexin or dicloxacillin'
+- 'MRSA coverage: TMP-SMX, clindamycin, or doxycycline (if > 8 years)'
+- 'Wound hygiene: gentle washing, remove crusts'
+- Cover lesions
+- Treat underlying eczema if present
+disposition_guidance:
+- 'Outpatient: All typical cases'
+- 'School exclusion: Until 24h after starting treatment and lesions can be covered'
+- 'Return: Worsening despite 48h of treatment, new systemic symptoms'
+- 'Monitor urine: Dark/cola-colored urine suggests PSGN (1-2 weeks after GAS)'
+- 'Culture: Treatment failure, recurrent, suspected MRSA'
+parent_styles:
+- worried-about-scarring
+- frustrated-by-spread
+- school-policy-focused
+images:
+- key: nonbullous_impetigo
+  url: https://phil.cdc.gov/PHIL_Images/5155/5155_lores.jpg
+  caption: Impetigo - maculopapular lesions from bacterial skin infection
+  phase: exam
+  alt_text: Child with maculopapular lesions from impetigo
+  source: 'CDC PHIL #5155'
+- key: bullous_impetigo
+  url: PLACEHOLDER
+  caption: Bullous impetigo - flaccid blisters with clear/cloudy fluid, thin brown
+    crust when ruptured
+  phase: exam
+  alt_text: Skin showing flaccid bullae with surrounding erythema
+  source: CDC PHIL
+- key: ecthyma
+  url: PLACEHOLDER
+  caption: Ecthyma - ulcerative impetigo with punched-out ulcers and thick crust
+  phase: exam
+  alt_text: Leg with deep ulcerative lesions covered by thick adherent crust
+  source: CDC PHIL
+sources:
+- 'AAP Red Book: Staphylococcal and Streptococcal Skin Infections'
+- 'IDSA: Skin and Soft Tissue Infections Guidelines'
+id: impetigo
+specialties:
+- peds

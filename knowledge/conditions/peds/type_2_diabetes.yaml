@@ -1,0 +1,44 @@
+id: type_2_diabetes
+display_name: Type 2 Diabetes
+aliases:
+- T2DM
+- Type 2 diabetes mellitus
+icd10:
+- E11.9
+category: chronic
+system: metabolic
+specialties:
+- peds
+age_range:
+  min_months: 120
+  max_months: 264
+prevalence:
+  notes: Increasing in pediatrics; parallels obesity epidemic
+treatment:
+  approach: metformin_plus_lifestyle
+  items:
+  - category: medication
+    description: Metformin first-line medication
+  - category: education
+    description: Intensive lifestyle modification
+  - category: referral
+    description: Pediatric endocrinology referral
+  - category: order
+    description: HbA1c monitoring every 3 months initially
+comorbidities:
+  strong:
+  - obesity
+  - dyslipidemia
+  - hypertension
+  - nafld
+  moderate:
+  - pcos
+  - depression
+monitoring_requirements:
+  followup_frequency: every 3 months
+  required_labs_at_followup:
+  - hemoglobin_a1c
+  - fasting_glucose
+  - lipid_panel
+  - cmp
+  monitoring_notes: HbA1c target <7%; annual retinal exam, foot exam, microalbumin

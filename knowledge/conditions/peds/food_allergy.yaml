@@ -1,0 +1,41 @@
+id: food_allergy
+display_name: Food Allergy
+aliases:
+- Food hypersensitivity
+- IgE-mediated food allergy
+icd10:
+- T78.1
+- Z91.010
+category: chronic
+system: immunological
+specialties:
+- peds
+age_range:
+  min_months: 4
+  max_months: 264
+prevalence:
+  percent: 8
+  notes: Milk and egg allergies often outgrown; peanut/tree nut less likely
+presentation:
+  symptoms:
+  - urticaria
+  - angioedema
+  - vomiting
+  - anaphylaxis risk
+treatment:
+  approach: avoidance_plus_emergency_plan
+  items:
+  - category: medication
+    description: Epinephrine auto-injector prescribed; training provided
+  - category: education
+    description: Strict allergen avoidance, label reading
+  - category: education
+    description: Anaphylaxis action plan for school
+  - category: referral
+    description: Allergist for testing and possible oral immunotherapy
+comorbidities:
+  strong:
+  - eczema
+  - asthma
+  moderate:
+  - allergic_rhinitis
