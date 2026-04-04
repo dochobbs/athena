@@ -1,0 +1,100 @@
+name: Obesity Cardiopulmonary Cascade
+description: Progressive cardiopulmonary compromise from obesity through obstructive
+  sleep apnea, pulmonary hypertension, and right heart failure.
+stages:
+- condition_key: obesity
+  display_name: Obesity
+  typical_age_range:
+  - 300
+  - 480
+  symptoms:
+  - BMI >=30
+  - fatigue
+  - joint pain
+  - reduced mobility
+  - insulin resistance
+  treatments:
+  - dietary counseling
+  - exercise prescription
+  - GLP-1 receptor agonists (semaglutide, tirzepatide)
+  - bariatric surgery evaluation (BMI >=40 or >=35 with comorbidities)
+  transition_triggers:
+  - BMI >35 with increasing neck circumference
+  - progressive weight gain
+  - sedentary lifestyle
+- condition_key: obstructive_sleep_apnea
+  display_name: Obstructive Sleep Apnea
+  typical_age_range:
+  - 420
+  - 540
+  symptoms:
+  - loud snoring
+  - witnessed apneas
+  - excessive daytime somnolence
+  - morning headaches
+  - unrefreshing sleep
+  treatments:
+  - CPAP therapy
+  - weight loss
+  - positional therapy
+  - oral appliance
+  - uvulopalatopharyngoplasty (select cases)
+  transition_triggers:
+  - AHI >30 (severe OSA)
+  - CPAP non-adherence
+  - chronic intermittent hypoxia
+  - obesity hypoventilation syndrome
+- condition_key: pulmonary_hypertension
+  display_name: Pulmonary Hypertension
+  typical_age_range:
+  - 540
+  - 660
+  symptoms:
+  - progressive exertional dyspnea
+  - chest pressure
+  - syncope with exertion
+  - loud P2
+  - lower extremity edema
+  treatments:
+  - treat underlying cause (OSA, weight loss)
+  - supplemental oxygen
+  - diuretics
+  - pulmonary vasodilators (if Group 1 PH features)
+  transition_triggers:
+  - mean pulmonary artery pressure >20 mmHg
+  - chronic nocturnal hypoxemia
+  - right ventricular remodeling
+- condition_key: right_heart_failure
+  display_name: Right Heart Failure
+  typical_age_range:
+  - 600
+  - 720
+  symptoms:
+  - severe peripheral edema
+  - ascites
+  - JVD
+  - hepatomegaly
+  - exertional syncope
+  treatments:
+  - diuretics
+  - oxygen therapy
+  - sodium and fluid restriction
+  - inotropic support (refractory cases)
+  - transplant evaluation (select patients)
+  transition_triggers:
+  - right ventricular dilation and dysfunction
+  - tricuspid regurgitation
+  - hepatic congestion
+clinical_pearls:
+- OSA affects up to 45% of patients with BMI >35 and is severely underdiagnosed
+- STOP-BANG questionnaire is a validated screening tool for OSA in obese patients
+- Obesity hypoventilation syndrome (Pickwickian) carries worse prognosis than OSA alone — look for daytime hypercapnia
+- Weight loss of 10-15% can dramatically improve AHI and may resolve mild-moderate OSA
+- GLP-1 receptor agonists show cardiovascular benefit independent of weight loss in high-risk patients
+references:
+- ATS Clinical Practice Guideline on OSA 2019
+- ESC/ERS Pulmonary Hypertension Guidelines 2022
+- AHA Scientific Statement on Obesity and Heart Failure 2021
+id: obesity_cardiopulmonary
+specialties:
+- im

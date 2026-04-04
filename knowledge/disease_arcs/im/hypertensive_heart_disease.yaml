@@ -1,0 +1,116 @@
+name: Hypertensive Heart Disease Progression
+description: Progressive cardiac remodeling from uncontrolled hypertension through
+  left ventricular hypertrophy, heart failure with preserved ejection fraction,
+  atrial fibrillation, and stroke.
+stages:
+- condition_key: hypertension
+  display_name: Uncontrolled Hypertension
+  typical_age_range:
+  - 360
+  - 480
+  symptoms:
+  - often asymptomatic
+  - headache
+  - epistaxis
+  - visual changes
+  treatments:
+  - thiazide diuretics
+  - ACE inhibitors or ARBs
+  - calcium channel blockers
+  - lifestyle modification
+  transition_triggers:
+  - sustained BP >140/90 despite therapy
+  - medication non-adherence
+  - resistant hypertension
+- condition_key: lvh
+  display_name: Left Ventricular Hypertrophy
+  typical_age_range:
+  - 480
+  - 600
+  symptoms:
+  - exertional dyspnea
+  - palpitations
+  - diastolic dysfunction on echo
+  - S4 gallop
+  treatments:
+  - aggressive blood pressure control
+  - ACE inhibitors or ARBs (preferred for regression)
+  - sodium restriction
+  - weight loss
+  transition_triggers:
+  - persistent pressure overload
+  - concentric remodeling on echo
+  - diastolic dysfunction grade progression
+- condition_key: chf_hfpef
+  display_name: Heart Failure with Preserved Ejection Fraction
+  typical_age_range:
+  - 600
+  - 720
+  symptoms:
+  - exertional dyspnea
+  - lower extremity edema
+  - exercise intolerance
+  - paroxysmal nocturnal dyspnea
+  - orthopnea
+  treatments:
+  - SGLT2 inhibitors
+  - diuretics
+  - blood pressure optimization
+  - spironolactone
+  transition_triggers:
+  - volume overload episodes
+  - left atrial enlargement
+  - elevated BNP
+- condition_key: atrial_fibrillation
+  display_name: Atrial Fibrillation
+  typical_age_range:
+  - 660
+  - 780
+  symptoms:
+  - palpitations
+  - irregular pulse
+  - fatigue
+  - dyspnea on exertion
+  - dizziness
+  treatments:
+  - anticoagulation (DOACs preferred)
+  - rate control (beta-blockers, calcium channel blockers)
+  - rhythm control (amiodarone, cardioversion)
+  - catheter ablation
+  transition_triggers:
+  - left atrial dilation
+  - HFpEF decompensations
+  - thyroid dysfunction
+- condition_key: ischemic_stroke
+  display_name: Cardioembolic Stroke
+  typical_age_range:
+  - 720
+  - 840
+  symptoms:
+  - acute focal neurologic deficit
+  - facial droop
+  - limb weakness
+  - aphasia
+  - vision loss
+  treatments:
+  - tPA within 4.5 hours
+  - mechanical thrombectomy
+  - long-term anticoagulation
+  - blood pressure management
+  transition_triggers:
+  - atrial fibrillation without anticoagulation
+  - CHA2DS2-VASc score >=2
+  - left atrial thrombus
+clinical_pearls:
+- LVH on ECG (Sokolow-Lyon or Cornell criteria) is an independent cardiovascular risk factor
+- HFpEF accounts for roughly half of all heart failure and is often missed on routine echo
+- CHA2DS2-VASc score guides anticoagulation decisions in AF — most hypertensive patients score >=2
+- SGLT2 inhibitors reduce HFpEF hospitalizations regardless of diabetes status
+- Every 10 mmHg reduction in systolic BP reduces stroke risk by approximately 30%
+references:
+- ACC/AHA Hypertension Guidelines 2017
+- ESC Heart Failure Guidelines 2023
+- AHA/ACC/HRS Atrial Fibrillation Guidelines 2023
+id: hypertensive_heart_disease
+specialties:
+- im

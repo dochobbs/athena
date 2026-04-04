@@ -1,0 +1,134 @@
+id: wellness_middle_adult
+topic: "Middle Adult Wellness Visit (40-49)"
+category: wellness
+specialties:
+  - im
+visit_type: wellness
+age_range: "40-49 years"
+teaching_goals:
+  - Initiate age-appropriate cancer screening including mammography and consideration of early colonoscopy
+  - Assess and manage cardiovascular risk using the ASCVD risk calculator and statin eligibility
+  - Screen for prediabetes and type 2 diabetes in all adults 35-70 with overweight or obesity
+  - Address perimenopause symptoms and counsel on hormone therapy risks and benefits
+  - Identify emerging chronic disease risk factors (hypertension, metabolic syndrome, fatty liver) before they progress
+common_mistakes:
+  - Forgetting that breast cancer screening with mammography begins at age 40 per updated USPSTF 2024 recommendation
+  - Not calculating 10-year ASCVD risk score to guide statin therapy discussions
+  - Overlooking perimenopause as a cause of mood changes, sleep disturbance, and irregular bleeding
+  - Ordering screening colonoscopy at 50 instead of 45, missing the updated 2021 guideline change
+red_flags:
+  - New-onset hypertension that is severe or resistant to treatment (screen for secondary causes)
+  - Unexplained weight loss, new lymphadenopathy, or changing mole (cancer until proven otherwise)
+  - Postmenopausal bleeding (requires endometrial evaluation to rule out malignancy)
+  - Family history of early-onset cancer (breast, colon, ovarian) suggesting hereditary syndrome requiring genetic referral
+clinical_pearls:
+  - "USPSTF updated breast cancer screening to start at age 40 with biennial mammography (2024 final recommendation)"
+  - "Colorectal cancer screening now starts at age 45 for average risk (USPSTF 2021); options include colonoscopy every 10 years, FIT annually, or Cologuard every 1-3 years"
+  - "10-year ASCVD risk >= 7.5% is the threshold for discussing moderate-intensity statin therapy; >= 20% is high risk"
+  - "Metabolic-associated steatotic liver disease (MASLD, formerly NAFLD) affects 25% of adults and should be considered in patients with metabolic syndrome"
+  - "Diabetes screening with fasting glucose, A1c, or OGTT every 3 years for adults 35-70 with BMI >= 25 (USPSTF Grade B)"
+key_history_questions:
+  - "Do you have any family history of breast, colon, ovarian, or other cancers? At what age were they diagnosed?"
+  - "Have you noticed any changes in your periods, hot flashes, night sweats, or mood changes?"
+  - "How would you describe your stress level? Are you sleeping well? Any changes in mood or energy?"
+  - "Do you have any chest pain, shortness of breath, or decreased exercise tolerance?"
+  - "Have you ever been told you have high cholesterol, prediabetes, or fatty liver?"
+  - "Are you up to date on your cancer screenings — mammogram, colonoscopy, Pap smear?"
+screening_recommendations:
+  - name: "Blood pressure screening"
+    frequency: "Every visit"
+    guideline: "USPSTF Grade A — screen all adults 18+"
+  - name: "Breast cancer screening (mammography)"
+    frequency: "Biennial starting at age 40"
+    guideline: "USPSTF Grade B (2024) — biennial mammography ages 40-74"
+  - name: "Colorectal cancer screening"
+    frequency: "Starting at age 45; colonoscopy every 10 years, FIT annually, or FIT-DNA every 1-3 years"
+    guideline: "USPSTF Grade A (ages 45-75)"
+  - name: "Cervical cancer screening"
+    frequency: "HPV testing alone every 5 years, or Pap every 3 years, or co-testing every 5 years (ages 30-65)"
+    guideline: "USPSTF Grade A"
+  - name: "Prediabetes/Type 2 diabetes screening"
+    frequency: "Every 3 years for adults 35-70 with BMI >= 25"
+    guideline: "USPSTF Grade B"
+  - name: "Lipid panel and ASCVD risk assessment"
+    frequency: "Every 5 years; more frequently if borderline or elevated risk"
+    guideline: "USPSTF Grade B — statin use for primary prevention in adults 40-75 with ASCVD risk >= 10% and at least one CVD risk factor"
+  - name: "Depression screening (PHQ-2/PHQ-9)"
+    frequency: "Annually"
+    guideline: "USPSTF Grade B"
+  - name: "HIV screening"
+    frequency: "At least once if not previously tested; more frequently if high risk"
+    guideline: "USPSTF Grade A (ages 15-65)"
+  - name: "Hepatitis C screening"
+    frequency: "Once for all adults 18-79 if not previously screened"
+    guideline: "USPSTF Grade B"
+  - name: "Anxiety screening"
+    frequency: "Screen adults under 65"
+    guideline: "USPSTF Grade B (2023) — screen for anxiety in adults under age 65"
+  - name: "Unhealthy alcohol use screening"
+    frequency: "Annually"
+    guideline: "USPSTF Grade B"
+  - name: "Tobacco use screening"
+    frequency: "Every visit"
+    guideline: "USPSTF Grade A"
+  - name: "Lung cancer screening"
+    frequency: "Annual low-dose CT if ages 50-80 with 20+ pack-year history and currently smoking or quit within past 15 years"
+    guideline: "USPSTF Grade B — note: most 40-49 year-olds do not qualify, but assess smoking history now"
+immunizations_due:
+  - vaccine: "Influenza"
+    frequency: "Annual"
+    notes: "All adults annually"
+  - vaccine: "Tdap/Td"
+    frequency: "Td or Tdap booster every 10 years"
+    notes: "Tdap once if not previously received; Tdap during each pregnancy"
+  - vaccine: "COVID-19"
+    frequency: "Per current ACIP guidance"
+    notes: "Updated formulation per current season"
+  - vaccine: "Hepatitis B"
+    frequency: "3-dose series if not previously vaccinated (adults 19-59)"
+    notes: "Universal vaccination for adults 19-59; shared clinical decision for 60+"
+  - vaccine: "HPV 9-valent"
+    frequency: "Shared clinical decision for adults 27-45 not previously vaccinated"
+    notes: "Less benefit if already exposed to HPV types; discuss with patients who may benefit"
+  - vaccine: "Zoster (Shingrix)"
+    frequency: "Not yet indicated for immunocompetent adults under 50"
+    notes: "Recommended starting at age 50; may give earlier if immunocompromised"
+anticipatory_guidance:
+  safety:
+    - "Seatbelt use and no distracted driving"
+    - "Firearm safety — safe storage, lethal means counseling"
+    - "Intimate partner violence screening"
+    - "Fall prevention awareness — begins earlier than most realize for physically inactive adults"
+  nutrition:
+    - "Counsel on heart-healthy diet (Mediterranean or DASH pattern)"
+    - "Weight management — metabolic rate decreases with age; discuss portion control and dietary quality"
+    - "Calcium 1000 mg/day (women), Vitamin D 600 IU/day for bone health"
+    - "Limit alcohol, sodium, and ultra-processed foods"
+    - "Screen for and counsel on metabolic syndrome components"
+  exercise:
+    - "150 minutes of moderate-intensity or 75 minutes of vigorous-intensity aerobic activity per week"
+    - "Muscle-strengthening activities 2+ days per week — increasingly important for sarcopenia prevention"
+    - "Flexibility and balance exercises especially if sedentary"
+    - "Exercise as medicine for prediabetes, hypertension, anxiety, and depression"
+  mental_health:
+    - "Screen for depression and anxiety — midlife transitions (career, relationships, caregiving) increase risk"
+    - "Sleep assessment — 7-9 hours; evaluate for obstructive sleep apnea if BMI >= 30 or snoring"
+    - "Caregiver burden — many in this age group care for aging parents and growing children simultaneously"
+    - "Normalize therapy and mental health care"
+  substance_use:
+    - "Tobacco cessation — still significant benefit to quitting in 40s"
+    - "Alcohol — reassess consumption patterns; discuss cancer risk associated with alcohol"
+    - "Prescription drug misuse — especially benzodiazepines and opioids"
+  sexual_health:
+    - "Perimenopause counseling — still possible to conceive; discuss contraception until 12 months amenorrhea"
+    - "Erectile dysfunction screening — may be early marker of cardiovascular disease"
+    - "STI prevention — do not assume monogamy; screen based on risk factors"
+    - "Menopause hormone therapy discussion — benefits and risks, timing of initiation"
+sources:
+  - "USPSTF A and B Recommendations, current as of 2024-2025"
+  - "USPSTF Final Recommendation: Breast Cancer Screening (2024)"
+  - "USPSTF Final Recommendation: Colorectal Cancer Screening (2021)"
+  - "AHA/ACC Guideline on Primary Prevention of Cardiovascular Disease (2019)"
+  - "CDC/ACIP Recommended Adult Immunization Schedule, 2025"
+  - "NAMS Position Statement on Hormone Therapy (2022)"
+  - "AGA Clinical Practice Guidelines on MASLD/NAFLD (2023)"

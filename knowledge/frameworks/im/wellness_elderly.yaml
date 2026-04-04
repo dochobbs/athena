@@ -1,0 +1,142 @@
+id: wellness_elderly
+topic: "Elderly Wellness Visit (75+)"
+category: wellness
+specialties:
+  - im
+visit_type: wellness
+age_range: "75+ years"
+teaching_goals:
+  - Prioritize goals of care, functional preservation, and quality of life over aggressive disease screening
+  - Perform comprehensive geriatric assessment including functional status (ADLs/IADLs), cognition, mobility, nutrition, and social support
+  - Apply deprescribing principles to reduce polypharmacy and minimize medication-related harm
+  - Discuss and document advance directives, healthcare proxy, and POLST/MOLST
+  - Individualize cancer screening decisions based on life expectancy, functional status, and patient preferences rather than age cutoffs alone
+common_mistakes:
+  - Continuing cancer screening in patients with limited life expectancy (< 5-10 years) without a shared decision conversation
+  - Not performing a medication reconciliation and deprescribing review — adverse drug events are a leading cause of hospitalization in the elderly
+  - Treating to aggressive blood pressure or glucose targets that increase fall and hypoglycemia risk in frail older adults
+  - Ignoring functional decline as just part of aging instead of investigating reversible causes (depression, hypothyroidism, B12 deficiency, medication side effects)
+red_flags:
+  - Acute functional decline (new inability to perform ADLs) — always investigate, not just aging; consider delirium, stroke, infection, medication change, fracture
+  - Recurrent falls with injury — requires comprehensive fall assessment and intervention
+  - Rapid unintentional weight loss (> 5% in 6 months) — evaluate for malignancy, depression, dysphagia, dementia, medication effects
+  - Signs of elder abuse or neglect — unexplained injuries, poor hygiene, fearful behavior, financial exploitation
+  - New confusion or behavioral change — delirium until proven otherwise; check medications, infection, metabolic derangement
+clinical_pearls:
+  - "The goal of care for most patients 75+ shifts from disease prevention to functional preservation, symptom management, and quality of life"
+  - "Deprescribing saves lives: use the STOPP/START criteria and Beers Criteria to identify medications to stop; deprescribing.org has evidence-based tapering protocols"
+  - "Relaxed BP targets in frail elderly: ACC/AHA says < 130/80 for fit older adults, but SBP < 150 may be more appropriate for frail patients with orthostatic hypotension or fall risk"
+  - "A1c targets in elderly: < 7% for healthy older adults, < 8% for complex/intermediate health, < 8.5% or even avoid hypoglycemia as primary goal for very frail patients (ADA guidelines)"
+  - "The 4Ms framework for age-friendly care: What Matters (goals/preferences), Medication (deprescribing), Mentation (dementia/delirium/depression), and Mobility (fall prevention)"
+key_history_questions:
+  - "What matters most to you in your daily life? What activities are most important for you to continue?"
+  - "Do you have an advance directive and healthcare proxy? Have your wishes changed since we last discussed them?"
+  - "Have you fallen in the past year? Do you feel unsteady when walking or getting up from a chair?"
+  - "Can you walk around your home safely? Do you need help with bathing, dressing, cooking, shopping, or managing medications?"
+  - "Have you or your family noticed any changes in memory, judgment, or ability to manage finances?"
+  - "Let me review all your medications — are any causing side effects? Are there medications you have stopped taking or are unsure why you are taking?"
+screening_recommendations:
+  - name: "Functional status assessment (ADLs/IADLs)"
+    frequency: "Every visit"
+    guideline: "Katz ADL Index (bathing, dressing, toileting, transferring, continence, feeding) and Lawton IADL Scale (phone, shopping, cooking, housekeeping, laundry, transportation, medications, finances)"
+  - name: "Cognitive screening"
+    frequency: "Annually or with any concern from patient or family"
+    guideline: "Mini-Cog, MoCA, or MMSE; document baseline and track over time"
+  - name: "Depression screening (GDS or PHQ-2/PHQ-9)"
+    frequency: "Annually"
+    guideline: "USPSTF Grade B — Geriatric Depression Scale (GDS-15 or GDS-5) validated in this population"
+  - name: "Fall risk assessment"
+    frequency: "Every visit — ask about falls, timed up-and-go test, assess gait"
+    guideline: "USPSTF Grade B for exercise interventions; multifactorial assessment for recurrent fallers"
+  - name: "Nutritional status screening"
+    frequency: "Every visit — track weight, BMI, albumin"
+    guideline: "Mini Nutritional Assessment (MNA) or MUST screening tool; malnutrition is underdiagnosed"
+  - name: "Polypharmacy review"
+    frequency: "Every visit"
+    guideline: "AGS Beers Criteria (2023), STOPP/START criteria; aim to reduce total medication burden"
+  - name: "Blood pressure screening"
+    frequency: "Every visit — include orthostatic measurements"
+    guideline: "USPSTF Grade A — but individualize targets for frail patients; check for orthostatic hypotension"
+  - name: "Hearing and vision assessment"
+    frequency: "Annually"
+    guideline: "Hearing loss affects 50%+ of adults 75+; vision impairment increases fall risk"
+  - name: "Urinary incontinence screening"
+    frequency: "Annually — many patients do not volunteer symptoms"
+    guideline: "Ask directly; 30-50% of older adults are affected; reversible causes (DIAPPERS mnemonic)"
+  - name: "Osteoporosis screening (DEXA)"
+    frequency: "Women 65+; men 70+ or with risk factors; repeat every 2-5 years based on results"
+    guideline: "USPSTF Grade B for women 65+"
+  - name: "Cancer screening (individualized)"
+    frequency: "Shared decision based on life expectancy, functional status, and patient values"
+    guideline: "Generally discontinue screening when life expectancy < 10 years (colorectal, breast) or < 5 years; USPSTF does not recommend routine screening after age 75-85 for most cancers"
+  - name: "Skin examination"
+    frequency: "Annually — high prevalence of skin cancers in elderly"
+    guideline: "Not a formal USPSTF recommendation, but clinical judgment supports skin exam given high incidence"
+immunizations_due:
+  - vaccine: "Influenza"
+    frequency: "Annual"
+    notes: "High-dose (Fluzone HD), recombinant (Flublok), or adjuvanted (Fluad) preferred for adults 65+"
+  - vaccine: "Pneumococcal (PCV20)"
+    frequency: "Single dose if not previously received PCV20"
+    notes: "PCV20 preferred; if PCV15 given, PPSV23 at least 1 year later"
+  - vaccine: "Zoster (Shingrix)"
+    frequency: "2-dose series if not previously completed"
+    notes: "Give even if prior shingles episode or prior Zostavax; 2 doses at 0 and 2-6 months"
+  - vaccine: "Tdap/Td"
+    frequency: "Td or Tdap booster every 10 years"
+    notes: "Tdap once if not previously received"
+  - vaccine: "COVID-19"
+    frequency: "Per current ACIP guidance"
+    notes: "Updated formulation per current season; highest risk age group for severe disease"
+  - vaccine: "RSV (Abrysvo or Arexvy)"
+    frequency: "Single dose using shared clinical decision-making for adults 60+"
+    notes: "Particularly beneficial for those with chronic cardiopulmonary disease, immunocompromise, or residing in congregate settings"
+anticipatory_guidance:
+  safety:
+    - "Fall prevention is the single most impactful safety intervention — exercise, home modifications, medication review, vision correction, vitamin D"
+    - "Driving safety — assess regularly; refer for formal driving evaluation if cognitive or visual impairment"
+    - "Elder abuse and neglect screening — ask about safety at home, financial exploitation, caregiver stress"
+    - "Medication safety — simplify regimens, use pill organizers, avoid polypharmacy"
+    - "Home safety evaluation — grab bars, raised toilet seats, remove trip hazards, adequate lighting"
+  nutrition:
+    - "Adequate protein 1.0-1.2 g/kg/day to combat sarcopenia — may need higher intake"
+    - "Vitamin D 800-1000 IU/day minimum; many experts recommend 1000-2000 IU/day"
+    - "Calcium 1200 mg/day from diet and supplements combined"
+    - "Address dysphagia — speech therapy evaluation if choking or difficulty swallowing"
+    - "Assess food access — can the patient shop, cook, and afford adequate nutrition?"
+    - "Liberalize restrictive diets — quality of life matters more than strict dietary control in the very elderly"
+  exercise:
+    - "Any physical activity is better than none — even chair exercises and walking improve outcomes"
+    - "Balance and strength training to prevent falls (Otago Exercise Programme, Tai Chi)"
+    - "Physical therapy referral for individualized exercise prescription if frail or post-hospitalization"
+    - "Encourage daily walking — even 10-15 minutes improves cardiovascular health and mood"
+  mental_health:
+    - "Screen for depression — bereavement, chronic pain, loss of independence, and social isolation are major triggers"
+    - "Combat social isolation — encourage community programs, senior centers, faith communities, volunteer activities"
+    - "Monitor for delirium during any acute illness or hospitalization — prevention is key"
+    - "Support caregivers — assess caregiver burden and connect to respite care resources"
+    - "Distinguish depression from apathy of dementia — both are treatable"
+  advance_care_planning:
+    - "Revisit advance directives annually and after any major health event"
+    - "Complete POLST/MOLST for patients with serious illness or limited life expectancy"
+    - "Discuss specific scenarios: CPR, intubation, hospitalization, artificial nutrition"
+    - "Ensure healthcare proxy understands the patient's values and wishes"
+    - "Normalize these conversations — frame as ensuring the patient's voice is heard"
+  deprescribing:
+    - "Review every medication at every visit: Is there still an indication? Is the benefit worth the risk?"
+    - "High-yield deprescribing targets: PPIs (rebound managed with taper), benzodiazepines (slow taper), statins (reconsider if life expectancy < 5 years), bisphosphonates (drug holiday after 3-5 years)"
+    - "Use deprescribing.org algorithms for evidence-based tapering protocols"
+    - "Involve pharmacists in medication review — medication therapy management is a Medicare benefit"
+    - "Prioritize reducing anticholinergic burden — cumulative anticholinergic load increases dementia and fall risk"
+sources:
+  - "USPSTF A and B Recommendations, current as of 2024-2025"
+  - "AGS Beers Criteria for Potentially Inappropriate Medication Use in Older Adults (2023)"
+  - "IHI Age-Friendly Health Systems: 4Ms Framework"
+  - "CDC/ACIP Recommended Adult Immunization Schedule, 2025"
+  - "ADA Standards of Care in Diabetes — Older Adults chapter (2025)"
+  - "ACC/AHA Blood Pressure Guidelines — considerations for older adults (2017)"
+  - "STOPP/START Criteria for Potentially Inappropriate Prescribing in Older Adults v3 (2023)"
+  - "deprescribing.org — Evidence-based deprescribing guidelines"
+  - "Katz S. Assessing self-maintenance: Activities of daily living. JAGS (1963)"
+  - "Borson S, et al. The Mini-Cog: A cognitive vital signs measure. Int J Geriatr Psychiatry (2000)"
+  - "American Geriatrics Society. Clinical Practice Guideline for the Prevention of Falls in Older Persons (2011, updated)"

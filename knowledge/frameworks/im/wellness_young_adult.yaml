@@ -1,0 +1,137 @@
+id: wellness_young_adult
+topic: "Young Adult Wellness Visit (18-39)"
+category: wellness
+specialties:
+  - im
+visit_type: wellness
+age_range: "18-39 years"
+teaching_goals:
+  - Perform a comprehensive age-appropriate preventive health assessment for young adults
+  - Screen for behavioral health risks including depression, substance use, and intimate partner violence
+  - Counsel on sexual and reproductive health including contraception, STI prevention, and family planning
+  - Apply USPSTF screening guidelines for blood pressure, lipids, HIV, cervical cancer, and diabetes risk
+  - Deliver evidence-based immunization catch-up and routine vaccines per ACIP schedule
+common_mistakes:
+  - Skipping mental health screening because the patient appears healthy and well-adjusted
+  - Not asking about substance use (tobacco, alcohol, cannabis, vaping) in a nonjudgmental way
+  - Missing HPV vaccine catch-up opportunity in adults through age 26 (shared decision through 45)
+  - Ordering unnecessary labs (CBC, CMP, thyroid panel) that are not recommended by USPSTF for asymptomatic young adults
+red_flags:
+  - Undiagnosed hypertension in a young adult (secondary causes more likely if severe or resistant)
+  - Signs of intimate partner violence (unexplained injuries, controlling partner behavior, frequent ED visits)
+  - Depression with suicidal ideation disclosed during screening
+  - Features concerning for eating disorder (BMI extremes, electrolyte abnormalities, lanugo, dental erosions)
+clinical_pearls:
+  - "Most young adults with hypertension have primary hypertension, but secondary causes (renal artery stenosis, pheochromocytoma, coarctation) are more likely in this age group than in older adults"
+  - "USPSTF recommends HIV screening at least once for all adults 15-65; high-risk individuals should be screened more frequently"
+  - "Cervical cancer screening starts at age 21 regardless of sexual debut; do not screen earlier even if sexually active before 21"
+  - "Prediabetes screening starts at age 35 for all adults, or earlier if BMI >= 25 with additional risk factors"
+  - "The PHQ-2 is an efficient first-step screener; if positive (score >= 3), follow up with the full PHQ-9"
+key_history_questions:
+  - "Tell me about your mood and stress levels. Have you been feeling down, depressed, or hopeless?"
+  - "Are you sexually active? With men, women, or both? What are you using for contraception or STI prevention?"
+  - "How much alcohol do you drink in a typical week? Do you use tobacco, vaping, cannabis, or any other substances?"
+  - "Do you feel safe in your current relationship? Has anyone ever hurt you or threatened you?"
+  - "Is there a family history of early heart disease, diabetes, or cancer?"
+  - "How would you describe your diet and physical activity? How are you sleeping?"
+screening_recommendations:
+  - name: "Blood pressure screening"
+    frequency: "Every visit; confirm elevated readings with repeated measurements"
+    guideline: "USPSTF Grade A — screen all adults 18+"
+  - name: "Depression screening (PHQ-2/PHQ-9)"
+    frequency: "Annually"
+    guideline: "USPSTF Grade B — screen all adults with adequate systems in place for follow-up"
+  - name: "HIV screening"
+    frequency: "At least once for all adults 15-65; more frequently if high risk"
+    guideline: "USPSTF Grade A"
+  - name: "Hepatitis C screening"
+    frequency: "Once for all adults 18-79"
+    guideline: "USPSTF Grade B"
+  - name: "Cervical cancer screening (Pap/HPV)"
+    frequency: "Pap alone every 3 years ages 21-29; Pap + HPV co-testing every 5 years or HPV alone every 5 years ages 30-65"
+    guideline: "USPSTF Grade A"
+  - name: "Chlamydia and gonorrhea screening"
+    frequency: "Annually for sexually active women under 25; older women with risk factors"
+    guideline: "USPSTF Grade B"
+  - name: "Prediabetes/Type 2 diabetes screening"
+    frequency: "Every 3 years starting at age 35; earlier if BMI >= 25 with risk factors"
+    guideline: "USPSTF Grade B"
+  - name: "Lipid screening"
+    frequency: "Starting at age 20 if cardiovascular risk factors; universal at age 35 for men, 20 for women with risk factors"
+    guideline: "USPSTF Grade B (statin use for primary prevention)"
+  - name: "Intimate partner violence screening"
+    frequency: "Women of reproductive age at every visit"
+    guideline: "USPSTF Grade B"
+  - name: "Unhealthy alcohol use screening (AUDIT-C)"
+    frequency: "Annually"
+    guideline: "USPSTF Grade B — screen all adults 18+ with brief counseling intervention"
+  - name: "Tobacco use screening"
+    frequency: "Every visit"
+    guideline: "USPSTF Grade A — ask all adults; provide cessation interventions"
+  - name: "Skin cancer counseling"
+    frequency: "Ages 6 months to 24 years with fair skin"
+    guideline: "USPSTF Grade B — counsel on UV exposure reduction"
+immunizations_due:
+  - vaccine: "Influenza"
+    frequency: "Annual"
+    notes: "All adults annually; IIV or RIV preferred; LAIV option for healthy non-pregnant adults through age 49"
+  - vaccine: "Tdap/Td"
+    frequency: "Tdap once if not previously received, then Td or Tdap every 10 years"
+    notes: "Tdap during each pregnancy (27-36 weeks); Td booster every 10 years"
+  - vaccine: "HPV 9-valent"
+    frequency: "3-dose series through age 26; shared clinical decision ages 27-45"
+    notes: "Catch-up vaccination if not completed in adolescence; 3 doses at 0, 1-2, and 6 months"
+  - vaccine: "Hepatitis B"
+    frequency: "3-dose series if not previously vaccinated (adults 19-59); shared decision for 60+"
+    notes: "Heplisav-B (2-dose series) or Engerix-B/Recombivax (3-dose series)"
+  - vaccine: "COVID-19"
+    frequency: "Per current ACIP guidance"
+    notes: "Updated formulation per current season"
+  - vaccine: "MMR"
+    frequency: "1 or 2 doses if no evidence of immunity"
+    notes: "Catch-up: 1 dose for most adults born after 1957; 2 doses for healthcare workers, college students, international travelers"
+  - vaccine: "Varicella"
+    frequency: "2-dose series if no evidence of immunity"
+    notes: "Catch-up if no history of disease or vaccination; contraindicated in pregnancy"
+  - vaccine: "MenACWY"
+    frequency: "If not previously vaccinated as adolescent; required for college entry"
+    notes: "1 dose for first-year college students living in dorms if not vaccinated after age 16"
+anticipatory_guidance:
+  safety:
+    - "Seatbelt use — motor vehicle crashes are the leading cause of death in this age group"
+    - "Helmet use for bicycles, motorcycles, and recreational activities"
+    - "Firearm safety — safe storage counseling, lethal means restriction"
+    - "Intimate partner violence screening and safety planning resources"
+    - "Drowning prevention — avoid alcohol use around water"
+    - "Distracted driving — no texting or phone use while driving"
+  nutrition:
+    - "Counsel on balanced diet rich in fruits, vegetables, whole grains, and lean protein"
+    - "Weight management — calculate BMI and discuss healthy weight goals"
+    - "Calcium 1000 mg/day and Vitamin D 600 IU/day for bone health"
+    - "Limit sugar-sweetened beverages and ultra-processed foods"
+    - "Folic acid 400-800 mcg daily for women of reproductive age"
+  exercise:
+    - "150 minutes of moderate-intensity or 75 minutes of vigorous-intensity aerobic activity per week"
+    - "Muscle-strengthening activities involving all major muscle groups 2+ days per week"
+    - "Reduce sedentary behavior; prolonged sitting increases cardiovascular risk"
+  mental_health:
+    - "Stress management techniques — mindfulness, exercise, therapy"
+    - "Sleep hygiene — 7-9 hours per night, consistent sleep/wake schedule"
+    - "Social connections — maintaining meaningful relationships protects mental health"
+    - "Normalize help-seeking — reduce stigma around therapy and mental health care"
+  substance_use:
+    - "Tobacco and vaping cessation — offer pharmacotherapy (NRT, bupropion, varenicline) and counseling"
+    - "Alcohol — counsel on low-risk limits (up to 1 drink/day women, up to 2 drinks/day men)"
+    - "Cannabis — counsel on risks including impaired driving, impact on motivation and cognition"
+    - "Prescription drug misuse screening — especially opioids and stimulants"
+  sexual_health:
+    - "Contraception counseling — discuss all methods including LARC (IUD, implant)"
+    - "STI prevention — condom use, PrEP for high-risk individuals"
+    - "Family planning — preconception counseling when desired"
+    - "Cervical cancer screening education — importance of follow-up on abnormal results"
+sources:
+  - "USPSTF A and B Recommendations, current as of 2024-2025"
+  - "CDC/ACIP Recommended Adult Immunization Schedule, 2025"
+  - "AAFP/ACP Clinical Preventive Services Recommendations"
+  - "AAP/ACOG Guidelines on Reproductive Health Counseling"
+  - "AHA/ACC Guideline on Primary Prevention of Cardiovascular Disease (2019)"

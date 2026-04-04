@@ -1,0 +1,121 @@
+name: CKD Complications Cascade
+description: Progressive systemic complications of chronic kidney disease including
+  anemia, mineral bone disease, cardiovascular disease, and progression to end-stage
+  renal disease requiring dialysis.
+stages:
+- condition_key: ckd
+  display_name: CKD Progression (Stages 3-4)
+  typical_age_range:
+  - 480
+  - 660
+  symptoms:
+  - fatigue
+  - nocturia
+  - foamy urine (proteinuria)
+  - mild edema
+  - hypertension
+  treatments:
+  - ACE inhibitors or ARBs
+  - SGLT2 inhibitors
+  - blood pressure control (<130/80)
+  - dietary sodium restriction
+  transition_triggers:
+  - GFR decline below 45
+  - persistent proteinuria (UACR >300)
+  - poorly controlled diabetes or hypertension
+- condition_key: anemia_of_ckd
+  display_name: Anemia of CKD
+  typical_age_range:
+  - 540
+  - 720
+  symptoms:
+  - fatigue
+  - pallor
+  - exertional dyspnea
+  - tachycardia
+  - decreased exercise capacity
+  treatments:
+  - iron supplementation (IV preferred in CKD 4-5)
+  - erythropoiesis-stimulating agents (target Hb 10-11.5)
+  - treat iron deficiency first
+  - avoid blood transfusion if possible
+  transition_triggers:
+  - GFR below 30 (reduced erythropoietin production)
+  - iron deficiency (TSAT <20%, ferritin <100)
+  - chronic inflammation
+- condition_key: ckd_mineral_bone_disease
+  display_name: CKD-Mineral Bone Disease
+  typical_age_range:
+  - 540
+  - 720
+  symptoms:
+  - bone pain
+  - fractures
+  - proximal muscle weakness
+  - vascular calcification
+  - pruritus
+  treatments:
+  - phosphate binders
+  - calcitriol or active vitamin D analogs
+  - calcimimetics (cinacalcet) for secondary hyperparathyroidism
+  - dietary phosphorus restriction
+  transition_triggers:
+  - hyperphosphatemia
+  - elevated PTH (secondary hyperparathyroidism)
+  - low 1,25-dihydroxyvitamin D
+  - GFR below 30
+- condition_key: cardiovascular_disease_ckd
+  display_name: Cardiovascular Disease in CKD
+  typical_age_range:
+  - 560
+  - 720
+  symptoms:
+  - chest pain
+  - dyspnea
+  - volume overload
+  - arrhythmias
+  - sudden cardiac death risk
+  treatments:
+  - statin therapy
+  - blood pressure optimization
+  - volume management
+  - avoid nephrotoxic agents
+  - cardiology co-management
+  transition_triggers:
+  - uremic cardiomyopathy
+  - vascular calcification
+  - chronic volume overload
+  - electrolyte imbalances (hyperkalemia)
+- condition_key: dialysis_complications
+  display_name: ESRD / Dialysis
+  typical_age_range:
+  - 660
+  - 840
+  symptoms:
+  - uremia (nausea, encephalopathy, pericarditis)
+  - refractory volume overload
+  - severe electrolyte derangements
+  - cachexia
+  treatments:
+  - hemodialysis or peritoneal dialysis
+  - renal transplant evaluation
+  - vascular access planning (AV fistula preferred)
+  - palliative care for those not pursuing transplant
+  transition_triggers:
+  - GFR below 15
+  - uremic symptoms refractory to medical management
+  - refractory hyperkalemia or acidosis
+  - volume overload unresponsive to diuretics
+clinical_pearls:
+- Cardiovascular disease is the leading cause of death in CKD — patients are more likely to die of MI than reach dialysis
+- SGLT2 inhibitors slow CKD progression by 30-40% independent of diabetes status (DAPA-CKD, EMPA-KIDNEY trials)
+- Target hemoglobin 10-11.5 with ESAs — higher targets increase cardiovascular risk (TREAT, CHOIR trials)
+- AV fistula planning should begin when GFR <20-25 — the fistula needs 2-3 months to mature
+- CKD-MBD treatment targets phosphorus control first, then PTH, as hyperphosphatemia drives vascular calcification
+references:
+- KDIGO CKD Guidelines 2024
+- KDIGO CKD-MBD Guidelines 2017 (updated 2024)
+- KDIGO Anemia in CKD Guidelines 2012 (updated 2022)
+id: ckd_complications
+specialties:
+- im

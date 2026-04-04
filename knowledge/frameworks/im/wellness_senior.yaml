@@ -1,0 +1,139 @@
+id: wellness_senior
+topic: "Senior Wellness Visit (65-74)"
+category: wellness
+specialties:
+  - im
+visit_type: wellness
+age_range: "65-74 years"
+teaching_goals:
+  - Perform a Medicare Annual Wellness Visit (AWV) including Health Risk Assessment, cognitive screening, and personalized prevention plan
+  - Screen for and manage geriatric syndromes including falls, polypharmacy, cognitive impairment, and urinary incontinence
+  - Apply shared decision-making for cancer screening continuation based on life expectancy and patient preferences
+  - Ensure pneumococcal, zoster, and influenza immunizations are current per ACIP recommendations
+  - Assess functional status, social determinants of health, and advance care planning
+common_mistakes:
+  - Not performing the structured Medicare AWV — it is distinct from a routine physical exam and has specific required elements
+  - Continuing cancer screening without considering life expectancy (screen if life expectancy > 10 years)
+  - Missing polypharmacy review — the average 65-year-old takes 5+ medications; use Beers Criteria to identify potentially inappropriate medications
+  - Failing to screen for falls — asking about falls in the past year and gait assessment should happen at every visit
+red_flags:
+  - Recurrent falls or a single fall with injury — requires comprehensive fall risk assessment
+  - Rapid cognitive decline over weeks to months (delirium, medication effect, subdural hematoma, or rapidly progressive dementia)
+  - Unintentional weight loss > 5% in 6-12 months — workup for malignancy, depression, hyperthyroidism, or poor nutrition
+  - New difficulty with activities of daily living (ADLs) — may signal delirium, stroke, depression, or progressive dementia
+clinical_pearls:
+  - "The Medicare AWV includes: Health Risk Assessment, review of functional ability and safety, detection of cognitive impairment, depression screening, advance care planning, and a written personalized prevention plan"
+  - "The Mini-Cog (3-item recall + clock draw) takes 3 minutes and is the preferred brief cognitive screen; MMSE and MoCA are alternatives"
+  - "Beer's Criteria: avoid benzodiazepines, anticholinergics (diphenhydramine, oxybutynin), chronic NSAIDs, and sliding-scale insulin in older adults"
+  - "For fall prevention: exercise programs (Tai Chi, Otago), vitamin D 800-1000 IU/day, medication review, vision correction, and home safety assessment"
+  - "PSA screening for prostate cancer is not recommended after age 70 (USPSTF); discuss stopping with patients who request it"
+key_history_questions:
+  - "Have you fallen in the past year? If so, how many times? Were you injured?"
+  - "Have you or your family noticed any changes in your memory, thinking, or ability to manage daily tasks?"
+  - "Can you tell me all the medications you take, including over-the-counter and supplements? (Bring the bottles)"
+  - "Do you have an advance directive or healthcare proxy? Have you discussed your wishes with your family?"
+  - "Are you having any trouble with urinary leakage or getting to the bathroom in time?"
+  - "Tell me about your daily routine — can you dress, bathe, cook, manage finances, and drive independently?"
+screening_recommendations:
+  - name: "Blood pressure screening"
+    frequency: "Every visit"
+    guideline: "USPSTF Grade A — target < 130/80 per ACC/AHA for most; individualize for frailty"
+  - name: "Cognitive screening"
+    frequency: "Part of Medicare AWV; annual or with reported concerns"
+    guideline: "Medicare AWV requirement — Mini-Cog, MMSE, or MoCA"
+  - name: "Depression screening (PHQ-2/PHQ-9 or GDS)"
+    frequency: "Annually"
+    guideline: "USPSTF Grade B — Geriatric Depression Scale (GDS) is an alternative validated in older adults"
+  - name: "Fall risk assessment"
+    frequency: "Annually — ask about falls, assess gait and balance"
+    guideline: "USPSTF Grade B — exercise interventions to prevent falls in community-dwelling adults 65+"
+  - name: "Colorectal cancer screening"
+    frequency: "Continue through age 75 (Grade A); shared decision 76-85 (Grade C)"
+    guideline: "USPSTF Grade A (45-75); consider stopping if life expectancy < 10 years"
+  - name: "Breast cancer screening (mammography)"
+    frequency: "Biennial through age 74"
+    guideline: "USPSTF Grade B (40-74); insufficient evidence after 74 — shared decision based on health status"
+  - name: "Lung cancer screening (low-dose CT)"
+    frequency: "Annual for ages 50-80 with 20+ pack-year history and currently smoking or quit within 15 years"
+    guideline: "USPSTF Grade B"
+  - name: "Abdominal aortic aneurysm screening"
+    frequency: "One-time ultrasound for men 65-75 who have ever smoked"
+    guideline: "USPSTF Grade B"
+  - name: "Osteoporosis screening (DEXA)"
+    frequency: "All women age 65+; men with risk factors or prior fracture"
+    guideline: "USPSTF Grade B"
+  - name: "Prediabetes/Type 2 diabetes screening"
+    frequency: "Every 3 years for adults 35-70 with BMI >= 25; consider continuing beyond 70 if overweight"
+    guideline: "USPSTF Grade B"
+  - name: "Hearing assessment"
+    frequency: "Assess subjectively at each visit; formal audiometry if concerns"
+    guideline: "Not a formal USPSTF recommendation, but hearing loss affects 33% of adults 65-74 and impacts cognition and safety"
+  - name: "Vision screening"
+    frequency: "Every 1-2 years"
+    guideline: "AAO recommends comprehensive eye exam every 1-2 years after age 65 (glaucoma, macular degeneration, cataracts)"
+  - name: "Polypharmacy review (Beers Criteria)"
+    frequency: "Every visit — review all medications including OTC"
+    guideline: "AGS Beers Criteria (updated 2023) — identifies potentially inappropriate medications in older adults"
+immunizations_due:
+  - vaccine: "Influenza"
+    frequency: "Annual"
+    notes: "High-dose (Fluzone HD), recombinant (Flublok), or adjuvanted (Fluad) preferred for adults 65+"
+  - vaccine: "Pneumococcal (PCV20)"
+    frequency: "Single dose for all adults 65+ who have not previously received PCV20"
+    notes: "PCV20 (Prevnar 20) is the preferred single-dose regimen; if PCV15 was given, follow with PPSV23 at least 1 year later"
+  - vaccine: "Zoster (Shingrix)"
+    frequency: "2-dose series if not previously received"
+    notes: "Recommended for all immunocompetent adults 50+; 2 doses at 0 and 2-6 months; give even if prior Zostavax or prior shingles"
+  - vaccine: "Tdap/Td"
+    frequency: "Td or Tdap booster every 10 years"
+    notes: "Tdap once if not previously received"
+  - vaccine: "COVID-19"
+    frequency: "Per current ACIP guidance"
+    notes: "Updated formulation per current season; older adults are at higher risk for severe disease"
+  - vaccine: "RSV (Abrysvo or Arexvy)"
+    frequency: "Single dose for adults 60+ using shared clinical decision-making"
+    notes: "ACIP recommends shared clinical decision for adults 60+; particularly for those with chronic cardiopulmonary conditions"
+anticipatory_guidance:
+  safety:
+    - "Fall prevention — remove throw rugs, install grab bars, improve lighting, wear supportive footwear"
+    - "Driving safety assessment — vision, reaction time, cognitive function; refer for driving evaluation if concerns"
+    - "Firearm safety — safe storage, especially if cognitive impairment or depression"
+    - "Elder abuse screening — ask about feeling safe at home, financial exploitation"
+    - "Medication safety — use pill organizers, avoid high-risk medications (Beers Criteria)"
+  nutrition:
+    - "Adequate protein intake 1.0-1.2 g/kg/day to prevent sarcopenia"
+    - "Calcium 1200 mg/day and Vitamin D 800-1000 IU/day for bone health"
+    - "Address poor appetite and unintentional weight loss — evaluate for depression, dental problems, medications"
+    - "Hydration awareness — thirst sensation decreases with age"
+    - "Counsel on food safety for immunocompromised state"
+  exercise:
+    - "150 minutes of moderate-intensity aerobic activity per week, as tolerated"
+    - "Muscle-strengthening activities 2+ days per week — resistance training preserves independence"
+    - "Balance exercises (Tai Chi, standing on one foot) to prevent falls"
+    - "Flexibility and mobility exercises to maintain range of motion"
+    - "Even modest increases in physical activity improve outcomes in previously sedentary older adults"
+  mental_health:
+    - "Screen for depression — risk increases with bereavement, chronic illness, social isolation, and retirement"
+    - "Assess for social isolation and loneliness — major risk factors for cognitive decline and mortality"
+    - "Encourage cognitive engagement — reading, puzzles, social activities, learning new skills"
+    - "Advance care planning — encourage conversations with family about values and preferences"
+    - "Screen for anxiety — often overlooked in older adults"
+  substance_use:
+    - "Alcohol — lower tolerance with aging; reassess safe limits (no more than 1 drink/day)"
+    - "Tobacco cessation — still beneficial to quit; reduces cardiovascular and cancer risk at any age"
+    - "Benzodiazepine and sedative use — assess for dependence; taper if possible (Beers Criteria)"
+    - "Cannabis use for symptom management — discuss potential interactions and cognitive effects"
+  advance_care_planning:
+    - "Discuss and document advance directives, healthcare proxy, and POLST/MOLST if appropriate"
+    - "Medicare AWV includes advance care planning as a billable component"
+    - "Review goals of care periodically, especially after hospitalizations or new diagnoses"
+    - "Encourage patients to share their wishes with family members, not just document them"
+sources:
+  - "USPSTF A and B Recommendations, current as of 2024-2025"
+  - "CMS Medicare Annual Wellness Visit Requirements"
+  - "AGS Beers Criteria for Potentially Inappropriate Medication Use in Older Adults (2023)"
+  - "CDC/ACIP Recommended Adult Immunization Schedule, 2025"
+  - "USPSTF Recommendation: Interventions to Prevent Falls in Community-Dwelling Older Adults (2018)"
+  - "Borson S, et al. The Mini-Cog: A cognitive vital signs measure. Int J Geriatr Psychiatry (2000)"
+  - "Gillespie LD, et al. Interventions for preventing falls in older people. Cochrane Review"
+  - "AHA/ACC Blood Pressure Guidelines (2017) — individualization for older adults"

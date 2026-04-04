@@ -1,0 +1,96 @@
+name: Smoking-Related Lung Disease Progression
+description: Progressive pulmonary deterioration from chronic tobacco use through
+  COPD, cor pulmonale, and chronic respiratory failure.
+stages:
+- condition_key: tobacco_use
+  display_name: Chronic Tobacco Use
+  typical_age_range:
+  - 240
+  - 360
+  symptoms:
+  - chronic cough
+  - morning sputum production
+  - decreased exercise tolerance
+  - frequent respiratory infections
+  treatments:
+  - smoking cessation counseling
+  - nicotine replacement therapy
+  - varenicline
+  - bupropion
+  transition_triggers:
+  - cumulative pack-year exposure (>10 pack-years)
+  - continued smoking
+  - occupational co-exposures
+- condition_key: copd_stable
+  display_name: Chronic Obstructive Pulmonary Disease
+  typical_age_range:
+  - 480
+  - 600
+  symptoms:
+  - progressive dyspnea
+  - chronic productive cough
+  - wheezing
+  - barrel chest
+  - prolonged expiration
+  treatments:
+  - long-acting bronchodilators (LAMA, LABA)
+  - inhaled corticosteroids (if frequent exacerbations)
+  - pulmonary rehabilitation
+  - supplemental oxygen if hypoxemic
+  transition_triggers:
+  - FEV1 decline below 50% predicted
+  - frequent exacerbations (>=2/year)
+  - chronic hypoxemia (PaO2 <55 mmHg)
+- condition_key: cor_pulmonale
+  display_name: Cor Pulmonale
+  typical_age_range:
+  - 600
+  - 720
+  symptoms:
+  - peripheral edema
+  - JVD
+  - hepatomegaly
+  - loud P2 heart sound
+  - right-sided S3
+  treatments:
+  - long-term oxygen therapy
+  - diuretics
+  - treat underlying COPD aggressively
+  - pulmonary vasodilators (select cases)
+  transition_triggers:
+  - chronic hypoxic pulmonary vasoconstriction
+  - pulmonary hypertension on echo
+  - right ventricular dilation
+- condition_key: chronic_respiratory_failure
+  display_name: Chronic Respiratory Failure
+  typical_age_range:
+  - 660
+  - 780
+  symptoms:
+  - dyspnea at rest
+  - chronic hypercapnia
+  - morning headaches
+  - somnolence
+  - cyanosis
+  treatments:
+  - non-invasive ventilation (BiPAP)
+  - long-term oxygen therapy
+  - palliative care consultation
+  - lung transplant evaluation (select patients)
+  transition_triggers:
+  - PaCO2 persistently >50 mmHg
+  - FEV1 <30% predicted
+  - recurrent acute-on-chronic exacerbations
+clinical_pearls:
+- Smoking cessation at any stage slows FEV1 decline and reduces exacerbation frequency
+- GOLD classification combines spirometry with symptom burden and exacerbation history for treatment decisions
+- Long-term oxygen therapy improves survival when PaO2 <55 mmHg or SpO2 <88% at rest
+- Cor pulmonale carries a worse prognosis than left heart failure in COPD — 5-year mortality exceeds 40%
+- Low-dose CT lung cancer screening is indicated for adults 50-80 with >=20 pack-year history
+references:
+- GOLD Report 2024
+- ATS/ERS COPD Guidelines 2023
+- USPSTF Lung Cancer Screening Recommendation 2021
+id: smoking_lung_disease
+specialties:
+- im

@@ -1,0 +1,113 @@
+name: Alcohol-Related Liver Disease Progression
+description: Progressive hepatic injury from chronic alcohol use through steatosis,
+  hepatitis, cirrhosis, and decompensation with life-threatening complications.
+stages:
+- condition_key: alcohol_use_disorder
+  display_name: Alcohol Use Disorder
+  typical_age_range:
+  - 240
+  - 420
+  symptoms:
+  - tolerance
+  - withdrawal symptoms
+  - craving
+  - social dysfunction
+  treatments:
+  - motivational interviewing
+  - naltrexone
+  - acamprosate
+  - cognitive behavioral therapy
+  transition_triggers:
+  - sustained heavy drinking (>14 drinks/week men, >7 women)
+  - binge drinking pattern
+- condition_key: fatty_liver
+  display_name: Alcoholic Fatty Liver (Steatosis)
+  typical_age_range:
+  - 360
+  - 480
+  symptoms:
+  - often asymptomatic
+  - hepatomegaly
+  - mild RUQ discomfort
+  - elevated GGT
+  treatments:
+  - alcohol cessation
+  - nutritional support
+  - thiamine supplementation
+  transition_triggers:
+  - continued alcohol use
+  - obesity as co-factor
+  - genetic susceptibility (PNPLA3 variant)
+- condition_key: alcoholic_hepatitis
+  display_name: Alcoholic Hepatitis
+  typical_age_range:
+  - 420
+  - 540
+  symptoms:
+  - jaundice
+  - fever
+  - hepatomegaly
+  - RUQ pain
+  - leukocytosis
+  - coagulopathy
+  treatments:
+  - alcohol cessation
+  - corticosteroids (if Maddrey DF >=32)
+  - nutritional support
+  - pentoxifylline
+  transition_triggers:
+  - binge on top of chronic use
+  - Maddrey discriminant function >=32
+  - MELD score >20
+- condition_key: cirrhosis
+  display_name: Cirrhosis
+  typical_age_range:
+  - 480
+  - 600
+  symptoms:
+  - spider angiomata
+  - palmar erythema
+  - gynecomastia
+  - muscle wasting
+  - easy bruising
+  treatments:
+  - alcohol abstinence
+  - beta-blockers for portal hypertension
+  - surveillance for HCC
+  - liver transplant evaluation
+  transition_triggers:
+  - continued alcohol use
+  - portal hypertension development
+  - MELD score increase
+- condition_key: decompensated_cirrhosis
+  display_name: Decompensated Cirrhosis
+  typical_age_range:
+  - 540
+  - 720
+  symptoms:
+  - ascites
+  - variceal bleeding
+  - hepatic encephalopathy
+  - jaundice
+  - hepatorenal syndrome
+  treatments:
+  - diuretics and paracentesis for ascites
+  - lactulose and rifaximin for encephalopathy
+  - band ligation for varices
+  - liver transplant
+  transition_triggers:
+  - first variceal bleed
+  - refractory ascites
+  - spontaneous bacterial peritonitis
+clinical_pearls:
+- Alcoholic fatty liver is fully reversible with sustained abstinence
+- Maddrey discriminant function >=32 identifies severe alcoholic hepatitis requiring steroid consideration
+- Once cirrhosis develops, 5-year survival drops to 50% without abstinence
+- CAGE and AUDIT questionnaires screen for alcohol use disorder before liver damage occurs
+- HCC screening with ultrasound every 6 months is mandatory in established cirrhosis
+references:
+- AASLD Practice Guidance on Alcohol-Related Liver Disease 2024
+- ACG Clinical Guideline on Alcoholic Liver Disease 2018
+id: alcohol_liver_disease
+specialties:
+- im

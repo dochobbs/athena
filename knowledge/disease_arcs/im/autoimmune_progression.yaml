@@ -1,0 +1,124 @@
+name: Autoimmune Disease Complications
+description: Progressive systemic complications from chronic autoimmune disease (SLE
+  and RA) including organ damage, treatment side effects, and accelerated
+  cardiovascular disease.
+stages:
+- condition_key: sle
+  display_name: Systemic Lupus Erythematosus
+  typical_age_range:
+  - 240
+  - 420
+  symptoms:
+  - malar rash
+  - arthralgia
+  - fatigue
+  - photosensitivity
+  - oral ulcers
+  - serositis
+  treatments:
+  - hydroxychloroquine (all patients)
+  - NSAIDs
+  - low-dose corticosteroids
+  - belimumab
+  transition_triggers:
+  - persistent disease activity (high SLEDAI)
+  - anti-dsDNA elevation with complement consumption
+  - proteinuria development
+  - medication non-adherence
+- condition_key: lupus_nephritis
+  display_name: Lupus Nephritis
+  typical_age_range:
+  - 300
+  - 540
+  symptoms:
+  - proteinuria
+  - hematuria
+  - hypertension
+  - edema
+  - elevated creatinine
+  treatments:
+  - mycophenolate mofetil (induction and maintenance)
+  - cyclophosphamide (severe Class III/IV)
+  - voclosporin
+  - ACE inhibitors or ARBs
+  - corticosteroids
+  transition_triggers:
+  - Class III or IV nephritis on biopsy
+  - nephrotic-range proteinuria
+  - rising anti-dsDNA with falling complement
+- condition_key: rheumatoid_arthritis
+  display_name: Rheumatoid Arthritis
+  typical_age_range:
+  - 360
+  - 540
+  symptoms:
+  - symmetric polyarthritis
+  - morning stiffness >60 minutes
+  - joint swelling
+  - fatigue
+  - rheumatoid nodules
+  treatments:
+  - methotrexate (anchor drug)
+  - biologics (TNF inhibitors, IL-6 inhibitors, JAK inhibitors)
+  - low-dose prednisone (bridging only)
+  - hydroxychloroquine
+  transition_triggers:
+  - erosive disease on imaging
+  - high RF and anti-CCP titers
+  - inadequate response to methotrexate
+- condition_key: steroid_complications
+  display_name: Chronic Steroid Complications (Osteoporosis)
+  typical_age_range:
+  - 420
+  - 600
+  symptoms:
+  - vertebral compression fractures
+  - bone pain
+  - proximal myopathy
+  - cushingoid features
+  - avascular necrosis
+  treatments:
+  - bisphosphonates or denosumab
+  - calcium and vitamin D supplementation
+  - steroid-sparing immunosuppressants
+  - DEXA monitoring
+  transition_triggers:
+  - cumulative prednisone exposure (>5mg/day for >3 months)
+  - fragility fractures
+  - T-score <-2.5
+- condition_key: accelerated_atherosclerosis
+  display_name: Accelerated Cardiovascular Disease
+  typical_age_range:
+  - 480
+  - 660
+  symptoms:
+  - angina
+  - MI at young age
+  - stroke
+  - peripheral arterial disease
+  - premature carotid intimal thickening
+  treatments:
+  - aggressive lipid management (statins)
+  - blood pressure control
+  - smoking cessation
+  - tight disease activity control
+  - aspirin (if indicated by risk)
+  transition_triggers:
+  - chronic systemic inflammation
+  - traditional risk factors plus disease-specific risk
+  - antiphospholipid antibodies (SLE)
+  - chronic corticosteroid use
+clinical_pearls:
+- Hydroxychloroquine reduces flares, organ damage, and mortality in SLE — it should never be stopped
+- Lupus nephritis occurs in up to 50% of SLE patients and requires renal biopsy for classification and treatment decisions
+- Treat-to-target in RA means achieving remission or low disease activity within 6 months — escalate if not met
+- Glucocorticoid-induced osteoporosis prevention should start when prednisone >2.5mg/day is anticipated for >3 months
+- SLE and RA patients have 2-3x increased cardiovascular risk that is not fully explained by traditional risk factors
+references:
+- ACR/EULAR SLE Management Guidelines 2023
+- ACR RA Treatment Guidelines 2021
+- KDIGO Lupus Nephritis Guidelines 2024
+- ACR Glucocorticoid-Induced Osteoporosis Guidelines 2022
+id: autoimmune_progression
+specialties:
+- im

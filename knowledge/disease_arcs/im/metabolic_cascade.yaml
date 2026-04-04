@@ -1,0 +1,95 @@
+name: Metabolic Cascade
+description: Progressive metabolic deterioration from metabolic syndrome through
+  type 2 diabetes, chronic kidney disease, and end-stage renal disease.
+stages:
+- condition_key: metabolic_syndrome
+  display_name: Metabolic Syndrome
+  typical_age_range:
+  - 360
+  - 480
+  symptoms:
+  - central obesity
+  - elevated fasting glucose
+  - hypertriglyceridemia
+  - low HDL
+  - hypertension
+  treatments:
+  - lifestyle modification
+  - weight loss
+  - exercise prescription
+  transition_triggers:
+  - persistent insulin resistance
+  - weight gain
+  - sedentary lifestyle
+- condition_key: type_2_diabetes_adult
+  display_name: Type 2 Diabetes Mellitus
+  typical_age_range:
+  - 480
+  - 600
+  symptoms:
+  - polyuria
+  - polydipsia
+  - fatigue
+  - blurred vision
+  - acanthosis nigricans
+  treatments:
+  - metformin
+  - GLP-1 receptor agonists
+  - SGLT2 inhibitors
+  - insulin
+  transition_triggers:
+  - HbA1c persistently above 7%
+  - medication non-adherence
+  - progressive beta-cell failure
+- condition_key: ckd
+  display_name: Chronic Kidney Disease
+  typical_age_range:
+  - 600
+  - 720
+  symptoms:
+  - proteinuria
+  - edema
+  - fatigue
+  - nocturia
+  - pruritus
+  treatments:
+  - ACE inhibitors or ARBs
+  - SGLT2 inhibitors
+  - dietary protein restriction
+  - blood pressure control
+  transition_triggers:
+  - sustained GFR decline below 30
+  - uncontrolled hypertension
+  - recurrent AKI episodes
+- condition_key: esrd
+  display_name: End-Stage Renal Disease
+  typical_age_range:
+  - 720
+  - 840
+  symptoms:
+  - uremia
+  - severe edema
+  - dyspnea
+  - nausea
+  - encephalopathy
+  treatments:
+  - hemodialysis
+  - peritoneal dialysis
+  - renal transplant evaluation
+  - erythropoiesis-stimulating agents
+  transition_triggers:
+  - GFR below 15
+  - refractory fluid overload
+  - uremic symptoms
+clinical_pearls:
+- SGLT2 inhibitors reduce CKD progression independent of glucose control
+- Early ACE/ARB use slows diabetic nephropathy progression by reducing intraglomerular pressure
+- Metabolic syndrome affects roughly 35% of US adults and is the most common precursor to type 2 diabetes
+- Tight glycemic control early in disease (legacy effect) reduces microvascular complications decades later
+- GLP-1 receptor agonists provide cardiovascular and renal protection beyond glucose lowering
+references:
+- ADA Standards of Care in Diabetes 2024
+- KDIGO CKD Guidelines 2024
+id: metabolic_cascade
+specialties:
+- im

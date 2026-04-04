@@ -1,0 +1,99 @@
+name: Venous Thromboembolism Progression
+description: Progression from deep vein thrombosis through pulmonary embolism to
+  chronic complications including post-thrombotic syndrome and chronic thromboembolic
+  pulmonary hypertension.
+stages:
+- condition_key: dvt
+  display_name: Deep Vein Thrombosis
+  typical_age_range:
+  - 360
+  - 600
+  symptoms:
+  - unilateral leg swelling
+  - calf pain
+  - warmth
+  - erythema
+  - pitting edema
+  treatments:
+  - anticoagulation (DOACs preferred)
+  - compression stockings
+  - early ambulation
+  - catheter-directed thrombolysis (massive iliofemoral DVT)
+  transition_triggers:
+  - proximal DVT extension
+  - clot fragmentation
+  - inadequate anticoagulation
+  - immobilization
+- condition_key: pulmonary_embolism
+  display_name: Pulmonary Embolism
+  typical_age_range:
+  - 360
+  - 660
+  symptoms:
+  - acute dyspnea
+  - pleuritic chest pain
+  - tachycardia
+  - hemoptysis
+  - syncope (massive PE)
+  treatments:
+  - anticoagulation (heparin bridge then DOAC)
+  - systemic thrombolysis (massive PE with hemodynamic instability)
+  - catheter-directed therapy
+  - IVC filter (if anticoagulation contraindicated)
+  transition_triggers:
+  - right ventricular strain on CT or echo
+  - elevated troponin
+  - hemodynamic instability
+  - clot burden in central pulmonary arteries
+- condition_key: post_thrombotic_syndrome
+  display_name: Post-Thrombotic Syndrome
+  typical_age_range:
+  - 384
+  - 720
+  symptoms:
+  - chronic leg swelling
+  - pain with prolonged standing
+  - skin hyperpigmentation
+  - venous stasis dermatitis
+  - venous ulceration
+  treatments:
+  - compression therapy
+  - exercise
+  - wound care for ulcers
+  - venous stenting (select cases)
+  transition_triggers:
+  - residual venous obstruction
+  - valvular incompetence
+  - recurrent ipsilateral DVT
+- condition_key: cteph
+  display_name: Chronic Thromboembolic Pulmonary Hypertension
+  typical_age_range:
+  - 396
+  - 720
+  symptoms:
+  - progressive exertional dyspnea
+  - exercise intolerance
+  - right heart failure signs
+  - hemoptysis
+  treatments:
+  - pulmonary endarterectomy (potentially curative)
+  - balloon pulmonary angioplasty
+  - riociguat
+  - lifelong anticoagulation
+  transition_triggers:
+  - incomplete clot resolution after PE
+  - organized thrombus in pulmonary arteries
+  - progressive pulmonary vascular remodeling
+clinical_pearls:
+- Wells score and D-dimer guide initial DVT/PE workup — avoid CT angiography in low-probability patients
+- DOACs (rivaroxaban, apixaban) are first-line for most VTE and do not require bridging with heparin
+- Post-thrombotic syndrome develops in 20-50% of DVT patients and is the most common chronic VTE complication
+- CTEPH occurs in 2-4% of PE survivors — maintain clinical suspicion for unexplained dyspnea after PE
+- Pulmonary endarterectomy is potentially curative for CTEPH and should be evaluated at expert centers
+references:
+- ASH VTE Guidelines 2020
+- ESC Pulmonary Embolism Guidelines 2019
+- CHEST Guideline on VTE Treatment 2021
+id: venous_thromboembolism
+specialties:
+- im

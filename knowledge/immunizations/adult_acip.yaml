@@ -1,0 +1,193 @@
+# Adult Immunization Schedule — Based on ACIP Recommendations 2025
+# Reference: CDC Advisory Committee on Immunization Practices
+
+vaccines:
+  influenza:
+    name: "Influenza (Flu)"
+    types: ["IIV4 (Inactivated)", "LAIV4 (Live Attenuated)", "RIV4 (Recombinant)", "aIIV4 (Adjuvanted)", "HD-IIV4 (High-Dose)"]
+    notes: "HD or adjuvanted preferred for age 65+"
+
+  tdap_td:
+    name: "Tetanus, Diphtheria, Pertussis"
+    types: ["Tdap", "Td"]
+    notes: "1 dose Tdap if not previously received, then Td every 10 years"
+
+  mmr:
+    name: "Measles, Mumps, Rubella"
+    cvx_code: "03"
+    notes: "If no evidence of immunity: 1 or 2 doses depending on risk"
+
+  varicella:
+    name: "Varicella (Chickenpox)"
+    cvx_code: "21"
+    notes: "If no evidence of immunity: 2 doses 4-8 weeks apart"
+
+  zoster:
+    name: "Zoster (Shingrix)"
+    cvx_code: "187"
+    series_doses: 2
+    notes: "2 doses 2-6 months apart. Preferred over Zostavax."
+
+  hpv:
+    name: "Human Papillomavirus"
+    cvx_code: "165"
+    series_doses: 3
+    notes: "Routine through age 26. Shared clinical decision 27-45."
+
+  pneumococcal:
+    name: "Pneumococcal"
+    types: ["PCV20 (Prevnar 20)", "PCV15 (Vaxneuvance)", "PPSV23 (Pneumovax)"]
+    notes: "PCV20 alone OR PCV15 followed by PPSV23"
+
+  hepatitis_a:
+    name: "Hepatitis A"
+    cvx_code: "85"
+    series_doses: 2
+    notes: "2 doses 6-12 months apart if at risk or desire immunity"
+
+  hepatitis_b:
+    name: "Hepatitis B"
+    cvx_code: "45"
+    types: ["Engerix-B (3 dose)", "Heplisav-B (2 dose)", "PreHevbrio (3 dose)"]
+    notes: "Universal adult vaccination recommended (ACIP 2022)"
+
+  meningococcal_acwy:
+    name: "Meningococcal ACWY"
+    cvx_code: "114"
+    notes: "If risk factors: asplenia, complement deficiency, HIV, travel, outbreak"
+
+  meningococcal_b:
+    name: "Meningococcal B"
+    cvx_code: "163"
+    notes: "Shared clinical decision age 16-23. Required if asplenia or complement deficiency."
+
+  covid_19:
+    name: "COVID-19"
+    types: ["Updated mRNA", "Novavax"]
+    notes: "Updated vaccine annually per CDC guidance"
+
+schedule:
+  age_18_26:
+    age_description: "18-26 years"
+    age_range_months: [216, 324]
+    immunizations:
+      - vaccine: influenza
+        frequency: "Annual"
+        notes: "Any age-appropriate formulation"
+      - vaccine: tdap_td
+        frequency: "Tdap once, then Td every 10 years"
+      - vaccine: hpv
+        frequency: "Complete series if not done"
+        notes: "Routine recommendation through age 26"
+      - vaccine: hepatitis_b
+        frequency: "Complete series if not done"
+        notes: "Universal recommendation"
+      - vaccine: covid_19
+        frequency: "Annual updated vaccine"
+      - vaccine: mmr
+        frequency: "1-2 doses if no evidence of immunity"
+        notes: "Especially healthcare workers, international travelers"
+      - vaccine: varicella
+        frequency: "2 doses if no evidence of immunity"
+
+  age_27_49:
+    age_description: "27-49 years"
+    age_range_months: [324, 600]
+    immunizations:
+      - vaccine: influenza
+        frequency: "Annual"
+      - vaccine: tdap_td
+        frequency: "Td every 10 years (Tdap once if not received)"
+      - vaccine: hepatitis_b
+        frequency: "Complete series if not done"
+      - vaccine: covid_19
+        frequency: "Annual updated vaccine"
+      - vaccine: hpv
+        frequency: "Shared clinical decision through age 45"
+        notes: "Not routine after 26 — discuss if not previously vaccinated"
+
+  age_50_64:
+    age_description: "50-64 years"
+    age_range_months: [600, 780]
+    immunizations:
+      - vaccine: influenza
+        frequency: "Annual"
+      - vaccine: tdap_td
+        frequency: "Td every 10 years"
+      - vaccine: zoster
+        frequency: "2 doses starting at age 50"
+        notes: "Shingrix: 2 doses 2-6 months apart"
+      - vaccine: hepatitis_b
+        frequency: "Complete series if not done"
+      - vaccine: covid_19
+        frequency: "Annual updated vaccine"
+
+  age_65_plus:
+    age_description: "65+ years"
+    age_range_months: [780, null]
+    immunizations:
+      - vaccine: influenza
+        frequency: "Annual"
+        notes: "High-dose or adjuvanted formulation preferred"
+      - vaccine: tdap_td
+        frequency: "Td every 10 years"
+      - vaccine: zoster
+        frequency: "2 doses if not already received"
+      - vaccine: pneumococcal
+        frequency: "PCV20 once, OR PCV15 then PPSV23"
+        notes: "If no prior pneumococcal vaccine. See ACIP for complex catch-up."
+      - vaccine: hepatitis_b
+        frequency: "Complete series if not done"
+      - vaccine: covid_19
+        frequency: "Annual updated vaccine"
+
+risk_based:
+  description: "Additional vaccines for specific risk groups"
+  categories:
+    - risk: "Healthcare workers"
+      vaccines: [hepatitis_b, mmr, varicella, influenza, covid_19, tdap_td]
+      notes: "Must have documented immunity to MMR and varicella"
+
+    - risk: "Immunocompromised"
+      vaccines: [pneumococcal, meningococcal_acwy, meningococcal_b, hepatitis_b, influenza, covid_19]
+      notes: "Live vaccines (LAIV, MMR, varicella, Zostavax) contraindicated. Shingrix is OK (non-live)."
+
+    - risk: "Asplenia or complement deficiency"
+      vaccines: [pneumococcal, meningococcal_acwy, meningococcal_b]
+      notes: "MenACWY every 5 years. Hib vaccine also recommended."
+
+    - risk: "Chronic liver disease"
+      vaccines: [hepatitis_a, hepatitis_b, pneumococcal]
+
+    - risk: "Chronic kidney disease / dialysis"
+      vaccines: [hepatitis_b, pneumococcal, influenza]
+      notes: "Higher-dose Hep B series for dialysis patients"
+
+    - risk: "HIV infection"
+      vaccines: [pneumococcal, meningococcal_acwy, hepatitis_a, hepatitis_b, hpv]
+      notes: "MMR and varicella OK if CD4 >= 200"
+
+    - risk: "Pregnancy"
+      vaccines: [influenza, tdap_td, covid_19]
+      notes: "Tdap each pregnancy (27-36 weeks). Live vaccines contraindicated."
+
+    - risk: "International travel"
+      vaccines: [hepatitis_a, hepatitis_b, meningococcal_acwy, mmr, varicella]
+      notes: "Additional vaccines based on destination (yellow fever, typhoid, Japanese encephalitis, etc.)"
+
+    - risk: "Men who have sex with men"
+      vaccines: [hepatitis_a, hepatitis_b, hpv, meningococcal_acwy]
+
+teaching_notes:
+  key_concepts:
+    - "Shingrix (recombinant) replaced Zostavax (live) — 2 doses starting at age 50"
+    - "PCV20 simplified adult pneumococcal vaccination — single vaccine covers both PCV and PPSV"
+    - "Universal Hep B recommendation for all adults is relatively new (ACIP 2022)"
+    - "HPV vaccine is routine through 26, shared decision 27-45 — effectiveness wanes with age"
+    - "Pregnancy: Tdap EACH pregnancy at 27-36 weeks for passive neonatal pertussis protection"
+  common_mistakes:
+    - "Forgetting Shingrix for 50-64 year olds (many think it's only 65+)"
+    - "Not offering Hep B to adults who missed childhood series"
+    - "Using PPSV23 alone when PCV20 or PCV15+PPSV23 is now recommended"
+    - "Giving live vaccines to immunocompromised patients"
+    - "Missing Tdap in pregnancy (must be given EACH pregnancy)"
