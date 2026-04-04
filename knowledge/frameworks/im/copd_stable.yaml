@@ -1,0 +1,54 @@
+id: copd_stable
+topic: "COPD - Stable"
+category: pulmonary
+specialties:
+  - im
+teaching_goals:
+  - Apply GOLD ABE assessment tool for treatment initiation
+  - Interpret spirometry (FEV1/FVC <0.7 = obstruction)
+  - Know stepwise inhaler therapy escalation
+  - Understand when to add ICS, when to withdraw
+  - Identify candidates for oxygen therapy and lung volume reduction
+common_mistakes:
+  - Diagnosing COPD without spirometry
+  - Starting ICS in all COPD patients (only for frequent exacerbators or elevated eosinophils)
+  - Not counseling on smoking cessation at every visit
+  - Prescribing albuterol alone without maintenance LAMA
+  - Not vaccinating (influenza, pneumococcal, COVID, RSV)
+red_flags:
+  - Rapid FEV1 decline (>60 mL/year suggests active smoking or alpha-1 deficiency)
+  - Recurrent exacerbations despite optimal therapy
+  - Weight loss and cachexia (poor prognosis)
+  - Development of pulmonary hypertension
+  - Young-onset COPD suggesting alpha-1 antitrypsin deficiency
+clinical_pearls:
+  - GOLD Group A = low symptoms, low risk - SABA PRN only
+  - GOLD Group B = more symptoms - LABA + LAMA
+  - GOLD Group E = exacerbator - LABA + LAMA +/- ICS if eosinophils >300
+  - ICS increases pneumonia risk in COPD (unlike asthma)
+  - Alpha-1 antitrypsin testing should be done once in every COPD patient
+key_history_questions:
+  - How far can you walk before getting short of breath?
+  - Do you still smoke? Are you interested in quitting?
+  - How many exacerbations have you had in the past year?
+  - Can you demonstrate how you use your inhalers?
+  - Are you up to date on vaccinations?
+  - Any family history of COPD or alpha-1 antitrypsin deficiency?
+key_exam_findings:
+  - Spirometry with post-bronchodilator FEV1/FVC <0.7
+  - Barrel chest, increased AP diameter
+  - Decreased breath sounds
+  - Prolonged expiratory phase
+  - Oxygen saturation at rest and with exertion
+  - BMI (both underweight and overweight are relevant)
+treatment_principles:
+  - Smoking cessation is the ONLY intervention that slows FEV1 decline
+  - LAMA is first maintenance therapy for most patients
+  - Add LABA or step up to LABA/LAMA combination
+  - ICS only for frequent exacerbators with eosinophils >300
+  - Long-term oxygen if resting PaO2 <=55 or SpO2 <=88%
+disposition_guidance:
+  - Outpatient management for stable COPD
+  - Pulmonary rehabilitation referral
+  - Annual spirometry to monitor progression
+  - Pulmonology referral for severe disease or frequent exacerbations

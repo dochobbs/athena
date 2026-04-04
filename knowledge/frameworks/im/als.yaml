@@ -1,0 +1,51 @@
+id: als
+topic: "Amyotrophic Lateral Sclerosis"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Recognize combined upper and lower motor neuron signs as the hallmark
+  - Understand El Escorial criteria for diagnosis
+  - Differentiate ALS from treatable mimics (cervical myelopathy, multifocal motor neuropathy)
+  - Initiate goals of care and multidisciplinary management early
+  - Manage respiratory failure, the primary cause of death
+common_mistakes:
+  - Missing fasciculations on exam (ask patient to relax, examine in warm room)
+  - Attributing symptoms to carpal tunnel or cervical spondylosis before full workup
+  - Not checking for treatable mimics (B12, thyroid, lead, anti-GM1 antibodies)
+  - Delaying goals of care discussion and advance directive completion
+  - Overlooking nutritional support and PEG tube timing
+red_flags:
+  - Rapidly progressive weakness (months rather than years)
+  - Bulbar onset ALS (worse prognosis, earlier respiratory failure)
+  - Frontotemporal dementia overlap (behavioral changes)
+  - Declining FVC approaching threshold for non-invasive ventilation
+clinical_pearls:
+  - "Split hand sign: thenar wasting > hypothenar wasting is characteristic of ALS"
+  - "UMN + LMN signs in same segment is the diagnostic key"
+  - "EMG is essential: shows active and chronic denervation in multiple regions"
+  - "Riluzole provides modest survival benefit (~3 months)"
+  - "Respiratory failure is the primary cause of death; monitor FVC regularly"
+key_history_questions:
+  - "Where did weakness start and how has it progressed?"
+  - "Any difficulty with speech or swallowing?"
+  - "Any muscle twitching or cramping?"
+  - "Has handwriting or fine motor control changed?"
+  - "Any family history of ALS or motor neuron disease?"
+key_exam_findings:
+  - "Combined UMN signs (hyperreflexia, spasticity, Babinski) with LMN signs (atrophy, fasciculations)"
+  - "Fasciculations in multiple body regions"
+  - "Split hand sign"
+  - "Tongue fasciculations and atrophy (bulbar involvement)"
+  - "Preserved extraocular movements and sphincter function (spared in ALS)"
+treatment_principles:
+  - "Riluzole and edaravone are the only disease-modifying agents"
+  - "Multidisciplinary ALS clinic (neurology, pulmonary, speech, OT, PT, social work)"
+  - "Monitor FVC; initiate non-invasive ventilation when FVC <50%"
+  - "PEG tube placement before FVC drops below 50%"
+  - "Early and ongoing goals of care and advance directive discussions"
+disposition_guidance:
+  - "Outpatient management with ALS specialty clinic"
+  - "Admit for respiratory failure, aspiration, or acute decline"
+  - "Palliative care referral at diagnosis"
+  - "Hospice referral when appropriate"

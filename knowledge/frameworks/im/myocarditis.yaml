@@ -1,0 +1,54 @@
+id: myocarditis
+topic: "Myocarditis"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Recognize myocarditis as a great mimicker (looks like ACS, HF, or arrhythmia)
+  - Know common etiologies (viral, autoimmune, drug-induced)
+  - Understand role of cardiac MRI in diagnosis
+  - Apply heart failure management principles
+  - Identify fulminant myocarditis as a medical emergency
+common_mistakes:
+  - Taking patient to cath lab for what turns out to be myocarditis
+  - Not considering myocarditis in young patients with troponin elevation and clean coronaries
+  - Starting NSAIDs (may worsen myocardial inflammation)
+  - Discharging without close follow-up and activity restriction
+  - Missing giant cell myocarditis or eosinophilic myocarditis requiring immunosuppression
+red_flags:
+  - Cardiogenic shock (fulminant myocarditis, 10-15% mortality)
+  - Sustained ventricular arrhythmias
+  - Complete heart block
+  - Rapidly declining EF
+  - Failure to improve with standard HF therapy
+clinical_pearls:
+  - Young patient + troponin elevation + normal coronaries = think myocarditis
+  - Cardiac MRI with late gadolinium enhancement is diagnostic (Lake Louise criteria)
+  - Most viral myocarditis is self-limited with EF recovery in 3-6 months
+  - Exercise restriction for 3-6 months is critical
+  - Fulminant myocarditis paradoxically has better long-term prognosis than acute if survived
+key_history_questions:
+  - Any recent viral illness (1-4 weeks before)?
+  - New medications (especially checkpoint inhibitors, clozapine)?
+  - Recent vaccination?
+  - Chest pain, palpitations, or new exercise intolerance?
+  - Drug use (cocaine, amphetamines)?
+  - History of autoimmune disease?
+key_exam_findings:
+  - Tachycardia out of proportion to fever
+  - S3 gallop
+  - Signs of heart failure
+  - New murmur
+  - Arrhythmia on monitoring
+  - Pericardial rub if myopericarditis
+treatment_principles:
+  - Heart failure management (ACEi, beta-blocker when stable)
+  - Activity restriction for 3-6 months
+  - Avoid NSAIDs during acute myocarditis
+  - Mechanical circulatory support for fulminant cases
+  - Immunosuppression only for giant cell or eosinophilic myocarditis
+disposition_guidance:
+  - Admit all suspected myocarditis for monitoring
+  - Telemetry for arrhythmia surveillance
+  - Cardiac MRI when stable
+  - Repeat echo at 3-6 months to assess recovery

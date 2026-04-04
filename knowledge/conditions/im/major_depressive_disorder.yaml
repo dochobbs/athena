@@ -1,0 +1,84 @@
+id: major_depressive_disorder
+display_name: "Major Depressive Disorder"
+aliases:
+  - MDD
+  - Clinical depression
+  - Major depression
+  - Unipolar depression
+snomed: "370143000"
+icd10:
+  - "F32.9"
+  - "F33.9"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+presentation:
+  symptoms:
+    - name: depressed mood
+      probability: 0.90
+      description: "persistent sadness, emptiness, hopelessness most of the day"
+    - name: anhedonia
+      probability: 0.85
+      description: "loss of interest or pleasure in activities"
+    - name: sleep disturbance
+      probability: 0.75
+      description: "insomnia or hypersomnia"
+    - name: appetite change
+      probability: 0.60
+      description: "decreased or increased appetite with weight change"
+    - name: fatigue
+      probability: 0.80
+      description: "loss of energy, tiredness"
+    - name: worthlessness or guilt
+      probability: 0.55
+      description: "excessive or inappropriate guilt"
+    - name: concentration difficulty
+      probability: 0.60
+      description: "difficulty thinking, concentrating, making decisions"
+    - name: suicidal ideation
+      probability: 0.30
+      description: "recurrent thoughts of death or suicide"
+  physical_exam:
+    - system: psychiatric
+      finding: "Flat or constricted affect"
+      probability: 0.75
+    - system: psychiatric
+      finding: "Psychomotor retardation or agitation"
+      probability: 0.45
+    - system: general
+      finding: "Poor grooming, weight change"
+      probability: 0.30
+    - system: psychiatric
+      finding: "PHQ-9 score >= 10"
+      probability: 0.80
+treatment:
+  approach: antidepressant_and_psychotherapy
+  medications:
+    - agent: "Sertraline"
+      rxnorm: "36437"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line SSRI for MDD"
+    - agent: "Escitalopram"
+      rxnorm: "321988"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line SSRI, good tolerability"
+    - agent: "Bupropion"
+      rxnorm: "42347"
+      frequency: "once daily (XL formulation)"
+      route: oral
+      indication: "alternative for fatigue-predominant depression, no sexual side effects"
+    - agent: "Mirtazapine"
+      rxnorm: "30121"
+      frequency: "once daily at bedtime"
+      route: oral
+      indication: "for insomnia-predominant depression, appetite stimulation"

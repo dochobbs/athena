@@ -1,0 +1,79 @@
+id: pressure_ulcers
+display_name: "Pressure Ulcers"
+aliases:
+  - Pressure injuries
+  - Decubitus ulcers
+  - Bedsores
+  - Pressure sores
+snomed: "399912005"
+icd10:
+  - "L89.90"
+  - "L89.93"
+category: acute
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: skin breakdown
+      probability: 0.95
+      description: "localized damage to skin and underlying tissue over bony prominence"
+    - name: pain at site
+      probability: 0.50
+      description: "may be absent if neuropathy present"
+    - name: erythema
+      probability: 0.80
+      description: "non-blanchable redness (Stage 1)"
+    - name: wound drainage
+      probability: 0.40
+      description: "serous or purulent drainage in advanced stages"
+    - name: foul odor
+      probability: 0.20
+      description: "suggests infection or necrotic tissue"
+  physical_exam:
+    - system: skin
+      finding: "Non-blanchable erythema of intact skin (Stage 1)"
+      probability: 0.30
+    - system: skin
+      finding: "Partial thickness skin loss with exposed dermis (Stage 2)"
+      probability: 0.25
+    - system: skin
+      finding: "Full thickness skin loss with visible subcutaneous tissue (Stage 3)"
+      probability: 0.20
+    - system: skin
+      finding: "Full thickness with exposed muscle, tendon, or bone (Stage 4)"
+      probability: 0.10
+    - system: skin
+      finding: "Location over sacrum, heels, ischium, trochanters"
+      probability: 0.90
+    - system: general
+      finding: "Assessment of nutrition status, mobility, continence"
+      probability: 0.80
+treatment:
+  approach: wound_care_and_pressure_offloading
+  medications:
+    - agent: "Silver Sulfadiazine"
+      rxnorm: "9867"
+      frequency: "once to twice daily"
+      route: topical
+      indication: "topical antimicrobial for wound bed"
+    - agent: "Metronidazole Gel"
+      rxnorm: "6922"
+      frequency: "once daily"
+      route: topical
+      indication: "topical for malodorous wounds (anaerobic coverage)"
+    - agent: "Cephalexin"
+      rxnorm: "2231"
+      frequency: "four times daily"
+      route: oral
+      indication: "oral antibiotic if surrounding cellulitis"
+    - agent: "Nutritional Supplement"
+      rxnorm: "226340"
+      frequency: "twice daily"
+      route: oral
+      indication: "protein and caloric supplementation for wound healing"

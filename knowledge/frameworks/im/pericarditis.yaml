@@ -1,0 +1,53 @@
+id: pericarditis
+topic: Pericarditis
+category: cardiology
+specialties:
+- im
+teaching_goals:
+- Recognize classic presentation (pleuritic chest pain improved sitting forward)
+- 'Identify diagnostic criteria (2 of 4: chest pain, friction rub, ECG changes, effusion)'
+- Distinguish pericarditis from STEMI on ECG
+- Use colchicine to prevent recurrence
+- Know when pericarditis indicates serious underlying disease
+common_mistakes:
+- Activating cath lab for diffuse ST elevation that is actually pericarditis
+- Not using colchicine (reduces recurrence by 50%)
+- Prescribing corticosteroids first-line (increases recurrence)
+- Missing developing tamponade with serial effusion growth
+- Not evaluating for underlying cause (malignancy, autoimmune, TB)
+red_flags:
+- Beck triad (hypotension, JVD, muffled heart sounds) indicating tamponade
+- Large pericardial effusion with hemodynamic compromise
+- Fever >38C with large effusion (purulent pericarditis)
+- Concurrent myocarditis with troponin elevation and LV dysfunction
+- Constrictive physiology developing after acute episode
+clinical_pearls:
+- Diffuse ST elevation with PR depression = pericarditis, not STEMI
+- ECG shows diffuse concave-up ST elevation and PR depression (except aVR)
+- Pericardial friction rub is pathognomonic but evanescent
+- Most cases are viral/idiopathic and self-limited
+- Colchicine 0.5 mg BID for 3 months is the key to preventing recurrence
+key_history_questions:
+- Is the chest pain sharp and pleuritic?
+- Does it improve when you sit up and lean forward?
+- Any recent viral illness?
+- History of autoimmune disease, cancer, or kidney disease?
+- Any recent cardiac surgery or procedure?
+- Prior episodes of similar chest pain?
+key_exam_findings:
+- Pericardial friction rub (scratchy, three-component)
+- Tachycardia
+- Distant heart sounds if effusion
+- Pulsus paradoxus if tamponade developing
+- Low-grade fever
+treatment_principles:
+- NSAIDs (ibuprofen) as first-line anti-inflammatory
+- Colchicine added to NSAID to prevent recurrence
+- Aspirin preferred over ibuprofen if post-MI (Dressler syndrome)
+- Avoid steroids unless contraindication to NSAIDs/colchicine
+- Restrict activity until symptoms resolve and CRP normalizes
+disposition_guidance:
+- Outpatient for uncomplicated pericarditis
+- Admit if large effusion, tamponade suspected, or troponin elevated
+- Echocardiogram to assess for effusion
+- Follow-up CRP to guide activity restriction

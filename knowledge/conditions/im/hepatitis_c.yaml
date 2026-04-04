@@ -1,0 +1,64 @@
+id: hepatitis_c
+display_name: "Hepatitis C"
+aliases:
+  - HCV
+  - Chronic hepatitis C
+  - Hep C
+snomed: "50711007"
+icd10:
+  - "B18.2"
+  - "B17.10"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.65
+      description: "Chronic fatigue, most common symptom"
+    - name: asymptomatic
+      probability: 0.55
+      description: "Majority of chronic infections are asymptomatic"
+    - name: right_upper_quadrant_pain
+      probability: 0.30
+      description: "Vague RUQ discomfort"
+    - name: arthralgias
+      probability: 0.25
+      description: "Joint pain and myalgias"
+    - name: jaundice
+      probability: 0.20
+      description: "Late finding suggesting advanced disease"
+  physical_exam:
+    - system: general
+      finding: "Often normal in early chronic disease"
+      probability: 0.60
+    - system: abdomen
+      finding: "Hepatomegaly with mild tenderness"
+      probability: 0.30
+    - system: skin
+      finding: "Jaundice, spider angiomata if cirrhotic"
+      probability: 0.20
+treatment:
+  approach: direct_acting_antivirals
+  medications:
+    - agent: "Sofosbuvir/Velpatasvir"
+      rxnorm: "1721476"
+      frequency: "400/100 mg daily x 12 weeks"
+      route: oral
+      indication: "Pan-genotypic DAA regimen, first-line"
+    - agent: "Glecaprevir/Pibrentasvir"
+      rxnorm: "1939268"
+      frequency: "300/120 mg daily x 8-12 weeks"
+      route: oral
+      indication: "Pan-genotypic DAA, preferred in CKD"

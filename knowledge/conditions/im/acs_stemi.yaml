@@ -1,0 +1,93 @@
+id: acs_stemi
+display_name: "ST-Elevation Myocardial Infarction"
+aliases:
+  - STEMI
+  - ST-elevation MI
+  - Acute MI
+  - Heart attack
+snomed: "401303003"
+icd10:
+  - "I21.3"
+  - "I21.0"
+  - "I21.1"
+  - "I21.2"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.20
+  rr_multiplier: 1.15
+  spo2_min: 92
+  bp_systolic:
+    - 80
+    - 160
+presentation:
+  symptoms:
+    - name: chest_pain
+      probability: 0.90
+      description: "substernal crushing/pressure, radiating to left arm or jaw"
+    - name: diaphoresis
+      probability: 0.70
+      description: "profuse sweating"
+    - name: dyspnea
+      probability: 0.60
+      description: "shortness of breath"
+    - name: nausea_vomiting
+      probability: 0.50
+      description: "nausea with or without vomiting"
+    - name: anxiety
+      probability: 0.60
+      description: "sense of impending doom"
+    - name: radiation_to_arm
+      probability: 0.55
+      description: "pain radiating to left arm, jaw, or back"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Tachycardia, may be bradycardic in inferior MI"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "S3 or S4 gallop"
+      probability: 0.35
+    - system: cardiovascular
+      finding: "New mitral regurgitation murmur"
+      probability: 0.15
+    - system: general
+      finding: "Diaphoretic, pale, anxious appearance"
+      probability: 0.75
+    - system: respiratory
+      finding: "Crackles if Killip class II-IV"
+      probability: 0.30
+treatment:
+  approach: emergent_reperfusion
+  medications:
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "325 mg chewed immediately"
+      route: oral
+      indication: "antiplatelet, give immediately"
+    - agent: "Ticagrelor"
+      rxnorm: "1116632"
+      frequency: "180 mg loading then 90 mg BID"
+      route: oral
+      indication: "P2Y12 inhibitor for dual antiplatelet therapy"
+    - agent: "Heparin"
+      rxnorm: "5224"
+      frequency: "60 U/kg bolus then 12 U/kg/hr"
+      route: iv
+      indication: "anticoagulation for PCI"
+    - agent: "Nitroglycerin"
+      rxnorm: "7512"
+      frequency: "0.4 mg SL q5min x3 or IV infusion"
+      route: iv
+      indication: "chest pain relief, avoid if RV infarction or hypotension"
+    - agent: "Morphine"
+      rxnorm: "7052"
+      frequency: "2-4 mg IV q5-15min PRN"
+      route: iv
+      indication: "refractory pain, use cautiously"

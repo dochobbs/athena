@@ -1,0 +1,78 @@
+id: interstitial_lung_disease
+display_name: "Interstitial Lung Disease"
+aliases:
+  - ILD
+  - Idiopathic pulmonary fibrosis
+  - IPF
+  - Pulmonary fibrosis
+snomed: "233703007"
+icd10:
+  - "J84.9"
+  - "J84.10"
+  - "J84.112"
+category: chronic
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.05
+  rr_multiplier: 1.15
+  spo2_min: 86
+presentation:
+  symptoms:
+    - name: progressive_dyspnea
+      probability: 0.90
+      description: "insidious progressive exertional dyspnea"
+    - name: dry_cough
+      probability: 0.75
+      description: "chronic non-productive cough"
+    - name: fatigue
+      probability: 0.60
+      description: "progressive fatigue"
+    - name: weight_loss
+      probability: 0.30
+      description: "unintentional weight loss"
+    - name: exertional_desaturation
+      probability: 0.65
+      description: "SpO2 drops significantly with activity"
+  physical_exam:
+    - system: respiratory
+      finding: "Bibasilar Velcro-like crackles"
+      probability: 0.85
+    - system: extremities
+      finding: "Digital clubbing"
+      probability: 0.50
+    - system: respiratory
+      finding: "Tachypnea at rest in advanced disease"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Signs of pulmonary hypertension (loud P2, RV heave)"
+      probability: 0.25
+treatment:
+  approach: antifibrotic_and_supportive
+  medications:
+    - agent: "Pirfenidone"
+      rxnorm: "1244689"
+      frequency: "801 mg TID with food"
+      route: oral
+      indication: "antifibrotic for IPF, slows FVC decline"
+    - agent: "Nintedanib"
+      rxnorm: "1592753"
+      frequency: "150 mg BID"
+      route: oral
+      indication: "antifibrotic for IPF, alternative to pirfenidone"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "variable dosing"
+      route: oral
+      indication: "for inflammatory ILD (not IPF)"
+    - agent: "Mycophenolate"
+      rxnorm: "68149"
+      frequency: "1-1.5 g BID"
+      route: oral
+      indication: "steroid-sparing agent for connective tissue disease-ILD"

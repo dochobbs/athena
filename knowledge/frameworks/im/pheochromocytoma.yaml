@@ -1,0 +1,54 @@
+id: pheochromocytoma
+topic: "Pheochromocytoma"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Recognize the classic triad (headache, diaphoresis, palpitations with hypertension)
+  - Know the diagnostic workup (plasma free metanephrines as first-line)
+  - Understand the critical importance of alpha-blockade BEFORE beta-blockade
+  - Identify familial syndromes (MEN2, VHL, NF1, SDH mutations)
+  - Manage perioperative preparation for adrenalectomy
+common_mistakes:
+  - Starting beta-blocker before alpha-blockade (can cause hypertensive crisis)
+  - Using 24-hour urine as initial test instead of plasma free metanephrines
+  - Not screening family members for hereditary syndromes
+  - Triggering crisis with anesthesia in unprepared patient
+  - Missing extra-adrenal paraganglioma (10-15% are extra-adrenal)
+red_flags:
+  - Hypertensive crisis (SBP >200)
+  - Catecholamine cardiomyopathy
+  - Arrhythmia (ventricular tachycardia)
+  - Multiorgan failure from sustained catecholamine excess
+  - Family history of MEN2, VHL, or sudden death
+clinical_pearls:
+  - "Rule of 10s is outdated: ~40% are hereditary, ~10% malignant, ~10% bilateral, ~15% extra-adrenal"
+  - "Plasma free metanephrines: sensitivity >96%. Best initial screening test."
+  - "Alpha-blockade first (phenoxybenzamine or doxazosin) for 10-14 days before surgery"
+  - "Only add beta-blocker AFTER adequate alpha-blockade (to prevent unopposed alpha stimulation)"
+  - "All pheochromocytomas should have genetic testing now - high rate of hereditary disease"
+key_history_questions:
+  - Episodes of headache, sweating, and palpitations?
+  - Blood pressure lability or resistant hypertension?
+  - Family history of pheo, MEN2, VHL, neurofibromatosis?
+  - Anxiety or panic attacks?
+  - Triggered by anesthesia, exercise, or abdominal pressure?
+  - Incidental adrenal mass on imaging?
+key_exam_findings:
+  - Hypertension (paroxysmal or sustained)
+  - Tachycardia during episodes
+  - Diaphoresis and pallor
+  - Postural hypotension (volume depletion from vasoconstriction)
+  - Cafe-au-lait spots (NF1)
+  - Retinal hemangioblastomas (VHL)
+treatment_principles:
+  - Alpha-blockade first (phenoxybenzamine 10-14 days preoperatively)
+  - Beta-blockade only after adequate alpha-blockade
+  - High-sodium diet and fluids to expand volume preoperatively
+  - Surgical adrenalectomy is the definitive treatment
+  - Lifelong follow-up (recurrence and metachronous tumors)
+disposition_guidance:
+  - "Outpatient: Diagnostic workup, preoperative alpha-blockade"
+  - "Admission: Hypertensive crisis, preoperative optimization"
+  - "ICU: Hypertensive emergency, catecholamine crisis"
+  - "Surgery: Laparoscopic adrenalectomy after adequate preoperative preparation"

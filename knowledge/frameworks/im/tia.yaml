@@ -1,0 +1,51 @@
+id: tia
+topic: "Transient Ischemic Attack"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Recognize TIA as a neurologic emergency with high short-term stroke risk
+  - Apply ABCD2 score for risk stratification
+  - Initiate urgent workup (imaging, cardiac, vascular) within 24 hours
+  - Start dual antiplatelet therapy for high-risk TIA
+  - Understand the tissue-based definition of TIA vs minor stroke
+common_mistakes:
+  - Dismissing resolved symptoms as benign
+  - Failing to obtain urgent brain and vascular imaging
+  - Not starting dual antiplatelet therapy acutely
+  - Missing atrial fibrillation as the cause
+  - Discharging without follow-up plan or return precautions
+red_flags:
+  - ABCD2 score >= 4 indicating high stroke risk
+  - Crescendo TIAs (multiple events in short period)
+  - Carotid stenosis >70% requiring urgent intervention
+  - New atrial fibrillation requiring anticoagulation
+clinical_pearls:
+  - "90-day stroke risk after TIA is 10-15% without treatment, highest in first 48 hours"
+  - "ABCD2 score: Age, BP, Clinical features, Duration, Diabetes"
+  - "Dual antiplatelet (ASA + clopidogrel) for 21 days reduces 90-day stroke risk by 25%"
+  - "MRI with DWI is more sensitive than CT; DWI-positive TIA has higher stroke risk"
+  - "Tissue-based definition: TIA = no infarction on imaging regardless of symptom duration"
+key_history_questions:
+  - "Exactly what symptoms occurred and in what order?"
+  - "How long did symptoms last?"
+  - "Has this happened before?"
+  - "Is the patient on aspirin or anticoagulation?"
+  - "Any history of atrial fibrillation, carotid disease, or prior stroke?"
+  - "What are the patient's vascular risk factors?"
+key_exam_findings:
+  - "Often normal neurologic exam (symptoms resolved)"
+  - "Carotid bruit on auscultation"
+  - "Irregular pulse suggesting atrial fibrillation"
+  - "Blood pressure elevation"
+  - "Subtle residual deficits on careful exam"
+treatment_principles:
+  - "Dual antiplatelet (aspirin 325 + clopidogrel 300 load, then 75) for 21 days"
+  - "Brain MRI with DWI and MRA (or CTA) of head and neck urgently"
+  - "Echocardiogram and telemetry to evaluate for cardioembolic source"
+  - "High-intensity statin regardless of LDL"
+  - "Address modifiable risk factors aggressively"
+disposition_guidance:
+  - "Admit or observe high-risk TIA (ABCD2 >= 4) for 24-48 hours"
+  - "Urgent neurology follow-up within 1-2 days if discharged"
+  - "Stroke education and return precautions (BE-FAST)"

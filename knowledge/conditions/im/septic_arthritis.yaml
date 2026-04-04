@@ -1,0 +1,75 @@
+id: septic_arthritis
+display_name: "Septic Arthritis"
+aliases:
+  - Infectious arthritis
+  - Bacterial arthritis
+  - Pyogenic arthritis
+snomed: "372071003"
+icd10:
+  - "M00.9"
+category: acute
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [100.5, 103.5]
+  hr_multiplier: 1.15
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: acute_joint_pain
+      probability: 0.95
+      description: "acute onset severe monoarticular joint pain"
+    - name: joint_swelling
+      probability: 0.90
+      description: "warm, swollen, erythematous joint"
+    - name: fever
+      probability: 0.70
+      description: "fever, may be absent in immunosuppressed"
+    - name: inability_to_bear_weight
+      probability: 0.80
+      description: "refusal to bear weight or move affected joint"
+    - name: rigors
+      probability: 0.30
+      description: "shaking chills with bacteremia"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Hot, swollen, tender joint with large effusion (usually knee)"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "Severely restricted active and passive ROM"
+      probability: 0.85
+    - system: musculoskeletal
+      finding: "Joint held in position of maximum capsular volume"
+      probability: 0.70
+    - system: skin
+      finding: "Overlying erythema and warmth"
+      probability: 0.80
+treatment:
+  approach: joint_aspiration_plus_antibiotics
+  medications:
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "empiric gram-positive coverage including MRSA"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "once daily"
+      route: iv
+      indication: "empiric gram-negative coverage, gonococcal arthritis"
+    - agent: "Nafcillin"
+      rxnorm: "7233"
+      frequency: "every 4 hours"
+      route: iv
+      indication: "definitive MSSA treatment"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "once daily"
+      route: iv
+      indication: "gonococcal septic arthritis"

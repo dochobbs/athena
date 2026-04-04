@@ -1,0 +1,54 @@
+id: community_acquired_pneumonia
+topic: Community-Acquired Pneumonia
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Apply CURB-65 or PSI for site-of-care decision
+- Select appropriate empiric antibiotic regimen by setting
+- Distinguish typical from atypical pneumonia
+- Know when to obtain blood cultures and sputum cultures
+- Recognize treatment failure and its workup
+common_mistakes:
+- Admitting low-risk pneumonia that can be treated outpatient
+- Not covering atypical organisms when indicated
+- Ordering follow-up chest X-ray too early (lags behind clinical improvement)
+- Using respiratory fluoroquinolone as first-line for mild outpatient CAP
+- Missing empyema or parapneumonic effusion requiring drainage
+red_flags:
+- CURB-65 score >= 3 (30-day mortality >15%)
+- Multilobar infiltrates
+- Sepsis or septic shock
+- Cavitary lesion (abscess, TB, or malignancy)
+- Failure to improve after 48-72 hours of appropriate antibiotics
+clinical_pearls:
+- ATS/IDSA 2019 guidelines recommend amoxicillin monotherapy for healthy outpatients
+- Add atypical coverage (azithromycin or doxycycline) for comorbid outpatients
+- 'Inpatient non-ICU: beta-lactam + macrolide OR respiratory fluoroquinolone'
+- 'ICU: beta-lactam + macrolide (add anti-MRSA/antipseudomonal if risk factors)'
+- Procalcitonin <0.25 supports withholding antibiotics
+key_history_questions:
+- When did symptoms start? Acute or gradual onset?
+- Fever, chills, rigors?
+- Productive cough? What color is the sputum?
+- Any recent hospitalization or antibiotic use?
+- Comorbidities (COPD, diabetes, heart failure, immunosuppression)?
+- Travel, animal exposures, or HIV risk factors?
+key_exam_findings:
+- Vital signs including temperature and oxygen saturation
+- Lung auscultation for crackles, bronchial breath sounds
+- Dullness to percussion
+- Increased tactile fremitus
+- Signs of respiratory distress
+- Mental status (important for CURB-65)
+treatment_principles:
+- 'Outpatient healthy: amoxicillin 1g TID'
+- 'Outpatient comorbid: amoxicillin-clavulanate + macrolide or respiratory FQ'
+- 'Inpatient non-ICU: ceftriaxone + azithromycin'
+- 'ICU: ceftriaxone + azithromycin (add vancomycin if MRSA risk)'
+- Duration typically 5 days minimum, extend if not clinically stable
+disposition_guidance:
+- Use CURB-65 or PSI to guide admission decision
+- CURB-65 0-1 = outpatient, 2 = consider admission, 3+ = admit
+- ICU if requiring vasopressors or mechanical ventilation
+- Switch to oral antibiotics when clinically improving

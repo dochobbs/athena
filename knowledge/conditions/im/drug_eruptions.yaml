@@ -1,0 +1,79 @@
+id: drug_eruptions
+display_name: "Drug Eruptions"
+aliases:
+  - Drug rash
+  - Adverse cutaneous drug reaction
+  - Morbilliform drug eruption
+  - DRESS syndrome
+snomed: "62014003"
+icd10:
+  - "L27.0"
+  - "L27.1"
+category: acute
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f:
+    - 98.6
+    - 102.0
+  hr_multiplier: 1.05
+presentation:
+  symptoms:
+    - name: diffuse maculopapular rash
+      probability: 0.70
+      description: "widespread symmetric erythematous macules and papules"
+    - name: pruritus
+      probability: 0.75
+      description: "itching, may be intense"
+    - name: fever
+      probability: 0.30
+      description: "may indicate DRESS or severe reaction"
+    - name: recent medication start
+      probability: 0.90
+      description: "onset 7-14 days after new drug, or 1-3 days with re-exposure"
+    - name: facial edema
+      probability: 0.15
+      description: "suggests DRESS syndrome"
+    - name: mucosal involvement
+      probability: 0.10
+      description: "oral or genital erosions suggest severe reaction"
+  physical_exam:
+    - system: skin
+      finding: "Symmetric maculopapular exanthem, starts on trunk"
+      probability: 0.70
+    - system: skin
+      finding: "Urticarial pattern with wheals and angioedema"
+      probability: 0.20
+    - system: skin
+      finding: "Facial edema and eosinophilia (DRESS)"
+      probability: 0.10
+    - system: skin
+      finding: "No mucosal involvement in simple morbilliform rash"
+      probability: 0.85
+    - system: lymphatic
+      finding: "Lymphadenopathy if DRESS syndrome"
+      probability: 0.10
+treatment:
+  approach: discontinue_offending_drug_supportive
+  medications:
+    - agent: "Cetirizine"
+      rxnorm: "20610"
+      frequency: "once daily"
+      route: oral
+      indication: "antihistamine for pruritus"
+    - agent: "Triamcinolone Acetonide Cream"
+      rxnorm: "10759"
+      frequency: "twice daily"
+      route: topical
+      indication: "mid-potency topical steroid for rash"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "daily with taper"
+      route: oral
+      indication: "systemic steroids for severe reactions or DRESS"

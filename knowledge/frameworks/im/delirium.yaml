@@ -1,0 +1,60 @@
+id: delirium
+topic: Delirium
+category: neurology
+specialties:
+- im
+teaching_goals:
+- Distinguish delirium from dementia and depression using key features
+- Use CAM (Confusion Assessment Method) for bedside diagnosis
+- Identify and treat the underlying precipitant
+- Implement non-pharmacologic prevention and management strategies
+- Understand that antipsychotics are for safety only, not routine
+common_mistakes:
+- Missing hypoactive delirium (quiet confusion, withdrawal) which is more common
+- Using benzodiazepines for agitation (worsens delirium, except in alcohol/benzo withdrawal)
+- Attributing delirium to dementia without looking for an acute cause
+- Routinely using antipsychotics (evidence shows no benefit for duration or severity)
+- 'Forgetting the most common causes: infection, medications, dehydration, constipation'
+red_flags:
+- New focal neurologic deficit (stroke masquerading as delirium)
+- Meningismus with fever (meningitis)
+- Delirium tremens in alcohol withdrawal
+- Anticholinergic toxicity (dry, hot, flushed, dilated pupils)
+- Serotonin syndrome or NMS in patients on psychotropics
+clinical_pearls:
+- 'THINK mnemonic for causes: Toxic (meds), Hypoxia, Infection, Nonpharmacologic (constipation,
+  retention, pain), K+ and electrolytes'
+- 'CAM criteria: acute onset + fluctuating course + inattention + (disorganized thinking
+  OR altered consciousness)'
+- Hypoactive delirium has WORSE prognosis than hyperactive because it is often missed
+- 'Best treatment is non-pharmacologic: reorientation, sleep hygiene, mobilization,
+  glasses/hearing aids'
+- In-hospital mortality doubles with delirium; it is NOT benign
+key_history_questions:
+- What is the patient's baseline mental status (ask family/caregivers)?
+- When did the change begin (acute vs gradual)?
+- Any new medications or recent changes?
+- Any recent infection, surgery, or hospitalization?
+- Is the patient constipated or in urinary retention?
+- Any history of alcohol or benzodiazepine use?
+key_exam_findings:
+- Inattention on digit span or months-backward testing
+- Fluctuating level of consciousness
+- CAM-positive assessment
+- Signs of underlying cause (fever, urinary retention, fecal impaction)
+- Asterixis (metabolic encephalopathy)
+- Autonomic instability (withdrawal syndromes)
+treatment_principles:
+- Identify and treat the underlying cause (medications, infection, metabolic)
+- Non-pharmacologic interventions FIRST (orientation, sleep, mobilization, sensory
+  aids)
+- Avoid benzodiazepines unless alcohol/benzo withdrawal
+- Antipsychotics (low-dose haloperidol or quetiapine) only for severe agitation threatening
+  safety
+- 'Prevent with HELP protocol: orientation, early mobilization, sleep hygiene, hydration,
+  glasses/hearing aids'
+disposition_guidance:
+- Treat underlying cause; delirium alone rarely requires ICU
+- Avoid physical restraints (worsen agitation and delirium)
+- 1:1 sitter for safety if severe agitation
+- Delirium increases length of stay by 5-10 days on average

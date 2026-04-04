@@ -1,0 +1,53 @@
+id: seizure_epilepsy
+topic: "Seizure and Epilepsy"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Differentiate epileptic seizure from syncope, PNES, and other mimics
+  - Classify seizure type (focal vs generalized) to guide therapy
+  - Recognize when to initiate antiepileptic drug therapy
+  - Manage first unprovoked seizure workup
+  - Counsel on driving restrictions and safety
+common_mistakes:
+  - Starting AEDs after a single provoked seizure (low threshold, alcohol)
+  - Loading phenytoin in generalized epilepsy (may worsen absence or myoclonic)
+  - Missing medication non-compliance as the most common cause of breakthrough seizure
+  - Obtaining EEG too late (most informative within 24 hours)
+  - Forgetting to counsel about driving restrictions
+red_flags:
+  - New-onset seizure in adult requiring structural imaging to exclude mass
+  - Status epilepticus (seizure >5 minutes)
+  - Focal neurologic deficit after seizure that does not resolve (not Todd paralysis)
+  - Seizure with fever and headache (meningitis/encephalitis)
+  - Eclampsia in pregnant patient
+clinical_pearls:
+  - "Lateral tongue bite is highly specific for generalized tonic-clonic seizure"
+  - "Prolactin elevation within 20 minutes supports epileptic (not psychogenic) seizure"
+  - "First unprovoked seizure: 40-50% recurrence risk; two unprovoked = epilepsy diagnosis"
+  - "Levetiracetam is first-line for most seizure types due to broad spectrum and few interactions"
+  - "Valproate is most effective for generalized epilepsy but avoid in women of childbearing age"
+key_history_questions:
+  - "Did anyone witness the event? Describe exactly what happened."
+  - "Was there any preceding aura or warning?"
+  - "How long did the event last?"
+  - "Was there postictal confusion, tongue biting, or incontinence?"
+  - "Any recent medication changes, missed doses, sleep deprivation, or alcohol?"
+  - "Family history of seizures or epilepsy?"
+key_exam_findings:
+  - "Lateral tongue laceration (specific for GTC seizure)"
+  - "Postictal confusion or somnolence"
+  - "Todd paralysis (transient focal weakness)"
+  - "Focal neurologic deficit suggesting structural lesion"
+  - "Posterior shoulder dislocation (rare but specific)"
+  - "Signs of head trauma from fall during seizure"
+treatment_principles:
+  - "First unprovoked seizure: AED optional; counsel on recurrence risk"
+  - "Two unprovoked seizures or high-risk features: start AED"
+  - "Match AED to seizure type and patient characteristics"
+  - "Monitor AED levels for phenytoin and valproate; not needed for levetiracetam"
+  - "Counsel on medication adherence, triggers, driving, and safety"
+disposition_guidance:
+  - "First seizure: workup with MRI brain, EEG, labs; may discharge if resolved"
+  - "Admit if status epilepticus, recurrent seizures, or abnormal imaging"
+  - "Neurology referral for all new-onset seizures"

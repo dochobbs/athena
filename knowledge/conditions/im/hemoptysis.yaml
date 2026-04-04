@@ -1,0 +1,71 @@
+id: hemoptysis
+display_name: "Hemoptysis"
+aliases:
+  - Coughing up blood
+  - Massive hemoptysis
+  - Blood-tinged sputum
+snomed: "66857006"
+icd10:
+  - "R04.2"
+  - "R04.89"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.15
+  rr_multiplier: 1.15
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: hemoptysis
+      probability: 1.0
+      description: "coughing up blood from lower respiratory tract"
+    - name: cough
+      probability: 0.85
+      description: "cough producing blood or blood-tinged sputum"
+    - name: dyspnea
+      probability: 0.45
+      description: "shortness of breath"
+    - name: chest_pain
+      probability: 0.30
+      description: "may have pleuritic or non-specific chest pain"
+    - name: fever
+      probability: 0.30
+      description: "if infectious etiology"
+  physical_exam:
+    - system: respiratory
+      finding: "May be normal or have focal crackles/wheezes"
+      probability: 0.50
+    - system: respiratory
+      finding: "Tachypnea if massive hemoptysis"
+      probability: 0.25
+    - system: cardiovascular
+      finding: "Tachycardia if significant blood loss"
+      probability: 0.30
+    - system: ent
+      finding: "Rule out upper airway source (epistaxis, oral lesion)"
+      probability: 0.20
+treatment:
+  approach: airway_protection_and_identify_source
+  medications:
+    - agent: "Tranexamic Acid"
+      rxnorm: "10600"
+      frequency: "1 g IV or 500 mg nebulized"
+      route: iv
+      indication: "antifibrinolytic for hemorrhage control"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "1-2 g IV q24h"
+      route: iv
+      indication: "if infection suspected"
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "volume resuscitation PRN"
+      route: iv
+      indication: "volume support if significant hemorrhage"

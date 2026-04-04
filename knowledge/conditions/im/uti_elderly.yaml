@@ -1,0 +1,84 @@
+id: uti_elderly
+display_name: "Urinary Tract Infection in Elderly"
+aliases:
+  - UTI in elderly
+  - Geriatric UTI
+  - Complicated UTI
+  - Catheter-associated UTI
+snomed: "68566005"
+icd10:
+  - "N39.0"
+  - "T83.511A"
+category: acute
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f:
+    - 97.0
+    - 102.0
+  hr_multiplier: 1.10
+  bp_systolic:
+    - 90
+    - 150
+presentation:
+  symptoms:
+    - name: altered mental status
+      probability: 0.50
+      description: "confusion, delirium may be only presenting sign"
+    - name: dysuria
+      probability: 0.40
+      description: "less reliable symptom in elderly"
+    - name: frequency and urgency
+      probability: 0.45
+      description: "may overlap with baseline incontinence"
+    - name: falls
+      probability: 0.25
+      description: "new falls may be presenting sign of UTI"
+    - name: functional decline
+      probability: 0.35
+      description: "acute worsening of baseline function"
+    - name: fever
+      probability: 0.40
+      description: "may be absent or blunted in elderly (hypothermia possible)"
+  physical_exam:
+    - system: genitourinary
+      finding: "Suprapubic tenderness on palpation"
+      probability: 0.30
+    - system: genitourinary
+      finding: "Costovertebral angle tenderness (pyelonephritis)"
+      probability: 0.15
+    - system: neurologic
+      finding: "New confusion on CAM assessment"
+      probability: 0.45
+    - system: general
+      finding: "Tachycardia, hypotension if sepsis developing"
+      probability: 0.20
+treatment:
+  approach: antibiotics_guided_by_culture
+  medications:
+    - agent: "Nitrofurantoin"
+      rxnorm: "7454"
+      frequency: "twice daily for 5 days"
+      route: oral
+      indication: "first-line for uncomplicated cystitis if CrCl >30"
+    - agent: "Trimethoprim-Sulfamethoxazole"
+      rxnorm: "10831"
+      frequency: "twice daily for 3 days"
+      route: oral
+      indication: "alternative for uncomplicated UTI"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "once daily"
+      route: iv
+      indication: "empiric for complicated UTI or pyelonephritis"
+    - agent: "Ciprofloxacin"
+      rxnorm: "2551"
+      frequency: "twice daily for 7 days"
+      route: oral
+      indication: "fluoroquinolone for complicated UTI, avoid if possible in elderly"

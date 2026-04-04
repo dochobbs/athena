@@ -1,0 +1,75 @@
+id: lyme_disease
+display_name: "Lyme Disease"
+aliases:
+  - Lyme borreliosis
+  - Borrelia burgdorferi infection
+  - Tick-borne illness
+snomed: "23502006"
+icd10:
+  - "A69.20"
+  - "A69.21"
+  - "A69.22"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [99.5, 102.0]
+  hr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: erythema_migrans
+      probability: 0.75
+      description: "expanding erythematous target-like rash at tick bite site"
+    - name: fever
+      probability: 0.50
+      description: "low-grade fever"
+    - name: fatigue
+      probability: 0.70
+      description: "fatigue and malaise"
+    - name: myalgias_arthralgias
+      probability: 0.60
+      description: "migratory joint and muscle pain"
+    - name: headache
+      probability: 0.45
+      description: "headache"
+    - name: facial_palsy
+      probability: 0.10
+      description: "cranial nerve VII palsy in early disseminated disease"
+  physical_exam:
+    - system: skin
+      finding: "Erythema migrans: expanding annular erythema >=5 cm"
+      probability: 0.75
+    - system: musculoskeletal
+      finding: "Arthritis, especially large joint (knee)"
+      probability: 0.30
+    - system: neurologic
+      finding: "Facial nerve palsy (Bell palsy)"
+      probability: 0.10
+    - system: cardiovascular
+      finding: "Heart block (AV block) in Lyme carditis"
+      probability: 0.05
+treatment:
+  approach: stage_based_antibiotic_therapy
+  medications:
+    - agent: "Doxycycline"
+      rxnorm: "3640"
+      frequency: "twice daily x 10-21 days"
+      route: oral
+      indication: "first-line for early localized and early disseminated Lyme"
+    - agent: "Amoxicillin"
+      rxnorm: "723"
+      frequency: "three times daily x 14-21 days"
+      route: oral
+      indication: "alternative if doxycycline contraindicated"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "once daily x 14-28 days"
+      route: iv
+      indication: "Lyme meningitis, carditis with high-degree AV block"

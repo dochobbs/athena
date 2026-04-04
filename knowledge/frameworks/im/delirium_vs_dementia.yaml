@@ -1,0 +1,54 @@
+id: delirium_vs_dementia
+topic: "Delirium vs Dementia"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Differentiate delirium (acute, fluctuating, inattention) from dementia (chronic, progressive, memory)
+  - Recognize delirium superimposed on dementia (most common and most missed)
+  - Use CAM for delirium screening and MoCA for cognitive baseline
+  - Understand that delirium in a dementia patient always needs acute workup
+  - Know that delirium accelerates dementia progression
+common_mistakes:
+  - Attributing new confusion in a dementia patient to dementia progression without acute workup
+  - Missing hypoactive delirium (quiet, withdrawn) especially in dementia patients
+  - Using benzodiazepines for agitation in delirium (worsens confusion)
+  - Not obtaining baseline cognitive status from family or caregivers
+  - Failing to recognize that delirium is an independent predictor of mortality
+red_flags:
+  - Acute-onset confusion in a patient with known dementia (delirium superimposed)
+  - Rapidly progressive dementia over weeks-months (prion disease, NPH, paraneoplastic)
+  - Delirium with focal neurologic deficit (stroke)
+  - New visual hallucinations in dementia patient (Lewy body vs delirium)
+  - Prolonged delirium (>1 week) not responding to treatment of identified causes
+clinical_pearls:
+  - "Delirium: acute onset, fluctuating attention, reversible. Dementia: insidious onset, stable attention, progressive."
+  - "Delirium superimposed on dementia occurs in 22-89% of hospitalized dementia patients"
+  - "The single best distinguishing feature is ATTENTION: impaired in delirium, relatively preserved early in dementia"
+  - "Delirium increases risk of new dementia by 8x and accelerates existing dementia"
+  - "Get the baseline: always ask family 'What was the patient like 2 weeks ago?'"
+key_history_questions:
+  - "What is the patient's baseline cognitive status (from family/caregivers)?"
+  - "When did the change in mental status begin (acute vs gradual)?"
+  - "Does the confusion fluctuate throughout the day?"
+  - "Any new medications, infections, or hospitalizations?"
+  - "Was the patient managing independently before (ADLs, IADLs)?"
+  - "Any known dementia diagnosis?"
+key_exam_findings:
+  - "CAM assessment (delirium screening)"
+  - "Attention testing: digit span, months backward, serial 7s"
+  - "MoCA or MMSE for cognitive baseline"
+  - "Fluctuating alertness and orientation"
+  - "Signs of precipitating illness"
+  - "Functional status assessment"
+treatment_principles:
+  - "Delirium: identify and treat the cause (infection, medications, metabolic, pain)"
+  - "Non-pharmacologic interventions first (reorientation, sleep hygiene, mobility)"
+  - "Dementia: cholinesterase inhibitors for mild-moderate, behavioral management"
+  - "Avoid anticholinergics and sedatives in both conditions"
+  - "Document baseline cognitive status for future comparison"
+disposition_guidance:
+  - "Workup delirium as medical emergency even in patients with known dementia"
+  - "Involve family and caregivers in assessment and care planning"
+  - "Geriatrics or neurology consultation for diagnostic uncertainty"
+  - "Discharge planning with cognitive and functional reassessment"

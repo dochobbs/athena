@@ -1,0 +1,56 @@
+id: pleural_effusion
+topic: Pleural Effusion
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Apply Light criteria to distinguish transudative from exudative
+- Know the most common causes of each type
+- Understand indications for thoracentesis
+- Interpret pleural fluid analysis
+- Recognize complicated parapneumonic effusion and empyema
+common_mistakes:
+- Not tapping a new unilateral effusion of uncertain etiology
+- Forgetting to send LDH and protein on both pleural fluid AND serum simultaneously
+- Misclassifying a transudative effusion as exudative due to recent diuresis
+- Not sending pH on parapneumonic effusions (pH <7.2 needs drainage)
+- Missing malignant effusion by only sending cytology on one sample
+red_flags:
+- pH <7.2 in parapneumonic effusion (complicated, needs drainage)
+- Empyema (grossly purulent fluid)
+- Bloody effusion (malignancy, PE, trauma)
+- Massive effusion with mediastinal shift
+- Rapidly re-accumulating effusion
+clinical_pearls:
+- 'Light criteria: exudative if ANY of: protein ratio >0.5, LDH ratio >0.6, LDH >2/3
+  upper limit'
+- 'Most common transudates: CHF, cirrhosis, nephrotic syndrome'
+- 'Most common exudates: pneumonia, malignancy, PE'
+- CHF effusions are usually bilateral and right-sided dominant
+- If doubt about transudate misclassified by Light criteria, check serum-effusion
+  albumin gradient (>1.2 = transudate)
+key_history_questions:
+- When did you first notice shortness of breath?
+- History of heart failure, liver disease, or kidney disease?
+- Any fever or recent infection?
+- History of cancer or unexplained weight loss?
+- Any chest trauma?
+- Recent surgery or immobilization?
+key_exam_findings:
+- Decreased breath sounds over effusion
+- Dullness to percussion
+- Decreased tactile fremitus
+- Egophony at upper border
+- Tracheal deviation if massive
+- Signs of underlying cause (JVD for CHF, ascites for cirrhosis)
+treatment_principles:
+- Thoracentesis for diagnosis (new unilateral) and symptom relief (large)
+- Treat underlying cause (diuretics for CHF, antibiotics for infection)
+- Chest tube for empyema or complicated parapneumonic effusion
+- Indwelling pleural catheter for recurrent malignant effusion
+- Pleurodesis for recurrent symptomatic effusions
+disposition_guidance:
+- Outpatient thoracentesis for small to moderate effusions
+- Admit for large symptomatic effusions requiring drainage
+- Pulmonology referral for recurrent or unexplained effusions
+- Interventional radiology or thoracic surgery for complex cases

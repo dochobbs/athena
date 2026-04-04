@@ -1,0 +1,79 @@
+id: hyponatremia
+display_name: "Hyponatremia"
+aliases:
+  - Low sodium
+  - Hyponatraemia
+  - SIADH-related hyponatremia
+snomed: "89627008"
+icd10:
+  - "E87.1"
+category: acute
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: nausea
+      probability: 0.55
+      description: "Nausea and malaise"
+    - name: headache
+      probability: 0.50
+      description: "Headache from cerebral edema"
+    - name: confusion
+      probability: 0.45
+      description: "Confusion and disorientation"
+    - name: fatigue
+      probability: 0.55
+      description: "Generalized weakness and lethargy"
+    - name: muscle_cramps
+      probability: 0.35
+      description: "Muscle cramps and weakness"
+    - name: seizures
+      probability: 0.15
+      description: "Seizures in severe or acute hyponatremia (Na <120)"
+    - name: asymptomatic
+      probability: 0.40
+      description: "Mild chronic hyponatremia may be asymptomatic"
+  physical_exam:
+    - system: neurological
+      finding: "Altered mental status, confusion, obtundation in severe cases"
+      probability: 0.45
+    - system: general
+      finding: "Assess volume status: hypervolemic (edema), euvolemic, or hypovolemic (dry)"
+      probability: 0.85
+    - system: neurological
+      finding: "Seizures or focal deficits in severe cases"
+      probability: 0.15
+treatment:
+  approach: volume_status_guided
+  medications:
+    - agent: "Hypertonic Saline (3%)"
+      rxnorm: "313008"
+      frequency: "100 mL IV bolus over 10 min, may repeat x 2"
+      route: iv
+      indication: "Severe symptomatic hyponatremia (seizures, AMS)"
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "0.5-1 mL/kg/hr"
+      route: iv
+      indication: "Hypovolemic hyponatremia"
+    - agent: "Tolvaptan"
+      rxnorm: "72236"
+      frequency: "15 mg daily, titrate"
+      route: oral
+      indication: "SIADH - vasopressin receptor antagonist"
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "20-40 mg IV"
+      route: iv
+      indication: "Hypervolemic hyponatremia or adjunct to saline in SIADH"

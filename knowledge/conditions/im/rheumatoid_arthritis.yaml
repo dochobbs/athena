@@ -1,0 +1,82 @@
+id: rheumatoid_arthritis
+display_name: "Rheumatoid Arthritis"
+aliases:
+  - RA
+  - Rheumatoid disease
+snomed: "69896004"
+icd10:
+  - "M06.9"
+  - "M05.79"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: joint_pain
+      probability: 0.95
+      description: "symmetric polyarthralgia of small joints (MCPs, PIPs, wrists)"
+    - name: morning_stiffness
+      probability: 0.90
+      description: "morning stiffness >1 hour, improves with activity"
+    - name: joint_swelling
+      probability: 0.85
+      description: "boggy synovial swelling of affected joints"
+    - name: fatigue
+      probability: 0.70
+      description: "systemic fatigue and malaise"
+    - name: functional_impairment
+      probability: 0.60
+      description: "difficulty with fine motor tasks, grip weakness"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Symmetric synovitis of MCPs, PIPs, wrists"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "Swan neck or boutonniere deformities (late)"
+      probability: 0.15
+    - system: musculoskeletal
+      finding: "Ulnar deviation of fingers (late)"
+      probability: 0.15
+    - system: skin
+      finding: "Rheumatoid nodules on extensor surfaces"
+      probability: 0.20
+    - system: musculoskeletal
+      finding: "Positive MCP squeeze test"
+      probability: 0.75
+treatment:
+  approach: early_aggressive_dmard_therapy
+  medications:
+    - agent: "Methotrexate"
+      rxnorm: "6851"
+      frequency: "once weekly"
+      route: oral
+      indication: "first-line DMARD, anchor drug for RA"
+    - agent: "Hydroxychloroquine"
+      rxnorm: "5521"
+      frequency: "once daily"
+      route: oral
+      indication: "adjunctive DMARD, often combined with methotrexate"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily, taper"
+      route: oral
+      indication: "bridge therapy for acute flares"
+    - agent: "Adalimumab"
+      rxnorm: "327361"
+      frequency: "every 2 weeks"
+      route: subcutaneous
+      indication: "TNF inhibitor for inadequate DMARD response"
+    - agent: "Folic Acid"
+      rxnorm: "4511"
+      frequency: "once daily"
+      route: oral
+      indication: "mitigate methotrexate side effects"

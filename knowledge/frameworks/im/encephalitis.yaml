@@ -1,0 +1,49 @@
+id: encephalitis
+topic: "Encephalitis"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Distinguish encephalitis from meningitis by presence of brain parenchymal dysfunction
+  - Start empiric IV acyclovir immediately when HSV encephalitis is suspected
+  - Understand the diagnostic role of MRI and CSF PCR
+  - Recognize temporal lobe predilection of HSV encephalitis
+common_mistakes:
+  - Delaying acyclovir while awaiting MRI or LP results
+  - Confusing encephalitis with delirium from other causes
+  - Not considering autoimmune encephalitis in the differential
+  - Stopping acyclovir prematurely before HSV PCR returns
+red_flags:
+  - Rapidly progressive altered mental status
+  - New-onset seizures with fever
+  - Focal neurologic deficits suggesting temporal lobe involvement
+  - Status epilepticus
+clinical_pearls:
+  - HSV encephalitis has a predilection for temporal lobes (MRI T2/FLAIR hyperintensity)
+  - CSF HSV PCR may be negative in the first 72 hours - repeat if clinical suspicion remains
+  - Mortality of untreated HSV encephalitis exceeds 70%
+  - Autoimmune encephalitis (anti-NMDAR) is an important mimic, especially in young women
+key_history_questions:
+  - Acute onset confusion or personality change?
+  - Fever preceding neurologic symptoms?
+  - Any seizures?
+  - Recent travel or animal/insect exposures (arboviral)?
+  - History of cold sores or genital herpes?
+  - Immunosuppression?
+key_exam_findings:
+  - Altered mental status (key distinguishing feature)
+  - Fever
+  - Seizures
+  - Focal neurologic deficits (aphasia, hemiparesis)
+  - Movement disorders (autoimmune encephalitis)
+treatment_principles:
+  - Start IV acyclovir empirically - do not wait for confirmatory tests
+  - MRI brain with contrast (temporal lobe changes in HSV)
+  - LP with CSF PCR for HSV, VZV, enterovirus, arbovirus panel
+  - EEG if seizures suspected
+  - Consider autoimmune encephalitis workup if infectious negative
+disposition_guidance:
+  - ICU admission for monitoring and seizure management
+  - Neurology consultation
+  - 14-21 days of IV acyclovir for confirmed HSV encephalitis
+  - Long-term follow-up for neurocognitive sequelae

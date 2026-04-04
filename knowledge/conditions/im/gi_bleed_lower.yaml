@@ -1,0 +1,72 @@
+id: gi_bleed_lower
+display_name: "Lower GI Bleed"
+aliases:
+  - LGIB
+  - Lower gastrointestinal hemorrhage
+  - Hematochezia
+snomed: "12063002"
+icd10:
+  - "K92.1"
+  - "K62.5"
+category: acute
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 99.0]
+  hr_multiplier: 1.15
+  rr_multiplier: 1.10
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: hematochezia
+      probability: 0.90
+      description: "Bright red blood per rectum or maroon stools"
+    - name: abdominal_pain
+      probability: 0.45
+      description: "Lower abdominal cramping"
+    - name: lightheadedness
+      probability: 0.40
+      description: "Dizziness from blood loss"
+    - name: weakness
+      probability: 0.35
+      description: "Generalized fatigue"
+    - name: urgency
+      probability: 0.30
+      description: "Rectal urgency or tenesmus"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Tachycardia if significant blood loss; orthostatics may be positive"
+      probability: 0.50
+    - system: abdomen
+      finding: "Diffuse or lower abdominal tenderness, no peritoneal signs typically"
+      probability: 0.45
+    - system: rectal
+      finding: "Bright red blood, hemorrhoids, or masses on exam"
+      probability: 0.85
+    - system: general
+      finding: "Pallor if anemia"
+      probability: 0.30
+treatment:
+  approach: resuscitation_and_colonoscopy
+  medications:
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "Bolus 500-1000 mL, then titrate"
+      route: iv
+      indication: "Volume resuscitation"
+    - agent: "Pantoprazole"
+      rxnorm: "40790"
+      frequency: "40 mg IV daily"
+      route: iv
+      indication: "Empiric acid suppression if upper source not excluded"
+    - agent: "Polyethylene Glycol 3350"
+      rxnorm: "44931"
+      frequency: "Rapid bowel prep for colonoscopy"
+      route: oral
+      indication: "Colonic preparation for urgent colonoscopy"

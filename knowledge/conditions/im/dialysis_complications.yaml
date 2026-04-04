@@ -1,0 +1,90 @@
+id: dialysis_complications
+display_name: "Dialysis Complications"
+aliases:
+  - Hemodialysis complications
+  - Dialysis access complications
+  - Peritoneal dialysis complications
+snomed: "473195006"
+icd10:
+  - "T82.49XA"
+  - "Y84.1"
+  - "N18.6"
+category: acute
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 102.0]
+  hr_multiplier: 1.25
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: hypotension
+      probability: 0.70
+      description: "Intradialytic hypotension, most common complication"
+    - name: muscle_cramps
+      probability: 0.65
+      description: "Cramps during or after dialysis from fluid shifts"
+    - name: nausea_vomiting
+      probability: 0.55
+      description: "Nausea during dialysis or from disequilibrium"
+    - name: headache
+      probability: 0.50
+      description: "Headache from dialysis disequilibrium syndrome"
+    - name: fever
+      probability: 0.40
+      description: "Fever suggesting catheter-related bloodstream infection"
+    - name: chest_pain
+      probability: 0.35
+      description: "Chest pain from air embolism, arrhythmia, or pericarditis"
+    - name: access_pain
+      probability: 0.45
+      description: "Pain, swelling, or redness at access site"
+  physical_exam:
+    - system: vascular_access
+      finding: "AV fistula: absent thrill or bruit suggests thrombosis"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Hypotension, tachycardia during or after dialysis"
+      probability: 0.65
+    - system: skin
+      finding: "Erythema, purulence, or tenderness at catheter site"
+      probability: 0.35
+    - system: neurological
+      finding: "Confusion, seizures in dialysis disequilibrium syndrome"
+      probability: 0.20
+treatment:
+  approach: complication_specific
+  medications:
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "250-500 mL bolus"
+      route: iv
+      indication: "Intradialytic hypotension"
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "dose per levels, given during dialysis"
+      route: iv
+      indication: "Catheter-related bloodstream infection (gram-positive coverage)"
+    - agent: "Cefepime"
+      rxnorm: "25037"
+      frequency: "1g IV after each dialysis session"
+      route: iv
+      indication: "Catheter-related bloodstream infection (gram-negative coverage)"
+    - agent: "Alteplase"
+      rxnorm: "8410"
+      frequency: "2 mg instilled into each catheter lumen"
+      route: intracatheter
+      indication: "Catheter thrombosis/dysfunction"
+  patient_instructions:
+    - Catheter-related infections require blood cultures and empiric antibiotics
+    - Access thrombosis requires urgent vascular surgery or IR evaluation
+    - Dialysis disequilibrium treated by slowing or stopping dialysis
+    - For intradialytic hypotension - Trendelenburg, bolus saline, reduce UF rate
+    - Pericarditis in dialysis patients requires intensified dialysis schedule
+    - Educate on access care and signs of infection

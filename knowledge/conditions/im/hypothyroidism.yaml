@@ -1,0 +1,76 @@
+id: hypothyroidism
+display_name: "Hypothyroidism"
+aliases:
+  - Underactive thyroid
+  - Hashimoto thyroiditis
+  - Myxedema
+snomed: "40930008"
+icd10:
+  - "E03.9"
+  - "E06.3"
+category: chronic
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [96.0, 98.0]
+  hr_multiplier: 0.85
+  rr_multiplier: 0.95
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.85
+      description: "Pronounced fatigue and lethargy"
+    - name: weight_gain
+      probability: 0.65
+      description: "Modest weight gain despite stable intake"
+    - name: cold_intolerance
+      probability: 0.60
+      description: "Increased sensitivity to cold"
+    - name: constipation
+      probability: 0.55
+      description: "New or worsened constipation"
+    - name: dry_skin
+      probability: 0.50
+      description: "Dry, coarse skin and brittle hair"
+    - name: depression
+      probability: 0.40
+      description: "Depressed mood, cognitive slowing"
+    - name: menstrual_irregularity
+      probability: 0.35
+      description: "Menorrhagia or oligomenorrhea"
+  physical_exam:
+    - system: skin
+      finding: "Dry, coarse skin; periorbital edema; hair loss"
+      probability: 0.55
+    - system: neck
+      finding: "Goiter or atrophic thyroid"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Bradycardia"
+      probability: 0.40
+    - system: neurological
+      finding: "Delayed relaxation of deep tendon reflexes"
+      probability: 0.45
+    - system: extremities
+      finding: "Non-pitting edema (myxedema)"
+      probability: 0.25
+treatment:
+  approach: thyroid_hormone_replacement
+  medications:
+    - agent: "Levothyroxine"
+      rxnorm: "10582"
+      frequency: "1.6 mcg/kg daily, take on empty stomach"
+      route: oral
+      indication: "First-line thyroid hormone replacement"
+    - agent: "Liothyronine"
+      rxnorm: "6468"
+      frequency: "5-25 mcg daily (rarely used, controversial)"
+      route: oral
+      indication: "T3 supplementation if symptomatic on levothyroxine alone"

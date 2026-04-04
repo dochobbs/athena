@@ -1,0 +1,52 @@
+id: uti_elderly
+topic: "Urinary Tract Infection in Elderly"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Distinguish symptomatic UTI from asymptomatic bacteriuria in elderly
+  - Recognize atypical presentations (delirium, falls, functional decline)
+  - Understand that positive urine culture alone does NOT warrant treatment in asymptomatic patients
+  - Select appropriate antibiotics considering renal function and resistance
+  - Manage catheter-associated UTI differently from community-acquired
+common_mistakes:
+  - Treating asymptomatic bacteriuria (does NOT improve outcomes, increases resistance)
+  - Attributing all confusion in elderly to UTI without evaluating for other causes
+  - Using urine dipstick alone for diagnosis (low specificity in elderly)
+  - Choosing fluoroquinolones as first-line (reserve for complicated UTI)
+  - Not adjusting antibiotics for renal function (avoid nitrofurantoin if CrCl <30)
+red_flags:
+  - Urosepsis (fever, tachycardia, hypotension)
+  - Obstruction (hydronephrosis, inability to urinate)
+  - Recurrent UTI (>3/year, evaluate for structural abnormality)
+  - ESBL-producing organisms on prior culture
+clinical_pearls:
+  - "Asymptomatic bacteriuria is present in 25-50% of elderly women; do NOT treat"
+  - "IDSA guidelines: only treat bacteriuria with urinary-specific symptoms"
+  - "Elderly UTI may present only as delirium, falls, or functional decline"
+  - "Nitrofurantoin is ineffective if CrCl <30 (poor renal concentration)"
+  - "Catheter-associated UTI: change catheter, then obtain culture from new catheter"
+key_history_questions:
+  - "Any new urinary symptoms (burning, frequency, urgency)?"
+  - "Any new confusion, falls, or functional decline?"
+  - "Is there an indwelling catheter?"
+  - "Any fever or flank pain?"
+  - "History of recurrent UTIs or resistant organisms?"
+  - "Recent antibiotic use?"
+key_exam_findings:
+  - "Suprapubic tenderness"
+  - "Costovertebral angle tenderness (pyelonephritis)"
+  - "New-onset confusion on CAM screening"
+  - "Fever or hypothermia"
+  - "Catheter assessment if present"
+treatment_principles:
+  - "Uncomplicated cystitis: nitrofurantoin 100mg BID x 5d or TMP-SMX x 3d"
+  - "Complicated UTI or pyelonephritis: ceftriaxone IV, adjust by culture"
+  - "Do NOT treat asymptomatic bacteriuria"
+  - "CAUTI: change catheter first, then culture and treat"
+  - "Adjust dosing for renal function; avoid nitrofurantoin if CrCl <30"
+disposition_guidance:
+  - "Outpatient for uncomplicated cystitis"
+  - "Admit for pyelonephritis, urosepsis, or unable to tolerate oral medications"
+  - "Remove unnecessary catheters (CAUTI prevention)"
+  - "Culture-guided therapy adjustment at 48-72 hours"

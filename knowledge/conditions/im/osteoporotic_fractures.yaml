@@ -1,0 +1,81 @@
+id: osteoporotic_fractures
+display_name: "Osteoporotic Fractures"
+aliases:
+  - Fragility fracture
+  - Osteoporosis
+  - Pathologic fracture
+  - Compression fracture
+snomed: "64859006"
+icd10:
+  - "M80.00XA"
+  - "M81.0"
+category: chronic
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: acute back pain
+      probability: 0.60
+      description: "sudden onset thoracolumbar pain from compression fracture"
+    - name: hip pain after fall
+      probability: 0.30
+      description: "inability to bear weight after minor fall"
+    - name: wrist pain
+      probability: 0.20
+      description: "distal radius (Colles) fracture from FOOSH"
+    - name: height loss
+      probability: 0.50
+      description: "loss of >1.5 inches from vertebral compression fractures"
+    - name: kyphosis
+      probability: 0.40
+      description: "progressive thoracic kyphosis (dowager hump)"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Thoracic kyphosis, loss of height"
+      probability: 0.45
+    - system: musculoskeletal
+      finding: "Point tenderness over vertebral spinous process"
+      probability: 0.55
+    - system: musculoskeletal
+      finding: "Hip pain with log roll test (hip fracture)"
+      probability: 0.25
+    - system: musculoskeletal
+      finding: "Wrist deformity and tenderness (Colles fracture)"
+      probability: 0.15
+    - system: general
+      finding: "FRAX score and DEXA T-score assessment"
+      probability: 0.80
+treatment:
+  approach: fracture_treatment_and_osteoporosis_management
+  medications:
+    - agent: "Alendronate"
+      rxnorm: "1598"
+      frequency: "once weekly"
+      route: oral
+      indication: "first-line bisphosphonate for osteoporosis"
+    - agent: "Calcium Carbonate"
+      rxnorm: "1605257"
+      frequency: "twice daily"
+      route: oral
+      indication: "calcium supplementation with vitamin D"
+    - agent: "Vitamin D"
+      rxnorm: "11253"
+      frequency: "once daily"
+      route: oral
+      indication: "vitamin D supplementation for bone health"
+    - agent: "Denosumab"
+      rxnorm: "993449"
+      frequency: "every 6 months"
+      route: subcutaneous
+      indication: "RANK ligand inhibitor for bisphosphonate-intolerant patients"
+    - agent: "Teriparatide"
+      rxnorm: "199398"
+      frequency: "once daily for up to 2 years"
+      route: subcutaneous
+      indication: "anabolic therapy for severe osteoporosis"

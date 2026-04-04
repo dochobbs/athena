@@ -1,0 +1,112 @@
+id: nephritic_syndrome
+display_name: "Nephritic Syndrome"
+aliases:
+  - Glomerulonephritis
+  - GN
+  - Nephritic glomerulonephritis
+snomed: "36171008"
+icd10:
+  - "N00.9"
+  - "N01.9"
+  - "N03.9"
+category: acute
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 99.5]
+  hr_multiplier: 1.10
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: hematuria
+      probability: 0.90
+      description: "Cola-colored or tea-colored urine"
+    - name: hypertension
+      probability: 0.80
+      description: "New onset or worsening hypertension"
+    - name: edema
+      probability: 0.70
+      description: "Periorbital and peripheral edema, usually mild"
+    - name: oliguria
+      probability: 0.60
+      description: "Reduced urine output"
+    - name: flank_pain
+      probability: 0.35
+      description: "Dull flank discomfort"
+    - name: malaise
+      probability: 0.55
+      description: "General malaise and fatigue"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Hypertension, may have S3 if volume overloaded"
+      probability: 0.80
+    - system: extremities
+      finding: "Mild peripheral edema"
+      probability: 0.65
+    - system: general
+      finding: "Periorbital edema"
+      probability: 0.60
+    - system: skin
+      finding: "Palpable purpura if vasculitis-related (IgA, HSP)"
+      probability: 0.30
+diagnostics:
+  labs:
+    - name: Urinalysis
+      loinc: "24356-8"
+      value_type: categorical
+      finding: "RBC casts, dysmorphic RBCs, proteinuria (usually <3.5g/day)"
+      probability_abnormal: 0.90
+    - name: Complement C3
+      loinc: "4485-9"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_low: 90
+      abnormal_low_max: 89
+      probability_abnormal: 0.60
+    - name: Anti-streptolysin O titer
+      loinc: "5370-2"
+      value_type: numeric
+      unit: IU/mL
+      normal_range_high: 200
+      probability_abnormal: 0.50
+    - name: ANCA panel
+      loinc: "21184-7"
+      value_type: categorical
+      finding: "Positive p-ANCA or c-ANCA suggests vasculitis"
+      probability_abnormal: 0.30
+treatment:
+  approach: cause_specific_immunosuppression
+  medications:
+    - agent: "Lisinopril"
+      rxnorm: "29046"
+      frequency: "5-20 mg daily"
+      route: oral
+      indication: "BP control and proteinuria reduction"
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "20-80 mg daily as needed"
+      route: oral
+      indication: "Volume overload and edema"
+    - agent: "Methylprednisolone"
+      rxnorm: "6902"
+      frequency: "500-1000 mg IV daily x3 days for RPGN"
+      route: iv
+      indication: "Rapidly progressive glomerulonephritis"
+    - agent: "Cyclophosphamide"
+      rxnorm: "3002"
+      frequency: "per rheumatology/nephrology protocol"
+      route: iv
+      indication: "ANCA vasculitis or severe lupus nephritis"
+  patient_instructions:
+    - Urgent nephrology consultation
+    - Renal biopsy for definitive diagnosis
+    - Low-sodium diet
+    - Monitor BP closely, target <130/80
+    - Serial creatinine and urinalysis to track disease activity
+    - Evaluate for systemic causes (lupus, vasculitis, post-infectious)

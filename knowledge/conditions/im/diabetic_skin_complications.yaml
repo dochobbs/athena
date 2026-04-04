@@ -1,0 +1,72 @@
+id: diabetic_skin_complications
+display_name: "Diabetic Skin Complications"
+aliases:
+  - Diabetic dermopathy
+  - Necrobiosis lipoidica
+  - Diabetic foot ulcer
+  - Acanthosis nigricans
+snomed: "399862001"
+icd10:
+  - "E11.620"
+  - "E11.621"
+  - "L83"
+category: chronic
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: shin spots
+      probability: 0.50
+      description: "small, round, brown atrophic macules on shins (diabetic dermopathy)"
+    - name: foot ulcer
+      probability: 0.30
+      description: "painless ulcer at pressure points from neuropathy"
+    - name: dark skin folds
+      probability: 0.40
+      description: "velvety hyperpigmentation in axillae, neck (acanthosis nigricans)"
+    - name: recurrent skin infections
+      probability: 0.35
+      description: "candidal intertrigo, folliculitis, cellulitis"
+    - name: waxy plaques on shins
+      probability: 0.10
+      description: "necrobiosis lipoidica diabeticorum, yellow-brown plaques"
+  physical_exam:
+    - system: skin
+      finding: "Acanthosis nigricans in neck folds, axillae, groin"
+      probability: 0.40
+    - system: skin
+      finding: "Diabetic dermopathy: bilateral pretibial atrophic brown macules"
+      probability: 0.45
+    - system: skin
+      finding: "Neuropathic foot ulcer at metatarsal heads or heel"
+      probability: 0.25
+    - system: skin
+      finding: "Necrobiosis lipoidica: shiny atrophic plaques with telangiectasias"
+      probability: 0.08
+    - system: skin
+      finding: "Candidal intertrigo in skin folds"
+      probability: 0.30
+treatment:
+  approach: glycemic_control_and_wound_care
+  medications:
+    - agent: "Mupirocin"
+      rxnorm: "7512"
+      frequency: "three times daily"
+      route: topical
+      indication: "topical antibiotic for infected skin lesions"
+    - agent: "Clotrimazole"
+      rxnorm: "2623"
+      frequency: "twice daily"
+      route: topical
+      indication: "antifungal for candidal intertrigo"
+    - agent: "Cephalexin"
+      rxnorm: "2231"
+      frequency: "four times daily"
+      route: oral
+      indication: "oral antibiotic for cellulitis or infected ulcers"

@@ -1,0 +1,54 @@
+id: bacteremia
+topic: Bacteremia
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Distinguish true bacteremia from contaminant (clinical context and organism)
+- Understand the mandatory workup for S. aureus bacteremia (SAB)
+- Know when to obtain repeat blood cultures to document clearance
+- Identify and control the source of bacteremia
+- Determine appropriate duration of therapy based on organism and source
+common_mistakes:
+- Dismissing a single positive blood culture without clinical correlation
+- Not repeating blood cultures every 48 hours for S. aureus bacteremia
+- Failing to obtain echocardiography for all SAB
+- Not removing infected lines/hardware
+- Undertreating S. aureus bacteremia (minimum 2 weeks even if "uncomplicated")
+red_flags:
+- S. aureus bacteremia (always significant, never a contaminant)
+- Persistent bacteremia despite appropriate antibiotics
+- Metastatic foci of infection (endocarditis, osteomyelitis, epidural abscess)
+- Hemodynamic instability
+clinical_pearls:
+- Rigors are the single best clinical predictor of bacteremia
+- Coagulase-negative staph in 1/4 bottles is usually a contaminant; in 2+ bottles,
+  likely true
+- 'All S. aureus bacteremia requires: repeat cultures q48h, TTE/TEE, ID consult, minimum
+  2 weeks IV antibiotics'
+- Candidemia always requires ophthalmologic exam and echocardiography
+- Blood culture contamination rate should be <3% (quality metric)
+key_history_questions:
+- Any indwelling lines, catheters, or prosthetic devices?
+- IV drug use?
+- Recent procedures or surgeries?
+- Symptoms localizing to a source (dysuria, cough, abdominal pain)?
+- Immunosuppression?
+- Prior resistant organisms?
+key_exam_findings:
+- Fever and tachycardia
+- Line or catheter site erythema or purulence
+- New heart murmur (endocarditis)
+- Source-specific findings (consolidation, CVA tenderness, cellulitis)
+- Embolic phenomena (Janeway, Osler, splinter hemorrhages)
+treatment_principles:
+- Blood cultures from 2 separate peripheral sites before antibiotics
+- Empiric broad-spectrum coverage, narrow based on sensitivities
+- Source control (remove lines, drain abscesses)
+- Repeat cultures every 48h for S. aureus until clearance
+- Duration guided by organism, source, and complications
+disposition_guidance:
+- Inpatient for all true bacteremia pending workup
+- OPAT for stable patients completing IV course
+- ID consultation for S. aureus, Candida, and persistent bacteremia
+- Follow-up cultures to document clearance

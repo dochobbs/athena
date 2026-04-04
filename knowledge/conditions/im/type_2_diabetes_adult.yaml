@@ -1,0 +1,89 @@
+id: type_2_diabetes_adult
+display_name: "Type 2 Diabetes Mellitus (Adult)"
+aliases:
+  - T2DM
+  - Type 2 diabetes
+  - Adult-onset diabetes
+  - Non-insulin dependent diabetes
+snomed: "44054006"
+icd10:
+  - "E11.9"
+  - "E11.65"
+category: chronic
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: polyuria
+      probability: 0.65
+      description: "Increased urinary frequency"
+    - name: polydipsia
+      probability: 0.60
+      description: "Excessive thirst"
+    - name: fatigue
+      probability: 0.70
+      description: "Chronic fatigue and malaise"
+    - name: blurred_vision
+      probability: 0.35
+      description: "Blurry vision from osmotic lens changes"
+    - name: weight_loss
+      probability: 0.30
+      description: "Unintentional weight loss in poorly controlled disease"
+    - name: asymptomatic
+      probability: 0.40
+      description: "Often discovered on routine labs"
+    - name: recurrent_infections
+      probability: 0.25
+      description: "Recurrent UTIs, candidiasis, or skin infections"
+  physical_exam:
+    - system: general
+      finding: "Obesity, often central adiposity (BMI >30)"
+      probability: 0.70
+    - system: skin
+      finding: "Acanthosis nigricans on neck, axillae"
+      probability: 0.35
+    - system: extremities
+      finding: "Decreased pedal pulses, peripheral neuropathy on monofilament"
+      probability: 0.25
+    - system: ophthalmologic
+      finding: "Retinopathy on fundoscopy in established disease"
+      probability: 0.20
+treatment:
+  approach: lifestyle_and_stepwise_pharmacotherapy
+  medications:
+    - agent: "Metformin"
+      rxnorm: "6809"
+      frequency: "500-1000 mg twice daily"
+      route: oral
+      indication: "First-line pharmacotherapy for T2DM"
+    - agent: "Empagliflozin"
+      rxnorm: "1545653"
+      frequency: "10-25 mg daily"
+      route: oral
+      indication: "SGLT2 inhibitor, cardiovascular and renal benefit"
+    - agent: "Semaglutide"
+      rxnorm: "1991302"
+      frequency: "0.25-1 mg subcutaneous weekly"
+      route: subcutaneous
+      indication: "GLP-1 RA, weight loss and cardiovascular benefit"
+    - agent: "Insulin Glargine"
+      rxnorm: "274783"
+      frequency: "10 units subcutaneous nightly, titrate"
+      route: subcutaneous
+      indication: "Basal insulin for inadequate glycemic control"
+    - agent: "Sitagliptin"
+      rxnorm: "593411"
+      frequency: "100 mg daily"
+      route: oral
+      indication: "DPP-4 inhibitor, weight-neutral option"

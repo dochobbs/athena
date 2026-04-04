@@ -1,0 +1,83 @@
+id: lung_cancer
+display_name: "Lung Cancer"
+aliases:
+  - Non-small cell lung cancer
+  - NSCLC
+  - Small cell lung cancer
+  - SCLC
+  - Bronchogenic carcinoma
+snomed: "363358000"
+icd10:
+  - "C34.90"
+  - "C34.10"
+  - "C34.30"
+category: chronic
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 540
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.0
+  rr_multiplier: 1.10
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: cough
+      probability: 0.75
+      description: "persistent cough, new or changed character"
+    - name: hemoptysis
+      probability: 0.30
+      description: "coughing up blood"
+    - name: dyspnea
+      probability: 0.55
+      description: "progressive dyspnea"
+    - name: weight_loss
+      probability: 0.60
+      description: "unintentional weight loss"
+    - name: chest_pain
+      probability: 0.40
+      description: "dull aching chest or shoulder pain"
+    - name: fatigue
+      probability: 0.65
+      description: "progressive fatigue"
+    - name: hoarseness
+      probability: 0.15
+      description: "from recurrent laryngeal nerve involvement"
+  physical_exam:
+    - system: respiratory
+      finding: "Decreased breath sounds over mass or effusion"
+      probability: 0.40
+    - system: general
+      finding: "Cachexia, wasting"
+      probability: 0.35
+    - system: lymphatic
+      finding: "Supraclavicular lymphadenopathy"
+      probability: 0.25
+    - system: extremities
+      finding: "Digital clubbing"
+      probability: 0.20
+    - system: neurologic
+      finding: "Horner syndrome (Pancoast tumor)"
+      probability: 0.05
+treatment:
+  approach: staging_dependent_multimodal
+  medications:
+    - agent: "Carboplatin"
+      rxnorm: "40048"
+      frequency: "IV q3 weeks per oncology protocol"
+      route: iv
+      indication: "platinum-based chemotherapy"
+    - agent: "Pembrolizumab"
+      rxnorm: "1597868"
+      frequency: "200 mg IV q3 weeks"
+      route: iv
+      indication: "checkpoint inhibitor immunotherapy for PD-L1 positive"
+    - agent: "Osimertinib"
+      rxnorm: "1735464"
+      frequency: "80 mg once daily"
+      route: oral
+      indication: "EGFR-targeted therapy for EGFR-mutated NSCLC"

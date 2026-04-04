@@ -1,0 +1,53 @@
+id: melanoma_screening
+topic: "Melanoma Screening"
+category: dermatology
+specialties:
+  - im
+teaching_goals:
+  - Apply ABCDE criteria for melanoma detection
+  - Identify high-risk patients needing regular skin surveillance
+  - Understand Breslow depth as the most important prognostic factor
+  - Know biopsy techniques (excisional preferred over shave for pigmented lesions)
+  - Recognize atypical melanoma presentations (amelanotic, subungual, acral)
+common_mistakes:
+  - Performing shave biopsy on suspected melanoma (alters Breslow measurement)
+  - Missing amelanotic melanoma (pink or skin-colored nodule)
+  - Not examining the full skin including scalp, nails, and mucous membranes
+  - Ignoring the ugly duckling sign (lesion that looks different from others)
+  - Overlooking acral melanoma in dark-skinned patients (palms, soles, nails)
+red_flags:
+  - Rapidly changing or growing pigmented lesion
+  - Bleeding or ulcerated pigmented lesion
+  - New pigmented lesion after age 40
+  - Subungual pigmented streak (Hutchinson sign of the nail)
+  - Regional lymphadenopathy with a suspicious skin lesion
+clinical_pearls:
+  - "ABCDE: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolution"
+  - "Ugly duckling sign: any mole that looks different from the patient's other moles"
+  - "Breslow depth <1mm has >95% 5-year survival; >4mm drops to ~50%"
+  - "Acral lentiginous melanoma is the most common melanoma subtype in Black patients"
+  - "Dermoscopy increases diagnostic accuracy by 20-30% over naked eye"
+key_history_questions:
+  - "Has this mole changed in size, shape, or color?"
+  - "Is the lesion new, or has it been present for a long time?"
+  - "Does it bleed, itch, or hurt?"
+  - "History of sunburns, especially blistering burns?"
+  - "Family history of melanoma?"
+  - "Any prior skin cancers or atypical moles?"
+key_exam_findings:
+  - "Asymmetric pigmented lesion"
+  - "Irregular, scalloped, or notched borders"
+  - "Multiple colors within one lesion (brown, black, red, white, blue)"
+  - "Diameter greater than 6mm"
+  - "Ugly duckling sign"
+  - "Regional lymphadenopathy"
+treatment_principles:
+  - "Excisional biopsy with narrow margins for suspicious pigmented lesions"
+  - "Wide local excision guided by Breslow depth (1cm margin for <1mm, 2cm for >2mm)"
+  - "Sentinel lymph node biopsy for tumors >0.8mm Breslow depth"
+  - "Immunotherapy (pembrolizumab, nivolumab) for advanced or metastatic melanoma"
+  - "Regular full-body skin exams for high-risk patients"
+disposition_guidance:
+  - "Outpatient dermatology referral for biopsy of suspicious lesions"
+  - "Oncology referral for confirmed melanoma staging and treatment"
+  - "Lifelong surveillance for patients with melanoma history"

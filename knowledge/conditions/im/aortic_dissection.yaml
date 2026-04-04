@@ -1,0 +1,84 @@
+id: aortic_dissection
+display_name: "Aortic Dissection"
+aliases:
+  - Acute aortic dissection
+  - Type A dissection
+  - Type B dissection
+  - Stanford classification
+snomed: "308546005"
+icd10:
+  - "I71.00"
+  - "I71.01"
+  - "I71.02"
+  - "I71.03"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.25
+  rr_multiplier: 1.15
+  bp_systolic:
+    - 80
+    - 220
+presentation:
+  symptoms:
+    - name: chest_pain
+      probability: 0.90
+      description: "sudden severe tearing/ripping chest pain radiating to back"
+    - name: back_pain
+      probability: 0.70
+      description: "interscapular pain, migrating"
+    - name: syncope
+      probability: 0.20
+      description: "from hypotension or stroke"
+    - name: dyspnea
+      probability: 0.30
+      description: "if aortic regurgitation or tamponade"
+    - name: neurologic_symptoms
+      probability: 0.15
+      description: "stroke, limb ischemia from branch vessel involvement"
+  physical_exam:
+    - system: vascular
+      finding: "Blood pressure differential >20 mmHg between arms"
+      probability: 0.50
+    - system: vascular
+      finding: "Pulse deficit in extremities"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "New diastolic murmur of aortic regurgitation (Type A)"
+      probability: 0.35
+    - system: cardiovascular
+      finding: "Severe hypertension or hypotension"
+      probability: 0.70
+    - system: general
+      finding: "Patient appears in severe distress"
+      probability: 0.85
+treatment:
+  approach: bp_and_hr_control_surgical_referral
+  medications:
+    - agent: "Esmolol"
+      rxnorm: "49737"
+      frequency: "500 mcg/kg bolus then 50-200 mcg/kg/min"
+      route: iv
+      indication: "first-line HR and BP control, target HR <60"
+    - agent: "Labetalol"
+      rxnorm: "6185"
+      frequency: "20 mg IV bolus then infusion"
+      route: iv
+      indication: "alternative beta-blocker"
+    - agent: "Nicardipine"
+      rxnorm: "7417"
+      frequency: "5-15 mg/hr IV infusion"
+      route: iv
+      indication: "add if BP not controlled with beta-blocker alone"
+    - agent: "Nitroprusside"
+      rxnorm: "7513"
+      frequency: "0.3-10 mcg/kg/min"
+      route: iv
+      indication: "adjunct AFTER beta-blockade, never alone"

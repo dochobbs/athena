@@ -1,0 +1,76 @@
+id: osteomyelitis
+display_name: "Osteomyelitis"
+aliases:
+  - Bone infection
+  - Acute osteomyelitis
+  - Chronic osteomyelitis
+snomed: "60168000"
+icd10:
+  - "M86.9"
+  - "M86.10"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [99.5, 103.0]
+  hr_multiplier: 1.15
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: localized_bone_pain
+      probability: 0.90
+      description: "deep, constant bone pain worsening over days to weeks"
+    - name: swelling
+      probability: 0.65
+      description: "soft tissue swelling overlying affected bone"
+    - name: fever
+      probability: 0.55
+      description: "may be absent in chronic or vertebral osteomyelitis"
+    - name: limited_mobility
+      probability: 0.60
+      description: "reluctance to use or bear weight on affected limb"
+    - name: wound_drainage
+      probability: 0.40
+      description: "draining sinus tract in chronic cases"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Point tenderness over affected bone"
+      probability: 0.85
+    - system: skin
+      finding: "Overlying erythema, warmth, swelling"
+      probability: 0.65
+    - system: skin
+      finding: "Draining sinus tract"
+      probability: 0.25
+    - system: vascular
+      finding: "Probe-to-bone positive in diabetic foot"
+      probability: 0.50
+treatment:
+  approach: prolonged_antibiotic_therapy
+  medications:
+    - agent: "Nafcillin"
+      rxnorm: "7233"
+      frequency: "every 4 hours"
+      route: iv
+      indication: "MSSA osteomyelitis"
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "MRSA osteomyelitis or empiric therapy"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "once daily"
+      route: iv
+      indication: "gram-negative coverage"
+    - agent: "Ciprofloxacin"
+      rxnorm: "2551"
+      frequency: "twice daily"
+      route: oral
+      indication: "oral step-down for gram-negative organisms"

@@ -1,0 +1,53 @@
+id: hypothyroidism
+topic: "Hypothyroidism"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Know the diagnostic approach (TSH first, then free T4)
+  - Understand the most common cause (Hashimoto thyroiditis)
+  - Master levothyroxine dosing and monitoring
+  - Recognize subclinical hypothyroidism and when to treat
+  - Identify myxedema coma as a medical emergency
+common_mistakes:
+  - Checking free T3 routinely (almost never clinically useful)
+  - Not waiting 6-8 weeks to recheck TSH after dose change
+  - Taking levothyroxine with food or calcium/iron (reduces absorption)
+  - Treating mildly elevated TSH (4.5-10) without symptoms in elderly
+  - Attributing nonspecific symptoms to thyroid without checking TSH
+red_flags:
+  - Myxedema coma (hypothermia, AMS, bradycardia, hypotension)
+  - Severe hypothyroidism with effusions (pericardial, pleural)
+  - Rapid enlargement of goiter (concern for lymphoma or malignancy)
+  - Adrenal insufficiency coexisting (treat cortisol first)
+clinical_pearls:
+  - "TSH is the most sensitive test. Check TSH first, free T4 only if TSH abnormal."
+  - "Take levothyroxine on empty stomach, 30-60 min before food, separate from calcium/iron by 4 hours"
+  - "Start low in elderly and cardiac patients (12.5-25 mcg, increase slowly)"
+  - "Subclinical hypothyroidism (TSH 4.5-10, normal T4): treat if symptomatic, pregnant, or TPO antibodies positive"
+  - "Myxedema coma: IV levothyroxine + IV hydrocortisone (until adrenal insufficiency excluded)"
+key_history_questions:
+  - Fatigue, weight gain, cold intolerance, constipation?
+  - Hair loss, dry skin, depression?
+  - Menstrual irregularity?
+  - Family history of thyroid disease?
+  - Neck radiation or thyroid surgery history?
+  - Current medications (lithium, amiodarone, immune checkpoint inhibitors)?
+key_exam_findings:
+  - Goiter or thyroid atrophy
+  - Bradycardia
+  - Dry, coarse skin
+  - Periorbital and pretibial edema (non-pitting)
+  - Delayed relaxation phase of deep tendon reflexes
+  - Slow speech, cognitive slowing
+treatment_principles:
+  - Levothyroxine is the treatment (full replacement ~1.6 mcg/kg/day)
+  - Start at lower doses in elderly or cardiac patients
+  - Monitor TSH every 6-8 weeks until stable, then annually
+  - Numerous drug and food interactions affect absorption
+  - Treat adrenal insufficiency BEFORE thyroid replacement if both present
+disposition_guidance:
+  - "Outpatient: Nearly all hypothyroidism management"
+  - "Admission: Myxedema coma (ICU), severe symptomatic hypothyroidism"
+  - "Endocrine referral: Suspected secondary hypothyroidism, pregnancy, complex cases"
+  - "No referral needed: Straightforward primary hypothyroidism managed in primary care"

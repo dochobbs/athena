@@ -1,0 +1,81 @@
+id: bipolar_disorder
+display_name: "Bipolar Disorder"
+aliases:
+  - Bipolar I disorder
+  - Bipolar II disorder
+  - Manic-depressive illness
+  - Mania
+snomed: "13746004"
+icd10:
+  - "F31.9"
+  - "F31.10"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.10
+presentation:
+  symptoms:
+    - name: elevated mood
+      probability: 0.70
+      description: "euphoria, grandiosity during manic episodes"
+    - name: decreased need for sleep
+      probability: 0.80
+      description: "sleeping 2-3 hours and feeling rested"
+    - name: pressured speech
+      probability: 0.65
+      description: "rapid, loud, difficult to interrupt"
+    - name: racing thoughts
+      probability: 0.70
+      description: "flight of ideas, jumping between topics"
+    - name: increased goal-directed activity
+      probability: 0.60
+      description: "excessive planning, spending, sexual activity"
+    - name: impulsivity
+      probability: 0.55
+      description: "reckless behavior with consequences"
+    - name: depressive episodes
+      probability: 0.85
+      description: "alternating with manic or hypomanic episodes"
+  physical_exam:
+    - system: psychiatric
+      finding: "Pressured speech, flight of ideas"
+      probability: 0.65
+    - system: psychiatric
+      finding: "Elevated, expansive, or irritable mood"
+      probability: 0.70
+    - system: psychiatric
+      finding: "Psychomotor agitation, hyperactivity"
+      probability: 0.55
+    - system: general
+      finding: "Poor self-care during depressive episodes"
+      probability: 0.40
+treatment:
+  approach: mood_stabilizer_first_line
+  medications:
+    - agent: "Lithium"
+      rxnorm: "6448"
+      frequency: "twice daily, titrate to serum level"
+      route: oral
+      indication: "first-line mood stabilizer, anti-suicidal properties"
+    - agent: "Valproic Acid"
+      rxnorm: "11118"
+      frequency: "twice daily"
+      route: oral
+      indication: "mood stabilizer alternative, especially for rapid cycling"
+    - agent: "Quetiapine"
+      rxnorm: "51272"
+      frequency: "once daily at bedtime"
+      route: oral
+      indication: "atypical antipsychotic for acute mania and bipolar depression"
+    - agent: "Lamotrigine"
+      rxnorm: "28439"
+      frequency: "once daily"
+      route: oral
+      indication: "bipolar depression prophylaxis, slow titration required"

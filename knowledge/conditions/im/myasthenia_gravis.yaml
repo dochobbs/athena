@@ -1,0 +1,74 @@
+id: myasthenia_gravis
+display_name: "Myasthenia Gravis"
+aliases:
+  - MG
+  - Myasthenia
+  - Autoimmune neuromuscular junction disorder
+snomed: "91637004"
+icd10:
+  - "G70.00"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: ptosis
+      probability: 0.80
+      description: "drooping eyelid, worse with sustained upgaze, fatigable"
+    - name: diplopia
+      probability: 0.70
+      description: "double vision from extraocular muscle weakness"
+    - name: fatigable weakness
+      probability: 0.85
+      description: "weakness worsens with repeated use, improves with rest"
+    - name: dysphagia
+      probability: 0.35
+      description: "difficulty swallowing, especially late in day"
+    - name: dysarthria
+      probability: 0.30
+      description: "nasal speech, worsens with prolonged talking"
+    - name: respiratory weakness
+      probability: 0.15
+      description: "myasthenic crisis, life-threatening"
+  physical_exam:
+    - system: neurologic
+      finding: "Fatigable ptosis on sustained upgaze (ice pack test improves)"
+      probability: 0.80
+    - system: neurologic
+      finding: "Proximal muscle weakness, fatigable on repeated testing"
+      probability: 0.60
+    - system: neurologic
+      finding: "Normal reflexes and sensation (pure motor involvement)"
+      probability: 0.90
+    - system: neurologic
+      finding: "Weak neck flexion, head drop"
+      probability: 0.30
+treatment:
+  approach: cholinesterase_and_immunotherapy
+  medications:
+    - agent: "Pyridostigmine"
+      rxnorm: "8896"
+      frequency: "three to four times daily"
+      route: oral
+      indication: "first-line acetylcholinesterase inhibitor, symptomatic"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily"
+      route: oral
+      indication: "immunosuppression for moderate-severe disease"
+    - agent: "Mycophenolate Mofetil"
+      rxnorm: "68149"
+      frequency: "twice daily"
+      route: oral
+      indication: "steroid-sparing immunosuppressant"
+    - agent: "IVIG"
+      rxnorm: "6038"
+      frequency: "daily for 5 days"
+      route: iv
+      indication: "myasthenic crisis or pre-thymectomy"

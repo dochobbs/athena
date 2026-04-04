@@ -1,0 +1,53 @@
+id: opioid_use_disorder
+topic: "Opioid Use Disorder"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Recognize opioid withdrawal and intoxication presentations
+  - Understand medication-assisted treatment options (buprenorphine, methadone, naltrexone)
+  - Initiate buprenorphine in the inpatient and outpatient setting
+  - Know the X-waiver elimination (all DEA-licensed providers can prescribe buprenorphine)
+  - Manage acute opioid overdose with naloxone
+common_mistakes:
+  - Starting buprenorphine too early (must be in moderate withdrawal, COWS >= 8)
+  - Not offering MAT to hospitalized patients with OUD (missed opportunity)
+  - Stigmatizing language (use "opioid use disorder" not "addict" or "junkie")
+  - Undertreating pain in patients with OUD
+  - Not prescribing naloxone rescue kit to all patients with OUD
+red_flags:
+  - Respiratory depression from opioid overdose (naloxone emergency)
+  - IV drug use complications (endocarditis, osteomyelitis, hepatitis C)
+  - Precipitated withdrawal from premature buprenorphine induction
+  - Pregnant patient with OUD (methadone or buprenorphine, NOT withdrawal)
+clinical_pearls:
+  - "COWS scale: start buprenorphine when score >= 8-12 (moderate withdrawal)"
+  - "Buprenorphine has a ceiling effect on respiratory depression (safer than methadone)"
+  - "MAT reduces all-cause mortality by 50% and opioid-related mortality by 75%"
+  - "Every patient with OUD should receive naloxone rescue kit and harm reduction counseling"
+  - "Methadone for OUD can only be dispensed through OTPs; buprenorphine can be prescribed by any provider"
+key_history_questions:
+  - "What opioids are you using, how much, and how often?"
+  - "When was your last use?"
+  - "Have you ever overdosed?"
+  - "Have you tried treatment before (MAT, detox, rehab)?"
+  - "Do you inject drugs? If so, do you share needles?"
+  - "Are you interested in treatment to reduce or stop opioid use?"
+key_exam_findings:
+  - "Mydriasis (withdrawal) vs miosis (intoxication)"
+  - "Diaphoresis, piloerection, yawning, lacrimation (withdrawal)"
+  - "COWS score for withdrawal severity"
+  - "Track marks, skin abscesses"
+  - "Heart murmur (endocarditis screening)"
+  - "Respiratory rate and sedation level (overdose concern)"
+treatment_principles:
+  - "Acute overdose: naloxone 0.4-2mg IV/IM/IN, repeat every 2-3 minutes"
+  - "MAT first-line: buprenorphine-naloxone (most accessible) or methadone (most effective)"
+  - "Start buprenorphine in COWS >= 8-12; consider low-dose micro-induction protocols"
+  - "Naltrexone (extended-release IM) for patients who achieve abstinence first"
+  - "Treat co-occurring conditions: HCV screening, mental health, social determinants"
+disposition_guidance:
+  - "Observe 4+ hours after naloxone (opioid half-life may exceed naloxone)"
+  - "Initiate buprenorphine before discharge when possible"
+  - "Warm handoff to addiction treatment program"
+  - "Prescribe naloxone rescue kit to patient and family"

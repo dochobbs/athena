@@ -1,0 +1,66 @@
+id: encephalitis
+display_name: "Encephalitis"
+aliases:
+  - Viral encephalitis
+  - HSV encephalitis
+  - Herpes simplex encephalitis
+snomed: "45170000"
+icd10:
+  - "G04.90"
+  - "B00.4"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [100.5, 104.0]
+  hr_multiplier: 1.20
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: altered_mental_status
+      probability: 0.90
+      description: "confusion, personality change, behavioral abnormalities"
+    - name: fever
+      probability: 0.85
+      description: "fever preceding or concurrent with neurologic symptoms"
+    - name: headache
+      probability: 0.80
+      description: "severe headache"
+    - name: seizures
+      probability: 0.40
+      description: "focal or generalized seizures"
+    - name: focal_deficits
+      probability: 0.35
+      description: "aphasia, hemiparesis (especially temporal lobe in HSV)"
+  physical_exam:
+    - system: neurologic
+      finding: "Altered mental status, confusion, disorientation"
+      probability: 0.90
+    - system: neurologic
+      finding: "Focal neurologic deficits"
+      probability: 0.35
+    - system: neurologic
+      finding: "Seizure activity"
+      probability: 0.40
+    - system: neurologic
+      finding: "Mild nuchal rigidity (meningoencephalitis)"
+      probability: 0.30
+treatment:
+  approach: empiric_antiviral_therapy
+  medications:
+    - agent: "Acyclovir"
+      rxnorm: "281"
+      frequency: "every 8 hours x 14-21 days"
+      route: iv
+      indication: "empiric and definitive therapy for HSV encephalitis"
+    - agent: "Levetiracetam"
+      rxnorm: "187832"
+      frequency: "twice daily"
+      route: iv
+      indication: "seizure prophylaxis/treatment"

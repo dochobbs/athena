@@ -1,0 +1,80 @@
+id: palliative_care
+display_name: "Palliative Care"
+aliases:
+  - Comfort care
+  - End-of-life care
+  - Hospice
+  - Symptom management
+snomed: "103735009"
+icd10:
+  - "Z51.5"
+category: chronic
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: pain
+      probability: 0.75
+      description: "cancer pain, chronic pain, total pain concept"
+    - name: dyspnea
+      probability: 0.50
+      description: "air hunger, terminal dyspnea"
+    - name: nausea
+      probability: 0.40
+      description: "from disease, medications, or bowel obstruction"
+    - name: fatigue
+      probability: 0.85
+      description: "profound fatigue limiting function"
+    - name: anxiety and existential distress
+      probability: 0.55
+      description: "fear, spiritual distress, loss of meaning"
+    - name: delirium
+      probability: 0.40
+      description: "terminal delirium, agitation"
+  physical_exam:
+    - system: general
+      finding: "Cachexia, functional status assessment (PPS, ECOG)"
+      probability: 0.70
+    - system: general
+      finding: "Assessment of symptom burden using validated tools"
+      probability: 0.80
+    - system: neurologic
+      finding: "Altered consciousness in terminal phase"
+      probability: 0.30
+    - system: respiratory
+      finding: "Terminal secretions (death rattle)"
+      probability: 0.20
+treatment:
+  approach: symptom_focused_comfort
+  medications:
+    - agent: "Morphine"
+      rxnorm: "7052"
+      frequency: "every 4 hours or continuous infusion"
+      route: iv
+      indication: "first-line opioid for pain and dyspnea"
+    - agent: "Ondansetron"
+      rxnorm: "26225"
+      frequency: "every 8 hours"
+      route: oral
+      indication: "antiemetic for nausea"
+    - agent: "Haloperidol"
+      rxnorm: "5093"
+      frequency: "every 6-8 hours"
+      route: oral
+      indication: "for terminal delirium and refractory nausea"
+    - agent: "Glycopyrrolate"
+      rxnorm: "4989"
+      frequency: "every 4-6 hours"
+      route: subcutaneous
+      indication: "anticholinergic for terminal secretions"
+    - agent: "Lorazepam"
+      rxnorm: "6470"
+      frequency: "every 4-6 hours"
+      route: sublingual
+      indication: "anxiolytic for distress and terminal agitation"

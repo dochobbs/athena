@@ -1,0 +1,77 @@
+id: svt
+display_name: "Supraventricular Tachycardia"
+aliases:
+  - SVT
+  - AVNRT
+  - AVRT
+  - Paroxysmal SVT
+  - PSVT
+snomed: "6456007"
+icd10:
+  - "I47.1"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.80
+  rr_multiplier: 1.10
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: palpitations
+      probability: 0.90
+      description: "sudden onset rapid regular heartbeat"
+    - name: dizziness
+      probability: 0.50
+      description: "lightheadedness or presyncope"
+    - name: chest_tightness
+      probability: 0.40
+      description: "chest pressure during episode"
+    - name: dyspnea
+      probability: 0.45
+      description: "sensation of breathlessness"
+    - name: diaphoresis
+      probability: 0.30
+      description: "sweating during episode"
+    - name: syncope
+      probability: 0.10
+      description: "loss of consciousness if prolonged"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Regular narrow-complex tachycardia 150-250 bpm"
+      probability: 0.95
+    - system: cardiovascular
+      finding: "Hypotension if hemodynamically unstable"
+      probability: 0.15
+    - system: general
+      finding: "Anxious, diaphoretic appearance"
+      probability: 0.40
+treatment:
+  approach: vagal_maneuvers_then_adenosine
+  medications:
+    - agent: "Adenosine"
+      rxnorm: "519"
+      frequency: "6 mg rapid IV push, then 12 mg if needed"
+      route: iv
+      indication: "first-line pharmacologic for stable SVT"
+    - agent: "Metoprolol Tartrate"
+      rxnorm: "6918"
+      frequency: "5 mg IV q5min"
+      route: iv
+      indication: "rate control after conversion or prevention"
+    - agent: "Diltiazem"
+      rxnorm: "3443"
+      frequency: "0.25 mg/kg IV bolus"
+      route: iv
+      indication: "alternative if adenosine fails"
+    - agent: "Verapamil"
+      rxnorm: "11170"
+      frequency: "5-10 mg IV over 2 min"
+      route: iv
+      indication: "alternative calcium channel blocker"

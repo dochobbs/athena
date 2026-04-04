@@ -1,0 +1,93 @@
+id: aki_prerenal
+display_name: "Prerenal Acute Kidney Injury"
+aliases:
+  - Prerenal AKI
+  - Prerenal azotemia
+  - Prerenal failure
+snomed: "129561000119106"
+icd10:
+  - "N17.9"
+category: acute
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 99.0]
+  hr_multiplier: 1.20
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: oliguria
+      probability: 0.85
+      description: "Decreased urine output <0.5 mL/kg/hr"
+    - name: thirst
+      probability: 0.70
+      description: "Intense thirst with dry mucous membranes"
+    - name: orthostatic_dizziness
+      probability: 0.75
+      description: "Lightheadedness on standing"
+    - name: fatigue
+      probability: 0.65
+      description: "Generalized weakness and malaise"
+    - name: nausea
+      probability: 0.50
+      description: "Nausea with or without vomiting"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Tachycardia, orthostatic hypotension"
+      probability: 0.80
+    - system: skin
+      finding: "Decreased skin turgor, dry mucous membranes"
+      probability: 0.75
+    - system: general
+      finding: "Flat neck veins in supine position"
+      probability: 0.65
+    - system: cardiovascular
+      finding: "Weak peripheral pulses"
+      probability: 0.55
+diagnostics:
+  labs:
+    - name: BUN/Creatinine ratio
+      loinc: "3094-0"
+      value_type: numeric
+      unit: ratio
+      normal_range_high: 20
+      abnormal_high_min: 20
+      abnormal_high_max: 40
+      probability_abnormal: 0.85
+    - name: Fractional excretion of sodium
+      loinc: "2164-2"
+      value_type: numeric
+      unit: "%"
+      normal_range_high: 1.0
+      abnormal_low_max: 1.0
+      probability_abnormal: 0.90
+    - name: Urine sodium
+      loinc: "2955-3"
+      value_type: numeric
+      unit: mEq/L
+      normal_range_high: 20
+      probability_abnormal: 0.85
+treatment:
+  approach: volume_resuscitation
+  medications:
+    - agent: "Normal Saline (0.9% NaCl)"
+      rxnorm: "313002"
+      frequency: "bolus 500-1000 mL then reassess"
+      route: iv
+      indication: "Volume repletion for hypovolemia"
+    - agent: "Lactated Ringer's"
+      rxnorm: "313572"
+      frequency: "bolus 500-1000 mL then reassess"
+      route: iv
+      indication: "Alternative crystalloid for volume repletion"
+  patient_instructions:
+    - Monitor urine output closely with Foley catheter
+    - Hold nephrotoxic agents (NSAIDs, ACE inhibitors, ARBs)
+    - Serial BMP every 6-12 hours until creatinine trending down
+    - Address underlying cause (sepsis, hemorrhage, heart failure)

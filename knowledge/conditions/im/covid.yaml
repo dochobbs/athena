@@ -1,0 +1,81 @@
+id: covid
+display_name: "COVID-19"
+aliases:
+  - SARS-CoV-2
+  - Coronavirus disease 2019
+  - COVID
+snomed: "840539006"
+icd10:
+  - "U07.1"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [100.0, 104.0]
+  hr_multiplier: 1.20
+  spo2_min: 80
+presentation:
+  symptoms:
+    - name: cough
+      probability: 0.80
+      description: "dry cough, may be persistent"
+    - name: fever
+      probability: 0.75
+      description: "fever, often prolonged"
+    - name: dyspnea
+      probability: 0.55
+      description: "shortness of breath, may worsen days 5-10"
+    - name: fatigue
+      probability: 0.70
+      description: "profound fatigue"
+    - name: anosmia
+      probability: 0.40
+      description: "loss of smell"
+    - name: ageusia
+      probability: 0.35
+      description: "loss of taste"
+    - name: myalgias
+      probability: 0.50
+      description: "body aches"
+  physical_exam:
+    - system: respiratory
+      finding: "Bilateral crackles, tachypnea"
+      probability: 0.50
+    - system: general
+      finding: "Hypoxia disproportionate to respiratory distress (happy hypoxia)"
+      probability: 0.30
+    - system: skin
+      finding: "COVID toes (pernio-like lesions)"
+      probability: 0.05
+    - system: cardiovascular
+      finding: "Tachycardia"
+      probability: 0.60
+treatment:
+  approach: severity_based_management
+  medications:
+    - agent: "Dexamethasone"
+      rxnorm: "3264"
+      frequency: "once daily x 10 days"
+      route: oral
+      indication: "hypoxic patients requiring supplemental O2"
+    - agent: "Remdesivir"
+      rxnorm: "2284718"
+      frequency: "once daily x 5 days"
+      route: iv
+      indication: "hospitalized patients requiring supplemental O2"
+    - agent: "Nirmatrelvir-Ritonavir"
+      rxnorm: "2587896"
+      frequency: "twice daily x 5 days"
+      route: oral
+      indication: "outpatient high-risk within 5 days of symptom onset (Paxlovid)"
+    - agent: "Enoxaparin"
+      rxnorm: "67108"
+      frequency: "once daily"
+      route: subcutaneous
+      indication: "VTE prophylaxis in hospitalized patients"

@@ -1,0 +1,60 @@
+id: polypharmacy
+display_name: "Polypharmacy"
+aliases:
+  - Multiple medication use
+  - Overmedication
+  - Inappropriate polypharmacy
+snomed: "409137002"
+icd10:
+  - "T50.901A"
+  - "Z79.899"
+category: chronic
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: adverse drug reactions
+      probability: 0.50
+      description: "new symptoms that are actually drug side effects"
+    - name: falls
+      probability: 0.35
+      description: "medication-related dizziness, orthostasis, sedation"
+    - name: confusion
+      probability: 0.30
+      description: "anticholinergic burden causing cognitive impairment"
+    - name: dizziness
+      probability: 0.40
+      description: "from antihypertensives, sedatives, or drug interactions"
+    - name: fatigue
+      probability: 0.35
+      description: "cumulative sedating effects"
+    - name: constipation
+      probability: 0.30
+      description: "from opioids, anticholinergics, calcium channel blockers"
+  physical_exam:
+    - system: neurologic
+      finding: "Cognitive impairment on screening (anticholinergic burden)"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Orthostatic hypotension"
+      probability: 0.35
+    - system: neurologic
+      finding: "Gait instability, positive Romberg"
+      probability: 0.25
+    - system: general
+      finding: "Review reveals 5+ concurrent medications"
+      probability: 0.90
+treatment:
+  approach: medication_review_and_deprescribing
+  medications:
+    - agent: "Deprescribing Protocol"
+      rxnorm: "0"
+      frequency: "systematic review"
+      route: oral
+      indication: "use Beers Criteria and STOPP/START to identify inappropriate meds"

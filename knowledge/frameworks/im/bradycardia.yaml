@@ -1,0 +1,54 @@
+id: bradycardia
+topic: "Bradycardia"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Apply ACLS bradycardia algorithm
+  - Distinguish benign from pathologic bradycardia
+  - Identify reversible causes (medications, electrolytes, hypothyroidism)
+  - Know indications for temporary and permanent pacing
+  - Classify AV blocks (first-degree, Mobitz I, Mobitz II, third-degree)
+common_mistakes:
+  - Treating asymptomatic sinus bradycardia in athletes
+  - Not checking medication list (beta-blockers, CCBs, digoxin, amiodarone)
+  - Using atropine in Mobitz II or complete heart block (may worsen)
+  - Missing hyperkalemia as a cause
+  - Delaying transcutaneous pacing while waiting for transvenous access
+red_flags:
+  - Hemodynamic instability (hypotension, altered mental status)
+  - Mobitz Type II (high risk of progressing to complete block)
+  - Complete (third-degree) heart block with wide QRS escape
+  - Bradycardia in setting of acute MI (especially inferior)
+  - New bundle branch block with PR prolongation
+clinical_pearls:
+  - Atropine works via vagal withdrawal - ineffective below His bundle
+  - Mobitz I (Wenckebach) is usually benign and at AV node level
+  - Mobitz II is dangerous and at infranodal level - often needs pacer
+  - Third-degree block with narrow QRS escape = junctional (more stable)
+  - Third-degree block with wide QRS escape = ventricular (less stable, pace urgently)
+key_history_questions:
+  - Do you feel dizzy, lightheaded, or have you fainted?
+  - What medications are you taking (beta-blockers, CCBs, digoxin)?
+  - Any recent medication changes or dose adjustments?
+  - Are you an athlete or highly active?
+  - History of thyroid disease?
+  - Any chest pain suggesting MI?
+key_exam_findings:
+  - Heart rate and rhythm
+  - Blood pressure and hemodynamic stability
+  - Mental status assessment
+  - Cannon A waves in JVP (AV dissociation)
+  - Variable S1 intensity
+  - Signs of hypothyroidism
+treatment_principles:
+  - Atropine 1 mg IV for symptomatic bradycardia (first-line)
+  - Transcutaneous pacing if atropine fails
+  - Chronotropic infusions (dopamine, epinephrine) as bridge
+  - Identify and treat reversible causes
+  - Permanent pacemaker for irreversible symptomatic bradycardia
+disposition_guidance:
+  - Admit all hemodynamically significant bradycardia
+  - Telemetry monitoring for new AV block
+  - Electrophysiology consultation for pacemaker evaluation
+  - Outpatient Holter monitor if intermittent symptoms

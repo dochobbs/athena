@@ -1,0 +1,67 @@
+id: pyelonephritis
+display_name: "Pyelonephritis"
+aliases:
+  - Upper urinary tract infection
+  - Kidney infection
+  - Acute pyelonephritis
+snomed: "45816000"
+icd10:
+  - "N10"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [101.0, 104.0]
+  hr_multiplier: 1.20
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: flank_pain
+      probability: 0.85
+      description: "unilateral costovertebral angle pain"
+    - name: fever
+      probability: 0.90
+      description: "high fever, often with rigors"
+    - name: nausea_vomiting
+      probability: 0.60
+      description: "nausea and vomiting from systemic illness"
+    - name: dysuria
+      probability: 0.65
+      description: "burning with urination, may precede systemic symptoms"
+    - name: urinary_frequency
+      probability: 0.50
+      description: "frequent urination"
+  physical_exam:
+    - system: genitourinary
+      finding: "CVA tenderness on affected side"
+      probability: 0.90
+    - system: abdomen
+      finding: "Abdominal tenderness, guarding"
+      probability: 0.40
+    - system: general
+      finding: "Febrile, ill-appearing, diaphoretic"
+      probability: 0.75
+treatment:
+  approach: antibiotic_therapy
+  medications:
+    - agent: "Ciprofloxacin"
+      rxnorm: "2551"
+      frequency: "twice daily x 7 days"
+      route: oral
+      indication: "outpatient first-line if fluoroquinolone susceptible"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "once daily"
+      route: iv
+      indication: "inpatient empiric therapy"
+    - agent: "Trimethoprim-Sulfamethoxazole"
+      rxnorm: "10831"
+      frequency: "twice daily x 14 days"
+      route: oral
+      indication: "oral step-down if susceptible"

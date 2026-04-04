@@ -1,0 +1,69 @@
+id: unstable_angina
+display_name: "Unstable Angina"
+aliases:
+  - UA
+  - Crescendo angina
+  - Pre-infarction angina
+snomed: "25106000"
+icd10:
+  - "I20.0"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.10
+  rr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: chest_pain
+      probability: 0.90
+      description: "new-onset, worsening, or rest angina without troponin elevation"
+    - name: dyspnea
+      probability: 0.40
+      description: "exertional or rest dyspnea"
+    - name: diaphoresis
+      probability: 0.35
+      description: "sweating with episodes"
+    - name: nausea
+      probability: 0.25
+      description: "nausea during pain episodes"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Often normal between episodes"
+      probability: 0.60
+    - system: cardiovascular
+      finding: "Transient S4 during pain"
+      probability: 0.20
+    - system: general
+      finding: "Anxious, clutching chest"
+      probability: 0.50
+treatment:
+  approach: antiplatelet_anticoagulation_risk_stratification
+  medications:
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "325 mg then 81 mg daily"
+      route: oral
+      indication: "antiplatelet therapy"
+    - agent: "Clopidogrel"
+      rxnorm: "32968"
+      frequency: "300 mg loading then 75 mg daily"
+      route: oral
+      indication: "dual antiplatelet if aspirin alone insufficient"
+    - agent: "Enoxaparin"
+      rxnorm: "67108"
+      frequency: "1 mg/kg SC q12h"
+      route: iv
+      indication: "anticoagulation"
+    - agent: "Nitroglycerin"
+      rxnorm: "7512"
+      frequency: "0.4 mg SL q5min PRN"
+      route: oral
+      indication: "acute symptom relief"

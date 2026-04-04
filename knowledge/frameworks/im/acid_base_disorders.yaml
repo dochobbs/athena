@@ -1,0 +1,53 @@
+id: acid_base_disorders
+topic: "Acid-Base Disorders"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Apply a systematic approach to ABG interpretation (pH, primary disorder, compensation, anion gap)
+  - Calculate and interpret the anion gap and delta-delta ratio
+  - Use Winters formula to assess appropriate respiratory compensation
+  - Identify mixed acid-base disorders
+  - Apply mnemonics for differential diagnosis (MUDPILES, HARDUPS)
+common_mistakes:
+  - Not calculating the anion gap on every BMP
+  - Forgetting to calculate delta-delta to unmask hidden disorders
+  - Treating the pH number rather than the underlying cause
+  - Missing a mixed disorder by only looking at the primary disturbance
+  - Giving bicarbonate for metabolic acidosis without addressing the cause
+red_flags:
+  - pH <7.1 or >7.6 (life-threatening)
+  - Anion gap >30 (severe metabolic acidosis)
+  - Lactic acidosis >4 mmol/L (tissue hypoxia or sepsis)
+  - Respiratory acidosis with declining mental status (impending respiratory failure)
+clinical_pearls:
+  - "Step 1: pH determines acidemia vs alkalemia. Step 2: Does the primary disorder match? Step 3: Is compensation appropriate? Step 4: Calculate anion gap. Step 5: Delta-delta ratio."
+  - "MUDPILES = Methanol, Uremia, DKA, Propylene glycol, INH/Iron, Lactic acidosis, Ethylene glycol, Salicylates"
+  - "Winters formula: expected pCO2 = 1.5 x [HCO3] + 8 (+/- 2)"
+  - "Delta-delta: change in AG / change in HCO3. Ratio >2 = hidden metabolic alkalosis. Ratio <1 = hidden NAGMA."
+  - Contraction alkalosis (from vomiting/diuretics) responds to saline; saline-resistant alkalosis needs other treatment
+key_history_questions:
+  - Any vomiting or diarrhea?
+  - Are you taking any diuretics?
+  - Do you have diabetes? Any recent illness?
+  - Any ingestion of alcohol, antifreeze, or other substances?
+  - Any breathing difficulty or change in breathing pattern?
+  - Any history of COPD or chronic respiratory disease?
+key_exam_findings:
+  - Respiratory pattern (Kussmaul breathing, shallow breathing)
+  - Mental status assessment
+  - Volume status (dehydration suggests contraction alkalosis)
+  - Fruity breath odor (DKA)
+  - Signs of the underlying cause (sepsis, shock, toxidrome)
+  - Chvostek and Trousseau signs (alkalosis-induced hypocalcemia)
+treatment_principles:
+  - Always treat the underlying cause, not just the numbers
+  - Bicarbonate replacement only for severe acidosis (pH <7.1) or specific indications (RTA, toxic ingestions)
+  - Saline for chloride-responsive metabolic alkalosis
+  - Correct potassium simultaneously (shifts with pH)
+  - Intubation for respiratory acidosis with failure (but be careful in metabolic acidosis - match their minute ventilation)
+disposition_guidance:
+  - Admit all patients with severe acid-base derangements (pH <7.2 or >7.55)
+  - ICU for respiratory failure or hemodynamic instability
+  - Outpatient for mild chronic disorders (compensated COPD, stable RTA)
+  - Toxicology consult for suspected ingestion-related acidosis

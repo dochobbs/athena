@@ -1,0 +1,125 @@
+id: leukemia
+display_name: "Leukemia"
+aliases:
+  - Acute leukemia
+  - AML
+  - ALL
+  - CML
+  - CLL
+  - Acute myeloid leukemia
+  - Acute lymphoblastic leukemia
+  - Chronic myeloid leukemia
+  - Chronic lymphocytic leukemia
+snomed: "93143009"
+icd10:
+  - "C91.00"
+  - "C91.10"
+  - "C92.00"
+  - "C92.10"
+category: acute
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [98.0, 103.0]
+  hr_multiplier: 1.20
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.90
+      description: "Progressive fatigue from anemia"
+    - name: fever
+      probability: 0.70
+      description: "Recurrent infections and fever from neutropenia"
+    - name: bruising_bleeding
+      probability: 0.65
+      description: "Easy bruising, petechiae, gum bleeding from thrombocytopenia"
+    - name: bone_pain
+      probability: 0.45
+      description: "Bone pain from marrow expansion (especially ALL)"
+    - name: lymphadenopathy
+      probability: 0.50
+      description: "Painless lymphadenopathy (CLL, ALL)"
+    - name: weight_loss
+      probability: 0.55
+      description: "Unintentional weight loss"
+    - name: night_sweats
+      probability: 0.45
+      description: "Drenching night sweats"
+  physical_exam:
+    - system: lymph
+      finding: "Generalized lymphadenopathy"
+      probability: 0.50
+    - system: abdomen
+      finding: "Splenomegaly, hepatomegaly"
+      probability: 0.55
+    - system: skin
+      finding: "Petechiae, ecchymoses, pallor"
+      probability: 0.65
+    - system: oropharynx
+      finding: "Gingival hyperplasia (AML-M4/M5)"
+      probability: 0.20
+    - system: general
+      finding: "Cachexia in advanced disease"
+      probability: 0.35
+diagnostics:
+  labs:
+    - name: CBC with differential
+      loinc: "57021-8"
+      value_type: panel
+      probability_abnormal: 0.95
+    - name: Peripheral Blood Smear
+      loinc: "9317-9"
+      value_type: categorical
+      finding: "Blasts >20% (acute); mature lymphocytes (CLL); left shift (CML)"
+      probability_abnormal: 0.90
+    - name: LDH
+      loinc: "2532-0"
+      value_type: numeric
+      unit: U/L
+      normal_range_high: 225
+      abnormal_high_min: 300
+      probability_abnormal: 0.80
+    - name: Uric acid
+      loinc: "3084-1"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_high: 7.0
+      abnormal_high_min: 8.0
+      probability_abnormal: 0.60
+treatment:
+  approach: chemotherapy_hematology_referral
+  medications:
+    - agent: "Allopurinol"
+      rxnorm: "519"
+      frequency: "300 mg daily"
+      route: oral
+      indication: "Tumor lysis syndrome prophylaxis"
+    - agent: "Rasburicase"
+      rxnorm: "331455"
+      frequency: "0.2 mg/kg IV once"
+      route: iv
+      indication: "Uric acid reduction for high tumor burden"
+    - agent: "Imatinib"
+      rxnorm: "282388"
+      frequency: "400 mg daily"
+      route: oral
+      indication: "BCR-ABL positive CML (paradigm-changing TKI)"
+    - agent: "Ibrutinib"
+      rxnorm: "1442981"
+      frequency: "420 mg daily"
+      route: oral
+      indication: "CLL first-line therapy"
+  patient_instructions:
+    - Urgent hematology/oncology consultation
+    - Bone marrow biopsy for definitive diagnosis and cytogenetics
+    - Flow cytometry to classify lineage (myeloid vs lymphoid)
+    - Monitor for tumor lysis syndrome (K, Phos, Uric acid, Ca)
+    - Neutropenic precautions if ANC <500
+    - Leukostasis emergency if WBC >100K with symptoms (leukapheresis)

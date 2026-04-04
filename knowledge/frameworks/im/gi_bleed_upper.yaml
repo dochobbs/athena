@@ -1,0 +1,53 @@
+id: gi_bleed_upper
+topic: "Upper GI Bleed"
+category: gi
+specialties:
+  - im
+teaching_goals:
+  - Perform rapid hemodynamic assessment and resuscitation
+  - Calculate Glasgow-Blatchford score for risk stratification
+  - Understand timing and role of endoscopy
+  - Differentiate variceal from non-variceal bleeding and adjust management
+  - Know when to involve GI, surgery, and IR
+common_mistakes:
+  - Delaying resuscitation while waiting for endoscopy
+  - Over-transfusing to normal hemoglobin (target 7-8 g/dL in most)
+  - Forgetting octreotide and antibiotics in suspected variceal bleed
+  - Not checking coagulation studies and platelet count early
+  - Discharging low-risk patients without proper GI follow-up
+red_flags:
+  - Hemodynamic instability (SBP <90, HR >120)
+  - Hematemesis with bright red blood
+  - Signs of liver disease suggesting variceal source
+  - Ongoing bleeding despite resuscitation
+  - Drop in hemoglobin >2 g/dL
+clinical_pearls:
+  - "Glasgow-Blatchford score of 0-1 may be safely discharged with outpatient endoscopy"
+  - "Restrictive transfusion (Hgb target 7) improves outcomes vs liberal strategy"
+  - "IV PPI before endoscopy reduces re-bleeding risk but does not change mortality"
+  - "In cirrhotics: start octreotide + ceftriaxone empirically before endoscopy"
+  - "Erythromycin 250 mg IV 30 min pre-endoscopy improves visualization"
+key_history_questions:
+  - Hematemesis (bright red vs coffee ground)?
+  - Melena or hematochezia?
+  - NSAID, aspirin, or anticoagulant use?
+  - History of liver disease, varices, or prior GI bleed?
+  - Alcohol use history?
+  - Recent vomiting before the bleed (Mallory-Weiss)?
+key_exam_findings:
+  - Hemodynamic status (orthostatics, tachycardia, hypotension)
+  - Rectal exam for melena vs bright red blood
+  - Stigmata of chronic liver disease
+  - Abdominal tenderness or rigidity
+  - NG aspirate (coffee grounds or bright red blood)
+treatment_principles:
+  - ABCs first - two large bore IVs, type and cross, fluid resuscitation
+  - Restrictive transfusion strategy (target Hgb >= 7)
+  - IV PPI bolus then drip for non-variceal bleed
+  - Octreotide + antibiotics if variceal bleed suspected
+  - Endoscopy within 24 hours (within 12 hours if high-risk)
+disposition_guidance:
+  - "ICU: Active bleeding, hemodynamic instability, variceal bleed"
+  - "Floor/stepdown: Stable after initial resuscitation, awaiting endoscopy"
+  - "Outpatient: Glasgow-Blatchford 0-1, no active bleeding"
+  - "Interventional radiology: Failed endoscopic hemostasis"

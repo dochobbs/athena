@@ -1,0 +1,95 @@
+id: alcohol_use_disorder
+display_name: "Alcohol Use Disorder"
+aliases:
+  - AUD
+  - Alcohol dependence
+  - Alcoholism
+  - Alcohol withdrawal
+snomed: "7200002"
+icd10:
+  - "F10.20"
+  - "F10.239"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.20
+  temp_f:
+    - 99.0
+    - 102.0
+  bp_systolic:
+    - 140
+    - 190
+presentation:
+  symptoms:
+    - name: tremor
+      probability: 0.70
+      description: "hand tremor 6-24 hours after last drink"
+    - name: anxiety and agitation
+      probability: 0.75
+      description: "autonomic hyperactivity during withdrawal"
+    - name: diaphoresis
+      probability: 0.60
+      description: "sweating during withdrawal"
+    - name: nausea and vomiting
+      probability: 0.55
+      description: "GI distress during withdrawal"
+    - name: seizures
+      probability: 0.10
+      description: "generalized tonic-clonic, 12-48 hours after cessation"
+    - name: hallucinations
+      probability: 0.15
+      description: "visual, tactile, or auditory (alcoholic hallucinosis)"
+    - name: delirium tremens
+      probability: 0.05
+      description: "severe withdrawal with confusion, autonomic instability, 48-96h"
+  physical_exam:
+    - system: neurologic
+      finding: "Coarse tremor of outstretched hands"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "Tachycardia, hypertension"
+      probability: 0.65
+    - system: general
+      finding: "Diaphoresis, flushed appearance"
+      probability: 0.55
+    - system: hepatic
+      finding: "Hepatomegaly, spider angiomata, palmar erythema"
+      probability: 0.30
+    - system: neurologic
+      finding: "CIWA-Ar score guiding treatment"
+      probability: 0.80
+treatment:
+  approach: withdrawal_management_and_relapse_prevention
+  medications:
+    - agent: "Chlordiazepoxide"
+      rxnorm: "2356"
+      frequency: "symptom-triggered per CIWA protocol"
+      route: oral
+      indication: "first-line benzodiazepine for alcohol withdrawal"
+    - agent: "Lorazepam"
+      rxnorm: "6470"
+      frequency: "symptom-triggered per CIWA protocol"
+      route: iv
+      indication: "preferred benzo in liver disease (no hepatic metabolism)"
+    - agent: "Thiamine"
+      rxnorm: "10594"
+      frequency: "daily, IV then oral"
+      route: iv
+      indication: "prevent Wernicke encephalopathy, give BEFORE glucose"
+    - agent: "Naltrexone"
+      rxnorm: "7243"
+      frequency: "once daily"
+      route: oral
+      indication: "relapse prevention, reduces craving"
+    - agent: "Folic Acid"
+      rxnorm: "4511"
+      frequency: "once daily"
+      route: oral
+      indication: "nutritional supplementation"

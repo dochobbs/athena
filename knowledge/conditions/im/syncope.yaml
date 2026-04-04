@@ -1,0 +1,73 @@
+id: syncope
+display_name: "Syncope"
+aliases:
+  - Fainting
+  - Transient loss of consciousness
+  - Vasovagal syncope
+  - Neurocardiogenic syncope
+snomed: "271594007"
+icd10:
+  - "R55"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 0.85
+  rr_multiplier: 1.0
+  bp_systolic:
+    - 80
+    - 130
+presentation:
+  symptoms:
+    - name: loss_of_consciousness
+      probability: 1.0
+      description: "transient loss of consciousness with spontaneous recovery"
+    - name: prodrome
+      probability: 0.60
+      description: "lightheadedness, warmth, nausea, diaphoresis, visual dimming"
+    - name: palpitations
+      probability: 0.25
+      description: "preceding palpitations suggest cardiac arrhythmia"
+    - name: exertional_syncope
+      probability: 0.15
+      description: "syncope during exertion suggests cardiac etiology"
+    - name: positional_component
+      probability: 0.30
+      description: "orthostatic syncope on standing"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Orthostatic vital signs positive (drop >20 systolic or >10 diastolic)"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Cardiac murmur suggesting structural disease"
+      probability: 0.15
+    - system: neurologic
+      finding: "Neurologic exam normal post-event"
+      probability: 0.85
+    - system: general
+      finding: "Patient appears well after recovery"
+      probability: 0.70
+treatment:
+  approach: risk_stratification_and_etiology_based
+  medications:
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "500-1000 mL IV bolus"
+      route: iv
+      indication: "volume resuscitation if orthostatic"
+    - agent: "Midodrine"
+      rxnorm: "6960"
+      frequency: "5-10 mg TID"
+      route: oral
+      indication: "orthostatic hypotension if conservative measures fail"
+    - agent: "Fludrocortisone"
+      rxnorm: "4099"
+      frequency: "0.1-0.2 mg once daily"
+      route: oral
+      indication: "volume expansion for recurrent vasovagal syncope"

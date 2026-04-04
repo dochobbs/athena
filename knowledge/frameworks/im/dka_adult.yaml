@@ -1,0 +1,54 @@
+id: dka_adult
+topic: "Diabetic Ketoacidosis (Adult)"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Apply the diagnostic criteria (glucose >250, pH <7.3, bicarb <18, anion gap >12, ketones)
+  - Master the DKA management protocol (insulin, fluids, potassium)
+  - Identify and treat precipitating factors (infection, nonadherence, new-onset)
+  - Know when to transition from IV to subcutaneous insulin
+  - Recognize euglycemic DKA (SGLT2 inhibitor-related)
+common_mistakes:
+  - Starting insulin before checking potassium (if K <3.3, replete FIRST)
+  - Stopping insulin drip based on glucose alone (need closure of anion gap)
+  - Not giving overlap subcutaneous insulin before stopping drip (2 hour overlap)
+  - Excessive normal saline causing hyperchloremic metabolic acidosis
+  - Missing the precipitating cause (infection, MI, medication noncompliance)
+red_flags:
+  - Potassium <3.3 at presentation (replete before insulin)
+  - pH <7.0 (severe DKA, consider bicarbonate)
+  - Cerebral edema (rare in adults but can occur)
+  - Persistent anion gap despite appropriate therapy
+  - Concurrent MI or sepsis as trigger
+clinical_pearls:
+  - "Check potassium BEFORE insulin. If K <3.3, replete first - insulin shifts K intracellularly"
+  - "Anion gap closure (not glucose) determines DKA resolution"
+  - "LR preferred over NS for resuscitation to avoid hyperchloremic acidosis"
+  - "Euglycemic DKA: glucose may be <250, occurs with SGLT2 inhibitors"
+  - "2-hour overlap: give long-acting insulin SC 2 hours BEFORE stopping insulin drip"
+key_history_questions:
+  - Type of diabetes (type 1 vs type 2)?
+  - Insulin adherence and last dose?
+  - Recent illness, fever, or infection?
+  - SGLT2 inhibitor use (euglycemic DKA)?
+  - Substance use (cocaine, alcohol)?
+  - Prior DKA episodes?
+key_exam_findings:
+  - Kussmaul respirations
+  - Fruity breath (acetone)
+  - Severe dehydration (dry mucous membranes, poor turgor)
+  - Tachycardia, hypotension
+  - Altered mental status
+  - Abdominal tenderness (DKA mimics acute abdomen)
+treatment_principles:
+  - IV fluids first (NS or LR 1-1.5 L/hr then 250-500 mL/hr based on status)
+  - Check potassium before insulin; replete if <3.3 mEq/L
+  - Insulin drip 0.1-0.14 units/kg/hr (no bolus needed per some protocols)
+  - Add dextrose to fluids when glucose <200 mg/dL
+  - Close anion gap, not just glucose, before transitioning to SC insulin
+disposition_guidance:
+  - "ICU: Severe DKA (pH <7.1), AMS, hemodynamic instability"
+  - "Stepdown/floor: Moderate DKA, alert, hemodynamically stable"
+  - "Discharge: After gap closure, tolerating SC insulin, eating, precipitant addressed"
+  - "Endocrine follow-up: Insulin regimen optimization, education"

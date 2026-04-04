@@ -1,0 +1,54 @@
+id: falls_assessment
+topic: "Falls Assessment"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Perform systematic multifactorial fall risk assessment
+  - Identify modifiable risk factors (medications, vision, environment, strength)
+  - Use validated screening tools (Timed Up and Go, Morse Fall Scale)
+  - Implement evidence-based fall prevention interventions
+  - Assess for injuries and osteoporosis after a fall
+common_mistakes:
+  - Attributing falls to aging and not performing a workup
+  - Not checking orthostatic blood pressures in all fall patients
+  - Overlooking medication contributions (sedatives, antihypertensives, polypharmacy)
+  - Failing to assess home environment for hazards
+  - Not screening for osteoporosis after low-trauma fall
+red_flags:
+  - Recurrent falls (2+ in 12 months, high risk for serious injury)
+  - Fall with loss of consciousness (cardiac etiology, syncope workup)
+  - Fall with head injury on anticoagulation (subdural hematoma risk)
+  - Fall with hip pain (occult hip fracture even with negative X-ray)
+  - New neurologic deficit after fall (stroke causing the fall)
+clinical_pearls:
+  - "Timed Up and Go >12 seconds predicts high fall risk"
+  - "One-third of adults >65 fall annually; half of those >85"
+  - "Vitamin D supplementation reduces fall risk in deficient elderly"
+  - "Multicomponent exercise (balance + strength) reduces falls by 23%"
+  - "Medication review is the single most impactful intervention: reduce or eliminate sedatives, anticholinergics, and excess antihypertensives"
+key_history_questions:
+  - "How many times have you fallen in the past year?"
+  - "Describe the most recent fall: what were you doing, did you trip, feel dizzy, or lose consciousness?"
+  - "What medications are you taking (especially sedatives, blood pressure meds)?"
+  - "Do you use an assistive device (cane, walker)?"
+  - "Have you had your vision checked recently?"
+  - "Do you have throw rugs, poor lighting, or stairs at home?"
+key_exam_findings:
+  - "Orthostatic blood pressure (drop >20 systolic or >10 diastolic)"
+  - "Timed Up and Go test"
+  - "Lower extremity strength (chair stand test)"
+  - "Gait observation (stride length, base, steadiness)"
+  - "Visual acuity screening"
+  - "Foot examination (deformities, sensation, footwear)"
+treatment_principles:
+  - "Multicomponent exercise: balance training + resistance training"
+  - "Medication review: reduce or eliminate fall-risk medications"
+  - "Vitamin D supplementation (800-1000 IU daily)"
+  - "Home safety evaluation and modification"
+  - "Vision correction and cataract referral if needed"
+disposition_guidance:
+  - "Outpatient fall prevention program referral"
+  - "Physical therapy for balance and strength training"
+  - "Home safety evaluation by occupational therapy"
+  - "DEXA scan if not done recently after low-trauma fall"

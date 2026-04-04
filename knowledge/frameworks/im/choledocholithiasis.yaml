@@ -1,0 +1,53 @@
+id: choledocholithiasis
+topic: "Choledocholithiasis"
+category: gi
+specialties:
+  - im
+teaching_goals:
+  - Differentiate choledocholithiasis from cholecystitis and cholangitis
+  - Know the role of MRCP, EUS, and ERCP in diagnosis and management
+  - Understand risk stratification for CBD stones (ASGE criteria)
+  - Recognize ascending cholangitis as a medical emergency
+  - Manage the obstructive jaundice workup
+common_mistakes:
+  - Going straight to ERCP without risk stratification (low risk = no ERCP)
+  - Missing cholangitis (can present subtly with just confusion in elderly)
+  - Not checking LFTs/bilirubin in all biliary colic presentations
+  - Confusing a dilated CBD on ultrasound with confirmed stone
+  - Delaying ERCP in ascending cholangitis
+red_flags:
+  - Charcot triad (fever, jaundice, RUQ pain) = cholangitis
+  - Reynolds pentad (add shock, AMS) = septic cholangitis
+  - Rapidly rising bilirubin
+  - Concurrent pancreatitis (gallstone pancreatitis)
+  - Sepsis in setting of biliary obstruction
+clinical_pearls:
+  - "ASGE criteria: high risk (CBD stone on US, bilirubin >4, cholangitis) = direct ERCP"
+  - "Intermediate risk = MRCP or EUS first to avoid unnecessary ERCP"
+  - "Low risk = no further biliary workup needed"
+  - "Cholangitis is a biliary emergency requiring urgent ERCP drainage"
+  - "Post-ERCP pancreatitis occurs in ~5% of cases - rectal indomethacin reduces risk"
+key_history_questions:
+  - RUQ pain character and duration?
+  - Jaundice, dark urine, acholic stools?
+  - Fever or chills?
+  - Prior gallstone disease or cholecystectomy?
+  - History of pancreatitis?
+  - Recent weight loss?
+key_exam_findings:
+  - Jaundice, scleral icterus
+  - RUQ tenderness
+  - Fever (cholangitis)
+  - Altered mental status (septic cholangitis)
+  - Murphy sign may or may not be positive
+treatment_principles:
+  - Risk-stratify using ASGE criteria to determine need for ERCP
+  - Urgent ERCP for cholangitis (within 24 hours, within 12 if septic)
+  - IV antibiotics if infection suspected
+  - Cholecystectomy after stone clearance to prevent recurrence
+  - MRCP or EUS for intermediate-risk patients before proceeding to ERCP
+disposition_guidance:
+  - "Admission: All suspected CBD stones for workup and possible ERCP"
+  - "Urgent ERCP: Cholangitis, confirmed CBD stone with rising LFTs"
+  - "ICU: Septic cholangitis with hemodynamic instability"
+  - "Surgery: Cholecystectomy after biliary clearance"

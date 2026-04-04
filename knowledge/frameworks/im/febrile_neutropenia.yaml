@@ -1,0 +1,53 @@
+id: febrile_neutropenia
+topic: "Febrile Neutropenia"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Define febrile neutropenia (ANC <500 or expected to decline to <500 with temp >=100.4F)
+  - Initiate empiric antipseudomonal beta-lactam within 60 minutes
+  - Risk-stratify using MASCC score for outpatient vs inpatient management
+  - Know when to add vancomycin, antifungals, or antivirals
+  - Avoid rectal exams and rectal temperatures in neutropenic patients
+common_mistakes:
+  - Delaying empiric antibiotics while awaiting cultures
+  - Performing rectal exam (risk of bacteremia through disrupted mucosa)
+  - Adding vancomycin empirically without specific indication
+  - Not escalating to antifungals when fever persists >4-7 days
+  - Discharging high-risk patients based on initial improvement
+red_flags:
+  - Hemodynamic instability or septic shock
+  - ANC <100 (profound neutropenia)
+  - Persistent fever >4-7 days on appropriate antibiotics (fungal infection?)
+  - Typhlitis (neutropenic enterocolitis) - RLQ pain
+  - Perianal abscess or cellulitis
+clinical_pearls:
+  - Neutropenic patients may not mount an inflammatory response - pus, infiltrate, and fever may be blunted
+  - Blood cultures from all lumens of central line plus peripheral site
+  - MASCC score >=21 may allow outpatient management in low-risk patients
+  - Cefepime, meropenem, or pip-tazo are appropriate monotherapy options
+  - G-CSF (filgrastim) may shorten duration but is not always indicated
+key_history_questions:
+  - Most recent chemotherapy regimen and date of last cycle?
+  - Type and timing of fever?
+  - Any localizing symptoms (cough, dysuria, abdominal pain, skin changes)?
+  - Current prophylactic antimicrobials?
+  - Central venous catheter present?
+  - Prior infections or resistant organisms?
+key_exam_findings:
+  - Fever (may be only sign)
+  - Careful skin exam including catheter sites
+  - Oral mucositis
+  - Lung exam (infiltrate may be absent despite pneumonia)
+  - Perianal exam (visual only, no digital rectal exam)
+  - Abdominal tenderness (typhlitis)
+treatment_principles:
+  - Empiric antipseudomonal antibiotic within 60 minutes
+  - Blood cultures before antibiotics (do not delay for culture)
+  - Add vancomycin only for specific indications (line infection, skin infection, hemodynamic instability)
+  - Empiric antifungal if fever persists >4-7 days
+  - Continue antibiotics until ANC >500 and afebrile for 48 hours
+disposition_guidance:
+  - Admit high-risk patients (MASCC <21, inpatient onset, significant comorbidity)
+  - Consider outpatient for low-risk (MASCC >=21) with close follow-up
+  - ICU for septic shock or respiratory failure

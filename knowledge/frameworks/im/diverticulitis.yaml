@@ -1,0 +1,53 @@
+id: diverticulitis
+topic: Acute Diverticulitis
+category: gi
+specialties:
+- im
+teaching_goals:
+- Distinguish uncomplicated from complicated diverticulitis
+- Know the Hinchey classification for perforation staging
+- Understand when antibiotics may be withheld (mild uncomplicated)
+- Know indications for CT imaging and surgical consultation
+- Counsel on prevention and follow-up colonoscopy
+common_mistakes:
+- Performing colonoscopy during acute episode (perforation risk)
+- Using antibiotics for all uncomplicated diverticulitis (mild may not need them)
+- Not obtaining CT to confirm diagnosis and rule out complications
+- Missing abscess requiring percutaneous drainage
+- Attributing all LLQ pain to diverticulitis without adequate workup
+red_flags:
+- Free air on imaging (perforation)
+- Peritoneal signs (rebound, rigidity)
+- Large abscess (>4 cm usually needs drainage)
+- Inability to tolerate oral intake
+- Immunosuppressed patient (higher complication rate)
+clinical_pearls:
+- CT abdomen/pelvis with IV contrast is the gold standard for diagnosis
+- Recent evidence supports no antibiotics for mild uncomplicated diverticulitis
+- Follow-up colonoscopy 6-8 weeks after resolution to exclude malignancy
+- Fiber does NOT cause diverticulitis - high fiber diet is protective
+- Right-sided diverticulitis is more common in Asian populations
+key_history_questions:
+- Location and duration of pain?
+- Fever or chills?
+- Change in bowel habits (constipation or diarrhea)?
+- Prior episodes of diverticulitis?
+- Immunosuppressed or on steroids?
+- Last colonoscopy?
+key_exam_findings:
+- LLQ tenderness (most common location)
+- Low-grade fever
+- Localized guarding
+- Rebound tenderness (complicated, possible perforation)
+- Palpable mass (phlegmon or abscess)
+treatment_principles:
+- CT to confirm diagnosis and assess for complications
+- 'Uncomplicated mild: outpatient with or without antibiotics, clear liquid diet'
+- 'Complicated or moderate: IV antibiotics, NPO, surgical consultation'
+- 'Abscess >4 cm: percutaneous drainage'
+- Follow-up colonoscopy 6-8 weeks after resolution
+disposition_guidance:
+- 'Outpatient: Uncomplicated, tolerating oral intake, no significant comorbidities'
+- 'Admission: Complicated disease, abscess, unable to tolerate PO, immunosuppressed'
+- 'Surgery: Perforation, peritonitis, failure of medical management, recurrent episodes'
+- 'IR: Abscess >4 cm for percutaneous drainage'

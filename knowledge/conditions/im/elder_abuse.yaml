@@ -1,0 +1,67 @@
+id: elder_abuse
+display_name: "Elder Abuse"
+aliases:
+  - Elder mistreatment
+  - Elder neglect
+  - Geriatric abuse
+  - Adult protective services
+snomed: "386702006"
+icd10:
+  - "T76.01XA"
+  - "T76.11XA"
+category: acute
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: unexplained injuries
+      probability: 0.50
+      description: "bruises, fractures, burns in various stages of healing"
+    - name: malnutrition
+      probability: 0.35
+      description: "weight loss, dehydration from neglect"
+    - name: poor hygiene
+      probability: 0.40
+      description: "unkempt appearance, soiled clothing"
+    - name: fearful behavior
+      probability: 0.45
+      description: "anxiety, withdrawal, flinching when caregiver present"
+    - name: medication mismanagement
+      probability: 0.30
+      description: "over- or under-medication by caregiver"
+    - name: financial exploitation
+      probability: 0.35
+      description: "unexplained financial changes, missing funds"
+  physical_exam:
+    - system: skin
+      finding: "Bruising in unusual locations (inner arms, torso, face)"
+      probability: 0.40
+    - system: skin
+      finding: "Bruises in various stages of healing"
+      probability: 0.35
+    - system: general
+      finding: "Dehydration, malnutrition, poor hygiene"
+      probability: 0.35
+    - system: skin
+      finding: "Pressure ulcers suggesting neglect"
+      probability: 0.25
+    - system: musculoskeletal
+      finding: "Healing fractures, especially ribs or long bones"
+      probability: 0.15
+    - system: psychiatric
+      finding: "Withdrawn, fearful affect, reluctance to speak freely"
+      probability: 0.40
+treatment:
+  approach: mandatory_reporting_and_safety
+  medications:
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "every 6 hours as needed"
+      route: oral
+      indication: "pain management for injuries"

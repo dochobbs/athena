@@ -1,0 +1,82 @@
+id: chf_hfpef
+display_name: "Heart Failure with Preserved Ejection Fraction"
+aliases:
+  - HFpEF
+  - Diastolic heart failure
+  - CHF with preserved EF
+snomed: "441481004"
+icd10:
+  - "I50.30"
+  - "I50.32"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.10
+  rr_multiplier: 1.15
+  spo2_min: 92
+  bp_systolic:
+    - 130
+    - 170
+presentation:
+  symptoms:
+    - name: dyspnea_on_exertion
+      probability: 0.90
+      description: "exertional dyspnea with preserved EF"
+    - name: lower_extremity_edema
+      probability: 0.70
+      description: "bilateral pitting edema"
+    - name: fatigue
+      probability: 0.80
+      description: "exercise intolerance and fatigue"
+    - name: orthopnea
+      probability: 0.50
+      description: "dyspnea lying flat"
+    - name: weight_gain
+      probability: 0.55
+      description: "fluid retention"
+  physical_exam:
+    - system: cardiovascular
+      finding: "S4 gallop, non-displaced PMI"
+      probability: 0.55
+    - system: cardiovascular
+      finding: "Elevated JVP"
+      probability: 0.60
+    - system: respiratory
+      finding: "Bibasilar crackles"
+      probability: 0.50
+    - system: extremities
+      finding: "Bilateral pitting edema"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "Hypertension often present"
+      probability: 0.75
+treatment:
+  approach: diuresis_and_comorbidity_management
+  medications:
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "once or twice daily"
+      route: oral
+      indication: "volume management, symptom relief"
+    - agent: "Empagliflozin"
+      rxnorm: "1545653"
+      frequency: "once daily"
+      route: oral
+      indication: "SGLT2 inhibitor, EMPEROR-Preserved trial benefit"
+    - agent: "Spironolactone"
+      rxnorm: "9997"
+      frequency: "once daily"
+      route: oral
+      indication: "MRA, may reduce hospitalizations"
+    - agent: "Amlodipine"
+      rxnorm: "17767"
+      frequency: "once daily"
+      route: oral
+      indication: "blood pressure control"

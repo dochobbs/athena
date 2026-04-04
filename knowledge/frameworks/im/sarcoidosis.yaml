@@ -1,0 +1,54 @@
+id: sarcoidosis
+topic: "Sarcoidosis"
+category: pulmonary
+specialties:
+  - im
+teaching_goals:
+  - Recognize classic presentation (bilateral hilar lymphadenopathy, erythema nodosum)
+  - Know Lofgren syndrome and its excellent prognosis
+  - Understand that not all sarcoidosis needs treatment
+  - Screen for extrapulmonary involvement (eyes, skin, heart, liver)
+  - Apply appropriate staging (Scadding stages I-IV)
+common_mistakes:
+  - Treating asymptomatic bilateral hilar lymphadenopathy with steroids
+  - Not ruling out lymphoma and TB before diagnosing sarcoidosis
+  - Missing cardiac sarcoidosis (arrhythmias, heart block)
+  - Not screening for eye involvement (uveitis)
+  - Using ACE level as diagnostic rather than as marker of granuloma burden
+red_flags:
+  - Cardiac sarcoidosis (sudden death risk from arrhythmia)
+  - Neurosarcoidosis (cranial nerve palsies, especially facial nerve)
+  - Hypercalcemia and nephrocalcinosis
+  - Progressive pulmonary fibrosis (Stage IV)
+  - Lupus pernio (indicates chronic, severe disease)
+clinical_pearls:
+  - Lofgren syndrome (bilateral hilar LAD + erythema nodosum + arthralgias + fever) = 90% spontaneous remission
+  - Non-caseating granulomas on biopsy are characteristic but not pathognomonic
+  - ACE level is neither sensitive nor specific for diagnosis
+  - Cardiac MRI with gadolinium detects cardiac involvement
+  - Black patients have more severe disease and higher rates of extrapulmonary involvement
+key_history_questions:
+  - Any cough, shortness of breath, or chest discomfort?
+  - Skin rashes or nodules?
+  - Eye pain, redness, or blurred vision?
+  - Joint pain or swelling?
+  - Fatigue (often the most debilitating symptom)?
+  - Any palpitations or syncope (cardiac involvement)?
+key_exam_findings:
+  - Bilateral hilar lymphadenopathy on CXR
+  - Skin lesions (erythema nodosum, papules, plaques, lupus pernio)
+  - Eye exam for uveitis
+  - Liver and spleen exam
+  - Lymph node exam
+  - Cardiac auscultation for irregular rhythm
+treatment_principles:
+  - Observe if asymptomatic (many patients remit spontaneously)
+  - Prednisone for progressive pulmonary or significant extrapulmonary disease
+  - Methotrexate or azathioprine as steroid-sparing agents
+  - Hydroxychloroquine for skin and joint involvement
+  - Infliximab for refractory disease
+disposition_guidance:
+  - Pulmonology referral for confirmed or suspected sarcoidosis
+  - Ophthalmology screening for all patients
+  - Cardiology referral if palpitations or conduction abnormalities
+  - PFTs every 3-6 months for pulmonary sarcoidosis

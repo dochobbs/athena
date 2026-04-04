@@ -1,0 +1,54 @@
+id: chf_hfref
+topic: "Heart Failure with Reduced Ejection Fraction"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Know the four pillars of GDMT (ARNI/ACEi, beta-blocker, MRA, SGLT2i)
+  - Classify HF by NYHA functional class and ACC/AHA stage
+  - Distinguish HFrEF from HFpEF by echo findings
+  - Recognize acute decompensated HF and manage volume status
+  - Understand when to refer for advanced therapies (ICD, CRT, transplant)
+common_mistakes:
+  - Failing to initiate all four pillars of GDMT
+  - Stopping beta-blocker during acute decompensation instead of dose-reducing
+  - Not switching from ACEi to ARNI when eligible
+  - Using non-dihydropyridine CCBs (verapamil, diltiazem) which worsen HF
+  - Missing volume overload because daily weights were not monitored
+red_flags:
+  - Cardiogenic shock (cool, hypotensive, low output)
+  - New atrial fibrillation with rapid ventricular response
+  - Worsening renal function with diuresis (cardiorenal syndrome)
+  - Syncope in HFrEF (risk of ventricular arrhythmia)
+  - ICD shocks
+clinical_pearls:
+  - "Four pillars: ARNI + BB + MRA + SGLT2i - all have mortality benefit"
+  - Start low, go slow with beta-blockers - target doses proven in trials
+  - 36-hour washout between ACEi and ARNI to prevent angioedema
+  - EF <= 35% after 3 months GDMT qualifies for primary prevention ICD
+  - SGLT2 inhibitors benefit regardless of diabetes status
+key_history_questions:
+  - How far can you walk before getting short of breath?
+  - How many pillows do you sleep with?
+  - Have you gained weight recently?
+  - Are you taking all your medications? Any missed doses?
+  - Do you check your weight daily?
+  - How much fluid and sodium do you consume?
+key_exam_findings:
+  - JVP elevation (most specific for volume overload)
+  - S3 gallop (sensitive for elevated filling pressures)
+  - Bibasilar crackles
+  - Bilateral lower extremity edema
+  - Hepatojugular reflux
+  - Laterally displaced PMI
+treatment_principles:
+  - Optimize all four pillars of GDMT simultaneously
+  - Diuretics for symptom relief, not mortality benefit
+  - Sodium restriction <2g/day, fluid restriction if hyponatremic
+  - Daily weights to guide diuretic dosing
+  - ICD for primary prevention if EF <= 35% on optimal GDMT
+disposition_guidance:
+  - Admit for acute decompensated HF with hypoxia or hemodynamic instability
+  - Close outpatient follow-up within 7 days of discharge
+  - Cardiac rehabilitation referral
+  - Palliative care consultation for NYHA Class IV

@@ -1,0 +1,53 @@
+id: nephrolithiasis
+topic: "Nephrolithiasis"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Recognize the classic presentation of renal colic
+  - Know stone composition types and their clinical significance
+  - Apply appropriate imaging strategy (CT without contrast is gold standard)
+  - Understand medical expulsive therapy and indications for urologic intervention
+  - Prevent recurrence with metabolic workup and dietary modifications
+common_mistakes:
+  - Ordering contrast CT instead of non-contrast for suspected stones
+  - Forgetting to rule out infected stone (pyuria + obstruction = emergency)
+  - Not straining urine to collect the stone for analysis
+  - Prescribing opioids first instead of NSAIDs (NSAIDs are more effective for renal colic)
+  - Missing AAA as alternative diagnosis in older patients with flank pain
+red_flags:
+  - Fever with obstructing stone (obstructive pyelonephritis - surgical emergency)
+  - Bilateral obstructing stones or stone in solitary kidney
+  - Intractable pain or vomiting
+  - AKI from bilateral obstruction
+clinical_pearls:
+  - "Calcium oxalate stones are most common (80%); uric acid stones are radiolucent on X-ray"
+  - "Restlessness is a key differentiator - peritonitis patients lie still, renal colic patients cannot"
+  - Stones <5mm have >90% chance of spontaneous passage
+  - "Tamsulosin (Flomax) aids passage for stones 5-10mm in the distal ureter"
+  - "Uric acid stones dissolve with urine alkalinization (potassium citrate)"
+key_history_questions:
+  - Describe the pain - where does it start and where does it go?
+  - Have you had kidney stones before? Do you know what type?
+  - Any fever, chills, or foul-smelling urine?
+  - How much water do you drink daily?
+  - What does your diet look like? High in animal protein, salt, or oxalate-rich foods?
+  - Any family history of kidney stones?
+key_exam_findings:
+  - CVA tenderness on affected side
+  - Degree of distress and restlessness
+  - Abdominal exam to rule out peritoneal signs
+  - Temperature (fever = infected stone emergency)
+  - Testicular exam in males (rule out torsion)
+  - Vital signs (tachycardia from pain)
+treatment_principles:
+  - NSAIDs are first-line for pain (more effective than opioids for colic)
+  - IV fluids for hydration but aggressive hydration does not speed passage
+  - Medical expulsive therapy with tamsulosin for distal ureteral stones 5-10mm
+  - Urgent urology for infected stone, bilateral obstruction, or uncontrolled symptoms
+  - 24-hour urine collection for metabolic workup after first episode
+disposition_guidance:
+  - Discharge if pain controlled, no infection, and stone <10mm
+  - Admit if fever, intractable pain, AKI, or single kidney with obstruction
+  - Urology follow-up in 2-4 weeks for repeat imaging
+  - Strain all urine and return stone for analysis

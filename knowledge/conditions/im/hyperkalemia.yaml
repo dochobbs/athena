@@ -1,0 +1,86 @@
+id: hyperkalemia
+display_name: "Hyperkalemia"
+aliases:
+  - High potassium
+  - Elevated potassium
+  - Hyperkalaemia
+snomed: "14140009"
+icd10:
+  - "E87.5"
+category: acute
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 0.90
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: weakness
+      probability: 0.55
+      description: "Generalized muscle weakness"
+    - name: palpitations
+      probability: 0.40
+      description: "Palpitations from cardiac arrhythmias"
+    - name: paresthesias
+      probability: 0.35
+      description: "Numbness and tingling"
+    - name: nausea
+      probability: 0.30
+      description: "Nausea and vomiting"
+    - name: asymptomatic
+      probability: 0.45
+      description: "Often discovered on routine labs"
+    - name: muscle_cramps
+      probability: 0.30
+      description: "Muscle cramps or fasciculations"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Bradycardia; ECG: peaked T waves, widened QRS, sine wave in severe"
+      probability: 0.50
+    - system: neurological
+      finding: "Decreased deep tendon reflexes, flaccid paralysis in severe"
+      probability: 0.25
+    - system: general
+      finding: "Often unremarkable in mild cases"
+      probability: 0.50
+treatment:
+  approach: stabilize_shift_eliminate
+  medications:
+    - agent: "Calcium Gluconate"
+      rxnorm: "4292"
+      frequency: "1-2 g (10-20 mL of 10%) IV over 2-5 minutes"
+      route: iv
+      indication: "Cardiac membrane stabilization (does not lower K)"
+    - agent: "Regular Insulin"
+      rxnorm: "5856"
+      frequency: "10 units IV with 25 g dextrose (D50)"
+      route: iv
+      indication: "Shift potassium intracellularly"
+    - agent: "Sodium Bicarbonate"
+      rxnorm: "9154"
+      frequency: "50 mEq IV over 5 minutes"
+      route: iv
+      indication: "Shift K intracellularly if acidotic"
+    - agent: "Albuterol"
+      rxnorm: "435"
+      frequency: "10-20 mg nebulized"
+      route: inhaled
+      indication: "Adjunct to shift K intracellularly"
+    - agent: "Sodium Polystyrene Sulfonate"
+      rxnorm: "9530"
+      frequency: "15-30 g oral or rectal"
+      route: oral
+      indication: "GI potassium elimination (slow onset)"
+    - agent: "Patiromer"
+      rxnorm: "1721530"
+      frequency: "8.4 g daily"
+      route: oral
+      indication: "Potassium binder for chronic hyperkalemia"

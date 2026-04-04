@@ -1,0 +1,53 @@
+id: parkinsons
+topic: "Parkinson Disease"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Identify cardinal motor features (bradykinesia + tremor or rigidity)
+  - Distinguish Parkinson disease from atypical parkinsonism syndromes
+  - Understand dopaminergic therapy and motor complications
+  - Recognize non-motor symptoms (REM sleep behavior disorder, constipation, anosmia)
+  - Manage medication-related complications (dyskinesia, on-off phenomenon)
+common_mistakes:
+  - Using dopamine-blocking antiemetics (metoclopramide) which worsen symptoms
+  - Abruptly stopping carbidopa-levodopa (risk of neuroleptic malignant-like syndrome)
+  - Confusing essential tremor with Parkinson tremor (action vs rest)
+  - Attributing all symptoms to PD and missing other conditions
+  - Not screening for depression and cognitive decline
+red_flags:
+  - Early falls, rapid progression, or poor levodopa response (atypical parkinsonism)
+  - Symmetric onset (PD is classically asymmetric)
+  - Vertical gaze palsy (PSP)
+  - Early severe autonomic failure (MSA)
+  - Medication-induced parkinsonism from antipsychotics
+clinical_pearls:
+  - "PD tremor is rest tremor (pill-rolling), essential tremor is action/postural"
+  - "Bradykinesia is the required feature for diagnosis, not tremor"
+  - "REM sleep behavior disorder may precede motor symptoms by decades"
+  - "Use domperidone (not metoclopramide) for nausea in PD patients"
+  - "Wearing off is the most common motor complication of long-term levodopa"
+key_history_questions:
+  - "Which side did symptoms start on (PD is asymmetric)?"
+  - "Any changes in handwriting (micrographia)?"
+  - "Any dream enactment or violent movements during sleep (RBD)?"
+  - "Loss of smell before motor symptoms?"
+  - "Any constipation, urinary symptoms, or orthostatic dizziness?"
+  - "Current medications including antipsychotics?"
+key_exam_findings:
+  - "Asymmetric resting tremor suppressed with action"
+  - "Bradykinesia on finger tapping (decrementing amplitude)"
+  - "Cogwheel rigidity on passive movement"
+  - "Masked facies (hypomimia)"
+  - "Shuffling gait with reduced arm swing"
+  - "Positive pull test (retropulsion)"
+treatment_principles:
+  - "Carbidopa-levodopa remains the gold standard for motor symptoms"
+  - "Consider dopamine agonists or MAO-B inhibitors in early or mild disease"
+  - "Manage wearing off with dose adjustments or COMT/MAO-B inhibitors"
+  - "Exercise and physical therapy are evidence-based non-pharmacologic interventions"
+  - "Never abruptly stop dopaminergic medications"
+disposition_guidance:
+  - "Outpatient management with neurology (movement disorders)"
+  - "Admit for complications: falls with injury, aspiration pneumonia, psychosis"
+  - "Ensure home medications are continued during any hospitalization"

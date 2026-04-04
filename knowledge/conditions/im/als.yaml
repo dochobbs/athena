@@ -1,0 +1,72 @@
+id: als
+display_name: "Amyotrophic Lateral Sclerosis"
+aliases:
+  - ALS
+  - Lou Gehrig disease
+  - Motor neuron disease
+snomed: "86044005"
+icd10:
+  - "G12.21"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+presentation:
+  symptoms:
+    - name: progressive limb weakness
+      probability: 0.75
+      description: "asymmetric distal weakness, often begins in one hand"
+    - name: muscle atrophy
+      probability: 0.70
+      description: "wasting of intrinsic hand muscles early"
+    - name: fasciculations
+      probability: 0.65
+      description: "visible muscle twitching, widespread"
+    - name: dysarthria
+      probability: 0.30
+      description: "bulbar onset with slurred speech"
+    - name: dysphagia
+      probability: 0.30
+      description: "difficulty swallowing, bulbar involvement"
+    - name: respiratory difficulty
+      probability: 0.20
+      description: "progressive respiratory failure, late feature"
+  physical_exam:
+    - system: neurologic
+      finding: "Combined upper and lower motor neuron signs in same region"
+      probability: 0.80
+    - system: neurologic
+      finding: "Fasciculations in multiple muscle groups"
+      probability: 0.65
+    - system: neurologic
+      finding: "Hyperreflexia with concurrent muscle atrophy"
+      probability: 0.70
+    - system: neurologic
+      finding: "Babinski sign with concurrent LMN wasting"
+      probability: 0.50
+    - system: neurologic
+      finding: "Split hand sign (thenar > hypothenar wasting)"
+      probability: 0.40
+treatment:
+  approach: disease_modifying_and_supportive
+  medications:
+    - agent: "Riluzole"
+      rxnorm: "35636"
+      frequency: "twice daily"
+      route: oral
+      indication: "modest survival benefit, glutamate antagonist"
+    - agent: "Edaravone"
+      rxnorm: "1946762"
+      frequency: "daily IV cycles"
+      route: iv
+      indication: "free radical scavenger, slows functional decline"
+    - agent: "Baclofen"
+      rxnorm: "1292"
+      frequency: "three times daily"
+      route: oral
+      indication: "symptomatic spasticity management"

@@ -1,0 +1,113 @@
+id: thrombocytopenia
+display_name: "Thrombocytopenia"
+aliases:
+  - Low platelets
+  - ITP
+  - Immune thrombocytopenia
+  - Thrombocytopenic purpura
+snomed: "302215000"
+icd10:
+  - "D69.6"
+  - "D69.3"
+  - "D69.59"
+category: acute
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 99.0]
+  hr_multiplier: 1.05
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: petechiae
+      probability: 0.75
+      description: "Non-blanching petechiae, especially dependent areas"
+    - name: bruising
+      probability: 0.80
+      description: "Easy bruising with minimal trauma"
+    - name: mucosal_bleeding
+      probability: 0.50
+      description: "Gum bleeding, epistaxis, menorrhagia"
+    - name: hematuria
+      probability: 0.25
+      description: "Microscopic or gross hematuria"
+    - name: asymptomatic
+      probability: 0.30
+      description: "Incidentally found on routine labs"
+  physical_exam:
+    - system: skin
+      finding: "Petechiae, purpura, ecchymoses"
+      probability: 0.80
+    - system: oropharynx
+      finding: "Wet purpura (blood blisters) in mouth - higher bleeding risk"
+      probability: 0.30
+    - system: abdomen
+      finding: "Splenomegaly suggests sequestration or liver disease"
+      probability: 0.25
+    - system: general
+      finding: "Otherwise well-appearing in ITP"
+      probability: 0.60
+diagnostics:
+  labs:
+    - name: CBC with platelet count
+      loinc: "777-3"
+      value_type: numeric
+      unit: K/uL
+      normal_range_low: 150
+      abnormal_low_max: 100
+      probability_abnormal: 1.0
+    - name: Peripheral Blood Smear
+      loinc: "9317-9"
+      value_type: categorical
+      finding: "Decreased platelets, large platelets (young), rule out clumping, schistocytes"
+      probability_abnormal: 0.85
+    - name: PT/INR and PTT
+      loinc: "5902-2"
+      value_type: panel
+      probability_abnormal: 0.15
+      notes: "Normal in ITP (distinguishes from DIC)"
+    - name: HIV, Hepatitis C
+      value_type: categorical
+      finding: "Screen for secondary causes"
+      probability_abnormal: 0.10
+treatment:
+  approach: observation_or_immunosuppression
+  medications:
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "1 mg/kg/day for 2-4 weeks, then taper"
+      route: oral
+      indication: "First-line for ITP with platelets <30K or bleeding"
+    - agent: "Dexamethasone"
+      rxnorm: "3264"
+      frequency: "40 mg daily x4 days"
+      route: oral
+      indication: "High-dose pulse steroids alternative for ITP"
+    - agent: "IVIG"
+      rxnorm: "5646"
+      frequency: "1 g/kg IV x1-2 days"
+      route: iv
+      indication: "Rapid platelet raise for active bleeding or pre-procedure"
+    - agent: "Romiplostim"
+      rxnorm: "747048"
+      frequency: "1-10 mcg/kg SQ weekly"
+      route: subcutaneous
+      indication: "TPO receptor agonist for chronic ITP"
+    - agent: "Rituximab"
+      rxnorm: "121191"
+      frequency: "375 mg/m2 IV weekly x4"
+      route: iv
+      indication: "Second-line for refractory ITP"
+  patient_instructions:
+    - First step - repeat CBC and check smear to rule out pseudothrombocytopenia (EDTA clumping)
+    - ITP is diagnosis of exclusion - rule out TTP, DIC, HIT, drugs, liver disease
+    - Observation alone if platelets >30K and no bleeding
+    - Avoid antiplatelet agents and IM injections
+    - Platelet transfusion only for life-threatening bleeding (ineffective in ITP)
+    - Splenectomy for refractory cases (less common in era of TPO agonists)

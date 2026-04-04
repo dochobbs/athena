@@ -1,0 +1,79 @@
+id: febrile_neutropenia
+display_name: "Febrile Neutropenia"
+aliases:
+  - Neutropenic fever
+  - FN
+  - Chemotherapy-related neutropenia with fever
+snomed: "409089005"
+icd10:
+  - "D70.9"
+  - "R50.9"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [100.4, 104.0]
+  hr_multiplier: 1.25
+  spo2_min: 92
+presentation:
+  symptoms:
+    - name: fever
+      probability: 0.95
+      description: "single oral temp >=100.4F or sustained >=100.0F"
+    - name: chills_rigors
+      probability: 0.60
+      description: "shaking chills"
+    - name: malaise
+      probability: 0.70
+      description: "fatigue and weakness"
+    - name: recent_chemotherapy
+      probability: 0.90
+      description: "chemotherapy within preceding 7-14 days"
+    - name: sore_throat
+      probability: 0.25
+      description: "mucositis-related pharyngitis"
+  physical_exam:
+    - system: general
+      finding: "Febrile, ill-appearing"
+      probability: 0.90
+    - system: oral
+      finding: "Mucositis, oral ulcers"
+      probability: 0.35
+    - system: skin
+      finding: "Port or catheter site erythema"
+      probability: 0.15
+    - system: abdomen
+      finding: "Perianal tenderness (avoid rectal exam)"
+      probability: 0.10
+    - system: respiratory
+      finding: "May have minimal findings despite pneumonia"
+      probability: 0.30
+treatment:
+  approach: emergent_empiric_antibiotics
+  medications:
+    - agent: "Cefepime"
+      rxnorm: "2180"
+      frequency: "every 8 hours"
+      route: iv
+      indication: "first-line monotherapy for febrile neutropenia"
+    - agent: "Piperacillin-Tazobactam"
+      rxnorm: "54044"
+      frequency: "every 6 hours"
+      route: iv
+      indication: "alternative empiric monotherapy"
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "add for catheter infection, skin infection, or hemodynamic instability"
+    - agent: "Micafungin"
+      rxnorm: "385070"
+      frequency: "once daily"
+      route: iv
+      indication: "empiric antifungal if persistent fever >4-7 days"

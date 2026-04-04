@@ -1,0 +1,54 @@
+id: hhs
+topic: "Hyperosmolar Hyperglycemic State"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Distinguish HHS from DKA (glucose >600, osmolality >320, minimal ketosis)
+  - Understand the profound dehydration (average deficit 8-10 L)
+  - Prioritize fluid resuscitation before insulin
+  - Know the high mortality rate and morbidity (5-20%)
+  - Recognize overlap syndromes (HHS/DKA mixed presentations)
+common_mistakes:
+  - Giving insulin too aggressively before adequate fluid resuscitation
+  - Correcting sodium too rapidly (risk of osmotic demyelination)
+  - Not recognizing the high VTE risk (need prophylaxis)
+  - Failing to calculate corrected sodium and serum osmolality
+  - Missing the precipitating event (infection, MI, CVA, medications)
+red_flags:
+  - Serum osmolality >340 (severe HHS)
+  - Coma or seizures
+  - Acute kidney injury
+  - New focal neurologic deficits (may be from HHS itself)
+  - Concurrent DKA features (mixed presentation)
+clinical_pearls:
+  - "HHS mortality (5-20%) is much higher than DKA (1-5%) due to older age and comorbidities"
+  - "Corrected Na = measured Na + 1.6 x (glucose - 100)/100"
+  - "Fluids first, insulin second. Fluid alone will lower glucose significantly."
+  - "Lower glucose by no more than 50-75 mg/dL/hr to avoid cerebral edema"
+  - "HHS often occurs in elderly T2DM patients with impaired thirst or access to water"
+key_history_questions:
+  - Diabetes history and medications?
+  - Fluid intake (often decreased in elderly or debilitated)?
+  - Recent illness, infection, or surgery?
+  - New medications (steroids, thiazides, antipsychotics)?
+  - Cognitive status (dementia limits self-care)?
+  - Duration of symptoms (usually develops over days to weeks)?
+key_exam_findings:
+  - Profound dehydration (dry mucous membranes, tenting, sunken eyes)
+  - Altered mental status (lethargy to coma)
+  - Tachycardia and hypotension
+  - Focal neurologic deficits (reversible with treatment)
+  - Seizures
+  - Absence of Kussmaul breathing (differentiates from DKA)
+treatment_principles:
+  - Aggressive IV fluid resuscitation is the priority (NS initially, then 0.45% saline)
+  - Start insulin AFTER initial fluid bolus (0.1 units/kg/hr)
+  - Correct fluid deficit gradually over 24-48 hours
+  - VTE prophylaxis (high thrombotic risk in HHS)
+  - Monitor and replace potassium, magnesium, phosphate
+disposition_guidance:
+  - "ICU: All HHS patients (high mortality, need close monitoring)"
+  - "Transition to floor: After mental status and hemodynamics improve"
+  - "Discharge: After euglycemia, adequate oral intake, SC insulin established"
+  - "Long-term: Address root cause, ensure access to water and medications"

@@ -1,0 +1,71 @@
+id: aortic_stenosis
+display_name: "Aortic Stenosis"
+aliases:
+  - AS
+  - Calcific aortic stenosis
+  - Aortic valve stenosis
+snomed: "60573004"
+icd10:
+  - "I35.0"
+  - "I06.0"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  bp_systolic:
+    - 90
+    - 130
+presentation:
+  symptoms:
+    - name: exertional_dyspnea
+      probability: 0.70
+      description: "dyspnea on exertion, hallmark of symptomatic AS"
+    - name: angina
+      probability: 0.50
+      description: "exertional chest pain even without CAD"
+    - name: syncope
+      probability: 0.35
+      description: "exertional syncope, ominous symptom"
+    - name: heart_failure
+      probability: 0.30
+      description: "late presentation with decompensated HF"
+    - name: asymptomatic
+      probability: 0.40
+      description: "many patients asymptomatic until severe"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Crescendo-decrescendo systolic murmur at RUSB radiating to carotids"
+      probability: 0.95
+    - system: cardiovascular
+      finding: "Diminished and delayed carotid upstrokes (parvus et tardus)"
+      probability: 0.60
+    - system: cardiovascular
+      finding: "Diminished A2, paradoxical splitting of S2"
+      probability: 0.45
+    - system: cardiovascular
+      finding: "Narrow pulse pressure"
+      probability: 0.50
+    - system: cardiovascular
+      finding: "Sustained PMI from LVH"
+      probability: 0.40
+treatment:
+  approach: surgical_or_transcatheter_valve_replacement
+  medications:
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "once daily"
+      route: oral
+      indication: "symptom management for volume overload, use cautiously"
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "once daily"
+      route: oral
+      indication: "cardiovascular risk reduction, does not slow valve progression"

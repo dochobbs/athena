@@ -1,0 +1,78 @@
+id: psoriasis
+display_name: "Psoriasis"
+aliases:
+  - Plaque psoriasis
+  - Psoriasis vulgaris
+  - Chronic plaque psoriasis
+snomed: "9014002"
+icd10:
+  - "L40.0"
+  - "L40.9"
+category: chronic
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: erythematous plaques
+      probability: 0.95
+      description: "well-demarcated, raised, red plaques with silvery scale"
+    - name: pruritus
+      probability: 0.70
+      description: "itching, may be mild to severe"
+    - name: joint pain
+      probability: 0.25
+      description: "psoriatic arthritis in 30% over lifetime"
+    - name: nail changes
+      probability: 0.40
+      description: "pitting, onycholysis, oil drop sign"
+    - name: scalp involvement
+      probability: 0.50
+      description: "thick scaling of scalp"
+  physical_exam:
+    - system: skin
+      finding: "Well-demarcated erythematous plaques with silvery-white scale"
+      probability: 0.95
+    - system: skin
+      finding: "Distribution on extensor surfaces (elbows, knees)"
+      probability: 0.75
+    - system: skin
+      finding: "Auspitz sign (pinpoint bleeding when scale removed)"
+      probability: 0.50
+    - system: skin
+      finding: "Koebner phenomenon (new lesions at sites of trauma)"
+      probability: 0.30
+    - system: nails
+      finding: "Nail pitting, oil drop discoloration, onycholysis"
+      probability: 0.40
+    - system: musculoskeletal
+      finding: "Dactylitis or joint swelling if psoriatic arthritis"
+      probability: 0.20
+treatment:
+  approach: topical_systemic_biologic
+  medications:
+    - agent: "Betamethasone Dipropionate"
+      rxnorm: "1514"
+      frequency: "twice daily"
+      route: topical
+      indication: "potent topical steroid for limited plaque psoriasis"
+    - agent: "Calcipotriene"
+      rxnorm: "60245"
+      frequency: "twice daily"
+      route: topical
+      indication: "vitamin D analog, often combined with steroid"
+    - agent: "Methotrexate"
+      rxnorm: "6851"
+      frequency: "once weekly"
+      route: oral
+      indication: "systemic therapy for moderate-severe psoriasis"
+    - agent: "Adalimumab"
+      rxnorm: "327361"
+      frequency: "every other week"
+      route: subcutaneous
+      indication: "TNF-alpha inhibitor biologic for moderate-severe disease"

@@ -1,0 +1,75 @@
+id: peripheral_neuropathy
+display_name: "Peripheral Neuropathy"
+aliases:
+  - Polyneuropathy
+  - Diabetic neuropathy
+  - Distal symmetric polyneuropathy
+snomed: "302226006"
+icd10:
+  - "G62.9"
+  - "G63"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: numbness and tingling
+      probability: 0.85
+      description: "stocking-glove distribution, distal to proximal"
+    - name: burning pain
+      probability: 0.55
+      description: "neuropathic pain, worse at night"
+    - name: balance difficulty
+      probability: 0.40
+      description: "from proprioceptive loss"
+    - name: weakness
+      probability: 0.30
+      description: "distal weakness, foot drop in severe cases"
+    - name: autonomic symptoms
+      probability: 0.25
+      description: "orthostatic hypotension, gastroparesis, erectile dysfunction"
+  physical_exam:
+    - system: neurologic
+      finding: "Decreased pinprick and vibration sense in stocking-glove pattern"
+      probability: 0.85
+    - system: neurologic
+      finding: "Reduced or absent ankle reflexes"
+      probability: 0.70
+    - system: neurologic
+      finding: "Impaired proprioception at great toe"
+      probability: 0.45
+    - system: neurologic
+      finding: "Romberg sign positive"
+      probability: 0.30
+    - system: skin
+      finding: "Trophic skin changes, dry skin, hair loss on distal extremities"
+      probability: 0.25
+treatment:
+  approach: treat_underlying_cause_and_symptoms
+  medications:
+    - agent: "Gabapentin"
+      rxnorm: "25480"
+      frequency: "three times daily"
+      route: oral
+      indication: "first-line neuropathic pain treatment"
+    - agent: "Duloxetine"
+      rxnorm: "72625"
+      frequency: "once daily"
+      route: oral
+      indication: "SNRI for diabetic neuropathic pain"
+    - agent: "Pregabalin"
+      rxnorm: "187832"
+      frequency: "twice daily"
+      route: oral
+      indication: "alternative to gabapentin for neuropathic pain"
+    - agent: "Thiamine"
+      rxnorm: "10594"
+      frequency: "once daily"
+      route: oral
+      indication: "B1 supplementation if nutritional deficiency suspected"

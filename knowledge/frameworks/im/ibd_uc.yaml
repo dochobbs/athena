@@ -1,0 +1,54 @@
+id: ibd_uc
+topic: Ulcerative Colitis
+category: gi
+specialties:
+- im
+teaching_goals:
+- Classify UC extent (proctitis, left-sided, pancolitis) and severity
+- Know first-line therapy by disease extent and severity
+- Recognize fulminant colitis and toxic megacolon as emergencies
+- Understand colorectal cancer surveillance protocols
+- Manage acute severe UC (Truelove and Witts criteria)
+common_mistakes:
+- Not using topical (rectal) therapy for distal disease
+- Prolonged steroid use without starting maintenance therapy
+- Missing C. diff or CMV superinfection during flares
+- Delaying colectomy in fulminant colitis unresponsive to rescue therapy
+- Forgetting primary sclerosing cholangitis association
+red_flags:
+- Toxic megacolon (colon >6 cm with systemic toxicity)
+- Severe colitis not responding to IV steroids by day 3
+- Massive hemorrhage
+- Perforation
+- New stricture in longstanding UC (concern for malignancy)
+clinical_pearls:
+- Bloody diarrhea is the hallmark - always bloody in UC (unlike Crohn's)
+- 'Truelove and Witts: >6 bloody stools/day + systemic toxicity = severe UC'
+- 'Day 3 of IV steroids: reassess - if no improvement, consider rescue therapy (infliximab
+  or cyclosporine)'
+- PSC occurs in ~5% of UC patients - check alkaline phosphatase
+- Colectomy is curative in UC (unlike Crohn's)
+key_history_questions:
+- Number of bloody stools per day?
+- Nocturnal diarrhea (suggests active inflammation)?
+- Urgency and tenesmus?
+- Duration of current flare?
+- Joint pain, eye symptoms, skin lesions?
+- Prior colonoscopy extent of disease?
+key_exam_findings:
+- Abdominal tenderness (diffuse in pancolitis)
+- Blood on rectal exam
+- Distension (concern for toxic megacolon)
+- Tachycardia, fever in severe disease
+- Extraintestinal findings (arthritis, uveitis, pyoderma)
+treatment_principles:
+- 'Treat by extent: proctitis (topical), left-sided (topical + oral), pancolitis (systemic)'
+- Mesalamine is first-line for mild-moderate disease
+- IV steroids for acute severe UC (hospitalized)
+- Biologics for steroid-refractory or steroid-dependent disease
+- Colectomy for refractory disease, dysplasia, or cancer
+disposition_guidance:
+- 'Outpatient: Mild-moderate flare, tolerating oral medications'
+- 'Admission: Severe UC (Truelove and Witts), need for IV steroids'
+- 'ICU: Toxic megacolon, massive hemorrhage, sepsis'
+- 'Urgent surgery: Failed rescue therapy, perforation, refractory hemorrhage'

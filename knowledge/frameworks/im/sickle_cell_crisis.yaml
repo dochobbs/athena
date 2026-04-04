@@ -1,0 +1,54 @@
+id: sickle_cell_crisis
+topic: "Sickle Cell Crisis"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Manage vaso-occlusive crisis with aggressive multimodal pain control
+  - Recognize and treat acute chest syndrome as a leading cause of death
+  - Understand that fever in sickle cell is a medical emergency (functional asplenia)
+  - Know indications for exchange transfusion vs simple transfusion
+  - Understand disease-modifying therapies (hydroxyurea, L-glutamine, voxelotor, crizanlizumab)
+common_mistakes:
+  - Undertreating pain due to bias about drug-seeking behavior
+  - Overhydrating (causes pulmonary edema, may precipitate ACS)
+  - Not ordering incentive spirometry (prevents ACS)
+  - Forgetting to obtain blood cultures when fever is present
+  - Not knowing the patient's baseline hemoglobin (transfusion targets differ)
+red_flags:
+  - Fever >38.5C (infection risk from functional asplenia)
+  - New pulmonary infiltrate with respiratory symptoms (acute chest syndrome)
+  - Sudden severe headache (stroke - 11% lifetime risk)
+  - Priapism lasting >4 hours (urologic emergency)
+  - Hemoglobin drop >2 g/dL from baseline (aplastic crisis, splenic sequestration)
+clinical_pearls:
+  - Acute chest syndrome is the leading cause of death in adults with SCD
+  - Incentive spirometry every 2 hours reduces ACS risk by 50%
+  - Exchange transfusion for ACS, stroke, or multiorgan failure (target HbS <30%)
+  - Hydroxyurea increases HbF, reduces crisis frequency, and improves survival
+  - Do NOT exceed Hgb >10 with transfusion (hyperviscosity risk)
+key_history_questions:
+  - Where is the pain and how does it compare to your usual crises?
+  - Any fever, cough, or difficulty breathing? (ACS)
+  - When was your last crisis? How often do you have them?
+  - Are you taking hydroxyurea? Are you adherent?
+  - Any history of stroke or ACS?
+  - What pain medication regimen works for you?
+key_exam_findings:
+  - Pain assessment and location
+  - Temperature (fever = cultures + antibiotics immediately)
+  - Oxygen saturation and respiratory exam
+  - Abdominal exam (splenic sequestration in young adults)
+  - Neurologic exam (stroke screening)
+  - Jaundice assessment
+treatment_principles:
+  - Aggressive pain management within 30 minutes of arrival (PCA preferred)
+  - IV fluids at maintenance rate only (avoid overhydration)
+  - Incentive spirometry every 2 hours while awake
+  - Empiric antibiotics for fever (ceftriaxone + azithromycin for ACS)
+  - Exchange transfusion for ACS with worsening hypoxia or stroke
+disposition_guidance:
+  - Admit all patients with fever, ACS, or pain requiring IV opioids
+  - ICU for ACS with respiratory failure, stroke, or multiorgan involvement
+  - Discharge when pain controlled on oral medications and stable
+  - Hematology follow-up within 1-2 weeks for disease modification discussion

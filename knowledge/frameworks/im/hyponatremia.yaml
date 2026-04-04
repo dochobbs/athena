@@ -1,0 +1,54 @@
+id: hyponatremia
+topic: Hyponatremia
+category: endocrine
+specialties:
+- im
+teaching_goals:
+- 'Apply the systematic approach: serum osmolality, then volume status, then urine
+  studies'
+- Classify as hypovolemic, euvolemic (SIADH), or hypervolemic
+- Know safe correction rates (no more than 8-10 mEq/L in 24 hours)
+- Understand osmotic demyelination syndrome (ODS) risk from overcorrection
+- Manage acute symptomatic hyponatremia as an emergency
+common_mistakes:
+- Not measuring serum osmolality to rule out pseudohyponatremia
+- Fluid restricting a hypovolemic patient
+- Correcting sodium too rapidly (ODS risk)
+- Using normal saline in SIADH (can worsen hyponatremia)
+- Not monitoring sodium frequently enough during correction
+red_flags:
+- Na <120 mEq/L (high risk for seizures)
+- Seizures or severe neurologic symptoms
+- Acute onset (<48 hours) with symptoms
+- Correction rate >8-10 mEq/L in 24 hours (ODS risk)
+- Respiratory arrest
+clinical_pearls:
+- 'Step 1: Osmolality. Step 2: Volume status. Step 3: Urine sodium and osmolality.'
+- 'SIADH: euvolemic, low serum osm, urine osm >100, urine Na >40, low uric acid'
+- 'Max correction: 8 mEq/L in 24h (some say 10). If high ODS risk (chronic, alcoholism):
+  6 mEq/L.'
+- Hypertonic saline 100 mL bolus for seizures or severe symptoms (can repeat x2)
+- 'If overcorrected: DDAVP 2 mcg IV to re-lower sodium + free water'
+key_history_questions:
+- Symptom acuity (acute <48h vs chronic)?
+- Fluid intake and output?
+- Medications (thiazides, SSRIs, carbamazepine, desmopressin)?
+- Underlying conditions (CHF, cirrhosis, cancer, lung disease)?
+- Recent surgery or illness?
+- Alcohol use (beer potomania)?
+key_exam_findings:
+- Volume status assessment (JVP, skin turgor, edema, orthostatics)
+- Mental status (confusion, obtundation, seizures)
+- Signs of underlying cause (cirrhosis stigmata, CHF signs)
+- Neurologic exam
+treatment_principles:
+- 'Acute symptomatic (seizures, AMS): hypertonic saline 100 mL IV bolus'
+- 'Hypovolemic: normal saline (sodium will correct as volume restores)'
+- 'Euvolemic (SIADH): fluid restriction, salt tabs, tolvaptan if refractory'
+- 'Hypervolemic (CHF, cirrhosis): fluid and sodium restriction, diuretics'
+- Monitor Na every 2-4 hours during active correction
+disposition_guidance:
+- 'ICU: Severe symptomatic, Na <120, seizures, need for hypertonic saline'
+- 'Floor: Asymptomatic chronic hyponatremia being corrected'
+- 'Outpatient: Mild chronic hyponatremia (Na 130-134) with identified cause'
+- 'Endocrine/oncology: SIADH workup for underlying malignancy'

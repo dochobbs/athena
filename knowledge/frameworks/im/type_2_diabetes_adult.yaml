@@ -1,0 +1,54 @@
+id: type_2_diabetes_adult
+topic: "Type 2 Diabetes Mellitus (Adult)"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Know diagnostic criteria (A1c >= 6.5%, FPG >= 126, 2hr OGTT >= 200, random >= 200 with symptoms)
+  - Apply ADA guidelines for treatment algorithm
+  - Select medications based on comorbidities (CVD, CKD, obesity)
+  - Monitor for and screen for complications (retinopathy, nephropathy, neuropathy)
+  - Set individualized A1c targets based on patient factors
+common_mistakes:
+  - Not using SGLT2i or GLP-1 RA in patients with CVD or CKD regardless of A1c
+  - Clinical inertia (not intensifying therapy when A1c above goal)
+  - Forgetting to check renal function before starting metformin
+  - Not screening for retinopathy at diagnosis (unlike T1DM)
+  - Treating all patients to A1c <7% without individualizing targets
+red_flags:
+  - DKA or HHS presentation (may be first presentation of T2DM)
+  - Rapid loss of glycemic control (consider pancreatic cancer or type 1)
+  - A1c >10% or glucose >300 at diagnosis (consider insulin)
+  - Progressive CKD (eGFR decline)
+  - Non-healing foot ulcer
+clinical_pearls:
+  - "SGLT2i and GLP-1 RA have CV and renal benefits independent of glucose lowering"
+  - "Metformin remains first-line but add SGLT2i/GLP-1 RA early if CVD, HF, or CKD"
+  - "A1c target <7% for most; <8% for elderly with limited life expectancy"
+  - "Annual diabetic foot exam, annual eye exam, annual urine albumin/creatinine ratio"
+  - "Statin therapy for ALL diabetics >= 40 years old"
+key_history_questions:
+  - Duration of diabetes and prior A1c levels?
+  - Current medications and adherence?
+  - Hypoglycemic episodes?
+  - History of CVD, CKD, or heart failure?
+  - Foot care and last foot exam?
+  - Last eye exam?
+key_exam_findings:
+  - BMI and waist circumference
+  - Blood pressure
+  - Comprehensive foot exam (monofilament, dorsalis pedis pulses)
+  - Acanthosis nigricans
+  - Signs of neuropathy
+  - Fundoscopic exam or dilated eye exam referral
+treatment_principles:
+  - Lifestyle modification (nutrition, exercise, weight management) as foundation
+  - Metformin as first-line pharmacotherapy
+  - SGLT2i for patients with CVD, HF, or CKD
+  - GLP-1 RA for patients with CVD or obesity
+  - Insulin when oral agents fail to achieve target or for initial severe hyperglycemia
+disposition_guidance:
+  - "Outpatient: Nearly all T2DM management"
+  - "Admission: DKA, HHS, severe hyperglycemia with symptoms"
+  - "Endocrine referral: Refractory glycemic control, complex insulin regimens"
+  - "Annual referrals: Ophthalmology, podiatry, dietitian"

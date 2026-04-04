@@ -1,0 +1,54 @@
+id: lymphoma
+topic: "Lymphoma"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Differentiate Hodgkin from Non-Hodgkin lymphoma clinically and histologically
+  - Recognize B symptoms and their prognostic significance
+  - Know that excisional biopsy (not FNA) is required for diagnosis
+  - Understand the Ann Arbor staging system
+  - Appreciate the curability spectrum (Hodgkin highly curable, NHL varies by subtype)
+common_mistakes:
+  - Using FNA instead of excisional biopsy (need tissue architecture for classification)
+  - Attributing lymphadenopathy to reactive causes without adequate follow-up
+  - Not asking about B symptoms (fever, night sweats, weight loss)
+  - Missing the significance of supraclavicular lymphadenopathy (high malignancy risk)
+  - Confusing indolent NHL (follicular) management with aggressive NHL (DLBCL) management
+red_flags:
+  - Supraclavicular lymphadenopathy (Virchow node = high malignancy suspicion)
+  - Rapidly growing nodes
+  - B symptoms (fever >38C, night sweats, >10% weight loss in 6 months)
+  - Superior vena cava syndrome (facial swelling, dyspnea - mediastinal mass)
+  - Spinal cord compression from epidural disease
+clinical_pearls:
+  - Hodgkin lymphoma - bimodal age (20s and 60s), contiguous spread, Reed-Sternberg cells, >85% curable
+  - DLBCL - most common aggressive NHL, curable with R-CHOP in 60%
+  - Follicular lymphoma - most common indolent NHL, watch and wait in early stage, incurable but long survival
+  - Lymph node >2 cm persisting >4 weeks without explanation needs biopsy
+  - Alcohol-induced pain at lymph node sites is pathognomonic for Hodgkin lymphoma
+key_history_questions:
+  - When did you first notice the enlarged lymph node(s)?
+  - Are the nodes painful or painless?
+  - Any drenching night sweats requiring changing sheets?
+  - Any unintentional weight loss? How much and over what period?
+  - Any unexplained fevers?
+  - Any itching? Pain with alcohol?
+key_exam_findings:
+  - Location, size, consistency of lymphadenopathy (rubbery, non-tender = concerning)
+  - Waldeyer ring examination (oropharyngeal lymphoid tissue)
+  - Splenomegaly
+  - Hepatomegaly
+  - Skin examination for cutaneous involvement
+  - Testicular examination in males
+treatment_principles:
+  - Excisional lymph node biopsy for diagnosis (architecture essential)
+  - PET/CT for staging
+  - Hodgkin - ABVD chemotherapy (+/- radiation), excellent cure rates
+  - Aggressive NHL - R-CHOP or similar regimen, aim for cure
+  - Indolent NHL - watch and wait if asymptomatic early stage
+disposition_guidance:
+  - Outpatient biopsy and staging workup in stable patients
+  - Admit for SVC syndrome, spinal cord compression, or tumor lysis risk
+  - Oncology referral for all confirmed or suspected lymphoma
+  - Long-term surveillance for relapse even after remission

@@ -1,0 +1,54 @@
+id: meningitis_neuro
+topic: "Meningitis"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Recognize the classic triad and atypical presentations of meningitis
+  - Differentiate bacterial from viral meningitis using CSF analysis
+  - Initiate empiric antibiotics IMMEDIATELY, do not delay for LP or imaging
+  - Understand the role of adjunctive dexamethasone
+  - Identify patients requiring Listeria coverage (age >50, immunocompromised)
+common_mistakes:
+  - Delaying antibiotics for LP or CT scan (give antibiotics FIRST)
+  - Forgetting dexamethasone (must be given before or with first antibiotic dose)
+  - Not adding ampicillin for Listeria coverage in elderly or immunocompromised
+  - Performing LP before CT in patient with papilledema or focal deficits (herniation risk)
+  - Missing the classic triad is only present in 44% of patients
+red_flags:
+  - Petechial rash suggesting meningococcemia (rapidly fatal)
+  - Rapidly declining consciousness
+  - Focal neurologic deficits suggesting abscess or empyema
+  - Immunocompromised patient (broader differential including fungal, TB)
+  - Post-neurosurgical meningitis (different pathogen profile)
+clinical_pearls:
+  - "Classic triad (fever, neck stiffness, AMS) present in only 44% but 95% have 2 of 4 symptoms"
+  - "Jolt accentuation test: headache worsening with horizontal head rotation has 97% sensitivity"
+  - "CSF: bacterial = high WBC with PMN predominance, low glucose, high protein"
+  - "Give dexamethasone 0.15 mg/kg q6h x 4 days for suspected pneumococcal meningitis"
+  - "Blood cultures before antibiotics, but NEVER delay antibiotics for any test"
+key_history_questions:
+  - "How rapidly did symptoms develop?"
+  - "Any recent ear infection, sinusitis, or neurosurgery?"
+  - "Is the patient immunocompromised?"
+  - "Any recent travel or animal exposures?"
+  - "Vaccination history (meningococcal, pneumococcal)?"
+  - "Any sick contacts with similar symptoms?"
+key_exam_findings:
+  - "Nuchal rigidity on passive neck flexion"
+  - "Kernig sign and Brudzinski sign"
+  - "Petechial or purpuric rash (meningococcal)"
+  - "Papilledema on fundoscopy (get CT before LP)"
+  - "Focal neurologic deficits (get CT before LP)"
+  - "Altered level of consciousness"
+treatment_principles:
+  - "Empiric antibiotics IMMEDIATELY: ceftriaxone + vancomycin + ampicillin (if >50 or immunosuppressed)"
+  - "Dexamethasone before or with first antibiotic dose"
+  - "CT before LP only if: papilledema, focal deficits, immunocompromised, new seizure, GCS <12"
+  - "Add acyclovir if HSV encephalitis suspected"
+  - "Chemoprophylaxis for close contacts of meningococcal meningitis"
+disposition_guidance:
+  - "ICU admission for bacterial meningitis"
+  - "Infectious disease consultation"
+  - "Public health notification for meningococcal disease"
+  - "Contact prophylaxis with rifampin or ciprofloxacin for close contacts"

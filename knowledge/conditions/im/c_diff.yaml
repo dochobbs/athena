@@ -1,0 +1,74 @@
+id: c_diff
+display_name: "Clostridioides difficile Infection"
+aliases:
+  - C. diff
+  - C. difficile colitis
+  - CDI
+  - Pseudomembranous colitis
+snomed: "186431008"
+icd10:
+  - "A04.72"
+  - "A04.71"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [100.0, 103.0]
+  hr_multiplier: 1.15
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: watery_diarrhea
+      probability: 0.95
+      description: "frequent watery, foul-smelling diarrhea"
+    - name: abdominal_pain
+      probability: 0.70
+      description: "crampy abdominal pain"
+    - name: fever
+      probability: 0.50
+      description: "low-grade fever"
+    - name: nausea
+      probability: 0.35
+      description: "nausea"
+    - name: anorexia
+      probability: 0.40
+      description: "loss of appetite"
+  physical_exam:
+    - system: abdomen
+      finding: "Diffuse abdominal tenderness, distension"
+      probability: 0.65
+    - system: abdomen
+      finding: "Rebound tenderness and guarding in fulminant colitis"
+      probability: 0.10
+    - system: general
+      finding: "Dehydration signs: dry mucous membranes, tachycardia"
+      probability: 0.45
+treatment:
+  approach: antibiotic_therapy_and_discontinue_offending_agent
+  medications:
+    - agent: "Fidaxomicin"
+      rxnorm: "1111103"
+      frequency: "twice daily x 10 days"
+      route: oral
+      indication: "preferred first-line for initial and recurrent episodes"
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "four times daily x 10 days"
+      route: oral
+      indication: "alternative first-line therapy (oral only)"
+    - agent: "Metronidazole"
+      rxnorm: "6922"
+      frequency: "three times daily x 10 days"
+      route: iv
+      indication: "adjunct IV therapy in fulminant disease"
+    - agent: "Bezlotoxumab"
+      rxnorm: "1860484"
+      frequency: "single dose"
+      route: iv
+      indication: "anti-toxin B antibody for recurrence prevention"

@@ -1,0 +1,54 @@
+id: asthma_adult_exacerbation
+topic: Asthma Exacerbation - Adult
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Classify exacerbation severity (mild, moderate, severe, life-threatening)
+- Apply stepwise acute management (bronchodilators, steroids, adjuncts)
+- Know when to intubate and the risks of intubation in severe asthma
+- Distinguish asthma from COPD exacerbation
+- Address controller therapy optimization before discharge
+common_mistakes:
+- Delaying systemic corticosteroids (give within first hour)
+- Relying on wheezing as severity marker (silent chest = near-fatal)
+- Not providing peak flow or FEV1 objective measurement
+- Discharging without inhaler technique assessment
+- Not prescribing ICS controller therapy on discharge
+red_flags:
+- Silent chest (absent wheezing in distressed patient)
+- PaCO2 normal or elevated during acute asthma (should be low from hyperventilation)
+- Peak flow <25% predicted
+- Unable to speak in full sentences
+- Altered mental status or drowsiness
+clinical_pearls:
+- Normal PaCO2 in acute asthma is ALARMING - means patient is tiring
+- Give steroids early - they take 4-6 hours to work
+- IV magnesium sulfate helps in severe exacerbations refractory to initial bronchodilators
+- Ketamine is a bronchodilator and may be used for induction during intubation
+- 'Post-discharge: ensure ICS controller, action plan, and follow-up within 1-4 weeks'
+key_history_questions:
+- When did this episode start? What triggered it?
+- How many times have you used your rescue inhaler today?
+- Have you been hospitalized or intubated for asthma before?
+- Are you taking a controller inhaler (ICS)? Are you using it daily?
+- Any recent respiratory infection?
+- Current medications including oral steroids?
+key_exam_findings:
+- Respiratory rate and work of breathing
+- Ability to speak in full sentences
+- Peak expiratory flow rate
+- Wheezing (diffuse vs silent chest)
+- Accessory muscle use and retractions
+- Pulsus paradoxus (>12 mmHg suggests severe)
+treatment_principles:
+- Continuous nebulized albuterol + ipratropium for severe
+- Systemic corticosteroids within first hour of presentation
+- IV magnesium for severe exacerbation not responding to initial therapy
+- Assess response at 60 minutes to guide disposition
+- Reassess and optimize controller regimen before discharge
+disposition_guidance:
+- Discharge if >70% predicted PEF and sustained response to bronchodilators
+- Admit if <40% predicted PEF after treatment or inadequate response
+- ICU for life-threatening features or requiring continuous nebulization
+- Prescribe ICS, rescue inhaler, steroid burst, and action plan on discharge

@@ -1,0 +1,54 @@
+id: drug_eruptions
+topic: "Drug Eruptions"
+category: dermatology
+specialties:
+  - im
+teaching_goals:
+  - Classify drug eruptions by morphology and severity
+  - Identify high-risk medications for severe cutaneous reactions
+  - Distinguish benign morbilliform rash from SJS/TEN and DRESS
+  - Know when to discontinue the offending drug vs monitor
+  - Understand DRESS syndrome diagnostic criteria and long-term consequences
+common_mistakes:
+  - Attributing rash to allergy and avoiding the drug forever when morbilliform rash is benign
+  - Missing early SJS/TEN (mucosal involvement, skin tenderness, Nikolsky sign)
+  - Not checking eosinophil count, liver enzymes, and renal function for suspected DRESS
+  - Assuming rash is always from the most recently started drug (DRESS has 2-8 week latency)
+  - Restarting the offending agent after a severe reaction
+red_flags:
+  - Mucosal involvement (oral, ocular, genital) suggesting SJS/TEN
+  - Skin pain or tenderness out of proportion to appearance
+  - Facial edema with eosinophilia and organ involvement (DRESS)
+  - Positive Nikolsky sign (epidermal detachment)
+  - Systemic symptoms (high fever, lymphadenopathy, hepatitis)
+clinical_pearls:
+  - "Morbilliform drug eruption is the most common type (75% of drug rashes)"
+  - "DRESS latency is 2-8 weeks; morbilliform is 7-14 days; SJS/TEN is 1-3 weeks"
+  - "Common SJS/TEN culprits: allopurinol, sulfonamides, carbamazepine, lamotrigine, phenytoin"
+  - "DRESS can cause delayed thyroid disease months after the acute episode"
+  - "HLA-B*5801 testing before allopurinol in Southeast Asian and Black patients (SJS/TEN risk)"
+key_history_questions:
+  - "What new medications were started in the past 2-8 weeks?"
+  - "When did the rash first appear relative to starting the medication?"
+  - "Any mouth sores, eye redness, or genital sores?"
+  - "Is the skin painful or tender?"
+  - "Any fever, swollen lymph nodes, or feeling ill?"
+  - "Prior drug allergies or reactions?"
+key_exam_findings:
+  - "Symmetric maculopapular exanthem starting on trunk"
+  - "Mucosal erosions (SJS/TEN)"
+  - "Facial edema (DRESS)"
+  - "Nikolsky sign (SJS/TEN)"
+  - "Skin tenderness to palpation"
+  - "Target or targetoid lesions"
+treatment_principles:
+  - "Discontinue suspected offending agent"
+  - "Morbilliform rash: antihistamines, topical steroids, may continue drug if mild and essential"
+  - "DRESS: systemic corticosteroids, monitor organ function"
+  - "SJS/TEN: transfer to burn unit, supportive care"
+  - "Document allergy in medical record with reaction type and severity"
+disposition_guidance:
+  - "Outpatient for morbilliform drug eruption"
+  - "Admit for DRESS with organ involvement"
+  - "Burn unit transfer for SJS/TEN"
+  - "Dermatology consultation for biopsy if diagnosis uncertain"

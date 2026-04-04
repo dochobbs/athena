@@ -1,0 +1,65 @@
+id: frailty_syndrome
+display_name: "Frailty Syndrome"
+aliases:
+  - Frailty
+  - Geriatric frailty
+  - Pre-frailty
+  - Fried frailty phenotype
+snomed: "248279007"
+icd10:
+  - "R54"
+category: chronic
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: unintentional weight loss
+      probability: 0.60
+      description: ">10 lbs or >5% in past year (Fried criterion)"
+    - name: exhaustion
+      probability: 0.70
+      description: "self-reported fatigue, everything is an effort"
+    - name: weakness
+      probability: 0.65
+      description: "reduced grip strength (lowest 20th percentile)"
+    - name: slow gait
+      probability: 0.60
+      description: "walking speed in lowest 20th percentile"
+    - name: low physical activity
+      probability: 0.55
+      description: "reduced energy expenditure, sedentary lifestyle"
+  physical_exam:
+    - system: general
+      finding: "Low BMI, temporal wasting, sarcopenia"
+      probability: 0.55
+    - system: musculoskeletal
+      finding: "Reduced grip strength on dynamometry"
+      probability: 0.60
+    - system: neurologic
+      finding: "Slow gait speed (<0.8 m/s on 4-meter walk)"
+      probability: 0.55
+    - system: general
+      finding: "Frail appearance, difficulty rising from chair without arms"
+      probability: 0.50
+    - system: general
+      finding: "3+ of 5 Fried criteria positive (frail, vs 1-2 = pre-frail)"
+      probability: 0.45
+treatment:
+  approach: multicomponent_exercise_and_nutrition
+  medications:
+    - agent: "Vitamin D"
+      rxnorm: "11253"
+      frequency: "once daily"
+      route: oral
+      indication: "vitamin D for fall prevention and bone health"
+    - agent: "Nutritional Supplement"
+      rxnorm: "226340"
+      frequency: "twice daily"
+      route: oral
+      indication: "protein and caloric supplementation"

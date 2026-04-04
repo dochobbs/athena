@@ -1,0 +1,84 @@
+id: hemorrhagic_stroke
+display_name: "Hemorrhagic Stroke"
+aliases:
+  - Intracerebral hemorrhage
+  - ICH
+  - Brain bleed
+  - Hemorrhagic CVA
+snomed: "274100004"
+icd10:
+  - "I61.9"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.15
+  bp_systolic:
+    - 180
+    - 240
+  bp_diastolic:
+    - 100
+    - 130
+  spo2_min: 92
+presentation:
+  symptoms:
+    - name: severe headache
+      probability: 0.70
+      description: "sudden onset worst headache of life"
+    - name: vomiting
+      probability: 0.50
+      description: "often accompanies elevated ICP"
+    - name: altered consciousness
+      probability: 0.60
+      description: "ranging from confusion to coma"
+    - name: focal weakness
+      probability: 0.70
+      description: "contralateral hemiparesis"
+    - name: seizure
+      probability: 0.15
+      description: "may occur at onset or early course"
+  physical_exam:
+    - system: neurologic
+      finding: "Focal neurologic deficits, often more severe than ischemic"
+      probability: 0.90
+    - system: neurologic
+      finding: "Decreased level of consciousness, GCS depression"
+      probability: 0.60
+    - system: ophthalmologic
+      finding: "Papilledema or subhyaloid hemorrhages on fundoscopy"
+      probability: 0.20
+    - system: neurologic
+      finding: "Signs of herniation: fixed dilated pupil, posturing"
+      probability: 0.15
+    - system: cardiovascular
+      finding: "Severely elevated blood pressure"
+      probability: 0.80
+treatment:
+  approach: blood_pressure_control_and_reversal
+  medications:
+    - agent: "Nicardipine"
+      rxnorm: "7417"
+      frequency: "continuous infusion, titrate to goal"
+      route: iv
+      indication: "first-line IV antihypertensive for BP reduction"
+    - agent: "Labetalol"
+      rxnorm: "6185"
+      frequency: "IV bolus or infusion"
+      route: iv
+      indication: "alternative IV antihypertensive"
+    - agent: "Mannitol"
+      rxnorm: "6625"
+      frequency: "every 6-8 hours as needed"
+      route: iv
+      indication: "osmotic therapy for elevated ICP"
+    - agent: "Vitamin K"
+      rxnorm: "11256"
+      frequency: "single dose"
+      route: iv
+      indication: "reversal of warfarin anticoagulation if applicable"

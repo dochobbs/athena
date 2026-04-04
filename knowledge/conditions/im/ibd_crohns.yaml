@@ -1,0 +1,90 @@
+id: ibd_crohns
+display_name: "Crohn's Disease"
+aliases:
+  - Crohn disease
+  - Regional enteritis
+  - Granulomatous colitis
+  - IBD - Crohn's
+snomed: "34000006"
+icd10:
+  - "K50.90"
+  - "K50.00"
+  - "K50.10"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [98.0, 101.0]
+  hr_multiplier: 1.10
+  rr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: abdominal_pain
+      probability: 0.85
+      description: "Crampy abdominal pain, often RLQ, worse after meals"
+    - name: diarrhea
+      probability: 0.80
+      description: "Chronic non-bloody diarrhea (usually), may be bloody"
+    - name: weight_loss
+      probability: 0.65
+      description: "Significant unintentional weight loss"
+    - name: fatigue
+      probability: 0.70
+      description: "Chronic fatigue from inflammation and malabsorption"
+    - name: perianal_disease
+      probability: 0.35
+      description: "Perianal fistulae, abscesses, or skin tags"
+    - name: extraintestinal_symptoms
+      probability: 0.30
+      description: "Joint pain, eye inflammation, skin lesions"
+  physical_exam:
+    - system: abdomen
+      finding: "RLQ tenderness, possible mass from inflamed bowel or abscess"
+      probability: 0.70
+    - system: perianal
+      finding: "Fistulae, fissures, skin tags, abscesses"
+      probability: 0.35
+    - system: general
+      finding: "Cachexia, pallor from anemia"
+      probability: 0.40
+    - system: skin
+      finding: "Erythema nodosum or pyoderma gangrenosum"
+      probability: 0.15
+    - system: oral
+      finding: "Aphthous ulcers"
+      probability: 0.20
+treatment:
+  approach: step_up_immunosuppression
+  medications:
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "40-60 mg daily, taper over 8-12 weeks"
+      route: oral
+      indication: "Induction of remission for moderate-severe flare"
+    - agent: "Budesonide"
+      rxnorm: "19831"
+      frequency: "9 mg daily x 8-16 weeks"
+      route: oral
+      indication: "Mild-moderate ileal/right colon Crohn's"
+    - agent: "Infliximab"
+      rxnorm: "191831"
+      frequency: "5 mg/kg IV at weeks 0, 2, 6 then every 8 weeks"
+      route: iv
+      indication: "Anti-TNF biologic for moderate-severe disease"
+    - agent: "Azathioprine"
+      rxnorm: "1256"
+      frequency: "2-2.5 mg/kg daily"
+      route: oral
+      indication: "Steroid-sparing immunomodulator"
+    - agent: "Mesalamine"
+      rxnorm: "30166"
+      frequency: "2.4-4.8 g daily"
+      route: oral
+      indication: "Mild colonic Crohn's (limited evidence)"

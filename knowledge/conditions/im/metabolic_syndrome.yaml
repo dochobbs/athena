@@ -1,0 +1,67 @@
+id: metabolic_syndrome
+display_name: "Metabolic Syndrome"
+aliases:
+  - Syndrome X
+  - Insulin resistance syndrome
+  - Cardiometabolic syndrome
+snomed: "237602007"
+icd10:
+  - "E88.81"
+category: chronic
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: asymptomatic
+      probability: 0.70
+      description: "Often asymptomatic, identified on screening labs"
+    - name: fatigue
+      probability: 0.40
+      description: "Generalized fatigue"
+    - name: central_obesity
+      probability: 0.85
+      description: "Increased waist circumference"
+  physical_exam:
+    - system: general
+      finding: "Central obesity (waist >40 in men, >35 in women)"
+      probability: 0.85
+    - system: cardiovascular
+      finding: "Elevated blood pressure (>=130/85)"
+      probability: 0.70
+    - system: skin
+      finding: "Acanthosis nigricans"
+      probability: 0.30
+treatment:
+  approach: lifestyle_and_risk_reduction
+  medications:
+    - agent: "Metformin"
+      rxnorm: "6809"
+      frequency: "500-1000 mg twice daily"
+      route: oral
+      indication: "Insulin sensitizer if prediabetes or diabetes"
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "10-40 mg daily"
+      route: oral
+      indication: "Statin for dyslipidemia and cardiovascular risk"
+    - agent: "Lisinopril"
+      rxnorm: "29046"
+      frequency: "10-20 mg daily"
+      route: oral
+      indication: "ACE inhibitor for hypertension"
+    - agent: "Semaglutide"
+      rxnorm: "1991302"
+      frequency: "0.25-2.4 mg subcutaneous weekly"
+      route: subcutaneous
+      indication: "GLP-1 RA for weight management and glycemic control"

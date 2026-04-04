@@ -1,0 +1,54 @@
+id: schizophrenia
+topic: "Schizophrenia"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Distinguish positive symptoms (hallucinations, delusions) from negative symptoms (flat affect, avolition)
+  - Recognize that negative symptoms are harder to treat and more disabling long-term
+  - Understand metabolic monitoring requirements for atypical antipsychotics
+  - Know clozapine as the gold standard for treatment-resistant schizophrenia
+  - Manage medical comorbidities (patients die 15-20 years earlier, often from cardiovascular disease)
+common_mistakes:
+  - Overlooking metabolic side effects of antipsychotics (weight gain, diabetes, dyslipidemia)
+  - Not considering clozapine after 2 failed antipsychotic trials
+  - Attributing all complaints to psychosis without medical evaluation
+  - Stopping antipsychotics when symptoms improve (high relapse rate)
+  - Using typical antipsychotics first-line when atypicals have better side effect profiles
+red_flags:
+  - Catatonia (medical emergency requiring benzodiazepines or ECT)
+  - Neuroleptic malignant syndrome from antipsychotic use
+  - Acute psychosis with danger to self or others
+  - Clozapine-induced agranulocytosis (requires ANC monitoring)
+  - Metabolic syndrome from long-term antipsychotic use
+clinical_pearls:
+  - "Schizophrenia requires 2+ symptoms for 1+ month with 6+ months of disturbance"
+  - "Negative symptoms (flat affect, alogia, avolition) predict worse long-term outcomes than positive"
+  - "Clozapine is the only antipsychotic proven superior for treatment-resistant schizophrenia"
+  - "Long-acting injectable antipsychotics improve adherence dramatically"
+  - "Patients with schizophrenia have 2-3x cardiovascular mortality; screen and treat aggressively"
+key_history_questions:
+  - "Are you hearing voices or seeing things others do not?"
+  - "Do you feel that people are trying to harm you or monitor you?"
+  - "When did symptoms first start (typically late teens to early 30s)?"
+  - "What medications have been tried, and what happened?"
+  - "How is your daily functioning (hygiene, social, work)?"
+  - "Any substance use (cannabis can trigger psychosis)?"
+key_exam_findings:
+  - "Flat or inappropriate affect"
+  - "Disorganized speech (tangential, loose associations)"
+  - "Responding to internal stimuli"
+  - "Poor hygiene and grooming"
+  - "Tardive dyskinesia screen (AIMS exam) if on antipsychotics"
+  - "Metabolic parameters: weight, BMI, fasting glucose, lipids"
+treatment_principles:
+  - "Second-generation antipsychotics first-line (risperidone, aripiprazole, olanzapine)"
+  - "Clozapine for treatment-resistant cases (failed 2+ adequate trials)"
+  - "Long-acting injectables for adherence issues"
+  - "Metabolic monitoring: weight, glucose, lipids at baseline and regularly"
+  - "Psychosocial interventions: supported employment, cognitive remediation, family therapy"
+disposition_guidance:
+  - "Inpatient for acute psychosis with safety concerns"
+  - "Outpatient with psychiatry for stable patients"
+  - "Assertive community treatment for high-risk patients"
+  - "Primary care coordination for metabolic monitoring"

@@ -1,0 +1,78 @@
+id: antiphospholipid_syndrome
+display_name: "Antiphospholipid Syndrome"
+aliases:
+  - APS
+  - Hughes syndrome
+  - Anticardiolipin syndrome
+  - Lupus anticoagulant syndrome
+snomed: "726078009"
+icd10:
+  - "D68.61"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.05
+  spo2_min: 92
+presentation:
+  symptoms:
+    - name: dvt_pe
+      probability: 0.55
+      description: "deep vein thrombosis or pulmonary embolism"
+    - name: stroke_tia
+      probability: 0.25
+      description: "arterial thrombosis presenting as stroke or TIA"
+    - name: recurrent_pregnancy_loss
+      probability: 0.40
+      description: "recurrent miscarriages, especially after first trimester"
+    - name: livedo_reticularis
+      probability: 0.30
+      description: "reticular purple skin discoloration"
+    - name: thrombocytopenia
+      probability: 0.25
+      description: "mild thrombocytopenia"
+  physical_exam:
+    - system: vascular
+      finding: "Unilateral leg swelling (DVT)"
+      probability: 0.40
+    - system: skin
+      finding: "Livedo reticularis"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Libman-Sacks endocarditis murmur (rare)"
+      probability: 0.05
+    - system: neurologic
+      finding: "Focal neurologic deficits (stroke)"
+      probability: 0.20
+    - system: respiratory
+      finding: "Tachypnea, pleuritic pain (PE)"
+      probability: 0.30
+treatment:
+  approach: long_term_anticoagulation
+  medications:
+    - agent: "Warfarin"
+      rxnorm: "11289"
+      frequency: "once daily, target INR 2-3"
+      route: oral
+      indication: "long-term anticoagulation after thrombosis"
+    - agent: "Heparin"
+      rxnorm: "5224"
+      frequency: "continuous infusion"
+      route: iv
+      indication: "acute thrombosis treatment, bridge to warfarin"
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "once daily"
+      route: oral
+      indication: "primary prevention in asymptomatic aPL-positive patients"
+    - agent: "Hydroxychloroquine"
+      rxnorm: "5521"
+      frequency: "once daily"
+      route: oral
+      indication: "adjunctive in SLE-associated APS"

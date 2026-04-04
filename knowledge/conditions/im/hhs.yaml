@@ -1,0 +1,81 @@
+id: hhs
+display_name: "Hyperosmolar Hyperglycemic State"
+aliases:
+  - HHS
+  - Hyperosmolar hyperglycemic nonketotic syndrome
+  - HHNS
+  - Diabetic hyperosmolar syndrome
+snomed: "267384006"
+icd10:
+  - "E11.00"
+  - "E11.01"
+category: acute
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [96.0, 101.0]
+  hr_multiplier: 1.30
+  rr_multiplier: 1.15
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: altered_mental_status
+      probability: 0.80
+      description: "Profound lethargy, confusion, or coma"
+    - name: polyuria
+      probability: 0.75
+      description: "Significant polyuria preceding admission"
+    - name: polydipsia
+      probability: 0.70
+      description: "Extreme thirst"
+    - name: weakness
+      probability: 0.75
+      description: "Profound generalized weakness"
+    - name: nausea
+      probability: 0.45
+      description: "Nausea, less vomiting than DKA"
+    - name: seizures
+      probability: 0.15
+      description: "Focal or generalized seizures"
+  physical_exam:
+    - system: general
+      finding: "Profound dehydration, dry mucous membranes, decreased skin turgor"
+      probability: 0.90
+    - system: cardiovascular
+      finding: "Tachycardia, hypotension, orthostasis"
+      probability: 0.80
+    - system: neurological
+      finding: "Altered consciousness, focal neurologic deficits, seizures"
+      probability: 0.75
+    - system: respiratory
+      finding: "Normal to mildly increased respiratory rate (no Kussmaul)"
+      probability: 0.70
+treatment:
+  approach: aggressive_fluids_and_insulin
+  medications:
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "1-1.5 L/hr initially, then 250-500 mL/hr"
+      route: iv
+      indication: "Aggressive volume resuscitation (average deficit 8-10 L)"
+    - agent: "Regular Insulin"
+      rxnorm: "5856"
+      frequency: "0.1 units/kg/hr IV infusion (may start after initial fluid bolus)"
+      route: iv
+      indication: "Correct hyperglycemia gradually"
+    - agent: "Potassium Chloride"
+      rxnorm: "8591"
+      frequency: "20-40 mEq/L in IV fluids"
+      route: iv
+      indication: "Potassium replacement"
+    - agent: "Enoxaparin"
+      rxnorm: "67108"
+      frequency: "40 mg subcutaneous daily"
+      route: subcutaneous
+      indication: "VTE prophylaxis (high thrombotic risk)"

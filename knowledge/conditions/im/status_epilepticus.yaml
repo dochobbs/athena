@@ -1,0 +1,75 @@
+id: status_epilepticus
+display_name: "Status Epilepticus"
+aliases:
+  - SE
+  - Prolonged seizure
+  - Refractory seizure
+snomed: "230456007"
+icd10:
+  - "G41.9"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.30
+  temp_f:
+    - 99.0
+    - 103.0
+  spo2_min: 85
+  rr_multiplier: 1.20
+presentation:
+  symptoms:
+    - name: continuous seizure activity
+      probability: 0.90
+      description: "seizure lasting >5 minutes or recurrent without recovery"
+    - name: loss of consciousness
+      probability: 0.85
+      description: "unresponsive during convulsive SE"
+    - name: cyanosis
+      probability: 0.40
+      description: "from impaired ventilation during prolonged seizure"
+    - name: hyperthermia
+      probability: 0.30
+      description: "from prolonged muscle activity"
+  physical_exam:
+    - system: neurologic
+      finding: "Ongoing tonic-clonic movements or subtle motor activity"
+      probability: 0.90
+    - system: neurologic
+      finding: "Unresponsive to stimulation"
+      probability: 0.85
+    - system: respiratory
+      finding: "Compromised airway, cyanosis, hypoxia"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Tachycardia, labile blood pressure"
+      probability: 0.70
+treatment:
+  approach: emergent_seizure_termination
+  medications:
+    - agent: "Lorazepam"
+      rxnorm: "6470"
+      frequency: "IV push, may repeat once"
+      route: iv
+      indication: "first-line benzodiazepine for SE"
+    - agent: "Fosphenytoin"
+      rxnorm: "235877"
+      frequency: "single loading dose"
+      route: iv
+      indication: "second-line agent if benzodiazepines fail"
+    - agent: "Levetiracetam"
+      rxnorm: "39998"
+      frequency: "single loading dose"
+      route: iv
+      indication: "alternative second-line agent"
+    - agent: "Midazolam"
+      rxnorm: "6960"
+      frequency: "continuous infusion"
+      route: iv
+      indication: "refractory SE requiring continuous infusion"

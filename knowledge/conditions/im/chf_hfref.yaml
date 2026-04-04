@@ -1,0 +1,90 @@
+id: chf_hfref
+display_name: "Heart Failure with Reduced Ejection Fraction"
+aliases:
+  - HFrEF
+  - Systolic heart failure
+  - CHF with low EF
+snomed: "441530006"
+icd10:
+  - "I50.20"
+  - "I50.22"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.15
+  rr_multiplier: 1.20
+  spo2_min: 90
+  bp_systolic:
+    - 90
+    - 130
+presentation:
+  symptoms:
+    - name: dyspnea_on_exertion
+      probability: 0.90
+      description: "progressive exercise intolerance"
+    - name: orthopnea
+      probability: 0.70
+      description: "dyspnea when lying flat, uses multiple pillows"
+    - name: paroxysmal_nocturnal_dyspnea
+      probability: 0.55
+      description: "waking from sleep with dyspnea"
+    - name: lower_extremity_edema
+      probability: 0.75
+      description: "bilateral pitting edema"
+    - name: fatigue
+      probability: 0.80
+      description: "persistent fatigue and weakness"
+    - name: weight_gain
+      probability: 0.60
+      description: "rapid weight gain from fluid retention"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Displaced PMI laterally, S3 gallop"
+      probability: 0.65
+    - system: cardiovascular
+      finding: "Elevated JVP"
+      probability: 0.70
+    - system: respiratory
+      finding: "Bibasilar crackles"
+      probability: 0.60
+    - system: extremities
+      finding: "Bilateral pitting edema"
+      probability: 0.75
+    - system: abdominal
+      finding: "Hepatomegaly, hepatojugular reflux"
+      probability: 0.35
+treatment:
+  approach: guideline_directed_medical_therapy
+  medications:
+    - agent: "Sacubitril/Valsartan"
+      rxnorm: "1656328"
+      frequency: "twice daily"
+      route: oral
+      indication: "ARNI, cornerstone of HFrEF therapy"
+    - agent: "Carvedilol"
+      rxnorm: "20352"
+      frequency: "twice daily"
+      route: oral
+      indication: "beta-blocker, mortality benefit"
+    - agent: "Spironolactone"
+      rxnorm: "9997"
+      frequency: "once daily"
+      route: oral
+      indication: "MRA, mortality benefit if EF <=35%"
+    - agent: "Dapagliflozin"
+      rxnorm: "1488564"
+      frequency: "once daily"
+      route: oral
+      indication: "SGLT2 inhibitor, mortality benefit regardless of DM"
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "once or twice daily"
+      route: oral
+      indication: "loop diuretic for volume management"

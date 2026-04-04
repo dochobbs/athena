@@ -1,0 +1,53 @@
+id: palliative_care
+topic: "Palliative Care"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Distinguish palliative care (any serious illness, any stage) from hospice (prognosis <6 months)
+  - Perform comprehensive symptom assessment and management
+  - Lead goals of care conversations using structured frameworks
+  - Understand opioid management for pain and dyspnea at end of life
+  - Recognize and manage terminal symptoms
+common_mistakes:
+  - Equating palliative care with giving up or stopping treatment
+  - Waiting until the last days to initiate palliative care consultation
+  - Undertreating pain out of fear of respiratory depression at end of life
+  - Not addressing spiritual and psychosocial distress alongside physical symptoms
+  - Continuing aggressive interventions without checking patient preferences
+red_flags:
+  - Uncontrolled pain despite escalating opioids (consider neuropathic pain, bone mets, opioid tolerance)
+  - Refractory dyspnea at end of life
+  - Existential distress or desire to hasten death
+  - Caregiver burnout or inability to manage symptoms at home
+  - Conflict between family members about goals of care
+clinical_pearls:
+  - "Palliative care concurrent with curative treatment improves survival in lung cancer (Temel, 2010)"
+  - "SPIKES protocol for breaking bad news: Setting, Perception, Invitation, Knowledge, Emotions, Summary"
+  - "Morphine is safe for dyspnea at end of life; dose for air hunger is lower than for pain"
+  - "Ask: 'What is your understanding of your illness?' before discussing goals"
+  - "Glycopyrrolate for terminal secretions; suction is uncomfortable and often ineffective"
+key_history_questions:
+  - "What is your understanding of your illness and where things stand?"
+  - "What matters most to you in your daily life?"
+  - "Have you thought about what you would or would not want if you became sicker?"
+  - "Do you have an advance directive or healthcare proxy?"
+  - "How are your symptoms (pain, breathing, nausea, anxiety) on a scale of 0-10?"
+  - "How is your family coping?"
+key_exam_findings:
+  - "Functional status assessment (PPS, ECOG, Karnofsky)"
+  - "Comprehensive symptom assessment (Edmonton Symptom Assessment Scale)"
+  - "Cachexia, temporal wasting"
+  - "Signs of active dying (mottling, Cheyne-Stokes breathing, decreased consciousness)"
+  - "Delirium screening (terminal delirium is common)"
+treatment_principles:
+  - "Symptom management is the primary goal: pain, dyspnea, nausea, anxiety, delirium"
+  - "Opioids for pain and dyspnea; titrate to comfort, not a number"
+  - "Antiemetics for nausea; anxiolytics for air hunger and anxiety"
+  - "Non-pharmacologic: positioning, fan for dyspnea, music, spiritual support"
+  - "Goals of care should drive all medical decision-making"
+disposition_guidance:
+  - "Palliative care consultation available at any disease stage"
+  - "Hospice referral when prognosis <6 months and patient chooses comfort focus"
+  - "Home hospice, inpatient hospice, or palliative sedation based on symptom burden"
+  - "Bereavement support for families after death"

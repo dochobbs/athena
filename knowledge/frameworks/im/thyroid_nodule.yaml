@@ -1,0 +1,53 @@
+id: thyroid_nodule
+topic: "Thyroid Nodule"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Know the initial workup (TSH, thyroid ultrasound)
+  - Apply TI-RADS or ATA classification for biopsy decision-making
+  - Understand when FNA is indicated based on size and features
+  - Interpret FNA results using Bethesda classification
+  - Recognize that most nodules are benign (only ~5-15% malignant)
+common_mistakes:
+  - Performing FNA on all thyroid nodules regardless of size or features
+  - Not checking TSH first (hot nodules rarely malignant)
+  - Missing suspicious US features (microcalcifications, taller-than-wide, irregular margins)
+  - Over-ordering CT or MRI instead of ultrasound as first imaging
+  - Performing radioiodine scan on all nodules (only if TSH low)
+red_flags:
+  - Rapid nodule growth
+  - Vocal cord paralysis or hoarseness
+  - Fixed hard nodule
+  - Cervical lymphadenopathy
+  - History of neck radiation
+  - Family history of medullary thyroid cancer or MEN2
+clinical_pearls:
+  - "TSH is the first test. If low, get radioiodine scan (hot nodule = low cancer risk)"
+  - "TI-RADS score guides need for FNA: highly suspicious features at >= 1 cm, very suspicious at any size"
+  - "Bethesda III-IV (indeterminate): molecular testing (Afirma/ThyroSeq) can guide management"
+  - "Incidental thyroid nodules on CT/PET need dedicated thyroid US for characterization"
+  - "FDG-avid thyroid nodules on PET have ~35% malignancy rate - biopsy recommended"
+key_history_questions:
+  - How was the nodule discovered?
+  - Symptoms (dysphagia, hoarseness, neck pressure)?
+  - History of head/neck radiation?
+  - Family history of thyroid cancer or MEN syndrome?
+  - Hyper- or hypothyroid symptoms?
+  - Growth or change over time?
+key_exam_findings:
+  - Palpable thyroid nodule (size, consistency, mobility)
+  - Cervical lymphadenopathy
+  - Signs of thyroid dysfunction
+  - Vocal cord assessment (hoarseness)
+treatment_principles:
+  - TSH and thyroid ultrasound as initial evaluation
+  - FNA based on nodule size and US features (TI-RADS or ATA guidelines)
+  - Observation with serial US for benign nodules
+  - Surgery for confirmed malignancy or highly suspicious cytology
+  - Molecular testing for indeterminate FNA results
+disposition_guidance:
+  - "Outpatient: All thyroid nodule evaluation and surveillance"
+  - "Endocrine/surgery referral: Suspicious FNA, need for thyroidectomy"
+  - "Surveillance: Benign FNA - repeat US in 12-24 months depending on features"
+  - "No intervention: Cystic or very small nodules without suspicious features"

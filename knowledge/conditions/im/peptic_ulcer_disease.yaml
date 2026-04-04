@@ -1,0 +1,87 @@
+id: peptic_ulcer_disease
+display_name: "Peptic Ulcer Disease"
+aliases:
+  - PUD
+  - Gastric ulcer
+  - Duodenal ulcer
+  - Stomach ulcer
+snomed: "13200003"
+icd10:
+  - "K27.9"
+  - "K25.9"
+  - "K26.9"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.05
+  rr_multiplier: 1.0
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: epigastric_pain
+      probability: 0.90
+      description: "Burning or gnawing epigastric pain, often related to meals"
+    - name: nausea
+      probability: 0.60
+      description: "Nausea with or without vomiting"
+    - name: bloating
+      probability: 0.50
+      description: "Postprandial fullness and bloating"
+    - name: early_satiety
+      probability: 0.40
+      description: "Feeling full after small meals"
+    - name: weight_loss
+      probability: 0.30
+      description: "Unintentional weight loss from decreased oral intake"
+    - name: hematemesis
+      probability: 0.15
+      description: "Vomiting blood or coffee-ground emesis"
+    - name: melena
+      probability: 0.15
+      description: "Black tarry stools from upper GI bleeding"
+  physical_exam:
+    - system: abdomen
+      finding: "Epigastric tenderness to palpation"
+      probability: 0.80
+    - system: abdomen
+      finding: "Voluntary guarding in epigastrium"
+      probability: 0.30
+    - system: general
+      finding: "Pallor if chronic blood loss"
+      probability: 0.15
+treatment:
+  approach: ppi_and_eradication
+  medications:
+    - agent: "Omeprazole"
+      rxnorm: "7646"
+      frequency: "20-40 mg daily"
+      route: oral
+      indication: "Acid suppression and ulcer healing"
+    - agent: "Pantoprazole"
+      rxnorm: "40790"
+      frequency: "40 mg daily"
+      route: oral
+      indication: "Acid suppression alternative"
+    - agent: "Amoxicillin"
+      rxnorm: "723"
+      frequency: "1000 mg twice daily"
+      route: oral
+      indication: "H. pylori eradication (triple therapy)"
+    - agent: "Clarithromycin"
+      rxnorm: "21212"
+      frequency: "500 mg twice daily"
+      route: oral
+      indication: "H. pylori eradication (triple therapy)"
+    - agent: "Bismuth Subsalicylate"
+      rxnorm: "1427"
+      frequency: "524 mg four times daily"
+      route: oral
+      indication: "H. pylori quadruple therapy component"

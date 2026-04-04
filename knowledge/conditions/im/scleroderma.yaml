@@ -1,0 +1,92 @@
+id: scleroderma
+display_name: "Scleroderma (Systemic Sclerosis)"
+aliases:
+  - Systemic sclerosis
+  - SSc
+  - Limited cutaneous systemic sclerosis
+  - Diffuse cutaneous systemic sclerosis
+  - CREST syndrome
+snomed: "89155008"
+icd10:
+  - "M34.9"
+  - "M34.0"
+  - "M34.1"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.05
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: raynauds
+      probability: 0.90
+      description: "Raynaud phenomenon: white-blue-red color changes of digits"
+    - name: skin_thickening
+      probability: 0.85
+      description: "progressive skin tightening, starting distally"
+    - name: dysphagia
+      probability: 0.50
+      description: "esophageal dysmotility, GERD"
+    - name: dyspnea
+      probability: 0.40
+      description: "interstitial lung disease or pulmonary hypertension"
+    - name: digital_ulcers
+      probability: 0.30
+      description: "painful fingertip ulcers"
+    - name: heartburn
+      probability: 0.60
+      description: "severe GERD from esophageal dysmotility"
+  physical_exam:
+    - system: skin
+      finding: "Sclerodactyly, tight shiny skin on fingers"
+      probability: 0.85
+    - system: skin
+      finding: "Telangiectasias on face and hands"
+      probability: 0.50
+    - system: skin
+      finding: "Calcinosis cutis"
+      probability: 0.20
+    - system: vascular
+      finding: "Digital pitting scars or active ulcers"
+      probability: 0.30
+    - system: respiratory
+      finding: "Bibasilar velcro crackles (ILD)"
+      probability: 0.35
+    - system: skin
+      finding: "Microstomia (reduced oral aperture)"
+      probability: 0.40
+treatment:
+  approach: organ_specific_management
+  medications:
+    - agent: "Nifedipine"
+      rxnorm: "7417"
+      frequency: "once daily extended-release"
+      route: oral
+      indication: "Raynaud phenomenon"
+    - agent: "Omeprazole"
+      rxnorm: "7646"
+      frequency: "twice daily"
+      route: oral
+      indication: "GERD from esophageal dysmotility"
+    - agent: "Mycophenolate Mofetil"
+      rxnorm: "68149"
+      frequency: "twice daily"
+      route: oral
+      indication: "interstitial lung disease"
+    - agent: "Nintedanib"
+      rxnorm: "1593144"
+      frequency: "twice daily"
+      route: oral
+      indication: "SSc-associated ILD"
+    - agent: "Bosentan"
+      rxnorm: "75207"
+      frequency: "twice daily"
+      route: oral
+      indication: "digital ulcer prevention, pulmonary arterial hypertension"

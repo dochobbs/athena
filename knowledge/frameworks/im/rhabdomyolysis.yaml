@@ -1,0 +1,53 @@
+id: rhabdomyolysis
+topic: "Rhabdomyolysis"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Identify the classic triad (myalgia, weakness, dark urine) and common etiologies
+  - Understand the pathophysiology of myoglobin-induced AKI
+  - Implement aggressive IV fluid resuscitation as the cornerstone of treatment
+  - Monitor for and manage life-threatening complications (hyperkalemia, compartment syndrome)
+common_mistakes:
+  - Underestimating fluid requirements - patients need much more than typical maintenance
+  - Not checking CK in patients with altered mental status or found down
+  - Missing compartment syndrome (pain out of proportion, pain with passive stretch)
+  - Relying on urine dipstick alone - it detects myoglobin as "blood"
+  - Forgetting to check for DIC as a complication
+red_flags:
+  - CK >40,000 U/L (very high risk for AKI)
+  - Potassium >6.0 with ECG changes
+  - Compartment syndrome (surgical emergency)
+  - Oliguria despite aggressive resuscitation
+  - DIC (falling fibrinogen, rising D-dimer)
+clinical_pearls:
+  - Urine dipstick positive for blood but no RBCs on microscopy = myoglobinuria
+  - Target urine output 200-300 mL/hr with IV normal saline
+  - CK peaks at 24-72 hours and has a half-life of 36-48 hours
+  - Most common causes in adults are crush injury, drugs/alcohol, and extreme exertion
+  - Statins rarely cause rhabdomyolysis alone but risk increases with interacting drugs
+key_history_questions:
+  - Were you found down or immobile for a prolonged period?
+  - Have you done any extreme physical exertion recently?
+  - What medications are you taking? Any statins, antipsychotics, or illicit drugs?
+  - Any seizure activity?
+  - Any trauma or crush injury?
+  - Have you noticed dark-colored urine?
+key_exam_findings:
+  - Muscle tenderness and swelling
+  - Urine color (tea-colored or dark brown)
+  - Compartment assessment (tense muscles, pain with passive stretch)
+  - Volume status
+  - Mental status
+  - Skin for signs of prolonged immobility (pressure injuries)
+treatment_principles:
+  - Aggressive IV normal saline (200-300 mL/hr target urine output)
+  - Continuous cardiac monitoring for hyperkalemia
+  - Consider bicarbonate drip for urine alkalinization (controversial but often used)
+  - Avoid calcium repletion unless symptomatic or ECG changes (can deposit in damaged muscle)
+  - Fasciotomy for compartment syndrome
+disposition_guidance:
+  - Admit all patients with CK >5,000 or any renal impairment
+  - ICU for CK >15,000, hyperkalemia, or hemodynamic instability
+  - Discharge with close follow-up if CK mildly elevated, good urine output, normal creatinine
+  - Serial CK and BMP until trending down

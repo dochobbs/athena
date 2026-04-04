@@ -1,0 +1,78 @@
+id: multiple_sclerosis
+display_name: "Multiple Sclerosis"
+aliases:
+  - MS
+  - Relapsing-remitting MS
+  - RRMS
+  - Demyelinating disease
+snomed: "24700007"
+icd10:
+  - "G35"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: optic neuritis
+      probability: 0.40
+      description: "unilateral painful vision loss, often presenting symptom"
+    - name: limb weakness
+      probability: 0.50
+      description: "upper motor neuron pattern weakness"
+    - name: sensory changes
+      probability: 0.55
+      description: "numbness, tingling, Lhermitte sign"
+    - name: fatigue
+      probability: 0.80
+      description: "disproportionate fatigue, most common symptom"
+    - name: gait difficulty
+      probability: 0.40
+      description: "spastic gait, ataxia"
+    - name: urinary symptoms
+      probability: 0.35
+      description: "urgency, frequency, incontinence"
+  physical_exam:
+    - system: neurologic
+      finding: "Afferent pupillary defect (Marcus Gunn pupil) with optic neuritis"
+      probability: 0.35
+    - system: neurologic
+      finding: "Upper motor neuron signs: hyperreflexia, spasticity, Babinski"
+      probability: 0.50
+    - system: neurologic
+      finding: "Internuclear ophthalmoplegia (INO)"
+      probability: 0.20
+    - system: neurologic
+      finding: "Lhermitte sign (electric sensation with neck flexion)"
+      probability: 0.25
+    - system: neurologic
+      finding: "Cerebellar signs: intention tremor, dysmetria"
+      probability: 0.20
+treatment:
+  approach: disease_modifying_and_relapse
+  medications:
+    - agent: "Methylprednisolone"
+      rxnorm: "6902"
+      frequency: "daily for 3-5 days"
+      route: iv
+      indication: "high-dose steroids for acute relapse"
+    - agent: "Dimethyl Fumarate"
+      rxnorm: "1373478"
+      frequency: "twice daily"
+      route: oral
+      indication: "oral disease-modifying therapy"
+    - agent: "Ocrelizumab"
+      rxnorm: "1921234"
+      frequency: "every 6 months"
+      route: iv
+      indication: "anti-CD20 monoclonal for RRMS and PPMS"
+    - agent: "Baclofen"
+      rxnorm: "1292"
+      frequency: "three times daily"
+      route: oral
+      indication: "symptomatic treatment of spasticity"

@@ -1,0 +1,51 @@
+id: herpes_zoster
+topic: "Herpes Zoster"
+category: dermatology
+specialties:
+  - im
+teaching_goals:
+  - Recognize dermatomal vesicular rash as pathognomonic
+  - Initiate antiviral therapy within 72 hours for maximum benefit
+  - Identify high-risk patients for complications (immunocompromised, ophthalmic involvement)
+  - Understand postherpetic neuralgia prevention and treatment
+  - Know indications for recombinant zoster vaccine (Shingrix)
+common_mistakes:
+  - Delaying antivirals beyond the 72-hour window
+  - Missing herpes zoster ophthalmicus (V1 distribution, Hutchinson sign)
+  - Prescribing antivirals at inadequate doses (valacyclovir 1g TID, not BID)
+  - Not managing pain aggressively from the start
+  - Forgetting to vaccinate eligible patients after episode resolves
+red_flags:
+  - Hutchinson sign (vesicles on nose tip) indicating ophthalmic nerve involvement
+  - Disseminated zoster (>20 lesions outside primary dermatome, immunocompromised)
+  - Ramsay Hunt syndrome (facial nerve + ear vesicles + hearing loss)
+  - Zoster in immunocompromised patient (may need IV acyclovir)
+clinical_pearls:
+  - "Pain before rash (prodrome) can mimic MI, renal colic, or appendicitis depending on dermatome"
+  - "Hutchinson sign: vesicles on nose tip = nasociliary nerve = high risk of corneal involvement, urgent ophthalmology"
+  - "Shingrix (recombinant) is 97% effective in preventing zoster in immunocompetent adults >50"
+  - "Postherpetic neuralgia risk increases with age: 30% in patients >60"
+  - "Do NOT use steroids alone; always combine with antivirals"
+key_history_questions:
+  - "When did the rash and/or pain start?"
+  - "Did you have pain or burning before the rash appeared?"
+  - "Have you had chickenpox or the varicella vaccine?"
+  - "Are you immunocompromised (HIV, chemotherapy, transplant)?"
+  - "Any eye symptoms (pain, blurry vision)?"
+  - "Have you received Shingrix vaccine?"
+key_exam_findings:
+  - "Grouped vesicles on erythematous base in dermatomal distribution"
+  - "Unilateral, does not cross midline"
+  - "Hutchinson sign (vesicles on nose tip)"
+  - "Vesicles progressing to crusting over 7-10 days"
+  - "Hyperesthesia in affected dermatome"
+treatment_principles:
+  - "Valacyclovir 1g TID for 7 days (start within 72 hours of rash)"
+  - "Pain management: acetaminophen/NSAIDs, gabapentin for neuropathic pain"
+  - "Ophthalmology referral for V1 involvement or Hutchinson sign"
+  - "Consider prednisone for acute pain (with antivirals, not alone)"
+  - "Vaccinate with Shingrix after acute episode resolves"
+disposition_guidance:
+  - "Outpatient management for most cases"
+  - "Admit immunocompromised patients for IV acyclovir"
+  - "Urgent ophthalmology referral for ophthalmic zoster"

@@ -1,0 +1,86 @@
+id: copd_stable
+display_name: "COPD - Stable"
+aliases:
+  - Chronic obstructive pulmonary disease
+  - COPD
+  - Emphysema
+  - Chronic bronchitis
+snomed: "13645005"
+icd10:
+  - "J44.9"
+  - "J44.1"
+  - "J43.9"
+category: chronic
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 480
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  rr_multiplier: 1.10
+  spo2_min: 88
+presentation:
+  symptoms:
+    - name: chronic_dyspnea
+      probability: 0.90
+      description: "progressive dyspnea on exertion"
+    - name: chronic_cough
+      probability: 0.75
+      description: "productive chronic cough"
+    - name: sputum_production
+      probability: 0.65
+      description: "chronic sputum production, especially morning"
+    - name: wheezing
+      probability: 0.55
+      description: "intermittent wheezing"
+    - name: exercise_intolerance
+      probability: 0.80
+      description: "progressive decline in functional capacity"
+  physical_exam:
+    - system: respiratory
+      finding: "Decreased breath sounds, prolonged expiratory phase"
+      probability: 0.75
+    - system: respiratory
+      finding: "Barrel chest, increased AP diameter"
+      probability: 0.50
+    - system: respiratory
+      finding: "Scattered wheezes"
+      probability: 0.55
+    - system: general
+      finding: "Pursed lip breathing"
+      probability: 0.40
+    - system: extremities
+      finding: "Digital clubbing (suggests other diagnosis)"
+      probability: 0.10
+treatment:
+  approach: stepwise_inhaler_therapy
+  medications:
+    - agent: "Tiotropium"
+      rxnorm: "274783"
+      frequency: "once daily inhalation"
+      route: inhaler
+      indication: "first-line LAMA maintenance therapy"
+    - agent: "Fluticasone/Vilanterol"
+      rxnorm: "1424887"
+      frequency: "once daily inhalation"
+      route: inhaler
+      indication: "ICS/LABA for GOLD Group E or frequent exacerbators"
+    - agent: "Albuterol"
+      rxnorm: "435"
+      frequency: "PRN q4-6h"
+      route: inhaler
+      indication: "rescue SABA"
+    - agent: "Roflumilast"
+      rxnorm: "1091596"
+      frequency: "500 mcg once daily"
+      route: oral
+      indication: "PDE4 inhibitor add-on for frequent exacerbators"
+    - agent: "Azithromycin"
+      rxnorm: "18631"
+      frequency: "250 mg daily or 500 mg three times weekly"
+      route: oral
+      indication: "macrolide prophylaxis for frequent exacerbators"

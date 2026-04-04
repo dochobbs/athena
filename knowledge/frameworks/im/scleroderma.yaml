@@ -1,0 +1,54 @@
+id: scleroderma
+topic: Scleroderma (Systemic Sclerosis)
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- Differentiate limited (CREST) from diffuse cutaneous systemic sclerosis
+- Recognize Raynaud phenomenon as the earliest manifestation
+- Identify scleroderma renal crisis and manage emergently
+- Understand organ-specific monitoring (PFTs, echo for PAH, renal function)
+- Know the antibody associations (anti-centromere vs anti-Scl-70)
+common_mistakes:
+- Missing scleroderma renal crisis (new hypertension + AKI in diffuse SSc)
+- Using high-dose steroids in diffuse SSc (precipitates renal crisis)
+- Not screening regularly for pulmonary arterial hypertension
+- Confusing limited SSc as mild (PAH is the leading cause of death in limited SSc)
+- Not treating Raynaud aggressively to prevent digital ulcers
+red_flags:
+- Scleroderma renal crisis (new HTN, AKI, microangiopathic hemolytic anemia)
+- Progressive dyspnea (ILD or pulmonary arterial hypertension)
+- Malignant hypertension
+- Digital gangrene
+- Pericardial effusion
+clinical_pearls:
+- 'Anti-centromere antibody: limited SSc (CREST) with PAH risk'
+- 'Anti-Scl-70 (topoisomerase I): diffuse SSc with ILD risk'
+- ACE inhibitors are life-saving in scleroderma renal crisis
+- Corticosteroids >15 mg/day can precipitate renal crisis in diffuse SSc
+- Annual PFTs and echocardiography are essential screening
+key_history_questions:
+- Raynaud phenomenon (color changes of digits with cold)?
+- Skin tightening - where and how rapidly progressing?
+- Difficulty swallowing or severe heartburn?
+- Shortness of breath on exertion?
+- Digital ulcers or color changes?
+- New-onset hypertension?
+key_exam_findings:
+- Sclerodactyly and skin tightening
+- Telangiectasias
+- Digital pitting scars or ulcers
+- Calcinosis cutis
+- Microstomia
+- Bibasilar velcro crackles (ILD)
+treatment_principles:
+- Organ-specific management (no single disease-modifying therapy)
+- CCBs (nifedipine) for Raynaud, PDE-5 inhibitors for severe
+- ACE inhibitors for scleroderma renal crisis (do NOT withhold)
+- Mycophenolate or nintedanib for ILD
+- PPI for esophageal dysmotility and GERD
+disposition_guidance:
+- Outpatient with multidisciplinary follow-up (rheumatology, pulmonology, GI)
+- Admit urgently for scleroderma renal crisis
+- Admit for new or worsening pulmonary hypertension
+- Regular screening schedule (annual PFTs, echo, renal function)

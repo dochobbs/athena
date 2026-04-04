@@ -1,0 +1,78 @@
+id: migraine_adult
+display_name: "Migraine (Adult)"
+aliases:
+  - Migraine headache
+  - Migraine with aura
+  - Migraine without aura
+  - Classic migraine
+snomed: "37796009"
+icd10:
+  - "G43.909"
+  - "G43.109"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.05
+  bp_systolic:
+    - 120
+    - 150
+presentation:
+  symptoms:
+    - name: unilateral headache
+      probability: 0.70
+      description: "throbbing, pulsatile, often frontotemporal"
+    - name: nausea
+      probability: 0.75
+      description: "often with vomiting"
+    - name: photophobia
+      probability: 0.80
+      description: "sensitivity to light"
+    - name: phonophobia
+      probability: 0.70
+      description: "sensitivity to sound"
+    - name: aura
+      probability: 0.30
+      description: "visual scotoma, zigzag lines, 5-60 min before headache"
+    - name: worsening with activity
+      probability: 0.80
+      description: "aggravated by routine physical activity"
+  physical_exam:
+    - system: neurologic
+      finding: "Normal neurologic exam between attacks"
+      probability: 0.95
+    - system: neurologic
+      finding: "Allodynia of scalp during acute attack"
+      probability: 0.40
+    - system: general
+      finding: "Patient prefers dark, quiet room"
+      probability: 0.70
+treatment:
+  approach: abortive_and_preventive
+  medications:
+    - agent: "Sumatriptan"
+      rxnorm: "37418"
+      frequency: "at onset, may repeat in 2 hours"
+      route: oral
+      indication: "first-line triptan for acute migraine"
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "every 6-8 hours as needed"
+      route: oral
+      indication: "NSAID for mild-moderate migraine"
+    - agent: "Topiramate"
+      rxnorm: "38404"
+      frequency: "twice daily"
+      route: oral
+      indication: "preventive therapy for frequent migraines"
+    - agent: "Propranolol"
+      rxnorm: "8787"
+      frequency: "twice daily"
+      route: oral
+      indication: "first-line preventive beta-blocker"

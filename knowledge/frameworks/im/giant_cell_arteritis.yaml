@@ -1,0 +1,54 @@
+id: giant_cell_arteritis
+topic: "Giant Cell Arteritis"
+category: rheumatology
+specialties:
+  - im
+teaching_goals:
+  - Recognize GCA as a medical emergency due to risk of irreversible vision loss
+  - Start high-dose glucocorticoids immediately on clinical suspicion - do not wait for biopsy
+  - Understand temporal artery biopsy as the gold standard but not required to initiate treatment
+  - Know the association with PMR and screen accordingly
+  - Understand the role of tocilizumab as a steroid-sparing agent
+common_mistakes:
+  - Delaying steroids while awaiting temporal artery biopsy
+  - Not using IV pulse methylprednisolone for visual symptoms
+  - Performing only unilateral biopsy (bilateral increases sensitivity)
+  - Missing large-vessel GCA (aortitis) with atypical presentation
+  - Tapering steroids too quickly
+red_flags:
+  - Acute vision loss (ophthalmologic emergency)
+  - Amaurosis fugax (transient monocular vision loss - impending permanent loss)
+  - Jaw claudication (highly specific for GCA)
+  - Diplopia
+  - New-onset headache in patient >50 with elevated ESR
+clinical_pearls:
+  - ESR >50 is expected, often >100; normal ESR does not exclude GCA
+  - Jaw claudication has highest positive likelihood ratio for GCA
+  - Temporal artery biopsy remains positive for 2-4 weeks after starting steroids
+  - Vision loss, once established, is rarely reversible
+  - Large-vessel GCA can present with limb claudication and aortic aneurysm
+key_history_questions:
+  - New headache, especially temporal?
+  - Jaw fatigue with chewing?
+  - Any visual disturbances (blurring, diplopia, transient vision loss)?
+  - Scalp tenderness?
+  - Symptoms of PMR (shoulder/hip stiffness)?
+  - Age >50? Constitutional symptoms?
+key_exam_findings:
+  - Temporal artery tenderness, nodularity, absent pulse
+  - Scalp tenderness
+  - Visual acuity assessment
+  - Fundoscopy (pallid disc edema in AION)
+  - Blood pressure differential between arms (large-vessel disease)
+  - PMR features (proximal stiffness)
+treatment_principles:
+  - High-dose prednisone (40-60 mg) immediately on clinical suspicion
+  - IV methylprednisolone 1g x 3 days for visual symptoms
+  - Temporal artery biopsy within 2 weeks (steroids do not negate biopsy)
+  - Tocilizumab for steroid-sparing
+  - Low-dose aspirin to reduce ischemic events
+disposition_guidance:
+  - Admit for visual symptoms (IV steroids, ophthalmology consultation)
+  - Outpatient for non-visual GCA with close follow-up
+  - Urgent ophthalmology consultation for any visual complaints
+  - Arrange temporal artery biopsy within 1-2 weeks

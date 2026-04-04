@@ -1,0 +1,54 @@
+id: dic
+topic: "Disseminated Intravascular Coagulation"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Understand DIC as a secondary process - always identify the trigger
+  - Interpret the DIC lab pattern (low platelets, low fibrinogen, high D-dimer, prolonged PT/PTT)
+  - Differentiate acute DIC (bleeding-predominant) from chronic DIC (thrombosis-predominant)
+  - Know when to transfuse blood products and when to withhold
+  - Apply the ISTH DIC scoring system
+common_mistakes:
+  - Treating DIC without addressing the underlying cause
+  - Giving heparin in acute bleeding-predominant DIC
+  - Transfusing blood products in the absence of active bleeding (replacing products without treating cause)
+  - Confusing DIC with TTP (DIC has abnormal PT/PTT; TTP does not)
+  - Not rechecking coagulation studies frequently enough
+red_flags:
+  - Oozing from every venipuncture site
+  - Purpura fulminans (symmetric peripheral gangrene)
+  - Uncontrolled hemorrhage
+  - Multi-organ failure
+  - Fibrinogen <50 mg/dL
+clinical_pearls:
+  - "DIC is always secondary: sepsis (35%), trauma (25%), malignancy (20%), obstetric complications (15%)"
+  - The key lab distinction from TTP/HUS is that DIC has abnormal coagulation times (PT/PTT prolonged)
+  - Schistocytes are present but fewer than in TTP
+  - Fibrinogen drops LATE in DIC (by the time it is low, DIC is severe)
+  - D-dimer is the most sensitive marker but least specific
+key_history_questions:
+  - What brought you to the hospital? (identify the trigger)
+  - Any recent infection, trauma, or surgery?
+  - Are you pregnant or recently delivered?
+  - Any known malignancy?
+  - Have you noticed bleeding from unusual sites?
+  - Any new skin changes (purpura, bruising)?
+key_exam_findings:
+  - Bleeding from venipuncture sites, mucous membranes, surgical wounds
+  - Petechiae, purpura, ecchymoses
+  - Signs of the triggering condition (sepsis, trauma)
+  - Digital ischemia or acral cyanosis
+  - Wound oozing
+  - Vital sign instability
+treatment_principles:
+  - Treat the underlying cause (this is THE treatment)
+  - Transfuse only if actively bleeding or at high risk for bleeding
+  - FFP for prolonged PT/PTT with bleeding
+  - Cryoprecipitate if fibrinogen <100
+  - Platelet transfusion if <20K or <50K with bleeding
+disposition_guidance:
+  - ICU admission for acute DIC
+  - Hematology consultation
+  - Frequent coagulation monitoring (every 6-8 hours)
+  - Chronic DIC (malignancy) may be managed outpatient with hematology

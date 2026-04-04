@@ -1,0 +1,52 @@
+id: c_diff
+topic: "Clostridioides difficile Infection"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Identify risk factors (recent antibiotics, hospitalization, age >65, PPI use)
+  - Choose appropriate diagnostic testing (NAAT vs toxin EIA vs two-step)
+  - Apply severity-based treatment algorithm
+  - Understand recurrence management and fecal microbiota transplantation
+  - Implement infection control measures
+common_mistakes:
+  - Testing formed stools for C. diff (only test watery/unformed stools)
+  - Repeating C. diff testing after treatment as test of cure
+  - Using metronidazole as first-line instead of vancomycin or fidaxomicin
+  - Not stopping the offending antibiotic when possible
+  - Missing fulminant colitis requiring surgical consultation
+red_flags:
+  - WBC > 15,000 or rising creatinine (severe disease)
+  - Hypotension, ileus, or megacolon (fulminant disease)
+  - Failure to improve after 3-5 days of appropriate therapy
+  - Third or subsequent recurrence
+clinical_pearls:
+  - Fidaxomicin has lower recurrence rates than oral vancomycin
+  - C. diff NAAT can remain positive for weeks - do not retest as test of cure
+  - Fluoroquinolones, clindamycin, and cephalosporins are highest-risk antibiotics
+  - Bezlotoxumab reduces recurrence risk when added to standard therapy
+  - Fecal microbiota transplant is highly effective for recurrent CDI
+key_history_questions:
+  - Recent antibiotic use (within past 3 months)?
+  - Recent hospitalization or long-term care facility?
+  - Number of watery stools per day?
+  - Prior C. diff episodes?
+  - Current medications including PPIs?
+  - Immunosuppression?
+key_exam_findings:
+  - Diffuse abdominal tenderness
+  - Abdominal distension
+  - Dehydration signs
+  - Peritoneal signs in fulminant colitis
+  - Absent bowel sounds (ileus in severe/fulminant)
+treatment_principles:
+  - Stop offending antibiotic if possible
+  - Fidaxomicin or oral vancomycin for initial episode
+  - IV metronidazole added for fulminant disease
+  - Surgical consultation for toxic megacolon or perforation
+  - FMT for multiply recurrent CDI
+disposition_guidance:
+  - Outpatient for mild-moderate with reliable follow-up
+  - Admit for severe disease (WBC >15K, rising Cr, age >65 with comorbidities)
+  - ICU and surgical consultation for fulminant disease
+  - Contact precautions and hand hygiene with soap and water (not alcohol gel)

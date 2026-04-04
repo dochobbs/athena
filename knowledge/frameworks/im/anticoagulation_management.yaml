@@ -1,0 +1,54 @@
+id: anticoagulation_management
+topic: "Anticoagulation Management"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Select appropriate anticoagulant based on indication (DOAC vs warfarin)
+  - Apply CHA2DS2-VASc for atrial fibrillation anticoagulation decisions
+  - Manage supratherapeutic INR and anticoagulant-related bleeding
+  - Know specific reversal agents for each anticoagulant
+  - Navigate perioperative anticoagulation management
+common_mistakes:
+  - Using warfarin when a DOAC is preferred (DOACs preferred for non-valvular AF and VTE)
+  - Using DOACs in mechanical heart valves (warfarin is mandatory)
+  - Not checking renal function before starting DOACs (especially dabigatran)
+  - Not counseling patients about drug and food interactions with warfarin
+  - Bridging with LMWH when not indicated (BRIDGE trial showed most patients do not need bridging)
+red_flags:
+  - INR >9 (high bleeding risk even without symptoms)
+  - Active bleeding on anticoagulation (assess severity, consider reversal)
+  - Head trauma while anticoagulated (CT head even if asymptomatic)
+  - New severe renal impairment on DOACs (drug accumulation risk)
+  - Recurrent VTE while adequately anticoagulated (treatment failure)
+clinical_pearls:
+  - CHA2DS2-VASc score 0 in males or 1 in females = no anticoagulation needed
+  - BRIDGE trial - bridging with LMWH was not superior to no bridging for most AF patients perioperatively
+  - Apixaban has the lowest bleeding risk among DOACs (ARISTOTLE trial)
+  - Warfarin required for mechanical heart valves and antiphospholipid syndrome
+  - Rivaroxaban must be taken with food for adequate absorption (dinner)
+key_history_questions:
+  - What is your indication for anticoagulation?
+  - What anticoagulant are you taking and what dose?
+  - Have you missed any doses recently?
+  - Any bleeding - even minor (nosebleeds, gums, blood in stool)?
+  - Any upcoming surgeries or procedures?
+  - What other medications do you take? (interaction check)
+key_exam_findings:
+  - Signs of bleeding (bruising, melena, hematuria)
+  - Vital signs (hemodynamic stability)
+  - Neurologic exam if any head trauma
+  - INR level for warfarin patients
+  - Renal function assessment
+  - Signs of underlying indication (irregular pulse for AF)
+treatment_principles:
+  - Know the reversal agents - vitamin K and 4F-PCC for warfarin, idarucizumab for dabigatran, andexanet alfa for factor Xa inhibitors
+  - INR 4.5-10 without bleeding - hold warfarin, consider low-dose vitamin K
+  - INR >10 without bleeding - hold warfarin, give vitamin K 2.5-5 mg PO
+  - Life-threatening bleeding on warfarin - 4F-PCC + vitamin K IV
+  - Periprocedural management depends on bleeding risk of procedure and thrombotic risk
+disposition_guidance:
+  - Outpatient for routine INR management and dose adjustments
+  - Admit for significant bleeding, INR >10, or need for reversal
+  - Close follow-up after dose changes (recheck INR in 3-7 days)
+  - Anticoagulation clinic referral for warfarin management

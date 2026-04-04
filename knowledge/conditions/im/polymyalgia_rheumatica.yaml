@@ -1,0 +1,67 @@
+id: polymyalgia_rheumatica
+display_name: "Polymyalgia Rheumatica"
+aliases:
+  - PMR
+snomed: "65323003"
+icd10:
+  - "M35.3"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 600
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: bilateral_shoulder_pain
+      probability: 0.95
+      description: "bilateral shoulder girdle pain and stiffness"
+    - name: hip_girdle_pain
+      probability: 0.75
+      description: "bilateral hip and pelvic girdle pain"
+    - name: morning_stiffness
+      probability: 0.90
+      description: "morning stiffness >45 minutes"
+    - name: constitutional_symptoms
+      probability: 0.50
+      description: "fatigue, malaise, low-grade fever, weight loss"
+    - name: difficulty_rising
+      probability: 0.60
+      description: "difficulty rising from chair or lifting arms overhead"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Reduced active ROM of shoulders, normal passive ROM"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "Tenderness of shoulder and hip girdle muscles"
+      probability: 0.80
+    - system: musculoskeletal
+      finding: "Normal muscle strength (not weakness)"
+      probability: 0.85
+    - system: general
+      finding: "Temporal artery tenderness (screen for GCA)"
+      probability: 0.15
+treatment:
+  approach: corticosteroid_therapy
+  medications:
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily, slow taper over 12-24 months"
+      route: oral
+      indication: "first-line therapy; dramatic response is diagnostically supportive"
+    - agent: "Methotrexate"
+      rxnorm: "6851"
+      frequency: "once weekly"
+      route: oral
+      indication: "steroid-sparing agent for relapse or unable to taper"
+    - agent: "Calcium + Vitamin D"
+      rxnorm: "214524"
+      frequency: "once daily"
+      route: oral
+      indication: "bone protection during prolonged steroid use"

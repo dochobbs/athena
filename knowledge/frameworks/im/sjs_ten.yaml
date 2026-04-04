@@ -1,0 +1,54 @@
+id: sjs_ten
+topic: "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis"
+category: dermatology
+specialties:
+  - im
+teaching_goals:
+  - Classify by body surface area involvement (SJS <10%, SJS-TEN overlap 10-30%, TEN >30%)
+  - Recognize early warning signs before full epidermal detachment
+  - Know the highest-risk medications (allopurinol, sulfonamides, anticonvulsants)
+  - Manage as a burn with multidisciplinary care
+  - Understand SCORTEN prognostic scoring system
+common_mistakes:
+  - Administering systemic corticosteroids (controversial, may worsen infection risk)
+  - Delaying drug discontinuation (each day of delay increases mortality)
+  - Missing early mucosal involvement before skin findings fully develop
+  - Not involving ophthalmology early (corneal scarring is a major morbidity)
+  - Using sulfonamide antibiotics as part of infection management
+red_flags:
+  - BSA detachment >30% (TEN, mortality 30-50%)
+  - SCORTEN >= 3 (high mortality)
+  - Sepsis from secondary skin infection
+  - Respiratory failure from airway mucosal involvement
+  - Corneal melt or severe ocular involvement
+clinical_pearls:
+  - "SCORTEN variables: age >40, malignancy, BSA >10%, tachycardia, BUN >28, glucose >252, bicarb <20"
+  - "Nikolsky sign: gentle lateral pressure causes epidermal separation"
+  - "Drug discontinuation is the single most important intervention"
+  - "Cyclosporine may reduce progression if given early (emerging evidence)"
+  - "Long-term sequelae: ocular scarring, genital synechiae, dyspigmentation, PTSD"
+key_history_questions:
+  - "What medications were started in the past 1-4 weeks?"
+  - "Did you have flu-like symptoms before the rash?"
+  - "Is your skin painful to touch?"
+  - "Any mouth sores, difficulty swallowing, or eye pain?"
+  - "Any prior reaction to medications?"
+  - "HLA testing or genetic predisposition history?"
+key_exam_findings:
+  - "Painful erythema progressing to flaccid bullae and epidermal detachment"
+  - "Positive Nikolsky sign"
+  - "Mucosal erosions (oral, conjunctival, genital)"
+  - "Estimation of BSA involvement (rule of nines)"
+  - "Fever, tachycardia"
+  - "Conjunctival injection with pseudomembranes"
+treatment_principles:
+  - "Discontinue offending drug IMMEDIATELY"
+  - "Transfer to burn unit or ICU for wound care and fluid management"
+  - "Fluid resuscitation (less aggressive than thermal burns, ~75% of Parkland formula)"
+  - "Wound care: non-adhesive dressings, avoid debridement of intact bullae"
+  - "Ophthalmology consultation within 24 hours"
+disposition_guidance:
+  - "Burn unit or ICU for all SJS/TEN patients"
+  - "Multidisciplinary team: dermatology, ophthalmology, burn surgery, ICU"
+  - "Long-term follow-up for ocular, dermatologic, and psychological sequelae"
+  - "MedAlert documentation of causative drug"

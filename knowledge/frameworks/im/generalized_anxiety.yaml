@@ -1,0 +1,50 @@
+id: generalized_anxiety
+topic: "Generalized Anxiety Disorder"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Apply DSM-5 criteria (excessive worry + 3/6 somatic symptoms for 6+ months)
+  - Differentiate GAD from medical mimics (hyperthyroidism, pheochromocytoma)
+  - Understand first-line pharmacotherapy and avoid benzodiazepine dependence
+  - Recognize the role of CBT as an equally effective treatment
+  - Identify common comorbidities (MDD, substance use)
+common_mistakes:
+  - Prescribing benzodiazepines as first-line (high dependence risk, especially in elderly)
+  - Not ruling out medical causes (TSH, pheochromocytoma, stimulant use)
+  - Underdosing SSRIs or stopping too early
+  - Overlooking caffeine and stimulant contributions
+  - Missing comorbid depression (occurs in >50%)
+red_flags:
+  - Suicidal ideation (GAD increases suicide risk, especially with comorbid MDD)
+  - Substance use disorder comorbidity
+  - Functional impairment affecting work, relationships, or daily activities
+  - Panic attacks suggesting comorbid panic disorder
+clinical_pearls:
+  - "GAD-7 >= 10 indicates moderate anxiety warranting treatment"
+  - "Buspirone is a good option for GAD without dependence risk, but takes 2-4 weeks to work"
+  - "SSRIs are first-line; therapeutic doses for anxiety are often higher than for depression"
+  - "CBT for GAD has lasting effects beyond medication discontinuation"
+  - "50% of GAD patients have comorbid MDD; screen for both"
+key_history_questions:
+  - "What do you worry about most, and can you control the worry?"
+  - "How long have you been feeling anxious (must be >6 months for GAD)?"
+  - "Any associated muscle tension, sleep problems, or irritability?"
+  - "Caffeine, alcohol, or substance use?"
+  - "Any history of panic attacks, trauma, or phobias?"
+  - "How is anxiety affecting your daily life and work?"
+key_exam_findings:
+  - "Anxious affect, restlessness"
+  - "Muscle tension in neck and shoulders"
+  - "Mild tachycardia (rule out hyperthyroidism)"
+  - "GAD-7 score quantifying severity"
+treatment_principles:
+  - "First-line: SSRI (sertraline, escitalopram) or SNRI (duloxetine, venlafaxine)"
+  - "Buspirone as augmentation or alternative (no dependence risk)"
+  - "CBT is equally effective to medication and has lasting effects"
+  - "Avoid benzodiazepines as maintenance therapy (taper and discontinue)"
+  - "Treat for at least 12 months; many patients need longer-term therapy"
+disposition_guidance:
+  - "Outpatient management with primary care or psychiatry"
+  - "Therapy referral for CBT"
+  - "Reassess in 4-6 weeks after starting medication"

@@ -1,0 +1,54 @@
+id: endocarditis_id
+topic: "Infective Endocarditis"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Apply modified Duke criteria for diagnosis
+  - Obtain appropriate blood cultures (3 sets from separate sites)
+  - Recognize indications for surgical intervention
+  - Understand the importance of echocardiography (TTE vs TEE)
+  - Identify embolic complications and manage accordingly
+common_mistakes:
+  - Drawing blood cultures from lines instead of peripheral venipuncture
+  - Not ordering TEE when TTE is negative but clinical suspicion high
+  - Failing to obtain cultures before antibiotics (reduces sensitivity)
+  - Missing IVDU-associated right-sided endocarditis
+  - Not screening for mycotic aneurysms in patients with neurologic symptoms
+red_flags:
+  - Acute heart failure from valve destruction
+  - Embolic stroke or mycotic aneurysm
+  - Persistent bacteremia despite appropriate antibiotics
+  - Perivalvular abscess on echocardiography
+  - Large mobile vegetation (>10 mm) with embolic risk
+clinical_pearls:
+  - S. aureus is the most common cause in acute endocarditis and IVDU
+  - Viridans streptococci are the classic subacute endocarditis pathogen
+  - HACEK organisms may have negative initial cultures (slow-growing)
+  - All S. aureus bacteremia requires echocardiography
+  - Prosthetic valve endocarditis within 60 days is usually staphylococcal
+key_history_questions:
+  - Any IV drug use?
+  - Prosthetic heart valve or structural heart disease?
+  - Recent dental procedure or poor dentition?
+  - Persistent fevers despite antibiotics?
+  - Any new neurologic symptoms (stroke, visual changes)?
+  - Indwelling vascular catheter or device?
+key_exam_findings:
+  - New or changing heart murmur
+  - Janeway lesions and Osler nodes
+  - Splinter hemorrhages
+  - Splenomegaly
+  - Roth spots on fundoscopy
+  - Embolic phenomena (stroke, splenic infarct)
+treatment_principles:
+  - 3 sets of blood cultures from separate sites before antibiotics
+  - Empiric vancomycin + ceftriaxone, narrow based on cultures
+  - 4-6 weeks of IV antibiotics
+  - Cardiothoracic surgery consultation for valve failure, abscess, or large vegetation
+  - ID consultation for all cases
+disposition_guidance:
+  - Inpatient for initial diagnosis and stabilization
+  - OPAT for stable patients completing IV course
+  - Surgical consultation early for prosthetic valve endocarditis
+  - Close follow-up with repeat echocardiography

@@ -1,0 +1,52 @@
+id: chronic_pancreatitis
+topic: "Chronic Pancreatitis"
+category: gi
+specialties:
+  - im
+teaching_goals:
+  - Recognize chronic pancreatitis as distinct from recurrent acute pancreatitis
+  - Identify exocrine (malabsorption) and endocrine (diabetes) insufficiency
+  - Master pain management strategies
+  - Know when to order pancreatic enzyme replacement therapy
+  - Understand pancreatic cancer risk in chronic pancreatitis
+common_mistakes:
+  - Prescribing inadequate enzyme doses (underdosing is common)
+  - Not checking fat-soluble vitamin levels (A, D, E, K)
+  - Over-reliance on opioids for chronic pain without multimodal approach
+  - Missing type 3c diabetes (pancreatogenic) and treating as type 2
+  - Not counseling on alcohol cessation and smoking cessation
+red_flags:
+  - New weight loss or jaundice (concern for pancreatic cancer)
+  - Acute flare with organ failure
+  - Worsening pain pattern change
+  - New diabetes without typical risk factors
+  - Pancreatic duct dilation or mass on imaging
+clinical_pearls:
+  - "Alcohol and smoking are the two biggest modifiable risk factors"
+  - "Fecal elastase <200 mcg/g confirms exocrine insufficiency"
+  - "Enzyme replacement: 40,000-50,000 lipase units per meal, 25,000 per snack"
+  - "Add PPI to enzymes to prevent gastric acid degradation"
+  - "Pain may paradoxically improve as gland 'burns out' over time"
+key_history_questions:
+  - Alcohol and tobacco use (current and cumulative)?
+  - Description of stools (oily, floating, foul-smelling)?
+  - Weight loss pattern?
+  - Pain pattern (constant vs episodic, relation to meals)?
+  - Family history of pancreatitis or pancreatic cancer?
+  - Prior imaging or ERCP?
+key_exam_findings:
+  - Epigastric tenderness (may be minimal between flares)
+  - Cachexia and temporal wasting
+  - Signs of fat-soluble vitamin deficiency
+  - Hyperglycemia on labs
+treatment_principles:
+  - Alcohol and tobacco cessation are paramount
+  - Pancreatic enzyme replacement with meals (titrate to steatorrhea control)
+  - Multimodal pain management (pregabalin, antioxidants, avoid opioid dependence)
+  - Screen and manage type 3c diabetes
+  - Monitor for fat-soluble vitamin deficiency and bone disease
+disposition_guidance:
+  - "Outpatient: Chronic management, enzyme titration, pain management"
+  - "Admission: Acute flare, inability to maintain nutrition"
+  - "GI/surgery referral: Ductal obstruction, pseudocyst, cancer concern"
+  - "Endocrine referral: Type 3c diabetes management"

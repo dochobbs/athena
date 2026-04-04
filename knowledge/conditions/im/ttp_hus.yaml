@@ -1,0 +1,126 @@
+id: ttp_hus
+display_name: "Thrombotic Thrombocytopenic Purpura / Hemolytic Uremic Syndrome"
+aliases:
+  - TTP
+  - HUS
+  - TTP-HUS
+  - Thrombotic microangiopathy
+snomed: "78129009"
+icd10:
+  - "M31.1"
+  - "D59.3"
+category: acute
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [99.0, 102.0]
+  hr_multiplier: 1.20
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.85
+      description: "Severe fatigue from hemolytic anemia"
+    - name: petechiae_bruising
+      probability: 0.80
+      description: "Petechiae and easy bruising from thrombocytopenia"
+    - name: confusion
+      probability: 0.60
+      description: "Fluctuating neurologic symptoms - confusion, headache, seizures"
+    - name: fever
+      probability: 0.55
+      description: "Low-grade fever"
+    - name: dark_urine
+      probability: 0.50
+      description: "Tea-colored urine from hemoglobinuria"
+    - name: abdominal_pain
+      probability: 0.45
+      description: "Abdominal pain, diarrhea (especially HUS)"
+    - name: oliguria
+      probability: 0.50
+      description: "Decreased urine output from renal involvement"
+  physical_exam:
+    - system: skin
+      finding: "Petechiae, purpura, pallor, jaundice"
+      probability: 0.85
+    - system: neurological
+      finding: "Fluctuating mental status, focal deficits possible"
+      probability: 0.55
+    - system: general
+      finding: "Scleral icterus from hemolysis"
+      probability: 0.65
+    - system: abdomen
+      finding: "Mild tenderness, no hepatosplenomegaly typically"
+      probability: 0.40
+diagnostics:
+  labs:
+    - name: Peripheral Blood Smear
+      loinc: "9317-9"
+      value_type: categorical
+      finding: "Schistocytes (fragmented RBCs) - hallmark finding"
+      probability_abnormal: 0.95
+    - name: Platelet Count
+      loinc: "777-3"
+      value_type: numeric
+      unit: K/uL
+      normal_range_low: 150
+      abnormal_low_max: 30
+      probability_abnormal: 0.95
+    - name: LDH
+      loinc: "2532-0"
+      value_type: numeric
+      unit: U/L
+      normal_range_high: 225
+      abnormal_high_min: 500
+      probability_abnormal: 0.95
+    - name: Haptoglobin
+      loinc: "4542-7"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_low: 30
+      abnormal_low_max: 10
+      probability_abnormal: 0.95
+    - name: ADAMTS13 activity
+      loinc: "70153-6"
+      value_type: numeric
+      unit: "%"
+      normal_range_low: 50
+      abnormal_low_max: 10
+      probability_abnormal: 0.85
+      notes: "<10% activity diagnostic for TTP"
+treatment:
+  approach: plasma_exchange_emergent
+  medications:
+    - agent: "Therapeutic Plasma Exchange"
+      rxnorm: ""
+      frequency: "Daily until platelet count >150k x2 days"
+      route: iv
+      indication: "First-line definitive treatment for TTP"
+    - agent: "Methylprednisolone"
+      rxnorm: "6902"
+      frequency: "1g IV daily x3 days, then prednisone 1 mg/kg"
+      route: iv
+      indication: "Immunosuppression"
+    - agent: "Rituximab"
+      rxnorm: "121191"
+      frequency: "375 mg/m2 IV weekly x4"
+      route: iv
+      indication: "Refractory TTP or severe ADAMTS13 deficiency"
+    - agent: "Caplacizumab"
+      rxnorm: "2182353"
+      frequency: "11 mg IV prior to first TPE, then 11 mg SQ daily"
+      route: iv
+      indication: "Anti-von Willebrand factor nanobody for TTP"
+  patient_instructions:
+    - DO NOT TRANSFUSE PLATELETS in TTP - can worsen thrombosis
+    - TTP is a hematologic emergency - mortality >90% without treatment
+    - Start plasma exchange empirically before ADAMTS13 results return
+    - Pentad of TTP - thrombocytopenia, MAHA, neuro changes, renal, fever (full pentad rare)
+    - HUS - treat underlying cause (Shiga toxin E. coli), supportive care
+    - Monitor ADAMTS13 levels for relapse risk

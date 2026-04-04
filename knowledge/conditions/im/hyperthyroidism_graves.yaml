@@ -1,0 +1,87 @@
+id: hyperthyroidism_graves
+display_name: "Hyperthyroidism - Graves Disease"
+aliases:
+  - Graves disease
+  - Graves hyperthyroidism
+  - Thyrotoxicosis
+  - Toxic diffuse goiter
+snomed: "353295004"
+icd10:
+  - "E05.00"
+  - "E05.01"
+category: chronic
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [98.6, 101.0]
+  hr_multiplier: 1.25
+  rr_multiplier: 1.10
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: weight_loss
+      probability: 0.75
+      description: "Unintentional weight loss despite increased appetite"
+    - name: palpitations
+      probability: 0.70
+      description: "Palpitations, may have atrial fibrillation"
+    - name: heat_intolerance
+      probability: 0.65
+      description: "Excessive sweating and heat sensitivity"
+    - name: tremor
+      probability: 0.60
+      description: "Fine resting tremor of hands"
+    - name: anxiety
+      probability: 0.55
+      description: "Nervousness, irritability, emotional lability"
+    - name: diarrhea
+      probability: 0.35
+      description: "Increased bowel frequency"
+    - name: eye_symptoms
+      probability: 0.45
+      description: "Eye bulging, diplopia, tearing (Graves ophthalmopathy)"
+  physical_exam:
+    - system: neck
+      finding: "Diffuse, non-tender goiter with thyroid bruit"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "Tachycardia, systolic flow murmur, widened pulse pressure"
+      probability: 0.65
+    - system: ophthalmologic
+      finding: "Proptosis, lid lag, lid retraction (Graves ophthalmopathy)"
+      probability: 0.45
+    - system: neurological
+      finding: "Fine resting tremor, hyperreflexia"
+      probability: 0.60
+    - system: skin
+      finding: "Warm, moist skin; pretibial myxedema (rare)"
+      probability: 0.50
+treatment:
+  approach: antithyroid_medication
+  medications:
+    - agent: "Methimazole"
+      rxnorm: "6835"
+      frequency: "10-30 mg daily"
+      route: oral
+      indication: "First-line antithyroid drug"
+    - agent: "Propylthiouracil"
+      rxnorm: "8794"
+      frequency: "100-150 mg three times daily"
+      route: oral
+      indication: "Alternative antithyroid; preferred in first trimester pregnancy"
+    - agent: "Propranolol"
+      rxnorm: "8787"
+      frequency: "20-40 mg three to four times daily"
+      route: oral
+      indication: "Symptomatic relief of adrenergic symptoms"
+    - agent: "Atenolol"
+      rxnorm: "1202"
+      frequency: "25-100 mg daily"
+      route: oral
+      indication: "Beta-blocker alternative for symptom control"

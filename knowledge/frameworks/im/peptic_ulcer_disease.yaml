@@ -1,0 +1,53 @@
+id: peptic_ulcer_disease
+topic: "Peptic Ulcer Disease"
+category: gi
+specialties:
+  - im
+teaching_goals:
+  - Identify H. pylori and NSAID use as the two major etiologies of PUD
+  - Distinguish gastric from duodenal ulcer by symptom patterns
+  - Understand indications for upper endoscopy vs empiric PPI therapy
+  - Master H. pylori testing strategies and eradication regimens
+  - Recognize alarm features requiring urgent endoscopy
+common_mistakes:
+  - Starting PPI without testing for H. pylori
+  - Not confirming H. pylori eradication after treatment
+  - Missing NSAID use (including OTC) as the cause
+  - Failing to discontinue NSAIDs or switch to COX-2 inhibitor
+  - Attributing all dyspepsia to PUD without considering differential
+red_flags:
+  - GI bleeding (hematemesis, melena)
+  - Unintentional weight loss >5% body weight
+  - Dysphagia or odynophagia
+  - Persistent vomiting suggesting gastric outlet obstruction
+  - Iron deficiency anemia of unclear etiology
+clinical_pearls:
+  - "Duodenal ulcers: pain improves with meals. Gastric ulcers: pain worsens with meals."
+  - "H. pylori causes ~60% of gastric and ~90% of duodenal ulcers"
+  - "Always test and treat H. pylori before attributing to NSAID use alone"
+  - "Confirm eradication with urea breath test or stool antigen >= 4 weeks after PPI stop"
+  - "ZES (Zollinger-Ellison) in recurrent/refractory ulcers or multiple ulcers"
+key_history_questions:
+  - Do you use NSAIDs, aspirin, or ibuprofen (including OTC)?
+  - Does food make the pain better or worse?
+  - Any black tarry stools or vomiting blood?
+  - Prior H. pylori testing or treatment?
+  - Unintentional weight loss?
+  - Smoking or alcohol use?
+key_exam_findings:
+  - Epigastric tenderness
+  - Guarding or rebound (suggests perforation)
+  - Hemoccult positive stool
+  - Pallor suggesting chronic blood loss
+  - Succussion splash (gastric outlet obstruction)
+treatment_principles:
+  - Test all patients for H. pylori and eradicate if positive
+  - PPI therapy for 4-8 weeks (gastric) or 4 weeks (duodenal)
+  - Discontinue offending NSAIDs; if must continue, add PPI
+  - Endoscopy for alarm features, age >60 with new dyspepsia, or treatment failure
+  - Repeat endoscopy for gastric ulcers to confirm healing and rule out malignancy
+disposition_guidance:
+  - "Outpatient: Uncomplicated PUD with no alarm features"
+  - "Urgent endoscopy: Active bleeding, alarm symptoms"
+  - "GI referral: Refractory to treatment, recurrent disease, need for biopsy"
+  - "Surgery consult: Perforation, uncontrolled bleeding, obstruction"

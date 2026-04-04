@@ -1,0 +1,68 @@
+id: chronic_pancreatitis
+display_name: "Chronic Pancreatitis"
+aliases:
+  - Chronic pancreatic insufficiency
+  - Calcific pancreatitis
+snomed: "235494005"
+icd10:
+  - "K86.1"
+  - "K86.0"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.05
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: chronic_abdominal_pain
+      probability: 0.85
+      description: "Recurrent epigastric pain radiating to back, often postprandial"
+    - name: steatorrhea
+      probability: 0.60
+      description: "Fatty, foul-smelling stools from exocrine insufficiency"
+    - name: weight_loss
+      probability: 0.65
+      description: "Progressive weight loss from malabsorption and food avoidance"
+    - name: nausea
+      probability: 0.45
+      description: "Recurrent nausea"
+    - name: diabetes_symptoms
+      probability: 0.35
+      description: "Polyuria, polydipsia from endocrine insufficiency (type 3c diabetes)"
+  physical_exam:
+    - system: abdomen
+      finding: "Epigastric tenderness, may be minimal between flares"
+      probability: 0.70
+    - system: general
+      finding: "Cachexia, temporal wasting in advanced disease"
+      probability: 0.45
+    - system: skin
+      finding: "Signs of fat-soluble vitamin deficiency (bruising, dry skin)"
+      probability: 0.25
+treatment:
+  approach: enzyme_replacement_and_pain
+  medications:
+    - agent: "Pancrelipase"
+      rxnorm: "7799"
+      frequency: "25,000-50,000 lipase units per meal"
+      route: oral
+      indication: "Pancreatic enzyme replacement for exocrine insufficiency"
+    - agent: "Pregabalin"
+      rxnorm: "187832"
+      frequency: "75-300 mg twice daily"
+      route: oral
+      indication: "Neuropathic pain management"
+    - agent: "Omeprazole"
+      rxnorm: "7646"
+      frequency: "20 mg daily"
+      route: oral
+      indication: "Enhance enzyme efficacy by reducing gastric acid"

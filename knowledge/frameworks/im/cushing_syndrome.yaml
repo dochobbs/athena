@@ -1,0 +1,54 @@
+id: cushing_syndrome
+topic: "Cushing Syndrome"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Distinguish exogenous (iatrogenic) from endogenous Cushing syndrome
+  - Know the three-step diagnostic approach (screening, confirmation, localization)
+  - Interpret dexamethasone suppression test, 24h UFC, and late-night salivary cortisol
+  - Differentiate ACTH-dependent (pituitary vs ectopic) from ACTH-independent causes
+  - Manage metabolic complications (diabetes, hypertension, osteoporosis)
+common_mistakes:
+  - Not asking about exogenous steroid use first (most common cause by far)
+  - Using a single screening test to diagnose Cushing (need 2 abnormal)
+  - Confusing pseudo-Cushing (depression, alcoholism, obesity) with true Cushing
+  - Not referring for surgical evaluation when indicated
+  - Missing cyclical Cushing syndrome (intermittent cortisol excess)
+red_flags:
+  - Proximal myopathy with pathologic fractures
+  - Opportunistic infections (immunosuppression)
+  - Severe hypokalemia (suggests ectopic ACTH)
+  - Rapid onset of cushingoid features (concern for adrenal carcinoma or ectopic ACTH)
+  - Psychiatric crisis (psychosis, severe depression)
+clinical_pearls:
+  - "Exogenous steroids are the #1 cause - always ask about ALL steroid forms (oral, inhaled, topical, injected)"
+  - "Need 2 of 3 screening tests positive: late-night salivary cortisol, 24h UFC, 1 mg overnight DST"
+  - "Cushing disease (pituitary adenoma) is the most common endogenous cause (~70%)"
+  - "Ectopic ACTH (lung cancer): often severe with rapid onset and hypokalemia"
+  - "Wide purple striae (>1 cm) are highly specific - not seen in simple obesity"
+key_history_questions:
+  - Steroid use history (oral, inhaled, topical, injections)?
+  - Weight gain pattern and distribution?
+  - Easy bruising, skin changes, striae?
+  - Muscle weakness (difficulty climbing stairs)?
+  - Mood changes, insomnia, depression?
+  - Menstrual irregularity, hirsutism?
+key_exam_findings:
+  - Central obesity with thin extremities
+  - Moon facies, facial plethora, buffalo hump
+  - Wide purple striae (>1 cm)
+  - Proximal muscle weakness
+  - Thin skin, easy bruising
+  - Hypertension
+treatment_principles:
+  - Discontinue exogenous steroids if possible (taper slowly)
+  - Transsphenoidal surgery for Cushing disease (pituitary adenoma)
+  - Adrenalectomy for adrenal adenoma or carcinoma
+  - Medical therapy (ketoconazole, metyrapone) as bridge or if surgery not possible
+  - Manage metabolic complications aggressively
+disposition_guidance:
+  - "Outpatient: Screening, diagnostic workup, chronic management"
+  - "Endocrine referral: Confirmed or suspected endogenous Cushing"
+  - "Neurosurgery: Cushing disease (pituitary adenoma)"
+  - "Admission: Severe metabolic derangements, perioperative management"

@@ -1,0 +1,54 @@
+id: vasculitis_gpa
+topic: Granulomatosis with Polyangiitis
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- Recognize the classic triad of upper airway, lung, and kidney involvement
+- Understand ANCA testing (c-ANCA/PR3 strongly associated with GPA)
+- Know the difference between limited and severe disease
+- Initiate appropriate remission induction and maintenance therapy
+- Monitor for disease relapse and treatment toxicity
+common_mistakes:
+- Missing GPA in patient with chronic sinusitis and hematuria
+- Not obtaining tissue biopsy for histologic confirmation when possible
+- Using methotrexate for severe disease with renal involvement (use rituximab or cyclophosphamide)
+- Not providing PCP prophylaxis during immunosuppression
+- Confusing GPA with infection given ENT and pulmonary symptoms
+red_flags:
+- Rapidly progressive glomerulonephritis (rising creatinine with active sediment)
+- Pulmonary hemorrhage (hemoptysis with bilateral infiltrates)
+- Subglottic stenosis causing stridor
+- Mononeuritis multiplex
+- Orbital pseudotumor with proptosis
+clinical_pearls:
+- c-ANCA (anti-PR3) is positive in ~90% of active generalized GPA
+- Saddle nose deformity from nasal cartilage destruction is characteristic
+- Pulmonary nodules on CT may cavitate (mimicking malignancy or TB)
+- Renal biopsy shows pauci-immune crescentic glomerulonephritis
+- Rituximab is now preferred over cyclophosphamide for remission induction
+key_history_questions:
+- Chronic sinusitis, bloody nasal discharge, nasal crusting?
+- Cough, hemoptysis, dyspnea?
+- Hematuria or foamy urine?
+- Joint pain, skin rash, numbness/tingling?
+- Eye pain, redness, or vision changes?
+- Constitutional symptoms (fever, weight loss, fatigue)?
+key_exam_findings:
+- Nasal mucosal crusting, septal perforation, saddle nose
+- Pulmonary crackles or signs of hemorrhage
+- Palpable purpura
+- Scleritis or episcleritis
+- Mononeuritis multiplex (foot/wrist drop)
+- Active urine sediment on dipstick
+treatment_principles:
+- 'Remission induction: rituximab or cyclophosphamide + glucocorticoids'
+- 'Maintenance: rituximab, azathioprine, or methotrexate'
+- PCP prophylaxis with TMP-SMX during immunosuppression
+- Monitor ANCA levels and renal function for relapse
+- Plasma exchange for severe pulmonary hemorrhage or dialysis-dependent renal failure
+disposition_guidance:
+- Admit for severe disease (pulmonary hemorrhage, RPGN)
+- ICU for respiratory failure or severe pulmonary hemorrhage
+- Outpatient for limited disease with close rheumatology follow-up
+- Nephrology consultation for renal involvement

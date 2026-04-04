@@ -1,0 +1,77 @@
+id: cellulitis
+display_name: "Cellulitis"
+aliases:
+  - Skin and soft tissue infection
+  - SSTI
+  - Erysipelas
+snomed: "128045006"
+icd10:
+  - "L03.90"
+  - "L03.115"
+  - "L03.116"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [99.0, 102.5]
+  hr_multiplier: 1.10
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: erythema
+      probability: 0.95
+      description: "expanding area of skin redness"
+    - name: warmth
+      probability: 0.90
+      description: "localized warmth over affected area"
+    - name: pain
+      probability: 0.85
+      description: "tenderness of affected area"
+    - name: swelling
+      probability: 0.85
+      description: "edema of involved skin and subcutaneous tissue"
+    - name: fever
+      probability: 0.40
+      description: "low-grade fever, higher with severe cases"
+  physical_exam:
+    - system: skin
+      finding: "Erythematous, warm, edematous, tender plaque with indistinct borders"
+      probability: 0.95
+    - system: lymphatic
+      finding: "Regional lymphadenopathy"
+      probability: 0.35
+    - system: skin
+      finding: "Lymphangitic streaking"
+      probability: 0.15
+    - system: skin
+      finding: "Skin breakdown or portal of entry (wound, tinea pedis)"
+      probability: 0.60
+treatment:
+  approach: antibiotic_therapy
+  medications:
+    - agent: "Cephalexin"
+      rxnorm: "2231"
+      frequency: "four times daily x 5-7 days"
+      route: oral
+      indication: "first-line for non-purulent cellulitis"
+    - agent: "Trimethoprim-Sulfamethoxazole"
+      rxnorm: "10831"
+      frequency: "twice daily x 5-7 days"
+      route: oral
+      indication: "add for purulent cellulitis (MRSA coverage)"
+    - agent: "Cefazolin"
+      rxnorm: "2180"
+      frequency: "every 8 hours"
+      route: iv
+      indication: "inpatient therapy for moderate-severe cases"
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "inpatient MRSA coverage"

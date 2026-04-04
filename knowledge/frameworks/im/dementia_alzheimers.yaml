@@ -1,0 +1,53 @@
+id: dementia_alzheimers
+topic: "Alzheimer Disease"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Recognize early cognitive symptoms and use validated screening tools
+  - Differentiate Alzheimer from other dementia subtypes (vascular, Lewy body, FTD)
+  - Understand the limited role of cholinesterase inhibitors and memantine
+  - Manage behavioral and psychological symptoms of dementia
+  - Address caregiver burden and advance care planning
+common_mistakes:
+  - Not screening for reversible causes of dementia (B12, TSH, RPR, depression)
+  - Prescribing anticholinergics to patients with dementia
+  - Using benzodiazepines for behavioral symptoms (worsens confusion and falls)
+  - Delaying goals of care and advance directive conversations
+  - Missing Lewy body dementia (visual hallucinations, parkinsonism, RBD)
+red_flags:
+  - Rapid cognitive decline over weeks-months (prion disease, paraneoplastic, NPH)
+  - Stepwise decline (vascular dementia)
+  - Early personality changes (frontotemporal dementia)
+  - Early visual hallucinations and parkinsonism (Lewy body dementia)
+  - New seizures in dementia patient (consider structural lesion)
+clinical_pearls:
+  - "MoCA is more sensitive than MMSE for mild cognitive impairment"
+  - "Normal pressure hydrocephalus triad: wet, wacky, wobbly (urinary incontinence, dementia, gait apraxia)"
+  - "Donepezil provides modest symptomatic benefit but does NOT slow disease progression"
+  - "Avoid antipsychotics if possible; FDA black box warning for increased mortality in dementia"
+  - "Caregiver burnout is a medical issue; screen and refer caregivers for support"
+key_history_questions:
+  - "When did memory problems first start and how have they progressed?"
+  - "Who first noticed the problems (patient vs family)?"
+  - "Any personality or behavioral changes?"
+  - "Can the patient still manage finances, medications, cooking, driving?"
+  - "Any visual hallucinations or dream enactment?"
+  - "Family history of dementia?"
+key_exam_findings:
+  - "MoCA or MMSE score documenting cognitive impairment"
+  - "Clock drawing test abnormalities"
+  - "Intact motor function early in disease (unlike Lewy body or vascular)"
+  - "Frontal release signs in advanced disease (grasp, snout)"
+  - "Assessment of ADLs and IADLs"
+treatment_principles:
+  - "Rule out reversible causes: B12, TSH, RPR, depression, medications, NPH"
+  - "Cholinesterase inhibitors (donepezil) for mild-moderate; add memantine for moderate-severe"
+  - "Non-pharmacologic behavioral management first (routine, redirection, caregiver education)"
+  - "Avoid anticholinergics, benzodiazepines, and antipsychotics when possible"
+  - "Advance care planning and healthcare proxy designation early in course"
+disposition_guidance:
+  - "Outpatient management with neurology or geriatrics"
+  - "Home safety evaluation and driving assessment"
+  - "Caregiver support services and respite care referral"
+  - "Palliative care when appropriate"

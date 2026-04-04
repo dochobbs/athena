@@ -1,0 +1,54 @@
+id: osa
+topic: "Obstructive Sleep Apnea"
+category: pulmonary
+specialties:
+  - im
+teaching_goals:
+  - Screen using STOP-BANG questionnaire
+  - Understand polysomnography and AHI interpretation
+  - Know cardiovascular consequences of untreated OSA
+  - Apply CPAP therapy and manage compliance challenges
+  - Recognize overlap syndrome (OSA + COPD)
+common_mistakes:
+  - Not screening obese or hypertensive patients for OSA
+  - Assuming home sleep testing is sufficient for all patients
+  - Not addressing CPAP compliance issues at follow-up
+  - Missing central sleep apnea or obesity hypoventilation syndrome
+  - Not screening commercial drivers and pilots
+red_flags:
+  - Excessive daytime sleepiness in commercial vehicle operators
+  - Severe OSA (AHI >30) with nocturnal desaturations <80%
+  - Concurrent atrial fibrillation (OSA is major risk factor)
+  - Obesity hypoventilation syndrome (daytime hypercapnia)
+  - Pulmonary hypertension from chronic hypoxemia
+clinical_pearls:
+  - STOP-BANG >= 3 = intermediate risk, >= 5 = high risk for moderate-severe OSA
+  - OSA is an independent risk factor for HTN, AFib, stroke, and HF
+  - AHI 5-15 = mild, 15-30 = moderate, >30 = severe
+  - CPAP adherence is the biggest challenge (>4h/night on >70% of nights)
+  - Treating OSA can improve refractory hypertension
+key_history_questions:
+  - Do you snore loudly?
+  - Has anyone witnessed you stop breathing during sleep?
+  - Are you excessively sleepy during the day?
+  - Epworth Sleepiness Scale score?
+  - BMI and recent weight changes?
+  - History of treatment-resistant hypertension?
+key_exam_findings:
+  - BMI and neck circumference
+  - Mallampati score
+  - Oropharyngeal crowding
+  - Retrognathia
+  - Blood pressure (often elevated)
+  - Signs of right heart failure if severe
+treatment_principles:
+  - CPAP is first-line for moderate to severe OSA
+  - Weight loss (even 10% can significantly improve AHI)
+  - Oral appliance for mild OSA or CPAP intolerance
+  - Positional therapy if supine-predominant
+  - Hypoglossal nerve stimulator for CPAP failure
+disposition_guidance:
+  - Outpatient sleep study (home or in-lab PSG)
+  - Follow-up within 1-3 months of CPAP initiation
+  - Annual reassessment of compliance and symptoms
+  - Driving restrictions for untreated severe OSA with EDS

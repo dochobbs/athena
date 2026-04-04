@@ -1,0 +1,82 @@
+id: copd_exacerbation
+display_name: "COPD Exacerbation"
+aliases:
+  - Acute exacerbation of COPD
+  - AECOPD
+  - COPD flare
+snomed: "195951007"
+icd10:
+  - "J44.1"
+  - "J44.0"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 480
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f:
+    - 99.0
+    - 101.5
+  hr_multiplier: 1.20
+  rr_multiplier: 1.40
+  spo2_min: 84
+presentation:
+  symptoms:
+    - name: worsening_dyspnea
+      probability: 0.95
+      description: "acute worsening of baseline dyspnea"
+    - name: increased_sputum
+      probability: 0.75
+      description: "increased sputum volume or purulence"
+    - name: cough
+      probability: 0.80
+      description: "worsening cough"
+    - name: wheezing
+      probability: 0.70
+      description: "increased wheezing"
+    - name: chest_tightness
+      probability: 0.50
+      description: "chest tightness or congestion"
+  physical_exam:
+    - system: respiratory
+      finding: "Diffuse wheezing and rhonchi"
+      probability: 0.85
+    - system: respiratory
+      finding: "Prolonged expiratory phase"
+      probability: 0.80
+    - system: respiratory
+      finding: "Use of accessory muscles, tripod positioning"
+      probability: 0.60
+    - system: respiratory
+      finding: "Decreased breath sounds if severe air trapping"
+      probability: 0.40
+    - system: general
+      finding: "Pursed lip breathing, barrel chest"
+      probability: 0.55
+treatment:
+  approach: bronchodilators_steroids_antibiotics
+  medications:
+    - agent: "Albuterol"
+      rxnorm: "435"
+      frequency: "2.5 mg nebulized q20min x3 then q4h"
+      route: inhaler
+      indication: "first-line short-acting bronchodilator"
+    - agent: "Ipratropium"
+      rxnorm: "7213"
+      frequency: "0.5 mg nebulized q4-6h"
+      route: inhaler
+      indication: "short-acting anticholinergic, combine with albuterol"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "40 mg once daily for 5 days"
+      route: oral
+      indication: "systemic corticosteroid for inflammation"
+    - agent: "Azithromycin"
+      rxnorm: "18631"
+      frequency: "500 mg day 1, then 250 mg days 2-5"
+      route: oral
+      indication: "antibiotic if increased sputum purulence"

@@ -1,0 +1,51 @@
+id: psoriasis
+topic: "Psoriasis"
+category: dermatology
+specialties:
+  - im
+teaching_goals:
+  - Recognize plaque psoriasis by its characteristic appearance and distribution
+  - Understand psoriasis as a systemic inflammatory disease with comorbidities
+  - Initiate appropriate topical therapy for mild disease
+  - Know when to refer for systemic or biologic therapy
+  - Screen for psoriatic arthritis and cardiovascular risk
+common_mistakes:
+  - Treating only the skin without screening for psoriatic arthritis
+  - Using potent topical steroids on face or skin folds (use low-potency or calcineurin inhibitors)
+  - Not addressing cardiovascular risk (psoriasis is an independent CV risk factor)
+  - Overlooking nail involvement (associated with higher risk of psoriatic arthritis)
+  - Missing inverse psoriasis in skin folds (lacks typical scale)
+red_flags:
+  - Erythrodermic psoriasis (>90% BSA involvement, medical emergency)
+  - Pustular psoriasis (generalized form is life-threatening)
+  - New joint symptoms suggesting psoriatic arthritis
+  - Severe rebound flare after abrupt steroid discontinuation
+clinical_pearls:
+  - "Auspitz sign: pinpoint bleeding when scale removed (exposed dermal papillae)"
+  - "Koebner phenomenon: new psoriasis lesions at sites of skin trauma"
+  - "Psoriasis increases cardiovascular risk equivalent to diabetes; screen and treat"
+  - "Nail pitting is the most common nail finding; oil drop sign is most specific"
+  - "35% of psoriasis patients develop psoriatic arthritis; ask about joint symptoms at every visit"
+key_history_questions:
+  - "How long have you had these skin lesions?"
+  - "Any joint pain, stiffness, or swelling?"
+  - "What treatments have you tried?"
+  - "Family history of psoriasis or psoriatic arthritis?"
+  - "Any recent strep infection (guttate psoriasis trigger)?"
+  - "How is psoriasis affecting your quality of life?"
+key_exam_findings:
+  - "Well-demarcated erythematous plaques with silvery-white scale"
+  - "Distribution on extensor surfaces, scalp, umbilicus, gluteal cleft"
+  - "Nail pitting, onycholysis, oil drop discoloration"
+  - "Auspitz sign on gentle scale removal"
+  - "Joint examination for dactylitis and enthesitis"
+treatment_principles:
+  - "Mild (<5% BSA): topical steroids + calcipotriene"
+  - "Moderate (5-10% BSA): phototherapy or add systemic agent"
+  - "Severe (>10% BSA): systemic therapy (methotrexate, biologics)"
+  - "Biologics (TNF-alpha, IL-17, IL-23 inhibitors) for moderate-severe disease"
+  - "Screen and treat cardiovascular risk factors proactively"
+disposition_guidance:
+  - "Outpatient management with dermatology"
+  - "Rheumatology referral if psoriatic arthritis suspected"
+  - "Emergency care for erythrodermic or generalized pustular psoriasis"

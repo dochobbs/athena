@@ -1,0 +1,72 @@
+id: hepatitis_b
+display_name: "Hepatitis B"
+aliases:
+  - HBV
+  - Chronic hepatitis B
+  - Hep B
+snomed: "66071002"
+icd10:
+  - "B18.1"
+  - "B16.9"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 100.4]
+  hr_multiplier: 1.05
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.70
+      description: "Chronic fatigue and malaise"
+    - name: right_upper_quadrant_pain
+      probability: 0.45
+      description: "Dull RUQ discomfort"
+    - name: jaundice
+      probability: 0.35
+      description: "Icterus in acute flares or advanced disease"
+    - name: nausea
+      probability: 0.40
+      description: "Nausea and anorexia"
+    - name: arthralgias
+      probability: 0.25
+      description: "Joint pains from immune complex deposition"
+    - name: asymptomatic
+      probability: 0.50
+      description: "Many patients are asymptomatic in chronic phase"
+  physical_exam:
+    - system: abdomen
+      finding: "Hepatomegaly with RUQ tenderness"
+      probability: 0.40
+    - system: skin
+      finding: "Jaundice, scleral icterus"
+      probability: 0.35
+    - system: general
+      finding: "Normal exam in chronic carriers"
+      probability: 0.50
+treatment:
+  approach: antiviral_therapy
+  medications:
+    - agent: "Tenofovir Disoproxil"
+      rxnorm: "284920"
+      frequency: "300 mg daily"
+      route: oral
+      indication: "First-line antiviral for chronic HBV"
+    - agent: "Entecavir"
+      rxnorm: "341248"
+      frequency: "0.5-1 mg daily"
+      route: oral
+      indication: "First-line antiviral for chronic HBV"
+    - agent: "Peginterferon alfa-2a"
+      rxnorm: "120608"
+      frequency: "180 mcg subcutaneous weekly x 48 weeks"
+      route: subcutaneous
+      indication: "Finite duration therapy for HBeAg-positive disease"

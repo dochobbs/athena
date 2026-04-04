@@ -1,0 +1,52 @@
+id: medication_reconciliation
+topic: "Medication Reconciliation"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Perform systematic medication reconciliation at every transition of care
+  - Identify medication discrepancies between care settings
+  - Apply Beers Criteria and STOPP/START tools for appropriateness review
+  - Communicate medication changes clearly to patients and providers
+  - Understand the high-risk period for adverse drug events after hospital discharge
+common_mistakes:
+  - Relying solely on the electronic record (patients often take different medications)
+  - Not reconciling OTC medications, supplements, and herbal products
+  - Failing to communicate medication changes to all prescribers
+  - Not performing post-discharge medication reconciliation (30-day high-risk period)
+  - Assuming the admission medication list is accurate
+red_flags:
+  - Duplicate therapy from multiple prescribers
+  - Drug-drug interactions with narrow therapeutic index drugs (warfarin, digoxin, lithium)
+  - High anticholinergic burden in elderly patients
+  - Opioid prescriptions from multiple sources
+  - Medications without clear indication
+clinical_pearls:
+  - "30% of hospital readmissions within 30 days are medication-related"
+  - "Brown bag medication review: ask patients to bring ALL medications to every appointment"
+  - "Transition of care is the highest-risk period for medication errors"
+  - "Teach-back method: have patients explain their medications back to you"
+  - "Anticholinergic burden score >3 is associated with increased delirium, falls, and mortality"
+key_history_questions:
+  - "Please tell me every medication you take, including ones you buy without a prescription"
+  - "How do you take each medication (dose, frequency, time of day)?"
+  - "Have any medications been started, stopped, or changed recently?"
+  - "Do you have trouble affording or getting your medications?"
+  - "Do you use a pill organizer, and who fills it?"
+  - "Do you take any herbal supplements or vitamins?"
+key_exam_findings:
+  - "Medication count and complexity assessment"
+  - "Signs of medication adverse effects (orthostasis, confusion, falls)"
+  - "Anticholinergic burden calculation"
+  - "Pill count or medication organizer review"
+treatment_principles:
+  - "Reconcile medications at every transition: admission, transfer, discharge, office visit"
+  - "Compare patient-reported medications with records from all prescribers"
+  - "Apply Beers and STOPP/START criteria at every reconciliation"
+  - "Use teach-back to ensure patient understanding"
+  - "Provide updated written medication list at every transition"
+disposition_guidance:
+  - "Post-discharge medication reconciliation within 48-72 hours"
+  - "Pharmacist-led medication review for complex regimens"
+  - "Updated medication list to patient, pharmacy, and all prescribers"
+  - "Follow-up visit within 7-14 days of hospital discharge"

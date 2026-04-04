@@ -1,0 +1,52 @@
+id: peripheral_neuropathy
+topic: "Peripheral Neuropathy"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Classify neuropathy by pattern (distal symmetric, mononeuropathy, mononeuritis multiplex)
+  - Identify common treatable causes (diabetes, B12 deficiency, hypothyroidism, alcohol)
+  - Perform focused workup based on clinical pattern
+  - Manage neuropathic pain effectively
+  - Recognize when to refer to neurology for EMG/NCS
+common_mistakes:
+  - Not checking B12, TSH, and A1c in all patients with peripheral neuropathy
+  - Using gabapentin at subtherapeutic doses
+  - Missing mononeuritis multiplex as a sign of vasculitis
+  - Attributing all neuropathy to diabetes without excluding other causes
+  - Forgetting medication-induced causes (chemotherapy, isoniazid, metronidazole)
+red_flags:
+  - Asymmetric motor-predominant neuropathy (motor neuron disease, vasculitis)
+  - Rapidly progressive neuropathy (GBS, vasculitis, paraneoplastic)
+  - Mononeuritis multiplex (vasculitis requiring urgent workup)
+  - Autonomic neuropathy with orthostatic hypotension
+clinical_pearls:
+  - "Diabetes is the most common cause (30-40%), but 25-30% remain idiopathic"
+  - "B12 deficiency causes large fiber neuropathy with proprioceptive loss"
+  - "Stocking-glove pattern = distal symmetric polyneuropathy (most common)"
+  - "Gabapentin 1800-3600 mg/day or duloxetine 60 mg/day are first-line for neuropathic pain"
+  - "Check methylmalonic acid and homocysteine if B12 is borderline (200-400)"
+key_history_questions:
+  - "Where are symptoms worst (feet, hands, or both)?"
+  - "Is it mainly numbness, tingling, pain, or weakness?"
+  - "Do you have diabetes, thyroid disease, or excessive alcohol use?"
+  - "What medications are you taking (chemo, antibiotics)?"
+  - "Any family history of neuropathy (Charcot-Marie-Tooth)?"
+  - "Any associated autonomic symptoms (orthostasis, GI dysmotility)?"
+key_exam_findings:
+  - "Decreased pinprick and vibration in stocking-glove distribution"
+  - "Reduced or absent ankle reflexes"
+  - "Impaired proprioception at great toe"
+  - "Positive Romberg sign (proprioceptive loss)"
+  - "Trophic changes: dry skin, hair loss on distal legs"
+  - "Foot deformities (pes cavus suggests hereditary neuropathy)"
+treatment_principles:
+  - "Identify and treat underlying cause (glucose control, B12 repletion, thyroid)"
+  - "First-line pain: gabapentin, pregabalin, duloxetine, or TCAs"
+  - "Foot care and daily inspection, especially in diabetics"
+  - "Physical therapy and balance training for fall prevention"
+  - "Refer for EMG/NCS if atypical features or uncertain diagnosis"
+disposition_guidance:
+  - "Outpatient management for most peripheral neuropathy"
+  - "Neurology referral for atypical, rapidly progressive, or motor-predominant patterns"
+  - "Podiatry referral for diabetic foot care"

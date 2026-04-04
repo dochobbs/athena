@@ -1,0 +1,54 @@
+id: metabolic_syndrome
+topic: Metabolic Syndrome
+category: endocrine
+specialties:
+- im
+teaching_goals:
+- 'Know the ATP III diagnostic criteria (3 of 5: waist, TG, HDL, BP, fasting glucose)'
+- Understand insulin resistance as the underlying pathophysiology
+- Recognize the cardiovascular risk implications
+- Master lifestyle intervention as the cornerstone of treatment
+- Know when to add pharmacotherapy for individual components
+common_mistakes:
+- Treating individual components without addressing the syndrome as a whole
+- Not emphasizing lifestyle modification as the primary intervention
+- Missing metabolic syndrome in normal-weight patients (metabolically obese normal
+  weight)
+- Not screening for diabetes with A1c or fasting glucose
+- Focusing only on LDL without addressing low HDL and high triglycerides
+red_flags:
+- Fasting glucose >126 or A1c >6.5% (established diabetes)
+- Very high triglycerides >500 (pancreatitis risk)
+- Hypertension refractory to treatment
+- Signs of end-organ damage (retinopathy, nephropathy, neuropathy)
+clinical_pearls:
+- 'ATP III criteria: waist >40 in (M) / >35 in (F), TG >= 150, HDL <40 (M) / <50 (F),
+  BP >= 130/85, FPG >= 100'
+- 5-10% weight loss dramatically improves all metabolic parameters
+- SGLT2 inhibitors and GLP-1 RA address multiple components simultaneously
+- Mediterranean diet has strongest evidence for cardiovascular risk reduction
+- Metabolic syndrome doubles cardiovascular risk and increases diabetes risk 5-fold
+key_history_questions:
+- Weight history and trajectory?
+- Physical activity level?
+- Dietary habits?
+- Family history of diabetes, heart disease, stroke?
+- Smoking status?
+- Sleep habits (OSA screening)?
+key_exam_findings:
+- Waist circumference measurement
+- Blood pressure
+- BMI
+- Acanthosis nigricans
+- Signs of NAFLD (hepatomegaly)
+treatment_principles:
+- Lifestyle modification is the foundation (diet, exercise, weight loss)
+- 'Goal: 5-10% body weight loss'
+- Statin for dyslipidemia and CV risk reduction
+- ACEi/ARB for hypertension (renoprotective in diabetes)
+- Metformin if prediabetes or diabetes; consider GLP-1 RA for weight
+disposition_guidance:
+- 'Outpatient: All metabolic syndrome management'
+- 'Primary care: Routine screening and risk factor management'
+- 'Endocrine referral: Refractory diabetes or complex metabolic issues'
+- 'Cardiology: Established CVD or high ASCVD risk requiring intervention'

@@ -1,0 +1,54 @@
+id: hemoptysis
+topic: "Hemoptysis"
+category: pulmonary
+specialties:
+  - im
+teaching_goals:
+  - Differentiate hemoptysis from hematemesis and pseudohemoptysis
+  - Classify as non-massive (<600 mL/24h) vs massive (life-threatening)
+  - Know the systematic workup approach (CT, bronchoscopy, angiography)
+  - Understand that massive hemoptysis kills by asphyxiation, not exsanguination
+  - Identify common etiologies by frequency (bronchitis, bronchiectasis, malignancy, TB)
+common_mistakes:
+  - Assuming hemoptysis is always from the lungs (check for upper airway source)
+  - Underestimating the severity of hemoptysis in patients with impaired reserve
+  - Ordering CT without contrast when CTA is needed for vascular source
+  - Not positioning patient with bleeding side down
+  - Delaying bronchoscopy in massive hemoptysis
+red_flags:
+  - Massive hemoptysis (>600 mL/24h or >100 mL/hour)
+  - Hemodynamic instability from blood loss
+  - Respiratory compromise from airway flooding
+  - Hemoptysis with known lung mass
+  - Concurrent anticoagulation use
+clinical_pearls:
+  - Most hemoptysis originates from bronchial arteries (high pressure), not pulmonary arteries
+  - Bronchitis is the most common cause of hemoptysis overall
+  - In massive hemoptysis, position bleeding side down to protect the good lung
+  - Bronchial artery embolization is the interventional treatment of choice
+  - CXR is first imaging, but CT chest (with contrast) is much more sensitive
+key_history_questions:
+  - How much blood? Teaspoons, tablespoons, cups?
+  - Is it mixed with sputum or pure blood?
+  - Are you coughing it up or vomiting it?
+  - Smoking history and occupational exposures?
+  - Any anticoagulant or antiplatelet medications?
+  - History of TB, bronchiectasis, or lung cancer?
+key_exam_findings:
+  - Airway patency and respiratory stability
+  - Hemodynamic status
+  - Oral and nasal exam to exclude upper airway source
+  - Lung auscultation for focal findings
+  - Coagulation status
+  - Signs of underlying disease (clubbing, cachexia, lymphadenopathy)
+treatment_principles:
+  - Secure airway first in massive hemoptysis
+  - Position bleeding side down
+  - Reverse any coagulopathy
+  - CT angiography to localize source
+  - Bronchoscopy for direct visualization and therapeutic intervention
+disposition_guidance:
+  - ICU admission for massive or life-threatening hemoptysis
+  - Admit for moderate hemoptysis requiring workup
+  - Outpatient workup for mild, self-limited hemoptysis in stable patient
+  - Interventional radiology for bronchial artery embolization

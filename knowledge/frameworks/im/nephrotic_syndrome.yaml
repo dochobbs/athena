@@ -1,0 +1,54 @@
+id: nephrotic_syndrome
+topic: "Nephrotic Syndrome"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Define nephrotic syndrome (proteinuria >3.5g/day, hypoalbuminemia, edema, hyperlipidemia)
+  - Differentiate nephrotic from nephritic syndrome
+  - Identify major causes by age group (minimal change, FSGS, membranous, diabetic)
+  - Understand the hypercoagulable state and infection risk
+  - Know when renal biopsy is indicated in adults (always, unlike children)
+common_mistakes:
+  - Confusing nephrotic and nephritic syndromes
+  - Not checking serum albumin when proteinuria is discovered
+  - Forgetting VTE prophylaxis when albumin <2.5 g/dL
+  - Using spot urine protein without 24-hour collection confirmation
+  - Missing secondary causes (diabetes, amyloid, SLE, medications)
+red_flags:
+  - Sudden leg swelling or dyspnea (renal vein thrombosis or PE)
+  - Albumin <2.0 g/dL (high VTE and infection risk)
+  - Fever in nephrotic patient (spontaneous bacterial peritonitis)
+  - Rapidly rising creatinine
+  - Anasarca with respiratory compromise
+clinical_pearls:
+  - In adults, renal biopsy is needed to identify the cause (unlike children where MCD assumed)
+  - Membranous nephropathy is the most common cause of primary nephrotic syndrome in adults
+  - Loss of antithrombin III in urine drives the hypercoagulable state
+  - Loss of immunoglobulins increases infection risk (especially encapsulated organisms)
+  - PLA2R antibodies are 70% sensitive for primary membranous nephropathy
+key_history_questions:
+  - When did you first notice swelling? Where did it start?
+  - Is the swelling worse in the morning (periorbital) or evening (legs)?
+  - Any foamy or frothy urine?
+  - Do you have diabetes, lupus, or hepatitis?
+  - Any recent new medications (NSAIDs, gold, penicillamine)?
+  - Any family history of kidney disease?
+key_exam_findings:
+  - Periorbital edema (especially in morning)
+  - Peripheral pitting edema
+  - Ascites (shifting dullness)
+  - Pleural effusions
+  - Blood pressure
+  - Signs of underlying disease (diabetic retinopathy, lupus rash)
+treatment_principles:
+  - Renal biopsy to establish diagnosis in adults
+  - ACEi/ARB to reduce proteinuria
+  - Diuretics for edema (loop diuretics, may need albumin co-infusion)
+  - Immunosuppression based on biopsy results
+  - VTE prophylaxis when albumin <2.5
+disposition_guidance:
+  - Admit for severe edema, respiratory compromise, or suspected VTE
+  - Nephrology referral for all new nephrotic syndrome
+  - Outpatient management if stable with close follow-up
+  - Serial protein quantification to monitor treatment response

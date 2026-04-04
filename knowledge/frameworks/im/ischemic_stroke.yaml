@@ -1,0 +1,53 @@
+id: ischemic_stroke
+topic: "Ischemic Stroke"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Recognize stroke symptoms and perform rapid NIHSS assessment
+  - Apply time-based thrombolytic eligibility criteria (4.5-hour window)
+  - Identify stroke mimics and differentiate from hemorrhagic stroke
+  - Initiate appropriate secondary prevention strategies
+  - Understand indications for mechanical thrombectomy (large vessel occlusion)
+common_mistakes:
+  - Delaying CT head to rule out hemorrhage before thrombolytics
+  - Aggressively lowering blood pressure in acute ischemic stroke (permissive hypertension needed)
+  - Forgetting to check glucose as a stroke mimic
+  - Missing posterior circulation strokes (vertigo, ataxia, diplopia)
+  - Starting aspirin within 24 hours of tPA administration
+red_flags:
+  - Rapid neurologic deterioration suggesting hemorrhagic conversion
+  - New-onset atrial fibrillation requiring anticoagulation decision
+  - Large territory infarct with risk of malignant cerebral edema
+  - Stroke in young patient requiring hypercoagulability workup
+  - Basilar artery occlusion presenting with decreased consciousness
+clinical_pearls:
+  - "Time is brain: each minute of untreated large vessel occlusion loses 1.9 million neurons"
+  - "NIHSS score guides treatment; >6 consider thrombectomy evaluation"
+  - "Permissive hypertension to 220/120 if not receiving tPA; <185/110 if tPA candidate"
+  - "Dual antiplatelet (aspirin + clopidogrel) for 21 days after minor stroke or TIA (POINT trial)"
+  - "Always check finger-stick glucose: hypoglycemia is a common stroke mimic"
+key_history_questions:
+  - "What time were symptoms first noticed or patient last known well?"
+  - "Is the patient on anticoagulation or antiplatelet therapy?"
+  - "Any recent surgery, trauma, or bleeding history?"
+  - "Has there been prior stroke or TIA?"
+  - "Does the patient have atrial fibrillation?"
+  - "What is the patient's baseline functional status?"
+key_exam_findings:
+  - "NIHSS score for severity quantification"
+  - "Facial droop, arm drift, speech abnormality (Cincinnati Stroke Scale)"
+  - "Irregular heart rhythm suggesting atrial fibrillation"
+  - "Carotid bruit suggesting stenosis"
+  - "Visual field deficit on confrontation testing"
+treatment_principles:
+  - "CT head without contrast STAT to rule out hemorrhage before tPA"
+  - "tPA within 4.5 hours of symptom onset if no contraindications"
+  - "Mechanical thrombectomy for large vessel occlusion up to 24 hours (DAWN/DEFUSE-3)"
+  - "Permissive hypertension unless tPA candidate or >220/120"
+  - "Aspirin within 24-48 hours (not within 24h of tPA)"
+disposition_guidance:
+  - "ICU or stroke unit monitoring for first 24 hours minimum"
+  - "Neurology and interventional neurology consultation emergently"
+  - "Swallow evaluation before any oral intake"
+  - "Early rehabilitation assessment within 24-48 hours"

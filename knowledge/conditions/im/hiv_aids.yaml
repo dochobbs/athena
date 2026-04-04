@@ -1,0 +1,75 @@
+id: hiv_aids
+display_name: "HIV/AIDS"
+aliases:
+  - Human immunodeficiency virus
+  - HIV infection
+  - Acquired immunodeficiency syndrome
+  - AIDS
+snomed: "86406008"
+icd10:
+  - "B20"
+  - "Z21"
+category: chronic
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [98.6, 101.0]
+  hr_multiplier: 1.05
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: acute_retroviral_syndrome
+      probability: 0.60
+      description: "fever, pharyngitis, rash, lymphadenopathy 2-4 weeks after exposure"
+    - name: weight_loss
+      probability: 0.50
+      description: "unintentional weight loss, wasting"
+    - name: lymphadenopathy
+      probability: 0.55
+      description: "persistent generalized lymphadenopathy"
+    - name: night_sweats
+      probability: 0.40
+      description: "drenching night sweats"
+    - name: chronic_diarrhea
+      probability: 0.35
+      description: "persistent diarrhea"
+    - name: oral_candidiasis
+      probability: 0.30
+      description: "thrush suggesting immunosuppression"
+  physical_exam:
+    - system: lymphatic
+      finding: "Generalized lymphadenopathy"
+      probability: 0.55
+    - system: oral
+      finding: "Oral thrush, oral hairy leukoplakia"
+      probability: 0.30
+    - system: skin
+      finding: "Seborrheic dermatitis, Kaposi sarcoma (advanced)"
+      probability: 0.20
+    - system: general
+      finding: "Wasting, cachexia in advanced disease"
+      probability: 0.25
+treatment:
+  approach: antiretroviral_therapy
+  medications:
+    - agent: "Bictegravir-Emtricitabine-Tenofovir alafenamide"
+      rxnorm: "2049407"
+      frequency: "once daily"
+      route: oral
+      indication: "preferred initial ART regimen (Biktarvy)"
+    - agent: "Dolutegravir"
+      rxnorm: "1433868"
+      frequency: "once daily"
+      route: oral
+      indication: "INSTI backbone for ART regimen"
+    - agent: "Emtricitabine-Tenofovir disoproxil"
+      rxnorm: "476556"
+      frequency: "once daily"
+      route: oral
+      indication: "NRTI backbone (Truvada)"

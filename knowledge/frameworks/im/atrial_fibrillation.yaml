@@ -1,0 +1,53 @@
+id: atrial_fibrillation
+topic: Atrial Fibrillation
+category: cardiology
+specialties:
+- im
+teaching_goals:
+- Calculate CHA2DS2-VASc score and apply anticoagulation guidelines
+- Distinguish rate control from rhythm control strategies
+- Know when to pursue cardioversion and anticoagulation requirements
+- Identify and treat reversible causes (thyroid, alcohol, PE, sepsis)
+- Understand bleeding risk assessment with HAS-BLED
+common_mistakes:
+- Forgetting to anticoagulate before cardioversion if AF >48 hours
+- Not calculating CHA2DS2-VASc before discharging new AFib
+- Choosing rhythm control without clear indication
+- Using digoxin as sole rate control agent
+- Missing underlying thyrotoxicosis as the trigger
+red_flags:
+- Rapid ventricular response with hemodynamic instability
+- New focal neurologic deficit (stroke)
+- WPW with AFib (wide complex irregular - no AV nodal blockers)
+- Heart failure decompensation from tachycardia-mediated cardiomyopathy
+clinical_pearls:
+- Irregularly irregular is AFib until proven otherwise
+- Rate control target <110 bpm at rest (RACE II trial) for most patients
+- DOACs preferred over warfarin in non-valvular AFib
+- CHA2DS2-VASc >= 2 in men or >= 3 in women = anticoagulate
+- 'Holiday heart: AFib triggered by binge alcohol in otherwise healthy patient'
+key_history_questions:
+- When did symptoms start? Is this the first episode?
+- Do you drink alcohol? How much?
+- Any history of thyroid disease?
+- Have you had any stroke or TIA symptoms?
+- What medications are you taking, including blood thinners?
+- Family history of AFib or stroke?
+key_exam_findings:
+- Irregularly irregular pulse
+- Variable S1 intensity
+- Signs of heart failure (JVD, edema, crackles)
+- Thyroid exam for goiter
+- Neurologic exam for stroke
+- Pulse deficit (apical vs radial rate)
+treatment_principles:
+- Acute rate control with beta-blockers or CCBs
+- Anticoagulation decision based on CHA2DS2-VASc
+- Cardioversion if hemodynamically unstable
+- Address reversible triggers
+- Rhythm control for symptomatic patients despite rate control
+disposition_guidance:
+- Admit if hemodynamically unstable or new HF
+- Observation and discharge if rate controlled and anticoagulated
+- Cardiology follow-up for rhythm control decisions
+- Ensure stroke prevention plan before discharge

@@ -1,0 +1,84 @@
+id: opportunistic_infections
+display_name: "Opportunistic Infections"
+aliases:
+  - OIs
+  - AIDS-defining illnesses
+  - PCP pneumonia
+  - Opportunistic infection in HIV
+snomed: "432949006"
+icd10:
+  - "B20"
+  - "B59"
+  - "B45.1"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [100.0, 104.0]
+  hr_multiplier: 1.20
+  spo2_min: 85
+presentation:
+  symptoms:
+    - name: dyspnea
+      probability: 0.70
+      description: "progressive exertional dyspnea (PCP)"
+    - name: dry_cough
+      probability: 0.65
+      description: "nonproductive cough (PCP)"
+    - name: fever
+      probability: 0.80
+      description: "subacute fever over weeks"
+    - name: headache
+      probability: 0.40
+      description: "headache with cryptococcal meningitis"
+    - name: visual_changes
+      probability: 0.20
+      description: "floaters or decreased vision (CMV retinitis)"
+    - name: dysphagia
+      probability: 0.30
+      description: "odynophagia from esophageal candidiasis"
+  physical_exam:
+    - system: respiratory
+      finding: "Clear lungs or minimal crackles despite severe hypoxia (PCP)"
+      probability: 0.60
+    - system: oral
+      finding: "Oral thrush, esophageal candidiasis"
+      probability: 0.45
+    - system: neurologic
+      finding: "Focal deficits suggesting toxoplasmosis"
+      probability: 0.15
+    - system: skin
+      finding: "Kaposi sarcoma violaceous lesions"
+      probability: 0.10
+    - system: ophthalmologic
+      finding: "Cotton-wool spots, hemorrhages (CMV retinitis)"
+      probability: 0.10
+treatment:
+  approach: pathogen_specific_therapy
+  medications:
+    - agent: "Trimethoprim-Sulfamethoxazole"
+      rxnorm: "10831"
+      frequency: "three times daily x 21 days"
+      route: iv
+      indication: "treatment of PCP pneumonia"
+    - agent: "Fluconazole"
+      rxnorm: "4083"
+      frequency: "once daily"
+      route: oral
+      indication: "esophageal candidiasis"
+    - agent: "Amphotericin B"
+      rxnorm: "732"
+      frequency: "once daily x 2 weeks"
+      route: iv
+      indication: "induction for cryptococcal meningitis"
+    - agent: "Pyrimethamine"
+      rxnorm: "9071"
+      frequency: "once daily"
+      route: oral
+      indication: "toxoplasmosis treatment with sulfadiazine"

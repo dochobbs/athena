@@ -1,0 +1,54 @@
+id: pancytopenia
+topic: "Pancytopenia"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Develop a systematic approach to pancytopenia (decreased production vs increased destruction vs sequestration)
+  - Know that bone marrow biopsy is essential for diagnosis
+  - Differentiate aplastic anemia from MDS, leukemia, and infiltrative processes
+  - Manage the complications of each cytopenia (infection, bleeding, anemia)
+  - Understand the treatment of aplastic anemia (immunosuppression vs transplant)
+common_mistakes:
+  - Not reviewing the peripheral blood smear (critical first step)
+  - Attributing pancytopenia to a single cause without comprehensive workup
+  - Forgetting to check B12 and folate (reversible cause of pancytopenia)
+  - Not stopping potentially offending medications early enough
+  - Delaying bone marrow biopsy
+red_flags:
+  - Severe neutropenia (ANC <200) with fever - life-threatening infection risk
+  - Blasts on peripheral smear (acute leukemia)
+  - Rapidly worsening cytopenias
+  - Massive splenomegaly with pancytopenia (evaluate for hairy cell leukemia)
+  - DIC pattern (suggests acute leukemia, particularly APL)
+clinical_pearls:
+  - Always check reticulocyte count - low suggests marrow failure, high suggests peripheral destruction
+  - Medication review is essential - common offenders include chemotherapy, methotrexate, carbamazepine, NSAIDs
+  - Hypocellular marrow = aplastic anemia. Hypercellular marrow = MDS, leukemia, or megaloblastic anemia
+  - Hairy cell leukemia causes pancytopenia with splenomegaly and a dry tap on aspiration
+  - PNH should be checked via flow cytometry in all aplastic anemia patients
+key_history_questions:
+  - What medications are you taking, including recent changes?
+  - Any recent viral illness? (hepatitis, EBV, parvovirus)
+  - Any chemical or radiation exposure?
+  - Any prior autoimmune conditions?
+  - Any family history of blood disorders?
+  - Are you experiencing infections, bleeding, or fatigue?
+key_exam_findings:
+  - Pallor (anemia)
+  - Petechiae and bruising (thrombocytopenia)
+  - Fever and infection signs (neutropenia)
+  - Splenomegaly (sequestration, infiltrative process)
+  - Lymphadenopathy (infiltrative or infectious)
+  - Oral ulcers (neutropenia)
+treatment_principles:
+  - Bone marrow biopsy for definitive diagnosis
+  - Stop all potentially offending medications
+  - Treat B12/folate deficiency if present (gratifying response)
+  - Aplastic anemia - immunosuppression (ATG + cyclosporine) or stem cell transplant
+  - Neutropenic fever - broad-spectrum antibiotics immediately
+disposition_guidance:
+  - Admit most patients with newly discovered pancytopenia
+  - ICU for sepsis or severe bleeding
+  - Hematology consultation for bone marrow biopsy and treatment planning
+  - Outpatient monitoring for stable, mild cytopenias with known cause

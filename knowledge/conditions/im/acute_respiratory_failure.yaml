@@ -1,0 +1,77 @@
+id: acute_respiratory_failure
+display_name: "Acute Respiratory Failure"
+aliases:
+  - Respiratory failure
+  - Hypoxic respiratory failure
+  - Hypercapnic respiratory failure
+  - ARDS
+snomed: "65710008"
+icd10:
+  - "J96.00"
+  - "J96.01"
+  - "J96.02"
+  - "J80"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.30
+  rr_multiplier: 1.50
+  spo2_min: 75
+presentation:
+  symptoms:
+    - name: severe_dyspnea
+      probability: 0.95
+      description: "acute severe dyspnea"
+    - name: tachypnea
+      probability: 0.90
+      description: "rapid breathing"
+    - name: altered_mental_status
+      probability: 0.40
+      description: "confusion, somnolence from hypoxia or hypercapnia"
+    - name: diaphoresis
+      probability: 0.45
+      description: "from respiratory distress"
+    - name: cyanosis
+      probability: 0.30
+      description: "central cyanosis with severe hypoxemia"
+  physical_exam:
+    - system: respiratory
+      finding: "Severe tachypnea, accessory muscle use"
+      probability: 0.90
+    - system: respiratory
+      finding: "Paradoxical abdominal breathing"
+      probability: 0.30
+    - system: respiratory
+      finding: "Crackles (if ARDS or pneumonia) or wheezes (if obstructive)"
+      probability: 0.70
+    - system: neurologic
+      finding: "Altered sensorium, inability to speak full sentences"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Tachycardia, diaphoresis"
+      probability: 0.75
+treatment:
+  approach: oxygen_ventilatory_support_treat_cause
+  medications:
+    - agent: "Supplemental Oxygen"
+      rxnorm: "7806"
+      frequency: "titrate to SpO2 >88-92%"
+      route: inhaler
+      indication: "immediate oxygen therapy"
+    - agent: "Albuterol"
+      rxnorm: "435"
+      frequency: "2.5 mg nebulized q20min"
+      route: inhaler
+      indication: "if bronchospasm component"
+    - agent: "Methylprednisolone"
+      rxnorm: "6902"
+      frequency: "125 mg IV q6h"
+      route: iv
+      indication: "if ARDS or asthma/COPD exacerbation"

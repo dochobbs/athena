@@ -1,0 +1,63 @@
+id: pneumothorax
+display_name: "Pneumothorax"
+aliases:
+  - Collapsed lung
+  - Tension pneumothorax
+  - Spontaneous pneumothorax
+snomed: "36118008"
+icd10:
+  - "J93.0"
+  - "J93.11"
+  - "J93.12"
+  - "J93.83"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.25
+  rr_multiplier: 1.30
+  spo2_min: 85
+presentation:
+  symptoms:
+    - name: acute_dyspnea
+      probability: 0.85
+      description: "sudden onset shortness of breath"
+    - name: pleuritic_chest_pain
+      probability: 0.80
+      description: "sudden sharp ipsilateral chest pain"
+    - name: cough
+      probability: 0.20
+      description: "dry cough"
+    - name: anxiety
+      probability: 0.40
+      description: "sense of air hunger"
+  physical_exam:
+    - system: respiratory
+      finding: "Decreased or absent breath sounds on affected side"
+      probability: 0.90
+    - system: respiratory
+      finding: "Hyperresonance to percussion"
+      probability: 0.85
+    - system: respiratory
+      finding: "Decreased chest wall movement on affected side"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "Tracheal deviation away from affected side (tension)"
+      probability: 0.15
+    - system: cardiovascular
+      finding: "Hypotension and JVD (tension pneumothorax)"
+      probability: 0.10
+treatment:
+  approach: decompression_or_observation
+  medications:
+    - agent: "Supplemental Oxygen"
+      rxnorm: "7806"
+      frequency: "high-flow"
+      route: inhaler
+      indication: "accelerates reabsorption of pleural air"

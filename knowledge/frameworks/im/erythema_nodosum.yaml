@@ -1,0 +1,51 @@
+id: erythema_nodosum
+topic: "Erythema Nodosum"
+category: dermatology
+specialties:
+  - im
+teaching_goals:
+  - Recognize the characteristic presentation of tender pretibial nodules
+  - Identify common underlying causes (infection, sarcoidosis, IBD, medications, pregnancy)
+  - Understand that EN is a reactive process, not a primary skin disease
+  - Perform appropriate workup for underlying etiology
+  - Know that EN does not ulcerate (distinguishes from other panniculitides)
+common_mistakes:
+  - Biopsying EN (usually not needed; clinical diagnosis is sufficient)
+  - Not looking for underlying cause (EN is a sign, not a diagnosis)
+  - Missing sarcoidosis as an underlying etiology (chest X-ray needed)
+  - Confusing with cellulitis (EN is bilateral, non-infectious)
+  - Using systemic steroids before ruling out infection (especially TB)
+red_flags:
+  - Recurrent episodes suggesting chronic underlying disease (IBD, sarcoidosis)
+  - Ulcerated nodules (not EN; consider other panniculitis or vasculitis)
+  - Bilateral hilar lymphadenopathy on CXR (Lofgren syndrome = EN + BHL + arthralgias)
+clinical_pearls:
+  - "Most common cause worldwide is streptococcal pharyngitis"
+  - "Lofgren syndrome: EN + bilateral hilar lymphadenopathy + arthralgias = sarcoidosis variant with good prognosis"
+  - "EN nodules evolve like bruises (red to violaceous to yellow-brown) and never ulcerate"
+  - "Workup: CBC, CMP, ESR/CRP, ASO titer, chest X-ray, throat culture"
+  - "Most cases are self-limited, resolving in 3-6 weeks"
+key_history_questions:
+  - "Any recent sore throat or upper respiratory infection?"
+  - "Are you taking any new medications (OCPs, sulfonamides)?"
+  - "Any GI symptoms (diarrhea, abdominal pain) suggesting IBD?"
+  - "Any cough, shortness of breath, or chest symptoms?"
+  - "Are you pregnant?"
+  - "Any history of tuberculosis or TB exposure?"
+key_exam_findings:
+  - "Tender, erythematous subcutaneous nodules on anterior shins"
+  - "Bilateral distribution"
+  - "No ulceration (key distinguishing feature)"
+  - "Nodules evolve through bruise-like color changes"
+  - "Joint examination for inflammatory arthritis"
+  - "Lung exam and CXR for sarcoidosis"
+treatment_principles:
+  - "Treat underlying cause when identified"
+  - "NSAIDs for pain and inflammation (first-line symptomatic)"
+  - "Leg elevation and compression stockings"
+  - "Potassium iodide for refractory cases"
+  - "Systemic steroids only after excluding infection"
+disposition_guidance:
+  - "Outpatient management for most cases"
+  - "Follow-up to review workup results and monitor resolution"
+  - "Refer to rheumatology if sarcoidosis or IBD suspected"

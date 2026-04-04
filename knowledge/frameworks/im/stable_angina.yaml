@@ -1,0 +1,51 @@
+id: stable_angina
+topic: "Stable Angina"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Characterize typical, atypical, and non-cardiac chest pain
+  - Select appropriate stress testing modality
+  - Optimize medical therapy before considering revascularization
+  - Understand ISCHEMIA trial implications (medical therapy vs PCI for stable CAD)
+  - Manage cardiovascular risk factors aggressively
+common_mistakes:
+  - Ordering stress test in patients who can be diagnosed clinically
+  - Sending low pre-test probability patients for invasive testing
+  - Relying solely on revascularization without optimizing medical therapy
+  - Not addressing modifiable risk factors
+  - Using exercise stress test in patients with abnormal baseline ECG
+red_flags:
+  - Angina pattern becoming unstable (increased frequency, lower threshold)
+  - Angina with exertion-limiting symptoms despite medical therapy
+  - Left main or three-vessel disease on catheterization
+  - Reduced ejection fraction with ischemic cardiomyopathy
+clinical_pearls:
+  - ISCHEMIA trial showed optimal medical therapy is non-inferior to PCI for stable CAD
+  - Canadian Cardiovascular Society (CCS) classification grades angina severity I-IV
+  - Exercise treadmill testing is first-line if patient can exercise with normal ECG
+  - Pharmacologic stress with imaging for patients who cannot exercise
+  - Ranolazine is an add-on antianginal that does not affect heart rate or BP
+key_history_questions:
+  - What brings on the chest pain? How much exertion?
+  - How long does it last? What makes it better?
+  - Has the pattern changed at all?
+  - Are you taking your medications regularly?
+  - What is your exercise capacity?
+  - Smoking status and willingness to quit?
+key_exam_findings:
+  - Usually normal at rest
+  - Signs of atherosclerotic disease (carotid bruits, peripheral pulses)
+  - Blood pressure assessment
+  - BMI and metabolic risk assessment
+treatment_principles:
+  - Anti-ischemic therapy (beta-blocker first-line, CCB or nitrate add-on)
+  - Aspirin 81 mg daily
+  - High-intensity statin
+  - Blood pressure control
+  - Smoking cessation
+disposition_guidance:
+  - Outpatient management for stable angina
+  - Stress testing to guide risk stratification
+  - Cardiology referral if refractory to medical therapy
+  - Revascularization for left main, severe three-vessel, or refractory symptoms

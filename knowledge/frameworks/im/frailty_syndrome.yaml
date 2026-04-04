@@ -1,0 +1,54 @@
+id: frailty_syndrome
+topic: "Frailty Syndrome"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Apply the Fried frailty phenotype (5 criteria, 3+ = frail, 1-2 = pre-frail)
+  - Understand frailty as a biologic syndrome distinct from aging and disability
+  - Use frailty assessment to guide treatment intensity and surgical risk
+  - Implement multicomponent exercise and nutritional interventions
+  - Recognize frailty as a better predictor of outcomes than chronologic age
+common_mistakes:
+  - Equating frailty with old age (many elderly are robust)
+  - Making treatment decisions based on age alone rather than frailty status
+  - Not screening for frailty before major procedures or treatments
+  - Prescribing exercise without specifying resistance and balance components
+  - Ignoring pre-frailty as an opportunity for intervention
+red_flags:
+  - Rapid transition from robust to frail (investigate for occult disease)
+  - Weight loss >10% in 6 months
+  - Recurrent falls in a frail patient
+  - Pre-surgical frailty assessment predicting poor outcomes
+  - Failure to recover from acute illness (deconditioning spiral)
+clinical_pearls:
+  - "Fried criteria: unintentional weight loss, exhaustion, weakness (grip), slow walking, low activity"
+  - "Frailty is the strongest predictor of surgical complications, stronger than ASA score"
+  - "Pre-frailty is reversible with exercise and nutrition; frailty is harder to reverse"
+  - "Clinical Frailty Scale (1-9) is a quick bedside tool for non-geriatricians"
+  - "Multicomponent exercise (resistance + balance + aerobic) is the strongest evidence-based intervention"
+key_history_questions:
+  - "Have you lost weight unintentionally in the past year?"
+  - "Do you feel that everything you do is an effort?"
+  - "How active are you physically?"
+  - "How is your appetite?"
+  - "Are you able to get up from a chair without using your arms?"
+  - "Have you noticed that you walk more slowly than before?"
+key_exam_findings:
+  - "Grip strength measurement (dynamometry)"
+  - "Gait speed (4-meter walk, <0.8 m/s is slow)"
+  - "Chair stand test (>15 seconds for 5 stands)"
+  - "BMI and weight trend"
+  - "Clinical Frailty Scale assessment"
+  - "Sarcopenia screening"
+treatment_principles:
+  - "Multicomponent exercise: resistance training + balance + aerobic (strongest evidence)"
+  - "Protein supplementation: 1.2-1.5 g/kg/day"
+  - "Vitamin D supplementation"
+  - "Comprehensive geriatric assessment to identify and address all contributors"
+  - "Adjust treatment goals based on frailty status (less aggressive targets)"
+disposition_guidance:
+  - "Outpatient exercise program referral (physical therapy)"
+  - "Nutritional counseling and supplementation"
+  - "Frailty assessment should inform surgical and treatment decisions"
+  - "Geriatrics consultation for comprehensive assessment"

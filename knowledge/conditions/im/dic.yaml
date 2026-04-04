@@ -1,0 +1,119 @@
+id: dic
+display_name: "Disseminated Intravascular Coagulation"
+aliases:
+  - DIC
+  - Consumptive coagulopathy
+snomed: "67406007"
+icd10:
+  - "D65"
+category: acute
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [96.0, 103.0]
+  hr_multiplier: 1.30
+  spo2_min: 88
+presentation:
+  symptoms:
+    - name: bleeding
+      probability: 0.85
+      description: "Bleeding from multiple sites - IV sites, mucosal, surgical wounds"
+    - name: petechiae_purpura
+      probability: 0.80
+      description: "Diffuse petechiae and purpura"
+    - name: organ_dysfunction
+      probability: 0.60
+      description: "Signs of end-organ damage from microvascular thrombosis"
+    - name: altered_mental_status
+      probability: 0.45
+      description: "Confusion from cerebral microthrombosis"
+    - name: oliguria
+      probability: 0.50
+      description: "Renal failure from microvascular thrombosis"
+    - name: dyspnea
+      probability: 0.55
+      description: "Respiratory distress, may progress to ARDS"
+  physical_exam:
+    - system: skin
+      finding: "Diffuse petechiae, purpura fulminans, ecchymoses, oozing from venipuncture sites"
+      probability: 0.85
+    - system: general
+      finding: "Critically ill appearance, signs of underlying disease (sepsis, trauma)"
+      probability: 0.90
+    - system: extremities
+      finding: "Digital ischemia, acral cyanosis from microthrombosis"
+      probability: 0.40
+    - system: abdomen
+      finding: "GI hemorrhage possible"
+      probability: 0.35
+diagnostics:
+  labs:
+    - name: Platelet Count
+      loinc: "777-3"
+      value_type: numeric
+      unit: K/uL
+      normal_range_low: 150
+      abnormal_low_max: 100
+      probability_abnormal: 0.90
+    - name: Fibrinogen
+      loinc: "3255-7"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_low: 200
+      abnormal_low_max: 100
+      probability_abnormal: 0.80
+    - name: D-dimer
+      loinc: "48065-7"
+      value_type: numeric
+      unit: ng/mL FEU
+      normal_range_high: 500
+      abnormal_high_min: 500
+      probability_abnormal: 0.95
+    - name: PT/INR
+      loinc: "5902-2"
+      value_type: numeric
+      unit: seconds
+      normal_range_high: 13.5
+      abnormal_high_min: 15
+      probability_abnormal: 0.85
+    - name: Peripheral Smear
+      loinc: "9317-9"
+      value_type: categorical
+      finding: "Schistocytes present"
+      probability_abnormal: 0.75
+treatment:
+  approach: treat_underlying_cause_and_replace
+  medications:
+    - agent: "Fresh Frozen Plasma"
+      rxnorm: ""
+      frequency: "10-15 mL/kg IV"
+      route: iv
+      indication: "Replace coagulation factors if actively bleeding"
+    - agent: "Cryoprecipitate"
+      rxnorm: ""
+      frequency: "10 units if fibrinogen <100"
+      route: iv
+      indication: "Fibrinogen replacement"
+    - agent: "Platelet Transfusion"
+      rxnorm: ""
+      frequency: "1 unit apheresis platelets"
+      route: iv
+      indication: "Platelets <20K or <50K with active bleeding"
+    - agent: "Heparin"
+      rxnorm: "5224"
+      frequency: "low-dose prophylactic (consider only in chronic DIC)"
+      route: iv
+      indication: "Chronic/compensated DIC with thrombotic predominance"
+  patient_instructions:
+    - DIC is ALWAYS secondary - identify and treat the cause
+    - Common triggers - sepsis, trauma, malignancy, obstetric complications
+    - Replace blood products only if actively bleeding or high-risk procedure
+    - Use ISTH DIC scoring system for diagnosis
+    - Monitor coagulation studies every 6-8 hours
+    - Heparin is CONTRAINDICATED in acute bleeding-predominant DIC

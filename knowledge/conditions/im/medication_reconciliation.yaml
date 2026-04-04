@@ -1,0 +1,57 @@
+id: medication_reconciliation
+display_name: "Medication Reconciliation"
+aliases:
+  - Med rec
+  - Medication review
+  - Transitions of care medication safety
+  - Beers criteria review
+snomed: "430193006"
+icd10:
+  - "Z79.899"
+category: chronic
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: medication discrepancies
+      probability: 0.80
+      description: "differences between prescribed and actually taken medications"
+    - name: adverse drug events
+      probability: 0.40
+      description: "symptoms from drug-drug interactions or inappropriate meds"
+    - name: non-adherence
+      probability: 0.50
+      description: "not taking medications as prescribed due to complexity or cost"
+    - name: duplicate therapy
+      probability: 0.25
+      description: "same drug class prescribed by multiple providers"
+    - name: inappropriate medications
+      probability: 0.35
+      description: "Beers Criteria high-risk medications in elderly"
+  physical_exam:
+    - system: general
+      finding: "Brown bag medication review reveals discrepancies"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "Orthostatic hypotension from excess antihypertensives"
+      probability: 0.20
+    - system: neurologic
+      finding: "Sedation or confusion from anticholinergic burden"
+      probability: 0.25
+    - system: general
+      finding: "Anticholinergic Burden Scale calculation"
+      probability: 0.60
+treatment:
+  approach: systematic_review_and_deprescribing
+  medications:
+    - agent: "Deprescribing Protocol"
+      rxnorm: "0"
+      frequency: "systematic review at transitions of care"
+      route: oral
+      indication: "apply STOPP/START criteria and Beers Criteria"

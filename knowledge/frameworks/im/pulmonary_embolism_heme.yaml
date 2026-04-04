@@ -1,0 +1,54 @@
+id: pulmonary_embolism_heme
+topic: "Pulmonary Embolism"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Apply risk stratification tools (Wells score, PERC rule, Geneva score)
+  - Use D-dimer appropriately (only in low/intermediate probability patients)
+  - Classify PE severity (massive, submassive, low-risk) and tailor management
+  - Know indications for systemic thrombolysis vs catheter-directed therapy
+  - Understand anticoagulation selection and duration
+common_mistakes:
+  - Ordering D-dimer in high-probability patients (go straight to CTPA)
+  - Not applying PERC rule before D-dimer in low-risk patients
+  - Missing submassive PE (check troponin, BNP, and RV function in all PE patients)
+  - Using DOACs in patients with hemodynamic instability (need IV heparin)
+  - Not considering PE in patients with syncope, tachycardia, or hypotension
+red_flags:
+  - Hypotension (massive PE - consider thrombolysis)
+  - RV dilation on CT or echo (submassive PE)
+  - Elevated troponin (RV strain, worse prognosis)
+  - Syncope as presenting symptom (suggests large clot burden)
+  - Bilateral leg swelling (extensive DVT with high clot burden)
+clinical_pearls:
+  - PERC rule - if ALL 8 criteria negative and low pre-test probability, no D-dimer needed
+  - Age-adjusted D-dimer cutoff (age x 10 ng/mL for patients >50) reduces false positives
+  - Massive PE (hypotension) has 30% mortality - thrombolysis is life-saving
+  - Submassive PE (RV strain but stable) - close monitoring, escalation if deteriorating
+  - Right heart strain on ECG - S1Q3T3 is classic but uncommon; sinus tachycardia is most common
+key_history_questions:
+  - When did the shortness of breath start? Was it sudden?
+  - Any chest pain? Is it sharp and worse with breathing?
+  - Any recent surgery, travel, or immobilization?
+  - Any leg swelling or pain?
+  - Are you on hormonal contraceptives?
+  - Any prior blood clots or family history of clots?
+key_exam_findings:
+  - Heart rate (tachycardia out of proportion to other findings)
+  - Blood pressure (hypotension = massive PE)
+  - Oxygen saturation
+  - JVD and RV heave
+  - Unilateral leg edema
+  - Lung exam often normal (helps differentiate from pneumonia)
+treatment_principles:
+  - Risk-stratify immediately (stable vs unstable)
+  - Massive PE - systemic thrombolysis (alteplase) or catheter-directed therapy
+  - Submassive PE - anticoagulation, close monitoring, escalation plan
+  - Low-risk PE - DOAC (apixaban or rivaroxaban), consider outpatient treatment (Hestia criteria)
+  - Minimum 3 months anticoagulation, extended if unprovoked
+disposition_guidance:
+  - ICU for massive PE or submassive with clinical deterioration
+  - Telemetry for submassive PE
+  - Selected low-risk PE may be treated outpatient (Hestia criteria, sPESI = 0)
+  - Pulmonary/hematology follow-up for anticoagulation duration decisions

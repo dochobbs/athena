@@ -1,0 +1,53 @@
+id: necrotizing_fasciitis
+topic: "Necrotizing Fasciitis"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Recognize the surgical emergency and activate surgical consultation immediately
+  - Identify pain out of proportion as the key early distinguishing feature
+  - Know the LRINEC scoring system for risk stratification
+  - Understand the microbiology (Type I polymicrobial vs Type II GAS)
+  - Initiate broad-spectrum antibiotics without delay
+common_mistakes:
+  - Treating as simple cellulitis when pain is disproportionate to exam
+  - Waiting for imaging to confirm diagnosis (clinical diagnosis, surgical emergency)
+  - Delaying surgical consultation while "monitoring" with antibiotics alone
+  - Not considering nec fasc in diabetic or immunosuppressed patients with cellulitis
+red_flags:
+  - Pain out of proportion to visible skin findings
+  - Rapid progression of erythema despite antibiotics
+  - Bullae formation (hemorrhagic or serous)
+  - Crepitus on palpation
+  - Skin anesthesia (nerve destruction)
+  - Septic shock or multi-organ failure
+clinical_pearls:
+  - Pain out of proportion is the most important early clue
+  - CT showing gas in soft tissues is specific but not sensitive
+  - Definitive diagnosis is made in the OR (dishwater gray fascia, lack of tissue plane resistance)
+  - Mortality is 20-40% even with treatment; delay increases mortality significantly
+  - Clindamycin is added for its toxin-suppressing effect against GAS
+key_history_questions:
+  - How rapidly has the pain and redness progressed (hours vs days)?
+  - Any preceding wound, surgery, or trauma?
+  - Diabetes, immunosuppression, IV drug use, or liver disease?
+  - Is the pain much worse than the skin findings suggest?
+  - Any recent varicella or NSAID use (risk factors for GAS nec fasc)?
+key_exam_findings:
+  - Pain out of proportion to examination
+  - Woody induration beyond erythema
+  - Dusky or violaceous skin
+  - Hemorrhagic bullae
+  - Crepitus
+  - Cutaneous anesthesia
+treatment_principles:
+  - Emergent surgical debridement is definitive treatment
+  - Broad-spectrum antibiotics (vancomycin + pip-tazo + clindamycin)
+  - Aggressive fluid resuscitation
+  - Repeat surgical exploration every 24-48 hours (return to OR)
+  - IVIG considered for streptococcal toxic shock
+disposition_guidance:
+  - Surgical ICU admission
+  - Immediate surgical consultation - this is not a medical disease alone
+  - Serial operations for debridement until infection controlled
+  - Wound care and possible plastic surgery reconstruction later

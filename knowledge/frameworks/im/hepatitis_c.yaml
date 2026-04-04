@@ -1,0 +1,51 @@
+id: hepatitis_c
+topic: "Hepatitis C"
+category: gi
+specialties:
+  - im
+teaching_goals:
+  - Understand the screening recommendations (universal for adults 18-79)
+  - Know the diagnostic algorithm (anti-HCV then HCV RNA)
+  - Recognize that DAAs cure >95% of patients
+  - Assess for fibrosis stage before and after treatment
+  - Identify extrahepatic manifestations of HCV
+common_mistakes:
+  - Not confirming active infection with HCV RNA after positive antibody
+  - Failing to screen universally (still targeted screening only)
+  - Not checking for drug interactions with DAAs
+  - Forgetting to assess fibrosis stage (FIB-4, FibroScan)
+  - Not continuing HCC screening in patients with cirrhosis even after SVR
+red_flags:
+  - Advanced fibrosis or cirrhosis at diagnosis
+  - HCV with HIV or HBV coinfection
+  - Rapidly progressive liver disease
+  - Cryoglobulinemia or membranoproliferative GN
+  - Decompensated cirrhosis needing transplant evaluation
+clinical_pearls:
+  - "SVR (sustained virologic response) = cure. Check HCV RNA 12 weeks post-treatment."
+  - "FIB-4 score: quick, free fibrosis assessment from routine labs"
+  - "Patients with cirrhosis need lifelong HCC screening even after cure"
+  - "DAAs are pan-genotypic now - genotyping less critical but still useful"
+  - "HCV antibody remains positive lifelong even after cure - check RNA for active infection"
+key_history_questions:
+  - Risk factors (IVDU, transfusion before 1992, incarceration, tattoos)?
+  - Prior HCV testing or treatment?
+  - Current medications (for DAA interaction check)?
+  - Alcohol use?
+  - HIV or HBV coinfection?
+key_exam_findings:
+  - Often normal in early disease
+  - Signs of chronic liver disease if cirrhotic
+  - Cryoglobulinemia findings (purpura, arthritis, neuropathy)
+  - Hepatomegaly
+treatment_principles:
+  - Screen all adults 18-79 years old at least once
+  - Confirm viremia with HCV RNA, assess fibrosis with FIB-4
+  - Treat all patients with chronic HCV (sofosbuvir/velpatasvir or glecaprevir/pibrentasvir)
+  - Check drug interactions before starting DAAs
+  - Confirm SVR with HCV RNA at 12 weeks post-treatment
+disposition_guidance:
+  - "Outpatient: All HCV treatment is outpatient"
+  - "Hepatology referral: Decompensated cirrhosis, treatment failure, complex coinfection"
+  - "Primary care: Can manage uncomplicated HCV with DAAs"
+  - "Post-SVR: Continue HCC screening if cirrhosis was present"

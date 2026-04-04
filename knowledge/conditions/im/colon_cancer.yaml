@@ -1,0 +1,77 @@
+id: colon_cancer
+display_name: "Colorectal Cancer"
+aliases:
+  - Colon cancer
+  - Rectal cancer
+  - CRC
+  - Colorectal carcinoma
+snomed: "363406005"
+icd10:
+  - "C18.9"
+  - "C20"
+  - "C19"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: change_in_bowel_habits
+      probability: 0.65
+      description: "New constipation, diarrhea, or narrowing of stool caliber"
+    - name: rectal_bleeding
+      probability: 0.60
+      description: "Hematochezia or occult blood in stool"
+    - name: abdominal_pain
+      probability: 0.45
+      description: "Vague abdominal discomfort or cramping"
+    - name: weight_loss
+      probability: 0.50
+      description: "Unintentional weight loss"
+    - name: fatigue
+      probability: 0.55
+      description: "Fatigue from iron deficiency anemia"
+    - name: iron_deficiency_anemia
+      probability: 0.45
+      description: "Unexplained iron deficiency anemia, especially right-sided tumors"
+  physical_exam:
+    - system: abdomen
+      finding: "May be normal; palpable mass in advanced disease"
+      probability: 0.20
+    - system: rectal
+      finding: "Palpable rectal mass on DRE, occult blood positive"
+      probability: 0.35
+    - system: general
+      finding: "Pallor from anemia, cachexia in advanced disease"
+      probability: 0.35
+    - system: hepatic
+      finding: "Hepatomegaly if liver metastases"
+      probability: 0.15
+treatment:
+  approach: surgical_and_adjuvant
+  medications:
+    - agent: "Capecitabine"
+      rxnorm: "194000"
+      frequency: "1250 mg/m2 twice daily x 14 days, repeat every 21 days"
+      route: oral
+      indication: "Adjuvant chemotherapy for stage III CRC"
+    - agent: "Oxaliplatin"
+      rxnorm: "32592"
+      frequency: "130 mg/m2 IV every 3 weeks"
+      route: iv
+      indication: "FOLFOX regimen component for adjuvant therapy"
+    - agent: "5-Fluorouracil"
+      rxnorm: "4492"
+      frequency: "Per FOLFOX or FOLFIRI protocol"
+      route: iv
+      indication: "Backbone of CRC chemotherapy"

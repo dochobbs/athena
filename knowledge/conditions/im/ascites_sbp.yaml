@@ -1,0 +1,90 @@
+id: ascites_sbp
+display_name: "Ascites and Spontaneous Bacterial Peritonitis"
+aliases:
+  - SBP
+  - Spontaneous bacterial peritonitis
+  - Cirrhotic ascites
+snomed: "9098009"
+icd10:
+  - "K65.2"
+  - "R18.8"
+category: acute
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [99.0, 102.5]
+  hr_multiplier: 1.20
+  rr_multiplier: 1.10
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: abdominal_distension
+      probability: 0.90
+      description: "Progressive abdominal swelling"
+    - name: abdominal_pain
+      probability: 0.70
+      description: "Diffuse abdominal pain or tenderness, often insidious in SBP"
+    - name: fever
+      probability: 0.60
+      description: "Fever in SBP, may be absent"
+    - name: altered_mental_status
+      probability: 0.50
+      description: "Worsening encephalopathy may be only sign of SBP"
+    - name: nausea
+      probability: 0.40
+      description: "Nausea and decreased oral intake"
+    - name: diarrhea
+      probability: 0.25
+      description: "New diarrhea or ileus"
+  physical_exam:
+    - system: abdomen
+      finding: "Distension, shifting dullness, fluid wave, diffuse tenderness"
+      probability: 0.90
+    - system: general
+      finding: "Fever, tachycardia, hypotension"
+      probability: 0.60
+    - system: neurological
+      finding: "Altered sensorium, asterixis, worsening encephalopathy"
+      probability: 0.50
+    - system: extremities
+      finding: "Peripheral edema, muscle wasting"
+      probability: 0.55
+treatment:
+  approach: paracentesis_and_antibiotics
+  medications:
+    - agent: "Cefotaxime"
+      rxnorm: "2059"
+      frequency: "2 g IV every 8 hours x 5-7 days"
+      route: iv
+      indication: "First-line antibiotic for SBP"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "2 g IV daily"
+      route: iv
+      indication: "Alternative antibiotic for SBP"
+    - agent: "Albumin"
+      rxnorm: "489"
+      frequency: "1.5 g/kg day 1, then 1 g/kg day 3"
+      route: iv
+      indication: "Reduce hepatorenal syndrome risk in SBP"
+    - agent: "Norfloxacin"
+      rxnorm: "7517"
+      frequency: "400 mg daily"
+      route: oral
+      indication: "SBP prophylaxis in high-risk cirrhotics"
+    - agent: "Spironolactone"
+      rxnorm: "9997"
+      frequency: "100 mg daily, titrate up"
+      route: oral
+      indication: "First-line diuretic for ascites management"
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "40 mg daily, titrate"
+      route: oral
+      indication: "Adjunct diuretic (100:40 spironolactone:furosemide ratio)"

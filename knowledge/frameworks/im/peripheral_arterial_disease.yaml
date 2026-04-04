@@ -1,0 +1,54 @@
+id: peripheral_arterial_disease
+topic: Peripheral Arterial Disease
+category: cardiology
+specialties:
+- im
+teaching_goals:
+- Perform and interpret ankle-brachial index (ABI)
+- Distinguish claudication from pseudoclaudication (spinal stenosis)
+- Recognize critical limb ischemia as a vascular emergency
+- Understand PAD as a coronary artery disease equivalent
+- Apply comprehensive cardiovascular risk reduction
+common_mistakes:
+- Not checking ABI in patients with risk factors
+- Confusing neurogenic claudication with vascular claudication
+- Not recognizing PAD as a marker for systemic atherosclerosis
+- Failing to start statin and antiplatelet therapy
+- Not prescribing supervised exercise therapy (most effective non-surgical treatment)
+red_flags:
+- Rest pain (critical limb ischemia, ABI <0.4)
+- Non-healing ulcers or gangrene
+- 'Acute limb ischemia (6 Ps: Pain, Pallor, Pulselessness, Paresthesia, Paralysis,
+  Poikilothermia)'
+- ABI <0.4 indicating severe disease
+clinical_pearls:
+- ABI <0.9 is diagnostic; <0.4 is critical limb ischemia
+- ABI >1.4 suggests non-compressible calcified vessels (get toe pressures)
+- Supervised exercise therapy improves walking distance by 50-200%
+- Cilostazol is the only drug that improves walking distance (contraindicated in HF)
+- PAD patients have 3-6x higher risk of cardiovascular death
+key_history_questions:
+- Do you get calf pain when walking? How far can you walk?
+- Does the pain go away when you stop and rest?
+- Any numbness or coolness in your feet?
+- Non-healing wounds on feet or legs?
+- Do you smoke? History of diabetes, HTN, hyperlipidemia?
+- Any erectile dysfunction?
+key_exam_findings:
+- Diminished or absent pedal pulses
+- ABI measurement
+- Femoral or iliac bruits
+- Hair loss, shiny atrophic skin on legs
+- Pallor with elevation, rubor with dependency
+- Non-healing ulcers at pressure points
+treatment_principles:
+- Smoking cessation (most important modifiable risk factor)
+- Supervised exercise therapy (3x/week for 12 weeks)
+- Antiplatelet therapy (aspirin or clopidogrel)
+- High-intensity statin
+- Cilostazol for claudication symptoms
+disposition_guidance:
+- Outpatient management for claudication
+- Vascular surgery referral for critical limb ischemia
+- Emergency consultation for acute limb ischemia
+- Supervised exercise program referral

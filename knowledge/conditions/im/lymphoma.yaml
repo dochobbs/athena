@@ -1,0 +1,119 @@
+id: lymphoma
+display_name: "Lymphoma"
+aliases:
+  - Hodgkin lymphoma
+  - Non-Hodgkin lymphoma
+  - NHL
+  - HL
+snomed: "118600007"
+icd10:
+  - "C81.90"
+  - "C82.90"
+  - "C83.90"
+  - "C85.90"
+category: chronic
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 102.0]
+  hr_multiplier: 1.10
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: lymphadenopathy
+      probability: 0.90
+      description: "Painless lymphadenopathy, often cervical or supraclavicular"
+    - name: night_sweats
+      probability: 0.55
+      description: "Drenching night sweats (B symptom)"
+    - name: weight_loss
+      probability: 0.50
+      description: ">10% unintentional weight loss in 6 months (B symptom)"
+    - name: fever
+      probability: 0.45
+      description: "Unexplained fever >38C (B symptom), Pel-Ebstein in HL"
+    - name: pruritus
+      probability: 0.30
+      description: "Generalized pruritus without rash (especially Hodgkin)"
+    - name: fatigue
+      probability: 0.65
+      description: "Progressive fatigue"
+    - name: alcohol_pain
+      probability: 0.10
+      description: "Pain at lymph node sites after alcohol (pathognomonic for HL)"
+  physical_exam:
+    - system: lymph
+      finding: "Non-tender, rubbery lymphadenopathy"
+      probability: 0.90
+    - system: abdomen
+      finding: "Splenomegaly"
+      probability: 0.40
+    - system: general
+      finding: "Cachexia in advanced disease"
+      probability: 0.30
+    - system: skin
+      finding: "Skin lesions in cutaneous T-cell lymphoma"
+      probability: 0.15
+diagnostics:
+  labs:
+    - name: LDH
+      loinc: "2532-0"
+      value_type: numeric
+      unit: U/L
+      normal_range_high: 225
+      abnormal_high_min: 300
+      probability_abnormal: 0.65
+    - name: CBC
+      loinc: "57021-8"
+      value_type: panel
+      probability_abnormal: 0.50
+    - name: ESR
+      loinc: "4537-7"
+      value_type: numeric
+      unit: mm/hr
+      normal_range_high: 20
+      abnormal_high_min: 40
+      probability_abnormal: 0.60
+  imaging:
+    - name: CT Chest/Abdomen/Pelvis with contrast
+      modality: CT
+      loinc: "36813-4"
+      finding_positive: "Multiple enlarged lymph nodes in mediastinal, mesenteric, and retroperitoneal chains. Splenomegaly."
+      finding_negative: "No lymphadenopathy or organomegaly."
+      probability_positive: 0.85
+    - name: PET/CT
+      modality: PET
+      finding_positive: "FDG-avid lymphadenopathy above and below the diaphragm consistent with lymphoma"
+      finding_negative: "No hypermetabolic lymphadenopathy"
+      probability_positive: 0.90
+treatment:
+  approach: chemotherapy_radiation
+  medications:
+    - agent: "ABVD regimen (Doxorubicin, Bleomycin, Vinblastine, Dacarbazine)"
+      rxnorm: ""
+      frequency: "per oncology protocol, q2 week cycles"
+      route: iv
+      indication: "First-line for Hodgkin lymphoma"
+    - agent: "R-CHOP (Rituximab, Cyclophosphamide, Doxorubicin, Vincristine, Prednisone)"
+      rxnorm: ""
+      frequency: "per oncology protocol, q3 week cycles"
+      route: iv
+      indication: "First-line for aggressive B-cell NHL (DLBCL)"
+    - agent: "Allopurinol"
+      rxnorm: "519"
+      frequency: "300 mg daily"
+      route: oral
+      indication: "Tumor lysis syndrome prophylaxis"
+  patient_instructions:
+    - Excisional lymph node biopsy required (NOT FNA - need architecture)
+    - Staging with PET/CT (Ann Arbor staging system)
+    - B symptoms present = worse prognosis, higher stage designation
+    - Hodgkin lymphoma - bimodal age distribution, highly curable (>85%)
+    - DLBCL - most common aggressive NHL, curable with R-CHOP
+    - Follicular lymphoma - indolent, watch and wait in early stage

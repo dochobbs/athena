@@ -1,0 +1,74 @@
+id: stable_angina
+display_name: "Stable Angina"
+aliases:
+  - Chronic stable angina
+  - Effort angina
+  - Exertional angina
+snomed: "194828000"
+icd10:
+  - "I20.8"
+  - "I20.9"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+presentation:
+  symptoms:
+    - name: exertional_chest_pain
+      probability: 0.90
+      description: "substernal pressure with predictable exertion, relieved by rest"
+    - name: dyspnea_on_exertion
+      probability: 0.40
+      description: "anginal equivalent"
+    - name: radiation
+      probability: 0.45
+      description: "radiation to arm, jaw, or shoulder"
+    - name: relief_with_rest
+      probability: 0.85
+      description: "symptoms resolve within minutes of rest or NTG"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Often normal at rest"
+      probability: 0.80
+    - system: cardiovascular
+      finding: "S4 gallop during episodes"
+      probability: 0.15
+    - system: vascular
+      finding: "Signs of peripheral vascular disease"
+      probability: 0.25
+treatment:
+  approach: antianginal_and_risk_factor_modification
+  medications:
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "81 mg once daily"
+      route: oral
+      indication: "antiplatelet for secondary prevention"
+    - agent: "Metoprolol Succinate"
+      rxnorm: "430618"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line antianginal, reduces myocardial O2 demand"
+    - agent: "Nitroglycerin"
+      rxnorm: "7512"
+      frequency: "0.4 mg SL PRN for acute episodes"
+      route: oral
+      indication: "acute symptom relief"
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "40-80 mg once daily"
+      route: oral
+      indication: "high-intensity statin"
+    - agent: "Amlodipine"
+      rxnorm: "17767"
+      frequency: "5-10 mg once daily"
+      route: oral
+      indication: "add-on antianginal if beta-blocker insufficient"

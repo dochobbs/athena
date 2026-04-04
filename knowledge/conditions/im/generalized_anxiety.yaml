@@ -1,0 +1,82 @@
+id: generalized_anxiety
+display_name: "Generalized Anxiety Disorder"
+aliases:
+  - GAD
+  - Generalized anxiety
+  - Chronic anxiety
+snomed: "21897009"
+icd10:
+  - "F41.1"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.10
+  bp_systolic:
+    - 120
+    - 150
+presentation:
+  symptoms:
+    - name: excessive worry
+      probability: 0.95
+      description: "persistent worry about multiple domains, difficult to control"
+    - name: restlessness
+      probability: 0.70
+      description: "feeling keyed up, on edge"
+    - name: fatigue
+      probability: 0.65
+      description: "easily fatigued"
+    - name: muscle tension
+      probability: 0.60
+      description: "chronic muscle tension, especially neck and shoulders"
+    - name: sleep disturbance
+      probability: 0.70
+      description: "difficulty falling or staying asleep"
+    - name: concentration difficulty
+      probability: 0.55
+      description: "mind going blank, difficulty focusing"
+    - name: irritability
+      probability: 0.50
+      description: "increased irritability"
+  physical_exam:
+    - system: psychiatric
+      finding: "Anxious affect, restlessness during interview"
+      probability: 0.70
+    - system: musculoskeletal
+      finding: "Muscle tension in trapezius and paraspinal muscles"
+      probability: 0.55
+    - system: cardiovascular
+      finding: "Mild tachycardia, elevated blood pressure"
+      probability: 0.30
+    - system: psychiatric
+      finding: "GAD-7 score >= 10"
+      probability: 0.75
+treatment:
+  approach: pharmacotherapy_and_cbt
+  medications:
+    - agent: "Sertraline"
+      rxnorm: "36437"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line SSRI for GAD"
+    - agent: "Escitalopram"
+      rxnorm: "321988"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line SSRI alternative"
+    - agent: "Buspirone"
+      rxnorm: "42347"
+      frequency: "twice to three times daily"
+      route: oral
+      indication: "non-benzodiazepine anxiolytic, no dependence risk"
+    - agent: "Duloxetine"
+      rxnorm: "72625"
+      frequency: "once daily"
+      route: oral
+      indication: "SNRI for GAD, especially with comorbid pain"

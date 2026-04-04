@@ -1,0 +1,54 @@
+id: acs_stemi
+topic: "ST-Elevation Myocardial Infarction"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Recognize STEMI criteria on 12-lead ECG
+  - Understand door-to-balloon time goals (<90 min)
+  - Apply initial STEMI management (MONA + dual antiplatelet + heparin)
+  - Identify STEMI mimics (pericarditis, BER, LVH, LBBB)
+  - Know mechanical complications (free wall rupture, VSD, papillary muscle)
+common_mistakes:
+  - Delaying cath lab activation while waiting for troponin results
+  - Missing posterior STEMI (only ST depression in V1-V3, get V7-V9)
+  - Giving nitroglycerin with RV infarction (preload dependent)
+  - Not recognizing new LBBB as STEMI equivalent
+  - Forgetting to check right-sided leads for inferior STEMI
+red_flags:
+  - Cardiogenic shock (hypotension, tachycardia, cool extremities)
+  - New murmur post-MI (VSD, papillary muscle rupture)
+  - Electrical storm (recurrent VT/VF)
+  - Pericardial effusion (free wall rupture)
+  - Complete heart block in inferior MI
+clinical_pearls:
+  - "Time is muscle - every 30 minutes of delay matters"
+  - Inferior STEMI (II, III, aVF) - check right-sided leads, watch for bradycardia
+  - Anterior STEMI (V1-V4) - larger territory, higher mortality
+  - Wellens syndrome (deep TWI V2-V3) predicts proximal LAD lesion
+  - STEMI diagnosis is clinical + ECG, do NOT wait for troponin
+key_history_questions:
+  - When exactly did the chest pain start?
+  - Describe the pain - location, character, radiation
+  - Have you taken aspirin or nitroglycerin?
+  - History of prior MI, stents, or bypass surgery?
+  - Any contraindications to anticoagulation?
+  - Last time you ate or drank?
+key_exam_findings:
+  - Hemodynamic status (BP, HR, signs of shock)
+  - Signs of heart failure (JVD, crackles, S3)
+  - New murmurs (MR, VSD)
+  - Killip classification
+  - Peripheral perfusion
+  - Bilateral arm blood pressures (rule out dissection)
+treatment_principles:
+  - Activate cath lab immediately
+  - Aspirin 325 mg + P2Y12 inhibitor loading dose
+  - Anticoagulation with heparin
+  - Primary PCI is preferred reperfusion strategy
+  - Fibrinolysis if PCI not available within 120 minutes
+disposition_guidance:
+  - CCU/ICU admission post-PCI
+  - Echocardiogram within 24-48 hours
+  - Start GDMT before discharge (beta-blocker, ACEi, statin)
+  - Cardiac rehabilitation referral

@@ -1,0 +1,54 @@
+id: acute_pancreatitis
+topic: Acute Pancreatitis
+category: gi
+specialties:
+- im
+teaching_goals:
+- 'Apply the Atlanta criteria for diagnosis (2 of 3: pain, lipase >3x, imaging)'
+- Identify etiology (gallstones and alcohol account for ~80%)
+- Classify severity (mild, moderate-severe, severe) and predict course
+- Master fluid resuscitation and early feeding principles
+- Recognize and manage complications (necrosis, pseudocyst, organ failure)
+common_mistakes:
+- Ordering CT on day 1 (necrosis not visible until 48-72 hours)
+- Keeping patient NPO too long (early enteral feeding improves outcomes)
+- Using Ranson criteria at admission (requires 48 hours for full score)
+- Not obtaining RUQ ultrasound to evaluate for gallstones
+- Over-reliance on lipase level to gauge severity (does not correlate)
+red_flags:
+- Persistent organ failure >48 hours (defines severe pancreatitis)
+- Infected pancreatic necrosis (fever, failure to improve)
+- SIRS criteria met at admission (predicts worse outcomes)
+- Hemoconcentration (Hct >44) suggesting poor perfusion
+- BUN >20 at admission
+clinical_pearls:
+- Gallstones and alcohol cause ~80% of cases. Always get RUQ US.
+- Early aggressive LR (not NS) reduces SIRS and organ failure
+- Feed early - within 24 hours if tolerated. Low-fat diet, not NPO.
+- Lipase height does NOT correlate with severity
+- CT is for complications, not diagnosis. Wait 48-72 hours if needed.
+key_history_questions:
+- Alcohol use (quantity and pattern)?
+- History of gallstones?
+- New medications (azathioprine, valproic acid, etc.)?
+- Prior episodes of pancreatitis?
+- Hypertriglyceridemia history?
+- Recent ERCP?
+key_exam_findings:
+- Epigastric tenderness with guarding
+- Decreased bowel sounds (ileus)
+- Tachycardia, hypotension in severe cases
+- Cullen sign (periumbilical bruising) or Grey Turner sign (flank bruising) - rare
+  but specific
+- Pleural effusion (usually left-sided)
+treatment_principles:
+- Goal-directed fluid resuscitation with LR (250-500 mL/hr initially)
+- Pain management (avoid meperidine myth - use hydromorphone or morphine)
+- Early enteral feeding within 24 hours if tolerated
+- RUQ ultrasound to evaluate for gallstone etiology
+- ERCP within 24 hours only if cholangitis or confirmed CBD stone
+disposition_guidance:
+- 'Floor: Mild pancreatitis, no organ dysfunction'
+- 'ICU: Severe pancreatitis, organ failure, hemodynamic instability'
+- 'Surgery/ERCP: Gallstone pancreatitis needing cholecystectomy or stone removal'
+- 'Discharge: When tolerating oral diet, pain controlled, improving labs'

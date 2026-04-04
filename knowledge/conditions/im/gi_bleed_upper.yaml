@@ -1,0 +1,83 @@
+id: gi_bleed_upper
+display_name: "Upper GI Bleed"
+aliases:
+  - UGIB
+  - Upper gastrointestinal hemorrhage
+  - Hematemesis
+snomed: "37372002"
+icd10:
+  - "K92.0"
+  - "K92.2"
+category: acute
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 99.0]
+  hr_multiplier: 1.25
+  rr_multiplier: 1.15
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: hematemesis
+      probability: 0.70
+      description: "Vomiting bright red blood or coffee-ground emesis"
+    - name: melena
+      probability: 0.80
+      description: "Black tarry stools"
+    - name: lightheadedness
+      probability: 0.65
+      description: "Dizziness or presyncope from volume loss"
+    - name: weakness
+      probability: 0.60
+      description: "Generalized weakness and fatigue"
+    - name: epigastric_pain
+      probability: 0.50
+      description: "Epigastric or abdominal discomfort"
+    - name: syncope
+      probability: 0.20
+      description: "Loss of consciousness from significant hemorrhage"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Tachycardia, orthostatic hypotension"
+      probability: 0.75
+    - system: abdomen
+      finding: "Epigastric tenderness, may have distension"
+      probability: 0.60
+    - system: rectal
+      finding: "Melena or maroon stool on rectal exam"
+      probability: 0.80
+    - system: general
+      finding: "Pallor, diaphoresis, signs of shock"
+      probability: 0.50
+    - system: skin
+      finding: "Spider angiomata, palmar erythema if cirrhotic"
+      probability: 0.30
+treatment:
+  approach: resuscitation_and_endoscopy
+  medications:
+    - agent: "Pantoprazole"
+      rxnorm: "40790"
+      frequency: "80 mg IV bolus then 8 mg/hr infusion"
+      route: iv
+      indication: "High-dose PPI for acid suppression"
+    - agent: "Octreotide"
+      rxnorm: "7628"
+      frequency: "50 mcg IV bolus then 50 mcg/hr infusion"
+      route: iv
+      indication: "Variceal bleed - splanchnic vasoconstriction"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "1 g IV daily"
+      route: iv
+      indication: "Antibiotic prophylaxis in cirrhotic patients"
+    - agent: "Erythromycin"
+      rxnorm: "4053"
+      frequency: "250 mg IV once pre-endoscopy"
+      route: iv
+      indication: "Prokinetic to clear stomach for endoscopy"

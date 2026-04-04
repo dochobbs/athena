@@ -1,0 +1,73 @@
+id: mitral_regurgitation
+display_name: "Mitral Regurgitation"
+aliases:
+  - MR
+  - Mitral insufficiency
+  - Mitral valve regurgitation
+snomed: "48724000"
+icd10:
+  - "I34.0"
+  - "I05.1"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.05
+  rr_multiplier: 1.05
+presentation:
+  symptoms:
+    - name: dyspnea_on_exertion
+      probability: 0.65
+      description: "progressive exertional dyspnea"
+    - name: fatigue
+      probability: 0.55
+      description: "decreased exercise tolerance"
+    - name: palpitations
+      probability: 0.35
+      description: "from atrial fibrillation or ectopy"
+    - name: orthopnea
+      probability: 0.30
+      description: "in severe chronic MR with HF"
+    - name: asymptomatic
+      probability: 0.45
+      description: "chronic compensated MR often asymptomatic"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Holosystolic blowing murmur at apex radiating to axilla"
+      probability: 0.95
+    - system: cardiovascular
+      finding: "Laterally displaced PMI"
+      probability: 0.50
+    - system: cardiovascular
+      finding: "S3 gallop with severe MR"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Diminished S1"
+      probability: 0.40
+    - system: respiratory
+      finding: "Crackles if pulmonary congestion"
+      probability: 0.25
+treatment:
+  approach: medical_management_and_surgical_referral
+  medications:
+    - agent: "Lisinopril"
+      rxnorm: "29046"
+      frequency: "once daily"
+      route: oral
+      indication: "afterload reduction in symptomatic MR"
+    - agent: "Carvedilol"
+      rxnorm: "20352"
+      frequency: "twice daily"
+      route: oral
+      indication: "if concurrent HF or AF rate control"
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "once or twice daily"
+      route: oral
+      indication: "volume management if congested"

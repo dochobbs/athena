@@ -1,0 +1,55 @@
+id: adrenal_insufficiency
+topic: Adrenal Insufficiency
+category: endocrine
+specialties:
+- im
+teaching_goals:
+- Distinguish primary (Addison) from secondary (pituitary) and tertiary (steroid withdrawal)
+  AI
+- Know the diagnostic workup (AM cortisol, ACTH stimulation test)
+- Recognize and emergently treat adrenal crisis
+- Understand stress dosing and sick day rules
+- Master chronic replacement therapy
+common_mistakes:
+- Not considering adrenal crisis in unexplained hypotension or shock
+- Forgetting to give stress-dose steroids before thyroid replacement (can precipitate
+  crisis)
+- Not educating patients on sick day rules and emergency injection
+- Missing secondary AI from chronic steroid use (most common cause overall)
+- Not checking cortisol level before giving dexamethasone (if time allows)
+red_flags:
+- Adrenal crisis (hypotension, shock, altered mental status)
+- Hyponatremia with hyperkalemia (primary AI pattern)
+- Hypoglycemia
+- Unexplained hemodynamic collapse in stressed patient
+- History of chronic steroid use with acute illness
+clinical_pearls:
+- Most common cause of AI overall is chronic exogenous steroid use (secondary/tertiary)
+- Most common cause of primary AI in developed world is autoimmune (Addison's)
+- 'Primary AI: low cortisol, high ACTH, hyperpigmentation, hyperkalemia'
+- 'Secondary AI: low cortisol, low/normal ACTH, NO hyperpigmentation, no hyperkalemia'
+- 'Stress dose: hydrocortisone 100 mg IV bolus then 50 mg Q8h for major illness/surgery'
+key_history_questions:
+- Fatigue pattern and duration?
+- History of chronic steroid use (any route)?
+- Dizziness or near-syncope (orthostatic)?
+- Salt craving?
+- Weight loss or anorexia?
+- Skin darkening (primary AI)?
+key_exam_findings:
+- Orthostatic hypotension
+- Hyperpigmentation of creases, gums, scars (primary AI only)
+- Cachexia
+- Loss of axillary/pubic hair (women, in primary AI)
+- Vitiligo (autoimmune association)
+treatment_principles:
+- 'Adrenal crisis: hydrocortisone 100 mg IV STAT + aggressive IV fluids + dextrose'
+- 'Chronic replacement: hydrocortisone 15-25 mg/day in divided doses'
+- Mineralocorticoid replacement (fludrocortisone) needed in primary AI only
+- Educate on sick day rules, MedicAlert bracelet, emergency injection kit
+- Screen for other autoimmune conditions (thyroid, diabetes, celiac)
+disposition_guidance:
+- 'ICU: Adrenal crisis - life-threatening emergency'
+- 'Admission: New diagnosis requiring workup, inability to tolerate oral medications'
+- 'Outpatient: Chronic management, dose titration'
+- 'Endocrine referral: Initial diagnosis, dose optimization, secondary causes'

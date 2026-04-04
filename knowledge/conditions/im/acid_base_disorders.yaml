@@ -1,0 +1,116 @@
+id: acid_base_disorders
+display_name: "Acid-Base Disorders"
+aliases:
+  - Metabolic acidosis
+  - Metabolic alkalosis
+  - Respiratory acidosis
+  - Respiratory alkalosis
+  - Mixed acid-base disorder
+snomed: "59455009"
+icd10:
+  - "E87.2"
+  - "E87.3"
+  - "E87.4"
+category: acute
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [96.5, 101.0]
+  hr_multiplier: 1.15
+  spo2_min: 88
+presentation:
+  symptoms:
+    - name: dyspnea
+      probability: 0.70
+      description: "Kussmaul breathing in metabolic acidosis"
+    - name: confusion
+      probability: 0.60
+      description: "Altered mental status, especially in severe derangements"
+    - name: nausea_vomiting
+      probability: 0.55
+      description: "Nausea and vomiting (cause or consequence)"
+    - name: fatigue
+      probability: 0.65
+      description: "Generalized weakness and malaise"
+    - name: muscle_cramps
+      probability: 0.45
+      description: "Cramps and tetany in alkalosis from hypocalcemia"
+    - name: palpitations
+      probability: 0.40
+      description: "Arrhythmias from electrolyte disturbances"
+  physical_exam:
+    - system: respiratory
+      finding: "Kussmaul breathing (deep, rapid) in metabolic acidosis"
+      probability: 0.65
+    - system: neurological
+      finding: "Altered mental status, Chvostek/Trousseau signs in alkalosis"
+      probability: 0.50
+    - system: general
+      finding: "Fruity breath odor in diabetic ketoacidosis"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Arrhythmias on cardiac monitor"
+      probability: 0.35
+diagnostics:
+  labs:
+    - name: Arterial Blood Gas
+      loinc: "24336-0"
+      value_type: panel
+      probability_abnormal: 0.95
+    - name: Basic Metabolic Panel
+      loinc: "51990-0"
+      value_type: panel
+      probability_abnormal: 0.85
+    - name: Serum Lactate
+      loinc: "2524-7"
+      value_type: numeric
+      unit: mmol/L
+      normal_range_high: 2.0
+      abnormal_high_min: 2.1
+      probability_abnormal: 0.60
+    - name: Serum Ketones
+      loinc: "53061-8"
+      value_type: numeric
+      unit: mmol/L
+      normal_range_high: 0.6
+      probability_abnormal: 0.40
+    - name: Urine Anion Gap
+      value_type: calculated
+      finding: "Positive in RTA, negative in GI bicarbonate loss"
+      probability_abnormal: 0.50
+treatment:
+  approach: treat_underlying_cause
+  medications:
+    - agent: "Sodium Bicarbonate"
+      rxnorm: "9154"
+      frequency: "50-150 mEq IV for pH <7.1"
+      route: iv
+      indication: "Severe metabolic acidosis with hemodynamic compromise"
+    - agent: "Acetazolamide"
+      rxnorm: "167"
+      frequency: "250-500 mg IV/PO"
+      route: iv
+      indication: "Metabolic alkalosis not responsive to volume"
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "volume resuscitation"
+      route: iv
+      indication: "Contraction alkalosis (chloride-responsive)"
+    - agent: "Potassium Chloride"
+      rxnorm: "8591"
+      frequency: "10-40 mEq IV/PO, rate max 10 mEq/hr IV"
+      route: iv
+      indication: "Hypokalemia correction (critical in both acidosis and alkalosis)"
+  patient_instructions:
+    - Always calculate anion gap on every BMP
+    - Apply Winters formula for expected pCO2 compensation
+    - Delta-delta ratio to identify mixed disorders
+    - MUDPILES mnemonic for anion gap acidosis
+    - HARDUPS mnemonic for non-anion gap acidosis
+    - Treat the underlying cause, not just the numbers

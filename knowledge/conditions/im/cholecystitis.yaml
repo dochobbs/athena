@@ -1,0 +1,77 @@
+id: cholecystitis
+display_name: "Acute Cholecystitis"
+aliases:
+  - Cholecystitis
+  - Gallbladder inflammation
+  - Gallbladder attack
+snomed: "65275009"
+icd10:
+  - "K81.0"
+  - "K80.00"
+category: acute
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [99.0, 102.0]
+  hr_multiplier: 1.15
+  rr_multiplier: 1.10
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: right_upper_quadrant_pain
+      probability: 0.95
+      description: "Severe, constant RUQ pain lasting >6 hours, often postprandial"
+    - name: nausea_vomiting
+      probability: 0.75
+      description: "Nausea and vomiting"
+    - name: fever
+      probability: 0.60
+      description: "Low-grade to moderate fever"
+    - name: referred_pain
+      probability: 0.40
+      description: "Pain radiating to right scapula or shoulder"
+    - name: anorexia
+      probability: 0.55
+      description: "Loss of appetite"
+  physical_exam:
+    - system: abdomen
+      finding: "RUQ tenderness with positive Murphy sign (inspiratory arrest during RUQ palpation)"
+      probability: 0.85
+    - system: abdomen
+      finding: "Voluntary guarding in RUQ"
+      probability: 0.60
+    - system: general
+      finding: "Fever, tachycardia, appears uncomfortable"
+      probability: 0.55
+    - system: skin
+      finding: "Jaundice suggests choledocholithiasis or Mirizzi syndrome"
+      probability: 0.15
+treatment:
+  approach: antibiotics_and_surgery
+  medications:
+    - agent: "Piperacillin/Tazobactam"
+      rxnorm: "8339"
+      frequency: "3.375 g IV every 6 hours"
+      route: iv
+      indication: "Broad-spectrum antibiotic coverage"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "2 g IV daily"
+      route: iv
+      indication: "Alternative antibiotic with metronidazole"
+    - agent: "Metronidazole"
+      rxnorm: "6922"
+      frequency: "500 mg IV every 8 hours"
+      route: iv
+      indication: "Anaerobic coverage with ceftriaxone"
+    - agent: "Ketorolac"
+      rxnorm: "6694"
+      frequency: "15-30 mg IV every 6 hours"
+      route: iv
+      indication: "NSAID for biliary colic pain"

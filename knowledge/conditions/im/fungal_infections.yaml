@@ -1,0 +1,85 @@
+id: fungal_infections
+display_name: "Invasive Fungal Infections"
+aliases:
+  - Invasive fungal disease
+  - Invasive aspergillosis
+  - Candidemia
+  - Histoplasmosis
+  - Coccidioidomycosis
+snomed: "3218000"
+icd10:
+  - "B49"
+  - "B44.9"
+  - "B37.7"
+  - "B39.9"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [100.0, 103.5]
+  hr_multiplier: 1.15
+  spo2_min: 88
+presentation:
+  symptoms:
+    - name: fever
+      probability: 0.85
+      description: "persistent fever unresponsive to antibacterials"
+    - name: cough
+      probability: 0.60
+      description: "cough, hemoptysis in invasive aspergillosis"
+    - name: dyspnea
+      probability: 0.50
+      description: "progressive shortness of breath"
+    - name: weight_loss
+      probability: 0.40
+      description: "unintentional weight loss in chronic forms"
+    - name: skin_lesions
+      probability: 0.20
+      description: "disseminated skin lesions in histoplasmosis, coccidioidomycosis"
+  physical_exam:
+    - system: respiratory
+      finding: "Crackles, decreased breath sounds, consolidation"
+      probability: 0.50
+    - system: skin
+      finding: "Erythematous papules or nodules in disseminated disease"
+      probability: 0.20
+    - system: general
+      finding: "Cachexia, hepatosplenomegaly in disseminated histoplasmosis"
+      probability: 0.15
+    - system: oral
+      finding: "Oral lesions in disseminated disease"
+      probability: 0.10
+treatment:
+  approach: pathogen_specific_antifungal
+  medications:
+    - agent: "Voriconazole"
+      rxnorm: "121243"
+      frequency: "twice daily"
+      route: iv
+      indication: "first-line for invasive aspergillosis"
+    - agent: "Fluconazole"
+      rxnorm: "4083"
+      frequency: "once daily"
+      route: iv
+      indication: "candidemia in non-critically ill"
+    - agent: "Micafungin"
+      rxnorm: "385070"
+      frequency: "once daily"
+      route: iv
+      indication: "candidemia in critically ill patients"
+    - agent: "Amphotericin B liposomal"
+      rxnorm: "77492"
+      frequency: "once daily"
+      route: iv
+      indication: "severe invasive fungal infections, mucormycosis"
+    - agent: "Itraconazole"
+      rxnorm: "28031"
+      frequency: "twice daily"
+      route: oral
+      indication: "mild-moderate histoplasmosis"

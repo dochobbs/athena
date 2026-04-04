@@ -1,0 +1,51 @@
+id: gout
+topic: Gout
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- Diagnose acute gout flare clinically and confirm with joint aspiration
+- Identify negatively birefringent monosodium urate crystals under polarized microscopy
+- Choose appropriate acute flare treatment based on comorbidities
+- Know indications and timing for urate-lowering therapy (ULT)
+- Understand the role of prophylaxis when initiating ULT
+common_mistakes:
+- Starting allopurinol during an acute flare (can worsen and prolong flare)
+- Stopping ULT during a flare (continue if already on it)
+- Not providing anti-inflammatory prophylaxis when initiating ULT
+- Checking serum uric acid during a flare (often misleadingly normal)
+- Using colchicine late (>36 hours after onset, less effective)
+red_flags:
+- Fever with monoarthritis (must rule out septic arthritis)
+- Polyarticular gout mimicking sepsis
+- Renal insufficiency complicating treatment choices
+- Tophi causing joint destruction or nerve compression
+clinical_pearls:
+- Serum uric acid is often normal during acute flare due to uricosuric effect of inflammation
+- Negatively birefringent needle-shaped crystals are pathognomonic
+- Colchicine is most effective if given within 24 hours of flare onset
+- Target serum urate < 6 mg/dL (< 5 for tophaceous gout)
+- Thiazide diuretics and low-dose aspirin can precipitate gout
+key_history_questions:
+- Sudden onset severe joint pain, especially first MTP?
+- Prior similar episodes?
+- Dietary triggers (red meat, shellfish, alcohol, fructose)?
+- Current medications (diuretics, aspirin)?
+- Renal function and kidney stone history?
+- Gout in family members?
+key_exam_findings:
+- Exquisitely tender, erythematous, swollen joint
+- First MTP most common (podagra)
+- Tophi on ears, olecranon, Achilles tendon, fingers
+- Joint effusion
+- Desquamation during resolution phase
+treatment_principles:
+- 'Acute flare: NSAIDs, colchicine (within 36h), or glucocorticoids'
+- Do not start ULT during acute flare; continue if already on it
+- Start ULT after >=2 flares/year, tophi, CKD stage >=3, or urolithiasis
+- Low-dose colchicine prophylaxis for 3-6 months when starting ULT
+- Titrate allopurinol to target urate < 6 mg/dL
+disposition_guidance:
+- Outpatient for most acute flares
+- Arthrocentesis if first episode or concern for septic arthritis
+- Admit for polyarticular flare with inability to take PO or septic arthritis concern

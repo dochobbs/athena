@@ -1,0 +1,55 @@
+id: ttp_hus
+topic: "TTP/HUS"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Recognize thrombotic microangiopathy as a hematologic emergency
+  - Understand the role of ADAMTS13 in TTP pathophysiology
+  - Know that platelet transfusion is CONTRAINDICATED in TTP
+  - Initiate plasma exchange empirically before confirmatory test results
+  - Differentiate TTP from HUS and other causes of thrombotic microangiopathy
+common_mistakes:
+  - Transfusing platelets (adds fuel to the fire - worsens microthrombosis)
+  - Waiting for ADAMTS13 results before starting plasma exchange (mortality >90% untreated)
+  - Attributing thrombocytopenia + MAHA to DIC without checking smear carefully
+  - Not checking ADAMTS13 activity level before first plasma exchange
+  - Missing the diagnosis because full pentad is rarely present
+red_flags:
+  - MAHA + thrombocytopenia + neurologic changes (classic TTP triad)
+  - Platelet count <30K with schistocytes on smear
+  - Rapidly declining mental status
+  - Renal failure (more prominent in HUS)
+  - Cardiac involvement (troponin elevation)
+clinical_pearls:
+  - TTP pentad (MAHA, thrombocytopenia, neuro, renal, fever) is rarely complete - do not wait for all 5
+  - ADAMTS13 <10% is diagnostic for TTP
+  - PLASMIC score helps predict ADAMTS13 deficiency before results return
+  - Typical HUS - Shiga toxin E. coli (O157:H7), supportive care, antibiotics controversial
+  - Atypical HUS - complement-mediated, treat with eculizumab
+  - Schistocytes on smear are the key finding - always examine the smear
+key_history_questions:
+  - Any recent bloody diarrhea? (HUS from E. coli)
+  - Any new medications? (drug-induced TMA - quinine, calcineurin inhibitors)
+  - Any pregnancy? (HELLP syndrome differential)
+  - Have you had TTP before? (relapse risk 30-50%)
+  - Any bruising, bleeding, or petechiae?
+  - Any confusion, headache, or neurologic symptoms?
+key_exam_findings:
+  - Petechiae and purpura
+  - Jaundice/scleral icterus
+  - Mental status assessment
+  - Focal neurologic deficits
+  - Temperature
+  - Signs of volume depletion (dehydration in HUS)
+treatment_principles:
+  - Start plasma exchange immediately upon clinical suspicion (do not wait for ADAMTS13)
+  - DO NOT TRANSFUSE PLATELETS
+  - High-dose corticosteroids (methylprednisolone 1g/day x3 or prednisone 1 mg/kg)
+  - Caplacizumab (anti-vWF) reduces time to remission
+  - Rituximab for refractory or relapsing TTP
+disposition_guidance:
+  - ICU admission mandatory - this is a hematologic emergency
+  - Hematology consultation immediately
+  - Blood bank notification for daily plasma exchange
+  - Continue plasma exchange until platelets >150K for 2 consecutive days

@@ -1,0 +1,53 @@
+id: neuroleptic_malignant_syndrome
+topic: "Neuroleptic Malignant Syndrome"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Recognize the tetrad (hyperthermia, rigidity, altered mental status, autonomic instability)
+  - Differentiate NMS from serotonin syndrome and malignant hyperthermia
+  - Understand that any dopamine-blocking agent can cause NMS
+  - Manage with drug discontinuation, dantrolene, and bromocriptine
+  - Know that NMS can occur at any time during treatment, not just initiation
+common_mistakes:
+  - Confusing with serotonin syndrome (NMS has lead-pipe rigidity, not clonus)
+  - Missing NMS from antiemetics (metoclopramide, prochlorperazine)
+  - Not checking CK early (often markedly elevated >1000)
+  - Restarting the same antipsychotic too soon after NMS (wait 2+ weeks, use different agent)
+  - Underestimating fluid requirements (rhabdomyolysis risk)
+red_flags:
+  - CK >10,000 indicating severe rhabdomyolysis
+  - Renal failure from myoglobinuria
+  - Temperature >107F (extreme hyperthermia)
+  - DIC or hepatic failure
+  - Respiratory failure requiring intubation
+clinical_pearls:
+  - "NMS develops over 1-3 days (slower than serotonin syndrome which is hours)"
+  - "Lead-pipe rigidity (continuous resistance) vs cogwheel (Parkinson) vs clonus (serotonin syndrome)"
+  - "CK is typically markedly elevated (often >1000, sometimes >100,000)"
+  - "Mortality is 5-10% with treatment; higher if diagnosis delayed"
+  - "Can occur from withdrawal of dopaminergic medications in Parkinson patients"
+key_history_questions:
+  - "What antipsychotic or dopamine-blocking agent was recently started or dose-changed?"
+  - "Is the patient taking metoclopramide, prochlorperazine, or promethazine?"
+  - "Was a dopaminergic medication (levodopa) recently discontinued?"
+  - "How quickly did symptoms develop?"
+  - "Any prior episodes of NMS?"
+key_exam_findings:
+  - "Lead-pipe rigidity (not cogwheel, not clonus)"
+  - "Severely elevated temperature (often >104F)"
+  - "Altered consciousness ranging from confusion to coma"
+  - "Labile blood pressure and tachycardia"
+  - "Diaphoresis, tremor"
+  - "Elevated CK, leukocytosis, metabolic acidosis on labs"
+treatment_principles:
+  - "Discontinue offending agent immediately"
+  - "Dantrolene 1-2.5 mg/kg IV for severe rigidity and hyperthermia"
+  - "Bromocriptine 2.5mg TID PO/NG to restore dopamine activity"
+  - "Aggressive IV fluids to prevent rhabdomyolysis-induced AKI"
+  - "Active cooling measures for severe hyperthermia"
+disposition_guidance:
+  - "ICU admission mandatory"
+  - "Monitor CK, renal function, and urine output closely"
+  - "Recovery takes 7-14 days after drug discontinuation"
+  - "Wait at least 2 weeks before cautiously restarting a different antipsychotic at low dose"

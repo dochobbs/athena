@@ -1,0 +1,100 @@
+id: polycystic_kidney_disease
+display_name: "Polycystic Kidney Disease"
+aliases:
+  - PKD
+  - ADPKD
+  - Autosomal dominant polycystic kidney disease
+snomed: "28728008"
+icd10:
+  - "Q61.2"
+  - "Q61.3"
+category: chronic
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 99.0]
+  hr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: flank_pain
+      probability: 0.70
+      description: "Chronic flank or back pain from enlarged kidneys"
+    - name: hypertension
+      probability: 0.80
+      description: "Early-onset hypertension, often before renal decline"
+    - name: hematuria
+      probability: 0.55
+      description: "Gross hematuria from cyst rupture"
+    - name: recurrent_utis
+      probability: 0.40
+      description: "Recurrent urinary tract or cyst infections"
+    - name: abdominal_fullness
+      probability: 0.50
+      description: "Abdominal distension from enlarged kidneys and liver"
+    - name: headache
+      probability: 0.35
+      description: "Severe headache - must rule out intracranial aneurysm rupture"
+  physical_exam:
+    - system: abdomen
+      finding: "Bilateral palpable, enlarged kidneys"
+      probability: 0.65
+    - system: cardiovascular
+      finding: "Hypertension"
+      probability: 0.80
+    - system: abdomen
+      finding: "Hepatomegaly from liver cysts"
+      probability: 0.45
+    - system: cardiovascular
+      finding: "Mitral valve prolapse murmur"
+      probability: 0.25
+diagnostics:
+  imaging:
+    - name: Renal Ultrasound
+      modality: ultrasound
+      loinc: "24564-7"
+      finding_positive: "Bilaterally enlarged kidneys with multiple cysts of varying sizes"
+      finding_negative: "Normal-appearing kidneys without cysts"
+      probability_positive: 0.95
+  labs:
+    - name: Serum Creatinine
+      loinc: "2160-0"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_high: 1.2
+      probability_abnormal: 0.60
+    - name: Genetic testing PKD1/PKD2
+      value_type: categorical
+      finding: "Pathogenic variant in PKD1 (85%) or PKD2 (15%)"
+      probability_abnormal: 0.90
+treatment:
+  approach: slow_progression
+  medications:
+    - agent: "Tolvaptan"
+      rxnorm: "72236"
+      frequency: "45/15 mg split dose daily, titrate up"
+      route: oral
+      indication: "Vasopressin receptor antagonist to slow cyst growth (TEMPO 3:4 trial)"
+    - agent: "Lisinopril"
+      rxnorm: "29046"
+      frequency: "5-40 mg daily"
+      route: oral
+      indication: "BP control, target <110/75 per HALT-PKD"
+    - agent: "Ciprofloxacin"
+      rxnorm: "2551"
+      frequency: "500 mg BID for 2-4 weeks"
+      route: oral
+      indication: "Cyst infection (fluoroquinolones penetrate cysts)"
+  patient_instructions:
+    - Increase water intake to suppress vasopressin (aim >3L/day)
+    - Avoid caffeine (stimulates cyst growth via cAMP)
+    - Screen family members with renal ultrasound
+    - MRA brain for intracranial aneurysm screening if family history of SAH
+    - Avoid contact sports due to enlarged kidneys
+    - Monitor liver function on tolvaptan (hepatotoxicity risk)

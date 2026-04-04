@@ -1,0 +1,75 @@
+id: pleural_effusion
+display_name: "Pleural Effusion"
+aliases:
+  - Fluid around lung
+  - Parapneumonic effusion
+  - Transudative effusion
+  - Exudative effusion
+snomed: "60046008"
+icd10:
+  - "J91.8"
+  - "J90"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.05
+  rr_multiplier: 1.15
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: dyspnea
+      probability: 0.80
+      description: "progressive dyspnea, worse with large effusion"
+    - name: pleuritic_chest_pain
+      probability: 0.55
+      description: "pleuritic pain from pleural inflammation"
+    - name: cough
+      probability: 0.50
+      description: "dry cough"
+    - name: orthopnea
+      probability: 0.30
+      description: "may prefer lying on affected side"
+    - name: fever
+      probability: 0.35
+      description: "if infectious etiology"
+  physical_exam:
+    - system: respiratory
+      finding: "Decreased breath sounds over effusion"
+      probability: 0.85
+    - system: respiratory
+      finding: "Dullness to percussion"
+      probability: 0.90
+    - system: respiratory
+      finding: "Decreased tactile fremitus"
+      probability: 0.75
+    - system: respiratory
+      finding: "Egophony at superior border of effusion"
+      probability: 0.40
+    - system: respiratory
+      finding: "Tracheal deviation away (if massive)"
+      probability: 0.15
+treatment:
+  approach: thoracentesis_and_treat_underlying_cause
+  medications:
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "40 mg IV or PO daily"
+      route: iv
+      indication: "if transudative from heart failure"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "1-2 g IV q24h"
+      route: iv
+      indication: "if parapneumonic or empyema"
+    - agent: "Alteplase"
+      rxnorm: "8410"
+      frequency: "intrapleural 10 mg BID x3 days"
+      route: iv
+      indication: "fibrinolytic for complicated parapneumonic effusion"

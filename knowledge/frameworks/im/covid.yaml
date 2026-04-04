@@ -1,0 +1,49 @@
+id: covid
+topic: COVID-19
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Recognize the biphasic illness pattern (viral phase then inflammatory phase)
+- Apply severity classification and treatment algorithms
+- Understand indications for dexamethasone, remdesivir, and antivirals
+- Identify risk factors for severe disease
+- Manage post-acute sequelae (long COVID)
+common_mistakes:
+- Using dexamethasone in patients NOT requiring supplemental oxygen (may worsen outcomes)
+- Missing the treatment window for nirmatrelvir-ritonavir (within 5 days)
+- Not checking drug interactions with Paxlovid (CYP3A4 interactions)
+- Overlooking VTE risk in hospitalized patients
+red_flags:
+- Rapid desaturation and increasing oxygen requirements (days 7-10)
+- Silent hypoxia (low SpO2 without proportionate dyspnea)
+- D-dimer markedly elevated (thrombotic complications)
+- Cytokine storm features (ferritin, CRP markedly elevated)
+clinical_pearls:
+- Day 7-10 is the critical window where inflammatory phase may cause deterioration
+- Happy hypoxia (silent hypoxia) is characteristic - patients tolerate low SpO2
+- Prone positioning improves oxygenation even in non-intubated patients
+- Paxlovid rebound can occur 2-8 days after completing treatment
+key_history_questions:
+- When did symptoms start (guides treatment eligibility)?
+- Vaccination and booster status?
+- High-risk conditions (age >65, obesity, diabetes, CKD, immunosuppression)?
+- Current medications (drug interactions with Paxlovid)?
+- Oxygen requirements at home?
+- Prior COVID infection?
+key_exam_findings:
+- Oxygen saturation (key prognostic marker)
+- Respiratory rate and work of breathing
+- Bilateral crackles
+- Tachycardia
+- Signs of DVT/PE
+treatment_principles:
+- 'Outpatient high-risk: Paxlovid within 5 days of symptom onset'
+- 'Hospitalized on O2: dexamethasone 6 mg daily x 10 days'
+- 'Hospitalized: remdesivir for moderate-severe disease'
+- VTE prophylaxis for all hospitalized patients
+- Prone positioning for hypoxic patients
+disposition_guidance:
+- Outpatient for mild disease in low-risk patients
+- Admit for hypoxia (SpO2 < 94% on room air) or high-risk with moderate symptoms
+- ICU for escalating O2 needs, hemodynamic instability, or intubation

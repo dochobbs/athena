@@ -1,0 +1,50 @@
+id: polypharmacy
+topic: "Polypharmacy"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Define polypharmacy (typically 5+ concurrent medications) and its risks
+  - Apply Beers Criteria and STOPP/START tools for medication review
+  - Recognize prescribing cascades (treating drug side effects with more drugs)
+  - Implement systematic deprescribing approach
+  - Calculate anticholinergic burden and understand cognitive implications
+common_mistakes:
+  - Adding a new medication to treat a drug side effect (prescribing cascade)
+  - Not reviewing medication list at every visit and transitions of care
+  - Assuming all medications are still needed because they have been on them for years
+  - Stopping medications abruptly without tapering (PPIs, benzodiazepines, beta-blockers)
+  - Not involving the patient in deprescribing decisions
+red_flags:
+  - Falls attributed to medication effects (sedation, orthostasis)
+  - Cognitive decline from anticholinergic burden
+  - Recurrent hospitalization from adverse drug events
+  - Drug-drug interactions causing toxicity
+  - Taking medications for conditions that have resolved
+clinical_pearls:
+  - "Each additional medication increases adverse drug event risk by 10%"
+  - "Prescribing cascade: NSAID causes hypertension, antihypertensive causes dizziness, meclizine causes confusion"
+  - "Beers Criteria: avoid anticholinergics, long-acting benzodiazepines, and sliding scale insulin in elderly"
+  - "Deprescribe one medication at a time with monitoring interval between changes"
+  - "STOPP/START: STOPP identifies drugs to stop; START identifies beneficial drugs being omitted"
+key_history_questions:
+  - "Please bring all your medications including over-the-counter and supplements (brown bag review)"
+  - "Who prescribes your medications (multiple providers)?"
+  - "Are there medications you have trouble taking or have stopped on your own?"
+  - "Have you noticed any new symptoms since a medication was started?"
+  - "What is the purpose of each medication?"
+key_exam_findings:
+  - "Orthostatic blood pressure (medication-induced orthostasis)"
+  - "Cognitive screening (anticholinergic burden effect)"
+  - "Gait and balance assessment (sedation, orthostasis)"
+  - "Medication count and reconciliation"
+treatment_principles:
+  - "Apply Beers Criteria to identify potentially inappropriate medications"
+  - "Use STOPP/START criteria for systematic review"
+  - "Deprescribe one medication at a time with clear monitoring plan"
+  - "Taper medications that require it (PPIs, benzodiazepines, opioids, antidepressants)"
+  - "Document rationale for each medication and reassess regularly"
+disposition_guidance:
+  - "Outpatient medication review at every visit"
+  - "Pharmacist consultation for complex medication lists"
+  - "Post-discharge medication reconciliation within 48 hours"

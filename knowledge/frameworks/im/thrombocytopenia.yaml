@@ -1,0 +1,54 @@
+id: thrombocytopenia
+topic: "Thrombocytopenia"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Develop a systematic approach (pseudothrombocytopenia, decreased production, increased destruction, sequestration)
+  - Recognize immune thrombocytopenia (ITP) as a diagnosis of exclusion
+  - Know when to treat vs observe based on platelet count and symptoms
+  - Understand the role of TPO receptor agonists in chronic ITP
+  - Differentiate ITP from TTP, DIC, and HIT
+common_mistakes:
+  - Not ruling out pseudothrombocytopenia (EDTA-induced clumping) by checking citrate tube
+  - Ordering a bone marrow biopsy in every patient (not needed for typical ITP in young adults)
+  - Transfusing platelets for ITP (ineffective and potentially harmful)
+  - Not checking for drug-induced causes (heparin, quinine, vancomycin, linezolid)
+  - Missing HIT in a hospitalized patient with falling platelets on heparin
+red_flags:
+  - Wet purpura (blood blisters in mouth) - high bleeding risk
+  - Intracranial hemorrhage (platelet count usually <10K)
+  - MAHA + thrombocytopenia (think TTP - do not delay treatment)
+  - Falling platelets on heparin (HIT - check 4T score)
+  - DIC pattern (prolonged PT/PTT with thrombocytopenia)
+clinical_pearls:
+  - First step in ANY thrombocytopenia - repeat CBC in citrate tube to rule out pseudothrombocytopenia
+  - ITP - isolated thrombocytopenia with normal WBC and Hgb, no other explanation
+  - Treatment threshold for ITP - generally platelets <30K or active bleeding
+  - IVIG provides rapid (but temporary) platelet increase - useful before procedures
+  - HIT - typically platelets fall 50% from baseline, 5-10 days after heparin exposure
+key_history_questions:
+  - When was your last normal platelet count?
+  - Are you on heparin or any new medications?
+  - Any recent viral illness?
+  - Any bleeding - gums, nose, heavy periods, blood in stool?
+  - Any excessive alcohol intake?
+  - Any history of liver disease?
+key_exam_findings:
+  - Petechiae distribution (dependent areas)
+  - Wet purpura (buccal blood blisters = higher risk)
+  - Splenomegaly (portal hypertension, sequestration)
+  - Signs of liver disease
+  - No lymphadenopathy or hepatosplenomegaly in typical ITP
+  - Skin exam for heparin injection sites (HIT consideration)
+treatment_principles:
+  - Rule out pseudothrombocytopenia first
+  - ITP with platelets >30K and no bleeding - observe
+  - First-line ITP treatment - corticosteroids (prednisone or dexamethasone)
+  - IVIG for rapid platelet rise (before procedures or with serious bleeding)
+  - TPO receptor agonists (romiplostim, eltrombopag) for chronic ITP
+disposition_guidance:
+  - Outpatient for stable mild thrombocytopenia (platelets >30K, no bleeding)
+  - Admit for platelets <20K, active bleeding, or suspected TTP/HIT
+  - Hematology referral for all new ITP or persistent unexplained thrombocytopenia
+  - Close monitoring during initial steroid treatment

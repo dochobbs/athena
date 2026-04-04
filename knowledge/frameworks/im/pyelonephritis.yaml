@@ -1,0 +1,46 @@
+id: pyelonephritis
+topic: "Pyelonephritis"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Distinguish pyelonephritis from lower UTI by clinical features
+  - Determine which patients can be managed outpatient vs inpatient
+  - Identify complicated pyelonephritis requiring imaging
+  - Select appropriate empiric and definitive antibiotics
+common_mistakes:
+  - Treating as simple cystitis when systemic signs are present
+  - Not obtaining urine culture before starting antibiotics
+  - Missing obstructive uropathy requiring urgent decompression
+  - Using nitrofurantoin (does not achieve adequate renal tissue levels)
+red_flags:
+  - Sepsis or hemodynamic instability
+  - Obstructive uropathy (pyonephrosis) - urologic emergency
+  - Failure to improve after 48-72 hours of appropriate antibiotics
+  - Renal abscess or perinephric abscess on imaging
+clinical_pearls:
+  - CVA tenderness is the hallmark distinguishing feature from cystitis
+  - CT abdomen/pelvis with contrast is imaging of choice when needed
+  - Blood cultures are positive in ~20% of pyelonephritis cases
+  - Diabetic patients are at higher risk for emphysematous pyelonephritis
+key_history_questions:
+  - Flank pain, fever, chills, nausea/vomiting?
+  - Preceding lower urinary tract symptoms?
+  - History of kidney stones or urologic procedures?
+  - Diabetes or immunosuppression?
+  - Pregnant?
+  - Any recent antibiotics?
+key_exam_findings:
+  - CVA tenderness (usually unilateral)
+  - Fever, tachycardia
+  - Abdominal tenderness
+  - Signs of dehydration
+treatment_principles:
+  - Urine culture before antibiotics
+  - Fluoroquinolone or TMP-SMX for outpatient, ceftriaxone for inpatient
+  - Image if no improvement in 48-72 hours or concern for obstruction
+  - 7-14 day antibiotic course depending on agent and severity
+disposition_guidance:
+  - Outpatient if tolerating PO, non-toxic, no complicating factors
+  - Admit if septic, unable to tolerate oral, pregnant, or obstructed
+  - ICU if septic shock or hemodynamic instability

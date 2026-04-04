@@ -1,0 +1,104 @@
+id: aki_intrinsic
+display_name: "Intrinsic Acute Kidney Injury"
+aliases:
+  - Intrinsic AKI
+  - Acute tubular necrosis
+  - ATN
+  - Intrarenal AKI
+snomed: "35455006"
+icd10:
+  - "N17.0"
+  - "N17.1"
+  - "N17.2"
+category: acute
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 101.0]
+  hr_multiplier: 1.15
+  spo2_min: 92
+presentation:
+  symptoms:
+    - name: oliguria
+      probability: 0.80
+      description: "Decreased urine output or anuria in severe cases"
+    - name: edema
+      probability: 0.65
+      description: "Peripheral edema from fluid retention"
+    - name: nausea_vomiting
+      probability: 0.60
+      description: "Nausea and vomiting from uremia"
+    - name: fatigue
+      probability: 0.75
+      description: "Profound fatigue and malaise"
+    - name: dyspnea
+      probability: 0.45
+      description: "Shortness of breath from volume overload"
+    - name: confusion
+      probability: 0.35
+      description: "Uremic encephalopathy in severe cases"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Elevated JVP, S3 gallop if volume overloaded"
+      probability: 0.55
+    - system: respiratory
+      finding: "Bilateral crackles if pulmonary edema"
+      probability: 0.45
+    - system: skin
+      finding: "Peripheral edema, may have rash if interstitial nephritis"
+      probability: 0.60
+    - system: general
+      finding: "Ill-appearing, may have uremic frost in severe cases"
+      probability: 0.30
+diagnostics:
+  labs:
+    - name: Fractional excretion of sodium
+      loinc: "2164-2"
+      value_type: numeric
+      unit: "%"
+      normal_range_high: 1.0
+      abnormal_high_min: 2.0
+      abnormal_high_max: 10.0
+      probability_abnormal: 0.85
+    - name: Urine sodium
+      loinc: "2955-3"
+      value_type: numeric
+      unit: mEq/L
+      abnormal_high_min: 40
+      probability_abnormal: 0.80
+    - name: Urinalysis with microscopy
+      loinc: "24356-8"
+      value_type: categorical
+      finding: "Muddy brown granular casts (ATN), WBC casts (AIN), RBC casts (GN)"
+      probability_abnormal: 0.75
+treatment:
+  approach: supportive_and_cause_specific
+  medications:
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "20-80 mg IV, titrate to urine output"
+      route: iv
+      indication: "Volume overload management"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "1 mg/kg/day"
+      route: oral
+      indication: "Acute interstitial nephritis if biopsy-confirmed"
+    - agent: "Sodium Bicarbonate"
+      rxnorm: "9154"
+      frequency: "as needed for pH <7.2"
+      route: iv
+      indication: "Severe metabolic acidosis"
+  patient_instructions:
+    - Discontinue all nephrotoxic agents immediately
+    - Strict I/O monitoring with Foley catheter
+    - Daily weights and fluid balance assessment
+    - Nephrology consultation for biopsy consideration
+    - Monitor for hyperkalemia - ECG and serial potassium
+    - Consider renal replacement therapy if refractory

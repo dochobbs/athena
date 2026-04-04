@@ -1,0 +1,93 @@
+id: meningitis_neuro
+display_name: "Meningitis"
+aliases:
+  - Bacterial meningitis
+  - Viral meningitis
+  - Meningeal infection
+  - Leptomeningitis
+snomed: "7180009"
+icd10:
+  - "G03.9"
+  - "G00.9"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f:
+    - 101.0
+    - 104.5
+  hr_multiplier: 1.25
+  spo2_min: 93
+  bp_systolic:
+    - 90
+    - 140
+presentation:
+  symptoms:
+    - name: headache
+      probability: 0.90
+      description: "severe, diffuse, often worst headache of life"
+    - name: fever
+      probability: 0.85
+      description: "high-grade fever, often >101F"
+    - name: neck stiffness
+      probability: 0.80
+      description: "meningismus, pain with neck flexion"
+    - name: photophobia
+      probability: 0.60
+      description: "light sensitivity"
+    - name: altered mental status
+      probability: 0.50
+      description: "confusion, lethargy, obtundation"
+    - name: petechial rash
+      probability: 0.20
+      description: "associated with Neisseria meningitidis"
+  physical_exam:
+    - system: neurologic
+      finding: "Nuchal rigidity on passive neck flexion"
+      probability: 0.80
+    - system: neurologic
+      finding: "Positive Kernig sign (pain with knee extension when hip flexed)"
+      probability: 0.50
+    - system: neurologic
+      finding: "Positive Brudzinski sign (hip flexion with neck flexion)"
+      probability: 0.50
+    - system: skin
+      finding: "Petechial or purpuric rash (meningococcal)"
+      probability: 0.20
+    - system: neurologic
+      finding: "Altered level of consciousness"
+      probability: 0.50
+treatment:
+  approach: empiric_antibiotics_urgent
+  medications:
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "every 12 hours"
+      route: iv
+      indication: "empiric coverage for common bacterial pathogens"
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "coverage for resistant pneumococcus"
+    - agent: "Dexamethasone"
+      rxnorm: "3264"
+      frequency: "every 6 hours for 4 days"
+      route: iv
+      indication: "adjunctive steroid, give before or with first antibiotic dose"
+    - agent: "Ampicillin"
+      rxnorm: "733"
+      frequency: "every 4 hours"
+      route: iv
+      indication: "Listeria coverage in elderly or immunocompromised"
+    - agent: "Acyclovir"
+      rxnorm: "281"
+      frequency: "every 8 hours"
+      route: iv
+      indication: "empiric HSV encephalitis coverage if concern"

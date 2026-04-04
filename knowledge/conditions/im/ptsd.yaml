@@ -1,0 +1,74 @@
+id: ptsd
+display_name: "Post-Traumatic Stress Disorder"
+aliases:
+  - PTSD
+  - Trauma disorder
+  - Post-traumatic stress
+snomed: "47505003"
+icd10:
+  - "F43.10"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: intrusive memories
+      probability: 0.85
+      description: "flashbacks, nightmares, recurrent distressing memories"
+    - name: avoidance
+      probability: 0.80
+      description: "avoiding trauma reminders, places, people, activities"
+    - name: hyperarousal
+      probability: 0.75
+      description: "exaggerated startle, hypervigilance, irritability"
+    - name: negative mood changes
+      probability: 0.65
+      description: "emotional numbing, detachment, anhedonia"
+    - name: sleep disturbance
+      probability: 0.80
+      description: "nightmares, insomnia, night terrors"
+    - name: concentration difficulty
+      probability: 0.55
+      description: "poor focus, difficulty with tasks"
+  physical_exam:
+    - system: psychiatric
+      finding: "Hypervigilance, exaggerated startle during exam"
+      probability: 0.50
+    - system: psychiatric
+      finding: "Constricted or labile affect when discussing trauma"
+      probability: 0.60
+    - system: psychiatric
+      finding: "PCL-5 score >= 33"
+      probability: 0.70
+    - system: general
+      finding: "May have signs of comorbid substance use"
+      probability: 0.30
+treatment:
+  approach: psychotherapy_and_pharmacotherapy
+  medications:
+    - agent: "Sertraline"
+      rxnorm: "36437"
+      frequency: "once daily"
+      route: oral
+      indication: "FDA-approved SSRI for PTSD"
+    - agent: "Paroxetine"
+      rxnorm: "32937"
+      frequency: "once daily"
+      route: oral
+      indication: "FDA-approved SSRI for PTSD"
+    - agent: "Prazosin"
+      rxnorm: "8629"
+      frequency: "at bedtime"
+      route: oral
+      indication: "alpha-1 blocker for trauma-related nightmares"
+    - agent: "Venlafaxine"
+      rxnorm: "39786"
+      frequency: "once daily"
+      route: oral
+      indication: "SNRI alternative for PTSD"

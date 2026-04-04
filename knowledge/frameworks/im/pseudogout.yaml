@@ -1,0 +1,49 @@
+id: pseudogout
+topic: Pseudogout (CPPD)
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- Differentiate pseudogout from gout by crystal analysis (rhomboid, positively birefringent)
+- Recognize chondrocalcinosis on X-ray as a diagnostic clue
+- Identify metabolic conditions associated with CPPD
+- Understand that no disease-modifying therapy exists for CPPD
+common_mistakes:
+- Assuming all crystal arthropathy is gout without joint aspiration
+- Not checking calcium, magnesium, iron studies, and thyroid in young patients with
+  CPPD
+- Missing septic arthritis (can coexist with CPPD crystals)
+- Attributing bilateral knee OA in elderly to simple osteoarthritis when CPPD is present
+red_flags:
+- Fever with acute monoarthritis (rule out septic arthritis even with known CPPD)
+- Young patient with CPPD (screen for hemochromatosis, hyperparathyroidism, hypomagnesemia)
+- Polyarticular CPPD mimicking RA or sepsis
+clinical_pearls:
+- CPPD crystals are rhomboid-shaped and positively birefringent (blue when parallel)
+- Chondrocalcinosis on X-ray (calcification of cartilage) is characteristic but not
+  always present
+- Knee and wrist are the most commonly affected joints (unlike gout which favors 1st
+  MTP)
+- 'Screen for 4 Hs: Hemochromatosis, Hyperparathyroidism, Hypomagnesemia, Hypothyroidism'
+- No urate-lowering equivalent exists for CPPD
+key_history_questions:
+- Acute onset joint pain and swelling, especially knee or wrist?
+- Prior episodes of similar joint attacks?
+- Family history of chondrocalcinosis or hemochromatosis?
+- History of thyroid disease, parathyroid disease, or iron overload?
+- Any recent surgery or illness (trigger for pseudogout attack)?
+key_exam_findings:
+- Warm, swollen, tender joint (usually knee or wrist)
+- Joint effusion
+- Reduced range of motion
+- May have signs of underlying OA
+treatment_principles:
+- Joint aspiration for diagnosis (crystals) and therapeutic drainage
+- NSAIDs, colchicine, or corticosteroids for acute flares
+- Intra-articular steroid injection for monoarticular flare
+- Low-dose colchicine for recurrent flare prophylaxis
+- Treat underlying metabolic condition if identified
+disposition_guidance:
+- Outpatient for most cases
+- Arthrocentesis essential to rule out septic arthritis
+- Workup for metabolic causes in patients under 60

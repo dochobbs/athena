@@ -1,0 +1,79 @@
+id: delirium_vs_dementia
+display_name: "Delirium vs Dementia"
+aliases:
+  - Acute vs chronic confusion
+  - Delirium superimposed on dementia
+  - DSD
+  - Cognitive impairment differential
+snomed: "419567006"
+icd10:
+  - "F05"
+  - "F03.90"
+category: acute
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.05
+  temp_f:
+    - 97.0
+    - 101.0
+presentation:
+  symptoms:
+    - name: acute mental status change
+      probability: 0.70
+      description: "sudden onset confusion (delirium) vs insidious decline (dementia)"
+    - name: fluctuating attention
+      probability: 0.75
+      description: "waxing and waning (hallmark of delirium)"
+    - name: progressive memory loss
+      probability: 0.60
+      description: "gradual, insidious (hallmark of dementia)"
+    - name: visual hallucinations
+      probability: 0.25
+      description: "more common in delirium, also Lewy body dementia"
+    - name: sundowning
+      probability: 0.40
+      description: "worsening confusion in evening, both conditions"
+    - name: sleep-wake disturbance
+      probability: 0.55
+      description: "more acute in delirium, chronic in dementia"
+  physical_exam:
+    - system: neurologic
+      finding: "CAM positive (Confusion Assessment Method) in delirium"
+      probability: 0.80
+    - system: neurologic
+      finding: "Impaired attention on digit span testing"
+      probability: 0.75
+    - system: neurologic
+      finding: "MoCA or MMSE decline from baseline in dementia"
+      probability: 0.70
+    - system: neurologic
+      finding: "Asterixis suggesting metabolic encephalopathy"
+      probability: 0.10
+    - system: general
+      finding: "Signs of precipitating illness (UTI, pneumonia, constipation)"
+      probability: 0.50
+treatment:
+  approach: identify_reversible_causes
+  medications:
+    - agent: "Haloperidol"
+      rxnorm: "5093"
+      frequency: "low dose as needed for severe agitation"
+      route: oral
+      indication: "antipsychotic for severe agitation, not routine"
+    - agent: "Donepezil"
+      rxnorm: "135447"
+      frequency: "once daily"
+      route: oral
+      indication: "cholinesterase inhibitor for underlying dementia"
+    - agent: "Melatonin"
+      rxnorm: "6809"
+      frequency: "at bedtime"
+      route: oral
+      indication: "sleep-wake cycle normalization"

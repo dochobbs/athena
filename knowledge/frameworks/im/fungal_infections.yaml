@@ -1,0 +1,53 @@
+id: fungal_infections
+topic: Invasive Fungal Infections
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Identify patients at risk for invasive fungal disease (neutropenia, transplant,
+  ICU)
+- Differentiate endemic mycoses by geographic distribution
+- Know the antifungal spectrum (azoles, echinocandins, amphotericin B)
+- Understand diagnostic biomarkers (galactomannan, beta-D-glucan)
+- Recognize mucormycosis as a surgical emergency
+common_mistakes:
+- Not considering invasive fungal infection in prolonged neutropenic fever
+- Missing endemic mycosis due to failure to obtain travel history
+- Using fluconazole for Aspergillus (no activity)
+- Not checking drug levels for voriconazole (therapeutic drug monitoring required)
+- Forgetting azole-drug interactions (CYP450 inhibition)
+red_flags:
+- Persistent fever >4-7 days on broad-spectrum antibiotics in neutropenic patient
+- Halo sign or air crescent sign on CT (invasive aspergillosis)
+- Facial pain with black eschar in diabetic ketoacidosis (mucormycosis)
+- Rapidly progressive pneumonia in immunocompromised
+clinical_pearls:
+- 'Histoplasmosis: Ohio/Mississippi River Valley; bird/bat droppings'
+- 'Coccidioidomycosis: Southwestern US (Valley fever)'
+- 'Blastomycosis: Great Lakes/Ohio Valley; skin and lung involvement'
+- Beta-D-glucan is elevated in most invasive fungi EXCEPT Mucor and Crypto
+- Echinocandins have no CNS penetration
+key_history_questions:
+- Immunosuppression (neutropenia, transplant, high-dose steroids)?
+- Travel or residence in endemic fungal areas?
+- Occupational exposures (construction, farming, spelunking)?
+- Duration of neutropenia?
+- Diabetic ketoacidosis or iron overload (mucormycosis risk)?
+- Prophylactic antifungals currently in use?
+key_exam_findings:
+- Persistent fever despite antibiotics
+- Pulmonary infiltrates on imaging
+- Skin nodules or ulcers
+- Sinus tenderness with eschar (mucormycosis)
+- Hepatosplenomegaly (disseminated histoplasmosis)
+treatment_principles:
+- Voriconazole first-line for invasive aspergillosis
+- Echinocandins (micafungin, caspofungin) for candidemia in critically ill
+- Amphotericin B for mucormycosis plus urgent surgical debridement
+- Itraconazole for mild-moderate histoplasmosis
+- Therapeutic drug monitoring for voriconazole and posaconazole
+disposition_guidance:
+- Inpatient for all invasive fungal infections
+- ICU for hemodynamic instability or respiratory failure
+- Urgent surgical consultation for mucormycosis
+- ID consultation for all cases

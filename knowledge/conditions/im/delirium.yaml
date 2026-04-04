@@ -1,0 +1,76 @@
+id: delirium
+display_name: "Delirium"
+aliases:
+  - Acute confusional state
+  - Acute encephalopathy
+  - Altered mental status
+  - ICU psychosis
+snomed: "2776000"
+icd10:
+  - "R41.0"
+  - "F05"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.10
+  temp_f:
+    - 97.0
+    - 101.0
+presentation:
+  symptoms:
+    - name: acute onset confusion
+      probability: 0.95
+      description: "fluctuating inattention and disorientation"
+    - name: inattention
+      probability: 0.90
+      description: "inability to maintain focus, cardinal feature"
+    - name: disorganized thinking
+      probability: 0.70
+      description: "rambling speech, illogical flow of ideas"
+    - name: altered consciousness
+      probability: 0.60
+      description: "hyperalert (agitated) or hypoalert (quiet)"
+    - name: hallucinations
+      probability: 0.30
+      description: "visual hallucinations more common than auditory"
+    - name: sleep-wake disturbance
+      probability: 0.65
+      description: "sundowning, reversed sleep-wake cycle"
+  physical_exam:
+    - system: neurologic
+      finding: "Inattention on digit span or months-backward testing"
+      probability: 0.90
+    - system: neurologic
+      finding: "Fluctuating level of consciousness"
+      probability: 0.80
+    - system: neurologic
+      finding: "Asterixis if metabolic cause (hepatic, uremic)"
+      probability: 0.15
+    - system: general
+      finding: "Signs of underlying cause: fever, urinary retention, fecal impaction"
+      probability: 0.50
+treatment:
+  approach: identify_and_treat_cause
+  medications:
+    - agent: "Haloperidol"
+      rxnorm: "5093"
+      frequency: "every 4-6 hours as needed"
+      route: iv
+      indication: "low-dose for severe agitation, not routine"
+    - agent: "Quetiapine"
+      rxnorm: "51272"
+      frequency: "at bedtime"
+      route: oral
+      indication: "alternative antipsychotic for hyperactive delirium"
+    - agent: "Melatonin"
+      rxnorm: "6809"
+      frequency: "at bedtime"
+      route: oral
+      indication: "sleep-wake cycle restoration"

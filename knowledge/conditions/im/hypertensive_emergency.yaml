@@ -1,0 +1,86 @@
+id: hypertensive_emergency
+display_name: "Hypertensive Emergency"
+aliases:
+  - Hypertensive crisis
+  - Malignant hypertension
+  - Hypertensive urgency with end-organ damage
+snomed: "706882009"
+icd10:
+  - "I16.1"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.15
+  rr_multiplier: 1.10
+  bp_systolic:
+    - 180
+    - 250
+  bp_diastolic:
+    - 120
+    - 150
+presentation:
+  symptoms:
+    - name: headache
+      probability: 0.75
+      description: "severe headache, often occipital"
+    - name: visual changes
+      probability: 0.50
+      description: "blurred vision, scotomata"
+    - name: chest pain
+      probability: 0.40
+      description: "may indicate aortic dissection or ACS"
+    - name: dyspnea
+      probability: 0.45
+      description: "from flash pulmonary edema"
+    - name: altered mental status
+      probability: 0.30
+      description: "confusion, somnolence from hypertensive encephalopathy"
+    - name: nausea_vomiting
+      probability: 0.35
+      description: "from elevated intracranial pressure"
+  physical_exam:
+    - system: cardiovascular
+      finding: "BP >180/120 with evidence of end-organ damage"
+      probability: 1.0
+    - system: ophthalmologic
+      finding: "Papilledema, flame hemorrhages, cotton wool spots"
+      probability: 0.55
+    - system: neurologic
+      finding: "Focal deficits or altered sensorium"
+      probability: 0.30
+    - system: respiratory
+      finding: "Crackles from pulmonary edema"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "S3 gallop indicating acute heart failure"
+      probability: 0.30
+treatment:
+  approach: iv_antihypertensive
+  medications:
+    - agent: "Nicardipine"
+      rxnorm: "7417"
+      frequency: "5-15 mg/hr IV infusion"
+      route: iv
+      indication: "first-line IV drip, easily titratable"
+    - agent: "Labetalol"
+      rxnorm: "6185"
+      frequency: "20 mg IV bolus then 2 mg/min infusion"
+      route: iv
+      indication: "first-line if aortic dissection suspected"
+    - agent: "Nitroglycerin"
+      rxnorm: "7512"
+      frequency: "5-200 mcg/min IV infusion"
+      route: iv
+      indication: "preferred if acute pulmonary edema or ACS"
+    - agent: "Nitroprusside"
+      rxnorm: "7513"
+      frequency: "0.3-10 mcg/kg/min IV infusion"
+      route: iv
+      indication: "refractory cases, monitor cyanide toxicity"

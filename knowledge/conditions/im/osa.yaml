@@ -1,0 +1,68 @@
+id: osa
+display_name: "Obstructive Sleep Apnea"
+aliases:
+  - OSA
+  - Sleep apnea
+  - Sleep-disordered breathing
+snomed: "78275009"
+icd10:
+  - "G47.33"
+category: chronic
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  bp_systolic:
+    - 130
+    - 160
+presentation:
+  symptoms:
+    - name: excessive_daytime_sleepiness
+      probability: 0.80
+      description: "Epworth Sleepiness Scale elevated"
+    - name: snoring
+      probability: 0.90
+      description: "loud habitual snoring, often with witnessed apneas"
+    - name: witnessed_apneas
+      probability: 0.70
+      description: "bed partner reports breathing pauses"
+    - name: morning_headaches
+      probability: 0.40
+      description: "headaches on waking"
+    - name: nocturia
+      probability: 0.35
+      description: "frequent nighttime urination"
+    - name: unrefreshing_sleep
+      probability: 0.65
+      description: "waking feeling unrefreshed"
+  physical_exam:
+    - system: general
+      finding: "Obesity, BMI often >30"
+      probability: 0.70
+    - system: ent
+      finding: "Crowded oropharynx, Mallampati III-IV"
+      probability: 0.60
+    - system: ent
+      finding: "Large neck circumference (>17 in males, >16 in females)"
+      probability: 0.55
+    - system: cardiovascular
+      finding: "Hypertension"
+      probability: 0.50
+    - system: ent
+      finding: "Retrognathia or micrognathia"
+      probability: 0.15
+treatment:
+  approach: cpap_and_lifestyle_modification
+  medications:
+    - agent: "CPAP therapy"
+      rxnorm: "NA"
+      frequency: "nightly"
+      route: oral
+      indication: "first-line treatment, mainstay of therapy"

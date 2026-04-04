@@ -1,0 +1,87 @@
+id: hypercalcemia
+display_name: "Hypercalcemia"
+aliases:
+  - Elevated calcium
+  - High calcium
+  - Hypercalcaemia
+snomed: "66931009"
+icd10:
+  - "E83.52"
+category: acute
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.70
+      description: "Weakness and fatigue"
+    - name: nausea_vomiting
+      probability: 0.50
+      description: "Nausea, vomiting, anorexia"
+    - name: constipation
+      probability: 0.55
+      description: "Constipation from smooth muscle hypotonia"
+    - name: polyuria
+      probability: 0.45
+      description: "Nephrogenic diabetes insipidus causing polyuria and polydipsia"
+    - name: confusion
+      probability: 0.40
+      description: "Altered mental status, confusion, lethargy"
+    - name: bone_pain
+      probability: 0.30
+      description: "Bone pain, especially if malignancy"
+    - name: abdominal_pain
+      probability: 0.35
+      description: "Abdominal pain, may trigger pancreatitis"
+  physical_exam:
+    - system: neurological
+      finding: "Altered mental status, hyporeflexia, confusion"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Shortened QT on ECG, bradycardia in severe cases"
+      probability: 0.35
+    - system: general
+      finding: "Dehydration from polyuria"
+      probability: 0.45
+    - system: abdomen
+      finding: "Decreased bowel sounds, constipation"
+      probability: 0.40
+treatment:
+  approach: iv_fluids_and_targeted_therapy
+  medications:
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "200-300 mL/hr initially"
+      route: iv
+      indication: "Volume expansion and calciuresis"
+    - agent: "Zoledronic Acid"
+      rxnorm: "77307"
+      frequency: "4 mg IV over 15 minutes"
+      route: iv
+      indication: "Bisphosphonate for malignancy-associated hypercalcemia"
+    - agent: "Calcitonin"
+      rxnorm: "1485"
+      frequency: "4 IU/kg subcutaneous or IM every 12 hours"
+      route: subcutaneous
+      indication: "Rapid but short-lived calcium lowering (bridge to bisphosphonate)"
+    - agent: "Denosumab"
+      rxnorm: "993449"
+      frequency: "120 mg subcutaneous"
+      route: subcutaneous
+      indication: "Refractory hypercalcemia of malignancy"
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "20-40 mg IV (only after volume repletion)"
+      route: iv
+      indication: "Enhance calciuresis after adequate hydration"

@@ -1,0 +1,80 @@
+id: hypertension
+display_name: "Hypertension"
+aliases:
+  - High blood pressure
+  - HTN
+  - Essential hypertension
+snomed: "38341003"
+icd10:
+  - "I10"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  bp_systolic:
+    - 140
+    - 180
+  bp_diastolic:
+    - 90
+    - 110
+presentation:
+  symptoms:
+    - name: headache
+      probability: 0.30
+      description: "occipital headache, often morning"
+    - name: asymptomatic
+      probability: 0.60
+      description: "most patients have no symptoms at diagnosis"
+    - name: dizziness
+      probability: 0.20
+      description: "lightheadedness or unsteadiness"
+    - name: visual changes
+      probability: 0.10
+      description: "blurred vision with severe HTN"
+    - name: epistaxis
+      probability: 0.10
+      description: "nosebleeds, not clearly causal"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Elevated blood pressure on repeated measurements"
+      probability: 1.0
+    - system: cardiovascular
+      finding: "S4 gallop if longstanding LVH"
+      probability: 0.20
+    - system: ophthalmologic
+      finding: "Arteriolar narrowing, AV nicking on fundoscopy"
+      probability: 0.25
+    - system: vascular
+      finding: "Abdominal bruit suggesting renal artery stenosis"
+      probability: 0.05
+treatment:
+  approach: antihypertensive_therapy
+  medications:
+    - agent: "Lisinopril"
+      rxnorm: "29046"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line ACE inhibitor, especially with DM or CKD"
+    - agent: "Amlodipine"
+      rxnorm: "17767"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line CCB, especially in Black patients or elderly"
+    - agent: "Hydrochlorothiazide"
+      rxnorm: "5487"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line thiazide diuretic"
+    - agent: "Losartan"
+      rxnorm: "52175"
+      frequency: "once daily"
+      route: oral
+      indication: "ARB alternative if ACE inhibitor cough"

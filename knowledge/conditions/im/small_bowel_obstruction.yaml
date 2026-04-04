@@ -1,0 +1,75 @@
+id: small_bowel_obstruction
+display_name: "Small Bowel Obstruction"
+aliases:
+  - SBO
+  - Bowel obstruction
+  - Intestinal obstruction
+snomed: "81060008"
+icd10:
+  - "K56.60"
+  - "K56.69"
+category: acute
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 101.0]
+  hr_multiplier: 1.20
+  rr_multiplier: 1.10
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: abdominal_pain
+      probability: 0.95
+      description: "Crampy, colicky abdominal pain that waxes and wanes"
+    - name: nausea_vomiting
+      probability: 0.90
+      description: "Vomiting, may become feculent in distal obstruction"
+    - name: abdominal_distension
+      probability: 0.80
+      description: "Progressive abdominal bloating"
+    - name: obstipation
+      probability: 0.70
+      description: "Inability to pass flatus or stool (complete obstruction)"
+    - name: anorexia
+      probability: 0.60
+      description: "Complete loss of appetite"
+  physical_exam:
+    - system: abdomen
+      finding: "Distension, diffuse tenderness, high-pitched or absent bowel sounds"
+      probability: 0.85
+    - system: abdomen
+      finding: "Prior surgical scars (adhesions are #1 cause)"
+      probability: 0.60
+    - system: abdomen
+      finding: "Peritoneal signs suggest strangulation or perforation"
+      probability: 0.15
+    - system: general
+      finding: "Dehydration, tachycardia"
+      probability: 0.55
+    - system: inguinal
+      finding: "Check for incarcerated hernias"
+      probability: 0.15
+treatment:
+  approach: npo_ngt_and_monitoring
+  medications:
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "Aggressive IV resuscitation"
+      route: iv
+      indication: "Volume resuscitation and electrolyte correction"
+    - agent: "Ondansetron"
+      rxnorm: "26225"
+      frequency: "4 mg IV every 6 hours PRN"
+      route: iv
+      indication: "Antiemetic"
+    - agent: "Piperacillin/Tazobactam"
+      rxnorm: "8339"
+      frequency: "3.375 g IV every 6 hours"
+      route: iv
+      indication: "Antibiotic if strangulation or perforation suspected"

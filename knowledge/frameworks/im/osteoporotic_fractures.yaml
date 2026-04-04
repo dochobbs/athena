@@ -1,0 +1,53 @@
+id: osteoporotic_fractures
+topic: "Osteoporotic Fractures"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Identify patients requiring DEXA screening (women >65, men >70, younger with risk factors)
+  - Interpret DEXA T-scores and FRAX 10-year fracture risk
+  - Initiate appropriate pharmacotherapy based on fracture risk
+  - Recognize vertebral compression fractures and hip fractures as sentinel events
+  - Implement fall prevention as part of fracture prevention
+common_mistakes:
+  - Not screening for osteoporosis after low-trauma fracture
+  - Starting treatment without checking calcium, vitamin D, and renal function
+  - Not counseling on bisphosphonate administration (empty stomach, upright 30 minutes)
+  - Missing secondary causes of osteoporosis (vitamin D deficiency, hyperthyroidism, steroid use)
+  - Stopping bisphosphonates after 3-5 years without reassessment (drug holiday criteria)
+red_flags:
+  - Hip fracture (1-year mortality 20-30% in elderly)
+  - Multiple vertebral compression fractures
+  - Fracture on bisphosphonate therapy (treatment failure)
+  - Atypical femur fracture (stress fracture of femoral shaft on long-term bisphosphonate)
+  - Osteonecrosis of jaw with bisphosphonate use
+clinical_pearls:
+  - "T-score: -1 to -2.5 = osteopenia; <= -2.5 = osteoporosis"
+  - "FRAX: treat if 10-year hip fracture risk >3% or major osteoporotic fracture risk >20%"
+  - "After hip fracture, 20% of patients die within 1 year; it is a medical emergency"
+  - "Bisphosphonate holiday after 5 years of oral or 3 years of IV therapy; reassess risk"
+  - "Teriparatide (anabolic) before bisphosphonate (antiresorptive) sequence may be more effective"
+key_history_questions:
+  - "Have you had a fracture from a minor fall or no trauma?"
+  - "Have you had a DEXA scan? What were the results?"
+  - "Do you take calcium and vitamin D supplements?"
+  - "Are you or have you been on long-term steroids?"
+  - "Family history of osteoporosis or hip fracture?"
+  - "Do you smoke or drink more than 3 alcoholic drinks per day?"
+key_exam_findings:
+  - "Height measurement (loss >1.5 inches suggests vertebral fractures)"
+  - "Thoracic kyphosis (dowager hump)"
+  - "Point tenderness over spine (compression fracture)"
+  - "Hip exam: log roll test for occult fracture"
+  - "Assessment of fall risk and gait"
+treatment_principles:
+  - "Calcium 1200mg/day and vitamin D 800-1000 IU/day for all"
+  - "Bisphosphonates first-line (alendronate weekly, zoledronic acid yearly)"
+  - "Denosumab for bisphosphonate-intolerant patients (do NOT stop abruptly)"
+  - "Teriparatide for severe osteoporosis or bisphosphonate failure"
+  - "Fall prevention is as important as pharmacotherapy"
+disposition_guidance:
+  - "Outpatient DEXA and treatment initiation for osteoporosis"
+  - "Urgent orthopedic consultation for hip fractures (surgery within 48 hours)"
+  - "Post-fracture osteoporosis treatment is mandatory (fracture liaison service)"
+  - "Endocrinology referral for treatment-refractory or secondary osteoporosis"

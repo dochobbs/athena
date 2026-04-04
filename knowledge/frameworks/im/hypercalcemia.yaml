@@ -1,0 +1,54 @@
+id: hypercalcemia
+topic: "Hypercalcemia"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Know the two most common causes (primary hyperparathyroidism and malignancy account for >90%)
+  - Use the mnemonic "Stones, bones, groans, and psychiatric overtones"
+  - Understand the approach to diagnosis (PTH-dependent vs PTH-independent)
+  - Master acute management (IV fluids, bisphosphonates, calcitonin)
+  - Differentiate mild from severe hypercalcemia by calcium level
+common_mistakes:
+  - Not correcting calcium for albumin (corrected Ca = measured Ca + 0.8 x (4.0 - albumin))
+  - Giving furosemide before adequate volume repletion
+  - Missing malignancy as the cause (PTHrP-mediated or osteolytic)
+  - Not checking ionized calcium when total calcium is borderline
+  - Forgetting to check PTH as the key branching point in workup
+red_flags:
+  - Calcium >14 mg/dL (severe, life-threatening)
+  - Altered mental status or coma
+  - Short QT or cardiac arrhythmias on ECG
+  - Acute kidney injury
+  - New diagnosis of malignancy as cause
+clinical_pearls:
+  - "PTH elevated = primary hyperparathyroidism. PTH suppressed = malignancy (or other)."
+  - "Primary hyperparathyroidism: usually mild, chronic, outpatient management"
+  - "Malignancy-associated hypercalcemia: usually severe, acute, poor prognosis"
+  - "IV normal saline is ALWAYS the first treatment step"
+  - "Calcitonin works fast (hours) but tachyphylaxis in 48h; bisphosphonates take 2-4 days"
+key_history_questions:
+  - Known malignancy?
+  - Bone pain?
+  - Constipation, nausea, abdominal pain?
+  - Polyuria and polydipsia?
+  - Confusion or depression?
+  - Kidney stones?
+key_exam_findings:
+  - Dehydration
+  - Altered mental status
+  - Shortened QT on ECG
+  - Abdominal tenderness
+  - Bone tenderness
+  - Band keratopathy on eye exam (chronic hypercalcemia)
+treatment_principles:
+  - IV NS aggressively (200-300 mL/hr) for volume expansion and calciuresis
+  - Zoledronic acid 4 mg IV for moderate-severe (onset 2-4 days)
+  - Calcitonin for immediate bridge therapy (works in hours, wears off in 48h)
+  - Treat underlying cause (parathyroidectomy for PHPT, cancer treatment for malignancy)
+  - Denosumab for refractory cases
+disposition_guidance:
+  - "Outpatient: Mild asymptomatic hypercalcemia (Ca <12), PHPT monitoring"
+  - "Admission: Ca >12 with symptoms, severe >14"
+  - "ICU: Severe hypercalcemia with AMS, cardiac arrhythmias"
+  - "Surgery: Parathyroidectomy for symptomatic PHPT"

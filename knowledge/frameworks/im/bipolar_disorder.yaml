@@ -1,0 +1,53 @@
+id: bipolar_disorder
+topic: "Bipolar Disorder"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Differentiate bipolar I (mania) from bipolar II (hypomania) from MDD
+  - Understand that SSRI monotherapy can trigger mania in bipolar patients
+  - Know first-line mood stabilizers and their monitoring requirements
+  - Recognize mania as a psychiatric emergency requiring hospitalization
+  - Screen for bipolar in all patients presenting with depression
+common_mistakes:
+  - Starting SSRI monotherapy without screening for bipolar history
+  - Confusing hypomania with normal mood improvement after depression
+  - Not monitoring lithium levels, renal function, and thyroid regularly
+  - Discharging manic patients too early before mood stabilization
+  - Missing mixed features (mania with concurrent depressive symptoms)
+red_flags:
+  - Acute mania with psychosis or dangerous behavior
+  - Rapid cycling (4+ episodes/year, often medication-induced)
+  - Suicidal ideation (bipolar has 20-30x general population suicide risk)
+  - SSRI-induced mania or hypomania
+  - Lithium toxicity (tremor, ataxia, confusion, renal failure)
+clinical_pearls:
+  - "Average delay from symptom onset to bipolar diagnosis is 5-10 years"
+  - "Bipolar depression is 3x more common than mania; patients present more often depressed"
+  - "DIG FAST mnemonic for mania: Distractibility, Impulsivity, Grandiosity, Flight of ideas, Activity increase, Sleep decrease, Talkativeness"
+  - "Lithium is the only mood stabilizer with proven anti-suicide properties"
+  - "Lamotrigine is first-line for bipolar depression prevention (slow titration to avoid SJS)"
+key_history_questions:
+  - "Have you ever had a period when you felt on top of the world or had way more energy than usual?"
+  - "During those times, did you need less sleep?"
+  - "Did you do things that were unusual for you (spending sprees, risky sex, big plans)?"
+  - "How long did the elevated period last (>4 days = hypomania, >7 days = mania)?"
+  - "Family history of bipolar disorder?"
+  - "Any history of psychosis?"
+key_exam_findings:
+  - "Pressured speech and flight of ideas"
+  - "Elevated, expansive, or irritable mood"
+  - "Psychomotor agitation or hyperactivity"
+  - "Grandiose or paranoid delusions if psychotic"
+  - "Poor grooming during depressive episodes"
+treatment_principles:
+  - "Mood stabilizer first-line: lithium or valproate for acute mania"
+  - "Atypical antipsychotics (quetiapine, olanzapine) effective for acute mania and bipolar depression"
+  - "Lamotrigine for bipolar depression prophylaxis (titrate slowly)"
+  - "Never use antidepressant monotherapy; always pair with mood stabilizer"
+  - "Monitor lithium levels (0.6-1.2), renal function, and TSH regularly"
+disposition_guidance:
+  - "Inpatient admission for acute mania, especially with psychosis or danger"
+  - "Outpatient management for stable patients on mood stabilizers"
+  - "Psychiatry co-management essential"
+  - "Regular lab monitoring for lithium and valproate"

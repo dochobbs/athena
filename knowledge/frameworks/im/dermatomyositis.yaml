@@ -1,0 +1,54 @@
+id: dermatomyositis
+topic: "Dermatomyositis"
+category: rheumatology
+specialties:
+  - im
+teaching_goals:
+  - Recognize pathognomonic skin findings (heliotrope rash, Gottron papules)
+  - Distinguish inflammatory myopathy from other causes of weakness
+  - Understand the association with malignancy (screen age-appropriately)
+  - Know the diagnostic workup (CK, EMG, MRI, biopsy)
+  - Identify interstitial lung disease as a serious complication
+common_mistakes:
+  - Missing the malignancy association (especially in adults >40)
+  - Confusing proximal weakness with deconditioning or fibromyalgia
+  - Not checking anti-Jo-1 and anti-MDA5 antibodies (associated with ILD)
+  - Relying solely on CK (can be normal in amyopathic dermatomyositis)
+  - Not monitoring pulmonary function for ILD
+red_flags:
+  - Rapidly progressive weakness with respiratory muscle involvement
+  - Dysphagia with aspiration risk
+  - Anti-MDA5 positive with rapidly progressive ILD
+  - New malignancy symptoms in adult-onset dermatomyositis
+  - CK >10x normal with myoglobinuria (rhabdomyolysis risk)
+clinical_pearls:
+  - Heliotrope rash and Gottron papules are pathognomonic for dermatomyositis
+  - Anti-Jo-1 antibody is associated with antisynthetase syndrome (ILD, arthritis, mechanic's hands)
+  - Age-appropriate cancer screening is mandatory (risk highest in first 3 years)
+  - Amyopathic dermatomyositis has skin findings but no weakness
+  - MRI of thigh muscles can show inflammation and guide biopsy site
+key_history_questions:
+  - Progressive proximal weakness (difficulty climbing stairs, rising from chair, reaching overhead)?
+  - Skin rash, especially around eyes or over knuckles?
+  - Difficulty swallowing?
+  - Shortness of breath or cough (ILD)?
+  - Weight loss or other symptoms suggesting malignancy?
+  - Any new medications (statin myopathy mimic)?
+key_exam_findings:
+  - Heliotrope rash (violaceous periorbital edema)
+  - Gottron papules over MCPs, PIPs, knuckles
+  - Proximal muscle weakness (hip flexors, deltoids)
+  - V-sign and shawl sign
+  - Mechanic's hands
+  - Calcinosis (more common in juvenile form)
+treatment_principles:
+  - High-dose prednisone for induction
+  - Steroid-sparing agent early (methotrexate, azathioprine, mycophenolate)
+  - IVIG for refractory disease or when steroids contraindicated
+  - Age-appropriate malignancy screening
+  - Physical therapy to maintain strength during active disease
+disposition_guidance:
+  - Outpatient for mild-moderate disease with rheumatology follow-up
+  - Admit for severe weakness, dysphagia with aspiration risk, or ILD
+  - Oncology referral if malignancy detected
+  - Pulmonology consultation for ILD

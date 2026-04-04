@@ -1,0 +1,52 @@
+id: diabetic_skin_complications
+topic: "Diabetic Skin Complications"
+category: dermatology
+specialties:
+  - im
+teaching_goals:
+  - Identify common diabetic dermatologic manifestations
+  - Recognize acanthosis nigricans as a marker of insulin resistance
+  - Manage diabetic foot ulcers with a multidisciplinary approach
+  - Understand the pathophysiology linking diabetes to skin disease
+  - Screen for and prevent diabetic foot complications
+common_mistakes:
+  - Missing acanthosis nigricans as a screening opportunity for diabetes
+  - Not performing daily foot exams in diabetic patients
+  - Using adhesive dressings on neuropathic skin (causes injury)
+  - Treating diabetic foot infections without adequate debridement
+  - Not assessing vascular supply (ABI) before wound management
+red_flags:
+  - Infected diabetic foot ulcer with signs of osteomyelitis (probe-to-bone test positive)
+  - Necrotizing fasciitis in diabetic patient (rapidly spreading erythema, crepitus)
+  - Non-healing ulcer >4 weeks despite appropriate care (biopsy to rule out malignancy)
+  - Wet gangrene requiring urgent surgical evaluation
+clinical_pearls:
+  - "Acanthosis nigricans is present in up to 74% of obese patients; screen for diabetes"
+  - "Diabetic dermopathy (shin spots) is the most common diabetic skin finding"
+  - "Probe-to-bone test: if a sterile probe reaches bone through an ulcer, osteomyelitis is likely"
+  - "Necrobiosis lipoidica occurs almost exclusively in diabetic patients"
+  - "Glycemic control is the foundation of all diabetic skin complication management"
+key_history_questions:
+  - "How long have you had diabetes and what is your recent A1c?"
+  - "Do you check your feet daily?"
+  - "Any numbness or tingling in your feet?"
+  - "How long has the skin lesion or ulcer been present?"
+  - "Any history of previous foot ulcers or amputations?"
+  - "Do you see a podiatrist regularly?"
+key_exam_findings:
+  - "Acanthosis nigricans in neck folds and axillae"
+  - "Diabetic dermopathy on bilateral shins"
+  - "Foot exam: sensation (monofilament), pulses, skin integrity"
+  - "Ulcer assessment: depth, probe-to-bone, surrounding cellulitis"
+  - "Candidal intertrigo in skin folds"
+treatment_principles:
+  - "Optimize glycemic control as foundation of all treatment"
+  - "Diabetic foot ulcer: offloading, wound care, infection management"
+  - "Monofilament testing at every visit for neuropathy screening"
+  - "Antifungal therapy for candidal infections"
+  - "Multidisciplinary approach: endocrinology, podiatry, vascular surgery, wound care"
+disposition_guidance:
+  - "Outpatient management for most diabetic skin findings"
+  - "Admit for infected foot ulcers with systemic signs or osteomyelitis"
+  - "Urgent vascular surgery referral for critical limb ischemia"
+  - "Podiatry referral for all diabetic patients"

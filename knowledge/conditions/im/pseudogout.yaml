@@ -1,0 +1,71 @@
+id: pseudogout
+display_name: "Pseudogout (CPPD)"
+aliases:
+  - Calcium pyrophosphate deposition disease
+  - CPPD
+  - Chondrocalcinosis
+  - Calcium pyrophosphate arthritis
+snomed: "53286005"
+icd10:
+  - "M11.20"
+  - "M11.29"
+category: acute
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [98.6, 101.0]
+  hr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: acute_joint_pain
+      probability: 0.90
+      description: "acute onset joint pain, often knee or wrist"
+    - name: joint_swelling
+      probability: 0.85
+      description: "swelling and warmth of affected joint"
+    - name: limited_range_of_motion
+      probability: 0.80
+      description: "reduced mobility of affected joint"
+    - name: fever
+      probability: 0.25
+      description: "low-grade fever during acute flare"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Warm, swollen, tender knee or wrist"
+      probability: 0.85
+    - system: musculoskeletal
+      finding: "Joint effusion"
+      probability: 0.75
+    - system: musculoskeletal
+      finding: "Usually monoarticular or oligoarticular"
+      probability: 0.80
+treatment:
+  approach: anti_inflammatory_therapy
+  medications:
+    - agent: "Colchicine"
+      rxnorm: "2683"
+      frequency: "twice daily"
+      route: oral
+      indication: "acute flare and prophylaxis"
+    - agent: "Naproxen"
+      rxnorm: "7258"
+      frequency: "twice daily"
+      route: oral
+      indication: "NSAID for acute flare"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily taper"
+      route: oral
+      indication: "systemic steroid when NSAIDs/colchicine contraindicated"
+    - agent: "Triamcinolone"
+      rxnorm: "10759"
+      frequency: "single intra-articular injection"
+      route: intra-articular
+      indication: "monoarticular flare"

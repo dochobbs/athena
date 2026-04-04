@@ -1,0 +1,55 @@
+id: acute_respiratory_failure
+topic: Acute Respiratory Failure
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Classify as Type 1 (hypoxemic) vs Type 2 (hypercapnic)
+- Apply Berlin criteria for ARDS diagnosis
+- Know the oxygen delivery devices and their capabilities
+- Understand indications for NIV vs intubation
+- Apply lung-protective ventilation strategies
+common_mistakes:
+- Delaying intubation while escalating oxygen devices
+- Using high-flow O2 in COPD without monitoring for CO2 retention
+- Not recognizing ARDS because CXR looks like pulmonary edema
+- Setting tidal volume too high on mechanical ventilation
+- Forgetting to address the underlying cause while managing respiratory support
+red_flags:
+- Worsening respiratory distress despite high-flow oxygen or NIV
+- Paradoxical abdominal breathing (diaphragm fatigue)
+- Altered mental status from hypoxia or hypercapnia
+- Refractory hypoxemia (PaO2/FiO2 <100 = severe ARDS)
+- Hemodynamic instability
+clinical_pearls:
+- 'Type 1 (hypoxemic): PaO2 <60, responds to supplemental O2 unless shunt physiology'
+- 'Type 2 (hypercapnic): PaCO2 >45 with acidosis, often responds to NIV'
+- 'ARDS Berlin criteria: acute onset, bilateral opacities, PaO2/FiO2 <300, not fully
+  explained by HF'
+- 'Lung-protective ventilation: Vt 6 mL/kg IBW, plateau pressure <30 cmH2O'
+- Prone positioning improves mortality in moderate-severe ARDS (PaO2/FiO2 <150)
+key_history_questions:
+- When did the breathing difficulty start?
+- What were you doing when it started?
+- Any recent infection, aspiration, or trauma?
+- History of COPD, asthma, heart failure, or neuromuscular disease?
+- Current medications and allergies?
+- Code status and advance directives?
+key_exam_findings:
+- Respiratory rate, pattern, and work of breathing
+- Oxygen saturation and response to supplemental O2
+- Accessory muscle use, paradoxical breathing
+- Lung auscultation (crackles, wheezes, absent sounds)
+- Mental status (indicator of severity)
+- Hemodynamic assessment
+treatment_principles:
+- Escalate oxygen support (nasal cannula, high-flow, NIV, intubation)
+- Treat underlying cause simultaneously
+- Lung-protective ventilation for ARDS
+- Prone positioning for moderate-severe ARDS
+- Conservative fluid management in ARDS
+disposition_guidance:
+- ICU admission for all patients requiring >6L O2 or NIV
+- Immediate intubation for impending respiratory arrest
+- Step-down unit for stable patients on high-flow nasal cannula
+- Prolonged recovery expected for ARDS survivors

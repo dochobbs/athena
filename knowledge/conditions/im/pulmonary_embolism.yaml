@@ -1,0 +1,91 @@
+id: pulmonary_embolism
+display_name: "Pulmonary Embolism"
+aliases:
+  - PE
+  - Pulmonary thromboembolism
+  - Blood clot in lung
+snomed: "59282003"
+icd10:
+  - "I26.99"
+  - "I26.09"
+  - "I26.90"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.30
+  rr_multiplier: 1.35
+  spo2_min: 85
+presentation:
+  symptoms:
+    - name: dyspnea
+      probability: 0.80
+      description: "sudden onset dyspnea, most common symptom"
+    - name: pleuritic_chest_pain
+      probability: 0.55
+      description: "sharp chest pain worse with inspiration"
+    - name: cough
+      probability: 0.25
+      description: "non-productive cough"
+    - name: hemoptysis
+      probability: 0.15
+      description: "blood-tinged sputum from pulmonary infarction"
+    - name: leg_swelling
+      probability: 0.35
+      description: "concurrent DVT symptoms"
+    - name: syncope
+      probability: 0.15
+      description: "from massive PE with hemodynamic compromise"
+    - name: tachycardia
+      probability: 0.60
+      description: "resting tachycardia"
+  physical_exam:
+    - system: respiratory
+      finding: "Tachypnea, often clear lungs despite hypoxemia"
+      probability: 0.75
+    - system: cardiovascular
+      finding: "Tachycardia, loud P2"
+      probability: 0.65
+    - system: cardiovascular
+      finding: "RV heave, elevated JVP (massive PE)"
+      probability: 0.20
+    - system: extremities
+      finding: "Unilateral leg swelling from concurrent DVT"
+      probability: 0.35
+    - system: cardiovascular
+      finding: "Hypotension (massive PE)"
+      probability: 0.10
+treatment:
+  approach: anticoagulation_and_risk_stratification
+  medications:
+    - agent: "Heparin"
+      rxnorm: "5224"
+      frequency: "80 U/kg bolus then 18 U/kg/hr"
+      route: iv
+      indication: "initial anticoagulation for hemodynamically significant PE"
+    - agent: "Enoxaparin"
+      rxnorm: "67108"
+      frequency: "1 mg/kg SC q12h"
+      route: iv
+      indication: "initial anticoagulation for stable PE"
+    - agent: "Rivaroxaban"
+      rxnorm: "1114195"
+      frequency: "15 mg BID x21 days then 20 mg daily"
+      route: oral
+      indication: "oral anticoagulation, no bridging needed"
+    - agent: "Apixaban"
+      rxnorm: "1364430"
+      frequency: "10 mg BID x7 days then 5 mg BID"
+      route: oral
+      indication: "oral anticoagulation, no bridging needed"
+    - agent: "Alteplase"
+      rxnorm: "8410"
+      frequency: "100 mg IV over 2 hours"
+      route: iv
+      indication: "systemic thrombolysis for massive PE with hemodynamic instability"

@@ -1,0 +1,52 @@
+id: status_epilepticus
+topic: "Status Epilepticus"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Define status epilepticus (seizure >5 min or recurrent without recovery)
+  - Execute staged treatment algorithm (benzo, second-line AED, anesthetic)
+  - Recognize non-convulsive status epilepticus
+  - Identify and treat underlying causes
+  - Monitor for complications (rhabdomyolysis, aspiration, metabolic acidosis)
+common_mistakes:
+  - Underdosing benzodiazepines in the first stage
+  - Delaying second-line AED while repeating benzodiazepines
+  - Missing non-convulsive SE (subtle motor signs, unexplained coma)
+  - Not checking glucose as a reversible cause immediately
+  - Failing to monitor airway and prepare for intubation
+red_flags:
+  - Seizure lasting >30 minutes (risk of permanent brain injury)
+  - Refractory SE not responding to second-line agents
+  - Hyperthermia >104F from prolonged motor activity
+  - Metabolic acidosis and rising CK suggesting rhabdomyolysis
+clinical_pearls:
+  - "5-minute rule: treat as SE after 5 minutes of continuous seizure"
+  - "Lorazepam 0.1 mg/kg IV (max 4 mg) is first-line; can repeat once"
+  - "Non-convulsive SE accounts for up to 25% of ICU patients with unexplained AMS"
+  - "Most common cause of SE in known epilepsy: medication non-adherence"
+  - "Continuous EEG monitoring essential for detecting non-convulsive SE"
+key_history_questions:
+  - "Is this patient known to have epilepsy? What medications?"
+  - "Were AED doses recently changed or missed?"
+  - "Any recent infection, metabolic derangement, or toxic ingestion?"
+  - "How long has the seizure been ongoing?"
+  - "Any recent head trauma or neurosurgery?"
+key_exam_findings:
+  - "Ongoing tonic-clonic activity or subtle motor signs"
+  - "Unresponsive to stimulation"
+  - "Airway compromise, cyanosis"
+  - "Hyperthermia from prolonged muscle contraction"
+  - "Labile vital signs"
+  - "Subtle eye deviation or nystagmus (non-convulsive SE clue)"
+treatment_principles:
+  - "Stage 1 (0-5 min): ABC, glucose check, lorazepam 0.1 mg/kg IV"
+  - "Stage 2 (5-20 min): fosphenytoin 20 PE/kg or levetiracetam 60 mg/kg IV"
+  - "Stage 3 (20-40 min): repeat second-line agent or switch class"
+  - "Stage 4 (>40 min, refractory): midazolam, propofol, or pentobarbital infusion with continuous EEG"
+  - "Treat underlying cause: antibiotics, glucose, electrolyte correction"
+disposition_guidance:
+  - "ICU admission mandatory for status epilepticus"
+  - "Continuous EEG monitoring for at least 24 hours"
+  - "Neurology consultation emergently"
+  - "Early goals of care discussion if refractory SE"

@@ -1,0 +1,55 @@
+id: pneumothorax
+topic: Pneumothorax
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Classify primary spontaneous, secondary spontaneous, traumatic, and tension
+- Know when to observe vs place a chest tube
+- Recognize tension pneumothorax and perform needle decompression
+- Understand recurrence risk and prevention options
+- Interpret imaging for pneumothorax size
+common_mistakes:
+- Getting CXR before needle decompression in tension pneumothorax (clinical diagnosis)
+- Placing chest tube for small primary spontaneous pneumothorax that can be observed
+- Not providing supplemental O2 (accelerates reabsorption 4x)
+- Missing occult pneumothorax on upright CXR (lateral decubitus or CT needed)
+- Allowing air travel or scuba diving without resolution
+red_flags:
+- Tension pneumothorax (tracheal deviation, JVD, hypotension)
+- Bilateral pneumothorax
+- Recurrent pneumothorax (consider pleurodesis)
+- Secondary pneumothorax in patient with underlying lung disease
+- Expanding pneumothorax on serial imaging
+clinical_pearls:
+- 'Primary spontaneous: tall, thin, young males, often smokers'
+- Tension pneumothorax is a clinical diagnosis - treat before imaging
+- 'Needle decompression: 2nd intercostal space, midclavicular line (or 5th ICS, anterior
+  axillary)'
+- 'Small primary spontaneous PTX (<2 cm at apex): observe + O2 + repeat CXR'
+- Recurrence rate is 30% after first primary spontaneous pneumothorax
+key_history_questions:
+- When did the shortness of breath and chest pain start?
+- Was onset sudden?
+- History of prior pneumothorax?
+- Any underlying lung disease (COPD, cystic fibrosis)?
+- Do you smoke?
+- Any recent trauma, procedures, or central line placement?
+key_exam_findings:
+- Decreased or absent breath sounds on affected side
+- Hyperresonance to percussion
+- Decreased chest wall movement
+- Tracheal deviation away (tension)
+- Hemodynamic status
+- Subcutaneous emphysema
+treatment_principles:
+- 'Tension PTX: immediate needle decompression then chest tube'
+- 'Large or symptomatic: chest tube or pigtail catheter'
+- 'Small primary spontaneous: observation, supplemental O2, serial CXR'
+- 'All pneumothoraces: supplemental high-flow O2 to accelerate reabsorption'
+- 'Recurrent: consider VATS with pleurodesis'
+disposition_guidance:
+- Admit all secondary pneumothoraces and tension pneumothoraces
+- Observe small primary spontaneous PTX for 3-6 hours with repeat CXR
+- Discharge if stable on repeat imaging with 24-48h follow-up
+- Flight and diving restrictions until full resolution confirmed

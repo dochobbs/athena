@@ -1,0 +1,54 @@
+id: lyme_disease
+topic: Lyme Disease
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Recognize erythema migrans as a clinical diagnosis (no serology needed)
+- Understand the two-tier testing algorithm (ELISA then Western blot)
+- Stage Lyme disease (early localized, early disseminated, late)
+- Select appropriate antibiotics for each stage and manifestation
+- Know which manifestations require IV vs oral therapy
+common_mistakes:
+- Ordering Lyme serology for erythema migrans (clinical diagnosis, serology often
+  negative early)
+- Interpreting positive IgM Western blot without clinical correlation (false positives
+  common)
+- Treating with prolonged courses beyond evidence-based duration
+- Missing Lyme carditis in young patients with new heart block
+- Attributing chronic nonspecific symptoms to "chronic Lyme"
+red_flags:
+- Third-degree heart block (Lyme carditis - may need temporary pacing)
+- Meningitis with cranial nerve palsies
+- Bilateral facial nerve palsy (highly suggestive of Lyme)
+- Acute onset monoarthritis of the knee
+clinical_pearls:
+- Erythema migrans >=5 cm is diagnostic without lab testing in endemic areas
+- Serology is often negative in early disease (seroconversion takes 2-4 weeks)
+- Bilateral Bell palsy in summer is Lyme until proven otherwise in endemic areas
+- Lyme arthritis may persist despite antibiotics due to autoimmune mechanism
+- Post-treatment Lyme disease syndrome does not respond to additional antibiotics
+key_history_questions:
+- Tick exposure or endemic area travel?
+- Expanding rash at a tick bite site?
+- Joint pain, especially large joint (knee)?
+- Facial droop or other neurologic symptoms?
+- Palpitations or syncope (carditis)?
+- Time of year and geographic location?
+key_exam_findings:
+- Erythema migrans (target lesion or expanding erythema)
+- Facial nerve palsy
+- Joint effusion (especially knee)
+- Heart block on ECG
+- Meningeal signs
+treatment_principles:
+- Doxycycline 10-21 days for early localized and early disseminated
+- Amoxicillin alternative if doxycycline contraindicated
+- IV ceftriaxone for meningitis, carditis with high-degree block
+- 'Lyme arthritis: oral doxycycline 28 days'
+- NSAIDs for arthritis symptoms
+disposition_guidance:
+- Outpatient for early localized disease and most early disseminated
+- Admit for Lyme carditis with conduction abnormalities
+- Admit for Lyme meningitis requiring IV antibiotics
+- Cardiology consultation for high-degree AV block

@@ -1,0 +1,54 @@
+id: aortic_dissection
+topic: "Aortic Dissection"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Classify using Stanford (A vs B) and DeBakey systems
+  - Recognize atypical presentations (painless, neurologic, limb ischemia)
+  - Know that Type A is a surgical emergency, Type B is medical unless complicated
+  - Prioritize HR and BP control with IV beta-blocker FIRST
+  - Use CTA for diagnosis, not waiting for D-dimer
+common_mistakes:
+  - Ordering troponin and treating as ACS before considering dissection
+  - Giving thrombolytics to a STEMI that is actually dissection-related
+  - Not checking bilateral arm blood pressures
+  - Starting nitroprusside without prior beta-blockade (reflex tachycardia)
+  - Delaying CT angiography while pursuing other workup
+red_flags:
+  - Type A dissection (ascending aorta, requires emergent surgery)
+  - Aortic regurgitation from extension into aortic root
+  - Pericardial tamponade from rupture into pericardium
+  - Malperfusion syndrome (stroke, limb ischemia, mesenteric ischemia)
+  - Marfan syndrome or other connective tissue disorder in young patient
+clinical_pearls:
+  - "Tearing chest pain radiating to back + BP differential = dissection until proven otherwise"
+  - Type A involves ascending aorta (needs surgery); Type B is descending only (medical management)
+  - CTA chest/abdomen/pelvis is imaging of choice
+  - Beta-blocker FIRST to reduce shear stress (target HR <60, SBP <120)
+  - D-dimer has high sensitivity but low specificity; negative D-dimer can help rule out
+key_history_questions:
+  - Describe the pain - sudden onset? Tearing or ripping quality?
+  - Does the pain radiate to your back?
+  - History of hypertension? On medications?
+  - Connective tissue disorder (Marfan, Ehlers-Danlos)?
+  - History of cocaine use?
+  - Prior aortic aneurysm or cardiac surgery?
+key_exam_findings:
+  - Blood pressure differential between arms (>20 mmHg)
+  - Pulse deficit
+  - New aortic regurgitation murmur
+  - Neurologic deficits
+  - Signs of tamponade
+  - Malperfusion signs (cold limb, abdominal pain)
+treatment_principles:
+  - IV beta-blocker first (esmolol or labetalol) to reduce HR and shear stress
+  - Add vasodilator only AFTER beta-blockade if needed
+  - Type A = emergent surgical repair
+  - Uncomplicated Type B = medical management with BP/HR control
+  - Complicated Type B = TEVAR (endovascular repair)
+disposition_guidance:
+  - ICU admission for all aortic dissections
+  - Emergent cardiac surgery consultation for Type A
+  - Vascular surgery consultation for complicated Type B
+  - Long-term BP control and serial imaging after discharge

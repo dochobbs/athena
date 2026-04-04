@@ -1,0 +1,50 @@
+id: ptsd
+topic: "Post-Traumatic Stress Disorder"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Apply DSM-5 criteria for PTSD (exposure + intrusion + avoidance + cognition changes + arousal changes)
+  - Screen for PTSD in at-risk populations (veterans, trauma, assault survivors)
+  - Understand first-line pharmacotherapy (SSRIs) and evidence-based psychotherapy
+  - Recognize comorbid conditions (depression, substance use, chronic pain)
+  - Use prazosin for trauma-related nightmares
+common_mistakes:
+  - Prescribing benzodiazepines for PTSD (contraindicated, worsen outcomes)
+  - Not screening for comorbid substance use and depression
+  - Overlooking PTSD in patients presenting with chronic pain or somatic complaints
+  - Failing to ask about trauma history in appropriate settings
+  - Assuming PTSD only occurs in military populations
+red_flags:
+  - Active suicidal ideation (PTSD has high suicide risk)
+  - Dissociative symptoms suggesting severe PTSD
+  - Comorbid substance use disorder
+  - Domestic violence or ongoing trauma exposure
+clinical_pearls:
+  - "PCL-5 score >= 33 suggests PTSD diagnosis"
+  - "Benzodiazepines are contraindicated in PTSD; they worsen outcomes and impair trauma processing"
+  - "Prazosin 1-15mg at bedtime reduces trauma-related nightmares"
+  - "Evidence-based psychotherapies: prolonged exposure, CPT, and EMDR"
+  - "PTSD can present as chronic pain, GI complaints, or frequent ED visits without obvious psychiatric complaint"
+key_history_questions:
+  - "Have you experienced or witnessed a traumatic event?"
+  - "Do you have intrusive memories, nightmares, or flashbacks?"
+  - "Do you avoid reminders of the trauma?"
+  - "Do you feel constantly on guard or easily startled?"
+  - "How has this affected your sleep, relationships, and daily functioning?"
+  - "Are you using alcohol or drugs to cope?"
+key_exam_findings:
+  - "Hypervigilance, exaggerated startle response"
+  - "Constricted or labile affect"
+  - "PCL-5 screening score"
+  - "Signs of comorbid depression or substance use"
+treatment_principles:
+  - "SSRIs (sertraline, paroxetine) are first-line pharmacotherapy"
+  - "Evidence-based psychotherapy (CPT, PE, EMDR) is equally or more effective than medication"
+  - "Prazosin for trauma-related nightmares"
+  - "Do NOT use benzodiazepines (worsen PTSD outcomes)"
+  - "Treat comorbid conditions (depression, substance use, chronic pain)"
+disposition_guidance:
+  - "Outpatient management with psychiatry and trauma-focused therapy"
+  - "Crisis services for active suicidal ideation"
+  - "Veteran-specific resources (VA system) when applicable"

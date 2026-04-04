@@ -1,0 +1,73 @@
+id: pericarditis
+display_name: "Pericarditis"
+aliases:
+  - Acute pericarditis
+  - Pericardial inflammation
+snomed: "3238004"
+icd10:
+  - "I30.9"
+  - "I30.0"
+  - "I30.1"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f:
+    - 99.5
+    - 102.0
+  hr_multiplier: 1.15
+  rr_multiplier: 1.05
+presentation:
+  symptoms:
+    - name: chest_pain
+      probability: 0.90
+      description: "sharp pleuritic chest pain worse lying down, better sitting forward"
+    - name: positional_component
+      probability: 0.85
+      description: "pain improves leaning forward"
+    - name: fever
+      probability: 0.50
+      description: "low-grade fever"
+    - name: dyspnea
+      probability: 0.40
+      description: "from pain limiting deep breathing"
+    - name: malaise
+      probability: 0.50
+      description: "preceding viral illness common"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Pericardial friction rub, best heard with diaphragm at LLSB"
+      probability: 0.60
+    - system: cardiovascular
+      finding: "Tachycardia"
+      probability: 0.55
+    - system: cardiovascular
+      finding: "Distant heart sounds if effusion develops"
+      probability: 0.20
+    - system: cardiovascular
+      finding: "Beck triad if tamponade (hypotension, JVD, muffled sounds)"
+      probability: 0.05
+treatment:
+  approach: anti_inflammatory
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "600 mg TID for 1-2 weeks then taper"
+      route: oral
+      indication: "first-line anti-inflammatory"
+    - agent: "Colchicine"
+      rxnorm: "2683"
+      frequency: "0.5 mg BID for 3 months"
+      route: oral
+      indication: "prevents recurrence, used with NSAID"
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "650-1000 mg TID for 1-2 weeks"
+      route: oral
+      indication: "alternative NSAID, preferred post-MI"

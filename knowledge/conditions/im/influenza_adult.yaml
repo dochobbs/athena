@@ -1,0 +1,75 @@
+id: influenza_adult
+display_name: "Influenza (Adult)"
+aliases:
+  - Flu
+  - Influenza A
+  - Influenza B
+  - Seasonal influenza
+snomed: "6142004"
+icd10:
+  - "J11.1"
+  - "J10.1"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [100.5, 103.5]
+  hr_multiplier: 1.15
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: fever
+      probability: 0.90
+      description: "abrupt onset high fever"
+    - name: myalgias
+      probability: 0.85
+      description: "diffuse body aches, often severe"
+    - name: cough
+      probability: 0.80
+      description: "dry cough, may become productive"
+    - name: headache
+      probability: 0.70
+      description: "frontal or diffuse headache"
+    - name: fatigue
+      probability: 0.85
+      description: "profound fatigue and malaise"
+    - name: sore_throat
+      probability: 0.50
+      description: "pharyngitis"
+  physical_exam:
+    - system: general
+      finding: "Ill-appearing, febrile, flushed"
+      probability: 0.85
+    - system: respiratory
+      finding: "Clear lungs or scattered rhonchi"
+      probability: 0.70
+    - system: ent
+      finding: "Pharyngeal erythema without exudate"
+      probability: 0.50
+    - system: lymphatic
+      finding: "Mild cervical lymphadenopathy"
+      probability: 0.20
+treatment:
+  approach: antiviral_and_supportive
+  medications:
+    - agent: "Oseltamivir"
+      rxnorm: "283837"
+      frequency: "twice daily x 5 days"
+      route: oral
+      indication: "within 48 hours of symptom onset, high-risk patients"
+    - agent: "Baloxavir"
+      rxnorm: "2173525"
+      frequency: "single dose"
+      route: oral
+      indication: "single-dose alternative antiviral"
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "every 4-6 hours as needed"
+      route: oral
+      indication: "fever and myalgia relief"

@@ -1,0 +1,56 @@
+id: septic_arthritis
+topic: Septic Arthritis
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- Recognize septic arthritis as a joint emergency requiring urgent arthrocentesis
+- Apply synovial fluid analysis criteria (WBC >50,000 with >90% PMNs)
+- Know the most common organisms by age and risk factor
+- Distinguish septic arthritis from crystal arthropathy (can coexist)
+- Understand indications for surgical drainage vs serial aspiration
+common_mistakes:
+- Assuming crystal arthropathy excludes septic arthritis (they can coexist)
+- Delaying arthrocentesis while awaiting other workup
+- Starting antibiotics before joint aspiration (reduces culture yield)
+- Not considering gonococcal arthritis in sexually active young adults
+- Missing prosthetic joint infection
+red_flags:
+- Acute monoarthritis with fever (septic until proven otherwise)
+- Rapidly destructive arthritis
+- Prosthetic joint with new pain and fever
+- Immunosuppressed patient with joint effusion
+- Failure to improve on antibiotics (consider resistant organism or inadequate drainage)
+clinical_pearls:
+- S. aureus is the most common cause in non-gonococcal septic arthritis
+- Knee is the most commonly affected joint in adults
+- 'Gonococcal arthritis: think young, sexually active, migratory polyarthralgias then
+  monoarthritis, skin lesions'
+- Synovial WBC >50,000 is suggestive but not diagnostic; crystal arthritis can cause
+  similar counts
+- Prosthetic joint infections may have lower synovial WBC thresholds
+key_history_questions:
+- Acute onset monoarticular pain and swelling?
+- Fever or chills?
+- Any joint prosthesis?
+- IV drug use, skin infections, or recent bacteremia?
+- Sexual history (gonococcal risk)?
+- Immunosuppression or recent joint injection?
+key_exam_findings:
+- Hot, swollen, extremely tender joint
+- Large joint effusion
+- Severely restricted ROM (active and passive)
+- Joint held in position of comfort (slight flexion)
+- Overlying erythema and warmth
+- Tenosynovitis and pustular skin lesions (gonococcal)
+treatment_principles:
+- Urgent arthrocentesis before antibiotics (diagnostic and therapeutic)
+- Empiric IV vancomycin + ceftriaxone pending cultures
+- Serial aspirations or surgical drainage if not improving in 48-72 hours
+- Orthopedic consultation for surgical drainage (especially hip, prosthetic joints)
+- Minimum 2-4 weeks of antibiotics depending on organism
+disposition_guidance:
+- Admit all confirmed or suspected septic arthritis
+- Orthopedic consultation for surgical drainage
+- Daily monitoring of joint effusion and inflammatory markers
+- Transition to oral antibiotics guided by cultures and clinical response

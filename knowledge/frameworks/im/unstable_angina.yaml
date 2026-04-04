@@ -1,0 +1,50 @@
+id: unstable_angina
+topic: "Unstable Angina"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Define unstable angina as ACS without troponin elevation
+  - Apply Braunwald classification of unstable angina
+  - Understand that high-sensitivity troponin has reduced the diagnosis of UA
+  - Risk stratify using HEART or TIMI score
+  - Distinguish from NSTEMI and stable angina
+common_mistakes:
+  - Assuming negative troponin means no ACS
+  - Not obtaining serial ECGs during ongoing pain
+  - Discharging without stress testing or cardiology follow-up
+  - Confusing UA with non-cardiac chest pain without proper evaluation
+  - Not starting antiplatelet therapy early
+red_flags:
+  - Rest angina lasting >20 minutes
+  - New-onset angina with minimal exertion
+  - Crescendo pattern (increasing frequency and severity)
+  - Dynamic ECG changes during pain
+clinical_pearls:
+  - UA is becoming rare with high-sensitivity troponin (many reclassified as NSTEMI)
+  - New-onset, rest, or crescendo angina all qualify as unstable
+  - Normal ECG does not exclude UA
+  - Troponin-negative ACS still carries significant risk
+  - Response to nitroglycerin does NOT reliably distinguish cardiac from non-cardiac pain
+key_history_questions:
+  - Is this new chest pain or has your usual angina changed?
+  - Does it occur at rest or with minimal exertion?
+  - How has the pattern changed over the past days to weeks?
+  - Did sublingual nitroglycerin help?
+  - What are your cardiovascular risk factors?
+key_exam_findings:
+  - Often entirely normal between episodes
+  - Serial ECGs comparing during and between pain
+  - Hemodynamic assessment
+  - Signs of heart failure
+treatment_principles:
+  - Antiplatelet therapy (aspirin + clopidogrel)
+  - Anticoagulation (enoxaparin)
+  - Anti-ischemic therapy (beta-blocker, nitroglycerin)
+  - Risk stratification determines invasive vs conservative approach
+  - High-intensity statin
+disposition_guidance:
+  - Admit for observation and serial troponins
+  - Stress testing if low-risk
+  - Cardiology consultation for intermediate or high-risk
+  - Ensure close follow-up if discharged

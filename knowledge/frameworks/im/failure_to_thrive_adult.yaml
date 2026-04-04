@@ -1,0 +1,54 @@
+id: failure_to_thrive_adult
+topic: "Failure to Thrive (Adult)"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Define adult FTT as unintentional weight loss >5% in 6-12 months with functional decline
+  - Apply the 9 Ds framework for differential diagnosis
+  - Perform comprehensive geriatric assessment
+  - Implement targeted nutritional and social interventions
+  - Recognize when palliative care is appropriate
+common_mistakes:
+  - Extensive oncologic workup before addressing depression, dental problems, and social isolation
+  - Not checking for reversible causes (depression, hypothyroidism, medication side effects)
+  - Overlooking social determinants (food insecurity, isolation, inability to cook)
+  - Using appetite stimulants without addressing root cause
+  - Missing dysphagia as a cause of poor intake
+red_flags:
+  - Weight loss >10% in 6 months (high mortality risk)
+  - Progressive functional decline despite interventions
+  - Occult malignancy signs (lymphadenopathy, night sweats, palpable masses)
+  - Severe depression with suicidal ideation
+  - Cachexia from end-stage chronic disease
+clinical_pearls:
+  - "9 Ds: Dementia, Depression, Disease, Drugs, Dysphagia, Dysgeusia, Diarrhea, Dental, Destitution"
+  - "Depression is the most common reversible cause of FTT in elderly"
+  - "Mirtazapine 7.5-15mg at bedtime serves dual purpose: antidepressant and appetite stimulant"
+  - "Social eating (congregate meals) improves intake more than supplements alone"
+  - "Albumin <3.5 and prealbumin <15 correlate with poor nutritional status"
+key_history_questions:
+  - "How much weight have you lost and over what timeframe?"
+  - "Are you eating less than usual? Why (poor appetite, can't cook, can't afford food)?"
+  - "Do you feel sad, hopeless, or have lost interest in things?"
+  - "Do you have difficulty chewing or swallowing?"
+  - "Who prepares your meals? Do you eat alone?"
+  - "What medications are you taking (many cause anorexia or dysgeusia)?"
+key_exam_findings:
+  - "Weight trend compared to prior visits"
+  - "Temporal wasting, loss of subcutaneous fat"
+  - "Grip strength (sarcopenia screening)"
+  - "Oral exam (dentition, oral lesions, thrush)"
+  - "Depression screening (GDS or PHQ-9)"
+  - "Functional assessment (ADLs and IADLs)"
+treatment_principles:
+  - "Address reversible causes first (depression, dental, medications, thyroid)"
+  - "Nutritional counseling and protein-calorie supplementation"
+  - "Social interventions: Meals on Wheels, congregate dining, home health aide"
+  - "Mirtazapine for depression with concurrent appetite stimulation"
+  - "Consider palliative care if decline continues despite comprehensive interventions"
+disposition_guidance:
+  - "Outpatient comprehensive geriatric assessment"
+  - "Home health services for meal preparation and monitoring"
+  - "Social work consultation for food insecurity and support services"
+  - "Palliative care discussion when trajectory suggests end-of-life"

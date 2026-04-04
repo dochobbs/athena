@@ -1,0 +1,80 @@
+id: pheochromocytoma
+display_name: "Pheochromocytoma"
+aliases:
+  - Pheo
+  - Adrenal paraganglioma
+  - Catecholamine-secreting tumor
+snomed: "302835009"
+icd10:
+  - "D35.00"
+  - "C74.10"
+category: chronic
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [98.0, 100.5]
+  hr_multiplier: 1.30
+  rr_multiplier: 1.15
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: episodic_hypertension
+      probability: 0.85
+      description: "Paroxysmal severe hypertension"
+    - name: headache
+      probability: 0.80
+      description: "Severe episodic headaches"
+    - name: diaphoresis
+      probability: 0.70
+      description: "Profuse sweating in paroxysms"
+    - name: palpitations
+      probability: 0.75
+      description: "Palpitations and tachycardia"
+    - name: anxiety
+      probability: 0.50
+      description: "Sense of impending doom, panic"
+    - name: tremor
+      probability: 0.40
+      description: "Tremor during episodes"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Hypertension (sustained or paroxysmal), tachycardia"
+      probability: 0.85
+    - system: general
+      finding: "Diaphoresis, pallor during episodes"
+      probability: 0.65
+    - system: ophthalmologic
+      finding: "Hypertensive retinopathy"
+      probability: 0.25
+    - system: skin
+      finding: "Cafe-au-lait spots if associated with MEN or NF1"
+      probability: 0.10
+treatment:
+  approach: alpha_blockade_then_surgery
+  medications:
+    - agent: "Phenoxybenzamine"
+      rxnorm: "8120"
+      frequency: "10 mg twice daily, titrate up over 7-14 days"
+      route: oral
+      indication: "Non-selective alpha-blocker, preoperative preparation"
+    - agent: "Doxazosin"
+      rxnorm: "3827"
+      frequency: "2-16 mg daily"
+      route: oral
+      indication: "Selective alpha-1 blocker alternative"
+    - agent: "Propranolol"
+      rxnorm: "8787"
+      frequency: "20-40 mg three times daily (ONLY after alpha blockade)"
+      route: oral
+      indication: "Beta-blocker for tachycardia AFTER adequate alpha-blockade"
+    - agent: "Metyrosine"
+      rxnorm: "6918"
+      frequency: "250 mg four times daily"
+      route: oral
+      indication: "Catecholamine synthesis inhibitor for refractory cases"

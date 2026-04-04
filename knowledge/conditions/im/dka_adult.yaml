@@ -1,0 +1,86 @@
+id: dka_adult
+display_name: "Diabetic Ketoacidosis (Adult)"
+aliases:
+  - DKA
+  - Diabetic ketoacidosis
+snomed: "420422005"
+icd10:
+  - "E10.10"
+  - "E11.10"
+  - "E13.10"
+category: acute
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [96.0, 100.0]
+  hr_multiplier: 1.30
+  rr_multiplier: 1.40
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: nausea_vomiting
+      probability: 0.80
+      description: "Nausea, vomiting, and abdominal pain"
+    - name: polyuria
+      probability: 0.85
+      description: "Marked polyuria from osmotic diuresis"
+    - name: polydipsia
+      probability: 0.80
+      description: "Profound thirst"
+    - name: altered_mental_status
+      probability: 0.40
+      description: "Confusion to obtundation in severe cases"
+    - name: abdominal_pain
+      probability: 0.60
+      description: "Diffuse abdominal pain mimicking acute abdomen"
+    - name: weakness
+      probability: 0.70
+      description: "Generalized weakness"
+    - name: dyspnea
+      probability: 0.50
+      description: "Rapid deep breathing (Kussmaul respirations)"
+  physical_exam:
+    - system: respiratory
+      finding: "Kussmaul respirations (deep, rapid breathing)"
+      probability: 0.75
+    - system: general
+      finding: "Dehydration, dry mucous membranes, poor skin turgor"
+      probability: 0.85
+    - system: general
+      finding: "Fruity breath odor (acetone)"
+      probability: 0.60
+    - system: cardiovascular
+      finding: "Tachycardia, hypotension"
+      probability: 0.70
+    - system: neurological
+      finding: "Altered sensorium, lethargy to coma"
+      probability: 0.40
+treatment:
+  approach: insulin_fluids_electrolytes
+  medications:
+    - agent: "Regular Insulin"
+      rxnorm: "5856"
+      frequency: "0.1-0.14 units/kg/hr IV infusion"
+      route: iv
+      indication: "Continuous insulin infusion to correct hyperglycemia and ketosis"
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "1-1.5 L/hr initially, then 250-500 mL/hr"
+      route: iv
+      indication: "Aggressive volume resuscitation"
+    - agent: "Potassium Chloride"
+      rxnorm: "8591"
+      frequency: "20-40 mEq/L in IV fluids"
+      route: iv
+      indication: "Potassium repletion (start if K < 5.3)"
+    - agent: "Dextrose 5% in 0.45% Saline"
+      rxnorm: "244035"
+      frequency: "150-250 mL/hr when glucose < 200"
+      route: iv
+      indication: "Prevent hypoglycemia while continuing insulin"

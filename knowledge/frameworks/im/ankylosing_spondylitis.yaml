@@ -1,0 +1,56 @@
+id: ankylosing_spondylitis
+topic: Ankylosing Spondylitis
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- Distinguish inflammatory back pain from mechanical back pain
+- Recognize sacroiliitis on imaging (X-ray or MRI)
+- Understand the strong HLA-B27 association
+- Identify extra-articular manifestations (uveitis, IBD, psoriasis)
+- Know the treatment ladder (NSAIDs then biologics)
+common_mistakes:
+- Attributing inflammatory back pain to mechanical causes for years (average diagnostic
+  delay is 8-10 years)
+- Ordering HLA-B27 as a screening test (present in 6-8% of general population)
+- Missing anterior uveitis as a presenting feature
+- Not offering continuous NSAIDs as first-line therapy
+- Using methotrexate for axial disease (not effective for spine, only peripheral joints)
+red_flags:
+- Acute anterior uveitis (eye pain, redness, photophobia)
+- Cauda equina syndrome (rare, late complication)
+- Spinal fracture from minimal trauma (osteoporotic fused spine)
+- Restrictive lung disease from chest wall rigidity
+- Aortic regurgitation or conduction defects (cardiac involvement)
+clinical_pearls:
+- 'Inflammatory back pain: age <40 onset, insidious, improves with exercise, worse
+  at rest, nocturnal pain'
+- MRI sacroiliac joints detects early inflammation before X-ray changes
+- DMARDs (methotrexate, sulfasalazine) do NOT work for axial disease
+- TNF inhibitors and IL-17 inhibitors are effective for axial disease
+- Bamboo spine on X-ray is a late finding of complete fusion
+key_history_questions:
+- Age of back pain onset (typically <40)?
+- Does pain improve with exercise and worsen with rest?
+- Duration of morning stiffness?
+- Any eye inflammation (uveitis)?
+- Family history of spondyloarthritis, IBD, or psoriasis?
+- Alternating buttock pain?
+key_exam_findings:
+- Reduced lumbar flexion (Schober test positive)
+- Sacroiliac joint tenderness (FABER test, sacral compression)
+- Reduced chest expansion
+- Loss of lumbar lordosis
+- Anterior uveitis on ophthalmologic exam
+- Achilles tendon or plantar fascia enthesitis
+treatment_principles:
+- Continuous NSAIDs as first-line (not just PRN)
+- Physical therapy and exercise are cornerstone of management
+- TNF inhibitors for NSAID-refractory axial disease
+- IL-17 inhibitors (secukinumab) as alternative biologic
+- Regular ophthalmologic screening for uveitis
+disposition_guidance:
+- Outpatient management with rheumatology referral
+- Urgent ophthalmology for acute uveitis
+- Emergency evaluation for spinal fracture or cauda equina
+- Physical therapy referral for all patients

@@ -1,0 +1,68 @@
+id: erythema_nodosum
+display_name: "Erythema Nodosum"
+aliases:
+  - EN
+  - Panniculitis
+  - Septal panniculitis
+snomed: "32861005"
+icd10:
+  - "L52"
+category: acute
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f:
+    - 98.6
+    - 100.4
+  hr_multiplier: 1.0
+presentation:
+  symptoms:
+    - name: tender shin nodules
+      probability: 0.95
+      description: "painful, red, warm subcutaneous nodules on anterior shins"
+    - name: arthralgias
+      probability: 0.50
+      description: "joint pain, especially ankles and knees"
+    - name: malaise
+      probability: 0.45
+      description: "general fatigue, low-grade fever"
+    - name: bilateral involvement
+      probability: 0.80
+      description: "typically affects both shins"
+  physical_exam:
+    - system: skin
+      finding: "Tender, erythematous, warm subcutaneous nodules on bilateral shins"
+      probability: 0.95
+    - system: skin
+      finding: "Nodules evolve from red to violaceous to yellow-brown (bruise-like)"
+      probability: 0.60
+    - system: skin
+      finding: "No ulceration (distinguishes from other panniculitis)"
+      probability: 0.95
+    - system: musculoskeletal
+      finding: "Ankle and knee arthritis or arthralgias"
+      probability: 0.40
+treatment:
+  approach: treat_underlying_cause_supportive
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "three times daily"
+      route: oral
+      indication: "NSAID for pain and inflammation"
+    - agent: "Potassium Iodide"
+      rxnorm: "8538"
+      frequency: "three times daily"
+      route: oral
+      indication: "supersaturated potassium iodide for refractory cases"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "daily with taper"
+      route: oral
+      indication: "systemic steroids for severe cases after infection excluded"

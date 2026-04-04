@@ -1,0 +1,55 @@
+id: alcoholic_hepatitis
+topic: Alcoholic Hepatitis
+category: gi
+specialties:
+- im
+teaching_goals:
+- Recognize the classic presentation (jaundice + hepatomegaly + recent heavy drinking)
+- Calculate Maddrey discriminant function to guide steroid use
+- Understand the role and limitations of corticosteroids
+- Differentiate from other causes of acute jaundice in drinkers
+- Address alcohol cessation and nutritional support
+common_mistakes:
+- Not calculating Maddrey DF (steroids only if DF >= 32)
+- Missing concurrent infection before starting steroids
+- Failing to check MELD score for prognosis
+- Not assessing Lille score at day 7 to determine steroid response
+- Attributing all liver disease in drinkers to alcohol without ruling out other causes
+red_flags:
+- Maddrey DF >= 32 (high short-term mortality)
+- MELD >= 21 (poor prognosis)
+- GI bleeding (concurrent varices)
+- Hepatic encephalopathy
+- Renal failure (hepatorenal syndrome)
+clinical_pearls:
+- 'Classic lab pattern: AST:ALT ratio >2:1, AST rarely >300 in alcoholic hepatitis'
+- Maddrey DF = 4.6 x (PT - control PT) + total bilirubin. DF >= 32 = severe.
+- 'Lille score at day 7: >0.45 = stop steroids (non-responder)'
+- Infection must be ruled out before starting prednisolone
+- Nutrition is as important as any drug - high protein, high calorie diet
+key_history_questions:
+- Alcohol intake pattern (quantity, duration, last drink)?
+- Timeline of jaundice onset?
+- Prior episodes of alcoholic hepatitis?
+- Known liver disease or cirrhosis?
+- GI bleeding history?
+- Current medications and supplements?
+key_exam_findings:
+- Rapid onset jaundice
+- Tender hepatomegaly
+- Fever (may mimic infection)
+- Ascites
+- Asterixis (encephalopathy)
+- Signs of chronic liver disease
+treatment_principles:
+- Calculate Maddrey DF and MELD on admission
+- Rule out infection before starting steroids
+- 'Prednisolone 40 mg daily x 28 days if DF >= 32 (contraindications: active infection,
+  GI bleeding, hepatorenal syndrome)'
+- Assess response with Lille score at day 7
+- Aggressive nutritional support (35-40 kcal/kg/day, 1.2-1.5 g protein/kg/day)
+disposition_guidance:
+- 'Admission: All moderate-severe alcoholic hepatitis'
+- 'ICU: Hepatic encephalopathy, GI bleeding, renal failure'
+- 'Hepatology: Severe disease, transplant evaluation consideration'
+- 'Addiction medicine: Alcohol cessation support before and after discharge'

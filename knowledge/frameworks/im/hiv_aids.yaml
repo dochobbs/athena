@@ -1,0 +1,53 @@
+id: hiv_aids
+topic: HIV/AIDS
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Screen appropriately and know the diagnostic algorithm (4th gen Ag/Ab then confirmatory)
+- Initiate ART promptly in all patients with HIV regardless of CD4 count
+- Recognize acute retroviral syndrome
+- Know CD4 thresholds for opportunistic infection prophylaxis
+- Understand U=U (Undetectable = Untransmittable)
+common_mistakes:
+- Not screening for HIV in appropriate patients (all adults 13-64 at least once)
+- 'Delaying ART initiation (current guidelines: start immediately)'
+- Not checking HLA-B*5701 before abacavir
+- Forgetting OI prophylaxis based on CD4 count
+- Missing immune reconstitution inflammatory syndrome (IRIS) after ART initiation
+red_flags:
+- CD4 < 200 with no OI prophylaxis
+- New fever or symptoms shortly after ART initiation (IRIS)
+- Rapidly declining CD4 count suggesting treatment failure
+- Symptoms suggesting AIDS-defining illness (PCP, toxoplasmosis, CMV)
+clinical_pearls:
+- Acute retroviral syndrome mimics mononucleosis (fever, pharyngitis, rash, lymphadenopathy)
+- 4th generation Ag/Ab test can detect infection as early as 2 weeks post-exposure
+- PCP prophylaxis starts at CD4 < 200, MAC at CD4 < 50
+- Drug resistance testing should be done before starting ART
+- PrEP (Truvada or Descovy) prevents HIV in high-risk individuals
+key_history_questions:
+- 'Risk factors: unprotected sex, IVDU, blood exposure?'
+- When was last HIV test? Any prior negative results?
+- Symptoms of acute retroviral syndrome 2-4 weeks after exposure?
+- Any symptoms of opportunistic infections?
+- Current or prior antiretroviral use?
+- Sexual partners and their HIV/treatment status?
+key_exam_findings:
+- Generalized lymphadenopathy
+- Oral thrush or hairy leukoplakia
+- Seborrheic dermatitis
+- Kaposi sarcoma lesions
+- Wasting or cachexia
+- Skin findings (molluscum, herpes zoster in young adult)
+treatment_principles:
+- Start ART in all patients regardless of CD4 (rapid start preferred)
+- 'Preferred initial regimen: Biktarvy (BIC/FTC/TAF)'
+- Check HLA-B*5701 before abacavir, hepatitis B before TDF
+- OI prophylaxis based on CD4 thresholds
+- Monitor viral load and CD4 at regular intervals
+disposition_guidance:
+- Outpatient management for stable newly diagnosed
+- Admit for AIDS-defining illness or severe OI
+- Link to HIV specialty care and social services
+- Partner notification and testing

@@ -1,0 +1,82 @@
+id: gout
+display_name: "Gout"
+aliases:
+  - Gouty arthritis
+  - Acute gout
+  - Podagra
+  - Crystal arthropathy
+snomed: "90560007"
+icd10:
+  - "M10.9"
+  - "M10.00"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [98.6, 101.0]
+  hr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: acute_joint_pain
+      probability: 0.95
+      description: "sudden onset severe joint pain, often nocturnal"
+    - name: joint_swelling
+      probability: 0.90
+      description: "rapid swelling and erythema of affected joint"
+    - name: first_mtp_involvement
+      probability: 0.70
+      description: "classic podagra - first metatarsophalangeal joint"
+    - name: exquisite_tenderness
+      probability: 0.85
+      description: "cannot tolerate even light touch or bedsheet"
+    - name: limited_mobility
+      probability: 0.80
+      description: "inability to bear weight or use affected joint"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Erythematous, swollen, exquisitely tender joint (often 1st MTP)"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "Monoarticular or oligoarticular involvement"
+      probability: 0.85
+    - system: skin
+      finding: "Tophi on ears, elbows, or fingers (chronic gout)"
+      probability: 0.15
+    - system: skin
+      finding: "Overlying desquamation during resolution"
+      probability: 0.30
+treatment:
+  approach: acute_flare_then_urate_lowering
+  medications:
+    - agent: "Colchicine"
+      rxnorm: "2683"
+      frequency: "loading then twice daily"
+      route: oral
+      indication: "acute flare within 36 hours onset; also prophylaxis"
+    - agent: "Indomethacin"
+      rxnorm: "5691"
+      frequency: "three times daily"
+      route: oral
+      indication: "NSAID for acute gout flare"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily x 5 days taper"
+      route: oral
+      indication: "acute flare when NSAIDs/colchicine contraindicated"
+    - agent: "Allopurinol"
+      rxnorm: "519"
+      frequency: "once daily"
+      route: oral
+      indication: "urate-lowering therapy, start after flare resolves"
+    - agent: "Febuxostat"
+      rxnorm: "757688"
+      frequency: "once daily"
+      route: oral
+      indication: "urate-lowering alternative if allopurinol intolerant"

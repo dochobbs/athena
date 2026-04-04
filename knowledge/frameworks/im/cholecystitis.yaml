@@ -1,0 +1,53 @@
+id: cholecystitis
+topic: "Acute Cholecystitis"
+category: gi
+specialties:
+  - im
+teaching_goals:
+  - Differentiate biliary colic from acute cholecystitis
+  - Know the diagnostic role of RUQ ultrasound and HIDA scan
+  - Understand the Tokyo Guidelines for severity grading
+  - Manage with antibiotics and timely cholecystectomy
+  - Recognize acalculous cholecystitis in critically ill patients
+common_mistakes:
+  - Confusing biliary colic (self-limited <6 hours) with cholecystitis (persistent)
+  - Not ordering RUQ ultrasound as first-line imaging
+  - Delaying surgical consultation (early cholecystectomy within 72 hours preferred)
+  - Missing common bile duct stones (check LFTs and bilirubin)
+  - Forgetting acalculous cholecystitis in ICU patients
+red_flags:
+  - Charcot triad (RUQ pain, fever, jaundice) suggesting cholangitis
+  - Reynolds pentad (add hypotension, AMS) suggesting septic cholangitis
+  - Free air on imaging suggesting perforation
+  - Empyema or gangrenous cholecystitis
+  - Worsening despite antibiotics
+clinical_pearls:
+  - "Murphy sign: inspiratory arrest during RUQ palpation - very specific for cholecystitis"
+  - "Sonographic Murphy sign is even more reliable than clinical Murphy sign"
+  - "Biliary colic: pain <6 hours, resolves. Cholecystitis: pain >6 hours, with fever/WBC."
+  - "HIDA scan: best test when US is equivocal (sensitivity >95%)"
+  - "Early cholecystectomy (<72 hours) has better outcomes than delayed"
+key_history_questions:
+  - Duration of pain (biliary colic <6 hrs vs cholecystitis >6 hrs)?
+  - Relation to fatty meals?
+  - Fever or chills?
+  - Prior episodes of similar pain?
+  - Jaundice, dark urine, pale stools (suggests CBD stone)?
+  - Prior gallstone diagnosis?
+key_exam_findings:
+  - RUQ tenderness with positive Murphy sign
+  - Fever
+  - RUQ guarding
+  - Jaundice (suggests choledocholithiasis or Mirizzi syndrome)
+  - Palpable gallbladder (rare, suggests empyema)
+treatment_principles:
+  - IV antibiotics covering gram-negatives and anaerobes
+  - NPO with IV fluids
+  - Pain control with NSAIDs (ketorolac) and opioids
+  - Early surgical consultation for cholecystectomy
+  - Percutaneous cholecystostomy if not a surgical candidate
+disposition_guidance:
+  - "Admission: All acute cholecystitis for antibiotics and surgical evaluation"
+  - "Surgery: Early cholecystectomy within 72 hours preferred"
+  - "ICU: Septic cholangitis, gangrenous cholecystitis"
+  - "Percutaneous drainage: Too sick for surgery"

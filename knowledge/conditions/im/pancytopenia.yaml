@@ -1,0 +1,111 @@
+id: pancytopenia
+display_name: "Pancytopenia"
+aliases:
+  - Aplastic anemia
+  - Bone marrow failure
+  - Trilineage cytopenia
+snomed: "127034005"
+icd10:
+  - "D61.9"
+  - "D61.1"
+  - "D61.89"
+category: acute
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 103.0]
+  hr_multiplier: 1.20
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.90
+      description: "Severe fatigue from anemia"
+    - name: fever_infections
+      probability: 0.70
+      description: "Recurrent or severe infections from neutropenia"
+    - name: bruising_bleeding
+      probability: 0.75
+      description: "Easy bruising, mucosal bleeding from thrombocytopenia"
+    - name: dyspnea
+      probability: 0.55
+      description: "Exertional dyspnea from anemia"
+    - name: pallor
+      probability: 0.80
+      description: "Generalized pallor"
+  physical_exam:
+    - system: skin
+      finding: "Pallor, petechiae, ecchymoses"
+      probability: 0.85
+    - system: oropharynx
+      finding: "Oral ulcers or mucosal bleeding"
+      probability: 0.40
+    - system: abdomen
+      finding: "Splenomegaly (suggests hypersplenism, infiltrative, or hairy cell)"
+      probability: 0.35
+    - system: lymph
+      finding: "Lymphadenopathy suggests infiltrative process"
+      probability: 0.25
+    - system: general
+      finding: "Febrile, ill-appearing"
+      probability: 0.55
+diagnostics:
+  labs:
+    - name: CBC with differential
+      loinc: "57021-8"
+      value_type: panel
+      probability_abnormal: 1.0
+      notes: "All three lineages decreased"
+    - name: Reticulocyte count
+      loinc: "17849-1"
+      value_type: numeric
+      unit: "%"
+      normal_range_low: 0.5
+      abnormal_low_max: 0.5
+      probability_abnormal: 0.75
+      notes: "Low reticulocytes suggest marrow failure"
+    - name: Peripheral smear
+      loinc: "9317-9"
+      value_type: categorical
+      finding: "Evaluate for blasts, dysplasia, schistocytes, tear drops"
+      probability_abnormal: 0.80
+    - name: Vitamin B12 and folate
+      loinc: "2132-9"
+      value_type: panel
+      probability_abnormal: 0.20
+treatment:
+  approach: cause_directed_supportive
+  medications:
+    - agent: "Eltrombopag"
+      rxnorm: "998835"
+      frequency: "150 mg daily"
+      route: oral
+      indication: "Aplastic anemia (with immunosuppression)"
+    - agent: "Cyclosporine"
+      rxnorm: "3008"
+      frequency: "per hematology protocol"
+      route: oral
+      indication: "Immunosuppressive therapy for aplastic anemia"
+    - agent: "Equine Anti-thymocyte Globulin"
+      rxnorm: "1311"
+      frequency: "40 mg/kg/day IV x4 days"
+      route: iv
+      indication: "First-line immunosuppression for severe aplastic anemia"
+    - agent: "Filgrastim"
+      rxnorm: "68442"
+      frequency: "5 mcg/kg/day SQ"
+      route: subcutaneous
+      indication: "G-CSF for severe neutropenia with infection"
+  patient_instructions:
+    - Bone marrow biopsy is essential for diagnosis
+    - Differential is broad - aplastic anemia, MDS, leukemia, B12/folate, medications, infections
+    - Review all medications for bone marrow toxicity
+    - Check HIV, hepatitis B/C, parvovirus B19, EBV
+    - Neutropenic precautions if ANC <500
+    - Transfuse irradiated blood products if transplant candidate (prevent alloimmunization)

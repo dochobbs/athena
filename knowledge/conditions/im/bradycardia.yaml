@@ -1,0 +1,81 @@
+id: bradycardia
+display_name: "Bradycardia"
+aliases:
+  - Symptomatic bradycardia
+  - Sinus bradycardia
+  - Heart block
+  - AV block
+snomed: "48867003"
+icd10:
+  - "R00.1"
+  - "I49.5"
+  - "I44.1"
+  - "I44.2"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 0.55
+  rr_multiplier: 1.0
+  bp_systolic:
+    - 70
+    - 120
+presentation:
+  symptoms:
+    - name: dizziness
+      probability: 0.65
+      description: "lightheadedness or presyncope"
+    - name: syncope
+      probability: 0.40
+      description: "loss of consciousness from decreased cardiac output"
+    - name: fatigue
+      probability: 0.60
+      description: "exercise intolerance"
+    - name: dyspnea
+      probability: 0.35
+      description: "exertional dyspnea"
+    - name: asymptomatic
+      probability: 0.30
+      description: "sinus bradycardia may be physiologic in athletes"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Heart rate <60 bpm, often <50 bpm if symptomatic"
+      probability: 1.0
+    - system: cardiovascular
+      finding: "Cannon A waves in JVP (complete heart block)"
+      probability: 0.25
+    - system: cardiovascular
+      finding: "Hypotension"
+      probability: 0.40
+    - system: neurologic
+      finding: "Altered mental status if severe"
+      probability: 0.20
+treatment:
+  approach: acls_bradycardia_algorithm
+  medications:
+    - agent: "Atropine"
+      rxnorm: "1223"
+      frequency: "1 mg IV q3-5min, max 3 mg"
+      route: iv
+      indication: "first-line for symptomatic bradycardia"
+    - agent: "Epinephrine"
+      rxnorm: "3992"
+      frequency: "2-10 mcg/min IV infusion"
+      route: iv
+      indication: "if atropine ineffective"
+    - agent: "Dopamine"
+      rxnorm: "3628"
+      frequency: "5-20 mcg/kg/min IV infusion"
+      route: iv
+      indication: "alternative chronotrope"
+    - agent: "Isoproterenol"
+      rxnorm: "6054"
+      frequency: "2-10 mcg/min IV infusion"
+      route: iv
+      indication: "temporizing measure before pacing"

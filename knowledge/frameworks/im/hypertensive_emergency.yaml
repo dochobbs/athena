@@ -1,0 +1,53 @@
+id: hypertensive_emergency
+topic: "Hypertensive Emergency"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Distinguish hypertensive emergency (end-organ damage) from urgency (no end-organ damage)
+  - Know which IV antihypertensives to use and when
+  - Understand safe BP reduction targets (25% in first hour)
+  - Identify common end-organ damage patterns
+  - Recognize when NOT to lower BP rapidly (ischemic stroke)
+common_mistakes:
+  - Treating the number instead of looking for end-organ damage
+  - Lowering BP too rapidly causing watershed stroke or MI
+  - Using sublingual nifedipine (unpredictable, dangerous drops)
+  - Not checking for aortic dissection before choosing agents
+  - Sending urgency patients home without close follow-up
+red_flags:
+  - Papilledema indicating hypertensive encephalopathy
+  - Acute pulmonary edema (flash pulmonary edema)
+  - Aortic dissection with back pain and BP differential
+  - Acute renal failure with hematuria
+  - Eclampsia in pregnant patients
+clinical_pearls:
+  - "Emergency = elevated BP + end-organ damage; Urgency = elevated BP alone"
+  - Reduce MAP by no more than 25% in first hour
+  - Nicardipine is easiest to titrate and safest overall
+  - For aortic dissection, use esmolol or labetalol FIRST (reduce shear stress)
+  - Never use nitroprusside without prior beta-blockade in dissection
+key_history_questions:
+  - What symptoms brought you in (headache, vision, chest pain, dyspnea)?
+  - Are you taking blood pressure medications? Did you stop any recently?
+  - Any recent cocaine or methamphetamine use?
+  - Are you pregnant?
+  - History of kidney disease, stroke, or heart failure?
+key_exam_findings:
+  - Bilateral arm blood pressures
+  - Fundoscopy for papilledema, hemorrhages, exudates
+  - Full neurologic exam for focal deficits
+  - Lung auscultation for pulmonary edema
+  - Cardiac exam for new murmurs or gallops
+  - Mental status assessment
+treatment_principles:
+  - IV antihypertensives in ICU setting for true emergency
+  - Target 25% MAP reduction in first hour
+  - Then gradually to 160/100 over next 2-6 hours
+  - Oral agents for urgency with close outpatient follow-up
+  - Treat underlying cause (stop cocaine, restart medications)
+disposition_guidance:
+  - ICU admission for hypertensive emergency
+  - Observation unit or discharge with 24-48h follow-up for urgency
+  - Transition to oral agents once stable
+  - Ensure medication access and follow-up before discharge

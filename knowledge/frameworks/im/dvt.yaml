@@ -1,0 +1,53 @@
+id: dvt
+topic: "Deep Vein Thrombosis"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Apply the Wells score for DVT pre-test probability assessment
+  - Use D-dimer appropriately to rule out DVT in low-probability patients
+  - Choose appropriate anticoagulation regimen (DOACs preferred for most)
+  - Determine duration of therapy based on provoked vs unprovoked
+  - Evaluate for underlying thrombophilia or malignancy in unprovoked DVT
+common_mistakes:
+  - Ordering D-dimer in high-probability patients (proceed directly to ultrasound)
+  - Not using age-adjusted D-dimer in patients >50 (age x 10 ng/mL)
+  - Reflexively checking thrombophilia panel during acute event (many results unreliable acutely)
+  - Not counseling about medication adherence and drug interactions with DOACs
+  - Immobilizing the patient (early ambulation is safe and recommended)
+red_flags:
+  - Phlegmasia cerulea dolens (painful, cyanotic, swollen limb - limb-threatening)
+  - Concurrent PE symptoms (dyspnea, chest pain)
+  - Bilateral DVT (suggests IVC thrombosis or malignancy)
+  - Recurrent DVT on anticoagulation (treatment failure)
+clinical_pearls:
+  - Wells score low + D-dimer negative = DVT effectively ruled out (99% NPV)
+  - Apixaban and rivaroxaban do not require bridging with heparin (simplifies outpatient treatment)
+  - Provoked DVT (surgery, immobilization, travel) = 3 months of anticoagulation
+  - Unprovoked DVT = consider extended anticoagulation (weigh bleeding vs recurrence risk)
+  - Cancer-associated DVT - LMWH or DOAC (edoxaban, rivaroxaban) preferred over warfarin
+key_history_questions:
+  - When did the swelling start? Is it getting worse?
+  - Any recent surgery, hospitalization, or immobilization?
+  - Any long-distance travel recently?
+  - Are you on hormonal contraceptives or HRT?
+  - Any personal or family history of blood clots?
+  - Any shortness of breath or chest pain? (PE screening)
+key_exam_findings:
+  - Calf circumference comparison (>2 cm difference is significant)
+  - Pitting edema
+  - Warmth and erythema of affected limb
+  - Homan sign (unreliable but frequently tested)
+  - Palpable cord
+  - Assess for concurrent PE (tachycardia, hypoxia)
+treatment_principles:
+  - DOACs (apixaban or rivaroxaban) are first-line for most patients
+  - No bridging needed with apixaban or rivaroxaban
+  - Enoxaparin bridge for warfarin if DOAC not appropriate
+  - Compression stockings for symptom relief
+  - Early ambulation is safe and encouraged
+disposition_guidance:
+  - Outpatient treatment for most uncomplicated DVTs
+  - Admit for extensive iliofemoral DVT, phlegmasia, or concurrent PE
+  - Hematology referral for unprovoked DVT (thrombophilia evaluation at 3 months)
+  - Oncology screening if unprovoked (CT C/A/P, age-appropriate cancer screening)

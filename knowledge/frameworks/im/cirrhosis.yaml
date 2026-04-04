@@ -1,0 +1,54 @@
+id: cirrhosis
+topic: Cirrhosis
+category: gi
+specialties:
+- im
+teaching_goals:
+- Identify common etiologies (alcohol, MASLD, viral hepatitis)
+- Classify as compensated vs decompensated cirrhosis
+- 'Manage major complications: ascites, variceal bleeding, HE, HRS, SBP'
+- Understand screening protocols (HCC, varices)
+- Calculate MELD-Na score for transplant prioritization
+common_mistakes:
+- Failing to screen for varices and HCC
+- Using NSAIDs or aminoglycosides in cirrhotic patients
+- Not performing diagnostic paracentesis on all new or worsening ascites
+- Overdiuresis leading to renal failure
+- Missing secondary causes of decompensation (infection, medication, HCC)
+red_flags:
+- New-onset ascites or worsening ascites (rule out SBP)
+- GI bleeding (variceal hemorrhage)
+- Acute confusion or worsening encephalopathy
+- Fever in cirrhotic patient (SBP until proven otherwise)
+- Rising creatinine (hepatorenal syndrome)
+clinical_pearls:
+- Any cirrhotic admitted to hospital should get diagnostic paracentesis
+- MELD-Na score drives transplant listing priority
+- Compensated cirrhosis can survive years; decompensation changes prognosis dramatically
+- Non-selective beta-blockers reduce portal pressure and variceal bleeding risk
+- Rifaximin + lactulose is the standard for hepatic encephalopathy prevention
+key_history_questions:
+- Alcohol use (quantity, duration, last drink)?
+- History of hepatitis B or C?
+- Risk factors for MASLD (obesity, diabetes, dyslipidemia)?
+- Prior decompensation events (bleeding, ascites, encephalopathy)?
+- Current medications (including OTC and herbals)?
+- Family history of liver disease?
+key_exam_findings:
+- Jaundice, spider angiomata, palmar erythema
+- Ascites (shifting dullness, fluid wave)
+- Splenomegaly, caput medusae
+- Asterixis (hepatic encephalopathy)
+- Muscle wasting, gynecomastia
+- Peripheral edema
+treatment_principles:
+- Treat underlying cause (alcohol cessation, antivirals, weight loss)
+- 'Ascites: salt restriction + spironolactone/furosemide (100:40 ratio)'
+- 'HE: lactulose to 2-3 BMs/day + rifaximin for prevention'
+- 'Varices: NSBB prophylaxis, band ligation for secondary prevention'
+- Screen for HCC every 6 months with US +/- AFP
+disposition_guidance:
+- 'Outpatient: Compensated cirrhosis, routine screening'
+- 'Admission: New decompensation, SBP, variceal bleed, AKI'
+- 'ICU: Active variceal hemorrhage, severe encephalopathy, hepatorenal syndrome'
+- 'Transplant referral: MELD >= 15 or first decompensation event'

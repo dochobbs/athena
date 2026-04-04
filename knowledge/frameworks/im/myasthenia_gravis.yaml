@@ -1,0 +1,51 @@
+id: myasthenia_gravis
+topic: "Myasthenia Gravis"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Recognize fatigable weakness as the hallmark of neuromuscular junction disease
+  - Distinguish myasthenic crisis from cholinergic crisis
+  - Identify medications that worsen MG and must be avoided
+  - Understand the association with thymoma and indications for thymectomy
+  - Manage acute exacerbations and myasthenic crisis
+common_mistakes:
+  - Administering aminoglycosides, fluoroquinolones, or magnesium (worsen MG)
+  - Missing respiratory compromise (monitor FVC, not just SpO2)
+  - Confusing cholinergic crisis (excess pyridostigmine) with myasthenic crisis
+  - Not screening for thymoma with chest CT
+  - Using beta-blockers or calcium channel blockers without caution
+red_flags:
+  - FVC <20 mL/kg or negative inspiratory force <30 cmH2O (impending respiratory failure)
+  - Rapid progression of bulbar symptoms (aspiration risk)
+  - New respiratory symptoms or dyspnea
+  - Concurrent infection triggering myasthenic crisis
+clinical_pearls:
+  - "Ice pack test: place ice on closed eye for 2 minutes; improvement of ptosis supports MG"
+  - "AChR antibodies positive in 85% of generalized MG; check anti-MuSK if seronegative"
+  - "20/30 rule: intubate if FVC <20 mL/kg or NIF <30 cmH2O"
+  - "Avoid: aminoglycosides, fluoroquinolones, magnesium, beta-blockers, D-penicillamine"
+  - "Thymectomy benefits even non-thymoma patients under 65 with generalized AChR+ MG"
+key_history_questions:
+  - "Do symptoms worsen with repeated activity and improve with rest?"
+  - "Is ptosis or double vision worse in the evening?"
+  - "Any difficulty swallowing, chewing, or breathing?"
+  - "What medications are you currently taking?"
+  - "Have you ever been hospitalized for breathing difficulty?"
+key_exam_findings:
+  - "Fatigable ptosis on sustained upgaze (curtain sign)"
+  - "Ice pack test positive (improvement of ptosis)"
+  - "Proximal weakness that worsens with repetitive testing"
+  - "Normal reflexes and sensation (pure motor)"
+  - "Weak neck flexion (head drop)"
+  - "Nasal or dysarthric speech"
+treatment_principles:
+  - "Pyridostigmine for symptomatic relief (does not alter disease course)"
+  - "Immunosuppression with prednisone and steroid-sparing agents"
+  - "IVIG or plasmapheresis for crisis or pre-thymectomy"
+  - "Thymectomy for thymoma or generalized AChR+ MG"
+  - "Avoid MG-worsening medications in all clinical settings"
+disposition_guidance:
+  - "ICU for myasthenic crisis with respiratory monitoring"
+  - "Serial FVC monitoring (more reliable than pulse oximetry)"
+  - "Neurology consultation for all new diagnoses and crises"

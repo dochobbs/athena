@@ -1,0 +1,48 @@
+id: atrial_flutter
+topic: "Atrial Flutter"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Recognize classic sawtooth flutter waves on ECG
+  - Understand typical vs atypical flutter circuits
+  - Apply same anticoagulation rules as atrial fibrillation
+  - Know that catheter ablation is highly effective for typical flutter
+  - Distinguish from AFib and other SVTs
+common_mistakes:
+  - Missing 2:1 flutter at 150 bpm (looks like sinus tachycardia)
+  - Not anticoagulating because "it's just flutter, not AFib"
+  - Failing to refer for ablation when rate control is difficult
+  - Not looking for concurrent AFib which often coexists
+red_flags:
+  - 1:1 conduction with heart rate 250-300 bpm
+  - Hemodynamic instability requiring cardioversion
+  - Stroke symptoms indicating thromboembolism
+  - Heart failure from persistent tachycardia
+clinical_pearls:
+  - "Think flutter when heart rate is exactly 150 bpm"
+  - Sawtooth waves best seen in leads II, III, aVF and V1
+  - Catheter ablation for typical flutter has >95% success rate
+  - Stroke risk with flutter is similar to AFib - anticoagulate the same
+  - Adenosine can unmask flutter waves by temporarily slowing AV conduction
+key_history_questions:
+  - When did palpitations start?
+  - Have you had atrial fibrillation before?
+  - Any dizziness or lightheadedness?
+  - Are you on any rate control or antiarrhythmic medications?
+  - History of cardiac surgery or ablation?
+key_exam_findings:
+  - Regular tachycardia (unlike irregularly irregular AFib)
+  - Flutter waves in JVP
+  - Signs of hemodynamic compromise
+  - Evidence of heart failure
+treatment_principles:
+  - Rate control similar to AFib (beta-blockers, CCBs)
+  - Anticoagulation per CHA2DS2-VASc (same as AFib)
+  - Refer for catheter ablation (curative for typical flutter)
+  - Ibutilide for chemical cardioversion if needed
+disposition_guidance:
+  - Admit if hemodynamically unstable
+  - Discharge with rate control and anticoagulation if stable
+  - Electrophysiology referral for ablation
+  - Monitor for development of concurrent AFib

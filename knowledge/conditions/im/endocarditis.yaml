@@ -1,0 +1,85 @@
+id: endocarditis
+display_name: "Infective Endocarditis"
+aliases:
+  - IE
+  - Bacterial endocarditis
+  - Subacute bacterial endocarditis
+  - SBE
+snomed: "56819008"
+icd10:
+  - "I33.0"
+  - "I33.9"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f:
+    - 100.5
+    - 104.0
+  hr_multiplier: 1.20
+  rr_multiplier: 1.05
+presentation:
+  symptoms:
+    - name: fever
+      probability: 0.90
+      description: "persistent fever, often low-grade in subacute"
+    - name: malaise
+      probability: 0.75
+      description: "fatigue, weight loss, night sweats"
+    - name: new_murmur
+      probability: 0.50
+      description: "new or changing heart murmur"
+    - name: arthralgias
+      probability: 0.40
+      description: "joint pain, myalgias"
+    - name: embolic_phenomena
+      probability: 0.30
+      description: "stroke, splenic infarct, renal infarct"
+  physical_exam:
+    - system: cardiovascular
+      finding: "New regurgitant murmur or change in existing murmur"
+      probability: 0.50
+    - system: dermatologic
+      finding: "Janeway lesions (painless erythematous on palms/soles)"
+      probability: 0.15
+    - system: dermatologic
+      finding: "Osler nodes (painful nodules on fingers/toes)"
+      probability: 0.10
+    - system: ophthalmologic
+      finding: "Roth spots on fundoscopy"
+      probability: 0.10
+    - system: extremities
+      finding: "Splinter hemorrhages in nail beds"
+      probability: 0.20
+    - system: abdominal
+      finding: "Splenomegaly"
+      probability: 0.30
+treatment:
+  approach: prolonged_iv_antibiotics
+  medications:
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "15-20 mg/kg IV q8-12h"
+      route: iv
+      indication: "empiric coverage for MRSA pending cultures"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "2 g IV q24h"
+      route: iv
+      indication: "native valve strep coverage"
+    - agent: "Nafcillin"
+      rxnorm: "7233"
+      frequency: "2 g IV q4h"
+      route: iv
+      indication: "MSSA native valve endocarditis"
+    - agent: "Gentamicin"
+      rxnorm: "4678"
+      frequency: "3 mg/kg/day IV divided q8h"
+      route: iv
+      indication: "synergy for enterococcal endocarditis"

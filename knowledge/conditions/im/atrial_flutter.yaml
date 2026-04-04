@@ -1,0 +1,73 @@
+id: atrial_flutter
+display_name: "Atrial Flutter"
+aliases:
+  - AFlutter
+  - Typical flutter
+  - Atypical flutter
+snomed: "5370000"
+icd10:
+  - "I48.92"
+  - "I48.3"
+  - "I48.4"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.30
+  rr_multiplier: 1.05
+presentation:
+  symptoms:
+    - name: palpitations
+      probability: 0.70
+      description: "regular rapid heartbeat"
+    - name: dyspnea
+      probability: 0.45
+      description: "shortness of breath with rapid ventricular rate"
+    - name: dizziness
+      probability: 0.35
+      description: "lightheadedness or presyncope"
+    - name: fatigue
+      probability: 0.50
+      description: "reduced exercise tolerance"
+    - name: chest_discomfort
+      probability: 0.25
+      description: "chest tightness"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Regular tachycardia (often 150 bpm with 2:1 block)"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "Flutter waves visible in JVP"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Signs of hemodynamic compromise if rapid"
+      probability: 0.20
+treatment:
+  approach: rate_control_or_cardioversion
+  medications:
+    - agent: "Metoprolol Tartrate"
+      rxnorm: "6918"
+      frequency: "5 mg IV q5min x3 then oral"
+      route: iv
+      indication: "acute rate control"
+    - agent: "Diltiazem"
+      rxnorm: "3443"
+      frequency: "0.25 mg/kg IV bolus then infusion"
+      route: iv
+      indication: "rate control if beta-blocker contraindicated"
+    - agent: "Apixaban"
+      rxnorm: "1364430"
+      frequency: "twice daily"
+      route: oral
+      indication: "anticoagulation, same stroke risk as AFib"
+    - agent: "Ibutilide"
+      rxnorm: "73178"
+      frequency: "1 mg IV over 10 min, may repeat"
+      route: iv
+      indication: "chemical cardioversion"

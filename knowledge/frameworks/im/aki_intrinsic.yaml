@@ -1,0 +1,54 @@
+id: aki_intrinsic
+topic: "Intrinsic Acute Kidney Injury"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Classify intrinsic AKI by compartment (tubular, interstitial, glomerular, vascular)
+  - Use urinalysis with microscopy to differentiate ATN, AIN, and glomerulonephritis
+  - Understand indications for renal biopsy
+  - Manage complications (hyperkalemia, acidosis, volume overload)
+  - Know indications for emergent dialysis
+common_mistakes:
+  - Not examining the urine sediment - it is the renal biopsy of the wards
+  - Attributing all AKI to prerenal causes without checking FENa
+  - Missing drug-induced acute interstitial nephritis (AIN) - often has eosinophils
+  - Delaying nephrology consultation when creatinine is rapidly rising
+  - Forgetting to adjust medication doses for reduced GFR
+red_flags:
+  - Rapidly rising creatinine (doubling in 24 hours) suggests RPGN
+  - Anuria lasting >24 hours
+  - Hyperkalemia >6.5 with ECG changes
+  - Refractory metabolic acidosis
+  - Uremic symptoms (pericarditis, encephalopathy, bleeding)
+clinical_pearls:
+  - "Muddy brown granular casts = ATN; WBC casts = AIN or pyelonephritis; RBC casts = glomerulonephritis"
+  - ATN typically recovers in 1-3 weeks if the insult is removed
+  - FENa >2% in intrinsic AKI (but can be <1% in contrast nephropathy, myoglobinuria, early sepsis)
+  - Eosinophiluria has poor sensitivity for AIN but high specificity
+  - "Indications for emergent dialysis: AEIOU (Acidosis, Electrolytes, Intoxication, Overload, Uremia)"
+key_history_questions:
+  - What medications are you taking, including OTCs and supplements?
+  - Any new medications started in the past 1-2 weeks? (AIN typically 7-14 days)
+  - Have you had any recent contrast dye exposure?
+  - Any joint pain, rash, or other systemic symptoms? (autoimmune)
+  - Any recent prolonged hypotension or surgery?
+  - Any dark or cola-colored urine?
+key_exam_findings:
+  - Volume status (JVP, edema, lung crackles)
+  - Rash suggesting drug reaction or vasculitis
+  - Joint inflammation suggesting lupus or vasculitis
+  - Pericardial friction rub (uremic pericarditis)
+  - Asterixis (uremic encephalopathy)
+  - Flank tenderness
+treatment_principles:
+  - Remove the offending agent if drug-induced
+  - Manage volume status carefully (avoid both overload and depletion)
+  - Treat hyperkalemia aggressively if present
+  - Steroids for biopsy-proven AIN or crescentic GN
+  - Initiate dialysis for refractory complications
+disposition_guidance:
+  - Admit all patients with significantly rising creatinine
+  - ICU for hemodynamic instability or need for emergent dialysis
+  - Nephrology consultation for all cases of intrinsic AKI
+  - Close outpatient follow-up with serial creatinine if discharged

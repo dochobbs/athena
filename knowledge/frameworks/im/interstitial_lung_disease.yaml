@@ -1,0 +1,54 @@
+id: interstitial_lung_disease
+topic: Interstitial Lung Disease
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Classify ILD subtypes (IPF, NSIP, HP, CTD-ILD, sarcoidosis)
+- Interpret PFTs showing restrictive pattern with reduced DLCO
+- Know the role of HRCT patterns (UIP, NSIP, HP)
+- Understand that IPF is treated with antifibrotics, NOT steroids
+- Recognize medication-induced ILD
+common_mistakes:
+- Treating IPF with steroids (harmful, not helpful)
+- Missing occupational/environmental exposures (hypersensitivity pneumonitis)
+- Not checking autoimmune serologies (CTD-ILD is treatable)
+- Confusing ILD crackles with heart failure crackles
+- Delaying referral to ILD specialist
+red_flags:
+- Rapid progression of symptoms or imaging
+- Acute exacerbation of IPF (high mortality)
+- Desaturation to <88% with 6-minute walk test
+- Development of pulmonary hypertension
+- FVC decline >10% in one year
+clinical_pearls:
+- Velcro crackles at bases are classic for IPF
+- UIP pattern on HRCT (basal, peripheral, honeycombing) can diagnose IPF without biopsy
+- IPF median survival is 3-5 years from diagnosis
+- Antifibrotics (pirfenidone, nintedanib) slow decline but don't reverse fibrosis
+- Hypersensitivity pneumonitis is reversible if antigen is identified and removed
+key_history_questions:
+- How long have you had progressive shortness of breath?
+- Do you have a dry cough?
+- Occupational history (asbestos, silica, coal, farming)?
+- Pet birds, hot tubs, moldy environments?
+- Medications (amiodarone, methotrexate, nitrofurantoin, bleomycin)?
+- Connective tissue disease symptoms (joint pain, Raynaud, skin changes)?
+key_exam_findings:
+- Bibasilar Velcro-like crackles
+- Digital clubbing (present in 25-50% of IPF)
+- Tachypnea at rest in advanced disease
+- Signs of pulmonary hypertension (loud P2, RV heave)
+- Connective tissue disease signs (sclerodactyly, rash)
+- Exertional desaturation on walk test
+treatment_principles:
+- 'IPF: pirfenidone or nintedanib (antifibrotic)'
+- 'CTD-ILD: immunosuppression (mycophenolate, rituximab)'
+- 'HP: antigen avoidance +/- steroids'
+- 'Sarcoidosis-ILD: steroids, then steroid-sparing agents'
+- 'All: supplemental O2 if hypoxic, pulmonary rehab, lung transplant evaluation'
+disposition_guidance:
+- Pulmonology referral for all suspected ILD
+- Urgent referral if rapidly progressive
+- Lung transplant evaluation for advanced disease
+- Pulmonary rehabilitation for symptom management

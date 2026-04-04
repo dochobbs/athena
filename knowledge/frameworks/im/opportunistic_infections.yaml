@@ -1,0 +1,52 @@
+id: opportunistic_infections
+topic: Opportunistic Infections
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Correlate CD4 count with risk for specific OIs
+- Recognize PCP pneumonia presentation and diagnostic approach
+- Differentiate CNS OIs (toxoplasmosis vs lymphoma vs cryptococcal meningitis)
+- Know prophylaxis regimens and when to start/stop
+- Understand IRIS and its management
+common_mistakes:
+- Not checking serum cryptococcal antigen in patients with headache and low CD4
+- Missing PCP due to lack of classic exam findings
+- Confusing toxoplasmosis ring-enhancing lesions with CNS lymphoma
+- Stopping OI prophylaxis before adequate immune reconstitution
+red_flags:
+- Severe hypoxia with minimal exam findings (PCP)
+- Headache with elevated opening pressure (cryptococcal meningitis)
+- Focal neurologic deficits with ring-enhancing lesions (toxoplasmosis)
+- Vision loss (CMV retinitis - CD4 < 50)
+- Dysphagia with CD4 < 100 (esophageal candidiasis)
+clinical_pearls:
+- PCP classically shows bilateral ground-glass opacities on CT with clear lung exam
+- Elevated LDH and widened A-a gradient are clues to PCP
+- Cryptococcal meningitis CSF may show minimal pleocytosis
+- 'Toxoplasmosis: ring-enhancing lesions, toxo IgG positive, CD4 < 100'
+- CMV retinitis requires urgent ophthalmology - delay causes irreversible vision loss
+key_history_questions:
+- Current CD4 count and viral load?
+- On ART? Adherence?
+- Current OI prophylaxis regimen?
+- Duration and progression of symptoms?
+- Recent travel to endemic fungal areas?
+- Toxoplasma IgG status?
+key_exam_findings:
+- Hypoxia disproportionate to respiratory exam (PCP)
+- Oral thrush (marker of immunosuppression)
+- Focal neuro deficits (CNS toxoplasmosis)
+- Retinal hemorrhages and exudates (CMV retinitis)
+- Lymphadenopathy, hepatosplenomegaly
+treatment_principles:
+- Empiric treatment of PCP with TMP-SMX plus steroids if PaO2 < 70
+- 'Cryptococcal meningitis: amphotericin B induction then fluconazole'
+- 'Toxoplasmosis: pyrimethamine + sulfadiazine + leucovorin'
+- Start ART 2 weeks after OI treatment (except crypto - delay 4-6 weeks)
+- Serial therapeutic LPs for cryptococcal meningitis to control pressure
+disposition_guidance:
+- Admit for all new AIDS-defining OIs
+- ICU for PCP with respiratory failure or severe cryptococcal meningitis
+- Ophthalmology urgently for suspected CMV retinitis
+- ID consultation for all cases

@@ -1,0 +1,121 @@
+id: pulmonary_embolism_heme
+display_name: "Pulmonary Embolism"
+aliases:
+  - PE
+  - Pulmonary thromboembolism
+  - VTE
+snomed: "59282003"
+icd10:
+  - "I26.99"
+  - "I26.09"
+  - "I26.90"
+category: acute
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.5, 100.5]
+  hr_multiplier: 1.30
+  spo2_min: 82
+presentation:
+  symptoms:
+    - name: dyspnea
+      probability: 0.85
+      description: "Acute onset dyspnea, often at rest"
+    - name: pleuritic_chest_pain
+      probability: 0.70
+      description: "Sharp chest pain worse with inspiration"
+    - name: tachycardia
+      probability: 0.75
+      description: "Resting tachycardia out of proportion"
+    - name: cough
+      probability: 0.40
+      description: "Dry cough, rarely hemoptysis"
+    - name: hemoptysis
+      probability: 0.15
+      description: "Blood-tinged sputum from pulmonary infarction"
+    - name: syncope
+      probability: 0.20
+      description: "Syncope suggests massive PE with right heart strain"
+    - name: leg_swelling
+      probability: 0.40
+      description: "Concurrent DVT symptoms"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Tachycardia, loud P2, RV heave in massive PE"
+      probability: 0.75
+    - system: respiratory
+      finding: "Tachypnea, decreased SpO2, clear lungs (may have focal crackles)"
+      probability: 0.80
+    - system: extremities
+      finding: "Unilateral leg swelling suggesting DVT source"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Hypotension, JVD in massive PE"
+      probability: 0.25
+diagnostics:
+  imaging:
+    - name: CT Pulmonary Angiography
+      modality: CT
+      loinc: "36813-4"
+      finding_positive: "Filling defect in right pulmonary artery extending into segmental branches. RV/LV ratio 1.2 suggesting RV strain."
+      finding_negative: "No pulmonary embolism. Normal pulmonary vasculature."
+      probability_positive: 0.95
+  labs:
+    - name: D-dimer
+      loinc: "48065-7"
+      value_type: numeric
+      unit: ng/mL FEU
+      normal_range_high: 500
+      abnormal_high_min: 500
+      probability_abnormal: 0.97
+    - name: Troponin
+      loinc: "49563-0"
+      value_type: numeric
+      unit: ng/mL
+      normal_range_high: 0.04
+      abnormal_high_min: 0.04
+      probability_abnormal: 0.50
+      notes: "Elevated suggests RV strain - risk stratification"
+    - name: BNP
+      loinc: "42637-9"
+      value_type: numeric
+      unit: pg/mL
+      normal_range_high: 100
+      abnormal_high_min: 100
+      probability_abnormal: 0.55
+treatment:
+  approach: anticoagulation_risk_stratified
+  medications:
+    - agent: "Rivaroxaban"
+      rxnorm: "1114195"
+      frequency: "15 mg BID x21 days, then 20 mg daily"
+      route: oral
+      indication: "First-line for hemodynamically stable PE"
+    - agent: "Apixaban"
+      rxnorm: "1364430"
+      frequency: "10 mg BID x7 days, then 5 mg BID"
+      route: oral
+      indication: "Alternative DOAC for stable PE"
+    - agent: "Heparin"
+      rxnorm: "5224"
+      frequency: "80 units/kg bolus, then 18 units/kg/hr drip"
+      route: iv
+      indication: "Submassive or massive PE, or bridging"
+    - agent: "Alteplase"
+      rxnorm: "8410"
+      frequency: "100 mg IV over 2 hours"
+      route: iv
+      indication: "Systemic thrombolysis for massive PE with hemodynamic collapse"
+  patient_instructions:
+    - Use Wells score or PERC rule for risk stratification
+    - PERC negative in low-risk = no further workup needed
+    - Age-adjusted D-dimer (age x 10 ng/mL for patients >50)
+    - Massive PE (hypotension) - thrombolysis or catheter-directed therapy
+    - Submassive PE (RV strain, elevated troponin) - close monitoring, consider escalation
+    - Minimum 3 months anticoagulation, longer if unprovoked

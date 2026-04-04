@@ -1,0 +1,54 @@
+id: endocarditis
+topic: "Infective Endocarditis"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Apply modified Duke criteria for diagnosis
+  - Know which blood culture strategy to use (3 sets from separate sites)
+  - Identify high-risk features requiring early surgery
+  - Understand empiric antibiotic selection and duration (4-6 weeks IV)
+  - Recognize embolic complications
+common_mistakes:
+  - Drawing blood cultures after starting antibiotics
+  - Not obtaining enough blood culture sets (need 3 separate sets)
+  - Missing the diagnosis because TTE is negative (TEE needed)
+  - Not involving cardiac surgery early for surgical indications
+  - Forgetting to screen for embolic complications (brain, spleen, kidneys)
+red_flags:
+  - Large vegetation (>10 mm) on mobile leaflet (high embolic risk)
+  - Perivalvular abscess (requires surgery)
+  - Prosthetic valve endocarditis (high mortality)
+  - Embolic stroke or mycotic aneurysm
+  - Persistent bacteremia despite appropriate antibiotics
+clinical_pearls:
+  - "Fever + new murmur + positive blood cultures = endocarditis until proven otherwise"
+  - TTE sensitivity is only 60-75%; TEE is 90-95%
+  - S. aureus IE has the worst prognosis and highest surgical rates
+  - IVDU IE typically involves tricuspid valve (right-sided)
+  - Enterococcal IE requires synergistic combination therapy (ampicillin + gentamicin or ceftriaxone)
+key_history_questions:
+  - Any history of IV drug use?
+  - Prosthetic heart valve or known valvular disease?
+  - Recent dental work or invasive procedure?
+  - Fever duration and pattern?
+  - Any prior episodes of endocarditis?
+  - History of congenital heart disease?
+key_exam_findings:
+  - New or changing murmur
+  - Janeway lesions (painless, palms/soles)
+  - Osler nodes (painful, fingertips/toes)
+  - Splinter hemorrhages
+  - Roth spots on fundoscopy
+  - Splenomegaly
+treatment_principles:
+  - Obtain 3 sets of blood cultures BEFORE antibiotics
+  - Empiric coverage with vancomycin pending culture data
+  - Prolonged IV antibiotic therapy (4-6 weeks)
+  - Early surgical consultation for complicated cases
+  - ID consultation for all cases
+disposition_guidance:
+  - Admit all suspected endocarditis
+  - PICC line for outpatient parenteral antibiotics after stabilization
+  - Surgery for heart failure, perivalvular abscess, persistent bacteremia, or large vegetation
+  - Follow-up echo to document vegetation response

@@ -1,0 +1,103 @@
+id: rhabdomyolysis
+display_name: "Rhabdomyolysis"
+aliases:
+  - Rhabdo
+  - Myoglobinuria
+  - Crush syndrome
+snomed: "240131006"
+icd10:
+  - "M62.82"
+category: acute
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [98.0, 101.0]
+  hr_multiplier: 1.20
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: muscle_pain
+      probability: 0.85
+      description: "Severe myalgias, often in thighs, calves, and back"
+    - name: dark_urine
+      probability: 0.80
+      description: "Tea-colored or cola-colored urine from myoglobinuria"
+    - name: weakness
+      probability: 0.75
+      description: "Proximal muscle weakness"
+    - name: nausea_vomiting
+      probability: 0.55
+      description: "Nausea, vomiting from metabolic derangements"
+    - name: fever
+      probability: 0.40
+      description: "Low-grade fever"
+    - name: confusion
+      probability: 0.30
+      description: "Altered mental status in severe cases"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Tender, swollen muscles, may have compartment tightness"
+      probability: 0.80
+    - system: skin
+      finding: "Dark-colored urine on Foley output"
+      probability: 0.75
+    - system: cardiovascular
+      finding: "Tachycardia, signs of dehydration"
+      probability: 0.65
+    - system: general
+      finding: "Appearing ill, may have signs of the inciting event"
+      probability: 0.60
+diagnostics:
+  labs:
+    - name: Creatine Kinase
+      loinc: "2157-6"
+      value_type: numeric
+      unit: U/L
+      normal_range_high: 200
+      abnormal_high_min: 1000
+      abnormal_high_max: 200000
+      probability_abnormal: 0.99
+    - name: Urine Myoglobin
+      loinc: "2614-6"
+      value_type: categorical
+      finding: "Positive myoglobin, dipstick positive for blood without RBCs"
+      probability_abnormal: 0.85
+    - name: Potassium
+      loinc: "2823-3"
+      value_type: numeric
+      unit: mEq/L
+      normal_range_high: 5.0
+      abnormal_high_min: 5.5
+      abnormal_high_max: 8.0
+      probability_abnormal: 0.70
+treatment:
+  approach: aggressive_iv_hydration
+  medications:
+    - agent: "Normal Saline (0.9% NaCl)"
+      rxnorm: "313002"
+      frequency: "200-300 mL/hr initially, titrate to UOP 200-300 mL/hr"
+      route: iv
+      indication: "Aggressive volume resuscitation to prevent AKI"
+    - agent: "Calcium Gluconate"
+      rxnorm: "4297"
+      frequency: "1-2g IV over 10 min"
+      route: iv
+      indication: "Cardiac membrane stabilization if hyperkalemia with ECG changes"
+    - agent: "Sodium Bicarbonate"
+      rxnorm: "9154"
+      frequency: "150 mEq in 1L D5W"
+      route: iv
+      indication: "Urine alkalinization to prevent myoglobin cast nephropathy"
+  patient_instructions:
+    - Goal urine output 200-300 mL/hr with IV fluids
+    - Monitor CK levels every 6-12 hours until trending down
+    - Continuous cardiac monitoring for hyperkalemia
+    - Watch for compartment syndrome - surgical emergency
+    - Avoid nephrotoxic agents
+    - Identify and treat underlying cause (trauma, drugs, exertion, seizures)

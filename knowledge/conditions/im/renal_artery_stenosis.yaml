@@ -1,0 +1,98 @@
+id: renal_artery_stenosis
+display_name: "Renal Artery Stenosis"
+aliases:
+  - RAS
+  - Renovascular hypertension
+  - Atherosclerotic renal artery stenosis
+  - Fibromuscular dysplasia
+snomed: "17999000"
+icd10:
+  - "I70.1"
+  - "I77.3"
+category: chronic
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 98.6]
+  hr_multiplier: 1.05
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: resistant_hypertension
+      probability: 0.85
+      description: "Hypertension refractory to 3+ medications"
+    - name: flash_pulmonary_edema
+      probability: 0.35
+      description: "Recurrent episodes of flash pulmonary edema"
+    - name: headache
+      probability: 0.50
+      description: "Headache from severe hypertension"
+    - name: declining_renal_function
+      probability: 0.60
+      description: "Progressive azotemia, especially after ACEi/ARB initiation"
+    - name: abdominal_bruit
+      probability: 0.40
+      description: "Systolic-diastolic bruit heard on exam"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Severe hypertension, often >180/110"
+      probability: 0.85
+    - system: abdomen
+      finding: "Abdominal bruit in epigastric or flank region"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Signs of heart failure (JVD, crackles, edema)"
+      probability: 0.35
+    - system: vascular
+      finding: "Diffuse atherosclerotic disease (diminished peripheral pulses)"
+      probability: 0.50
+diagnostics:
+  imaging:
+    - name: Duplex Renal Ultrasound
+      modality: ultrasound
+      loinc: "24564-7"
+      finding_positive: "Elevated peak systolic velocity >200 cm/s in renal artery, asymmetric kidney size"
+      finding_negative: "Normal renal artery flow velocities, symmetric kidney size"
+      probability_positive: 0.75
+    - name: CT Angiography of Renal Arteries
+      modality: CT
+      loinc: "36813-4"
+      finding_positive: "High-grade stenosis of left renal artery origin with post-stenotic dilatation"
+      finding_negative: "Patent renal arteries without significant stenosis"
+      probability_positive: 0.90
+treatment:
+  approach: medical_or_revascularization
+  medications:
+    - agent: "Amlodipine"
+      rxnorm: "17767"
+      frequency: "5-10 mg once daily"
+      route: oral
+      indication: "Calcium channel blocker for BP control (safe in bilateral RAS)"
+    - agent: "Lisinopril"
+      rxnorm: "29046"
+      frequency: "5-40 mg daily"
+      route: oral
+      indication: "ACEi for unilateral RAS (CONTRAINDICATED in bilateral)"
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "81 mg daily"
+      route: oral
+      indication: "Antiplatelet for atherosclerotic disease"
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "40-80 mg daily"
+      route: oral
+      indication: "Statin for atherosclerotic disease"
+  patient_instructions:
+    - Check creatinine within 1-2 weeks of starting ACEi/ARB
+    - Rise in creatinine >30% after ACEi/ARB suggests bilateral RAS
+    - Angioplasty with stenting for FMD or refractory cases
+    - CORAL trial showed no benefit of stenting over medical therapy for atherosclerotic RAS
+    - Young woman with severe HTN - think fibromuscular dysplasia
+    - Manage cardiovascular risk factors aggressively

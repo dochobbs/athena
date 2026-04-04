@@ -1,0 +1,118 @@
+id: iron_deficiency_anemia_adult
+display_name: "Iron Deficiency Anemia (Adult)"
+aliases:
+  - IDA
+  - Iron deficiency
+  - Microcytic anemia
+snomed: "87522002"
+icd10:
+  - "D50.9"
+  - "D50.0"
+category: chronic
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 98.6]
+  hr_multiplier: 1.15
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.90
+      description: "Progressive fatigue and exercise intolerance"
+    - name: dyspnea_on_exertion
+      probability: 0.65
+      description: "Shortness of breath with activity"
+    - name: pica
+      probability: 0.25
+      description: "Craving ice (pagophagia), dirt, or starch"
+    - name: dizziness
+      probability: 0.50
+      description: "Lightheadedness, especially on standing"
+    - name: hair_loss
+      probability: 0.35
+      description: "Diffuse hair thinning"
+    - name: restless_legs
+      probability: 0.30
+      description: "Restless legs syndrome"
+  physical_exam:
+    - system: general
+      finding: "Pallor of conjunctivae, palms, and nail beds"
+      probability: 0.80
+    - system: cardiovascular
+      finding: "Flow murmur (systolic), tachycardia"
+      probability: 0.50
+    - system: skin
+      finding: "Koilonychia (spoon nails), glossitis, angular cheilitis"
+      probability: 0.30
+    - system: oropharynx
+      finding: "Smooth tongue, atrophic glossitis"
+      probability: 0.25
+diagnostics:
+  labs:
+    - name: Hemoglobin
+      loinc: "718-7"
+      value_type: numeric
+      unit: g/dL
+      normal_range_low: 12.0
+      abnormal_low_max: 11.9
+      probability_abnormal: 1.0
+    - name: Ferritin
+      loinc: "2276-4"
+      value_type: numeric
+      unit: ng/mL
+      normal_range_low: 30
+      abnormal_low_max: 30
+      probability_abnormal: 0.90
+    - name: Iron
+      loinc: "2498-4"
+      value_type: numeric
+      unit: mcg/dL
+      normal_range_low: 60
+      abnormal_low_max: 59
+      probability_abnormal: 0.85
+    - name: TIBC
+      loinc: "2500-7"
+      value_type: numeric
+      unit: mcg/dL
+      normal_range_high: 400
+      abnormal_high_min: 400
+      probability_abnormal: 0.80
+    - name: MCV
+      loinc: "787-2"
+      value_type: numeric
+      unit: fL
+      normal_range_low: 80
+      abnormal_low_max: 79
+      probability_abnormal: 0.75
+treatment:
+  approach: iron_replacement_and_cause_evaluation
+  medications:
+    - agent: "Ferrous Sulfate"
+      rxnorm: "4471"
+      frequency: "325 mg (65 mg elemental) daily to TID"
+      route: oral
+      indication: "First-line oral iron replacement"
+    - agent: "Iron Sucrose"
+      rxnorm: "259855"
+      frequency: "200 mg IV over 15 min, repeat x5 doses"
+      route: iv
+      indication: "Oral iron intolerance or malabsorption"
+    - agent: "Ferric Carboxymaltose"
+      rxnorm: "1170017"
+      frequency: "750 mg IV x2 doses, 1 week apart"
+      route: iv
+      indication: "Rapid IV iron repletion"
+  patient_instructions:
+    - Take oral iron on empty stomach with vitamin C to enhance absorption
+    - Avoid taking with calcium, antacids, or tea
+    - In men and postmenopausal women, IDA requires GI evaluation (colonoscopy)
+    - Premenopausal women - assess menstrual blood loss
+    - Recheck CBC and ferritin in 4-8 weeks
+    - Continue iron for 3-6 months after Hgb normalizes to replete stores

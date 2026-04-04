@@ -1,0 +1,52 @@
+id: serotonin_syndrome
+topic: "Serotonin Syndrome"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Recognize the clinical triad (altered mental status, autonomic instability, neuromuscular excitation)
+  - Identify the Hunter criteria for diagnosis
+  - Differentiate from neuroleptic malignant syndrome and malignant hyperthermia
+  - Identify common causative drug combinations
+  - Understand that treatment is drug discontinuation and supportive care
+common_mistakes:
+  - Confusing with NMS (serotonin syndrome has clonus and hyperreflexia; NMS has lead-pipe rigidity)
+  - Missing the offending drug combination (SSRI + tramadol, SSRI + linezolid, SSRI + triptan)
+  - Not recognizing mild cases (tremor, hyperreflexia, agitation without fever)
+  - Treating with dantrolene (that is for NMS, not serotonin syndrome)
+  - Forgetting that MAOIs have the highest risk and longest washout periods
+red_flags:
+  - Temperature >104F (severe, life-threatening)
+  - Seizures
+  - Rhabdomyolysis (CK elevation, dark urine)
+  - DIC or multiorgan failure
+clinical_pearls:
+  - "Hunter criteria: serotonergic agent + ONE of: spontaneous clonus, inducible clonus + agitation, ocular clonus + agitation, tremor + hyperreflexia, temperature >38C + ocular or inducible clonus"
+  - "Clonus (especially lower extremity) is the most reliable sign"
+  - "NMS develops over days; serotonin syndrome develops within hours of drug change"
+  - "Common combinations: SSRI + MAOI, SSRI + tramadol, SSRI + linezolid, SSRI + dextromethorphan"
+  - "Cyproheptadine (serotonin antagonist) 12mg initial then 2mg q2h until improvement"
+key_history_questions:
+  - "What medications were recently started, changed, or combined?"
+  - "Any recent use of over-the-counter medications (dextromethorphan, St. John's Wort)?"
+  - "How quickly did symptoms develop after the medication change?"
+  - "Any illicit drug use (MDMA, cocaine)?"
+  - "Is the patient taking an MAOI?"
+key_exam_findings:
+  - "Clonus (spontaneous, inducible, or ocular) - most specific finding"
+  - "Hyperreflexia (especially lower extremities)"
+  - "Mydriasis"
+  - "Diaphoresis, flushing"
+  - "Tremor and myoclonus"
+  - "Agitation, confusion"
+treatment_principles:
+  - "Discontinue ALL serotonergic agents immediately"
+  - "Cyproheptadine 12mg initially, then 2mg every 2 hours as needed"
+  - "Benzodiazepines for agitation and muscular hypertonicity"
+  - "Active cooling for hyperthermia (ice packs, cooling blankets)"
+  - "Most cases resolve within 24-72 hours after drug discontinuation"
+disposition_guidance:
+  - "ICU for severe cases (temperature >104F, hemodynamic instability)"
+  - "Floor monitoring for mild-moderate cases"
+  - "Most cases resolve in 24-72 hours"
+  - "Review all serotonergic medications before restarting any"

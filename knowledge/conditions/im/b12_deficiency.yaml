@@ -1,0 +1,116 @@
+id: b12_deficiency
+display_name: "Vitamin B12 Deficiency"
+aliases:
+  - Cobalamin deficiency
+  - Pernicious anemia
+  - Megaloblastic anemia
+  - Subacute combined degeneration
+snomed: "190634004"
+icd10:
+  - "D51.9"
+  - "D51.0"
+  - "E53.8"
+category: chronic
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 98.6]
+  hr_multiplier: 1.10
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.85
+      description: "Progressive fatigue and weakness"
+    - name: paresthesias
+      probability: 0.65
+      description: "Numbness and tingling in hands and feet (stocking-glove)"
+    - name: gait_instability
+      probability: 0.45
+      description: "Unsteady gait from posterior column dysfunction"
+    - name: cognitive_changes
+      probability: 0.50
+      description: "Memory loss, confusion, dementia-like symptoms"
+    - name: glossitis
+      probability: 0.40
+      description: "Painful, smooth, beefy-red tongue"
+    - name: mood_changes
+      probability: 0.35
+      description: "Depression, irritability, personality changes"
+  physical_exam:
+    - system: general
+      finding: "Pallor, mild jaundice from ineffective erythropoiesis"
+      probability: 0.60
+    - system: neurological
+      finding: "Decreased vibratory and position sense (posterior columns)"
+      probability: 0.55
+    - system: neurological
+      finding: "Positive Romberg test, wide-based gait"
+      probability: 0.40
+    - system: oropharynx
+      finding: "Glossitis - smooth, beefy-red tongue"
+      probability: 0.35
+    - system: neurological
+      finding: "Hyperreflexia or areflexia depending on stage"
+      probability: 0.30
+diagnostics:
+  labs:
+    - name: Vitamin B12
+      loinc: "2132-9"
+      value_type: numeric
+      unit: pg/mL
+      normal_range_low: 200
+      abnormal_low_max: 200
+      probability_abnormal: 0.90
+    - name: Methylmalonic acid
+      loinc: "20563-3"
+      value_type: numeric
+      unit: nmol/L
+      normal_range_high: 350
+      abnormal_high_min: 350
+      probability_abnormal: 0.95
+    - name: Homocysteine
+      loinc: "13965-9"
+      value_type: numeric
+      unit: umol/L
+      normal_range_high: 15
+      abnormal_high_min: 15
+      probability_abnormal: 0.85
+    - name: MCV
+      loinc: "787-2"
+      value_type: numeric
+      unit: fL
+      normal_range_high: 100
+      abnormal_high_min: 100
+      probability_abnormal: 0.75
+    - name: Anti-intrinsic factor antibody
+      loinc: "31201-0"
+      value_type: categorical
+      finding: "Positive confirms pernicious anemia"
+      probability_abnormal: 0.50
+treatment:
+  approach: b12_replacement
+  medications:
+    - agent: "Cyanocobalamin (injection)"
+      rxnorm: "2929"
+      frequency: "1000 mcg IM daily x7 days, then weekly x4, then monthly"
+      route: intramuscular
+      indication: "First-line for severe deficiency or neurologic symptoms"
+    - agent: "Cyanocobalamin (oral)"
+      rxnorm: "2929"
+      frequency: "1000-2000 mcg daily"
+      route: oral
+      indication: "Mild deficiency without neurologic involvement"
+  patient_instructions:
+    - Neurologic damage may be irreversible if treatment delayed
+    - Do NOT give folate without B12 - may mask deficiency while neuro damage worsens
+    - Lifelong replacement needed for pernicious anemia
+    - Monitor reticulocyte count in 1 week (should spike)
+    - Evaluate for concurrent iron deficiency (may unmask after B12 treatment)
+    - Screen for other autoimmune conditions if pernicious anemia diagnosed

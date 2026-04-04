@@ -1,0 +1,54 @@
+id: multiple_myeloma
+topic: "Multiple Myeloma"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Remember the CRAB criteria for end-organ damage (Calcium, Renal, Anemia, Bone)
+  - Understand the diagnostic workup (SPEP, free light chains, bone marrow biopsy)
+  - Differentiate MGUS, smoldering myeloma, and active myeloma
+  - Know oncologic emergencies in myeloma (hypercalcemia, cord compression, renal failure)
+  - Understand modern treatment approaches (proteasome inhibitors, immunomodulators, anti-CD38)
+common_mistakes:
+  - Ordering only SPEP without free light chains (light-chain-only myeloma has no M-spike)
+  - Using skeletal survey X-ray as only imaging (PET/CT or low-dose whole-body CT are more sensitive)
+  - Treating MGUS or smoldering myeloma (monitor only unless progression markers present)
+  - Not checking for amyloidosis in patients with myeloma and neuropathy or cardiomyopathy
+  - Missing cord compression from vertebral plasmacytoma
+red_flags:
+  - Calcium >14 mg/dL (hypercalcemic crisis)
+  - Acute renal failure from cast nephropathy
+  - Back pain with neurologic deficits (cord compression)
+  - Pathologic fracture
+  - Hyperviscosity syndrome (blurred vision, bleeding, neurologic symptoms)
+clinical_pearls:
+  - CRAB criteria define when smoldering myeloma becomes active myeloma requiring treatment
+  - Rouleaux formation on peripheral smear is classic but not diagnostic
+  - Myeloma bone lesions are LYTIC, not blastic (no bone scan - use PET or CT)
+  - Renal failure in myeloma is most commonly from light chain cast nephropathy
+  - MGUS progresses to myeloma at 1% per year - lifelong monitoring needed
+key_history_questions:
+  - Do you have back pain? Is it constant or worsening?
+  - Have you had any fractures from minimal trauma?
+  - Any confusion, excessive thirst, or constipation? (hypercalcemia)
+  - Any recurrent infections?
+  - Any weight loss or fatigue?
+  - Any numbness or weakness in legs? (cord compression)
+key_exam_findings:
+  - Point tenderness over spine and ribs
+  - Height loss from vertebral compression fractures
+  - Neurologic exam (lower extremity weakness, sensory level)
+  - Pallor
+  - Signs of hypercalcemia (confusion, dehydration)
+  - Macroglossia or carpal tunnel syndrome (amyloidosis)
+treatment_principles:
+  - CRAB criteria met = treat; MGUS and smoldering = monitor
+  - Triplet therapy standard (proteasome inhibitor + immunomodulator + dexamethasone)
+  - Autologous stem cell transplant for eligible patients (typically age <70)
+  - Bisphosphonates or denosumab for bone disease
+  - Urgent radiation for cord compression
+disposition_guidance:
+  - Admit for hypercalcemia, acute renal failure, cord compression, or pathologic fracture
+  - ICU for hypercalcemic crisis or hyperviscosity syndrome
+  - Outpatient hematology/oncology for new diagnosis staging and treatment planning
+  - MGUS and smoldering myeloma monitored outpatient

@@ -1,0 +1,51 @@
+id: migraine_adult
+topic: "Migraine (Adult)"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Apply ICHD-3 diagnostic criteria for migraine with and without aura
+  - Differentiate migraine from secondary headache causes requiring urgent workup
+  - Select appropriate abortive and preventive therapy
+  - Recognize medication overuse headache as a complication
+  - Identify red flag headache features requiring neuroimaging
+common_mistakes:
+  - Ordering CT/MRI for typical migraine without red flags
+  - Over-prescribing opioids for migraine (worsens chronification)
+  - Not initiating preventive therapy when indicated (>4 migraine days/month)
+  - Missing medication overuse headache (>10 triptan or >15 NSAID days/month)
+  - Failing to recognize hemiplegic migraine as distinct from stroke
+red_flags:
+  - Thunderclap headache (worst headache of life) - SAH until proven otherwise
+  - New headache with papilledema - mass lesion or IIH
+  - Headache with fever and neck stiffness - meningitis
+  - Progressive headache in immunocompromised patient
+  - First migraine with aura after age 50
+clinical_pearls:
+  - "SNOOP red flags: Systemic symptoms, Neurologic signs, Onset sudden, Older age, Pattern change"
+  - "Triptans are most effective when taken early, within 1 hour of onset"
+  - "Migraine with aura increases ischemic stroke risk; avoid estrogen-containing contraceptives"
+  - "CGRP monoclonal antibodies are game-changers for prevention-refractory patients"
+  - "Medication overuse headache is the most common cause of chronic daily headache"
+key_history_questions:
+  - "Describe the headache: location, quality, severity, duration?"
+  - "Any associated nausea, photophobia, or phonophobia?"
+  - "Do you have warning symptoms before the headache (aura)?"
+  - "How many headache days per month?"
+  - "How often are you taking abortive medications?"
+  - "Any family history of migraines?"
+key_exam_findings:
+  - "Normal neurologic exam between attacks (essential for diagnosis)"
+  - "Scalp allodynia during acute attack"
+  - "No papilledema on fundoscopy"
+  - "No focal neurologic deficits"
+treatment_principles:
+  - "Abortive: triptans first-line, NSAIDs for mild-moderate attacks"
+  - "Preventive if >4 migraine days/month or significant disability"
+  - "First-line prevention: propranolol, topiramate, amitriptyline, or valproate"
+  - "CGRP inhibitors for patients failing 2+ preventive trials"
+  - "Limit acute medication use to <10 days/month to prevent MOH"
+disposition_guidance:
+  - "Outpatient management for typical migraine"
+  - "ED for status migrainosus (>72 hours) refractory to home treatment"
+  - "Urgent imaging if red flags present"

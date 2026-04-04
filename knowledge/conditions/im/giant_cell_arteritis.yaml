@@ -1,0 +1,77 @@
+id: giant_cell_arteritis
+display_name: "Giant Cell Arteritis"
+aliases:
+  - GCA
+  - Temporal arteritis
+  - Cranial arteritis
+snomed: "400130008"
+icd10:
+  - "M31.6"
+category: acute
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 600
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: headache
+      probability: 0.85
+      description: "new-onset unilateral temporal headache"
+    - name: jaw_claudication
+      probability: 0.50
+      description: "jaw pain with chewing, highly specific"
+    - name: visual_disturbance
+      probability: 0.30
+      description: "amaurosis fugax, diplopia, or vision loss (EMERGENCY)"
+    - name: scalp_tenderness
+      probability: 0.55
+      description: "tenderness when combing hair or resting head on pillow"
+    - name: constitutional_symptoms
+      probability: 0.50
+      description: "fever, weight loss, fatigue"
+    - name: pmr_symptoms
+      probability: 0.40
+      description: "concurrent PMR shoulder/hip girdle symptoms"
+  physical_exam:
+    - system: vascular
+      finding: "Tender, nodular, non-pulsatile temporal artery"
+      probability: 0.50
+    - system: ophthalmologic
+      finding: "Pallid disc edema (anterior ischemic optic neuropathy)"
+      probability: 0.15
+    - system: general
+      finding: "Temporal artery thickening and beading"
+      probability: 0.40
+    - system: musculoskeletal
+      finding: "Concurrent PMR findings"
+      probability: 0.40
+treatment:
+  approach: emergent_high_dose_corticosteroids
+  medications:
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily, 40-60 mg, slow taper"
+      route: oral
+      indication: "first-line for GCA without visual symptoms"
+    - agent: "Methylprednisolone"
+      rxnorm: "6902"
+      frequency: "once daily x 3 days IV pulse"
+      route: iv
+      indication: "visual symptoms or impending vision loss - EMERGENCY"
+    - agent: "Tocilizumab"
+      rxnorm: "847408"
+      frequency: "weekly or every 2 weeks"
+      route: subcutaneous
+      indication: "steroid-sparing, reduces relapse risk"
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "once daily"
+      route: oral
+      indication: "low-dose aspirin to reduce ischemic complications"

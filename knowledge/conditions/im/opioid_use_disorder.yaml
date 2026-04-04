@@ -1,0 +1,87 @@
+id: opioid_use_disorder
+display_name: "Opioid Use Disorder"
+aliases:
+  - OUD
+  - Opioid dependence
+  - Opioid addiction
+  - Opioid withdrawal
+snomed: "75544000"
+icd10:
+  - "F11.20"
+  - "F11.23"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.15
+  bp_systolic:
+    - 130
+    - 160
+presentation:
+  symptoms:
+    - name: craving
+      probability: 0.90
+      description: "intense desire for opioids"
+    - name: myalgias
+      probability: 0.75
+      description: "diffuse body aches during withdrawal"
+    - name: diarrhea
+      probability: 0.65
+      description: "GI hyperactivity during withdrawal"
+    - name: lacrimation and rhinorrhea
+      probability: 0.70
+      description: "watery eyes and runny nose"
+    - name: piloerection
+      probability: 0.55
+      description: "goosebumps, cold turkey origin"
+    - name: insomnia
+      probability: 0.70
+      description: "difficulty sleeping during withdrawal"
+    - name: yawning
+      probability: 0.50
+      description: "excessive yawning, early withdrawal sign"
+  physical_exam:
+    - system: general
+      finding: "Diaphoresis, piloerection, restlessness"
+      probability: 0.65
+    - system: ophthalmologic
+      finding: "Mydriasis (dilated pupils) in withdrawal"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "Tachycardia, mildly elevated blood pressure"
+      probability: 0.55
+    - system: gastrointestinal
+      finding: "Hyperactive bowel sounds, abdominal cramping"
+      probability: 0.60
+    - system: skin
+      finding: "Track marks, skin popping scars if IV use"
+      probability: 0.30
+treatment:
+  approach: medication_assisted_treatment
+  medications:
+    - agent: "Buprenorphine-Naloxone"
+      rxnorm: "352364"
+      frequency: "once daily sublingual"
+      route: sublingual
+      indication: "first-line MAT for OUD, partial opioid agonist"
+    - agent: "Methadone"
+      rxnorm: "6813"
+      frequency: "once daily"
+      route: oral
+      indication: "full agonist MAT, requires OTP dispensing"
+    - agent: "Naltrexone"
+      rxnorm: "7243"
+      frequency: "monthly injection"
+      route: intramuscular
+      indication: "extended-release for relapse prevention after detox"
+    - agent: "Clonidine"
+      rxnorm: "2599"
+      frequency: "every 6-8 hours"
+      route: oral
+      indication: "symptomatic relief of autonomic withdrawal symptoms"

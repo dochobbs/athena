@@ -1,0 +1,74 @@
+id: falls_assessment
+display_name: "Falls Assessment"
+aliases:
+  - Fall risk assessment
+  - Recurrent falls
+  - Fall prevention
+  - Gait and balance disorder
+snomed: "217082002"
+icd10:
+  - "R29.6"
+  - "W19.XXXA"
+category: acute
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  bp_systolic:
+    - 100
+    - 160
+presentation:
+  symptoms:
+    - name: history of falls
+      probability: 0.90
+      description: "one or more unintentional falls in past year"
+    - name: gait unsteadiness
+      probability: 0.70
+      description: "feeling unsteady, fear of falling"
+    - name: dizziness
+      probability: 0.50
+      description: "lightheadedness, vertigo, or presyncope"
+    - name: vision difficulty
+      probability: 0.35
+      description: "impaired vision contributing to falls"
+    - name: weakness
+      probability: 0.45
+      description: "lower extremity weakness, difficulty rising from chair"
+  physical_exam:
+    - system: neurologic
+      finding: "Abnormal Timed Up and Go test (>12 seconds)"
+      probability: 0.55
+    - system: cardiovascular
+      finding: "Orthostatic hypotension (systolic drop >20 mmHg on standing)"
+      probability: 0.30
+    - system: musculoskeletal
+      finding: "Lower extremity weakness on manual muscle testing"
+      probability: 0.40
+    - system: neurologic
+      finding: "Impaired proprioception or peripheral neuropathy"
+      probability: 0.35
+    - system: ophthalmologic
+      finding: "Reduced visual acuity"
+      probability: 0.30
+    - system: musculoskeletal
+      finding: "Foot deformities, inappropriate footwear"
+      probability: 0.25
+treatment:
+  approach: multifactorial_risk_reduction
+  medications:
+    - agent: "Vitamin D"
+      rxnorm: "11253"
+      frequency: "once daily"
+      route: oral
+      indication: "vitamin D supplementation reduces fall risk"
+    - agent: "Calcium Carbonate"
+      rxnorm: "1605257"
+      frequency: "twice daily"
+      route: oral
+      indication: "bone health with vitamin D"

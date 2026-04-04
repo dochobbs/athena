@@ -1,0 +1,84 @@
+id: osteoporosis
+display_name: "Osteoporosis"
+aliases:
+  - Osteopenia
+  - Low bone density
+  - Fragility fractures
+snomed: "64859006"
+icd10:
+  - "M81.0"
+  - "M80.00XA"
+category: chronic
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 600
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: asymptomatic
+      probability: 0.75
+      description: "Silent disease until fracture occurs"
+    - name: back_pain
+      probability: 0.40
+      description: "Chronic back pain from vertebral compression fractures"
+    - name: height_loss
+      probability: 0.45
+      description: "Loss of height over time"
+    - name: fracture
+      probability: 0.35
+      description: "Fragility fracture (hip, wrist, vertebral) with minimal trauma"
+    - name: kyphosis
+      probability: 0.30
+      description: "Progressive thoracic kyphosis (dowager's hump)"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Thoracic kyphosis, loss of height"
+      probability: 0.40
+    - system: musculoskeletal
+      finding: "Paraspinal tenderness if vertebral fracture"
+      probability: 0.30
+    - system: general
+      finding: "Frailty, low body weight"
+      probability: 0.35
+treatment:
+  approach: bisphosphonate_and_prevention
+  medications:
+    - agent: "Alendronate"
+      rxnorm: "1513"
+      frequency: "70 mg weekly"
+      route: oral
+      indication: "First-line bisphosphonate for osteoporosis"
+    - agent: "Zoledronic Acid"
+      rxnorm: "77307"
+      frequency: "5 mg IV annually"
+      route: iv
+      indication: "IV bisphosphonate if oral not tolerated"
+    - agent: "Denosumab"
+      rxnorm: "993449"
+      frequency: "60 mg subcutaneous every 6 months"
+      route: subcutaneous
+      indication: "RANKL inhibitor for high fracture risk"
+    - agent: "Teriparatide"
+      rxnorm: "260101"
+      frequency: "20 mcg subcutaneous daily"
+      route: subcutaneous
+      indication: "Anabolic agent for severe osteoporosis"
+    - agent: "Calcium Carbonate"
+      rxnorm: "1605"
+      frequency: "500-600 mg twice daily"
+      route: oral
+      indication: "Calcium supplementation"
+    - agent: "Cholecalciferol"
+      rxnorm: "11253"
+      frequency: "800-2000 IU daily"
+      route: oral
+      indication: "Vitamin D supplementation"

@@ -1,0 +1,52 @@
+id: aortic_stenosis
+topic: "Aortic Stenosis"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Recognize the classic triad of AS symptoms (angina, syncope, heart failure)
+  - Grade severity by echo parameters (mean gradient, valve area, jet velocity)
+  - Know indications for surgical AVR vs TAVR
+  - Understand the natural history and prognosis once symptomatic
+  - Identify low-flow, low-gradient AS and its diagnostic challenges
+common_mistakes:
+  - Missing the murmur because of decreased intensity in severe low-output AS
+  - Using vasodilators aggressively in severe AS (preload dependent)
+  - Delaying valve intervention once symptoms develop
+  - Not recognizing low-flow low-gradient AS (EF preserved but small stroke volume)
+  - Confusing AS murmur with MR or HOCM
+red_flags:
+  - Exertional syncope (median survival 3 years without intervention)
+  - Heart failure symptoms (median survival 2 years)
+  - Angina with severe AS (median survival 5 years)
+  - Rapid progression of gradient on serial echos
+clinical_pearls:
+  - "SAD triad: Syncope, Angina, Dyspnea - once symptoms appear, intervene"
+  - Murmur peaks later in systole with worsening severity
+  - Parvus et tardus (weak, delayed carotid pulse) is specific for severe AS
+  - Severe AS defined as valve area <1.0 cm2, mean gradient >40 mmHg, jet >4 m/s
+  - Paradoxical low-flow low-gradient AS (EF normal but small ventricle) is tricky
+key_history_questions:
+  - Do you get chest pain, dizziness, or shortness of breath with exertion?
+  - Have you fainted or felt like you might faint?
+  - How has your exercise tolerance changed over time?
+  - History of bicuspid aortic valve or rheumatic fever?
+  - When was your last echocardiogram?
+key_exam_findings:
+  - Crescendo-decrescendo systolic murmur at RUSB radiating to carotids
+  - Diminished and delayed carotid upstrokes
+  - Diminished A2 or absent S2
+  - Narrow pulse pressure
+  - Sustained apical impulse from LVH
+  - Signs of heart failure in advanced disease
+treatment_principles:
+  - No proven medical therapy to slow valve degeneration
+  - Surgical AVR for low-surgical-risk symptomatic patients
+  - TAVR for high and intermediate surgical risk
+  - Careful diuresis if volume overloaded (avoid over-diuresis)
+  - Avoid vasodilators and vigorous diuresis
+disposition_guidance:
+  - Cardiology/cardiac surgery referral once symptomatic
+  - Serial echocardiography for asymptomatic severe AS (q6-12 months)
+  - Admit for new heart failure or syncope with severe AS
+  - Exercise testing contraindicated in symptomatic severe AS

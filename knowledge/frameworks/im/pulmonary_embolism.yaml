@@ -1,0 +1,54 @@
+id: pulmonary_embolism
+topic: "Pulmonary Embolism"
+category: pulmonary
+specialties:
+  - im
+teaching_goals:
+  - Apply Wells score or Geneva score for pre-test probability
+  - Know when D-dimer can safely exclude PE
+  - Classify PE severity (submassive, massive) and guide management
+  - Understand anticoagulation selection and duration
+  - Recognize indications for thrombolysis or interventional therapy
+common_mistakes:
+  - Ordering CTA without pre-test probability assessment
+  - Using D-dimer in high pre-test probability patients (go straight to CTA)
+  - Not risk stratifying with troponin and RV function after diagnosis
+  - Forgetting to evaluate for DVT (lower extremity ultrasound)
+  - Starting anticoagulation duration clock from the wrong date
+red_flags:
+  - Massive PE with hemodynamic instability (systemic thrombolysis indication)
+  - Submassive PE with RV dysfunction AND clinical deterioration
+  - Bilateral PE with severe hypoxemia
+  - Clot-in-transit on echocardiogram
+  - Contraindication to anticoagulation (IVC filter discussion)
+clinical_pearls:
+  - Wells score <=4 with negative D-dimer safely excludes PE
+  - YEARS algorithm uses 3 clinical items + D-dimer threshold to reduce CTA use
+  - Submassive PE (RV strain + hemodynamically stable) = anticoagulate + monitor closely
+  - DOACs (rivaroxaban, apixaban) are first-line for most PE, no bridging needed
+  - Provoked PE (surgery, immobilization) = 3 months; unprovoked = consider indefinite
+key_history_questions:
+  - Any sudden-onset shortness of breath or chest pain?
+  - Recent surgery, immobilization, or long travel?
+  - Personal or family history of blood clots?
+  - Are you on estrogen or oral contraceptives?
+  - Active malignancy?
+  - History of prior PE or DVT?
+key_exam_findings:
+  - Tachypnea and tachycardia (most common signs)
+  - Clear lung exam despite hypoxemia (classic discordance)
+  - Unilateral leg swelling
+  - Elevated JVP and RV heave in massive PE
+  - Hypotension (massive PE)
+  - Loud P2 (pulmonary hypertension)
+treatment_principles:
+  - Anticoagulation immediately when clinical suspicion is high
+  - DOAC (rivaroxaban or apixaban) for non-massive PE
+  - Heparin bridge for massive or high-risk patients
+  - Systemic thrombolysis for massive PE with hemodynamic instability
+  - Catheter-directed therapy for submassive PE with deterioration
+disposition_guidance:
+  - Hestia criteria or sPESI = 0 may allow outpatient treatment
+  - Admit submassive PE to telemetry
+  - ICU for massive PE
+  - Anticoagulation for minimum 3 months, reassess for extension

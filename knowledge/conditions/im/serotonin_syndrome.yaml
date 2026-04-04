@@ -1,0 +1,80 @@
+id: serotonin_syndrome
+display_name: "Serotonin Syndrome"
+aliases:
+  - Serotonin toxicity
+  - Serotonergic crisis
+snomed: "36813001"
+icd10:
+  - "G25.79"
+category: acute
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f:
+    - 100.4
+    - 106.0
+  hr_multiplier: 1.30
+  bp_systolic:
+    - 140
+    - 200
+  rr_multiplier: 1.20
+presentation:
+  symptoms:
+    - name: agitation
+      probability: 0.80
+      description: "restlessness, anxiety, altered mental status"
+    - name: hyperthermia
+      probability: 0.50
+      description: "temperature elevation, may be severe"
+    - name: diarrhea
+      probability: 0.45
+      description: "increased GI motility"
+    - name: diaphoresis
+      probability: 0.60
+      description: "profuse sweating"
+    - name: tremor
+      probability: 0.65
+      description: "generalized tremor, often lower extremities"
+    - name: myoclonus
+      probability: 0.70
+      description: "spontaneous or inducible muscle jerks"
+  physical_exam:
+    - system: neurologic
+      finding: "Clonus (spontaneous, inducible, or ocular)"
+      probability: 0.75
+    - system: neurologic
+      finding: "Hyperreflexia, especially lower extremities"
+      probability: 0.70
+    - system: neurologic
+      finding: "Mydriasis (dilated pupils)"
+      probability: 0.55
+    - system: neurologic
+      finding: "Myoclonus, tremor more prominent in lower limbs"
+      probability: 0.65
+    - system: general
+      finding: "Diaphoresis, flushed skin, hyperthermia"
+      probability: 0.55
+treatment:
+  approach: discontinue_offending_agent_supportive
+  medications:
+    - agent: "Cyproheptadine"
+      rxnorm: "3014"
+      frequency: "every 1-4 hours as needed"
+      route: oral
+      indication: "serotonin antagonist, first-line antidote"
+    - agent: "Lorazepam"
+      rxnorm: "6470"
+      frequency: "every 6-8 hours as needed"
+      route: iv
+      indication: "benzodiazepine for agitation and muscle rigidity"
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "continuous infusion"
+      route: iv
+      indication: "aggressive IV fluids for hyperthermia and dehydration"

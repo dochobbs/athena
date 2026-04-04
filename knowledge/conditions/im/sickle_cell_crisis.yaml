@@ -1,0 +1,130 @@
+id: sickle_cell_crisis
+display_name: "Sickle Cell Crisis"
+aliases:
+  - Vaso-occlusive crisis
+  - VOC
+  - Sickle cell pain crisis
+  - Acute chest syndrome
+snomed: "417357006"
+icd10:
+  - "D57.00"
+  - "D57.01"
+  - "D57.1"
+category: acute
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [98.0, 103.0]
+  hr_multiplier: 1.25
+  spo2_min: 88
+presentation:
+  symptoms:
+    - name: severe_pain
+      probability: 0.95
+      description: "Severe pain in bones, chest, abdomen, or joints"
+    - name: fever
+      probability: 0.50
+      description: "Fever - must evaluate for infection due to functional asplenia"
+    - name: dyspnea
+      probability: 0.45
+      description: "Chest pain and dyspnea in acute chest syndrome"
+    - name: priapism
+      probability: 0.15
+      description: "Priapism is urologic emergency in males"
+    - name: jaundice
+      probability: 0.40
+      description: "Scleral icterus from chronic hemolysis"
+    - name: weakness
+      probability: 0.55
+      description: "Weakness from anemia"
+  physical_exam:
+    - system: general
+      finding: "Distressed, diaphoretic, scleral icterus"
+      probability: 0.75
+    - system: musculoskeletal
+      finding: "Tenderness over affected bones/joints without warmth or swelling"
+      probability: 0.85
+    - system: abdomen
+      finding: "Splenomegaly in young adults (autoinfarcts by adulthood)"
+      probability: 0.30
+    - system: respiratory
+      finding: "Crackles, decreased breath sounds if acute chest syndrome"
+      probability: 0.40
+    - system: skin
+      finding: "Leg ulcers (chronic finding)"
+      probability: 0.20
+diagnostics:
+  labs:
+    - name: CBC with reticulocyte count
+      loinc: "58410-2"
+      value_type: panel
+      probability_abnormal: 0.95
+    - name: LDH
+      loinc: "2532-0"
+      value_type: numeric
+      unit: U/L
+      normal_range_high: 225
+      abnormal_high_min: 300
+      probability_abnormal: 0.85
+    - name: Haptoglobin
+      loinc: "4542-7"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_low: 30
+      abnormal_low_max: 10
+      probability_abnormal: 0.80
+    - name: Total Bilirubin
+      loinc: "1975-2"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_high: 1.2
+      abnormal_high_min: 2.0
+      probability_abnormal: 0.75
+  imaging:
+    - name: Chest X-ray
+      modality: X-ray
+      loinc: "36643-5"
+      finding_positive: "New pulmonary infiltrate - acute chest syndrome"
+      finding_negative: "Clear lung fields"
+      probability_positive: 0.40
+treatment:
+  approach: pain_management_and_supportive
+  medications:
+    - agent: "Morphine"
+      rxnorm: "7052"
+      frequency: "0.1-0.15 mg/kg IV q2-4h, PCA if available"
+      route: iv
+      indication: "Severe vaso-occlusive pain"
+    - agent: "Hydromorphone"
+      rxnorm: "3423"
+      frequency: "0.2-1 mg IV q2-4h"
+      route: iv
+      indication: "Alternative opioid for pain management"
+    - agent: "Ketorolac"
+      rxnorm: "6693"
+      frequency: "15-30 mg IV q6h (max 5 days)"
+      route: iv
+      indication: "Adjunctive NSAID for pain"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "2g IV daily"
+      route: iv
+      indication: "Empiric antibiotic if fever (functional asplenia)"
+    - agent: "Hydroxyurea"
+      rxnorm: "5603"
+      frequency: "15-35 mg/kg/day"
+      route: oral
+      indication: "Disease-modifying therapy to reduce crisis frequency"
+  patient_instructions:
+    - IV fluids at maintenance rate (avoid overhydration - risk of ACS)
+    - Incentive spirometry every 2 hours while awake to prevent ACS
+    - Fever in sickle cell is emergency - blood cultures and empiric antibiotics
+    - Exchange transfusion for acute chest syndrome with worsening hypoxia
+    - Transfuse for Hgb drop >2 from baseline or Hgb <5
+    - Outpatient hydroxyurea for frequent crises (>3/year)

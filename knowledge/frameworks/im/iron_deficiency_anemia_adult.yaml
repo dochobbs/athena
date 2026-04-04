@@ -1,0 +1,52 @@
+id: iron_deficiency_anemia_adult
+topic: "Iron Deficiency Anemia (Adult)"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Interpret iron studies to confirm iron deficiency (low ferritin, low iron, high TIBC)
+  - Identify the underlying cause (GI blood loss in men/postmenopausal women, menstrual in premenopausal women)
+  - Know when GI evaluation is mandatory
+  - Choose appropriate iron replacement route and duration
+common_mistakes:
+  - Diagnosing IDA without investigating the cause (ferritin confirms IDA, but why?)
+  - Using ferritin <12 as the only cutoff (ferritin <30 with inflammation can still be IDA)
+  - Not continuing iron for 3-6 months after Hgb normalizes (need to replete stores)
+  - Taking iron with calcium, tea, or antacids (inhibit absorption)
+  - Skipping colonoscopy in men or postmenopausal women with IDA
+red_flags:
+  - IDA in men or postmenopausal women (GI malignancy until proven otherwise)
+  - Hemoglobin <7 with symptoms (may need transfusion)
+  - IDA refractory to oral iron (consider celiac disease, H. pylori, or occult GI blood loss)
+  - Weight loss with IDA (malignancy workup)
+clinical_pearls:
+  - Ferritin is the single best test for iron deficiency (most sensitive and specific)
+  - Ferritin <30 = iron deficiency even if MCV is normal (MCV drops late)
+  - Ferritin is an acute phase reactant - can be falsely normal in inflammation (use TSAT <20% as backup)
+  - Pagophagia (ice craving) is surprisingly specific for iron deficiency
+  - Every-other-day oral iron dosing may be better tolerated and equally effective
+key_history_questions:
+  - Have you noticed any blood in your stool or black/tarry stools?
+  - For women - how heavy are your menstrual periods? How many pads/tampons per day?
+  - Any unintentional weight loss?
+  - Do you crave ice, dirt, or starch? (pica)
+  - What does your diet look like? Vegetarian or vegan?
+  - Any history of celiac disease or GI surgery?
+key_exam_findings:
+  - Conjunctival and palmar pallor
+  - Tachycardia and flow murmur
+  - Koilonychia (spoon nails)
+  - Glossitis and angular cheilitis
+  - Rectal exam for occult blood
+  - Signs of underlying malignancy
+treatment_principles:
+  - Oral ferrous sulfate first-line (take with vitamin C on empty stomach)
+  - IV iron for intolerance, malabsorption, or need for rapid repletion
+  - Treat for 3-6 months AFTER hemoglobin normalizes to replete stores
+  - Investigate the cause - colonoscopy and EGD for men and postmenopausal women
+  - Recheck CBC and ferritin at 4-8 weeks
+disposition_guidance:
+  - Outpatient management for stable, mild IDA
+  - Admit if Hgb <7 with symptoms or hemodynamic instability
+  - GI referral for endoscopic evaluation
+  - Hematology referral for refractory IDA

@@ -1,0 +1,69 @@
+id: choledocholithiasis
+display_name: "Choledocholithiasis"
+aliases:
+  - Common bile duct stone
+  - CBD stone
+  - Bile duct obstruction
+snomed: "235919008"
+icd10:
+  - "K80.50"
+  - "K80.51"
+category: acute
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 102.5]
+  hr_multiplier: 1.10
+  rr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: right_upper_quadrant_pain
+      probability: 0.85
+      description: "Colicky RUQ pain, often postprandial"
+    - name: jaundice
+      probability: 0.70
+      description: "Obstructive jaundice with dark urine and pale stools"
+    - name: nausea_vomiting
+      probability: 0.60
+      description: "Nausea and vomiting"
+    - name: pruritus
+      probability: 0.40
+      description: "Itching from bile salt deposition"
+    - name: fever_chills
+      probability: 0.35
+      description: "Suggests ascending cholangitis if present"
+  physical_exam:
+    - system: abdomen
+      finding: "RUQ tenderness, may have positive Murphy sign"
+      probability: 0.75
+    - system: skin
+      finding: "Jaundice, scleral icterus"
+      probability: 0.70
+    - system: general
+      finding: "Fever and rigors if cholangitis developing"
+      probability: 0.35
+treatment:
+  approach: ercp_and_stone_extraction
+  medications:
+    - agent: "Piperacillin/Tazobactam"
+      rxnorm: "8339"
+      frequency: "3.375 g IV every 6 hours"
+      route: iv
+      indication: "Antibiotic coverage if cholangitis suspected"
+    - agent: "Ciprofloxacin"
+      rxnorm: "2551"
+      frequency: "400 mg IV every 12 hours"
+      route: iv
+      indication: "Alternative antibiotic for biliary infection"
+    - agent: "Ursodiol"
+      rxnorm: "10602"
+      frequency: "300 mg twice daily"
+      route: oral
+      indication: "Bile acid dissolution therapy if not surgical candidate"

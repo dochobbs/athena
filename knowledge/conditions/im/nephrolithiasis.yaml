@@ -1,0 +1,105 @@
+id: nephrolithiasis
+display_name: "Nephrolithiasis"
+aliases:
+  - Kidney stones
+  - Renal calculi
+  - Renal colic
+  - Urolithiasis
+snomed: "95570007"
+icd10:
+  - "N20.0"
+  - "N20.9"
+category: acute
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 100.5]
+  hr_multiplier: 1.20
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: flank_pain
+      probability: 0.95
+      description: "Sudden severe colicky flank pain radiating to groin"
+    - name: hematuria
+      probability: 0.85
+      description: "Gross or microscopic hematuria"
+    - name: nausea_vomiting
+      probability: 0.75
+      description: "Nausea and vomiting from pain severity"
+    - name: urinary_frequency
+      probability: 0.55
+      description: "Frequency and urgency with distal ureteral stones"
+    - name: dysuria
+      probability: 0.40
+      description: "Burning with urination"
+    - name: restlessness
+      probability: 0.80
+      description: "Unable to find comfortable position (unlike peritonitis)"
+  physical_exam:
+    - system: abdomen
+      finding: "CVA tenderness on affected side"
+      probability: 0.85
+    - system: general
+      finding: "Diaphoretic, restless, in obvious distress"
+      probability: 0.80
+    - system: abdomen
+      finding: "Soft abdomen without peritoneal signs"
+      probability: 0.90
+    - system: genitourinary
+      finding: "No testicular tenderness (distinguish from torsion)"
+      probability: 0.85
+diagnostics:
+  imaging:
+    - name: CT Abdomen/Pelvis without contrast
+      modality: CT
+      loinc: "36813-4"
+      finding_positive: "5mm calculus in left proximal ureter with mild hydronephrosis"
+      finding_negative: "No urolithiasis. No hydronephrosis."
+      probability_positive: 0.95
+  labs:
+    - name: Urinalysis
+      loinc: "24356-8"
+      value_type: categorical
+      finding: "Hematuria, possible crystals"
+      probability_abnormal: 0.85
+    - name: Basic Metabolic Panel
+      loinc: "51990-0"
+      value_type: panel
+      probability_abnormal: 0.30
+treatment:
+  approach: pain_control_and_passage
+  medications:
+    - agent: "Ketorolac"
+      rxnorm: "6693"
+      frequency: "15-30 mg IV/IM once, then PRN"
+      route: iv
+      indication: "First-line analgesic for renal colic"
+    - agent: "Morphine"
+      rxnorm: "7052"
+      frequency: "0.1 mg/kg IV PRN"
+      route: iv
+      indication: "Severe pain unresponsive to NSAIDs"
+    - agent: "Tamsulosin"
+      rxnorm: "77492"
+      frequency: "0.4 mg once daily"
+      route: oral
+      indication: "Medical expulsive therapy for stones 5-10mm"
+    - agent: "Ondansetron"
+      rxnorm: "26225"
+      frequency: "4 mg IV PRN"
+      route: iv
+      indication: "Antiemetic"
+  patient_instructions:
+    - Strain all urine to collect stone for analysis
+    - Increase oral fluid intake to >2.5L daily
+    - Stones <5mm usually pass spontaneously within 4 weeks
+    - Urology referral for stones >10mm or signs of infection
+    - Return immediately if fever develops (infected stone is emergency)
+    - 24-hour urine collection for metabolic evaluation after first episode

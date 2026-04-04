@@ -1,0 +1,49 @@
+id: osteomyelitis
+topic: "Osteomyelitis"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Classify osteomyelitis by mechanism (hematogenous, contiguous, vascular insufficiency)
+  - Understand the role of MRI as the imaging gold standard
+  - Recognize the probe-to-bone test in diabetic foot osteomyelitis
+  - Determine when bone biopsy is needed before starting antibiotics
+  - Plan prolonged antibiotic therapy with appropriate duration
+common_mistakes:
+  - Starting antibiotics before obtaining bone culture (reduces yield)
+  - Relying on plain radiographs early (changes lag 10-14 days)
+  - Missing vertebral osteomyelitis in patients with back pain and fever
+  - Inadequate duration of antibiotic therapy
+red_flags:
+  - Epidural abscess complicating vertebral osteomyelitis
+  - Sepsis from osteomyelitis
+  - Draining sinus tract suggesting chronic osteomyelitis
+  - Progressive neurologic deficits with vertebral osteomyelitis
+clinical_pearls:
+  - Probe-to-bone positive in diabetic foot ulcer has ~90% PPV for osteomyelitis
+  - ESR > 70 mm/hr is strongly suggestive in the right clinical context
+  - MRI is 90%+ sensitive and specific, the imaging study of choice
+  - S. aureus is the most common pathogen across all types
+  - Vertebral osteomyelitis is the most common form of hematogenous osteo in adults
+key_history_questions:
+  - Duration and location of pain?
+  - Diabetes or peripheral vascular disease?
+  - Any overlying wound, ulcer, or recent surgery?
+  - IV drug use (vertebral osteomyelitis risk)?
+  - Recent bacteremia or endocarditis?
+  - Prior antibiotics that may reduce culture yield?
+key_exam_findings:
+  - Point tenderness over affected bone
+  - Overlying soft tissue erythema and swelling
+  - Draining sinus tract
+  - Probe-to-bone positive in diabetic foot
+  - Fever (may be absent in chronic)
+treatment_principles:
+  - Bone biopsy for culture before antibiotics when feasible
+  - 6 weeks of pathogen-directed IV antibiotics (standard)
+  - Surgical debridement for chronic osteomyelitis or hardware infection
+  - CRP and ESR to monitor treatment response
+disposition_guidance:
+  - Initial inpatient for IV antibiotics and workup
+  - OPAT (outpatient parenteral antibiotics) for stable patients
+  - Orthopedic or surgical consultation for debridement needs

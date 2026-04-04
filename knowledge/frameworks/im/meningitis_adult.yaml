@@ -1,0 +1,55 @@
+id: meningitis_adult
+topic: Bacterial Meningitis (Adult)
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Recognize the classic triad (fever, neck stiffness, altered mental status)
+- Know when to CT before lumbar puncture
+- Initiate empiric antibiotics immediately - do not delay for LP
+- Interpret CSF findings to distinguish bacterial from viral meningitis
+- Understand the role of adjunctive dexamethasone
+common_mistakes:
+- Delaying antibiotics to obtain LP or CT
+- Not adding ampicillin for Listeria coverage in age >50 or immunosuppressed
+- Missing the indication for dexamethasone (must be given before or with first antibiotic
+  dose)
+- Performing LP without checking for papilledema or focal deficits
+red_flags:
+- Rapidly declining mental status
+- Petechial or purpuric rash (meningococcemia)
+- Signs of herniation (unilateral pupil dilation, posturing)
+- Seizures
+- Hemodynamic instability
+clinical_pearls:
+- Classic triad is present in only ~45% of patients; absence does not rule out
+- 'CT before LP only if: immunocompromised, CNS disease hx, new seizure, papilledema,
+  altered consciousness, or focal deficit'
+- Dexamethasone benefits are proven mainly for pneumococcal meningitis
+- CSF lactate > 35 mg/dL strongly suggests bacterial meningitis
+- Jolt accentuation test has good sensitivity for meningitis
+key_history_questions:
+- Acute onset headache, fever, neck stiffness?
+- Any recent ear/sinus infection or neurosurgery?
+- Immunocompromised (HIV, transplant, alcoholism)?
+- Age >50 (Listeria risk)?
+- Close contacts with meningitis?
+- Vaccination history (meningococcal, pneumococcal)?
+key_exam_findings:
+- Nuchal rigidity
+- Kernig sign (hamstring resistance on knee extension)
+- Brudzinski sign (hip flexion on neck flexion)
+- Petechial rash
+- Altered mental status
+- Papilledema or focal neurologic deficits
+treatment_principles:
+- Empiric antibiotics immediately (vancomycin + ceftriaxone +/- ampicillin)
+- Dexamethasone before or with first antibiotic dose
+- LP as soon as safe, but never delay antibiotics
+- Droplet precautions until meningococcal disease excluded
+- Chemoprophylaxis for close contacts if meningococcal
+disposition_guidance:
+- ICU admission for all confirmed or suspected bacterial meningitis
+- Frequent neuro checks
+- Notify public health if meningococcal
+- Close contacts need chemoprophylaxis (rifampin, ciprofloxacin, or ceftriaxone)

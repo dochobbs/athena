@@ -1,0 +1,87 @@
+id: ischemic_stroke
+display_name: "Ischemic Stroke"
+aliases:
+  - Cerebrovascular accident
+  - CVA
+  - Brain infarction
+  - Acute ischemic stroke
+snomed: "422504002"
+icd10:
+  - "I63.9"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.10
+  bp_systolic:
+    - 160
+    - 220
+  bp_diastolic:
+    - 90
+    - 120
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: unilateral weakness
+      probability: 0.80
+      description: "sudden onset hemiparesis or hemiplegia"
+    - name: speech difficulty
+      probability: 0.60
+      description: "aphasia (expressive or receptive) or dysarthria"
+    - name: facial droop
+      probability: 0.65
+      description: "unilateral facial weakness, lower motor neuron pattern"
+    - name: visual disturbance
+      probability: 0.30
+      description: "hemianopia, diplopia, or monocular vision loss"
+    - name: ataxia
+      probability: 0.25
+      description: "gait unsteadiness, limb incoordination (posterior circulation)"
+    - name: headache
+      probability: 0.20
+      description: "less common than hemorrhagic stroke"
+  physical_exam:
+    - system: neurologic
+      finding: "Focal neurologic deficit corresponding to vascular territory"
+      probability: 0.95
+    - system: neurologic
+      finding: "NIHSS score elevated, quantifying deficit severity"
+      probability: 0.90
+    - system: cardiovascular
+      finding: "Irregular heart rhythm suggesting atrial fibrillation"
+      probability: 0.25
+    - system: neurologic
+      finding: "Dysarthria or aphasia on language testing"
+      probability: 0.55
+    - system: ophthalmologic
+      finding: "Visual field cut on confrontation testing"
+      probability: 0.30
+treatment:
+  approach: thrombolytic_and_supportive
+  medications:
+    - agent: "Alteplase"
+      rxnorm: "8410"
+      frequency: "single dose over 60 minutes"
+      route: iv
+      indication: "IV thrombolysis within 4.5 hours of symptom onset"
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "once daily"
+      route: oral
+      indication: "antiplatelet therapy if not given tPA, start 24h post-tPA"
+    - agent: "Heparin"
+      rxnorm: "5224"
+      frequency: "continuous infusion"
+      route: iv
+      indication: "DVT prophylaxis, NOT for acute stroke treatment"
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "once daily"
+      route: oral
+      indication: "high-intensity statin for secondary prevention"

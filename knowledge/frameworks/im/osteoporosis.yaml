@@ -1,0 +1,53 @@
+id: osteoporosis
+topic: "Osteoporosis"
+category: endocrine
+specialties:
+  - im
+teaching_goals:
+  - Know screening recommendations (DEXA at 65 for women, 70 for men, or earlier with risk factors)
+  - Interpret T-scores (osteopenia -1.0 to -2.5, osteoporosis <= -2.5)
+  - Apply FRAX score for treatment decisions in osteopenia
+  - Understand bisphosphonate drug holidays and duration of therapy
+  - Recognize and evaluate secondary causes of osteoporosis
+common_mistakes:
+  - Not evaluating for secondary causes before starting treatment
+  - Forgetting calcium and vitamin D as baseline therapy for all patients
+  - Not checking vitamin D level before starting bisphosphonate
+  - Continuing bisphosphonate indefinitely without reassessment (drug holiday)
+  - Missing vertebral compression fractures (often asymptomatic)
+red_flags:
+  - Fragility fracture (hip, vertebral, distal radius)
+  - Height loss >1.5 inches (suggests vertebral fractures)
+  - T-score <= -2.5 at any site
+  - Osteoporosis in premenopausal woman or young man (secondary causes)
+  - Glucocorticoid use >3 months (start treatment early)
+clinical_pearls:
+  - "FRAX: 10-year hip fracture risk >= 3% or major osteoporotic fracture >= 20% = treat"
+  - "Bisphosphonate holiday after 5 years oral or 3 years IV, reassess"
+  - "Always correct vitamin D before starting bisphosphonate (goal 25(OH)D > 30 ng/mL)"
+  - "Secondary causes: vitamin D deficiency, hyperparathyroidism, celiac, hyperthyroidism, steroids, myeloma"
+  - "Denosumab: rapid bone loss if discontinued - must transition to bisphosphonate"
+key_history_questions:
+  - Prior fractures (especially with minimal trauma)?
+  - Height loss?
+  - Steroid use history?
+  - Calcium and vitamin D intake?
+  - Family history of osteoporosis or hip fracture?
+  - Menopause age, estrogen use?
+key_exam_findings:
+  - Height measurement (compare to prior)
+  - Thoracic kyphosis
+  - Spinal tenderness (compression fracture)
+  - Fall risk assessment (balance, gait)
+  - Muscle strength
+treatment_principles:
+  - Calcium 1000-1200 mg/day + vitamin D 800-2000 IU/day for all
+  - Bisphosphonate (alendronate, zoledronic acid) first-line
+  - Denosumab if bisphosphonate intolerant or CKD
+  - Anabolic agents (teriparatide, romosozumab) for severe osteoporosis
+  - Fall prevention strategies (exercise, home safety, vision correction)
+disposition_guidance:
+  - "Outpatient: All osteoporosis screening and management"
+  - "Admission: Acute fragility fracture management"
+  - "Endocrine referral: Secondary causes, severe osteoporosis, treatment failure"
+  - "Orthopedic: Hip fracture, vertebral augmentation for painful compression fractures"

@@ -1,0 +1,54 @@
+id: sepsis
+topic: "Sepsis"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Recognize SIRS criteria and sepsis-3 definitions (qSOFA, SOFA)
+  - Initiate hour-1 sepsis bundle (cultures, lactate, antibiotics, fluids)
+  - Distinguish sepsis from septic shock and identify vasopressor need
+  - Identify common sources of sepsis and tailor empiric therapy
+  - Understand the role of serial lactate monitoring
+common_mistakes:
+  - Delaying antibiotics while awaiting culture results
+  - Inadequate initial fluid resuscitation (< 30 mL/kg crystalloid)
+  - Failing to obtain blood cultures before antibiotics
+  - Not reassessing after initial fluid bolus for ongoing shock
+  - Using qSOFA as a screening tool instead of a prognostic tool
+red_flags:
+  - Lactate > 4 mmol/L indicating tissue hypoperfusion
+  - Hypotension refractory to fluid resuscitation (septic shock)
+  - Altered mental status with suspected infection
+  - New-onset organ dysfunction (AKI, coagulopathy, hepatic dysfunction)
+  - Temperature < 96.8F (hypothermia in sepsis carries worse prognosis)
+clinical_pearls:
+  - Rigors with fever are strongly predictive of bacteremia
+  - Elderly and immunosuppressed patients may present without fever
+  - Lactate clearance > 10% in 6 hours is associated with improved outcomes
+  - Norepinephrine is the first-line vasopressor, not dopamine
+  - Source control (abscess drainage, line removal) is essential and often overlooked
+key_history_questions:
+  - When did symptoms begin and how rapidly have they progressed?
+  - Any recent surgeries, hospitalizations, or indwelling devices?
+  - What is the likely source (urinary, pulmonary, abdominal, skin)?
+  - Any immunosuppression (chemotherapy, transplant, steroids, HIV)?
+  - Any recent antibiotic use that might alter flora?
+  - Any history of resistant organisms (MRSA, ESBL, VRE)?
+key_exam_findings:
+  - Fever or hypothermia
+  - Tachycardia and hypotension
+  - Altered mental status
+  - Warm flushed skin (early) vs mottled cool skin (late)
+  - Source-specific findings (consolidation, CVA tenderness, peritonitis)
+  - Delayed capillary refill
+treatment_principles:
+  - Antibiotics within 1 hour of recognition
+  - 30 mL/kg IV crystalloid for hypotension or lactate >= 4
+  - Blood cultures before antibiotics but do not delay treatment
+  - Norepinephrine first-line vasopressor targeting MAP >= 65
+  - Reassess volume status and tissue perfusion frequently
+disposition_guidance:
+  - All sepsis patients require ICU-level monitoring at minimum
+  - Septic shock requires ICU admission
+  - Lactate trending and hemodynamic monitoring guide disposition
+  - Early goals-of-care discussion for patients with advanced illness

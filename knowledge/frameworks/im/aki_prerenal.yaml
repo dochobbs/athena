@@ -1,0 +1,51 @@
+id: aki_prerenal
+topic: "Prerenal Acute Kidney Injury"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Differentiate prerenal AKI from intrinsic and postrenal causes using FENa and BUN/Cr ratio
+  - Identify common etiologies of prerenal AKI (hypovolemia, heart failure, sepsis)
+  - Demonstrate appropriate fluid resuscitation strategy
+  - Recognize medications that exacerbate prerenal physiology (NSAIDs, ACEi, ARBs)
+common_mistakes:
+  - Relying solely on BUN/Cr ratio without calculating FENa
+  - Failing to discontinue nephrotoxic medications early
+  - Not recognizing heart failure as a cause of prerenal AKI (renal hypoperfusion despite total body volume overload)
+  - Giving aggressive IV fluids to cardiorenal patients
+  - Missing the transition from prerenal to intrinsic AKI (ATN)
+red_flags:
+  - Anuria (complete obstruction or cortical necrosis)
+  - Hyperkalemia with ECG changes
+  - Metabolic acidosis with pH <7.2
+  - Volume overload with pulmonary edema
+clinical_pearls:
+  - FENa <1% suggests prerenal, but diuretic use invalidates FENa - use FEUrea instead
+  - BUN/Cr ratio >20:1 is classic for prerenal but not specific
+  - Prerenal AKI should improve within 24-48 hours of adequate resuscitation
+  - In hepatorenal syndrome, kidneys are structurally normal but underperfused
+  - Urine osmolality >500 mOsm/kg supports prerenal etiology
+key_history_questions:
+  - What is your fluid intake? Any vomiting, diarrhea, or reduced oral intake?
+  - Are you taking NSAIDs, ACE inhibitors, or ARBs?
+  - Any recent bleeding or blood loss?
+  - Do you have a history of heart failure?
+  - Have you noticed decreased urine output?
+  - Any recent illness, fever, or excessive sweating?
+key_exam_findings:
+  - Orthostatic vital signs (drop in BP, rise in HR on standing)
+  - Skin turgor and mucous membrane moisture
+  - Jugular venous pressure (low in hypovolemia, elevated in cardiorenal)
+  - Capillary refill time
+  - Urine output (Foley catheter quantification)
+  - Peripheral edema assessment
+treatment_principles:
+  - Identify and correct the underlying cause of hypoperfusion
+  - Volume resuscitate with isotonic crystalloid for hypovolemia
+  - Discontinue all nephrotoxic agents immediately
+  - Avoid excessive fluid in cardiorenal syndrome - may need diuretics or inotropes
+  - Monitor urine output as a real-time marker of renal perfusion
+disposition_guidance:
+  - Admit if creatinine significantly elevated or rising despite intervention
+  - ICU if hemodynamically unstable or requiring vasopressors
+  - Outpatient follow-up acceptable for mild prerenal AKI that resolves with oral hydration

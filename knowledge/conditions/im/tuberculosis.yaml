@@ -1,0 +1,88 @@
+id: tuberculosis
+display_name: "Tuberculosis"
+aliases:
+  - TB
+  - Pulmonary TB
+  - Active tuberculosis
+  - Mycobacterium tuberculosis
+snomed: "56717001"
+icd10:
+  - "A15.0"
+  - "A15.9"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f:
+    - 99.5
+    - 102.0
+  hr_multiplier: 1.10
+  rr_multiplier: 1.05
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: chronic_cough
+      probability: 0.85
+      description: "cough >3 weeks, may be productive"
+    - name: hemoptysis
+      probability: 0.30
+      description: "blood-tinged sputum"
+    - name: night_sweats
+      probability: 0.70
+      description: "drenching night sweats"
+    - name: weight_loss
+      probability: 0.65
+      description: "unintentional weight loss"
+    - name: fever
+      probability: 0.60
+      description: "low-grade persistent fever"
+    - name: fatigue
+      probability: 0.60
+      description: "progressive fatigue and malaise"
+  physical_exam:
+    - system: respiratory
+      finding: "Crackles over upper lobes"
+      probability: 0.50
+    - system: respiratory
+      finding: "Post-tussive crackles"
+      probability: 0.30
+    - system: general
+      finding: "Cachexia, wasting"
+      probability: 0.40
+    - system: lymphatic
+      finding: "Cervical lymphadenopathy"
+      probability: 0.20
+treatment:
+  approach: four_drug_ripe_regimen
+  medications:
+    - agent: "Isoniazid"
+      rxnorm: "6038"
+      frequency: "5 mg/kg daily (max 300 mg)"
+      route: oral
+      indication: "core anti-TB drug, all 6 months"
+    - agent: "Rifampin"
+      rxnorm: "9384"
+      frequency: "10 mg/kg daily (max 600 mg)"
+      route: oral
+      indication: "core anti-TB drug, all 6 months"
+    - agent: "Pyrazinamide"
+      rxnorm: "8987"
+      frequency: "25 mg/kg daily"
+      route: oral
+      indication: "intensive phase, first 2 months"
+    - agent: "Ethambutol"
+      rxnorm: "4110"
+      frequency: "15-20 mg/kg daily"
+      route: oral
+      indication: "intensive phase, first 2 months"
+    - agent: "Pyridoxine (Vitamin B6)"
+      rxnorm: "8989"
+      frequency: "25-50 mg daily"
+      route: oral
+      indication: "prevent isoniazid peripheral neuropathy"

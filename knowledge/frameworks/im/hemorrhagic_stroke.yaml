@@ -1,0 +1,52 @@
+id: hemorrhagic_stroke
+topic: "Hemorrhagic Stroke"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Differentiate hemorrhagic from ischemic stroke on clinical and imaging grounds
+  - Understand blood pressure management targets in ICH
+  - Recognize signs of elevated ICP and herniation
+  - Identify reversible causes (anticoagulation, coagulopathy)
+  - Know indications for neurosurgical intervention
+common_mistakes:
+  - Administering tPA before CT rules out hemorrhage
+  - Insufficient blood pressure control (target SBP <140 per INTERACT-2)
+  - Failing to reverse anticoagulation urgently
+  - Missing subarachnoid hemorrhage presentation (thunderclap headache)
+  - Not monitoring for hematoma expansion in first 24 hours
+red_flags:
+  - Rapidly declining GCS suggesting herniation
+  - Fixed dilated pupil indicating uncal herniation
+  - Anticoagulant-associated ICH requiring urgent reversal
+  - Intraventricular extension with hydrocephalus
+  - Young patient with lobar hemorrhage (amyloid angiopathy vs AVM)
+clinical_pearls:
+  - "ICH accounts for 15% of strokes but 40% of stroke mortality"
+  - "Spot sign on CTA predicts hematoma expansion"
+  - "INTERACT-2: intensive BP lowering to SBP <140 is safe and trends toward benefit"
+  - "Reverse anticoagulation immediately: 4-factor PCC for warfarin, idarucizumab for dabigatran"
+  - "Lobar hemorrhage in elderly suggests cerebral amyloid angiopathy"
+key_history_questions:
+  - "Is the patient on anticoagulation (warfarin, DOACs)?"
+  - "Any history of hypertension and adherence to medications?"
+  - "Was onset sudden with thunderclap headache (SAH concern)?"
+  - "Any history of AVM, aneurysm, or prior ICH?"
+  - "What is the patient's baseline GCS and functional status?"
+key_exam_findings:
+  - "GCS score for level of consciousness"
+  - "Pupil asymmetry suggesting herniation"
+  - "Severely elevated blood pressure"
+  - "Focal neurologic deficit matching hemorrhage location"
+  - "Signs of coagulopathy or liver disease"
+treatment_principles:
+  - "Emergent CT head to confirm hemorrhage"
+  - "Rapid blood pressure reduction to SBP <140 with IV nicardipine or labetalol"
+  - "Reverse anticoagulation immediately if applicable"
+  - "Osmotic therapy (mannitol or hypertonic saline) for elevated ICP"
+  - "Neurosurgical consultation for posterior fossa or large lobar hemorrhages"
+disposition_guidance:
+  - "ICU admission with neuro checks every 1-2 hours"
+  - "Neurosurgery consultation for possible EVD or hematoma evacuation"
+  - "Repeat CT at 6 hours to assess for hematoma expansion"
+  - "Goals of care discussion early given high mortality"

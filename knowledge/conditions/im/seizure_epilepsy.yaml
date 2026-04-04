@@ -1,0 +1,82 @@
+id: seizure_epilepsy
+display_name: "Seizure and Epilepsy"
+aliases:
+  - Epilepsy
+  - Seizure disorder
+  - Convulsions
+  - Epileptic seizure
+snomed: "84757009"
+icd10:
+  - "G40.909"
+  - "R56.9"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.20
+  temp_f:
+    - 98.6
+    - 100.4
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: generalized tonic-clonic activity
+      probability: 0.50
+      description: "rhythmic jerking of all extremities with loss of consciousness"
+    - name: aura
+      probability: 0.30
+      description: "preceding sensory, visual, or emotional symptoms"
+    - name: postictal confusion
+      probability: 0.70
+      description: "confusion, drowsiness after seizure"
+    - name: tongue biting
+      probability: 0.35
+      description: "lateral tongue laceration, specific for GTC seizure"
+    - name: urinary incontinence
+      probability: 0.30
+      description: "loss of bladder control during event"
+    - name: focal symptoms
+      probability: 0.35
+      description: "unilateral jerking, speech arrest, automatisms"
+  physical_exam:
+    - system: neurologic
+      finding: "Postictal confusion or somnolence"
+      probability: 0.70
+    - system: neurologic
+      finding: "Todd paralysis: transient focal weakness post-seizure"
+      probability: 0.10
+    - system: oral
+      finding: "Lateral tongue bite mark"
+      probability: 0.30
+    - system: musculoskeletal
+      finding: "Posterior shoulder dislocation (rare, from tonic contraction)"
+      probability: 0.03
+treatment:
+  approach: antiepileptic_therapy
+  medications:
+    - agent: "Levetiracetam"
+      rxnorm: "39998"
+      frequency: "twice daily"
+      route: oral
+      indication: "first-line broad-spectrum antiepileptic"
+    - agent: "Lamotrigine"
+      rxnorm: "28439"
+      frequency: "twice daily"
+      route: oral
+      indication: "first-line for focal and generalized epilepsy"
+    - agent: "Valproic Acid"
+      rxnorm: "11118"
+      frequency: "twice daily"
+      route: oral
+      indication: "broad-spectrum AED, avoid in women of childbearing age"
+    - agent: "Lorazepam"
+      rxnorm: "6470"
+      frequency: "single dose for acute seizure"
+      route: iv
+      indication: "first-line benzodiazepine for acute seizure termination"

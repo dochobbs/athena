@@ -1,0 +1,85 @@
+id: sarcoidosis
+display_name: "Sarcoidosis"
+aliases:
+  - Pulmonary sarcoidosis
+  - Sarcoid
+snomed: "31541009"
+icd10:
+  - "D86.0"
+  - "D86.1"
+  - "D86.9"
+category: chronic
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.0
+  rr_multiplier: 1.05
+  spo2_min: 92
+presentation:
+  symptoms:
+    - name: cough
+      probability: 0.60
+      description: "dry non-productive cough"
+    - name: dyspnea
+      probability: 0.55
+      description: "progressive exertional dyspnea"
+    - name: fatigue
+      probability: 0.70
+      description: "prominent fatigue"
+    - name: skin_lesions
+      probability: 0.35
+      description: "erythema nodosum, lupus pernio, papules"
+    - name: eye_symptoms
+      probability: 0.25
+      description: "anterior uveitis, blurred vision, eye pain"
+    - name: arthralgias
+      probability: 0.30
+      description: "especially Lofgren syndrome (bilateral hilar LAD, erythema nodosum, arthralgias)"
+    - name: asymptomatic
+      probability: 0.30
+      description: "incidentally found bilateral hilar lymphadenopathy"
+  physical_exam:
+    - system: respiratory
+      finding: "Often normal lung exam, crackles in advanced disease"
+      probability: 0.30
+    - system: lymphatic
+      finding: "Peripheral lymphadenopathy"
+      probability: 0.30
+    - system: dermatologic
+      finding: "Erythema nodosum, papular skin lesions"
+      probability: 0.35
+    - system: ophthalmologic
+      finding: "Anterior uveitis on slit lamp"
+      probability: 0.25
+    - system: abdominal
+      finding: "Hepatosplenomegaly"
+      probability: 0.15
+treatment:
+  approach: observation_or_immunosuppression
+  medications:
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "20-40 mg daily, taper over months"
+      route: oral
+      indication: "first-line for progressive pulmonary or extrapulmonary disease"
+    - agent: "Methotrexate"
+      rxnorm: "6851"
+      frequency: "10-15 mg weekly"
+      route: oral
+      indication: "steroid-sparing agent"
+    - agent: "Hydroxychloroquine"
+      rxnorm: "5521"
+      frequency: "200 mg BID"
+      route: oral
+      indication: "skin and joint disease"
+    - agent: "Infliximab"
+      rxnorm: "191831"
+      frequency: "3-5 mg/kg IV q4-8 weeks"
+      route: iv
+      indication: "refractory disease"

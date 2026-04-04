@@ -1,0 +1,96 @@
+id: cirrhosis
+display_name: "Cirrhosis"
+aliases:
+  - Hepatic cirrhosis
+  - Liver cirrhosis
+  - End-stage liver disease
+  - Chronic liver disease
+snomed: "19943007"
+icd10:
+  - "K74.60"
+  - "K70.30"
+  - "K74.69"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 99.5]
+  hr_multiplier: 1.10
+  rr_multiplier: 1.05
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.80
+      description: "Chronic fatigue and malaise"
+    - name: abdominal_distension
+      probability: 0.65
+      description: "Progressive abdominal swelling from ascites"
+    - name: jaundice
+      probability: 0.60
+      description: "Yellow discoloration of skin and sclera"
+    - name: peripheral_edema
+      probability: 0.55
+      description: "Lower extremity swelling"
+    - name: easy_bruising
+      probability: 0.50
+      description: "Coagulopathy causing easy bruising"
+    - name: pruritus
+      probability: 0.40
+      description: "Generalized itching"
+    - name: confusion
+      probability: 0.35
+      description: "Hepatic encephalopathy causing altered mentation"
+  physical_exam:
+    - system: abdomen
+      finding: "Ascites with shifting dullness and fluid wave"
+      probability: 0.65
+    - system: skin
+      finding: "Jaundice, spider angiomata, palmar erythema"
+      probability: 0.60
+    - system: abdomen
+      finding: "Hepatomegaly early; shrunken liver late"
+      probability: 0.50
+    - system: extremities
+      finding: "Peripheral edema, muscle wasting"
+      probability: 0.55
+    - system: neurological
+      finding: "Asterixis (liver flap) in encephalopathy"
+      probability: 0.35
+    - system: abdomen
+      finding: "Caput medusae, splenomegaly"
+      probability: 0.25
+treatment:
+  approach: complication_management
+  medications:
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "40-160 mg daily"
+      route: oral
+      indication: "Diuresis for ascites"
+    - agent: "Spironolactone"
+      rxnorm: "9997"
+      frequency: "100-400 mg daily"
+      route: oral
+      indication: "Aldosterone antagonist for ascites (100:40 ratio with furosemide)"
+    - agent: "Lactulose"
+      rxnorm: "6026"
+      frequency: "30 mL 2-3 times daily, titrate to 2-3 BMs/day"
+      route: oral
+      indication: "Hepatic encephalopathy treatment"
+    - agent: "Rifaximin"
+      rxnorm: "35617"
+      frequency: "550 mg twice daily"
+      route: oral
+      indication: "Prevention of recurrent hepatic encephalopathy"
+    - agent: "Nadolol"
+      rxnorm: "7208"
+      frequency: "20-80 mg daily"
+      route: oral
+      indication: "Non-selective beta-blocker for variceal prophylaxis"

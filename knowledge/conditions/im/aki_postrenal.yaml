@@ -1,0 +1,85 @@
+id: aki_postrenal
+display_name: "Postrenal Acute Kidney Injury"
+aliases:
+  - Postrenal AKI
+  - Obstructive uropathy
+  - Obstructive nephropathy
+snomed: "236578006"
+icd10:
+  - "N13.9"
+  - "N17.9"
+category: acute
+system: renal
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 100.5]
+  hr_multiplier: 1.10
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: anuria
+      probability: 0.60
+      description: "Complete anuria suggests bilateral obstruction"
+    - name: oliguria
+      probability: 0.75
+      description: "Decreased urine output"
+    - name: flank_pain
+      probability: 0.55
+      description: "Unilateral or bilateral flank or suprapubic pain"
+    - name: urinary_symptoms
+      probability: 0.50
+      description: "Hesitancy, weak stream, incomplete emptying"
+    - name: hematuria
+      probability: 0.40
+      description: "Gross or microscopic hematuria"
+    - name: nausea
+      probability: 0.45
+      description: "Nausea from uremia"
+  physical_exam:
+    - system: abdomen
+      finding: "Palpable distended bladder on suprapubic exam"
+      probability: 0.55
+    - system: genitourinary
+      finding: "Enlarged prostate on digital rectal exam (in males)"
+      probability: 0.50
+    - system: abdomen
+      finding: "CVA tenderness"
+      probability: 0.45
+    - system: general
+      finding: "May appear comfortable or only mildly distressed"
+      probability: 0.60
+diagnostics:
+  imaging:
+    - name: Renal Ultrasound
+      modality: ultrasound
+      loinc: "24564-7"
+      finding_positive: "Bilateral hydronephrosis with dilated collecting systems"
+      finding_negative: "Normal renal parenchyma without hydronephrosis"
+      probability_positive: 0.85
+  labs:
+    - name: Post-void residual
+      value_type: numeric
+      unit: mL
+      abnormal_high_min: 200
+      probability_abnormal: 0.70
+treatment:
+  approach: relieve_obstruction
+  medications:
+    - agent: "Tamsulosin"
+      rxnorm: "77492"
+      frequency: "0.4 mg once daily"
+      route: oral
+      indication: "BPH-related obstruction"
+  patient_instructions:
+    - Urgent Foley catheter placement for bladder outlet obstruction
+    - Urology consultation for stenting or nephrostomy if upper tract obstruction
+    - Monitor for post-obstructive diuresis after relief
+    - Replace fluids to match urine output in post-obstructive phase
+    - Serial BMP to monitor creatinine recovery
+    - Evaluate for underlying malignancy if no clear benign cause

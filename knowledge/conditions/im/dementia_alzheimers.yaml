@@ -1,0 +1,71 @@
+id: dementia_alzheimers
+display_name: "Alzheimer Disease"
+aliases:
+  - Alzheimer's disease
+  - AD
+  - Dementia of Alzheimer type
+  - Senile dementia
+snomed: "26929004"
+icd10:
+  - "G30.9"
+  - "F02.80"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: memory loss
+      probability: 0.95
+      description: "progressive short-term memory impairment, insidious onset"
+    - name: word-finding difficulty
+      probability: 0.60
+      description: "anomia, circumlocution"
+    - name: visuospatial dysfunction
+      probability: 0.45
+      description: "getting lost in familiar places, difficulty with spatial tasks"
+    - name: executive dysfunction
+      probability: 0.50
+      description: "impaired planning, judgment, problem-solving"
+    - name: behavioral changes
+      probability: 0.40
+      description: "apathy, agitation, wandering, sundowning"
+    - name: functional decline
+      probability: 0.70
+      description: "progressive loss of IADLs then ADLs"
+  physical_exam:
+    - system: neurologic
+      finding: "Impaired recall on Mini-Mental or MoCA testing"
+      probability: 0.90
+    - system: neurologic
+      finding: "Preserved motor function early in disease"
+      probability: 0.85
+    - system: neurologic
+      finding: "Normal gait early, shuffling gait in later stages"
+      probability: 0.40
+    - system: neurologic
+      finding: "Frontal release signs in advanced disease (grasp, snout)"
+      probability: 0.20
+treatment:
+  approach: cholinesterase_and_supportive
+  medications:
+    - agent: "Donepezil"
+      rxnorm: "135447"
+      frequency: "once daily at bedtime"
+      route: oral
+      indication: "cholinesterase inhibitor for mild-moderate AD"
+    - agent: "Memantine"
+      rxnorm: "41127"
+      frequency: "twice daily"
+      route: oral
+      indication: "NMDA antagonist for moderate-severe AD"
+    - agent: "Rivastigmine"
+      rxnorm: "183379"
+      frequency: "once daily patch"
+      route: transdermal
+      indication: "alternative cholinesterase inhibitor"

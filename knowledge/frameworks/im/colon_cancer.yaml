@@ -1,0 +1,54 @@
+id: colon_cancer
+topic: Colorectal Cancer
+category: gi
+specialties:
+- im
+teaching_goals:
+- 'Know screening guidelines (average risk: start at 45, colonoscopy every 10 years)'
+- Recognize red flag symptoms prompting urgent evaluation
+- Understand TNM staging and its prognostic implications
+- Know the role of adjuvant chemotherapy by stage
+- Identify hereditary CRC syndromes (Lynch, FAP)
+common_mistakes:
+- Not evaluating iron deficiency anemia in men and postmenopausal women (colonoscopy
+  needed)
+- Attributing rectal bleeding to hemorrhoids without colonoscopy
+- Missing early-onset CRC in patients <45 (rising incidence)
+- Not asking about family history of CRC or polyps
+- Forgetting microsatellite instability testing (implications for immunotherapy)
+red_flags:
+- Unexplained iron deficiency anemia
+- New change in bowel habits >4 weeks in patients >40
+- Rectal bleeding with weight loss
+- Palpable abdominal or rectal mass
+- Large bowel obstruction in elderly patient
+clinical_pearls:
+- 'Right-sided CRC: iron deficiency anemia, vague pain. Left-sided: obstruction, hematochezia.'
+- All CRC should be tested for MSI/MMR - guides immunotherapy and Lynch screening
+- CEA is for monitoring, NOT screening
+- Early-onset CRC (<50) is rising - screening now starts at 45
+- 'Lynch syndrome: most common hereditary CRC, autosomal dominant, ~3% of all CRC'
+key_history_questions:
+- Change in bowel habits (new constipation, diarrhea, caliber change)?
+- Rectal bleeding or blood in stool?
+- Unexplained weight loss?
+- Family history of CRC, polyps, or Lynch syndrome?
+- Prior colonoscopy and findings?
+- Iron deficiency anemia?
+key_exam_findings:
+- Digital rectal exam (low rectal masses)
+- Abdominal mass (advanced disease)
+- Hepatomegaly (liver metastases)
+- Cachexia and pallor
+- Lymphadenopathy (Virchow node in advanced cases)
+treatment_principles:
+- Colonoscopy with biopsy for diagnosis
+- Surgical resection is the primary curative treatment
+- 'Stage III: adjuvant FOLFOX chemotherapy'
+- 'Stage IV: systemic chemotherapy, targeted therapy based on molecular markers'
+- MSI-high tumors may respond to immunotherapy (pembrolizumab)
+disposition_guidance:
+- 'Outpatient: Screening colonoscopy, surveillance, adjuvant chemotherapy'
+- 'Urgent: New diagnosis requiring staging workup'
+- 'Surgery: Curative resection for localized disease'
+- 'Oncology referral: All confirmed CRC for staging and treatment planning'

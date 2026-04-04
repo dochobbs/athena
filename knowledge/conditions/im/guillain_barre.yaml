@@ -1,0 +1,78 @@
+id: guillain_barre
+display_name: "Guillain-Barre Syndrome"
+aliases:
+  - GBS
+  - Acute inflammatory demyelinating polyneuropathy
+  - AIDP
+  - Ascending paralysis
+snomed: "193174005"
+icd10:
+  - "G61.0"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.10
+  bp_systolic:
+    - 90
+    - 180
+presentation:
+  symptoms:
+    - name: ascending weakness
+      probability: 0.85
+      description: "symmetric weakness starting in legs, ascending proximally"
+    - name: paresthesias
+      probability: 0.70
+      description: "tingling in fingers and toes, often precedes weakness"
+    - name: back pain
+      probability: 0.40
+      description: "interscapular or lumbar pain, often early symptom"
+    - name: facial weakness
+      probability: 0.40
+      description: "bilateral facial palsy"
+    - name: respiratory compromise
+      probability: 0.25
+      description: "diaphragmatic weakness, may require intubation"
+    - name: preceding illness
+      probability: 0.65
+      description: "GI or URI 1-4 weeks prior (Campylobacter, CMV)"
+  physical_exam:
+    - system: neurologic
+      finding: "Symmetric ascending flaccid weakness"
+      probability: 0.85
+    - system: neurologic
+      finding: "Areflexia or hyporeflexia"
+      probability: 0.90
+    - system: neurologic
+      finding: "Relatively preserved sensation despite motor deficit"
+      probability: 0.60
+    - system: respiratory
+      finding: "Reduced forced vital capacity on serial bedside spirometry"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Autonomic instability: labile BP, tachycardia, arrhythmia"
+      probability: 0.30
+treatment:
+  approach: immunotherapy_and_supportive
+  medications:
+    - agent: "IVIG"
+      rxnorm: "6038"
+      frequency: "daily for 5 days"
+      route: iv
+      indication: "first-line immunotherapy, equivalent to plasmapheresis"
+    - agent: "Enoxaparin"
+      rxnorm: "67108"
+      frequency: "once daily"
+      route: subcutaneous
+      indication: "DVT prophylaxis in immobilized patient"
+    - agent: "Gabapentin"
+      rxnorm: "25480"
+      frequency: "three times daily"
+      route: oral
+      indication: "neuropathic pain management"

@@ -1,0 +1,52 @@
+id: mitral_regurgitation
+topic: "Mitral Regurgitation"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Distinguish primary (degenerative) from secondary (functional) MR
+  - Grade MR severity by echocardiographic criteria
+  - Know surgical indications and timing of intervention
+  - Understand pathophysiology of volume overload on the left ventricle
+  - Recognize acute MR as a surgical emergency
+common_mistakes:
+  - Missing acute MR because murmur may be soft (equalization of pressures)
+  - Waiting too long for surgery (LV dilates and EF drops before symptoms)
+  - Not recognizing that EF is artificially preserved in chronic MR
+  - Treating secondary MR with surgery when medical HF therapy is indicated
+  - Missing mitral valve prolapse as the underlying cause
+red_flags:
+  - Acute severe MR (flail leaflet, papillary muscle rupture) - surgical emergency
+  - Flash pulmonary edema with new murmur post-MI
+  - Declining EF or increasing LV dimensions on serial echo
+  - New atrial fibrillation in chronic MR
+clinical_pearls:
+  - "In chronic MR, EF <60% is already abnormal (should be supranormal)"
+  - Acute MR murmur may be soft or absent - high LA pressure limits gradient
+  - Primary MR with EF <60% or LVESD >40mm = surgery even if asymptomatic
+  - MitraClip (TEER) is option for secondary MR with persistent symptoms on GDMT
+  - Mitral valve prolapse is the most common cause of primary MR in developed countries
+key_history_questions:
+  - Do you notice shortness of breath with exertion?
+  - Any palpitations or irregular heartbeat?
+  - Has your exercise tolerance declined?
+  - History of MI, endocarditis, or rheumatic fever?
+  - When was your last echocardiogram?
+key_exam_findings:
+  - Holosystolic murmur at apex radiating to axilla
+  - Laterally displaced PMI
+  - S3 gallop in severe MR
+  - Signs of heart failure
+  - Mid-systolic click (MVP)
+  - Murmur louder with increased afterload (handgrip)
+treatment_principles:
+  - Surgical repair preferred over replacement when feasible
+  - Afterload reduction with ACE inhibitors for symptomatic patients
+  - Treat heart failure with GDMT for secondary MR
+  - MitraClip for surgical candidates with prohibitive risk
+  - Serial echo monitoring for asymptomatic severe MR
+disposition_guidance:
+  - Urgent surgical consultation for acute severe MR
+  - Cardiology referral for moderate-severe or severe MR
+  - Serial echo every 6-12 months for severe asymptomatic MR
+  - Annual echo for moderate MR

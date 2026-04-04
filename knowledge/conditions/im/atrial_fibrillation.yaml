@@ -1,0 +1,85 @@
+id: atrial_fibrillation
+display_name: "Atrial Fibrillation"
+aliases:
+  - AFib
+  - AF
+  - A-fib
+snomed: "49436004"
+icd10:
+  - "I48.91"
+  - "I48.0"
+  - "I48.1"
+  - "I48.2"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.40
+  rr_multiplier: 1.05
+presentation:
+  symptoms:
+    - name: palpitations
+      probability: 0.75
+      description: "irregular heartbeat sensation"
+    - name: dyspnea
+      probability: 0.50
+      description: "shortness of breath, especially on exertion"
+    - name: fatigue
+      probability: 0.60
+      description: "reduced exercise tolerance"
+    - name: dizziness
+      probability: 0.35
+      description: "lightheadedness from irregular output"
+    - name: asymptomatic
+      probability: 0.25
+      description: "incidentally discovered on ECG or pulse check"
+    - name: chest_discomfort
+      probability: 0.30
+      description: "chest tightness or pressure"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Irregularly irregular pulse"
+      probability: 0.95
+    - system: cardiovascular
+      finding: "Variable intensity S1"
+      probability: 0.80
+    - system: cardiovascular
+      finding: "Pulse deficit (apical > radial rate)"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Signs of heart failure if decompensated"
+      probability: 0.25
+treatment:
+  approach: rate_or_rhythm_control_plus_anticoagulation
+  medications:
+    - agent: "Metoprolol Succinate"
+      rxnorm: "430618"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line rate control"
+    - agent: "Diltiazem"
+      rxnorm: "3443"
+      frequency: "extended release once daily or TID"
+      route: oral
+      indication: "rate control if beta-blocker contraindicated"
+    - agent: "Apixaban"
+      rxnorm: "1364430"
+      frequency: "twice daily"
+      route: oral
+      indication: "anticoagulation for stroke prevention, CHA2DS2-VASc >= 2"
+    - agent: "Amiodarone"
+      rxnorm: "703"
+      frequency: "once daily maintenance"
+      route: oral
+      indication: "rhythm control, last resort due to toxicities"
+    - agent: "Rivaroxaban"
+      rxnorm: "1114195"
+      frequency: "once daily with dinner"
+      route: oral
+      indication: "alternative DOAC for anticoagulation"

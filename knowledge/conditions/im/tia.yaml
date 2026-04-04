@@ -1,0 +1,74 @@
+id: tia
+display_name: "Transient Ischemic Attack"
+aliases:
+  - TIA
+  - Mini-stroke
+  - Transient cerebral ischemia
+snomed: "266257000"
+icd10:
+  - "G45.9"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.05
+  bp_systolic:
+    - 140
+    - 190
+  bp_diastolic:
+    - 85
+    - 110
+presentation:
+  symptoms:
+    - name: transient weakness
+      probability: 0.70
+      description: "unilateral weakness resolving within 24 hours"
+    - name: transient speech difficulty
+      probability: 0.50
+      description: "aphasia or dysarthria that resolves"
+    - name: transient visual loss
+      probability: 0.30
+      description: "amaurosis fugax or hemianopia, resolving"
+    - name: transient numbness
+      probability: 0.40
+      description: "unilateral sensory changes that resolve"
+    - name: dizziness
+      probability: 0.25
+      description: "vertigo with posterior circulation TIA"
+  physical_exam:
+    - system: neurologic
+      finding: "Normal exam at time of evaluation (deficits resolved)"
+      probability: 0.80
+    - system: cardiovascular
+      finding: "Carotid bruit on auscultation"
+      probability: 0.15
+    - system: cardiovascular
+      finding: "Atrial fibrillation on cardiac exam"
+      probability: 0.20
+    - system: neurologic
+      finding: "Subtle residual findings on detailed exam"
+      probability: 0.15
+treatment:
+  approach: secondary_prevention
+  medications:
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "once daily"
+      route: oral
+      indication: "antiplatelet therapy for stroke prevention"
+    - agent: "Clopidogrel"
+      rxnorm: "32968"
+      frequency: "once daily"
+      route: oral
+      indication: "dual antiplatelet with aspirin for 21 days (POINT trial)"
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "once daily"
+      route: oral
+      indication: "high-intensity statin for vascular risk reduction"

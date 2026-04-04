@@ -1,0 +1,87 @@
+id: asthma_adult_exacerbation
+display_name: "Asthma Exacerbation - Adult"
+aliases:
+  - Asthma attack
+  - Acute asthma
+  - Status asthmaticus
+  - Asthma flare
+snomed: "304527002"
+icd10:
+  - "J45.21"
+  - "J45.31"
+  - "J45.41"
+  - "J45.51"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.25
+  rr_multiplier: 1.35
+  spo2_min: 86
+presentation:
+  symptoms:
+    - name: dyspnea
+      probability: 0.95
+      description: "acute worsening shortness of breath"
+    - name: wheezing
+      probability: 0.85
+      description: "audible wheezing"
+    - name: cough
+      probability: 0.80
+      description: "persistent cough, may be only symptom"
+    - name: chest_tightness
+      probability: 0.70
+      description: "sensation of chest constriction"
+    - name: inability_to_speak
+      probability: 0.25
+      description: "cannot speak full sentences in severe exacerbation"
+  physical_exam:
+    - system: respiratory
+      finding: "Diffuse bilateral wheezing"
+      probability: 0.85
+    - system: respiratory
+      finding: "Prolonged expiratory phase"
+      probability: 0.80
+    - system: respiratory
+      finding: "Accessory muscle use, intercostal retractions"
+      probability: 0.50
+    - system: respiratory
+      finding: "Silent chest (ominous, near-fatal)"
+      probability: 0.05
+    - system: respiratory
+      finding: "Pulsus paradoxus >12 mmHg in severe"
+      probability: 0.25
+treatment:
+  approach: bronchodilators_and_steroids
+  medications:
+    - agent: "Albuterol"
+      rxnorm: "435"
+      frequency: "2.5 mg nebulized q20min x3 then q1-4h"
+      route: inhaler
+      indication: "first-line bronchodilator"
+    - agent: "Ipratropium"
+      rxnorm: "7213"
+      frequency: "0.5 mg nebulized q20min x3"
+      route: inhaler
+      indication: "add to albuterol for severe exacerbation"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "40-60 mg daily for 5-7 days"
+      route: oral
+      indication: "systemic corticosteroid"
+    - agent: "Methylprednisolone"
+      rxnorm: "6902"
+      frequency: "125 mg IV"
+      route: iv
+      indication: "IV steroid if unable to take PO"
+    - agent: "Magnesium Sulfate"
+      rxnorm: "6585"
+      frequency: "2 g IV over 20 min"
+      route: iv
+      indication: "adjunct for severe exacerbation not responding to initial therapy"

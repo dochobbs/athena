@@ -1,0 +1,52 @@
+id: polymyalgia_rheumatica
+topic: "Polymyalgia Rheumatica"
+category: rheumatology
+specialties:
+  - im
+teaching_goals:
+  - Recognize the classic presentation in patients >50 with bilateral shoulder/hip girdle stiffness
+  - Understand that dramatic response to low-dose prednisone is diagnostically supportive
+  - Always screen for giant cell arteritis (overlaps in ~15-20% of PMR patients)
+  - Know the prolonged steroid taper required (12-24 months)
+  - Differentiate PMR from RA, myositis, and malignancy
+common_mistakes:
+  - Not screening for GCA symptoms at every visit
+  - Using too high a starting dose of prednisone (12.5-25 mg is sufficient for PMR)
+  - Tapering prednisone too rapidly (high relapse rate)
+  - Not monitoring for steroid side effects during prolonged therapy
+  - Missing malignancy presenting as PMR-like symptoms
+red_flags:
+  - New headache, jaw claudication, or visual symptoms (GCA)
+  - Failure to respond to prednisone 15-20 mg (reconsider diagnosis)
+  - Weight loss or night sweats disproportionate to PMR (malignancy screen)
+  - Elevated CK (myositis, not PMR)
+clinical_pearls:
+  - ESR is typically >40 (often >50-100); CRP also elevated
+  - Normal CK distinguishes PMR from inflammatory myopathy
+  - Dramatic improvement within 24-72 hours of prednisone is expected
+  - If no improvement in 1 week on prednisone, strongly reconsider diagnosis
+  - PMR is a clinical diagnosis of exclusion - no specific diagnostic test
+key_history_questions:
+  - Bilateral shoulder and/or hip girdle pain and stiffness?
+  - Duration and severity of morning stiffness?
+  - Any headache, jaw pain, or visual changes (GCA screening)?
+  - Difficulty rising from chair, lifting arms overhead?
+  - Constitutional symptoms (fever, weight loss, fatigue)?
+  - Age >50 (required for diagnosis)?
+key_exam_findings:
+  - Reduced active ROM of shoulders (passive ROM preserved)
+  - Bilateral shoulder and hip girdle tenderness
+  - Normal muscle strength (distinguishes from myopathy)
+  - No synovitis of small joints (distinguishes from RA)
+  - Temporal artery examination (tenderness, nodularity for GCA)
+treatment_principles:
+  - Prednisone 12.5-25 mg daily as initial therapy
+  - Expect dramatic improvement in 24-72 hours
+  - Slow taper over 12-24 months guided by symptoms and ESR/CRP
+  - Methotrexate as steroid-sparing agent for relapses
+  - Bone protection (calcium, vitamin D, consider bisphosphonate)
+disposition_guidance:
+  - Outpatient management
+  - Urgent evaluation if GCA symptoms develop
+  - Regular follow-up to monitor steroid taper and side effects
+  - Rheumatology referral for atypical presentation or refractory disease

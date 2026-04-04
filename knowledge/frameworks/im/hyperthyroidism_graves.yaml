@@ -1,0 +1,55 @@
+id: hyperthyroidism_graves
+topic: Hyperthyroidism - Graves Disease
+category: endocrine
+specialties:
+- im
+teaching_goals:
+- Distinguish Graves from other causes of hyperthyroidism (toxic nodule, thyroiditis)
+- Know the diagnostic workup (TSH, free T4, TSI/TRAb, radioactive iodine uptake)
+- Understand the three treatment options (medications, RAI, surgery)
+- Recognize and manage thyroid storm
+- Manage Graves ophthalmopathy
+common_mistakes:
+- Starting beta-blocker without antithyroid medication
+- Missing thyroid storm (can be subtle in elderly)
+- Not checking pregnancy status before radioactive iodine (absolute contraindication)
+- Using methimazole in first trimester (PTU preferred due to teratogenicity)
+- Forgetting to monitor CBC on antithyroid drugs (agranulocytosis risk)
+red_flags:
+- Thyroid storm (fever >104, tachycardia, AMS, organ failure)
+- Agranulocytosis on antithyroid drugs (sore throat, fever)
+- Severe Graves ophthalmopathy (vision loss, optic neuropathy)
+- Atrial fibrillation (especially in elderly thyrotoxicosis)
+- Thyrotoxic periodic paralysis
+clinical_pearls:
+- Graves has diffuse uptake on thyroid scan; toxic nodule has focal uptake
+- Methimazole is preferred except in first trimester pregnancy (use PTU)
+- 'Thyroid storm: use PTU (blocks conversion of T4 to T3), beta-blocker, steroids,
+  iodine'
+- Give iodine AFTER thionamide in thyroid storm (to prevent Jod-Basedow effect)
+- Graves ophthalmopathy can worsen after RAI - consider steroids prophylaxis
+key_history_questions:
+- Weight loss despite good appetite?
+- Palpitations, heat intolerance, tremor?
+- Eye symptoms (bulging, double vision, pain)?
+- Family history of thyroid disease?
+- Pregnant or planning pregnancy?
+- Recent iodine exposure (contrast, amiodarone)?
+key_exam_findings:
+- Diffuse goiter with bruit
+- Proptosis, lid lag, lid retraction
+- Fine tremor
+- Tachycardia, widened pulse pressure
+- Warm, moist skin
+- Hyperreflexia
+treatment_principles:
+- Start beta-blocker immediately for symptom control
+- Methimazole for most patients (PTU for first trimester pregnancy or thyroid storm)
+- 'Three definitive options: prolonged methimazole, RAI ablation, thyroidectomy'
+- Monitor CBC for agranulocytosis (rare but serious on thionamides)
+- Ophthalmology referral for Graves eye disease
+disposition_guidance:
+- 'Outpatient: Most Graves management'
+- 'ICU: Thyroid storm (medical emergency)'
+- 'Endocrine referral: Diagnosis confirmation, treatment selection, RAI'
+- 'Ophthalmology: Graves ophthalmopathy assessment and management'

@@ -1,0 +1,101 @@
+id: dvt
+display_name: "Deep Vein Thrombosis"
+aliases:
+  - DVT
+  - Deep venous thrombosis
+  - Venous thromboembolism
+snomed: "128053003"
+icd10:
+  - "I82.40"
+  - "I82.409"
+  - "I82.90"
+category: acute
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.5, 100.0]
+  hr_multiplier: 1.10
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: leg_swelling
+      probability: 0.85
+      description: "Unilateral lower extremity swelling"
+    - name: leg_pain
+      probability: 0.80
+      description: "Calf or thigh pain, cramping"
+    - name: warmth
+      probability: 0.65
+      description: "Warmth over affected area"
+    - name: erythema
+      probability: 0.55
+      description: "Redness of affected limb"
+    - name: asymptomatic
+      probability: 0.20
+      description: "Incidentally discovered on imaging"
+  physical_exam:
+    - system: extremities
+      finding: "Unilateral leg edema with >2 cm calf circumference difference"
+      probability: 0.80
+    - system: extremities
+      finding: "Warmth and erythema of affected limb"
+      probability: 0.60
+    - system: extremities
+      finding: "Palpable cord along deep venous system"
+      probability: 0.30
+    - system: extremities
+      finding: "Homan sign (unreliable - low sensitivity and specificity)"
+      probability: 0.50
+diagnostics:
+  imaging:
+    - name: Lower Extremity Duplex Ultrasound
+      modality: ultrasound
+      loinc: "24564-7"
+      finding_positive: "Non-compressible left popliteal vein with echogenic thrombus"
+      finding_negative: "Normal compressibility of bilateral deep venous system"
+      probability_positive: 0.90
+  labs:
+    - name: D-dimer
+      loinc: "48065-7"
+      value_type: numeric
+      unit: ng/mL FEU
+      normal_range_high: 500
+      abnormal_high_min: 500
+      probability_abnormal: 0.95
+      notes: "High sensitivity, low specificity - useful to rule out"
+treatment:
+  approach: anticoagulation
+  medications:
+    - agent: "Rivaroxaban"
+      rxnorm: "1114195"
+      frequency: "15 mg BID x21 days, then 20 mg daily"
+      route: oral
+      indication: "First-line DOAC for DVT treatment"
+    - agent: "Apixaban"
+      rxnorm: "1364430"
+      frequency: "10 mg BID x7 days, then 5 mg BID"
+      route: oral
+      indication: "Alternative first-line DOAC for DVT"
+    - agent: "Enoxaparin"
+      rxnorm: "67108"
+      frequency: "1 mg/kg SQ q12h"
+      route: subcutaneous
+      indication: "LMWH bridge or in cancer-associated DVT"
+    - agent: "Heparin"
+      rxnorm: "5224"
+      frequency: "80 units/kg bolus, then 18 units/kg/hr drip"
+      route: iv
+      indication: "Massive DVT with consideration for thrombolysis"
+  patient_instructions:
+    - Use Wells score to determine pre-test probability
+    - If Wells low probability and D-dimer negative, DVT ruled out
+    - Minimum 3 months anticoagulation for provoked DVT
+    - Extended anticoagulation for unprovoked DVT (weigh risk-benefit)
+    - Evaluate for thrombophilia in young patients or recurrent events
+    - Early ambulation is safe and recommended

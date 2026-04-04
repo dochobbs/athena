@@ -1,0 +1,79 @@
+id: meningitis_adult
+display_name: "Bacterial Meningitis (Adult)"
+aliases:
+  - Meningitis
+  - Bacterial meningitis
+  - Acute bacterial meningitis
+snomed: "95883001"
+icd10:
+  - "G00.9"
+  - "G03.9"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [101.5, 105.0]
+  hr_multiplier: 1.30
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: headache
+      probability: 0.90
+      description: "severe, diffuse headache"
+    - name: fever
+      probability: 0.95
+      description: "high fever with rigors"
+    - name: neck_stiffness
+      probability: 0.85
+      description: "nuchal rigidity"
+    - name: photophobia
+      probability: 0.70
+      description: "light sensitivity"
+    - name: altered_mental_status
+      probability: 0.65
+      description: "confusion to obtundation"
+    - name: nausea_vomiting
+      probability: 0.55
+      description: "nausea and vomiting from elevated ICP"
+  physical_exam:
+    - system: neurologic
+      finding: "Nuchal rigidity, positive Kernig and Brudzinski signs"
+      probability: 0.70
+    - system: neurologic
+      finding: "Altered mental status"
+      probability: 0.65
+    - system: skin
+      finding: "Petechial or purpuric rash (meningococcal)"
+      probability: 0.25
+    - system: neurologic
+      finding: "Papilledema suggesting elevated ICP"
+      probability: 0.10
+treatment:
+  approach: emergent_empiric_antibiotics
+  medications:
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "every 12 hours"
+      route: iv
+      indication: "empiric coverage for S. pneumoniae and N. meningitidis"
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "empiric coverage for resistant pneumococcus"
+    - agent: "Ampicillin"
+      rxnorm: "733"
+      frequency: "every 4 hours"
+      route: iv
+      indication: "Listeria coverage if age >50 or immunocompromised"
+    - agent: "Dexamethasone"
+      rxnorm: "3264"
+      frequency: "every 6 hours x 4 days"
+      route: iv
+      indication: "adjunctive therapy, give before or with first antibiotic dose"

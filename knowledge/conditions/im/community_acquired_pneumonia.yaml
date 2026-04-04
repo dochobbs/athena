@@ -1,0 +1,96 @@
+id: community_acquired_pneumonia
+display_name: "Community-Acquired Pneumonia"
+aliases:
+  - CAP
+  - Typical pneumonia
+  - Atypical pneumonia
+  - Walking pneumonia
+snomed: "385093006"
+icd10:
+  - "J18.9"
+  - "J15.9"
+  - "J13"
+  - "J14"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f:
+    - 100.5
+    - 104.0
+  hr_multiplier: 1.20
+  rr_multiplier: 1.30
+  spo2_min: 88
+presentation:
+  symptoms:
+    - name: cough
+      probability: 0.90
+      description: "productive cough with purulent sputum"
+    - name: fever
+      probability: 0.80
+      description: "high fever with chills and rigors"
+    - name: dyspnea
+      probability: 0.65
+      description: "shortness of breath"
+    - name: pleuritic_chest_pain
+      probability: 0.50
+      description: "sharp chest pain worse with breathing"
+    - name: fatigue
+      probability: 0.70
+      description: "malaise and fatigue"
+    - name: myalgias
+      probability: 0.40
+      description: "diffuse body aches"
+  physical_exam:
+    - system: respiratory
+      finding: "Crackles/rales over affected lobe"
+      probability: 0.80
+    - system: respiratory
+      finding: "Bronchial breath sounds over consolidation"
+      probability: 0.45
+    - system: respiratory
+      finding: "Dullness to percussion"
+      probability: 0.50
+    - system: respiratory
+      finding: "Increased tactile fremitus"
+      probability: 0.45
+    - system: respiratory
+      finding: "Tachypnea"
+      probability: 0.70
+    - system: general
+      finding: "Ill-appearing, febrile"
+      probability: 0.75
+treatment:
+  approach: empiric_antibiotic_therapy
+  medications:
+    - agent: "Amoxicillin"
+      rxnorm: "723"
+      frequency: "1 g TID"
+      route: oral
+      indication: "outpatient, no comorbidities, first-line"
+    - agent: "Amoxicillin/Clavulanate"
+      rxnorm: "7980"
+      frequency: "875/125 mg BID"
+      route: oral
+      indication: "outpatient with comorbidities"
+    - agent: "Azithromycin"
+      rxnorm: "18631"
+      frequency: "500 mg day 1 then 250 mg days 2-5"
+      route: oral
+      indication: "add for atypical coverage or monotherapy if no comorbidities"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "1-2 g IV q24h"
+      route: iv
+      indication: "inpatient empiric therapy"
+    - agent: "Levofloxacin"
+      rxnorm: "82122"
+      frequency: "750 mg once daily"
+      route: oral
+      indication: "respiratory fluoroquinolone for PCN allergy or inpatient"

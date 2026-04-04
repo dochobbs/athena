@@ -1,0 +1,53 @@
+id: small_bowel_obstruction
+topic: "Small Bowel Obstruction"
+category: gi
+specialties:
+  - im
+teaching_goals:
+  - Identify the classic presentation (pain, vomiting, distension, obstipation)
+  - Know the most common etiologies by frequency (adhesions > hernias > malignancy)
+  - Distinguish partial from complete and simple from strangulated obstruction
+  - Understand the role of CT and water-soluble contrast studies
+  - Know when to manage conservatively vs proceed to surgery
+common_mistakes:
+  - Delaying surgical consultation in complete SBO
+  - Missing strangulation (fever, persistent pain, peritoneal signs)
+  - Not checking all hernia sites (inguinal, femoral, incisional, umbilical)
+  - Relying on plain films alone when CT is needed for diagnosis
+  - Over-aggressive oral intake after resolution of partial SBO
+red_flags:
+  - Fever, leukocytosis, persistent tachycardia (strangulation)
+  - Peritoneal signs (rebound, rigidity, guarding)
+  - CT showing closed-loop obstruction or bowel wall thickening
+  - Pneumatosis or portal venous gas (bowel ischemia)
+  - Failure to improve with 48-72 hours of conservative management
+clinical_pearls:
+  - "Adhesive SBO (prior surgery) is the #1 cause in developed countries"
+  - "CT with IV contrast is the gold standard: identifies transition point and complications"
+  - "Water-soluble contrast (Gastrografin) is both diagnostic and therapeutic"
+  - "Gastrografin in colon at 24 hours predicts resolution without surgery"
+  - "Never forget to check for incarcerated hernias on physical exam"
+key_history_questions:
+  - Prior abdominal surgeries (adhesions)?
+  - Last flatus or bowel movement?
+  - Prior SBO episodes?
+  - History of hernias?
+  - History of malignancy, radiation, or IBD?
+  - Character of vomiting (bilious vs feculent)?
+key_exam_findings:
+  - Abdominal distension
+  - High-pitched or absent bowel sounds
+  - Diffuse tenderness (peritoneal signs = strangulation)
+  - Surgical scars (adhesion risk)
+  - Hernia sites (inguinal, femoral, umbilical, incisional)
+treatment_principles:
+  - NPO, nasogastric decompression, IV fluid resuscitation
+  - CT abdomen/pelvis to identify transition point and complications
+  - Correct electrolyte abnormalities (hypokalemia, metabolic alkalosis)
+  - Conservative management for partial SBO (may resolve in 24-72 hours)
+  - Surgical consultation for complete SBO, strangulation, or failure to improve
+disposition_guidance:
+  - "Admission: All SBO for serial exams and surgical consultation"
+  - "Surgery: Complete obstruction, strangulation, closed-loop, or failed conservative management"
+  - "ICU: Sepsis, strangulation with hemodynamic instability"
+  - "Discharge: After resolution, tolerating diet, passing flatus/stool"

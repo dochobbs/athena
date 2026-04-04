@@ -1,0 +1,93 @@
+id: sle
+display_name: "Systemic Lupus Erythematosus"
+aliases:
+  - Lupus
+  - SLE
+  - Systemic lupus
+snomed: "55464009"
+icd10:
+  - "M32.9"
+  - "M32.10"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [99.0, 101.5]
+  hr_multiplier: 1.05
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: joint_pain
+      probability: 0.85
+      description: "non-erosive polyarthralgia/arthritis"
+    - name: fatigue
+      probability: 0.90
+      description: "profound fatigue"
+    - name: malar_rash
+      probability: 0.50
+      description: "butterfly rash sparing nasolabial folds"
+    - name: photosensitivity
+      probability: 0.55
+      description: "skin rash after sun exposure"
+    - name: hair_loss
+      probability: 0.45
+      description: "diffuse alopecia"
+    - name: oral_ulcers
+      probability: 0.30
+      description: "painless oral or nasal ulcers"
+    - name: pleuritic_chest_pain
+      probability: 0.30
+      description: "pleuritis or pericarditis"
+  physical_exam:
+    - system: skin
+      finding: "Malar (butterfly) rash sparing nasolabial folds"
+      probability: 0.50
+    - system: skin
+      finding: "Discoid rash with scarring"
+      probability: 0.20
+    - system: musculoskeletal
+      finding: "Non-deforming arthritis of small joints"
+      probability: 0.70
+    - system: oral
+      finding: "Painless oral ulcers"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Pericardial friction rub"
+      probability: 0.10
+    - system: lymphatic
+      finding: "Lymphadenopathy"
+      probability: 0.25
+treatment:
+  approach: disease_activity_guided
+  medications:
+    - agent: "Hydroxychloroquine"
+      rxnorm: "5521"
+      frequency: "once daily"
+      route: oral
+      indication: "backbone therapy for all SLE patients"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily"
+      route: oral
+      indication: "acute flares, aim for lowest effective dose"
+    - agent: "Mycophenolate Mofetil"
+      rxnorm: "68149"
+      frequency: "twice daily"
+      route: oral
+      indication: "lupus nephritis and steroid-sparing"
+    - agent: "Belimumab"
+      rxnorm: "1045453"
+      frequency: "monthly"
+      route: iv
+      indication: "add-on for persistently active SLE"
+    - agent: "Azathioprine"
+      rxnorm: "1256"
+      frequency: "once daily"
+      route: oral
+      indication: "maintenance therapy, steroid-sparing"

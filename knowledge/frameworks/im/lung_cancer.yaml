@@ -1,0 +1,54 @@
+id: lung_cancer
+topic: Lung Cancer
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Know USPSTF lung cancer screening criteria and LDCT guidelines
+- Classify NSCLC (adenocarcinoma, squamous, large cell) vs SCLC
+- Understand TNM staging and its impact on treatment
+- Recognize paraneoplastic syndromes
+- Apply initial workup approach for a suspicious lung nodule
+common_mistakes:
+- Not screening eligible patients (50-80 years, >=20 pack-years)
+- Assuming all lung nodules are cancer (most are benign)
+- Not obtaining tissue diagnosis before initiating treatment
+- Missing paraneoplastic syndromes (SIADH, Cushing, Lambert-Eaton)
+- Ignoring quality-of-life and goals-of-care discussions early
+red_flags:
+- Hemoptysis with weight loss and smoking history
+- Superior vena cava syndrome (facial swelling, JVD)
+- Pancoast tumor (shoulder pain, Horner syndrome)
+- Rapid growth of pulmonary nodule on serial imaging
+- Brain metastases presenting with neurologic symptoms
+clinical_pearls:
+- Adenocarcinoma is now the most common type (not squamous)
+- SCLC is strongly smoking-associated and responds to chemo but recurs quickly
+- Molecular testing (EGFR, ALK, ROS1, PD-L1) guides therapy in NSCLC
+- 'Solitary pulmonary nodule: use Fleischner criteria for follow-up'
+- LDCT screening reduces lung cancer mortality by 20% (NLST trial)
+key_history_questions:
+- What is your smoking history (pack-years)?
+- Any new or changed cough, hemoptysis, or weight loss?
+- Occupational exposures (asbestos, radon)?
+- Family history of lung cancer?
+- Any bone pain, headaches, or neurologic symptoms?
+- Goals of care and advance directive status?
+key_exam_findings:
+- Cachexia and weight loss
+- Digital clubbing
+- Supraclavicular or cervical lymphadenopathy
+- Decreased breath sounds over mass or effusion
+- Horner syndrome (ptosis, miosis, anhidrosis)
+- Superior vena cava syndrome signs
+treatment_principles:
+- 'Early-stage NSCLC: surgical resection (lobectomy)'
+- 'Locally advanced: chemoradiation +/- immunotherapy'
+- 'Metastatic NSCLC: targeted therapy based on molecular markers or immunotherapy'
+- 'SCLC limited stage: chemoradiation'
+- 'SCLC extensive stage: chemotherapy + immunotherapy'
+disposition_guidance:
+- Expedited pulmonology/oncology referral for suspicious lesions
+- Multidisciplinary tumor board for treatment planning
+- Palliative care consultation for advanced disease
+- Smoking cessation support regardless of stage

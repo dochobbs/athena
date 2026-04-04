@@ -1,0 +1,85 @@
+id: panic_disorder
+display_name: "Panic Disorder"
+aliases:
+  - Panic attacks
+  - Panic anxiety
+snomed: "371631005"
+icd10:
+  - "F41.0"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.30
+  bp_systolic:
+    - 130
+    - 170
+  rr_multiplier: 1.30
+presentation:
+  symptoms:
+    - name: palpitations
+      probability: 0.85
+      description: "racing heart, pounding sensation"
+    - name: chest pain
+      probability: 0.60
+      description: "sharp or pressure-like chest discomfort"
+    - name: dyspnea
+      probability: 0.70
+      description: "sensation of smothering or shortness of breath"
+    - name: dizziness
+      probability: 0.55
+      description: "lightheadedness, feeling faint"
+    - name: diaphoresis
+      probability: 0.60
+      description: "profuse sweating during attack"
+    - name: fear of dying
+      probability: 0.50
+      description: "intense fear of death or losing control"
+    - name: paresthesias
+      probability: 0.45
+      description: "tingling or numbness, often perioral and fingers"
+    - name: trembling
+      probability: 0.50
+      description: "shaking, tremor during attack"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Tachycardia during acute episode"
+      probability: 0.80
+    - system: respiratory
+      finding: "Tachypnea, hyperventilation"
+      probability: 0.65
+    - system: general
+      finding: "Diaphoresis, visible distress"
+      probability: 0.55
+    - system: general
+      finding: "Normal exam between episodes"
+      probability: 0.95
+treatment:
+  approach: ssri_and_cbt
+  medications:
+    - agent: "Sertraline"
+      rxnorm: "36437"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line SSRI for panic disorder"
+    - agent: "Paroxetine"
+      rxnorm: "32937"
+      frequency: "once daily"
+      route: oral
+      indication: "FDA-approved for panic disorder"
+    - agent: "Alprazolam"
+      rxnorm: "596"
+      frequency: "as needed, short-term bridge only"
+      route: oral
+      indication: "short-term benzodiazepine bridge while SSRI takes effect"
+    - agent: "Clonazepam"
+      rxnorm: "2598"
+      frequency: "twice daily if needed"
+      route: oral
+      indication: "longer-acting benzo alternative, taper as SSRI takes effect"

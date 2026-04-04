@@ -1,0 +1,54 @@
+id: tuberculosis
+topic: "Tuberculosis"
+category: pulmonary
+specialties:
+  - im
+teaching_goals:
+  - Distinguish latent TB infection from active TB disease
+  - Know the RIPE regimen and treatment duration
+  - Understand airborne isolation requirements
+  - Interpret TST and IGRA results appropriately
+  - Recognize extrapulmonary TB manifestations
+common_mistakes:
+  - Starting single-drug treatment (causes resistance)
+  - Not isolating patients with suspected pulmonary TB
+  - Treating latent TB with the full 4-drug regimen
+  - Missing extrapulmonary TB (meningitis, skeletal, renal)
+  - Not monitoring for hepatotoxicity with INH and pyrazinamide
+red_flags:
+  - TB meningitis (altered mental status, cranial nerve palsies)
+  - Miliary TB (diffuse micronodular pattern on CXR)
+  - MDR-TB (resistance to INH and rifampin)
+  - Hemoptysis with cavitary disease
+  - Vertebral TB (Pott disease) with cord compression
+clinical_pearls:
+  - RIPE for 2 months, then RI for 4 months = standard 6-month course
+  - Always give pyridoxine (B6) with isoniazid to prevent neuropathy
+  - Upper lobe cavitary disease on CXR is classic for reactivation TB
+  - IGRA preferred over TST in BCG-vaccinated individuals
+  - 3 sputum AFB smears collected 8 hours apart for diagnosis
+key_history_questions:
+  - Where were you born? Have you traveled to endemic areas?
+  - Known TB exposure or positive screening test?
+  - History of incarceration, homelessness, or congregate living?
+  - HIV status?
+  - Immunosuppressive medications (TNF inhibitors, steroids)?
+  - Prior TB treatment?
+key_exam_findings:
+  - Weight loss and cachexia
+  - Post-tussive crackles, especially upper lobes
+  - Cervical lymphadenopathy (scrofula)
+  - Fever pattern
+  - Signs of extrapulmonary disease (meningismus, bone tenderness)
+  - HIV testing if not previously done
+treatment_principles:
+  - Always use combination therapy (never monotherapy)
+  - RIPE x 2 months, then INH + rifampin x 4 months
+  - DOT (directly observed therapy) is standard of care
+  - Monitor LFTs monthly during treatment
+  - Pyridoxine 25-50 mg daily with isoniazid
+disposition_guidance:
+  - Airborne isolation until 3 consecutive negative AFB smears
+  - Public health notification required
+  - Inpatient if severe disease, hemodynamically unstable, or social factors
+  - Outpatient DOT through public health department

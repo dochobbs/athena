@@ -1,0 +1,80 @@
+id: hospital_acquired_pneumonia
+display_name: "Hospital-Acquired Pneumonia"
+aliases:
+  - HAP
+  - Nosocomial pneumonia
+  - Ventilator-associated pneumonia
+  - VAP
+snomed: "422588002"
+icd10:
+  - "J18.9"
+  - "J95.851"
+category: acute
+system: pulmonary
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f:
+    - 100.5
+    - 104.0
+  hr_multiplier: 1.25
+  rr_multiplier: 1.35
+  spo2_min: 85
+presentation:
+  symptoms:
+    - name: fever
+      probability: 0.80
+      description: "new or worsening fever after >48h hospitalization"
+    - name: cough
+      probability: 0.75
+      description: "new purulent cough or increased secretions"
+    - name: dyspnea
+      probability: 0.70
+      description: "worsening hypoxemia"
+    - name: leukocytosis
+      probability: 0.65
+      description: "rising WBC count"
+    - name: new_infiltrate
+      probability: 0.80
+      description: "new or progressive infiltrate on imaging"
+  physical_exam:
+    - system: respiratory
+      finding: "Crackles or bronchial breath sounds"
+      probability: 0.75
+    - system: respiratory
+      finding: "Increased oxygen requirement"
+      probability: 0.70
+    - system: respiratory
+      finding: "Increased purulent sputum production"
+      probability: 0.65
+    - system: general
+      finding: "Febrile, toxic-appearing"
+      probability: 0.70
+treatment:
+  approach: broad_spectrum_empiric_antibiotics
+  medications:
+    - agent: "Piperacillin/Tazobactam"
+      rxnorm: "8339"
+      frequency: "4.5 g IV q6h"
+      route: iv
+      indication: "broad-spectrum antipseudomonal coverage"
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "15-20 mg/kg IV q8-12h"
+      route: iv
+      indication: "MRSA coverage if risk factors present"
+    - agent: "Cefepime"
+      rxnorm: "20481"
+      frequency: "2 g IV q8h"
+      route: iv
+      indication: "alternative antipseudomonal beta-lactam"
+    - agent: "Meropenem"
+      rxnorm: "29561"
+      frequency: "1 g IV q8h"
+      route: iv
+      indication: "carbapenem for ESBL or severe disease"

@@ -1,0 +1,53 @@
+id: major_depressive_disorder
+topic: "Major Depressive Disorder"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Apply DSM-5 criteria for MDD diagnosis (5/9 symptoms for 2+ weeks)
+  - Screen for suicidal ideation using validated tools (PHQ-9, Columbia Scale)
+  - Select first-line antidepressant based on patient profile
+  - Understand timeline for medication response (4-6 weeks minimum)
+  - Recognize treatment-resistant depression and escalation strategies
+common_mistakes:
+  - Stopping antidepressant too early (need 6-12 months minimum for first episode)
+  - Not assessing suicide risk at every visit
+  - Underdosing SSRIs (titrate to max tolerated dose before switching)
+  - Missing bipolar depression and starting SSRI monotherapy (risk of mania)
+  - Overlooking medical causes of depression (hypothyroidism, anemia, B12)
+red_flags:
+  - Active suicidal ideation with plan or intent
+  - Psychotic features (hallucinations, delusions)
+  - Severe functional impairment (unable to eat, drink, or care for self)
+  - History of mania or hypomania (screen for bipolar before starting SSRI)
+  - Postpartum depression with thoughts of harming infant
+clinical_pearls:
+  - "PHQ-9 >= 10 has 88% sensitivity and 88% specificity for MDD"
+  - "Ask about suicide directly: it does NOT increase risk"
+  - "SSRIs take 4-6 weeks for full effect; side effects appear within days"
+  - "Bupropion is preferred if sexual dysfunction, fatigue, or smoking cessation needed"
+  - "Always screen for bipolar: 'Have you ever had a period of elevated mood, decreased need for sleep, and increased energy?'"
+key_history_questions:
+  - "How long have you been feeling this way?"
+  - "Are you having thoughts of suicide or self-harm?"
+  - "Have you ever had periods of elevated mood, racing thoughts, or decreased need for sleep?"
+  - "How is your sleep, appetite, and energy?"
+  - "Have you lost interest in things you used to enjoy?"
+  - "Any family history of depression, bipolar disorder, or suicide?"
+key_exam_findings:
+  - "Flat or constricted affect"
+  - "Psychomotor retardation or agitation"
+  - "Poor grooming or hygiene"
+  - "PHQ-9 score quantifying severity"
+  - "Weight change from baseline"
+treatment_principles:
+  - "SSRIs (sertraline, escitalopram) are first-line for most patients"
+  - "Adequate trial = 4-6 weeks at therapeutic dose before switching"
+  - "Continue treatment 6-12 months after remission (longer if recurrent)"
+  - "Combine medication with psychotherapy (CBT) for best outcomes"
+  - "If two adequate SSRI trials fail, consider augmentation (buspirone, aripiprazole, lithium)"
+disposition_guidance:
+  - "Outpatient management for mild-moderate depression"
+  - "Psychiatric emergency evaluation for active suicidal ideation with plan"
+  - "Psychiatry referral for treatment-resistant or complex presentations"
+  - "Inpatient psychiatric admission for imminent safety concerns"

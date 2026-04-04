@@ -1,0 +1,56 @@
+id: sle
+topic: Systemic Lupus Erythematosus
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- 'Apply 2019 EULAR/ACR classification criteria (entry criterion: ANA >= 1:80)'
+- Recognize the diverse organ manifestations of SLE
+- Identify lupus nephritis and the urgency of biopsy and treatment
+- Understand the role of hydroxychloroquine as backbone therapy for all SLE
+- Monitor for disease flares and medication toxicity
+common_mistakes:
+- Diagnosing SLE based on positive ANA alone (ANA is sensitive but not specific)
+- Not screening for lupus nephritis with urinalysis at every visit
+- Missing drug-induced lupus (hydralazine, procainamide, isoniazid)
+- Not counseling on sun protection and pregnancy planning
+- Overlooking antiphospholipid syndrome in SLE patients
+red_flags:
+- Proteinuria or active urine sediment (lupus nephritis)
+- Seizures or psychosis (CNS lupus)
+- Thrombocytopenia < 50,000 or hemolytic anemia
+- Complement levels dropping (C3, C4) with rising anti-dsDNA
+- Recurrent thrombosis or pregnancy loss (APS overlap)
+clinical_pearls:
+- ANA is positive in nearly all SLE but is NOT diagnostic (many healthy people have
+  low-titer ANA)
+- Anti-dsDNA and anti-Smith are specific for SLE
+- Low complement (C3, C4) correlates with disease activity, especially nephritis
+- Drug-induced lupus has anti-histone antibodies and spares kidneys/CNS
+- Hydroxychloroquine reduces flares, organ damage, and mortality - all patients should
+  be on it
+key_history_questions:
+- Rash with sun exposure? Oral ulcers?
+- Joint pain and swelling?
+- Hair loss?
+- Chest pain with breathing (serositis)?
+- Foamy urine or ankle swelling (nephritis)?
+- Prior pregnancy complications?
+key_exam_findings:
+- Malar rash (butterfly distribution, spares nasolabial folds)
+- Discoid rash
+- Non-erosive arthritis
+- Oral ulcers (often painless)
+- Pericardial or pleural friction rub
+- Edema (nephrotic syndrome from nephritis)
+treatment_principles:
+- Hydroxychloroquine for ALL SLE patients (reduces flares and mortality)
+- Avoid chronic high-dose glucocorticoids (use lowest effective dose)
+- Mycophenolate mofetil or cyclophosphamide for lupus nephritis
+- Belimumab as add-on for persistently active disease
+- Sun protection and pregnancy counseling essential
+disposition_guidance:
+- Outpatient for mild disease (arthritis, rash, fatigue)
+- Admit for severe manifestations (nephritis, CNS lupus, severe cytopenias)
+- Urgent nephrology referral for active urine sediment or proteinuria
+- Rheumatology follow-up for all patients

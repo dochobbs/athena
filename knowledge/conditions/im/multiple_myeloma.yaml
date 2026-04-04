@@ -1,0 +1,132 @@
+id: multiple_myeloma
+display_name: "Multiple Myeloma"
+aliases:
+  - Myeloma
+  - Plasma cell myeloma
+  - Kahler disease
+snomed: "109989006"
+icd10:
+  - "C90.00"
+  - "C90.01"
+category: chronic
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 600
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 100.0]
+  hr_multiplier: 1.10
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: bone_pain
+      probability: 0.80
+      description: "Bone pain, especially back and ribs (lytic lesions)"
+    - name: fatigue
+      probability: 0.85
+      description: "Fatigue from anemia"
+    - name: recurrent_infections
+      probability: 0.55
+      description: "Recurrent bacterial infections from immunoparesis"
+    - name: pathologic_fracture
+      probability: 0.35
+      description: "Pathologic fractures from lytic bone lesions"
+    - name: hypercalcemia_symptoms
+      probability: 0.45
+      description: "Confusion, constipation, polyuria from hypercalcemia"
+    - name: weight_loss
+      probability: 0.40
+      description: "Unintentional weight loss"
+    - name: neuropathy
+      probability: 0.25
+      description: "Peripheral neuropathy from amyloid or treatment"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Point tenderness over spine, ribs"
+      probability: 0.70
+    - system: general
+      finding: "Pallor from anemia"
+      probability: 0.75
+    - system: neurological
+      finding: "Peripheral neuropathy, cord compression signs"
+      probability: 0.25
+    - system: general
+      finding: "Macroglossia if amyloidosis"
+      probability: 0.10
+diagnostics:
+  labs:
+    - name: SPEP with immunofixation
+      loinc: "2541-1"
+      value_type: categorical
+      finding: "M-spike (monoclonal protein) on electrophoresis"
+      probability_abnormal: 0.90
+    - name: Serum free light chains
+      loinc: "33944-0"
+      value_type: panel
+      probability_abnormal: 0.90
+    - name: Calcium
+      loinc: "17861-6"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_high: 10.5
+      abnormal_high_min: 11.0
+      probability_abnormal: 0.50
+    - name: Creatinine
+      loinc: "2160-0"
+      value_type: numeric
+      unit: mg/dL
+      normal_range_high: 1.2
+      abnormal_high_min: 2.0
+      probability_abnormal: 0.50
+    - name: Hemoglobin
+      loinc: "718-7"
+      value_type: numeric
+      unit: g/dL
+      normal_range_low: 12.0
+      abnormal_low_max: 10.0
+      probability_abnormal: 0.75
+  imaging:
+    - name: Skeletal survey or PET/CT
+      modality: X-ray
+      finding_positive: "Multiple punched-out lytic lesions in skull, vertebrae, and pelvis"
+      finding_negative: "No lytic lesions identified"
+      probability_positive: 0.70
+treatment:
+  approach: chemotherapy_stem_cell_transplant
+  medications:
+    - agent: "Bortezomib"
+      rxnorm: "358258"
+      frequency: "1.3 mg/m2 SQ per protocol"
+      route: subcutaneous
+      indication: "Proteasome inhibitor, backbone of myeloma therapy"
+    - agent: "Lenalidomide"
+      rxnorm: "321191"
+      frequency: "25 mg daily, days 1-21 of 28-day cycle"
+      route: oral
+      indication: "Immunomodulatory agent in combination regimens"
+    - agent: "Dexamethasone"
+      rxnorm: "3264"
+      frequency: "40 mg weekly"
+      route: oral
+      indication: "High-dose corticosteroid backbone therapy"
+    - agent: "Zoledronic Acid"
+      rxnorm: "77356"
+      frequency: "4 mg IV monthly"
+      route: iv
+      indication: "Bone-modifying agent for lytic disease"
+    - agent: "Daratumumab"
+      rxnorm: "1657994"
+      frequency: "per oncology protocol"
+      route: iv
+      indication: "Anti-CD38 monoclonal antibody"
+  patient_instructions:
+    - Remember CRAB criteria - Calcium elevated, Renal insufficiency, Anemia, Bone lesions
+    - Bone marrow biopsy showing >10% plasma cells confirms diagnosis
+    - Autologous stem cell transplant for eligible patients <70
+    - Avoid nephrotoxic agents - myeloma kidney
+    - IV hydration for hypercalcemia emergencies
+    - MGUS and smoldering myeloma - monitor, do not treat

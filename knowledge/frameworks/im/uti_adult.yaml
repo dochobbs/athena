@@ -1,0 +1,46 @@
+id: uti_adult
+topic: Urinary Tract Infection (Adult)
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Differentiate uncomplicated from complicated UTI
+- Select appropriate empiric antibiotics based on local resistance patterns
+- Recognize when imaging or urology consultation is needed
+- Understand the role of urinalysis vs urine culture
+common_mistakes:
+- Treating asymptomatic bacteriuria (except in pregnancy or pre-urologic procedure)
+- Using fluoroquinolones for uncomplicated cystitis
+- Not considering local antibiogram for TMP-SMX resistance
+- Missing complicated UTI features (male sex, structural abnormality, immunosuppression)
+red_flags:
+- Fever or flank pain suggesting pyelonephritis
+- Urinary obstruction with infection (urologic emergency)
+- Sepsis signs in setting of UTI
+- Recurrent UTIs in males raising concern for structural abnormality
+clinical_pearls:
+- Nitrofurantoin should not be used if CrCl < 30 mL/min
+- Uncomplicated cystitis in women does not require urine culture
+- Catheter-associated UTI requires catheter removal or exchange
+- Postmenopausal women benefit from topical vaginal estrogen for prevention
+key_history_questions:
+- Dysuria, frequency, urgency, hematuria?
+- Any fever, flank pain, nausea/vomiting?
+- History of recurrent UTIs? How many in the past year?
+- Any urologic history (stones, catheter, structural abnormality)?
+- Pregnant or immunosuppressed?
+- Recent antibiotic use?
+key_exam_findings:
+- Suprapubic tenderness
+- Absence of CVA tenderness (distinguishes from pyelonephritis)
+- Vital signs stable (no sepsis)
+- Pelvic exam if vaginal symptoms suggest alternative diagnosis
+treatment_principles:
+- Nitrofurantoin or TMP-SMX first-line for uncomplicated cystitis
+- Avoid fluoroquinolones for uncomplicated UTI
+- Treat for 3-5 days for uncomplicated, 7-14 for complicated
+- Always check local antibiogram
+disposition_guidance:
+- 'Uncomplicated cystitis: outpatient management'
+- 'Complicated UTI or unable to tolerate oral: consider admission'
+- 'Signs of sepsis: admit and treat as urosepsis'

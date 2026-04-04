@@ -1,0 +1,54 @@
+id: elder_abuse
+topic: "Elder Abuse"
+category: geriatrics
+specialties:
+  - im
+teaching_goals:
+  - Recognize the types of elder abuse (physical, emotional, financial, neglect, sexual)
+  - Screen for abuse using validated tools and clinical suspicion
+  - Understand mandatory reporting obligations
+  - Identify risk factors for victims and perpetrators
+  - Intervene safely while maintaining patient trust
+common_mistakes:
+  - Not screening because the caregiver is present (interview patient alone)
+  - Attributing injuries to falls without considering abuse
+  - Failing to document findings thoroughly (medicolegal importance)
+  - Not involving Adult Protective Services when abuse is suspected
+  - Assuming competent patients cannot be abused
+red_flags:
+  - Injuries inconsistent with stated mechanism
+  - Multiple injuries in various stages of healing
+  - Delay in seeking medical care
+  - Caregiver who is overly controlling or answers for the patient
+  - Patient fearful or withdrawn, especially in caregiver's presence
+clinical_pearls:
+  - "Only 1 in 14 cases of elder abuse are reported to authorities"
+  - "Financial exploitation is the most common form of elder abuse"
+  - "Interview the patient ALONE; abuse cannot be disclosed with the abuser present"
+  - "Bruising in older adults: suspicious locations include inner arms, trunk, face, neck"
+  - "Physicians are mandatory reporters in most states; you do not need proof, only reasonable suspicion"
+key_history_questions:
+  - "Do you feel safe at home?"
+  - "Has anyone hurt you, threatened you, or made you afraid?"
+  - "Who helps you with daily activities and managing your finances?"
+  - "Are you eating enough and getting your medications?"
+  - "Has anyone forced you to sign documents you did not understand?"
+  - "Do you have access to your money and personal belongings?"
+key_exam_findings:
+  - "Bruises in atypical locations (inner arms, torso, face)"
+  - "Multiple injuries at different stages of healing"
+  - "Poor hygiene, malnutrition, dehydration"
+  - "Unexplained pressure ulcers"
+  - "Fearful affect, reluctance to speak when caregiver present"
+  - "Signs of over- or under-medication"
+treatment_principles:
+  - "Ensure immediate patient safety"
+  - "Document findings meticulously (photographs, detailed descriptions)"
+  - "Report to Adult Protective Services (mandatory in most jurisdictions)"
+  - "Assess patient decision-making capacity"
+  - "Develop a safety plan with social work involvement"
+disposition_guidance:
+  - "Do not discharge to unsafe environment"
+  - "Social work and APS involvement before discharge"
+  - "Consider admission for safety if no safe discharge plan"
+  - "Follow-up appointment within 1-2 weeks"

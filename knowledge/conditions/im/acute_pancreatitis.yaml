@@ -1,0 +1,72 @@
+id: acute_pancreatitis
+display_name: "Acute Pancreatitis"
+aliases:
+  - Pancreatitis
+  - Acute pancreatic inflammation
+snomed: "197456007"
+icd10:
+  - "K85.90"
+  - "K85.00"
+  - "K85.10"
+category: acute
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [98.0, 101.5]
+  hr_multiplier: 1.20
+  rr_multiplier: 1.15
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: epigastric_pain
+      probability: 0.95
+      description: "Severe epigastric pain radiating to back, worse after eating"
+    - name: nausea_vomiting
+      probability: 0.85
+      description: "Persistent nausea and vomiting"
+    - name: anorexia
+      probability: 0.70
+      description: "Complete loss of appetite"
+    - name: abdominal_distension
+      probability: 0.40
+      description: "Bloating from ileus"
+    - name: dyspnea
+      probability: 0.20
+      description: "Shortness of breath from pleural effusion or ARDS"
+  physical_exam:
+    - system: abdomen
+      finding: "Epigastric tenderness with guarding, decreased bowel sounds"
+      probability: 0.90
+    - system: cardiovascular
+      finding: "Tachycardia, hypotension in severe cases"
+      probability: 0.50
+    - system: general
+      finding: "Diaphoresis, distress, knees-to-chest positioning"
+      probability: 0.60
+    - system: skin
+      finding: "Cullen sign (periumbilical ecchymosis) or Grey Turner sign (flank ecchymosis) in hemorrhagic pancreatitis"
+      probability: 0.05
+treatment:
+  approach: supportive_care
+  medications:
+    - agent: "Lactated Ringer's"
+      rxnorm: "313572"
+      frequency: "200-250 mL/hr initially, goal-directed"
+      route: iv
+      indication: "Aggressive IV fluid resuscitation"
+    - agent: "Hydromorphone"
+      rxnorm: "3423"
+      frequency: "0.5-1 mg IV every 3-4 hours PRN"
+      route: iv
+      indication: "Pain control"
+    - agent: "Ondansetron"
+      rxnorm: "26225"
+      frequency: "4 mg IV every 6 hours PRN"
+      route: iv
+      indication: "Antiemetic"

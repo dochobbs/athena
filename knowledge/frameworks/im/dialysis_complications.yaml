@@ -1,0 +1,54 @@
+id: dialysis_complications
+topic: "Dialysis Complications"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Recognize and manage intradialytic hypotension (most common complication)
+  - Diagnose and treat catheter-related bloodstream infections
+  - Assess AV fistula/graft dysfunction (thrombosis, steal syndrome, aneurysm)
+  - Understand dialysis disequilibrium syndrome
+  - Know the indications for emergent dialysis
+common_mistakes:
+  - Not obtaining blood cultures from BOTH the catheter and a peripheral site
+  - Missing catheter-related infection because patient is afebrile (immunocompromised)
+  - Forgetting to check access thrill and bruit at every visit
+  - Not recognizing dialysis disequilibrium (headache, nausea, seizures during first sessions)
+  - Drawing blood or placing IV in the AV fistula arm
+red_flags:
+  - Fever in a dialysis patient with catheter (assume CRBSI until proven otherwise)
+  - Loss of thrill in AV fistula (thrombosis)
+  - Air embolism (sudden dyspnea, chest pain during dialysis)
+  - Seizures during dialysis (disequilibrium syndrome)
+  - Missed dialysis sessions (hyperkalemia risk)
+clinical_pearls:
+  - AV fistula is preferred access (lowest infection rate) - fistula first initiative
+  - Intradialytic hypotension often responds to reducing ultrafiltration rate and Trendelenburg
+  - Catheter infections often require catheter removal, not just antibiotics
+  - Patients missing dialysis >2 sessions need urgent potassium check
+  - Dialysis patients have 10-20x higher cardiovascular mortality than general population
+key_history_questions:
+  - Are you making all your dialysis sessions? Any missed?
+  - Any fevers, chills, or drainage from your access site?
+  - Do you get lightheaded or pass out during dialysis?
+  - How much weight do you gain between sessions?
+  - Any arm swelling or numbness on your fistula side?
+  - What is your dry weight?
+key_exam_findings:
+  - Access site inspection (erythema, swelling, drainage, aneurysm)
+  - Thrill palpation and bruit auscultation of AV fistula
+  - Volume status assessment
+  - Temperature
+  - Blood pressure (before and after standing)
+  - Signs of steal syndrome (cold hand, digital ischemia on fistula side)
+treatment_principles:
+  - Intradialytic hypotension - reduce UF rate, saline bolus, reassess dry weight
+  - CRBSI - blood cultures, empiric vancomycin + gram-negative coverage, consider catheter exchange
+  - AV fistula thrombosis - urgent thrombectomy or thrombolysis
+  - Dialysis disequilibrium - slow initial dialysis sessions, reduce blood flow rate
+  - Missed dialysis - check potassium emergently, arrange urgent session
+disposition_guidance:
+  - Admit for suspected CRBSI, hemodynamic instability, or missed dialysis with hyperkalemia
+  - Outpatient for access issues that can be addressed by vascular surgery electively
+  - Close coordination with outpatient dialysis unit
+  - Vascular surgery or interventional radiology for access complications

@@ -1,0 +1,78 @@
+id: parkinsons
+display_name: "Parkinson Disease"
+aliases:
+  - Parkinson's disease
+  - PD
+  - Paralysis agitans
+  - Idiopathic parkinsonism
+snomed: "49049000"
+icd10:
+  - "G20"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: resting tremor
+      probability: 0.70
+      description: "pill-rolling tremor, 4-6 Hz, unilateral onset"
+    - name: bradykinesia
+      probability: 0.85
+      description: "slowness of movement, required for diagnosis"
+    - name: rigidity
+      probability: 0.75
+      description: "cogwheel rigidity on passive range of motion"
+    - name: postural instability
+      probability: 0.40
+      description: "later feature, impaired balance"
+    - name: shuffling gait
+      probability: 0.60
+      description: "short steps, reduced arm swing, festination"
+    - name: micrographia
+      probability: 0.50
+      description: "progressively smaller handwriting"
+  physical_exam:
+    - system: neurologic
+      finding: "Asymmetric resting tremor, suppressed with action"
+      probability: 0.70
+    - system: neurologic
+      finding: "Cogwheel rigidity on passive movement"
+      probability: 0.75
+    - system: neurologic
+      finding: "Bradykinesia on finger tapping and rapid alternating movements"
+      probability: 0.85
+    - system: neurologic
+      finding: "Masked facies (hypomimia)"
+      probability: 0.60
+    - system: neurologic
+      finding: "Positive pull test (retropulsion)"
+      probability: 0.35
+treatment:
+  approach: dopaminergic_therapy
+  medications:
+    - agent: "Carbidopa-Levodopa"
+      rxnorm: "103923"
+      frequency: "three times daily"
+      route: oral
+      indication: "gold standard dopamine replacement therapy"
+    - agent: "Pramipexole"
+      rxnorm: "67108"
+      frequency: "three times daily"
+      route: oral
+      indication: "dopamine agonist, may be used early or as adjunct"
+    - agent: "Rasagiline"
+      rxnorm: "349099"
+      frequency: "once daily"
+      route: oral
+      indication: "MAO-B inhibitor for early or adjunctive therapy"
+    - agent: "Amantadine"
+      rxnorm: "577"
+      frequency: "twice daily"
+      route: oral
+      indication: "for dyskinesia management"

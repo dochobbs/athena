@@ -1,0 +1,51 @@
+id: aki_postrenal
+topic: "Postrenal Acute Kidney Injury"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Recognize postrenal AKI as a reversible cause requiring urgent intervention
+  - Identify common causes by age and sex (BPH, malignancy, stones)
+  - Use renal ultrasound as the initial diagnostic study
+  - Understand post-obstructive diuresis and its management
+common_mistakes:
+  - Not checking a post-void residual or placing a Foley as an initial diagnostic/therapeutic step
+  - Forgetting that bilateral obstruction is needed for AKI (unless single kidney)
+  - Missing the diagnosis because ultrasound can be falsely negative early in obstruction
+  - Not monitoring for post-obstructive diuresis after relief
+  - Attributing rising creatinine to intrinsic disease without ruling out obstruction
+red_flags:
+  - Complete anuria (bilateral obstruction or single functioning kidney)
+  - Fever with obstruction (obstructive pyelonephritis - surgical emergency)
+  - Hyperkalemia with obstruction
+  - New hydronephrosis on ultrasound with declining GFR
+clinical_pearls:
+  - "Postrenal AKI is the most easily reversible form - always rule it out"
+  - A Foley catheter is both diagnostic and therapeutic for bladder outlet obstruction
+  - Post-obstructive diuresis can cause massive volume loss - replace 50-75% of urine output
+  - BPH is the most common cause in older men
+  - Retroperitoneal fibrosis and pelvic malignancy cause bilateral ureteral obstruction
+key_history_questions:
+  - How is your urinary stream? Any hesitancy, dribbling, or straining?
+  - When did you last urinate? How much?
+  - Any history of kidney stones?
+  - Any known pelvic or abdominal malignancy?
+  - Any history of prostate problems?
+  - Any recent pelvic surgery or radiation?
+key_exam_findings:
+  - Suprapubic distension or palpable bladder
+  - Digital rectal exam for prostate size and nodules
+  - CVA tenderness
+  - Pelvic exam in women for masses
+  - Post-void residual volume
+treatment_principles:
+  - Relieve obstruction urgently (Foley catheter for bladder outlet, ureteral stent or nephrostomy for upper tract)
+  - Monitor closely for post-obstructive diuresis (can lose liters/day)
+  - Replace fluids judiciously to match output in diuretic phase
+  - Treat concurrent infection with antibiotics
+  - Address underlying cause (BPH medication, oncology referral for malignancy)
+disposition_guidance:
+  - Admit if AKI is significant or there is concurrent infection
+  - Urology consultation for stenting or nephrostomy
+  - Outpatient follow-up if Foley resolves AKI and patient is stable
+  - Long-term plan for underlying cause (TURP, malignancy treatment)

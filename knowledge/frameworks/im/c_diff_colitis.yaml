@@ -1,0 +1,53 @@
+id: c_diff_colitis
+topic: Clostridioides difficile Colitis
+category: gi
+specialties:
+- im
+teaching_goals:
+- Know the risk factors (recent antibiotics, hospitalization, PPI use, age >65)
+- Understand diagnostic testing hierarchy (PCR vs toxin EIA vs GDH)
+- Classify as initial, recurrent, or fulminant and treat accordingly
+- Master infection control measures
+- Know when to involve surgery for fulminant CDI
+common_mistakes:
+- Testing formed stools for C. diff (only test diarrheal stools)
+- Repeating C. diff testing as a "test of cure" (not indicated)
+- Using metronidazole as first-line (vancomycin or fidaxomicin preferred)
+- Not stopping offending antibiotic when possible
+- Missing fulminant CDI (ileus may present without diarrhea)
+red_flags:
+- WBC >15,000 or creatinine >1.5 (severe CDI)
+- Ileus or megacolon (fulminant CDI)
+- Hypotension or shock
+- Lactate >2.2
+- Absence of diarrhea with abdominal distension (ileus variant)
+clinical_pearls:
+- Oral vancomycin is first-line - metronidazole is now second-line only
+- Fidaxomicin has lower recurrence rates than vancomycin
+- 'For fulminant CDI: oral vanco + IV metronidazole + consider vancomycin enemas'
+- Fecal microbiota transplant for >= 3 recurrences (or 2nd recurrence per guidelines)
+- Stop PPIs if not clearly indicated - associated with increased CDI risk
+key_history_questions:
+- Recent antibiotic use (within past 3 months)?
+- Recent hospitalization or nursing facility stay?
+- Prior C. diff infections?
+- PPI or acid suppression use?
+- Immunosuppressed?
+- Stool frequency and character?
+key_exam_findings:
+- Diffuse abdominal tenderness
+- Abdominal distension
+- Fever, tachycardia
+- Signs of dehydration
+- Rebound or rigidity (suggests toxic megacolon or perforation)
+treatment_principles:
+- Oral vancomycin 125 mg QID x 10-14 days (first-line)
+- Fidaxomicin preferred if high recurrence risk
+- 'Fulminant: oral vanco 500 mg QID + IV metronidazole 500 mg Q8h'
+- Stop offending antibiotic if possible
+- Contact precautions with soap and water hand hygiene (alcohol does not kill spores)
+disposition_guidance:
+- 'Outpatient: Non-severe, tolerating oral intake'
+- 'Admission: Severe CDI (WBC >15K, Cr >1.5), unable to tolerate PO'
+- 'ICU: Fulminant CDI, toxic megacolon, sepsis'
+- 'Surgery: Fulminant CDI not responding to medical therapy, perforation'

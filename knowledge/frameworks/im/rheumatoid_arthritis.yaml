@@ -1,0 +1,52 @@
+id: rheumatoid_arthritis
+topic: Rheumatoid Arthritis
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- Apply 2010 ACR/EULAR classification criteria
+- Understand the treat-to-target strategy with early DMARD initiation
+- Distinguish RA from osteoarthritis by joint distribution and inflammatory features
+- Recognize extra-articular manifestations (nodules, lung disease, vasculitis)
+- Monitor for DMARD toxicity (methotrexate hepatotoxicity, biologic infections)
+common_mistakes:
+- Delaying DMARD initiation while trialing NSAIDs alone
+- Confusing RA with OA (RA spares DIPs, OA spares MCPs/wrists)
+- Not checking hepatitis B/C and TB before starting biologics
+- Forgetting folic acid supplementation with methotrexate
+- Using chronic glucocorticoids as primary therapy
+red_flags:
+- Cervical spine involvement (C1-C2 subluxation risk)
+- Interstitial lung disease (cough, dyspnea)
+- Vasculitis (digital ischemia, mononeuritis multiplex)
+- Felty syndrome (splenomegaly, neutropenia)
+clinical_pearls:
+- Morning stiffness >1 hour is inflammatory; <30 min is mechanical
+- RF is sensitive but not specific; anti-CCP is more specific for RA
+- Methotrexate takes 6-8 weeks for full effect - bridge with low-dose prednisone
+- RA spares the DIP joints (DIP involvement suggests OA or psoriatic arthritis)
+- Accelerated atherosclerosis is a leading cause of mortality in RA
+key_history_questions:
+- Which joints are affected and is the pattern symmetric?
+- Duration of morning stiffness?
+- Family history of RA or autoimmune disease?
+- Functional limitations (dressing, grip, walking)?
+- Any extra-articular symptoms (dry eyes, nodules, shortness of breath)?
+- Current medications and prior DMARD trials?
+key_exam_findings:
+- Symmetric synovitis of MCPs, PIPs, wrists
+- MCP squeeze test positive
+- Rheumatoid nodules on extensor surfaces
+- Swan neck and boutonniere deformities (late)
+- Ulnar deviation (late)
+- Joint effusions
+treatment_principles:
+- Start methotrexate as anchor DMARD within 3 months of diagnosis
+- 'Treat-to-target: aim for remission or low disease activity'
+- Bridge with short-course low-dose prednisone
+- Escalate to biologics (TNF inhibitors) if inadequate DMARD response
+- Screen for TB, hepatitis B/C before biologics
+disposition_guidance:
+- Outpatient management with rheumatology referral
+- Admit for severe extra-articular manifestations (vasculitis, ILD)
+- Urgent evaluation for cervical spine symptoms (myelopathy risk)

@@ -1,0 +1,50 @@
+id: panic_disorder
+topic: "Panic Disorder"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Differentiate panic attack from cardiac, pulmonary, and endocrine emergencies
+  - Apply DSM-5 criteria (recurrent unexpected panic attacks + persistent worry or behavioral change)
+  - Initiate SSRI as first-line therapy with short-term benzodiazepine bridge
+  - Understand the role of CBT including interoceptive exposure
+  - Prevent iatrogenic benzodiazepine dependence
+common_mistakes:
+  - Ordering extensive cardiac workup for every panic attack without risk stratification
+  - Starting long-term benzodiazepines without SSRI as primary treatment
+  - Not warning patients that SSRIs may initially worsen anxiety (start low, go slow)
+  - Missing the diagnosis by focusing only on somatic complaints
+  - Overlooking agoraphobia as a common comorbidity
+red_flags:
+  - Chest pain with cardiac risk factors (must rule out ACS)
+  - First episode in patient over 50 (less likely panic, more likely medical cause)
+  - Symptoms with exertion (cardiac etiology)
+  - Persistent symptoms between attacks suggesting medical illness
+clinical_pearls:
+  - "Panic attacks peak in 10 minutes and resolve in 20-30 minutes"
+  - "Perioral and finger tingling during attacks is from respiratory alkalosis (hyperventilation)"
+  - "Start SSRI at half the usual starting dose to avoid initial anxiety worsening"
+  - "CBT with interoceptive exposure is as effective as medication for many patients"
+  - "Normal ECG, troponin, and D-dimer during an attack helps reassure and redirect workup"
+key_history_questions:
+  - "Describe exactly what happens during an attack?"
+  - "How quickly does it reach its worst, and how long does it last?"
+  - "Do attacks happen at rest or only with activity?"
+  - "Have you started avoiding places or situations because of attacks?"
+  - "Any family history of panic disorder or anxiety?"
+  - "Caffeine, stimulant, or substance use?"
+key_exam_findings:
+  - "Tachycardia and tachypnea during acute episode"
+  - "Diaphoresis and visible distress"
+  - "Normal cardiovascular exam between episodes"
+  - "Normal neurologic exam"
+treatment_principles:
+  - "SSRI is first-line (paroxetine, sertraline are FDA-approved)"
+  - "Start at low dose to avoid initial anxiety surge"
+  - "Short-term benzodiazepine bridge (2-4 weeks) while SSRI takes effect"
+  - "CBT with interoceptive exposure for long-term management"
+  - "Taper benzodiazepines after SSRI efficacy established"
+disposition_guidance:
+  - "Outpatient management after excluding medical causes"
+  - "Follow-up within 2-4 weeks of starting medication"
+  - "CBT referral for evidence-based therapy"

@@ -1,0 +1,50 @@
+id: svt
+topic: "Supraventricular Tachycardia"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Perform vagal maneuvers correctly (modified Valsalva technique)
+  - Administer adenosine properly (rapid IV push with flush)
+  - Distinguish AVNRT, AVRT, and atrial tachycardia
+  - Know when to cardiovert vs medicate
+  - Recognize WPW pattern on baseline ECG
+common_mistakes:
+  - Giving adenosine too slowly (must be rapid push with saline flush)
+  - Not monitoring or recording rhythm strip during adenosine administration
+  - Missing WPW on baseline ECG and giving AV nodal blockers
+  - Not attempting vagal maneuvers before medication
+  - Confusing sinus tachycardia for SVT
+red_flags:
+  - Wide complex tachycardia (may be VT, not SVT with aberrancy)
+  - WPW with AFib (wide, irregular - give procainamide, NOT adenosine)
+  - Hemodynamic instability requiring immediate cardioversion
+  - SVT in patient with known structural heart disease
+clinical_pearls:
+  - Modified Valsalva (strain supine, then legs elevated) has 43% conversion rate
+  - Adenosine half-life is only 6 seconds - push fast with saline chaser
+  - AVNRT is most common SVT (60-70%) - pseudo-R' in V1 or pseudo-S in inferior leads
+  - Caffeine does not cause SVT but may unmask it
+  - Record rhythm strip during adenosine - diagnostic even if it doesn't convert
+key_history_questions:
+  - How suddenly did the palpitations start?
+  - Have you had episodes like this before? How did they stop?
+  - Any chest pain, dizziness, or shortness of breath?
+  - Do you use caffeine, alcohol, or stimulants?
+  - Have you ever been told about a heart condition or WPW?
+key_exam_findings:
+  - Regular narrow-complex tachycardia (rate 150-250)
+  - Blood pressure and hemodynamic stability assessment
+  - Signs of heart failure
+  - Jugular venous cannon A waves (AVNRT)
+treatment_principles:
+  - Vagal maneuvers first (modified Valsalva, carotid massage)
+  - Adenosine 6 mg rapid IV push, then 12 mg if needed
+  - Calcium channel blockers or beta-blockers for recurrence prevention
+  - Synchronized cardioversion if hemodynamically unstable
+  - Electrophysiology referral for recurrent SVT (ablation curative)
+disposition_guidance:
+  - Discharge if converts and remains stable
+  - Admit if recurrent or hemodynamically significant
+  - EP referral for recurrent episodes
+  - Avoid triggers (stimulants, dehydration)

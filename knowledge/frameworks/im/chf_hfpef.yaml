@@ -1,0 +1,52 @@
+id: chf_hfpef
+topic: "Heart Failure with Preserved Ejection Fraction"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Understand diastolic dysfunction and its relationship to HFpEF
+  - Apply HFA-PEFF diagnostic algorithm or H2FPEF score
+  - Manage comorbidities aggressively (HTN, obesity, AF, diabetes)
+  - Know the role of SGLT2 inhibitors (EMPEROR-Preserved, DELIVER trials)
+  - Distinguish from HFrEF in approach to treatment
+common_mistakes:
+  - Assuming preserved EF means no heart failure
+  - Using HFrEF-specific GDMT (ARNI, beta-blocker) as if proven in HFpEF
+  - Overlooking obesity and deconditioning as treatable contributors
+  - Not performing exercise echo or right heart cath when diagnosis uncertain
+  - Over-diuresing and causing prerenal AKI
+red_flags:
+  - Rapidly rising BNP despite treatment
+  - New atrial fibrillation precipitating decompensation
+  - Signs of restrictive cardiomyopathy (amyloid, hemochromatosis)
+  - Worsening renal function during diuresis
+clinical_pearls:
+  - "HFpEF is a syndrome of comorbidities - treat the whole patient"
+  - SGLT2 inhibitors are the only class with proven benefit in HFpEF
+  - BNP may be lower than expected in obese patients
+  - Atrial fibrillation is both a cause and consequence of HFpEF
+  - Cardiac amyloidosis is an underdiagnosed cause of HFpEF in elderly
+key_history_questions:
+  - When did you first notice exercise intolerance?
+  - Do you have hypertension, diabetes, or atrial fibrillation?
+  - What is your current weight and has it changed recently?
+  - Do you have sleep apnea? Are you using CPAP?
+  - How much salt and fluid do you take in daily?
+key_exam_findings:
+  - Elevated JVP
+  - S4 gallop (diastolic dysfunction)
+  - Bilateral edema
+  - Obesity (BMI >30)
+  - Atrial fibrillation on pulse check
+  - Pulmonary crackles with exertion
+treatment_principles:
+  - Diuretics for volume management (mainstay of symptom relief)
+  - SGLT2 inhibitor for all HFpEF patients
+  - Aggressive blood pressure control
+  - Weight loss and exercise training
+  - Screen for and treat sleep apnea
+disposition_guidance:
+  - Admit for acute decompensated HFpEF with hypoxia
+  - Outpatient management for compensated disease
+  - Cardiology referral for diagnostic workup if uncertain
+  - Consider advanced imaging for infiltrative cardiomyopathy

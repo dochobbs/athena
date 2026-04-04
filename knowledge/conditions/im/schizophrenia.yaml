@@ -1,0 +1,76 @@
+id: schizophrenia
+display_name: "Schizophrenia"
+aliases:
+  - Schizophrenic disorder
+  - Psychotic disorder
+snomed: "58214004"
+icd10:
+  - "F20.9"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: auditory hallucinations
+      probability: 0.70
+      description: "hearing voices, often commanding or commenting"
+    - name: delusions
+      probability: 0.75
+      description: "paranoid, referential, or grandiose fixed false beliefs"
+    - name: disorganized thinking
+      probability: 0.50
+      description: "tangential, loose associations, word salad"
+    - name: flat affect
+      probability: 0.55
+      description: "diminished emotional expression (negative symptom)"
+    - name: social withdrawal
+      probability: 0.60
+      description: "avolition, anhedonia (negative symptoms)"
+    - name: disorganized behavior
+      probability: 0.35
+      description: "catatonia, bizarre behavior, poor self-care"
+  physical_exam:
+    - system: psychiatric
+      finding: "Flat or inappropriate affect"
+      probability: 0.55
+    - system: psychiatric
+      finding: "Disorganized speech, loose associations"
+      probability: 0.45
+    - system: psychiatric
+      finding: "Internal preoccupation, responding to internal stimuli"
+      probability: 0.40
+    - system: general
+      finding: "Poor hygiene, neglected self-care"
+      probability: 0.35
+    - system: neurologic
+      finding: "Tardive dyskinesia if on long-term antipsychotics"
+      probability: 0.15
+treatment:
+  approach: antipsychotic_therapy
+  medications:
+    - agent: "Risperidone"
+      rxnorm: "35636"
+      frequency: "once or twice daily"
+      route: oral
+      indication: "second-generation antipsychotic, good for positive symptoms"
+    - agent: "Olanzapine"
+      rxnorm: "61381"
+      frequency: "once daily"
+      route: oral
+      indication: "second-generation antipsychotic, weight gain risk"
+    - agent: "Aripiprazole"
+      rxnorm: "89013"
+      frequency: "once daily"
+      route: oral
+      indication: "second-generation with lower metabolic side effects"
+    - agent: "Clozapine"
+      rxnorm: "2626"
+      frequency: "twice daily"
+      route: oral
+      indication: "treatment-resistant schizophrenia, requires ANC monitoring"

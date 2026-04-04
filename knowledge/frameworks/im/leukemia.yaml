@@ -1,0 +1,54 @@
+id: leukemia
+topic: "Leukemia"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Classify leukemia by acuity (acute vs chronic) and lineage (myeloid vs lymphoid)
+  - Recognize presenting signs and symptoms across all four major types
+  - Understand oncologic emergencies (tumor lysis, leukostasis, DIC)
+  - Know initial workup including peripheral smear, flow cytometry, and bone marrow biopsy
+  - Understand the paradigm shift of targeted therapy (imatinib for CML, ibrutinib for CLL)
+common_mistakes:
+  - Attributing fatigue and recurrent infections to common causes without checking CBC
+  - Not examining the peripheral blood smear personally
+  - Missing tumor lysis syndrome risk with high WBC counts
+  - Confusing leukemoid reaction (high WBC from infection/stress) with CML
+  - Not recognizing DIC as a complication of acute promyelocytic leukemia (APL)
+red_flags:
+  - WBC >100K with symptoms (leukostasis emergency)
+  - DIC in a young patient with AML (think APL - start ATRA immediately)
+  - Tumor lysis syndrome (high K, high phos, high uric acid, low Ca)
+  - Severe neutropenia with fever (neutropenic fever protocol)
+  - CNS symptoms in ALL (CNS involvement)
+clinical_pearls:
+  - AML with t(15;17) is APL - medical emergency, treated with ATRA + arsenic, highly curable
+  - CML - Philadelphia chromosome t(9;22), BCR-ABL fusion, responds dramatically to imatinib
+  - CLL - most common adult leukemia, many patients need no treatment (watch and wait)
+  - ALL in adults has worse prognosis than in children (90% cure in kids, 40% in adults)
+  - Auer rods on smear are pathognomonic for AML
+key_history_questions:
+  - How long have you been feeling fatigued?
+  - Have you had unusual infections or fevers?
+  - Any easy bruising or bleeding that is new?
+  - Any unintentional weight loss or night sweats?
+  - Any bone pain?
+  - Any family history of blood cancers?
+key_exam_findings:
+  - Lymphadenopathy (more common in ALL, CLL)
+  - Splenomegaly (massive in CML)
+  - Petechiae, purpura, ecchymoses
+  - Gingival hypertrophy (AML M4/M5)
+  - Hepatomegaly
+  - Signs of infection without appropriate WBC response
+treatment_principles:
+  - Urgent hematology/oncology consultation
+  - Tumor lysis prophylaxis (allopurinol, aggressive hydration, rasburicase for high-risk)
+  - Neutropenic fever protocol if ANC <500 with fever
+  - Leukapheresis for symptomatic leukostasis (WBC >100K)
+  - Type-specific treatment (chemotherapy, targeted therapy, transplant)
+disposition_guidance:
+  - Admit all new acute leukemia diagnoses
+  - ICU for leukostasis, DIC, or tumor lysis syndrome
+  - CLL may be managed outpatient with hematology
+  - CML - start TKI as outpatient, monitor closely

@@ -1,0 +1,50 @@
+id: multiple_sclerosis
+topic: "Multiple Sclerosis"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Understand the McDonald criteria for MS diagnosis (dissemination in space and time)
+  - Recognize common presenting syndromes (optic neuritis, transverse myelitis, INO)
+  - Manage acute relapses with high-dose IV steroids
+  - Understand disease-modifying therapy landscape
+  - Distinguish MS from neuromyelitis optica spectrum disorder
+common_mistakes:
+  - Ordering MRI without gadolinium (enhancing lesions indicate active disease)
+  - Missing INO as a highly specific finding for MS in young patients
+  - Confusing MS relapse with pseudo-relapse from infection or heat
+  - Not referring to neurology early for disease-modifying therapy
+  - Overlooking screening for depression and fatigue
+red_flags:
+  - Rapidly progressive course suggesting primary progressive MS or alternative diagnosis
+  - Bilateral optic neuritis or longitudinally extensive transverse myelitis (NMO concern)
+  - New neurologic deficit requiring urgent MRI to confirm relapse
+  - JC virus risk with certain disease-modifying therapies (PML)
+clinical_pearls:
+  - "Lhermitte sign (electric shock down spine with neck flexion) is characteristic of cervical cord demyelination"
+  - "INO (internuclear ophthalmoplegia) in a young patient is MS until proven otherwise"
+  - "Uhthoff phenomenon: worsening symptoms with heat or exercise (pseudo-relapse)"
+  - "Oligoclonal bands in CSF but not serum are 95% sensitive for MS"
+  - "Treat relapses with 3-5 days of IV methylprednisolone 1g/day"
+key_history_questions:
+  - "Have you had prior episodes of neurologic symptoms that resolved?"
+  - "Any vision loss, especially painful monocular?"
+  - "Any limb numbness, weakness, or gait difficulty?"
+  - "Do symptoms worsen with heat or exercise?"
+  - "Any urinary urgency, frequency, or incontinence?"
+key_exam_findings:
+  - "Afferent pupillary defect (Marcus Gunn pupil)"
+  - "Internuclear ophthalmoplegia"
+  - "Hyperreflexia, Babinski sign (upper motor neuron signs)"
+  - "Lhermitte sign on neck flexion"
+  - "Cerebellar signs: intention tremor, scanning speech"
+treatment_principles:
+  - "Acute relapse: IV methylprednisolone 1g/day for 3-5 days"
+  - "Start disease-modifying therapy early to slow progression"
+  - "Higher-efficacy DMTs (natalizumab, ocrelizumab) for aggressive disease"
+  - "Symptomatic management: baclofen for spasticity, duloxetine for neuropathic pain"
+  - "Annual MRI surveillance for disease activity"
+disposition_guidance:
+  - "Outpatient management for most relapses with steroid infusions"
+  - "Admit for severe relapse with significant functional impairment"
+  - "Neurology referral mandatory for all new diagnoses"

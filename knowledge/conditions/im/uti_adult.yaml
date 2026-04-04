@@ -1,0 +1,68 @@
+id: uti_adult
+display_name: "Urinary Tract Infection (Adult)"
+aliases:
+  - UTI
+  - Cystitis
+  - Bladder infection
+  - Lower urinary tract infection
+snomed: "68566005"
+icd10:
+  - "N39.0"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [98.6, 101.0]
+  hr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: dysuria
+      probability: 0.90
+      description: "burning or pain with urination"
+    - name: urinary_frequency
+      probability: 0.85
+      description: "frequent urge to urinate with small volumes"
+    - name: urgency
+      probability: 0.80
+      description: "sudden compelling need to urinate"
+    - name: suprapubic_pain
+      probability: 0.50
+      description: "lower abdominal discomfort"
+    - name: hematuria
+      probability: 0.30
+      description: "visible or microscopic blood in urine"
+  physical_exam:
+    - system: abdomen
+      finding: "Suprapubic tenderness to palpation"
+      probability: 0.45
+    - system: genitourinary
+      finding: "No CVA tenderness (distinguishes from pyelonephritis)"
+      probability: 0.90
+    - system: general
+      finding: "Well-appearing, non-toxic"
+      probability: 0.85
+treatment:
+  approach: empiric_antibiotics
+  medications:
+    - agent: "Nitrofurantoin"
+      rxnorm: "7454"
+      frequency: "twice daily x 5 days"
+      route: oral
+      indication: "first-line for uncomplicated UTI"
+    - agent: "Trimethoprim-Sulfamethoxazole"
+      rxnorm: "10831"
+      frequency: "twice daily x 3 days"
+      route: oral
+      indication: "first-line if local resistance <20%"
+    - agent: "Fosfomycin"
+      rxnorm: "283921"
+      frequency: "single dose"
+      route: oral
+      indication: "single-dose alternative for uncomplicated UTI"

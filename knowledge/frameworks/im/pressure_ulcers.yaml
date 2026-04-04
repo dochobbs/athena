@@ -1,0 +1,52 @@
+id: pressure_ulcers
+topic: "Pressure Ulcers"
+category: dermatology
+specialties:
+  - im
+teaching_goals:
+  - Stage pressure injuries correctly (Stage 1 through 4, unstageable, deep tissue)
+  - Understand pathophysiology (pressure, shear, moisture, friction)
+  - Implement evidence-based prevention strategies
+  - Manage wound care based on wound bed characteristics
+  - Address nutritional support as a key component of healing
+common_mistakes:
+  - Staging pressure ulcers that are covered with eschar (these are unstageable)
+  - Reverse-staging healed wounds (Stage 4 does not heal to Stage 3 to Stage 2)
+  - Not repositioning patients every 2 hours (most preventable factor)
+  - Ignoring nutritional status (protein and caloric intake essential for healing)
+  - Massaging over bony prominences (worsens tissue damage)
+red_flags:
+  - Exposed bone, tendon, or muscle (Stage 4)
+  - Signs of wound infection (purulence, increasing erythema, odor, fever)
+  - Rapidly deteriorating wound suggesting necrotizing infection
+  - Suspected osteomyelitis (non-healing wound over bony prominence)
+clinical_pearls:
+  - "Braden Scale score <18 identifies at-risk patients; <12 is high risk"
+  - "Stage 1 is non-blanchable erythema of intact skin (the window for prevention)"
+  - "Deep tissue injury appears as persistent deep purple or maroon discoloration"
+  - "Moist wound healing is optimal; avoid letting wounds dry out"
+  - "Protein goal: 1.25-1.5 g/kg/day for wound healing"
+key_history_questions:
+  - "How mobile is the patient (bed-bound, chair-bound, ambulatory)?"
+  - "How long has the wound been present?"
+  - "What is the patient's nutritional status and recent intake?"
+  - "Is the patient incontinent (moisture damage)?"
+  - "What pressure-relieving devices are currently in use?"
+  - "Any history of prior pressure injuries?"
+key_exam_findings:
+  - "Stage and measure the wound (length, width, depth)"
+  - "Assess wound bed (granulation, slough, eschar, necrotic tissue)"
+  - "Evaluate surrounding skin (erythema, maceration, tunneling, undermining)"
+  - "Location over bony prominences (sacrum, heels, ischium)"
+  - "Nutritional assessment (albumin, pre-albumin)"
+treatment_principles:
+  - "Pressure redistribution: reposition every 2 hours, specialty mattresses"
+  - "Wound care: moist wound environment, appropriate dressings for wound bed"
+  - "Nutritional optimization: protein 1.25-1.5 g/kg/day, vitamin C, zinc"
+  - "Debridement of necrotic tissue (except stable dry eschar on heels)"
+  - "Manage incontinence, moisture, and friction"
+disposition_guidance:
+  - "Wound care nurse consultation"
+  - "Consider wound VAC for Stage 3-4 wounds"
+  - "Surgical consultation for Stage 4 or refractory wounds"
+  - "Discharge planning: home wound care, specialty mattress, caregiver education"

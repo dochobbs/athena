@@ -1,0 +1,55 @@
+id: ibd_crohns
+topic: Crohn's Disease
+category: gi
+specialties:
+- im
+teaching_goals:
+- Distinguish Crohn's from UC by location, depth, and distribution
+- Recognize extraintestinal manifestations
+- Understand step-up vs top-down therapy approach
+- Identify and manage complications (strictures, fistulae, abscesses)
+- Know screening for colorectal cancer and osteoporosis in IBD
+common_mistakes:
+- Prolonged steroid use without transitioning to steroid-sparing agents
+- Missing perianal disease on exam
+- Not checking TB and hepatitis B before starting biologics
+- Attributing all symptoms to Crohn's flare without ruling out infection (C. diff)
+- Delaying biologics in moderate-severe disease
+red_flags:
+- Signs of bowel obstruction or perforation
+- Perianal abscess requiring surgical drainage
+- Severe malnutrition or failure to thrive
+- Toxic megacolon (rare in Crohn's but possible)
+- New B-symptoms (weight loss, fevers) raising concern for lymphoma
+clinical_pearls:
+- 'Crohn''s: skip lesions, transmural, any GI tract (mouth to anus). UC: continuous,
+  mucosal, colon only.'
+- Non-caseating granulomas are pathognomonic but found in only ~30% of biopsies
+- Fecal calprotectin is excellent for monitoring inflammation and predicting relapse
+- Always check stool for C. diff during flares before escalating therapy
+- Smoking worsens Crohn's but may protect against UC - cessation is critical
+key_history_questions:
+- Stool frequency, blood, mucus?
+- Abdominal pain location and pattern?
+- Perianal symptoms (drainage, pain, fistulae)?
+- Joint pain, eye problems, skin lesions (extraintestinal)?
+- Smoking status?
+- Current and prior IBD medications?
+key_exam_findings:
+- RLQ tenderness or mass
+- Perianal fistulae, tags, or abscesses
+- Oral aphthous ulcers
+- Erythema nodosum or pyoderma gangrenosum
+- Cachexia and malnutrition
+- Joint swelling or eye redness
+treatment_principles:
+- Induction and maintenance are separate treatment phases
+- 'Mild disease: budesonide or mesalamine (colonic)'
+- 'Moderate-severe: biologics (anti-TNF, vedolizumab, ustekinumab)'
+- Steroids for induction only - never maintenance
+- Screen for TB, HBV before biologics; annual skin cancer screening
+disposition_guidance:
+- 'Outpatient: Stable disease, medication management, surveillance'
+- 'Admission: Severe flare, obstruction, abscess, inability to maintain nutrition'
+- 'Surgery: Stricture with obstruction, abscess drainage, refractory fistula'
+- 'GI referral: Diagnosis confirmation, biologic initiation, surveillance colonoscopy'

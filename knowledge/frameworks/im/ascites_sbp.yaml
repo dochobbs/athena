@@ -1,0 +1,54 @@
+id: ascites_sbp
+topic: Ascites and Spontaneous Bacterial Peritonitis
+category: gi
+specialties:
+- im
+teaching_goals:
+- Perform and interpret diagnostic paracentesis (SAAG, cell count, culture)
+- Understand SAAG >= 1.1 indicates portal hypertension
+- Diagnose SBP (PMN >= 250 in ascitic fluid)
+- Know the algorithm for SBP treatment and prophylaxis
+- Master diuretic management of cirrhotic ascites
+common_mistakes:
+- Not performing paracentesis on every cirrhotic admission with ascites
+- Waiting for culture results before treating SBP (treat based on PMN count)
+- Using nephrotoxic agents (NSAIDs, aminoglycosides) in cirrhotics
+- Forgetting albumin infusion with SBP treatment (reduces hepatorenal syndrome)
+- Not starting SBP prophylaxis in eligible patients
+red_flags:
+- PMN >= 250 in ascitic fluid (SBP until proven otherwise)
+- Rising creatinine during SBP (hepatorenal syndrome)
+- Polymicrobial organisms on gram stain (secondary peritonitis, not SBP)
+- Refractory ascites requiring frequent large-volume paracentesis
+- Fever or worsening encephalopathy in cirrhotic (tap first)
+clinical_pearls:
+- SAAG >= 1.1 = portal hypertension. SAAG < 1.1 = non-portal hypertension.
+- Diagnostic paracentesis is mandatory on EVERY hospital admission with ascites
+- SBP = PMN >= 250 cells/mm3. Treat immediately, do not wait for cultures.
+- Give albumin 1.5 g/kg day 1 and 1 g/kg day 3 with SBP - reduces mortality
+- 'SBP prophylaxis: ciprofloxacin or norfloxacin daily if prior SBP, GI bleed, or
+  ascitic protein <1.5'
+key_history_questions:
+- Rate of abdominal distension?
+- Fever, abdominal pain, or worsening confusion?
+- Prior SBP episodes?
+- Compliance with diuretics and salt restriction?
+- Alcohol use status?
+- Frequency of large-volume paracentesis?
+key_exam_findings:
+- Abdominal distension with shifting dullness and fluid wave
+- Diffuse abdominal tenderness (SBP)
+- Peripheral edema
+- Altered mental status (encephalopathy)
+- Signs of chronic liver disease
+treatment_principles:
+- Diagnostic paracentesis on admission (SAAG, cell count with differential, culture)
+- 'SBP treatment: cefotaxime or ceftriaxone + albumin infusion'
+- 'Ascites management: sodium restriction (<2 g/day) + spironolactone/furosemide'
+- Large-volume paracentesis with albumin replacement (6-8 g per liter removed)
+- SBP prophylaxis for at-risk patients
+disposition_guidance:
+- 'Admission: New or worsening ascites, suspected SBP, need for paracentesis'
+- 'ICU: Sepsis from SBP, hepatorenal syndrome'
+- 'Outpatient: Stable ascites on diuretics, scheduled therapeutic paracentesis'
+- 'Transplant referral: Refractory ascites, recurrent SBP'

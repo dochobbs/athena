@@ -1,0 +1,55 @@
+id: copd_exacerbation
+topic: COPD Exacerbation
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Classify exacerbation severity (mild, moderate, severe)
+- Apply the Anthonisen criteria for antibiotic use
+- Know the GOLD guidelines for exacerbation management
+- Understand non-invasive ventilation indications
+- Recognize when intubation is needed
+common_mistakes:
+- Giving high-flow O2 targeting SpO2 100% (aim 88-92% to avoid CO2 retention)
+- Using prolonged steroid courses (5 days is sufficient per REDUCE trial)
+- Prescribing antibiotics for all exacerbations regardless of purulence
+- Not using NIV early enough in hypercapnic respiratory failure
+- Forgetting to reassess inhaler regimen before discharge
+red_flags:
+- Altered mental status (CO2 narcosis)
+- Respiratory rate >30 with accessory muscle use
+- pH <7.25 on ABG
+- Failure to improve on NIV
+- Hemodynamic instability
+clinical_pearls:
+- 'ABCs: Antibiotics (if purulent sputum), Bronchodilators, Corticosteroids'
+- 5-day prednisone course is as effective as 14 days (REDUCE trial)
+- NIV reduces intubation by 60% and mortality by 50% in severe exacerbations
+- Oxygen target 88-92% - wrist oximeter and ABG to guide
+- 'Anthonisen criteria: increased dyspnea, sputum volume, sputum purulence (antibiotics
+  if 2 of 3)'
+key_history_questions:
+- Is your breathing worse than your usual baseline?
+- Have you noticed more sputum or a change in sputum color?
+- How many exacerbations have you had in the past year?
+- Are you on home oxygen?
+- What inhalers do you use? Are you using them correctly?
+- Any recent medication changes or missed doses?
+key_exam_findings:
+- Respiratory rate and work of breathing
+- Oxygen saturation (target 88-92%)
+- Accessory muscle use, tripod positioning
+- Wheezing intensity (silent chest is ominous)
+- Mental status (CO2 retention causes somnolence)
+- Peripheral edema suggesting cor pulmonale
+treatment_principles:
+- Short-acting bronchodilators (albuterol + ipratropium)
+- Systemic corticosteroids for 5 days
+- Antibiotics if increased sputum purulence
+- NIV for hypercapnic respiratory failure
+- Oxygen to target 88-92%
+disposition_guidance:
+- Admit for severe exacerbation, hypoxia, hypercapnia, or comorbidities
+- Discharge if improved and able to manage at home
+- Reassess and optimize maintenance inhaler regimen before discharge
+- Follow-up within 1-4 weeks post-exacerbation

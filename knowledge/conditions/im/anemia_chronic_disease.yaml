@@ -1,0 +1,100 @@
+id: anemia_chronic_disease
+display_name: "Anemia of Chronic Disease"
+aliases:
+  - ACD
+  - Anemia of chronic inflammation
+  - Anemia of inflammation
+snomed: "234349007"
+icd10:
+  - "D63.8"
+  - "D63.1"
+category: chronic
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 99.5]
+  hr_multiplier: 1.05
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.80
+      description: "Fatigue often attributed to underlying disease"
+    - name: dyspnea_on_exertion
+      probability: 0.45
+      description: "Mild exertional dyspnea"
+    - name: weakness
+      probability: 0.55
+      description: "Generalized weakness"
+    - name: pallor
+      probability: 0.50
+      description: "Mild pallor"
+  physical_exam:
+    - system: general
+      finding: "Mild pallor, signs of underlying chronic disease"
+      probability: 0.60
+    - system: cardiovascular
+      finding: "Mild tachycardia, flow murmur if Hgb <8"
+      probability: 0.30
+    - system: general
+      finding: "Findings related to underlying condition (RA joints, lupus rash, etc.)"
+      probability: 0.70
+diagnostics:
+  labs:
+    - name: Ferritin
+      loinc: "2276-4"
+      value_type: numeric
+      unit: ng/mL
+      normal_range_low: 30
+      normal_range_high: 300
+      abnormal_high_min: 100
+      probability_abnormal: 0.70
+      notes: "Ferritin normal-to-elevated (acute phase reactant)"
+    - name: Iron
+      loinc: "2498-4"
+      value_type: numeric
+      unit: mcg/dL
+      normal_range_low: 60
+      abnormal_low_max: 59
+      probability_abnormal: 0.80
+    - name: TIBC
+      loinc: "2500-7"
+      value_type: numeric
+      unit: mcg/dL
+      normal_range_low: 250
+      abnormal_low_max: 250
+      probability_abnormal: 0.75
+      notes: "Low TIBC (opposite of IDA)"
+    - name: Hepcidin
+      value_type: numeric
+      unit: ng/mL
+      normal_range_high: 20
+      abnormal_high_min: 20
+      probability_abnormal: 0.80
+      notes: "Elevated - key pathophysiologic mediator"
+treatment:
+  approach: treat_underlying_disease
+  medications:
+    - agent: "Epoetin Alfa"
+      rxnorm: "3521"
+      frequency: "50-300 units/kg 3x weekly"
+      route: subcutaneous
+      indication: "CKD-related anemia or select chronic disease"
+    - agent: "Iron Sucrose"
+      rxnorm: "259855"
+      frequency: "200 mg IV if concurrent absolute iron deficiency"
+      route: iv
+      indication: "Functional iron deficiency with ferritin <100 or TSAT <20%"
+  patient_instructions:
+    - Anemia usually mild (Hgb 8-10) and rarely needs transfusion
+    - Key is treating the underlying disease (RA, CKD, infection, malignancy)
+    - Distinguish from IDA using ferritin, TIBC, iron panel
+    - Oral iron generally ineffective (hepcidin blocks absorption)
+    - Transfuse only if symptomatic or Hgb <7
+    - Monitor trends rather than treating the number

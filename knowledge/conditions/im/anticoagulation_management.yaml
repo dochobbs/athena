@@ -1,0 +1,125 @@
+id: anticoagulation_management
+display_name: "Anticoagulation Management"
+aliases:
+  - Warfarin management
+  - DOAC management
+  - Anticoagulation reversal
+  - Supratherapeutic INR
+snomed: "182764009"
+icd10:
+  - "Z79.01"
+  - "T45.515A"
+category: chronic
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.0, 98.6]
+  hr_multiplier: 1.00
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: bleeding
+      probability: 0.40
+      description: "Bleeding from any site - GI, intracranial, mucosal"
+    - name: bruising
+      probability: 0.55
+      description: "Excessive bruising from minor trauma"
+    - name: hematuria
+      probability: 0.25
+      description: "Gross or microscopic hematuria"
+    - name: epistaxis
+      probability: 0.30
+      description: "Recurrent or prolonged nosebleeds"
+    - name: asymptomatic
+      probability: 0.50
+      description: "Routine monitoring visit without symptoms"
+  physical_exam:
+    - system: skin
+      finding: "Ecchymoses of varying ages"
+      probability: 0.50
+    - system: general
+      finding: "Stable vital signs in routine management"
+      probability: 0.80
+    - system: abdomen
+      finding: "Evaluate for GI bleeding signs (melena, hematochezia)"
+      probability: 0.20
+    - system: neurological
+      finding: "Full neuro exam if any head trauma while anticoagulated"
+      probability: 0.15
+diagnostics:
+  labs:
+    - name: INR
+      loinc: "6301-6"
+      value_type: numeric
+      unit: ratio
+      normal_range_low: 2.0
+      normal_range_high: 3.0
+      probability_abnormal: 0.40
+      notes: "Therapeutic range 2.0-3.0 for most indications on warfarin"
+    - name: Anti-Xa level
+      loinc: "3186-4"
+      value_type: numeric
+      unit: IU/mL
+      probability_abnormal: 0.20
+      notes: "For LMWH monitoring; DOACs rarely need monitoring"
+    - name: CBC
+      loinc: "57021-8"
+      value_type: panel
+      probability_abnormal: 0.30
+    - name: Renal function
+      loinc: "2160-0"
+      value_type: numeric
+      unit: mg/dL
+      probability_abnormal: 0.25
+      notes: "Critical for DOAC dosing, especially dabigatran"
+treatment:
+  approach: indication_based_anticoagulation
+  medications:
+    - agent: "Warfarin"
+      rxnorm: "11289"
+      frequency: "dose adjusted to INR 2.0-3.0"
+      route: oral
+      indication: "Mechanical heart valves, antiphospholipid syndrome"
+    - agent: "Apixaban"
+      rxnorm: "1364430"
+      frequency: "5 mg BID (2.5 mg BID if age >80, weight <60kg, or Cr >1.5)"
+      route: oral
+      indication: "Preferred DOAC for AF, VTE (lowest bleeding risk)"
+    - agent: "Rivaroxaban"
+      rxnorm: "1114195"
+      frequency: "20 mg daily with dinner"
+      route: oral
+      indication: "AF, VTE treatment and prevention"
+    - agent: "Vitamin K (Phytonadione)"
+      rxnorm: "8252"
+      frequency: "2.5-10 mg PO or 10 mg IV"
+      route: oral
+      indication: "Warfarin reversal for supratherapeutic INR"
+    - agent: "Idarucizumab"
+      rxnorm: "1736854"
+      frequency: "5g IV (2 x 2.5g vials)"
+      route: iv
+      indication: "Specific reversal agent for dabigatran"
+    - agent: "Andexanet Alfa"
+      rxnorm: "2058258"
+      frequency: "per protocol, IV bolus then infusion"
+      route: iv
+      indication: "Reversal agent for factor Xa inhibitors (apixaban, rivaroxaban)"
+    - agent: "4-Factor PCC (Kcentra)"
+      rxnorm: "1359053"
+      frequency: "dose by INR (25-50 units/kg IV)"
+      route: iv
+      indication: "Warfarin reversal for life-threatening bleeding"
+  patient_instructions:
+    - CHA2DS2-VASc score guides anticoagulation for atrial fibrillation
+    - HAS-BLED score assesses bleeding risk
+    - DOACs preferred over warfarin for non-valvular AF (less monitoring, fewer interactions)
+    - Warfarin requires regular INR monitoring (weekly initially, then monthly)
+    - Drug and food interactions with warfarin (vitamin K foods, many drugs)
+    - Periprocedural management - bridge vs hold based on thrombotic risk

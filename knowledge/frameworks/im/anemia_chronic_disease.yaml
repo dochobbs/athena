@@ -1,0 +1,50 @@
+id: anemia_chronic_disease
+topic: "Anemia of Chronic Disease"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Understand hepcidin-mediated iron sequestration as the pathophysiology
+  - Differentiate ACD from iron deficiency anemia using iron studies
+  - Recognize that treating the underlying disease is the primary intervention
+  - Know the limited role of ESAs and when to consider them
+common_mistakes:
+  - Giving oral iron for ACD (hepcidin blocks absorption - oral iron is ineffective)
+  - Confusing ACD with IDA (both have low serum iron, but ferritin and TIBC differ)
+  - Aggressively transfusing mild anemia (ACD is usually Hgb 8-10, well-tolerated)
+  - Not looking for concurrent true iron deficiency (ACD + IDA is common)
+  - Targeting hemoglobin >13 with ESAs (increases cardiovascular risk)
+red_flags:
+  - Hemoglobin <7 or rapidly falling (suggests additional process beyond ACD)
+  - New or worsening underlying disease
+  - Failure to improve with treatment of underlying condition
+  - Concurrent bleeding or hemolysis
+clinical_pearls:
+  - "ACD: low iron, low TIBC, normal-to-high ferritin. IDA: low iron, HIGH TIBC, low ferritin."
+  - Ferritin 30-100 in the setting of inflammation may represent concurrent iron deficiency + ACD
+  - Hepcidin is the key mediator - blocks ferroportin, trapping iron in macrophages
+  - ACD rarely causes Hgb <8 by itself - look for additional causes if lower
+  - TSAT (transferrin saturation) <20% with ferritin 30-100 suggests functional iron deficiency
+key_history_questions:
+  - What chronic conditions do you have? (RA, lupus, CKD, cancer, chronic infection)
+  - How well is your underlying disease controlled?
+  - Any new symptoms suggesting disease flare?
+  - Any blood in stool or heavy menstrual bleeding? (concurrent IDA)
+  - How is your energy level and exercise tolerance?
+key_exam_findings:
+  - Mild pallor
+  - Signs of underlying chronic disease (joint deformity, rash, wasting)
+  - Absence of koilonychia and severe pallor (more suggestive of IDA)
+  - Splenomegaly (may contribute in some conditions)
+  - Cardiovascular compensation (mild tachycardia, flow murmur if severe)
+treatment_principles:
+  - Treat the underlying disease (primary intervention)
+  - IV iron if concurrent functional iron deficiency (TSAT <20%, ferritin <100)
+  - ESAs reserved for CKD-related anemia or select cases (target Hgb 10-11.5)
+  - Transfuse only if symptomatic or Hgb <7
+  - Oral iron is generally ineffective in pure ACD
+disposition_guidance:
+  - Outpatient management in most cases
+  - Admit if severe anemia with symptoms or hemodynamic instability
+  - Coordinate with specialist managing underlying disease
+  - Regular monitoring of CBC and iron studies

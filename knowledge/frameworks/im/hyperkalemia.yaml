@@ -1,0 +1,53 @@
+id: hyperkalemia
+topic: Hyperkalemia
+category: endocrine
+specialties:
+- im
+teaching_goals:
+- Recognize ECG changes in hyperkalemia (peaked T, wide QRS, sine wave)
+- Apply the three-step management (stabilize, shift, eliminate)
+- Know that calcium stabilizes the membrane but does NOT lower potassium
+- Identify and treat underlying causes (renal failure, medications, acidosis)
+- Distinguish true hyperkalemia from pseudohyperkalemia
+common_mistakes:
+- Not getting a stat ECG with hyperkalemia
+- Forgetting calcium gluconate when ECG changes are present
+- Relying on kayexalate alone for acute management (onset too slow)
+- Not rechecking potassium to rule out hemolyzed sample
+- Missing medication causes (ACEi, ARB, spironolactone, TMP-SMX, NSAIDs)
+red_flags:
+- ECG changes (peaked T waves, widened QRS, loss of P waves, sine wave)
+- K >6.5 mEq/L
+- Rapid rise in potassium
+- Concurrent metabolic acidosis
+- Anuric renal failure
+clinical_pearls:
+- 'C-BIG-K-D: Calcium, Bicarb, Insulin+Glucose, Kayexalate, Dialysis'
+- Calcium gluconate works in 1-3 minutes, lasts 30-60 minutes. Repeat if needed.
+- 'Insulin + glucose (10 units + 25g D50): most effective temporizing measure'
+- Always check glucose 1 hour after insulin/glucose to prevent hypoglycemia
+- 'Pseudohyperkalemia: hemolyzed sample, fist clenching during draw, thrombocytosis'
+key_history_questions:
+- Medications (ACEi, ARB, K-sparing diuretics, NSAIDs, TMP-SMX)?
+- Known CKD or ESRD?
+- Dietary potassium intake?
+- Muscle weakness, palpitations?
+- Diabetes (type 4 RTA from hypoaldosteronism)?
+- Recent tissue destruction (rhabdomyolysis, tumor lysis, burns)?
+key_exam_findings:
+- ECG changes (most critical exam finding)
+- Muscle weakness or flaccidity
+- Decreased deep tendon reflexes
+- Bradycardia or other arrhythmias
+- Signs of underlying cause (uremic signs, muscle tenderness)
+treatment_principles:
+- ECG immediately for all K >5.5
+- Calcium gluconate if ECG changes (stabilizes, does not lower K)
+- Insulin 10 units + D50 25g IV (shifts K intracellularly)
+- Albuterol nebulizer 10-20 mg as adjunct
+- 'Eliminate potassium: diuretics, patiromer, SPS, or dialysis'
+disposition_guidance:
+- 'ICU: K >6.5 or any ECG changes'
+- 'Floor/telemetry: K 5.5-6.5 without ECG changes, on cardiac monitoring'
+- 'Outpatient: Mild chronic hyperkalemia (K 5.0-5.5) from medications'
+- 'Nephrology: CKD-related hyperkalemia, need for dialysis'

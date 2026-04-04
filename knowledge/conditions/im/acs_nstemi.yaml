@@ -1,0 +1,83 @@
+id: acs_nstemi
+display_name: "Non-ST-Elevation Myocardial Infarction"
+aliases:
+  - NSTEMI
+  - Non-STEMI
+  - Non-ST elevation MI
+snomed: "401314000"
+icd10:
+  - "I21.4"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.15
+  rr_multiplier: 1.10
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: chest_pain
+      probability: 0.85
+      description: "substernal pressure or tightness, may wax and wane"
+    - name: dyspnea
+      probability: 0.50
+      description: "shortness of breath"
+    - name: diaphoresis
+      probability: 0.55
+      description: "sweating"
+    - name: nausea
+      probability: 0.40
+      description: "nausea, sometimes vomiting"
+    - name: fatigue
+      probability: 0.35
+      description: "new onset fatigue"
+    - name: radiation_to_arm
+      probability: 0.45
+      description: "radiating to arm, jaw, or back"
+  physical_exam:
+    - system: cardiovascular
+      finding: "May be normal or show tachycardia"
+      probability: 0.60
+    - system: cardiovascular
+      finding: "New S4 gallop"
+      probability: 0.25
+    - system: general
+      finding: "Diaphoretic, anxious"
+      probability: 0.55
+    - system: cardiovascular
+      finding: "Transient MR murmur from papillary muscle ischemia"
+      probability: 0.10
+treatment:
+  approach: antiplatelet_anticoagulation_early_invasive
+  medications:
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "325 mg then 81 mg daily"
+      route: oral
+      indication: "immediate antiplatelet therapy"
+    - agent: "Ticagrelor"
+      rxnorm: "1116632"
+      frequency: "180 mg loading then 90 mg BID"
+      route: oral
+      indication: "dual antiplatelet therapy"
+    - agent: "Enoxaparin"
+      rxnorm: "67108"
+      frequency: "1 mg/kg SC q12h"
+      route: iv
+      indication: "anticoagulation"
+    - agent: "Metoprolol Tartrate"
+      rxnorm: "6918"
+      frequency: "25-50 mg PO q6h"
+      route: oral
+      indication: "reduce myocardial oxygen demand"
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "80 mg once daily"
+      route: oral
+      indication: "high-intensity statin therapy"

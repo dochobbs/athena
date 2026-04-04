@@ -1,0 +1,54 @@
+id: antiphospholipid_syndrome
+topic: "Antiphospholipid Syndrome"
+category: rheumatology
+specialties:
+  - im
+teaching_goals:
+  - Apply revised Sapporo classification criteria (clinical + laboratory)
+  - Understand the three aPL antibodies tested (lupus anticoagulant, anticardiolipin, anti-beta2-GPI)
+  - Recognize both venous and arterial thrombotic manifestations
+  - Know the pregnancy morbidity criteria
+  - Understand catastrophic APS as a life-threatening emergency
+common_mistakes:
+  - Diagnosing APS on a single positive aPL test (must be confirmed 12+ weeks apart)
+  - Using DOACs instead of warfarin for APS (increased thrombosis risk with DOACs, especially triple-positive)
+  - Missing the diagnosis in young patients with unexplained stroke or DVT
+  - Not testing for APS in recurrent pregnancy loss
+  - Confusing lupus anticoagulant (a prothrombotic state) with a bleeding disorder
+red_flags:
+  - Catastrophic APS (rapid multi-organ thrombosis in days)
+  - Young stroke or MI without traditional risk factors
+  - Recurrent thrombosis despite anticoagulation
+  - HELLP syndrome or severe preeclampsia
+  - Triple-positive aPL (all three antibodies positive - highest risk)
+clinical_pearls:
+  - Lupus anticoagulant is the strongest predictor of thrombosis
+  - Despite the name, lupus anticoagulant causes clotting, not bleeding
+  - Warfarin (NOT DOACs) is the anticoagulant of choice for APS
+  - Triple-positive patients (LA + aCL + anti-beta2-GPI) have highest thrombotic risk
+  - APS can occur as primary or secondary to SLE
+key_history_questions:
+  - History of DVT, PE, or arterial thrombosis?
+  - Recurrent pregnancy loss, especially after first trimester?
+  - Known SLE or other autoimmune disease?
+  - Family history of blood clots or autoimmune disease?
+  - Any livedo reticularis or skin findings?
+  - Prior positive aPL antibodies?
+key_exam_findings:
+  - Livedo reticularis
+  - Swollen extremity (DVT)
+  - Focal neurologic deficits (stroke)
+  - Cardiac murmur (Libman-Sacks endocarditis)
+  - Raynaud phenomenon
+  - Skin ulcers or necrosis
+treatment_principles:
+  - Warfarin with target INR 2-3 for first venous event
+  - Consider higher INR target (3-4) for arterial events or recurrence on standard therapy
+  - Low-dose aspirin for primary prevention in asymptomatic aPL carriers
+  - Heparin + aspirin during pregnancy (not warfarin - teratogenic)
+  - Avoid DOACs, especially in triple-positive patients
+disposition_guidance:
+  - Admit for acute thrombotic events (standard VTE/stroke management)
+  - ICU for catastrophic APS (anticoagulation, steroids, plasma exchange, IVIG)
+  - Outpatient for stable patients on anticoagulation
+  - Hematology and/or rheumatology follow-up

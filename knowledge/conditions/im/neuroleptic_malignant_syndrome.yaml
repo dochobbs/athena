@@ -1,0 +1,86 @@
+id: neuroleptic_malignant_syndrome
+display_name: "Neuroleptic Malignant Syndrome"
+aliases:
+  - NMS
+  - Antipsychotic malignant syndrome
+snomed: "30358005"
+icd10:
+  - "G21.0"
+category: acute
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f:
+    - 102.0
+    - 108.0
+  hr_multiplier: 1.30
+  bp_systolic:
+    - 140
+    - 200
+  rr_multiplier: 1.20
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: hyperthermia
+      probability: 0.90
+      description: "high fever, often >104F, develops over 1-3 days"
+    - name: muscle rigidity
+      probability: 0.90
+      description: "severe generalized lead-pipe rigidity"
+    - name: altered mental status
+      probability: 0.85
+      description: "confusion progressing to coma"
+    - name: diaphoresis
+      probability: 0.70
+      description: "profuse sweating, autonomic instability"
+    - name: tachycardia
+      probability: 0.80
+      description: "autonomic dysfunction"
+    - name: labile blood pressure
+      probability: 0.60
+      description: "wide BP swings, autonomic dysregulation"
+  physical_exam:
+    - system: neurologic
+      finding: "Lead-pipe rigidity (not cogwheel) on passive movement"
+      probability: 0.90
+    - system: general
+      finding: "High fever, diaphoresis, tachycardia"
+      probability: 0.85
+    - system: neurologic
+      finding: "Altered consciousness, mutism"
+      probability: 0.80
+    - system: neurologic
+      finding: "Tremor, bradykinesia"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "Labile blood pressure, tachycardia"
+      probability: 0.65
+treatment:
+  approach: discontinue_antipsychotic_supportive
+  medications:
+    - agent: "Dantrolene"
+      rxnorm: "3105"
+      frequency: "every 6-12 hours"
+      route: iv
+      indication: "muscle relaxant for severe rigidity and hyperthermia"
+    - agent: "Bromocriptine"
+      rxnorm: "1760"
+      frequency: "three times daily"
+      route: oral
+      indication: "dopamine agonist to reverse dopamine blockade"
+    - agent: "Lorazepam"
+      rxnorm: "6470"
+      frequency: "every 6-8 hours"
+      route: iv
+      indication: "benzodiazepine for agitation and muscle relaxation"
+    - agent: "Normal Saline"
+      rxnorm: "313002"
+      frequency: "continuous infusion"
+      route: iv
+      indication: "aggressive hydration, prevent rhabdomyolysis-induced AKI"

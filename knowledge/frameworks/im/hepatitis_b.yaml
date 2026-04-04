@@ -1,0 +1,52 @@
+id: hepatitis_b
+topic: Hepatitis B
+category: gi
+specialties:
+- im
+teaching_goals:
+- Interpret the hepatitis B serologic panel (HBsAg, anti-HBs, anti-HBc, HBeAg)
+- Distinguish acute from chronic infection and immune phases
+- Know indications for antiviral therapy
+- Understand screening recommendations and vaccination
+- Recognize reactivation risk with immunosuppression
+common_mistakes:
+- Misinterpreting serology (confusing immunity from vaccine vs prior infection)
+- Not screening before immunosuppressive therapy
+- Failing to monitor HBV DNA and ALT longitudinally in chronic carriers
+- Starting treatment for immune-tolerant phase unnecessarily
+- Not checking HBV status before starting rituximab or chemotherapy
+red_flags:
+- Acute liver failure (coagulopathy, encephalopathy)
+- HBV flare with ALT >10x ULN
+- Reactivation during immunosuppression
+- Progression to cirrhosis or HCC
+- Concurrent HDV (hepatitis D) infection
+clinical_pearls:
+- 'Isolated anti-HBc: prior resolved infection, occult HBV, or false positive'
+- Anti-HBs + anti-HBc = prior natural infection with immunity
+- Anti-HBs alone = vaccination
+- Tenofovir and entecavir are first-line; both have high barrier to resistance
+- Screen all patients for HBV before rituximab, chemotherapy, or TNF inhibitors
+key_history_questions:
+- Country of origin (endemic areas)?
+- Vaccination history?
+- Risk factors (IVDU, sexual contacts, perinatal exposure)?
+- Prior HBV testing or treatment?
+- Any immunosuppressive therapy planned?
+- Family history of liver disease or HCC?
+key_exam_findings:
+- Jaundice (acute or flare)
+- Hepatomegaly
+- Signs of chronic liver disease if cirrhotic
+- Often normal in chronic carriers
+treatment_principles:
+- Not all chronic HBV needs treatment (immune-tolerant phase may be monitored)
+- Treat if elevated ALT + HBV DNA above threshold, cirrhosis, or immune-active phase
+- 'First-line: tenofovir or entecavir (oral nucleos(t)ide analogues)'
+- HCC screening every 6 months in at-risk patients
+- Vaccinate all household and sexual contacts
+disposition_guidance:
+- 'Outpatient: Chronic HBV monitoring, medication management'
+- 'Admission: Acute hepatitis with coagulopathy, severe flare'
+- 'Hepatology referral: Cirrhosis, treatment initiation, HCC screening'
+- 'Transplant evaluation: Decompensated cirrhosis, acute liver failure'

@@ -1,0 +1,74 @@
+id: melanoma_screening
+display_name: "Melanoma Screening"
+aliases:
+  - Malignant melanoma
+  - Cutaneous melanoma
+  - Melanoma detection
+  - Skin cancer screening
+snomed: "372244006"
+icd10:
+  - "C43.9"
+  - "D03.9"
+category: chronic
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: changing mole
+      probability: 0.80
+      description: "pigmented lesion with evolving size, shape, or color"
+    - name: new pigmented lesion
+      probability: 0.50
+      description: "new mole appearing after age 30"
+    - name: pruritus
+      probability: 0.25
+      description: "itching in a pigmented lesion"
+    - name: bleeding
+      probability: 0.15
+      description: "spontaneous bleeding from a mole"
+    - name: asymmetry
+      probability: 0.70
+      description: "ABCDE criteria: asymmetric lesion"
+  physical_exam:
+    - system: skin
+      finding: "Asymmetric pigmented lesion (ABCDE: Asymmetry)"
+      probability: 0.70
+    - system: skin
+      finding: "Irregular borders (ABCDE: Border irregularity)"
+      probability: 0.65
+    - system: skin
+      finding: "Color variation within lesion (ABCDE: Color)"
+      probability: 0.60
+    - system: skin
+      finding: "Diameter >6mm (ABCDE: Diameter)"
+      probability: 0.55
+    - system: skin
+      finding: "Evolving size, shape, or color (ABCDE: Evolution)"
+      probability: 0.75
+    - system: lymphatic
+      finding: "Regional lymphadenopathy if metastatic"
+      probability: 0.10
+treatment:
+  approach: excisional_biopsy_and_staging
+  medications:
+    - agent: "Lidocaine"
+      rxnorm: "6387"
+      frequency: "single injection"
+      route: local
+      indication: "local anesthesia for excisional biopsy"
+    - agent: "Pembrolizumab"
+      rxnorm: "1547545"
+      frequency: "every 3 weeks"
+      route: iv
+      indication: "checkpoint inhibitor for advanced/metastatic melanoma"
+    - agent: "Nivolumab"
+      rxnorm: "1597876"
+      frequency: "every 2-4 weeks"
+      route: iv
+      indication: "PD-1 inhibitor for advanced melanoma"

@@ -1,0 +1,97 @@
+id: folate_deficiency
+display_name: "Folate Deficiency"
+aliases:
+  - Folic acid deficiency
+  - Folate deficiency anemia
+snomed: "190639009"
+icd10:
+  - "D52.9"
+  - "D52.0"
+category: chronic
+system: hematology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.0, 98.6]
+  hr_multiplier: 1.10
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.85
+      description: "Progressive fatigue and weakness"
+    - name: glossitis
+      probability: 0.40
+      description: "Sore, smooth tongue"
+    - name: diarrhea
+      probability: 0.35
+      description: "Chronic diarrhea from malabsorption"
+    - name: irritability
+      probability: 0.30
+      description: "Mood changes, irritability"
+    - name: pallor
+      probability: 0.65
+      description: "Generalized pallor"
+  physical_exam:
+    - system: general
+      finding: "Pallor without jaundice (less hemolysis than B12)"
+      probability: 0.65
+    - system: oropharynx
+      finding: "Glossitis, angular stomatitis"
+      probability: 0.35
+    - system: neurological
+      finding: "Normal neurologic exam (unlike B12 deficiency)"
+      probability: 0.90
+    - system: general
+      finding: "Signs of malnutrition or alcoholism"
+      probability: 0.40
+diagnostics:
+  labs:
+    - name: Serum Folate
+      loinc: "2284-8"
+      value_type: numeric
+      unit: ng/mL
+      normal_range_low: 3.0
+      abnormal_low_max: 3.0
+      probability_abnormal: 0.90
+    - name: RBC Folate
+      loinc: "2285-5"
+      value_type: numeric
+      unit: ng/mL
+      normal_range_low: 140
+      abnormal_low_max: 140
+      probability_abnormal: 0.85
+    - name: Homocysteine
+      loinc: "13965-9"
+      value_type: numeric
+      unit: umol/L
+      normal_range_high: 15
+      abnormal_high_min: 15
+      probability_abnormal: 0.80
+    - name: MCV
+      loinc: "787-2"
+      value_type: numeric
+      unit: fL
+      normal_range_high: 100
+      abnormal_high_min: 100
+      probability_abnormal: 0.70
+treatment:
+  approach: folate_replacement
+  medications:
+    - agent: "Folic Acid"
+      rxnorm: "4511"
+      frequency: "1-5 mg daily"
+      route: oral
+      indication: "Folate repletion"
+  patient_instructions:
+    - Always check B12 level before starting folate supplementation
+    - Folate can correct anemia of B12 deficiency while neurologic damage continues
+    - Common causes - alcoholism, poor diet, malabsorption, medications (methotrexate, phenytoin)
+    - Response seen within days - reticulocytosis in 1 week
+    - Dietary counseling - green leafy vegetables, legumes, fortified grains
+    - Address underlying cause (alcohol cessation, medication adjustment)

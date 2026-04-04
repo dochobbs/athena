@@ -1,0 +1,51 @@
+id: renal_artery_stenosis
+topic: "Renal Artery Stenosis"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Recognize clinical clues suggesting renovascular hypertension
+  - Differentiate atherosclerotic RAS (older patients) from fibromuscular dysplasia (young women)
+  - Understand the CORAL trial and implications for management (medical therapy often sufficient)
+  - Know the diagnostic workup from screening to confirmatory imaging
+common_mistakes:
+  - Reflexively stenting all renal artery stenosis (CORAL trial showed no benefit for atherosclerotic RAS)
+  - Not checking creatinine after starting ACEi/ARB (a >30% rise suggests bilateral RAS)
+  - Missing flash pulmonary edema as a presentation of bilateral RAS
+  - Confusing atherosclerotic RAS with FMD (treatment differs significantly)
+  - Using ACEi/ARB in bilateral RAS without monitoring
+red_flags:
+  - Creatinine rise >30% after starting ACEi/ARB
+  - Recurrent flash pulmonary edema
+  - Malignant hypertension with end-organ damage
+  - Progressive CKD despite optimal BP control
+clinical_pearls:
+  - "Atherosclerotic RAS: ostial lesion, older, male, cardiovascular risk factors"
+  - "FMD: mid-vessel 'string of beads,' young woman, responds well to angioplasty"
+  - Flash pulmonary edema with bilateral RAS (Pickering syndrome)
+  - CORAL trial (2014) - stenting was NOT superior to medical therapy for atherosclerotic RAS
+  - Captopril renogram can detect functional significance of stenosis
+key_history_questions:
+  - How many blood pressure medications are you taking? Is your BP controlled?
+  - Have you had episodes of sudden shortness of breath (flash pulmonary edema)?
+  - Was your creatinine checked before and after starting BP medications?
+  - Any family history of hypertension at a young age?
+  - Do you smoke? Any history of peripheral artery disease?
+key_exam_findings:
+  - Blood pressure in both arms
+  - Abdominal bruit (epigastric, flank)
+  - Signs of heart failure
+  - Peripheral pulse assessment
+  - Fundoscopic exam for hypertensive retinopathy
+  - Asymmetric kidney size on imaging
+treatment_principles:
+  - Medical therapy is first-line for atherosclerotic RAS (CORAL trial)
+  - CCBs are safe for both unilateral and bilateral RAS
+  - ACEi/ARBs for unilateral RAS (but check Cr in 1-2 weeks)
+  - Angioplasty (without stent) for FMD - excellent cure rates
+  - Aggressive cardiovascular risk factor management
+disposition_guidance:
+  - Admit for malignant hypertension or flash pulmonary edema
+  - Outpatient workup for suspected renovascular hypertension
+  - Vascular surgery or IR consultation for revascularization cases
+  - Long-term nephrology follow-up for progressive CKD

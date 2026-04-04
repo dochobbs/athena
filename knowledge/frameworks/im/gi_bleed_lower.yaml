@@ -1,0 +1,52 @@
+id: gi_bleed_lower
+topic: "Lower GI Bleed"
+category: gi
+specialties:
+  - im
+teaching_goals:
+  - Distinguish lower from upper GI bleed (brisk UGIB can present as hematochezia)
+  - Identify common etiologies by age group
+  - Know the role and timing of colonoscopy vs CT angiography
+  - Understand when to involve surgery
+  - Risk-stratify using Oakland score
+common_mistakes:
+  - Assuming hematochezia is always lower GI - brisk upper bleeds cause it too
+  - Failing to perform upper evaluation when LGIB source not identified
+  - Not performing adequate bowel prep for diagnostic colonoscopy
+  - Overlooking hemorrhoids as the source without excluding proximal pathology
+  - Delaying surgical consultation in massive hemorrhage
+red_flags:
+  - Hemodynamic instability
+  - Need for >2 units packed RBCs in 24 hours
+  - Bright red blood per rectum with tachycardia (may be upper source)
+  - Peritoneal signs suggesting perforation or ischemia
+  - New LGIB with weight loss or iron deficiency (concern for malignancy)
+clinical_pearls:
+  - "Diverticular bleeding is the most common cause of significant LGIB in adults >40"
+  - "80% of lower GI bleeds stop spontaneously"
+  - "Always rule out upper source first if hemodynamically significant"
+  - "CT angiography useful when bleeding rate >0.3-0.5 mL/min"
+  - "Colonoscopy within 24 hours may improve diagnosis but not proven to change outcomes"
+key_history_questions:
+  - Color of blood (bright red, maroon, or dark)?
+  - Mixed with stool or on surface?
+  - Prior colonoscopy findings (diverticula, polyps, IBD)?
+  - Anticoagulant or antiplatelet use?
+  - Recent polypectomy or procedure?
+  - Weight loss, change in bowel habits?
+key_exam_findings:
+  - Hemodynamic status and orthostatics
+  - Rectal exam (hemorrhoids, masses, stool color)
+  - Abdominal exam for tenderness or peritoneal signs
+  - Pallor suggesting chronic blood loss
+treatment_principles:
+  - Resuscitate with IV fluids and blood products as needed
+  - Rule out upper GI source if hemodynamically significant
+  - Colonoscopy after adequate prep for diagnosis and potential therapy
+  - CT angiography for massive bleeding when endoscopy not feasible
+  - Surgery for refractory bleeding not amenable to endoscopic or IR treatment
+disposition_guidance:
+  - "ICU: Hemodynamically unstable, ongoing significant bleeding"
+  - "Floor: Stable, awaiting colonoscopy after prep"
+  - "Outpatient: Minor bleeding, hemodynamically stable, no anemia"
+  - "Surgery consult: Massive or recurrent hemorrhage, suspected ischemia"

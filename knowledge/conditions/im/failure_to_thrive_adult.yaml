@@ -1,0 +1,74 @@
+id: failure_to_thrive_adult
+display_name: "Failure to Thrive (Adult)"
+aliases:
+  - Adult FTT
+  - Weight loss in elderly
+  - Involuntary weight loss
+  - Cachexia
+snomed: "312895004"
+icd10:
+  - "R62.7"
+  - "R63.4"
+category: chronic
+system: geriatrics
+specialties:
+  - im
+age_range:
+  min_months: 720
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: unintentional weight loss
+      probability: 0.90
+      description: "loss of >5% body weight in 6-12 months"
+    - name: decreased appetite
+      probability: 0.75
+      description: "anorexia, early satiety"
+    - name: functional decline
+      probability: 0.70
+      description: "progressive loss of ADL and IADL function"
+    - name: fatigue
+      probability: 0.65
+      description: "low energy, decreased activity"
+    - name: depression
+      probability: 0.40
+      description: "often comorbid, contributes to poor intake"
+    - name: social isolation
+      probability: 0.35
+      description: "loneliness, inability to shop or prepare food"
+  physical_exam:
+    - system: general
+      finding: "Temporal wasting, loss of subcutaneous fat"
+      probability: 0.60
+    - system: general
+      finding: "BMI <22 or significant weight loss on serial measurements"
+      probability: 0.80
+    - system: musculoskeletal
+      finding: "Sarcopenia, decreased muscle mass and grip strength"
+      probability: 0.55
+    - system: oral
+      finding: "Poor dentition, ill-fitting dentures, oral pathology"
+      probability: 0.30
+    - system: psychiatric
+      finding: "Depressive affect, apathy on screening"
+      probability: 0.35
+treatment:
+  approach: comprehensive_geriatric_assessment
+  medications:
+    - agent: "Mirtazapine"
+      rxnorm: "30121"
+      frequency: "once daily at bedtime"
+      route: oral
+      indication: "appetite stimulation and antidepressant"
+    - agent: "Megestrol Acetate"
+      rxnorm: "6685"
+      frequency: "once daily"
+      route: oral
+      indication: "appetite stimulant, short-term use, risk of thrombosis"
+    - agent: "Nutritional Supplement"
+      rxnorm: "226340"
+      frequency: "twice daily between meals"
+      route: oral
+      indication: "caloric and protein supplementation"

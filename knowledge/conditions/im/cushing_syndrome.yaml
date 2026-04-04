@@ -1,0 +1,82 @@
+id: cushing_syndrome
+display_name: "Cushing Syndrome"
+aliases:
+  - Cushing's syndrome
+  - Cushing disease
+  - Hypercortisolism
+snomed: "47270006"
+icd10:
+  - "E24.9"
+  - "E24.0"
+  - "E24.2"
+category: chronic
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.05
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: weight_gain
+      probability: 0.85
+      description: "Central obesity with thin extremities"
+    - name: moon_facies
+      probability: 0.70
+      description: "Rounded facial fullness"
+    - name: easy_bruising
+      probability: 0.60
+      description: "Easy bruising and poor wound healing"
+    - name: proximal_weakness
+      probability: 0.55
+      description: "Proximal muscle weakness, difficulty rising from chair"
+    - name: mood_changes
+      probability: 0.50
+      description: "Depression, anxiety, insomnia, emotional lability"
+    - name: menstrual_irregularity
+      probability: 0.45
+      description: "Oligomenorrhea or amenorrhea in women"
+    - name: hirsutism
+      probability: 0.40
+      description: "Increased facial and body hair in women"
+  physical_exam:
+    - system: general
+      finding: "Central obesity, buffalo hump, supraclavicular fat pads"
+      probability: 0.75
+    - system: skin
+      finding: "Purple striae >1 cm wide on abdomen, easy bruising, thin skin"
+      probability: 0.65
+    - system: face
+      finding: "Moon facies, facial plethora"
+      probability: 0.70
+    - system: musculoskeletal
+      finding: "Proximal muscle weakness"
+      probability: 0.55
+    - system: cardiovascular
+      finding: "Hypertension"
+      probability: 0.60
+treatment:
+  approach: surgical_or_medical
+  medications:
+    - agent: "Ketoconazole"
+      rxnorm: "6135"
+      frequency: "200-400 mg twice daily"
+      route: oral
+      indication: "Steroidogenesis inhibitor for medical management"
+    - agent: "Metyrapone"
+      rxnorm: "6916"
+      frequency: "250-1000 mg three times daily"
+      route: oral
+      indication: "Cortisol synthesis inhibitor"
+    - agent: "Cabergoline"
+      rxnorm: "42347"
+      frequency: "0.5-3.5 mg weekly"
+      route: oral
+      indication: "Dopamine agonist for Cushing disease (pituitary)"

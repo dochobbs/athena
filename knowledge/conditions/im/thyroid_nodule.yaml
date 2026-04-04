@@ -1,0 +1,59 @@
+id: thyroid_nodule
+display_name: "Thyroid Nodule"
+aliases:
+  - Thyroid mass
+  - Thyroid incidentaloma
+  - Thyroid neoplasm evaluation
+snomed: "237495005"
+icd10:
+  - "E04.1"
+  - "E04.2"
+category: chronic
+system: endocrine
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 99.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: asymptomatic
+      probability: 0.70
+      description: "Most nodules found incidentally on imaging or exam"
+    - name: neck_mass
+      probability: 0.40
+      description: "Palpable neck swelling noticed by patient"
+    - name: dysphagia
+      probability: 0.15
+      description: "Difficulty swallowing if large nodule"
+    - name: hoarseness
+      probability: 0.10
+      description: "Voice change if recurrent laryngeal nerve involvement (red flag)"
+    - name: hyperthyroid_symptoms
+      probability: 0.15
+      description: "Palpitations, weight loss if autonomous nodule"
+  physical_exam:
+    - system: neck
+      finding: "Palpable thyroid nodule, assess size, consistency, mobility"
+      probability: 0.60
+    - system: neck
+      finding: "Cervical lymphadenopathy (concern for malignancy)"
+      probability: 0.10
+    - system: general
+      finding: "Usually normal; signs of hyper- or hypothyroidism if functional"
+      probability: 0.15
+treatment:
+  approach: risk_stratification_and_surveillance
+  medications:
+    - agent: "Levothyroxine"
+      rxnorm: "10582"
+      frequency: "Dose to suppress TSH (if TSH suppression indicated, rarely)"
+      route: oral
+      indication: "TSH suppression therapy (controversial, limited use)"

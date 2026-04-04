@@ -1,0 +1,54 @@
+id: ckd
+topic: "Chronic Kidney Disease"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Stage CKD using eGFR and albuminuria (KDIGO heat map)
+  - Manage complications systematically (anemia, bone disease, acidosis, hyperkalemia, volume)
+  - Understand the role of SGLT2 inhibitors in CKD progression (DAPA-CKD, CREDENCE trials)
+  - Know when to refer to nephrology and when to discuss dialysis planning
+  - Recognize cardiovascular disease as the leading cause of death in CKD
+common_mistakes:
+  - Using a single creatinine to diagnose CKD (need >3 months of abnormality)
+  - Not checking urine albumin-to-creatinine ratio at diagnosis
+  - Continuing metformin when eGFR drops below 30
+  - Not adjusting medication doses for reduced GFR
+  - Avoiding ACEi/ARBs due to small creatinine rise (expected and acceptable up to 30%)
+red_flags:
+  - Rapid decline in eGFR (>5 mL/min/year) suggests additional acute process
+  - Hyperkalemia >6.0 on ACEi/ARB
+  - Symptomatic uremia (nausea, encephalopathy, pericarditis)
+  - Severe metabolic acidosis (bicarb <15)
+  - New-onset nephrotic range proteinuria
+clinical_pearls:
+  - "Diabetes and hypertension cause >60% of CKD in the US"
+  - "SGLT2 inhibitors reduce CKD progression regardless of diabetes status"
+  - "ACEi/ARBs are renoprotective - a creatinine rise of up to 30% is expected and acceptable"
+  - Target BP <130/80 in CKD with albuminuria
+  - "CKD-MBD: check PTH, calcium, phosphorus, vitamin D starting at stage 3"
+key_history_questions:
+  - Do you have diabetes? How well is your blood sugar controlled?
+  - What is your blood pressure usually running?
+  - Are you taking any NSAIDs, herbal supplements, or over-the-counter medications?
+  - Any family history of kidney disease?
+  - How much fluid do you drink daily?
+  - Any changes in urination - frequency, color, foaminess?
+key_exam_findings:
+  - Blood pressure (target <130/80)
+  - Volume status (edema, JVP, lung crackles)
+  - Fundoscopic exam for diabetic/hypertensive retinopathy
+  - Peripheral neuropathy assessment
+  - Skin changes (sallow complexion, uremic frost in advanced disease)
+  - AV fistula examination if present
+treatment_principles:
+  - BP control with ACEi or ARB as first-line (renoprotective)
+  - SGLT2 inhibitor for CKD with eGFR >20 (disease-modifying)
+  - Glycemic control (A1c <7% for most, individualize)
+  - Manage anemia with ESA, target Hgb 10-11.5 (not >13)
+  - Phosphate binders and vitamin D for CKD-MBD
+disposition_guidance:
+  - Refer to nephrology when eGFR <30 or rapidly declining
+  - Dialysis access planning when eGFR <20
+  - Renal transplant evaluation when eGFR <20
+  - Regular monitoring intervals depend on CKD stage (more frequent as disease advances)

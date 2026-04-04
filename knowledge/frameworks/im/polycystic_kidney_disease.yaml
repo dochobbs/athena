@@ -1,0 +1,53 @@
+id: polycystic_kidney_disease
+topic: "Polycystic Kidney Disease"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Understand the genetics (PKD1 vs PKD2) and clinical implications
+  - Know the diagnostic criteria for ADPKD by age and ultrasound findings
+  - Manage complications (pain, hematuria, infection, hypertension, progression to ESRD)
+  - Understand the role of tolvaptan in slowing disease progression
+  - Screen for extrarenal manifestations (intracranial aneurysms, liver cysts, cardiac valvular disease)
+common_mistakes:
+  - Not screening family members when ADPKD is diagnosed
+  - Missing intracranial aneurysm screening in patients with family history of SAH
+  - Treating cyst infections with antibiotics that do not penetrate cysts (use fluoroquinolones)
+  - Not counseling about caffeine avoidance (increases cAMP, promotes cyst growth)
+  - Starting tolvaptan without proper hepatic monitoring
+red_flags:
+  - Sudden severe headache (ruptured intracranial aneurysm)
+  - Gross hematuria not resolving within 1 week
+  - Fever with flank pain (cyst infection vs pyelonephritis)
+  - Rapidly declining GFR
+clinical_pearls:
+  - PKD1 mutations (chromosome 16) are more severe than PKD2 (chromosome 4)
+  - ADPKD progresses to ESRD in 50% of patients by age 60
+  - Tolvaptan (vasopressin receptor antagonist) slows kidney growth and GFR decline
+  - Fluoroquinolones and TMP-SMX penetrate cysts; beta-lactams do not
+  - Intracranial aneurysm prevalence is 8% in ADPKD (vs 2% in general population)
+key_history_questions:
+  - Does anyone in your family have kidney disease or required dialysis?
+  - Any family history of brain hemorrhage or sudden death?
+  - Do you have chronic flank or abdominal pain?
+  - Have you noticed blood in your urine?
+  - How much water do you drink daily?
+  - Any headaches? (screen for aneurysm)
+key_exam_findings:
+  - Bilateral flank masses (palpable enlarged kidneys)
+  - Blood pressure
+  - Hepatomegaly from liver cysts
+  - Cardiac auscultation (mitral valve prolapse click/murmur)
+  - Abdominal girth
+  - Hernia assessment (increased incidence)
+treatment_principles:
+  - Aggressive BP control (target <110/75 per HALT-PKD if age 15-49)
+  - Tolvaptan for rapidly progressing disease (monitor LFTs monthly x18 months)
+  - High water intake (>3L/day) to suppress vasopressin
+  - Pain management (avoid NSAIDs - nephrotoxic)
+  - Cyst infections treated with fluoroquinolones for 4-6 weeks
+disposition_guidance:
+  - Outpatient management for stable disease
+  - Admit for complicated cyst infection, severe hematuria, or ruptured aneurysm
+  - Nephrology referral at diagnosis for long-term management
+  - Genetic counseling for family planning

@@ -1,0 +1,81 @@
+id: ankylosing_spondylitis
+display_name: "Ankylosing Spondylitis"
+aliases:
+  - AS
+  - Axial spondyloarthritis
+  - Bechterew disease
+snomed: "9631008"
+icd10:
+  - "M45.9"
+  - "M45.0"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  spo2_min: 96
+presentation:
+  symptoms:
+    - name: chronic_low_back_pain
+      probability: 0.95
+      description: "insidious onset low back pain, worse at rest, improves with exercise"
+    - name: morning_stiffness
+      probability: 0.90
+      description: "prolonged morning stiffness >30 minutes"
+    - name: nocturnal_pain
+      probability: 0.70
+      description: "pain awakens from sleep, especially second half of night"
+    - name: buttock_pain
+      probability: 0.55
+      description: "alternating buttock pain (sacroiliitis)"
+    - name: peripheral_arthritis
+      probability: 0.30
+      description: "asymmetric lower extremity arthritis"
+    - name: eye_pain
+      probability: 0.25
+      description: "acute anterior uveitis (iritis)"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Reduced lumbar flexion (positive Schober test)"
+      probability: 0.75
+    - system: musculoskeletal
+      finding: "Sacroiliac joint tenderness"
+      probability: 0.70
+    - system: musculoskeletal
+      finding: "Reduced chest expansion (<5 cm)"
+      probability: 0.40
+    - system: musculoskeletal
+      finding: "Loss of lumbar lordosis, increased thoracic kyphosis (late)"
+      probability: 0.20
+    - system: ophthalmologic
+      finding: "Anterior uveitis with conjunctival injection"
+      probability: 0.25
+treatment:
+  approach: nsaid_first_then_biologic
+  medications:
+    - agent: "Naproxen"
+      rxnorm: "7258"
+      frequency: "twice daily"
+      route: oral
+      indication: "first-line continuous NSAID therapy"
+    - agent: "Indomethacin"
+      rxnorm: "5691"
+      frequency: "twice daily"
+      route: oral
+      indication: "alternative NSAID, particularly effective"
+    - agent: "Adalimumab"
+      rxnorm: "327361"
+      frequency: "every 2 weeks"
+      route: subcutaneous
+      indication: "TNF inhibitor for inadequate NSAID response"
+    - agent: "Secukinumab"
+      rxnorm: "1657982"
+      frequency: "monthly after loading"
+      route: subcutaneous
+      indication: "IL-17 inhibitor for TNF-inadequate response"

@@ -1,0 +1,45 @@
+id: influenza_adult
+topic: "Influenza (Adult)"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Recognize influenza presentation and differentiate from other viral URIs
+  - Know indications for antiviral therapy (within 48 hours, high-risk patients)
+  - Identify complications (secondary bacterial pneumonia, myocarditis)
+  - Understand vaccination recommendations and public health implications
+common_mistakes:
+  - Not testing for influenza during flu season in patients with ILI
+  - Missing the 48-hour window for antiviral benefit
+  - Not treating high-risk patients who present late (still beneficial >48h in severe)
+  - Attributing all febrile URI symptoms to flu without testing
+red_flags:
+  - Dyspnea or hypoxia suggesting pneumonia or ARDS
+  - Altered mental status
+  - Persistent high fever beyond 5 days (secondary infection)
+  - Immunocompromised patient with influenza
+clinical_pearls:
+  - Abrupt onset distinguishes influenza from common cold
+  - Rapid molecular assays (PCR) have better sensitivity than rapid antigen tests
+  - Secondary bacterial pneumonia (S. aureus, S. pneumoniae) typically occurs days 4-7
+  - Oseltamivir should still be given to hospitalized patients even beyond 48 hours
+key_history_questions:
+  - Abrupt onset of fever, myalgias, cough?
+  - Sick contacts or known influenza exposure?
+  - Vaccination status this season?
+  - High-risk conditions (age >65, pregnancy, chronic disease, immunosuppression)?
+  - Duration of symptoms (within 48-hour antiviral window)?
+key_exam_findings:
+  - Fever, flushed appearance
+  - Pharyngeal erythema without exudate
+  - Clear lungs (unless complicated by pneumonia)
+  - Myalgia on palpation
+treatment_principles:
+  - Oseltamivir within 48 hours for all diagnosed influenza (especially high-risk)
+  - Supportive care with fluids and antipyretics
+  - Monitor for secondary bacterial pneumonia
+  - Droplet precautions in healthcare settings
+disposition_guidance:
+  - Outpatient for uncomplicated influenza
+  - Admit for respiratory distress, dehydration, or high-risk with complications
+  - ICU for ARDS or severe pneumonia

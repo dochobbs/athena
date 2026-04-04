@@ -1,0 +1,52 @@
+id: guillain_barre
+topic: "Guillain-Barre Syndrome"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Recognize ascending weakness with areflexia as the classic presentation
+  - Understand albuminocytologic dissociation in CSF as a diagnostic hallmark
+  - Monitor respiratory function serially to anticipate intubation
+  - Differentiate GBS from other causes of acute weakness
+  - Initiate immunotherapy (IVIG or plasmapheresis) early
+common_mistakes:
+  - Relying on SpO2 instead of serial FVC to monitor respiratory status
+  - Using corticosteroids (ineffective in GBS, unlike CIDP)
+  - Missing autonomic dysfunction (labile BP, arrhythmias)
+  - Performing LP too early (CSF protein may be normal in first week)
+  - Not recognizing Miller Fisher variant (ataxia, areflexia, ophthalmoplegia)
+red_flags:
+  - FVC <20 mL/kg or declining >30% from baseline (intubation threshold)
+  - Rapid progression (hours rather than days)
+  - Bulbar weakness with aspiration risk
+  - Autonomic instability (cardiac arrhythmias, blood pressure lability)
+clinical_pearls:
+  - "CSF protein is elevated with normal cell count (albuminocytologic dissociation) but may be normal in first week"
+  - "GBS is an ascending paralysis; if descending, think botulism"
+  - "Nerve conduction studies show demyelination (prolonged distal latency, conduction block)"
+  - "IVIG and plasmapheresis are equally effective; do NOT combine them"
+  - "70% preceded by infection (Campylobacter jejuni most common, also CMV, EBV, Zika)"
+key_history_questions:
+  - "Any recent GI illness or upper respiratory infection 1-4 weeks prior?"
+  - "Where did weakness start and how has it progressed?"
+  - "Any tingling in hands or feet?"
+  - "Any difficulty breathing, swallowing, or facial weakness?"
+  - "Any recent vaccination (very rare association)?"
+key_exam_findings:
+  - "Symmetric ascending flaccid weakness"
+  - "Areflexia or hyporeflexia (key finding)"
+  - "Relatively preserved sensation (motor > sensory)"
+  - "Bilateral facial weakness"
+  - "Declining FVC on serial bedside spirometry"
+  - "Autonomic instability (labile BP, tachycardia)"
+treatment_principles:
+  - "IVIG 0.4 g/kg/day for 5 days OR plasmapheresis (5 sessions over 2 weeks)"
+  - "Serial FVC monitoring every 4-6 hours; intubate if FVC <20 mL/kg"
+  - "DVT prophylaxis (enoxaparin) in immobilized patients"
+  - "Pain management with gabapentin or pregabalin"
+  - "Do NOT use corticosteroids (ineffective in GBS)"
+disposition_guidance:
+  - "ICU admission for monitoring (even if stable, can deteriorate rapidly)"
+  - "Step-down unit acceptable if plateau reached and FVC stable"
+  - "Neurology consultation required"
+  - "Rehabilitation planning for prolonged recovery"

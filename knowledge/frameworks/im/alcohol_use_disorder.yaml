@@ -1,0 +1,54 @@
+id: alcohol_use_disorder
+topic: "Alcohol Use Disorder"
+category: psychiatry
+specialties:
+  - im
+teaching_goals:
+  - Screen for AUD using validated tools (AUDIT, CAGE)
+  - Recognize and treat alcohol withdrawal using CIWA-Ar protocol
+  - Understand the timeline of withdrawal (tremor to seizures to DT)
+  - Give thiamine BEFORE glucose to prevent Wernicke encephalopathy
+  - Initiate medication-assisted treatment for relapse prevention
+common_mistakes:
+  - Giving glucose before thiamine (precipitates Wernicke encephalopathy)
+  - Using fixed-dose benzodiazepine schedules instead of symptom-triggered (CIWA)
+  - Underdosing benzodiazepines in severe withdrawal
+  - Missing the diagnosis because patient minimizes use
+  - Not offering naltrexone or acamprosate for relapse prevention at discharge
+red_flags:
+  - CIWA-Ar score >20 indicating severe withdrawal
+  - Seizures (peak risk 12-48 hours after last drink)
+  - Delirium tremens (48-96 hours, mortality 5-15% if untreated)
+  - Wernicke encephalopathy triad (confusion, ataxia, ophthalmoplegia)
+  - Hemodynamic instability from severe autonomic hyperactivity
+clinical_pearls:
+  - "Withdrawal timeline: tremor (6-24h), seizures (12-48h), DT (48-96h)"
+  - "CIWA-Ar symptom-triggered dosing reduces total benzodiazepine use and ICU stays"
+  - "Thiamine 500mg IV x 3 days for suspected Wernicke; oral thiamine is poorly absorbed"
+  - "Lorazepam preferred in liver disease (no hepatic oxidative metabolism)"
+  - "Naltrexone reduces heavy drinking days; acamprosate helps maintain abstinence"
+key_history_questions:
+  - "How much alcohol do you drink per day/week?"
+  - "When was your last drink?"
+  - "Have you ever had withdrawal symptoms, seizures, or DTs?"
+  - "Have you ever been treated for alcohol withdrawal?"
+  - "CAGE questions: Cut down, Annoyed, Guilty, Eye-opener?"
+  - "Any history of liver disease, pancreatitis, or GI bleeding?"
+key_exam_findings:
+  - "Tremor of outstretched hands"
+  - "Tachycardia, hypertension, diaphoresis"
+  - "CIWA-Ar score for withdrawal severity"
+  - "Hepatomegaly, spider angiomata, palmar erythema"
+  - "Nystagmus, ataxia, confusion (Wernicke triad)"
+  - "Asterixis (hepatic encephalopathy)"
+treatment_principles:
+  - "Symptom-triggered benzodiazepines using CIWA-Ar protocol"
+  - "Thiamine 500mg IV before any glucose administration"
+  - "Folate and multivitamin supplementation"
+  - "Relapse prevention: naltrexone (reduces craving) or acamprosate (maintains abstinence)"
+  - "Brief motivational interviewing and referral to treatment programs"
+disposition_guidance:
+  - "ICU for DTs, recurrent seizures, or hemodynamic instability"
+  - "Medical floor for moderate withdrawal with CIWA monitoring"
+  - "Addiction medicine or psychiatry consultation"
+  - "Discharge planning with relapse prevention medication and treatment referral"

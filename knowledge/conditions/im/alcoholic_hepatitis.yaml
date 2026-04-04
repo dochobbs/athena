@@ -1,0 +1,83 @@
+id: alcoholic_hepatitis
+display_name: "Alcoholic Hepatitis"
+aliases:
+  - Alcohol-associated hepatitis
+  - Acute alcoholic hepatitis
+  - AAH
+snomed: "235875008"
+icd10:
+  - "K70.10"
+  - "K70.11"
+category: acute
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [99.0, 102.0]
+  hr_multiplier: 1.15
+  rr_multiplier: 1.10
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: jaundice
+      probability: 0.90
+      description: "Rapid onset of jaundice over days to weeks"
+    - name: right_upper_quadrant_pain
+      probability: 0.65
+      description: "Tender hepatomegaly"
+    - name: fever
+      probability: 0.55
+      description: "Low-grade fever (may mimic infection)"
+    - name: anorexia
+      probability: 0.70
+      description: "Profound anorexia and malnutrition"
+    - name: nausea_vomiting
+      probability: 0.50
+      description: "Nausea with or without vomiting"
+    - name: ascites
+      probability: 0.50
+      description: "Abdominal distension from ascites"
+  physical_exam:
+    - system: skin
+      finding: "Jaundice, scleral icterus, spider angiomata"
+      probability: 0.85
+    - system: abdomen
+      finding: "Tender hepatomegaly, ascites"
+      probability: 0.75
+    - system: general
+      finding: "Muscle wasting, malnutrition"
+      probability: 0.60
+    - system: neurological
+      finding: "Asterixis if hepatic encephalopathy present"
+      probability: 0.30
+    - system: extremities
+      finding: "Peripheral edema, palmar erythema"
+      probability: 0.45
+treatment:
+  approach: steroids_and_nutrition
+  medications:
+    - agent: "Prednisolone"
+      rxnorm: "8638"
+      frequency: "40 mg daily x 28 days if Maddrey DF >= 32"
+      route: oral
+      indication: "Reduce short-term mortality in severe alcoholic hepatitis"
+    - agent: "Pentoxifylline"
+      rxnorm: "7943"
+      frequency: "400 mg three times daily"
+      route: oral
+      indication: "Alternative if steroids contraindicated (controversial)"
+    - agent: "Thiamine"
+      rxnorm: "10505"
+      frequency: "100 mg IV daily x 3-5 days"
+      route: iv
+      indication: "Prevent Wernicke encephalopathy"
+    - agent: "Folic Acid"
+      rxnorm: "4511"
+      frequency: "1 mg daily"
+      route: oral
+      indication: "Nutritional supplementation"

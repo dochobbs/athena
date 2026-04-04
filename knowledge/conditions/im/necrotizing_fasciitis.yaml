@@ -1,0 +1,77 @@
+id: necrotizing_fasciitis
+display_name: "Necrotizing Fasciitis"
+aliases:
+  - Nec fasc
+  - Flesh-eating disease
+  - Necrotizing soft tissue infection
+  - NSTI
+snomed: "52486002"
+icd10:
+  - "M72.6"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [101.0, 105.0]
+  hr_multiplier: 1.40
+  bp_systolic:
+    - 70
+    - 100
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: severe_pain
+      probability: 0.95
+      description: "pain out of proportion to exam findings"
+    - name: rapid_swelling
+      probability: 0.85
+      description: "rapidly progressive swelling and erythema"
+    - name: fever
+      probability: 0.80
+      description: "high fever, rigors"
+    - name: skin_changes
+      probability: 0.70
+      description: "dusky, violaceous skin progressing to bullae"
+    - name: crepitus
+      probability: 0.30
+      description: "subcutaneous gas (gas gangrene variant)"
+  physical_exam:
+    - system: skin
+      finding: "Pain out of proportion, woody induration, dusky skin"
+      probability: 0.90
+    - system: skin
+      finding: "Hemorrhagic bullae"
+      probability: 0.40
+    - system: skin
+      finding: "Crepitus on palpation"
+      probability: 0.30
+    - system: skin
+      finding: "Cutaneous anesthesia from nerve destruction"
+      probability: 0.25
+    - system: general
+      finding: "Septic appearance, hemodynamic instability"
+      probability: 0.60
+treatment:
+  approach: emergent_surgical_debridement_plus_antibiotics
+  medications:
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "gram-positive and MRSA coverage"
+    - agent: "Piperacillin-Tazobactam"
+      rxnorm: "54044"
+      frequency: "every 6 hours"
+      route: iv
+      indication: "broad-spectrum gram-negative and anaerobic coverage"
+    - agent: "Clindamycin"
+      rxnorm: "2582"
+      frequency: "every 8 hours"
+      route: iv
+      indication: "toxin suppression in GAS necrotizing fasciitis"

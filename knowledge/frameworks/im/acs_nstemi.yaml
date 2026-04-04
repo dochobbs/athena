@@ -1,0 +1,55 @@
+id: acs_nstemi
+topic: Non-ST-Elevation Myocardial Infarction
+category: cardiology
+specialties:
+- im
+teaching_goals:
+- Distinguish NSTEMI from unstable angina by troponin elevation
+- Apply HEART score or TIMI score for risk stratification
+- Know timing of invasive strategy (early vs delayed vs conservative)
+- Initiate appropriate antiplatelet and anticoagulation therapy
+- Understand high-sensitivity troponin interpretation
+common_mistakes:
+- Treating troponin elevation without considering non-ACS causes (PE, sepsis, renal
+  failure)
+- Not serial trending troponins to demonstrate rise and fall
+- Premature discharge of chest pain patients with normal first troponin
+- Not recognizing demand ischemia (Type 2 MI) vs plaque rupture (Type 1 MI)
+- Delaying invasive approach in high-risk patients
+red_flags:
+- Ongoing chest pain despite medical therapy
+- Hemodynamic instability
+- Dynamic ST-segment changes on serial ECGs
+- Elevated TIMI or GRACE score indicating high risk
+- New heart failure or mitral regurgitation
+clinical_pearls:
+- High-sensitivity troponin can rule out MI in 1-3 hours with serial draws
+- Type 2 MI (supply-demand mismatch) does not always need catheterization
+- HEART score <= 3 identifies very low-risk patients for early discharge
+- De Winter T waves (upsloping ST depression + tall T waves in V1-V6) = LAD occlusion
+- Troponin is organ-specific but not disease-specific
+key_history_questions:
+- Describe your chest pain - onset, character, duration, radiation
+- Is this similar to prior heart attacks or angina?
+- What was happening when the pain started?
+- 'Risk factors: DM, HTN, smoking, family history, hyperlipidemia?'
+- Any recent illness, surgery, or immobilization?
+- Current medications including aspirin, blood thinners?
+key_exam_findings:
+- Hemodynamic stability
+- Signs of heart failure
+- New murmurs
+- ECG for ST depression, T-wave inversion
+- Serial troponin trending
+- Evidence of non-cardiac causes of troponin elevation
+treatment_principles:
+- Dual antiplatelet therapy (aspirin + P2Y12 inhibitor)
+- Anticoagulation (enoxaparin or heparin)
+- Beta-blocker for rate and demand reduction
+- High-intensity statin
+- Early invasive strategy for high-risk features
+disposition_guidance:
+- Admit to telemetry or CCU based on risk
+- Cardiac catheterization within 24-72 hours for high risk
+- Low-risk patients may be candidates for stress testing
+- Initiate GDMT before discharge

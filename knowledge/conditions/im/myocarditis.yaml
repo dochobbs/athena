@@ -1,0 +1,85 @@
+id: myocarditis
+display_name: "Myocarditis"
+aliases:
+  - Inflammatory cardiomyopathy
+  - Viral myocarditis
+snomed: "50920009"
+icd10:
+  - "I40.9"
+  - "I40.0"
+  - "I41"
+category: acute
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f:
+    - 99.0
+    - 102.0
+  hr_multiplier: 1.25
+  rr_multiplier: 1.15
+  spo2_min: 92
+presentation:
+  symptoms:
+    - name: chest_pain
+      probability: 0.65
+      description: "may mimic pericarditis or ACS"
+    - name: dyspnea
+      probability: 0.70
+      description: "new-onset heart failure symptoms"
+    - name: fatigue
+      probability: 0.75
+      description: "profound fatigue, exercise intolerance"
+    - name: palpitations
+      probability: 0.45
+      description: "from arrhythmias"
+    - name: fever
+      probability: 0.50
+      description: "preceding viral illness"
+    - name: syncope
+      probability: 0.15
+      description: "from arrhythmia or low output"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Tachycardia out of proportion to fever"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "S3 gallop"
+      probability: 0.40
+    - system: cardiovascular
+      finding: "New murmur of mitral regurgitation"
+      probability: 0.20
+    - system: respiratory
+      finding: "Crackles from pulmonary edema"
+      probability: 0.30
+    - system: extremities
+      finding: "Peripheral edema"
+      probability: 0.25
+treatment:
+  approach: supportive_and_heart_failure_management
+  medications:
+    - agent: "Lisinopril"
+      rxnorm: "29046"
+      frequency: "once daily"
+      route: oral
+      indication: "ACE inhibitor for LV dysfunction"
+    - agent: "Carvedilol"
+      rxnorm: "20352"
+      frequency: "twice daily, start low"
+      route: oral
+      indication: "beta-blocker when hemodynamically stable"
+    - agent: "Furosemide"
+      rxnorm: "4603"
+      frequency: "PRN for volume overload"
+      route: iv
+      indication: "diuresis for congestion"
+    - agent: "Colchicine"
+      rxnorm: "2683"
+      frequency: "0.5 mg BID"
+      route: oral
+      indication: "if concurrent pericarditis (myopericarditis)"

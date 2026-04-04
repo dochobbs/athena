@@ -1,0 +1,74 @@
+id: bacteremia
+display_name: "Bacteremia"
+aliases:
+  - Bloodstream infection
+  - BSI
+  - Positive blood cultures
+  - Staph aureus bacteremia
+snomed: "5758002"
+icd10:
+  - "R78.81"
+  - "A49.9"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [100.5, 104.0]
+  hr_multiplier: 1.25
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: fever
+      probability: 0.90
+      description: "fever with chills and rigors"
+    - name: rigors
+      probability: 0.55
+      description: "shaking chills strongly predictive of bacteremia"
+    - name: malaise
+      probability: 0.70
+      description: "general ill feeling"
+    - name: source_symptoms
+      probability: 0.60
+      description: "symptoms related to primary infection source (UTI, pneumonia, etc.)"
+  physical_exam:
+    - system: general
+      finding: "Febrile, toxic-appearing"
+      probability: 0.75
+    - system: cardiovascular
+      finding: "Tachycardia"
+      probability: 0.80
+    - system: skin
+      finding: "IV catheter or line site erythema"
+      probability: 0.20
+    - system: general
+      finding: "Signs of source: consolidation, CVA tenderness, cellulitis"
+      probability: 0.60
+treatment:
+  approach: source_directed_antibiotic_therapy
+  medications:
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "empiric gram-positive coverage, S. aureus bacteremia"
+    - agent: "Cefepime"
+      rxnorm: "2180"
+      frequency: "every 8 hours"
+      route: iv
+      indication: "empiric gram-negative coverage"
+    - agent: "Nafcillin"
+      rxnorm: "7233"
+      frequency: "every 4 hours"
+      route: iv
+      indication: "definitive therapy for MSSA bacteremia"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "once daily"
+      route: iv
+      indication: "gram-negative bacteremia"

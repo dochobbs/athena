@@ -1,0 +1,49 @@
+id: folate_deficiency
+topic: "Folate Deficiency"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Understand folate metabolism and common causes of deficiency
+  - Differentiate from B12 deficiency using MMA and homocysteine
+  - Recognize that folate deficiency does NOT cause neurologic symptoms
+  - Know medications that interfere with folate metabolism
+common_mistakes:
+  - Treating macrocytic anemia with folate without first ruling out B12 deficiency
+  - Not considering alcohol use disorder as the most common cause
+  - Missing medication-induced deficiency (methotrexate, phenytoin, TMP-SMX)
+  - Assuming all macrocytic anemia is nutritional (check reticulocyte count, thyroid)
+red_flags:
+  - Pancytopenia from severe megaloblastic anemia
+  - Pregnancy with folate deficiency (neural tube defect risk)
+  - Concurrent B12 deficiency (check both always)
+clinical_pearls:
+  - "Folate deficiency: elevated homocysteine, NORMAL methylmalonic acid"
+  - Folate stores last only 3-4 months (vs years for B12)
+  - Alcohol is the most common cause of folate deficiency in developed countries
+  - Serum folate reflects recent intake; RBC folate reflects long-term stores
+  - Food fortification with folic acid has dramatically reduced deficiency in the US
+key_history_questions:
+  - How much alcohol do you drink?
+  - What is your diet like? Do you eat fruits and vegetables?
+  - Are you taking methotrexate, phenytoin, or trimethoprim?
+  - Are you pregnant or planning pregnancy?
+  - Any history of celiac disease or Crohn disease?
+key_exam_findings:
+  - Pallor
+  - Glossitis (smooth, sore tongue)
+  - Angular cheilitis
+  - Normal neurologic exam (key differentiator from B12)
+  - Signs of alcohol use disorder or malnutrition
+  - Signs of underlying malabsorption
+treatment_principles:
+  - Folic acid 1-5 mg daily (response is rapid)
+  - ALWAYS check and correct B12 simultaneously
+  - Address underlying cause (alcohol cessation, dietary improvement)
+  - Leucovorin for methotrexate toxicity (bypasses folate metabolism block)
+  - Reticulocytosis expected within 1 week
+disposition_guidance:
+  - Outpatient management for most cases
+  - Admit if severe anemia requiring transfusion
+  - Nutritional counseling referral
+  - Substance abuse treatment referral if alcohol-related

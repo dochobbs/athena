@@ -1,0 +1,83 @@
+id: endocarditis_id
+display_name: "Infective Endocarditis"
+aliases:
+  - Bacterial endocarditis
+  - Subacute bacterial endocarditis
+  - SBE
+  - IE
+snomed: "56819008"
+icd10:
+  - "I33.0"
+  - "I33.9"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [100.5, 103.5]
+  hr_multiplier: 1.20
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: fever
+      probability: 0.90
+      description: "persistent fever, often low-grade in subacute"
+    - name: malaise
+      probability: 0.80
+      description: "fatigue, weight loss, night sweats"
+    - name: new_murmur
+      probability: 0.50
+      description: "new or changing heart murmur"
+    - name: myalgias_arthralgias
+      probability: 0.40
+      description: "diffuse body aches"
+    - name: embolic_phenomena
+      probability: 0.30
+      description: "stroke, splenic infarct, renal infarct"
+  physical_exam:
+    - system: cardiovascular
+      finding: "New regurgitant murmur"
+      probability: 0.50
+    - system: skin
+      finding: "Janeway lesions (painless erythematous palmar/plantar lesions)"
+      probability: 0.10
+    - system: skin
+      finding: "Osler nodes (painful nodules on fingers/toes)"
+      probability: 0.10
+    - system: ophthalmologic
+      finding: "Roth spots on fundoscopy"
+      probability: 0.05
+    - system: skin
+      finding: "Splinter hemorrhages in nail beds"
+      probability: 0.15
+    - system: general
+      finding: "Splenomegaly"
+      probability: 0.25
+treatment:
+  approach: prolonged_iv_antibiotics
+  medications:
+    - agent: "Vancomycin"
+      rxnorm: "11124"
+      frequency: "every 8-12 hours"
+      route: iv
+      indication: "empiric therapy, MRSA native or prosthetic valve"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "once daily"
+      route: iv
+      indication: "viridans streptococci endocarditis"
+    - agent: "Nafcillin"
+      rxnorm: "7233"
+      frequency: "every 4 hours"
+      route: iv
+      indication: "MSSA endocarditis"
+    - agent: "Gentamicin"
+      rxnorm: "4450"
+      frequency: "every 8 hours"
+      route: iv
+      indication: "synergy for enterococcal endocarditis"

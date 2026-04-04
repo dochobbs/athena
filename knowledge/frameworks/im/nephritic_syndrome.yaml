@@ -1,0 +1,53 @@
+id: nephritic_syndrome
+topic: "Nephritic Syndrome"
+category: renal
+specialties:
+  - im
+teaching_goals:
+  - Define nephritic syndrome (hematuria with RBC casts, proteinuria, hypertension, edema, azotemia)
+  - Use complement levels and serologies to narrow differential
+  - Recognize rapidly progressive glomerulonephritis as a renal emergency
+  - Differentiate IgA nephropathy, post-infectious GN, lupus nephritis, and ANCA vasculitis
+common_mistakes:
+  - Not looking for RBC casts on urinalysis - they are pathognomonic for GN
+  - Confusing nephritic with nephrotic syndrome
+  - Attributing hematuria to UTI without checking for casts and dysmorphic RBCs
+  - Delaying renal biopsy in rapidly progressive GN (every day matters)
+  - Forgetting to check complement levels (low C3/C4 narrows differential significantly)
+red_flags:
+  - Creatinine doubling in days to weeks (RPGN)
+  - Pulmonary hemorrhage with GN (pulmonary-renal syndrome - Goodpasture, ANCA vasculitis)
+  - Severe hypertension with encephalopathy
+  - Oliguria or anuria
+clinical_pearls:
+  - "Low C3, normal C4 = post-infectious GN, MPGN, C3 glomerulopathy"
+  - "Low C3 and C4 = lupus nephritis, cryoglobulinemia"
+  - "Normal complement = IgA nephropathy, ANCA vasculitis, anti-GBM"
+  - IgA nephropathy presents with gross hematuria DURING upper respiratory infection (synpharyngitic)
+  - Post-strep GN presents 1-3 WEEKS AFTER pharyngitis (latent period)
+  - "RPGN on biopsy = crescents - treatment is pulse steroids plus cyclophosphamide or rituximab"
+key_history_questions:
+  - Have you noticed blood in your urine? What color - pink, red, or brown?
+  - Did you have a recent sore throat or skin infection? (post-strep)
+  - Any joint pain, rash, or mouth sores? (lupus, vasculitis)
+  - Any coughing up blood? (pulmonary-renal syndrome)
+  - Any sinus problems or hearing loss? (granulomatosis with polyangiitis)
+  - When was your last normal creatinine?
+key_exam_findings:
+  - Blood pressure (often significantly elevated)
+  - Skin rash (malar rash, palpable purpura, livedo reticularis)
+  - Joint examination
+  - Nasal mucosa and sinuses
+  - Lung auscultation (crackles from hemorrhage or edema)
+  - Fundoscopic exam for hypertensive changes
+treatment_principles:
+  - Urgent nephrology consultation and renal biopsy
+  - BP control with ACEi/ARB (but avoid in AKI with hyperkalemia)
+  - Immunosuppression guided by biopsy results
+  - Pulse methylprednisolone for RPGN while awaiting biopsy
+  - Plasmapheresis for anti-GBM disease or severe ANCA vasculitis
+disposition_guidance:
+  - Admit all patients with active nephritic syndrome and rising creatinine
+  - ICU for pulmonary-renal syndrome
+  - Close outpatient follow-up with serial creatinine and urinalysis
+  - Long-term immunosuppression management with nephrology

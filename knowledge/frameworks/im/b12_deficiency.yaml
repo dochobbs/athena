@@ -1,0 +1,53 @@
+id: b12_deficiency
+topic: "Vitamin B12 Deficiency"
+category: hematology
+specialties:
+  - im
+teaching_goals:
+  - Recognize both hematologic and neurologic manifestations of B12 deficiency
+  - Understand the role of methylmalonic acid in diagnosis (elevated in B12, not folate deficiency)
+  - Know that neurologic damage can occur WITHOUT anemia
+  - Differentiate from folate deficiency (neurologic symptoms unique to B12)
+  - Identify pernicious anemia and other causes of B12 deficiency
+common_mistakes:
+  - Giving folate to correct macrocytic anemia without checking B12 (masks hematologic findings while neuro damage progresses)
+  - Relying only on serum B12 level (can be borderline/normal with functional deficiency)
+  - Not checking methylmalonic acid when B12 is borderline (200-400 pg/mL)
+  - Missing subacute combined degeneration (posterior column + lateral corticospinal tract)
+  - Assuming all macrocytic anemias are B12/folate deficiency (check reticulocyte count, thyroid, liver, MDS)
+red_flags:
+  - Neurologic symptoms (paresthesias, gait instability) - may be irreversible
+  - Pancytopenia (severe B12 deficiency can affect all lineages)
+  - Psychiatric symptoms (psychosis, severe depression) without other cause
+  - Subacute combined degeneration on MRI
+clinical_pearls:
+  - "MMA elevated + homocysteine elevated = B12 deficiency"
+  - "MMA normal + homocysteine elevated = folate deficiency"
+  - Neurologic damage can be irreversible if treatment is delayed >6 months
+  - Anti-intrinsic factor antibodies are specific (but not sensitive) for pernicious anemia
+  - Metformin and PPIs are increasingly recognized causes of B12 deficiency
+key_history_questions:
+  - Do you have any numbness or tingling in your hands or feet?
+  - Any difficulty with balance or walking?
+  - Have you noticed any memory problems or confusion?
+  - What is your diet like? Are you vegan or vegetarian?
+  - Do you take metformin or proton pump inhibitors?
+  - Any history of stomach surgery or autoimmune conditions?
+key_exam_findings:
+  - Vibratory sensation (tuning fork at great toe - posterior columns)
+  - Proprioception testing
+  - Romberg test
+  - Gait assessment (wide-based, ataxic)
+  - Deep tendon reflexes (can be increased or decreased)
+  - Mental status and cognitive testing
+treatment_principles:
+  - IM cyanocobalamin for neurologic symptoms (faster, reliable absorption)
+  - High-dose oral (1000-2000 mcg daily) acceptable for mild deficiency without neuro symptoms
+  - NEVER give folate alone without ruling out B12 deficiency
+  - Lifelong replacement for pernicious anemia
+  - Check reticulocyte count at 1 week to confirm response
+disposition_guidance:
+  - Outpatient for most cases
+  - Admit if severe neurologic deficits, severe anemia, or pancytopenia
+  - Hematology referral if pancytopenia or uncertain diagnosis
+  - Long-term monitoring of neurologic recovery (months to years)

@@ -1,0 +1,86 @@
+id: dermatomyositis
+display_name: "Dermatomyositis"
+aliases:
+  - DM
+  - Inflammatory myopathy
+  - Polymyositis-dermatomyositis
+snomed: "396230008"
+icd10:
+  - "M33.90"
+  - "M33.10"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.0
+  spo2_min: 93
+presentation:
+  symptoms:
+    - name: proximal_weakness
+      probability: 0.90
+      description: "symmetric proximal muscle weakness (difficulty rising from chair, climbing stairs)"
+    - name: skin_rash
+      probability: 0.80
+      description: "characteristic skin findings preceding or concurrent with weakness"
+    - name: dysphagia
+      probability: 0.35
+      description: "difficulty swallowing from pharyngeal muscle involvement"
+    - name: dyspnea
+      probability: 0.25
+      description: "ILD or respiratory muscle weakness"
+    - name: fatigue
+      probability: 0.70
+      description: "generalized fatigue"
+  physical_exam:
+    - system: skin
+      finding: "Heliotrope rash: violaceous periorbital edema"
+      probability: 0.70
+    - system: skin
+      finding: "Gottron papules: erythematous papules over MCPs, PIPs, knuckles"
+      probability: 0.75
+    - system: musculoskeletal
+      finding: "Symmetric proximal muscle weakness (hip flexors, deltoids)"
+      probability: 0.90
+    - system: skin
+      finding: "V-sign: erythema over anterior chest"
+      probability: 0.30
+    - system: skin
+      finding: "Shawl sign: erythema over upper back and shoulders"
+      probability: 0.25
+    - system: skin
+      finding: "Mechanic's hands: hyperkeratotic fissured skin on lateral fingers"
+      probability: 0.20
+treatment:
+  approach: immunosuppressive_therapy
+  medications:
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily, high dose then taper"
+      route: oral
+      indication: "first-line induction therapy"
+    - agent: "Methotrexate"
+      rxnorm: "6851"
+      frequency: "once weekly"
+      route: oral
+      indication: "steroid-sparing agent"
+    - agent: "Azathioprine"
+      rxnorm: "1256"
+      frequency: "once daily"
+      route: oral
+      indication: "alternative steroid-sparing agent"
+    - agent: "IVIG"
+      rxnorm: "5785"
+      frequency: "monthly"
+      route: iv
+      indication: "refractory disease, especially skin-predominant"
+    - agent: "Mycophenolate Mofetil"
+      rxnorm: "68149"
+      frequency: "twice daily"
+      route: oral
+      indication: "ILD-associated dermatomyositis"

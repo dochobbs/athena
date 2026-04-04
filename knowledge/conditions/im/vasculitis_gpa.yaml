@@ -1,0 +1,88 @@
+id: vasculitis_gpa
+display_name: "Granulomatosis with Polyangiitis"
+aliases:
+  - GPA
+  - Wegener granulomatosis
+  - ANCA-associated vasculitis
+  - c-ANCA vasculitis
+snomed: "195353004"
+icd10:
+  - "M31.30"
+  - "M31.31"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [99.0, 102.0]
+  hr_multiplier: 1.10
+  spo2_min: 90
+presentation:
+  symptoms:
+    - name: sinusitis
+      probability: 0.80
+      description: "chronic sinusitis, bloody nasal discharge, nasal crusting"
+    - name: cough_hemoptysis
+      probability: 0.55
+      description: "cough, dyspnea, hemoptysis from pulmonary involvement"
+    - name: hematuria
+      probability: 0.50
+      description: "microscopic hematuria from glomerulonephritis"
+    - name: constitutional_symptoms
+      probability: 0.65
+      description: "fever, weight loss, fatigue, malaise"
+    - name: arthralgias
+      probability: 0.50
+      description: "migratory polyarthralgias"
+    - name: eye_symptoms
+      probability: 0.30
+      description: "scleritis, episcleritis, orbital pseudotumor"
+  physical_exam:
+    - system: ent
+      finding: "Saddle nose deformity, nasal septal perforation, crusting"
+      probability: 0.30
+    - system: respiratory
+      finding: "Crackles, wheeze, or signs of pulmonary hemorrhage"
+      probability: 0.40
+    - system: skin
+      finding: "Palpable purpura, skin ulcers"
+      probability: 0.25
+    - system: ophthalmologic
+      finding: "Scleritis, proptosis"
+      probability: 0.20
+    - system: neurologic
+      finding: "Mononeuritis multiplex"
+      probability: 0.15
+treatment:
+  approach: remission_induction_then_maintenance
+  medications:
+    - agent: "Rituximab"
+      rxnorm: "121191"
+      frequency: "375 mg/m2 weekly x 4 or 1g x 2"
+      route: iv
+      indication: "remission induction, preferred over cyclophosphamide"
+    - agent: "Cyclophosphamide"
+      rxnorm: "3002"
+      frequency: "monthly IV pulse or daily oral"
+      route: iv
+      indication: "alternative induction for severe disease"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "once daily, taper over months"
+      route: oral
+      indication: "high-dose induction with taper"
+    - agent: "Azathioprine"
+      rxnorm: "1256"
+      frequency: "once daily"
+      route: oral
+      indication: "remission maintenance"
+    - agent: "Trimethoprim-Sulfamethoxazole"
+      rxnorm: "10831"
+      frequency: "three times weekly"
+      route: oral
+      indication: "PCP prophylaxis during immunosuppression"

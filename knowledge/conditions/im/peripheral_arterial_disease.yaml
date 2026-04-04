@@ -1,0 +1,80 @@
+id: peripheral_arterial_disease
+display_name: "Peripheral Arterial Disease"
+aliases:
+  - PAD
+  - Peripheral vascular disease
+  - PVD
+  - Claudication
+snomed: "399957001"
+icd10:
+  - "I73.9"
+  - "I70.209"
+  - "I70.219"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+presentation:
+  symptoms:
+    - name: intermittent_claudication
+      probability: 0.65
+      description: "calf or buttock pain with walking, relieved by rest"
+    - name: rest_pain
+      probability: 0.20
+      description: "pain at rest indicating critical limb ischemia"
+    - name: non_healing_wounds
+      probability: 0.15
+      description: "chronic foot or toe ulcers"
+    - name: erectile_dysfunction
+      probability: 0.25
+      description: "from aortoiliac disease (Leriche syndrome)"
+    - name: asymptomatic
+      probability: 0.40
+      description: "many patients with abnormal ABI are asymptomatic"
+  physical_exam:
+    - system: vascular
+      finding: "Diminished or absent peripheral pulses"
+      probability: 0.75
+    - system: extremities
+      finding: "Cool extremities, hair loss, shiny skin"
+      probability: 0.55
+    - system: vascular
+      finding: "Femoral or iliac bruits"
+      probability: 0.35
+    - system: extremities
+      finding: "Non-healing ulcers at tips of toes or pressure points"
+      probability: 0.15
+    - system: extremities
+      finding: "Pallor with elevation, rubor with dependency"
+      probability: 0.40
+treatment:
+  approach: risk_factor_modification_and_exercise
+  medications:
+    - agent: "Aspirin"
+      rxnorm: "1191"
+      frequency: "81 mg once daily"
+      route: oral
+      indication: "antiplatelet therapy"
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "40-80 mg once daily"
+      route: oral
+      indication: "high-intensity statin for CV risk reduction"
+    - agent: "Cilostazol"
+      rxnorm: "24592"
+      frequency: "100 mg BID"
+      route: oral
+      indication: "improves walking distance, avoid in HF"
+    - agent: "Clopidogrel"
+      rxnorm: "32968"
+      frequency: "75 mg once daily"
+      route: oral
+      indication: "alternative antiplatelet to aspirin"

@@ -1,0 +1,53 @@
+id: hospital_acquired_pneumonia
+topic: Hospital-Acquired Pneumonia
+category: pulmonary
+specialties:
+- im
+teaching_goals:
+- Define HAP (>=48h after admission) vs VAP (>=48h after intubation)
+- Know risk factors for MDR pathogens (MRSA, Pseudomonas, ESBL)
+- Apply ATS/IDSA 2016 HAP/VAP guidelines for empiric therapy
+- Understand de-escalation based on culture results
+- Recognize ventilator-associated complications and prevention bundles
+common_mistakes:
+- Using CAP empiric antibiotics for HAP (different organisms)
+- Not de-escalating antibiotics after culture results
+- Over-diagnosing VAP (clinical criteria alone have poor specificity)
+- Using Clinical Pulmonary Infection Score (CPIS) alone to diagnose VAP
+- Treating colonization rather than infection
+red_flags:
+- Septic shock from HAP/VAP
+- Rapidly progressive infiltrates
+- Cavitation suggesting necrotizing pneumonia
+- MDR organism on prior cultures
+- Failure to improve on broad-spectrum antibiotics
+clinical_pearls:
+- HAP/VAP organisms include Pseudomonas, MRSA, Acinetobacter, ESBL-producing GNR
+- Need MRSA coverage if prior MRSA or >20% local MRSA prevalence
+- Need double Pseudomonas coverage if structural lung disease or prior Pseudomonas
+- 'VAP bundle: HOB elevation, daily sedation vacation, SBT, oral care, DVT prophylaxis'
+- Duration of treatment is typically 7 days (shorter if clinical improvement)
+key_history_questions:
+- When was the patient admitted and intubated?
+- Any prior cultures showing resistant organisms?
+- What antibiotics has the patient already received?
+- Immunosuppression status?
+- Recent surgical procedures?
+key_exam_findings:
+- New or worsening infiltrate on CXR
+- Fever or hypothermia
+- Increased purulent secretions
+- Worsening oxygenation
+- New leukocytosis or leukopenia
+- Hemodynamic instability
+treatment_principles:
+- Empiric broad-spectrum coverage based on local antibiogram
+- Anti-MRSA agent if risk factors (vancomycin or linezolid)
+- Antipseudomonal beta-lactam (pip/tazo, cefepime, or meropenem)
+- De-escalate based on culture data
+- 7-day course if clinically improving
+disposition_guidance:
+- ICU level care for severe HAP/VAP with hemodynamic instability
+- Step down when hemodynamically stable and oxygenation improving
+- ID consultation for MDR organisms
+- Implement VAP prevention bundle
