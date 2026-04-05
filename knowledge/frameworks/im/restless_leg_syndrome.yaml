@@ -1,0 +1,53 @@
+id: restless_leg_syndrome
+topic: Restless Legs Syndrome
+category: neurology
+specialties:
+- im
+teaching_goals:
+- Diagnose RLS using the five essential clinical criteria (urge to move, rest worsening, evening worsening, movement relief, not solely from another condition)
+- Check ferritin in all RLS patients and treat iron deficiency (target ferritin >75)
+- Understand augmentation risk with dopamine agonists and why alpha-2-delta ligands are now preferred
+- Identify secondary causes (iron deficiency, renal failure, pregnancy, medications)
+- Know medication triggers (antidepressants, antihistamines, dopamine antagonists)
+common_mistakes:
+- Not checking serum ferritin (iron deficiency is the most common treatable cause)
+- Starting dopamine agonists first-line (augmentation risk; alpha-2-delta ligands preferred)
+- Not recognizing SSRI/SNRI antidepressants as RLS triggers
+- Using diphenhydramine for sleep in RLS patients (worsens symptoms)
+- Missing periodic limb movement disorder as a separate but related diagnosis
+red_flags:
+- Unilateral symptoms or rapidly progressive (consider structural or neurologic cause)
+- RLS symptoms only during the day (atypical; reconsider diagnosis)
+- Associated peripheral neuropathy symptoms (evaluate for neuropathy)
+- Severe refractory RLS despite iron repletion and medication (sleep medicine referral)
+- Augmentation on dopamine agonist (symptoms spreading, earlier onset, shorter relief)
+clinical_pearls:
+- Target ferritin >75 mcg/L, even if not technically iron deficient by standard thresholds
+- Gabapentin is now first-line over dopamine agonists due to lower augmentation risk
+- Augmentation (paradoxical worsening) occurs in 40-70% of patients on long-term dopamine agonists
+- IV iron may be needed if oral supplementation fails to raise ferritin adequately
+- RLS has a strong genetic component; 60% of patients have a positive family history
+key_history_questions:
+- Describe the leg sensations and urge to move?
+- Worse at rest and in the evening/night? Relieved by movement?
+- Impact on sleep onset and quality?
+- Current medications (SSRIs, antihistamines, dopamine antagonists)?
+- Iron deficiency risk factors (menstruation, GI bleeding, vegetarian diet)?
+- Family history of RLS?
+key_exam_findings:
+- Normal neurologic exam (motor, sensory, reflexes)
+- Normal peripheral pulses (rule out vascular claudication)
+- Signs of iron deficiency (pallor, koilonychia)
+- Peripheral neuropathy screening (vibration, monofilament)
+- Normal musculoskeletal exam (rule out arthritis or cramps)
+treatment_principles:
+- Check ferritin and treat to >75 mcg/L with oral or IV iron
+- Alpha-2-delta ligands (gabapentin, pregabalin) are first-line pharmacotherapy
+- Dopamine agonists (pramipexole, ropinirole) are second-line due to augmentation risk
+- Avoid triggers (SSRIs, antihistamines, caffeine, alcohol)
+- Low-dose opioids (oxycodone) reserved for severe refractory cases under specialist guidance
+disposition_guidance:
+- 'Outpatient: RLS managed in primary care with iron repletion and gabapentin'
+- 'Sleep medicine referral: Refractory symptoms, suspected augmentation, or need for polysomnography'
+- 'Neurology referral: Atypical presentation or concern for peripheral neuropathy'
+- 'Follow-up: 4-6 weeks after starting treatment; recheck ferritin after iron supplementation'

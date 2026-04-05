@@ -1,0 +1,71 @@
+id: hyperlipidemia
+display_name: "Hyperlipidemia"
+aliases:
+  - Dyslipidemia
+  - High cholesterol
+  - Hypercholesterolemia
+  - Elevated lipids
+snomed: "55822004"
+icd10:
+  - "E78.5"
+  - "E78.00"
+  - "E78.1"
+category: chronic
+system: cardiology
+specialties:
+  - im
+age_range:
+  min_months: 240
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: asymptomatic
+      probability: 0.90
+      description: "most patients diagnosed on screening labs"
+    - name: xanthomas
+      probability: 0.05
+      description: "tendon or eruptive xanthomas in familial forms"
+    - name: xanthelasma
+      probability: 0.05
+      description: "yellowish plaques around eyelids"
+    - name: arcus cornealis
+      probability: 0.08
+      description: "white ring around cornea, especially age <45"
+  physical_exam:
+    - system: skin
+      finding: "Xanthomas on Achilles tendon or extensor tendons"
+      probability: 0.05
+    - system: ophthalmologic
+      finding: "Corneal arcus"
+      probability: 0.08
+    - system: cardiovascular
+      finding: "Normal exam in most patients"
+      probability: 0.85
+    - system: vascular
+      finding: "Diminished peripheral pulses if advanced atherosclerosis"
+      probability: 0.10
+treatment:
+  approach: statin_based_therapy
+  medications:
+    - agent: "Atorvastatin"
+      rxnorm: "83367"
+      frequency: "once daily"
+      route: oral
+      indication: "high-intensity statin for ASCVD risk reduction"
+    - agent: "Rosuvastatin"
+      rxnorm: "301542"
+      frequency: "once daily"
+      route: oral
+      indication: "high-intensity statin alternative"
+    - agent: "Ezetimibe"
+      rxnorm: "341248"
+      frequency: "once daily"
+      route: oral
+      indication: "add-on if statin alone insufficient for LDL goal"
+    - agent: "Icosapent ethyl"
+      rxnorm: "1364430"
+      frequency: "twice daily with food"
+      route: oral
+      indication: "triglycerides >= 150 with ASCVD or high risk"

@@ -1,0 +1,79 @@
+id: low_back_pain
+display_name: Low Back Pain
+aliases:
+- LBP
+- Lumbago
+- Lumbar strain
+- Mechanical back pain
+snomed: '279039007'
+icd10:
+- M54.5
+- M54.50
+category: acute
+system: rheumatology
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: low back pain
+    probability: 1.0
+    description: dull, aching, or sharp pain in lumbar region
+  - name: muscle spasm
+    probability: 0.5
+    description: paraspinal tightness and guarding
+  - name: limited range of motion
+    probability: 0.6
+    description: difficulty bending or twisting
+  - name: radiation to buttock
+    probability: 0.35
+    description: referred pain without true radiculopathy
+  - name: leg pain below knee
+    probability: 0.2
+    description: suggests radiculopathy if dermatomal
+  - name: morning stiffness
+    probability: 0.3
+    description: inflammatory etiology if >30 minutes
+  physical_exam:
+  - system: musculoskeletal
+    finding: Paraspinal tenderness and muscle spasm
+    probability: 0.65
+  - system: musculoskeletal
+    finding: Reduced lumbar flexion and extension
+    probability: 0.55
+  - system: neurologic
+    finding: Negative straight leg raise (rules out radiculopathy)
+    probability: 0.75
+  - system: neurologic
+    finding: Intact strength, sensation, and reflexes
+    probability: 0.8
+  - system: neurologic
+    finding: Positive straight leg raise suggesting disc herniation
+    probability: 0.15
+treatment:
+  approach: conservative_multimodal
+  medications:
+  - agent: Naproxen
+    rxnorm: '7258'
+    frequency: twice daily x 7-14 days
+    route: oral
+    indication: first-line NSAID for acute low back pain
+  - agent: Cyclobenzaprine
+    rxnorm: '3112'
+    frequency: three times daily x 7 days
+    route: oral
+    indication: short-term muscle relaxant for acute spasm
+  - agent: Acetaminophen
+    rxnorm: '161'
+    frequency: every 6 hours as needed
+    route: oral
+    indication: mild pain or NSAID-contraindicated patients
+  - agent: Duloxetine
+    rxnorm: '72625'
+    frequency: once daily
+    route: oral
+    indication: chronic low back pain with or without depression

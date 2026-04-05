@@ -1,0 +1,80 @@
+id: headache_adult
+display_name: "Headache (Adult, Undifferentiated)"
+aliases:
+  - Cephalalgia
+  - Head pain
+  - Headache NOS
+snomed: "25064002"
+icd10:
+  - "R51.9"
+  - "R51.0"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  bp_systolic: [110, 180]
+presentation:
+  symptoms:
+    - name: headache
+      probability: 1.00
+      description: "location, quality, onset, and duration guide differential"
+    - name: photophobia
+      probability: 0.35
+      description: "suggests migraine or meningeal irritation"
+    - name: nausea
+      probability: 0.40
+      description: "common with migraine and elevated ICP"
+    - name: visual changes
+      probability: 0.20
+      description: "aura, diplopia, or blurred vision"
+    - name: neck stiffness
+      probability: 0.10
+      description: "red flag for meningitis or SAH"
+    - name: fever
+      probability: 0.15
+      description: "infectious etiology or systemic illness"
+  physical_exam:
+    - system: neurologic
+      finding: "Normal neurologic exam in primary headache disorders"
+      probability: 0.75
+    - system: neurologic
+      finding: "Nuchal rigidity"
+      probability: 0.05
+    - system: ophthalmologic
+      finding: "Papilledema suggesting elevated ICP"
+      probability: 0.03
+    - system: neurologic
+      finding: "Focal neurologic deficit"
+      probability: 0.05
+    - system: musculoskeletal
+      finding: "Pericranial muscle tenderness in tension-type headache"
+      probability: 0.40
+treatment:
+  approach: type_specific_management
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "every 6-8 hours as needed"
+      route: oral
+      indication: "first-line analgesic for tension-type and mild headache"
+    - agent: "Sumatriptan"
+      rxnorm: "37418"
+      frequency: "at onset, may repeat in 2 hours"
+      route: oral
+      indication: "abortive therapy for migraine"
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "every 6 hours as needed"
+      route: oral
+      indication: "mild-moderate headache, alternative to NSAIDs"
+    - agent: "Metoclopramide"
+      rxnorm: "6915"
+      frequency: "single dose IV in ED"
+      route: iv
+      indication: "migraine rescue with antiemetic effect"

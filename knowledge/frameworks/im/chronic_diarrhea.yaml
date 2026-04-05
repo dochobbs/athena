@@ -1,0 +1,54 @@
+id: chronic_diarrhea
+topic: "Chronic Diarrhea"
+category: gastroenterology
+specialties:
+  - im
+teaching_goals:
+  - Classify chronic diarrhea as watery (osmotic vs secretory), inflammatory, or fatty (malabsorption)
+  - Develop a stepwise diagnostic approach based on diarrhea category
+  - Recognize IBS-D as a diagnosis of exclusion using Rome IV criteria
+  - Know indications for colonoscopy in chronic diarrhea workup
+  - Screen for celiac disease with tissue transglutaminase IgA antibody
+common_mistakes:
+  - Diagnosing IBS without excluding celiac disease, IBD, and microscopic colitis
+  - Overlooking medications as a cause (metformin, PPIs, SSRIs, magnesium, sorbitol)
+  - Not testing for C. difficile in patients with recent antibiotics
+  - Missing bile acid malabsorption after cholecystectomy
+  - Checking stool studies before discontinuing potential offending medications
+red_flags:
+  - Nocturnal diarrhea waking patient from sleep (organic cause)
+  - Bloody diarrhea (IBD, malignancy, ischemic colitis)
+  - Unintentional weight loss >5% (malabsorption or malignancy)
+  - Iron deficiency anemia with diarrhea (celiac, colon cancer)
+  - New-onset diarrhea in patient over 50 (colonoscopy indicated)
+clinical_pearls:
+  - Osmotic diarrhea stops with fasting; secretory diarrhea persists
+  - Fecal calprotectin >150 mcg/g suggests inflammatory etiology and warrants colonoscopy
+  - Celiac disease affects 1% of the population and is frequently undiagnosed
+  - Microscopic colitis causes chronic watery diarrhea with normal-appearing colonoscopy; requires biopsy
+  - Bile acid diarrhea responds dramatically to cholestyramine (both diagnostic and therapeutic)
+key_history_questions:
+  - How many stools per day and what is the consistency?
+  - Does the diarrhea wake you at night?
+  - Any blood, mucus, or oil/grease in the stool?
+  - What medications are you taking including supplements?
+  - Any recent antibiotics, travel, or dietary changes?
+  - Does fasting improve the diarrhea?
+key_exam_findings:
+  - Weight loss or signs of malnutrition
+  - Abdominal tenderness or distension
+  - Perianal disease (fistulae, skin tags suggesting Crohn)
+  - Dermatitis herpetiformis (celiac disease)
+  - Thyroid enlargement or tremor (hyperthyroidism)
+  - Orthostatic changes from dehydration
+treatment_principles:
+  - Identify and treat underlying cause before symptomatic therapy
+  - Loperamide is safe for non-inflammatory, non-infectious diarrhea
+  - Cholestyramine for bile acid malabsorption
+  - Rifaximin for IBS-D and SIBO
+  - Dietary modification (low-FODMAP diet for IBS, gluten-free for celiac)
+disposition_guidance:
+  - Outpatient workup for most chronic diarrhea
+  - Colonoscopy for patients over 50, red flags, or elevated fecal calprotectin
+  - GI referral for refractory diarrhea or suspected IBD
+  - Nutritionist referral for celiac disease or malabsorption

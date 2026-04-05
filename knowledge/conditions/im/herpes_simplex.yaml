@@ -1,0 +1,78 @@
+id: herpes_simplex
+display_name: "Herpes Simplex Virus (HSV-1/HSV-2)"
+aliases:
+  - HSV
+  - Genital herpes
+  - Oral herpes
+  - Cold sores
+  - Herpes labialis
+snomed: "88594005"
+icd10:
+  - "B00.9"
+  - "A60.00"
+  - "B00.1"
+category: chronic
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [98.0, 100.5]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: vesicular_lesions
+      probability: 0.85
+      description: "Grouped vesicles on erythematous base, oral or genital"
+    - name: prodromal_tingling
+      probability: 0.65
+      description: "Tingling, burning, or itching before lesion appearance"
+    - name: pain
+      probability: 0.80
+      description: "Pain and tenderness at lesion site"
+    - name: dysuria
+      probability: 0.40
+      description: "Painful urination with genital lesions"
+    - name: lymphadenopathy
+      probability: 0.50
+      description: "Tender inguinal or cervical lymphadenopathy"
+    - name: systemic_symptoms
+      probability: 0.45
+      description: "Fever, malaise, myalgia (especially primary episode)"
+  physical_exam:
+    - system: skin
+      finding: "Grouped vesicles or shallow ulcers on erythematous base"
+      probability: 0.85
+    - system: lymphatic
+      finding: "Tender regional lymphadenopathy"
+      probability: 0.50
+    - system: oral
+      finding: "Vesicles or ulcers on lips, gingiva, hard palate (HSV-1)"
+      probability: 0.40
+    - system: genitourinary
+      finding: "Painful vesicles/ulcers on genitalia, perineum (HSV-2)"
+      probability: 0.55
+treatment:
+  approach: antiviral_episodic_or_suppressive
+  medications:
+    - agent: "Valacyclovir"
+      rxnorm: "11180"
+      frequency: "1 g BID x 10 days (primary); 500 mg BID x 3 days (recurrent)"
+      route: oral
+      indication: "First-line antiviral; superior bioavailability to acyclovir"
+    - agent: "Acyclovir"
+      rxnorm: "281"
+      frequency: "400 mg TID x 7-10 days (primary); 800 mg BID x 5 days (recurrent)"
+      route: oral
+      indication: "Alternative antiviral; also available IV for severe disease"
+    - agent: "Valacyclovir (suppressive)"
+      rxnorm: "11180"
+      frequency: "500 mg-1 g daily"
+      route: oral
+      indication: "Suppressive therapy for >=6 outbreaks/year or discordant couples"

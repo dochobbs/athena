@@ -1,0 +1,78 @@
+id: sinusitis_adult
+display_name: "Acute/Chronic Sinusitis (Adult)"
+aliases:
+  - Rhinosinusitis
+  - Sinus infection
+  - Acute sinusitis
+  - Chronic sinusitis
+snomed: "36971009"
+icd10:
+  - "J01.90"
+  - "J32.9"
+category: acute
+system: ent
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [98.6, 101.5]
+presentation:
+  symptoms:
+    - name: facial pain or pressure
+      probability: 0.80
+      description: "pain over maxillary, frontal, or ethmoid sinuses"
+    - name: nasal congestion
+      probability: 0.90
+      description: "obstruction or stuffiness"
+    - name: purulent nasal discharge
+      probability: 0.70
+      description: "anterior or posterior mucopurulent drainage"
+    - name: anosmia
+      probability: 0.35
+      description: "decreased sense of smell"
+    - name: cough
+      probability: 0.40
+      description: "worse at night from postnasal drip"
+    - name: headache
+      probability: 0.50
+      description: "frontal or periorbital"
+  physical_exam:
+    - system: ent
+      finding: "Sinus tenderness on palpation"
+      probability: 0.65
+    - system: ent
+      finding: "Purulent drainage in nasal cavity or posterior pharynx"
+      probability: 0.60
+    - system: ent
+      finding: "Erythematous and edematous nasal turbinates"
+      probability: 0.70
+    - system: ent
+      finding: "Transillumination opacity (low sensitivity)"
+      probability: 0.30
+treatment:
+  approach: symptom_duration_guided
+  medications:
+    - agent: "Amoxicillin-Clavulanate"
+      rxnorm: "392151"
+      frequency: "twice daily x 5-7 days"
+      route: oral
+      indication: "first-line antibiotic when bacterial sinusitis criteria met"
+    - agent: "Fluticasone nasal spray"
+      rxnorm: "41126"
+      frequency: "once or twice daily"
+      route: intranasal
+      indication: "intranasal corticosteroid for all sinusitis"
+    - agent: "Oxymetazoline"
+      rxnorm: "7808"
+      frequency: "twice daily x 3 days max"
+      route: intranasal
+      indication: "short-term decongestant for symptomatic relief"
+    - agent: "Doxycycline"
+      rxnorm: "3640"
+      frequency: "once daily x 5-7 days"
+      route: oral
+      indication: "alternative for penicillin-allergic patients"

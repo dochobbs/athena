@@ -1,0 +1,82 @@
+id: nausea_vomiting
+display_name: Nausea and Vomiting (Adult)
+aliases:
+- N/V
+- Emesis
+- Nausea
+- Vomiting
+snomed: '422587007'
+icd10:
+- R11.2
+- R11.0
+- R11.10
+category: acute
+system: gi
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  hr_multiplier: 1.1
+  bp_systolic:
+  - 85
+  - 130
+presentation:
+  symptoms:
+  - name: nausea
+    probability: 1.0
+    description: unpleasant sensation of urge to vomit
+  - name: vomiting
+    probability: 0.75
+    description: forceful expulsion of gastric contents
+  - name: abdominal pain
+    probability: 0.5
+    description: epigastric or diffuse discomfort
+  - name: anorexia
+    probability: 0.65
+    description: loss of appetite
+  - name: dehydration symptoms
+    probability: 0.4
+    description: dry mouth, decreased urine output, dizziness
+  - name: diarrhea
+    probability: 0.35
+    description: co-occurring in gastroenteritis
+  physical_exam:
+  - system: abdomen
+    finding: Mild diffuse or epigastric tenderness
+    probability: 0.45
+  - system: general
+    finding: Dry mucous membranes
+    probability: 0.4
+  - system: skin
+    finding: Decreased skin turgor
+    probability: 0.25
+  - system: abdomen
+    finding: Hyperactive bowel sounds
+    probability: 0.3
+treatment:
+  approach: antiemetic_and_hydration
+  medications:
+  - agent: Ondansetron
+    rxnorm: '26225'
+    frequency: every 8 hours as needed
+    route: oral
+    indication: first-line antiemetic
+  - agent: Promethazine
+    rxnorm: '8745'
+    frequency: every 6 hours as needed
+    route: oral
+    indication: alternative antiemetic with sedating properties
+  - agent: Metoclopramide
+    rxnorm: '6915'
+    frequency: before meals and at bedtime
+    route: oral
+    indication: prokinetic for gastroparesis-related nausea
+  - agent: Normal saline
+    rxnorm: '313002'
+    frequency: bolus then maintenance
+    route: iv
+    indication: volume resuscitation for dehydration

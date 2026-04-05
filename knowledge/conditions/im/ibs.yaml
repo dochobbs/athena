@@ -1,0 +1,94 @@
+id: ibs
+display_name: "Irritable Bowel Syndrome"
+aliases:
+  - IBS
+  - IBS-D
+  - IBS-C
+  - IBS-M
+  - Spastic colon
+  - Functional bowel disorder
+snomed: "10743008"
+icd10:
+  - "K58.9"
+  - "K58.0"
+  - "K58.1"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: abdominal_pain
+      probability: 0.95
+      description: "Recurrent abdominal pain related to defecation, at least 1 day/week for 3 months"
+    - name: altered_bowel_habits
+      probability: 0.90
+      description: "Diarrhea, constipation, or alternating pattern"
+    - name: bloating
+      probability: 0.80
+      description: "Abdominal distention and gas"
+    - name: mucus_in_stool
+      probability: 0.30
+      description: "Mucus passage with bowel movements"
+    - name: urgency
+      probability: 0.50
+      description: "Fecal urgency, especially in IBS-D"
+    - name: incomplete_evacuation
+      probability: 0.45
+      description: "Sensation of incomplete emptying after bowel movement"
+  physical_exam:
+    - system: abdomen
+      finding: "Mild diffuse tenderness, often LLQ; no peritoneal signs"
+      probability: 0.60
+    - system: abdomen
+      finding: "Distention or tympany from gas"
+      probability: 0.40
+    - system: rectal
+      finding: "Normal rectal exam; no masses, guaiac negative"
+      probability: 0.90
+    - system: general
+      finding: "Anxious affect; often coexists with anxiety or depression"
+      probability: 0.35
+treatment:
+  approach: subtype_directed_with_dietary_modification
+  medications:
+    - agent: "Psyllium"
+      rxnorm: "8923"
+      frequency: "1 tablespoon daily in water"
+      route: oral
+      indication: "Soluble fiber for IBS-C; bulk-forming laxative"
+    - agent: "Loperamide"
+      rxnorm: "6468"
+      frequency: "2-4 mg as needed after loose stools"
+      route: oral
+      indication: "Symptomatic control of diarrhea in IBS-D"
+    - agent: "Dicyclomine"
+      rxnorm: "3356"
+      frequency: "10-20 mg four times daily"
+      route: oral
+      indication: "Antispasmodic for abdominal cramping"
+    - agent: "Linaclotide"
+      rxnorm: "1234995"
+      frequency: "290 mcg daily (IBS-C) or 72 mcg (CIC)"
+      route: oral
+      indication: "Guanylate cyclase agonist for IBS-C"
+    - agent: "Rifaximin"
+      rxnorm: "190099"
+      frequency: "550 mg three times daily for 14 days"
+      route: oral
+      indication: "Non-absorbed antibiotic for IBS-D with bloating"
+    - agent: "Amitriptyline"
+      rxnorm: "704"
+      frequency: "10-25 mg at bedtime"
+      route: oral
+      indication: "Low-dose TCA for visceral pain modulation in IBS-D"

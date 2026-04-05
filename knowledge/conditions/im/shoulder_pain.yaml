@@ -1,0 +1,80 @@
+id: shoulder_pain
+display_name: Shoulder Pain
+aliases:
+- Rotator cuff injury
+- Shoulder impingement
+- Adhesive capsulitis
+- Frozen shoulder
+snomed: '45326000'
+icd10:
+- M25.519
+- M75.100
+- M75.40
+category: acute
+system: rheumatology
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: shoulder pain
+    probability: 1.0
+    description: anterolateral or diffuse, worse with overhead activity
+  - name: night pain
+    probability: 0.55
+    description: classic for rotator cuff pathology, lying on affected side
+  - name: weakness
+    probability: 0.4
+    description: difficulty with overhead tasks or lifting
+  - name: stiffness
+    probability: 0.45
+    description: limited active and passive ROM in adhesive capsulitis
+  - name: catching or clicking
+    probability: 0.2
+    description: may suggest labral tear
+  - name: pain with specific movements
+    probability: 0.7
+    description: painful arc 60-120 degrees suggests impingement
+  physical_exam:
+  - system: musculoskeletal
+    finding: Positive Neer and Hawkins impingement signs
+    probability: 0.5
+  - system: musculoskeletal
+    finding: Weakness with empty can test (supraspinatus)
+    probability: 0.35
+  - system: musculoskeletal
+    finding: Positive drop arm test (full-thickness rotator cuff tear)
+    probability: 0.1
+  - system: musculoskeletal
+    finding: Restricted passive ROM in all planes (adhesive capsulitis)
+    probability: 0.2
+  - system: musculoskeletal
+    finding: Tenderness over greater tuberosity or bicipital groove
+    probability: 0.55
+treatment:
+  approach: conservative_then_procedural
+  medications:
+  - agent: Naproxen
+    rxnorm: '7258'
+    frequency: twice daily x 2-4 weeks
+    route: oral
+    indication: first-line NSAID for pain and inflammation
+  - agent: Triamcinolone acetonide
+    rxnorm: '10759'
+    frequency: single subacromial injection
+    route: injection
+    indication: subacromial corticosteroid injection for impingement
+  - agent: Acetaminophen
+    rxnorm: '161'
+    frequency: every 6 hours as needed
+    route: oral
+    indication: adjunctive analgesic
+  - agent: Diclofenac topical gel
+    rxnorm: '3355'
+    frequency: four times daily
+    route: topical
+    indication: topical NSAID for localized pain

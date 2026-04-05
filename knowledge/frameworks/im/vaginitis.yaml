@@ -1,0 +1,57 @@
+id: vaginitis
+topic: Vaginitis/Vulvovaginitis (Adult)
+category: gynecology
+specialties:
+- im
+teaching_goals:
+- 'Differentiate the three most common causes: bacterial vaginosis, vulvovaginal candidiasis,
+  and trichomoniasis'
+- Perform and interpret office-based diagnostic tests (wet mount, KOH, pH, whiff test)
+- Recognize that BV is not an STI but is associated with sexual activity
+- Treat each etiology with appropriate antimicrobial
+- Know when to refer for recurrent or refractory vaginitis
+common_mistakes:
+- Treating based on symptoms alone without performing wet mount or point-of-care testing
+- Prescribing antibiotics for normal physiologic discharge
+- Not treating sexual partners of patients with trichomoniasis
+- Using fluconazole for complicated candidiasis (needs longer course)
+- Missing atrophic vaginitis in postmenopausal women
+red_flags:
+- Cervical motion tenderness (PID, not simple vaginitis)
+- Fever with vaginal discharge (PID or tubo-ovarian abscess)
+- Bloody discharge in postmenopausal woman (endometrial pathology)
+- Persistent symptoms despite treatment (consider resistant organism or alternative
+  diagnosis)
+clinical_pearls:
+- BV has fishy odor, thin gray discharge, pH >4.5, positive whiff test, and clue cells
+- Candidiasis has thick white cottage-cheese discharge, pH <4.5, and KOH shows hyphae/pseudohyphae
+- Trichomoniasis has frothy yellow-green discharge, pH >4.5, and motile trichomonads
+  on wet mount
+- BV and trichomoniasis both have elevated pH; candidiasis has normal pH
+- Recurrent BV (3+ episodes/year) may benefit from suppressive metronidazole vaginal
+  gel
+key_history_questions:
+- What does the discharge look like (color, consistency, amount)?
+- Any odor, and is it worse after intercourse?
+- Any itching, burning, or pain with intercourse?
+- When was your last period and could you be pregnant?
+- Have you tried any over-the-counter treatments?
+- New sexual partner or change in sexual practices?
+key_exam_findings:
+- Character of discharge on speculum exam
+- Vulvar erythema, edema, or excoriations
+- Cervical appearance (strawberry cervix in trichomoniasis)
+- Vaginal pH testing
+- Wet mount microscopy (clue cells, hyphae, motile trichomonads)
+- Whiff test with KOH
+treatment_principles:
+- 'BV: metronidazole oral or vaginal, or clindamycin vaginal'
+- 'Candidiasis: fluconazole single dose for uncomplicated; longer course for complicated'
+- 'Trichomoniasis: metronidazole or tinidazole oral, treat partners'
+- 'Atrophic vaginitis: vaginal estrogen'
+- Avoid douching and irritant products
+disposition_guidance:
+- Outpatient management for all uncomplicated vaginitis
+- Follow-up if symptoms persist after treatment
+- Gynecology referral for recurrent vaginitis (4+ episodes/year)
+- Evaluate for PID if cervical motion tenderness or fever present

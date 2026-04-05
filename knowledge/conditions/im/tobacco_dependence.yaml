@@ -1,0 +1,79 @@
+id: tobacco_dependence
+display_name: "Tobacco Use Disorder / Smoking Cessation"
+aliases:
+  - Nicotine dependence
+  - Smoking cessation
+  - Tobacco use disorder
+  - Nicotine addiction
+snomed: "89765005"
+icd10:
+  - "F17.210"
+  - "F17.200"
+  - "Z87.891"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.05
+  rr_multiplier: 1.0
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: tobacco_craving
+      probability: 0.90
+      description: "Strong urge to smoke, especially in habitual contexts"
+    - name: withdrawal_irritability
+      probability: 0.75
+      description: "Irritability, anxiety, and restlessness when attempting to quit"
+    - name: difficulty_concentrating
+      probability: 0.55
+      description: "Impaired concentration and cognitive function during withdrawal"
+    - name: increased_appetite
+      probability: 0.60
+      description: "Increased appetite and weight gain during cessation"
+    - name: cough
+      probability: 0.50
+      description: "Chronic productive cough from tobacco use"
+  physical_exam:
+    - system: pulmonary
+      finding: "Decreased breath sounds, wheezing, or prolonged expiratory phase"
+      probability: 0.35
+    - system: oral
+      finding: "Tobacco staining of teeth, leukoplakia, or gingivitis"
+      probability: 0.50
+    - system: skin
+      finding: "Nicotine staining of fingers, premature wrinkling"
+      probability: 0.30
+    - system: cardiovascular
+      finding: "Elevated blood pressure from chronic nicotine exposure"
+      probability: 0.25
+treatment:
+  approach: combination_counseling_and_pharmacotherapy
+  medications:
+    - agent: "Nicotine patch"
+      rxnorm: "636671"
+      frequency: "21 mg/day x 6 wk, then 14 mg x 2 wk, then 7 mg x 2 wk"
+      route: transdermal
+      indication: "First-line nicotine replacement for sustained delivery"
+    - agent: "Nicotine gum"
+      rxnorm: "636676"
+      frequency: "2-4 mg every 1-2 hours as needed"
+      route: buccal
+      indication: "Short-acting NRT for breakthrough cravings"
+    - agent: "Varenicline"
+      rxnorm: "637190"
+      frequency: "0.5 mg daily x 3 days, then 0.5 mg BID x 4 days, then 1 mg BID"
+      route: oral
+      indication: "Most effective single agent for smoking cessation"
+    - agent: "Bupropion SR"
+      rxnorm: "42568"
+      frequency: "150 mg daily x 3 days, then 150 mg BID"
+      route: oral
+      indication: "Non-nicotine option; start 1-2 weeks before quit date"

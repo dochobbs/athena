@@ -1,0 +1,75 @@
+id: concussion_adult
+display_name: "Concussion (Adult)"
+aliases:
+  - Mild traumatic brain injury
+  - mTBI
+  - Post-concussive syndrome
+snomed: "110030002"
+icd10:
+  - "S06.0X0A"
+  - "F07.81"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.05
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: headache
+      probability: 0.90
+      description: "Persistent headache, often pressure-like, worsened by exertion"
+    - name: dizziness
+      probability: 0.75
+      description: "Lightheadedness or vertigo, worse with position changes"
+    - name: cognitive_difficulty
+      probability: 0.65
+      description: "Difficulty concentrating, feeling foggy or slowed"
+    - name: nausea
+      probability: 0.55
+      description: "Nausea with or without vomiting"
+    - name: light_sensitivity
+      probability: 0.50
+      description: "Photophobia and phonophobia"
+    - name: sleep_disturbance
+      probability: 0.60
+      description: "Difficulty falling asleep or excessive drowsiness"
+  physical_exam:
+    - system: neuro
+      finding: "Normal neurologic exam; subtle balance/coordination deficits on tandem gait"
+      probability: 0.70
+    - system: neuro
+      finding: "Impaired smooth pursuit or saccadic eye movements"
+      probability: 0.45
+    - system: head
+      finding: "Scalp tenderness or contusion at impact site"
+      probability: 0.50
+    - system: neuro
+      finding: "Positive Romberg or difficulty with tandem gait"
+      probability: 0.35
+treatment:
+  approach: relative_rest_then_graded_return
+  medications:
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "500-1000 mg every 6 hours as needed"
+      route: oral
+      indication: "Headache management (avoid NSAIDs acutely due to bleeding risk)"
+    - agent: "Amitriptyline"
+      rxnorm: "704"
+      frequency: "10-25 mg at bedtime"
+      route: oral
+      indication: "Post-concussive headache prophylaxis if persistent >2 weeks"
+    - agent: "Melatonin"
+      rxnorm: "6693"
+      frequency: "3-5 mg at bedtime"
+      route: oral
+      indication: "Sleep disturbance associated with concussion"

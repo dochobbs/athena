@@ -1,0 +1,99 @@
+id: alcohol_withdrawal
+display_name: "Alcohol Withdrawal Syndrome"
+aliases:
+  - AWS
+  - Alcohol withdrawal
+  - Delirium tremens
+  - DTs
+  - Alcohol withdrawal seizure
+snomed: "191480000"
+icd10:
+  - "F10.239"
+  - "F10.231"
+  - "F10.232"
+category: acute
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f: [98.6, 102.0]
+  hr_multiplier: 1.25
+  rr_multiplier: 1.15
+  spo2_min: 94
+presentation:
+  symptoms:
+    - name: tremor
+      probability: 0.85
+      description: "Coarse hand tremor, onset 6-24 hours after last drink"
+    - name: anxiety_agitation
+      probability: 0.80
+      description: "Anxiety, restlessness, psychomotor agitation"
+    - name: diaphoresis
+      probability: 0.70
+      description: "Profuse sweating and autonomic hyperactivity"
+    - name: nausea_vomiting
+      probability: 0.60
+      description: "Nausea and vomiting early in withdrawal"
+    - name: seizures
+      probability: 0.10
+      description: "Generalized tonic-clonic seizures, typically 12-48 hours after cessation"
+    - name: hallucinations
+      probability: 0.15
+      description: "Visual, auditory, or tactile hallucinations (alcoholic hallucinosis)"
+    - name: delirium
+      probability: 0.05
+      description: "Delirium tremens: confusion, agitation, fever, autonomic instability (48-96 hours)"
+  physical_exam:
+    - system: neurologic
+      finding: "Coarse resting and intentional tremor"
+      probability: 0.85
+    - system: vital_signs
+      finding: "Tachycardia, hypertension, diaphoresis, fever"
+      probability: 0.75
+    - system: psych
+      finding: "Agitation, disorientation, visual hallucinations (DTs)"
+      probability: 0.15
+    - system: neurologic
+      finding: "Hyperreflexia and clonus"
+      probability: 0.30
+    - system: general
+      finding: "Diaphoresis with flushed facies"
+      probability: 0.65
+treatment:
+  approach: ciwa_based_symptom_triggered_benzodiazepines
+  medications:
+    - agent: "Chlordiazepoxide"
+      rxnorm: "2356"
+      frequency: "25-100 mg every 6 hours, taper over 3-5 days"
+      route: oral
+      indication: "First-line benzodiazepine for mild-moderate withdrawal"
+    - agent: "Lorazepam"
+      rxnorm: "6470"
+      frequency: "1-4 mg IV/IM every 15-30 minutes per CIWA protocol"
+      route: iv
+      indication: "Preferred in hepatic impairment (no active metabolites)"
+    - agent: "Diazepam"
+      rxnorm: "3322"
+      frequency: "5-20 mg IV every 5-10 minutes for severe withdrawal"
+      route: iv
+      indication: "Rapid-acting for seizures or severe DTs"
+    - agent: "Thiamine"
+      rxnorm: "10689"
+      frequency: "500 mg IV TID for 3 days, then 100 mg daily"
+      route: iv
+      indication: "Prevent Wernicke encephalopathy; give BEFORE glucose"
+    - agent: "Folate"
+      rxnorm: "4511"
+      frequency: "1 mg daily"
+      route: oral
+      indication: "Replete folate deficiency common in chronic alcohol use"
+    - agent: "Phenobarbital"
+      rxnorm: "8120"
+      frequency: "130-260 mg IV, may repeat"
+      route: iv
+      indication: "Refractory withdrawal not responding to benzodiazepines"

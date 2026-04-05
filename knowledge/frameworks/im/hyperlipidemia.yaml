@@ -1,0 +1,51 @@
+id: hyperlipidemia
+topic: "Hyperlipidemia/Dyslipidemia"
+category: cardiology
+specialties:
+  - im
+teaching_goals:
+  - Apply the ACC/AHA pooled cohort equation to estimate 10-year ASCVD risk
+  - Identify the four statin benefit groups per 2018 guidelines
+  - Select appropriate statin intensity based on risk category
+  - Recognize familial hypercholesterolemia and initiate early aggressive treatment
+  - Counsel on lifestyle modifications as foundation of lipid management
+common_mistakes:
+  - Treating LDL number in isolation without assessing overall ASCVD risk
+  - Not using high-intensity statin when indicated (ASCVD, LDL >190, DM age 40-75)
+  - Checking LFTs routinely on statins when not indicated
+  - Stopping statins for mild myalgias without a washout and rechallenge trial
+  - Forgetting to screen for secondary causes (hypothyroidism, nephrotic syndrome)
+red_flags:
+  - LDL >190 in young adult (familial hypercholesterolemia)
+  - Triglycerides >500 (risk of acute pancreatitis)
+  - Tendon xanthomas (pathognomonic for FH)
+  - Premature ASCVD events in patient or family
+clinical_pearls:
+  - High-intensity statin = atorvastatin 40-80mg or rosuvastatin 20-40mg
+  - Statin-associated muscle symptoms occur in 5-10%, true rhabdomyolysis is exceedingly rare
+  - Ezetimibe adds 15-20% additional LDL lowering on top of statin
+  - Fasting lipid panel is no longer required for screening per 2018 guidelines
+  - PCSK9 inhibitors for FH or ASCVD patients not at goal on maximal statin + ezetimibe
+key_history_questions:
+  - Family history of premature cardiovascular disease or high cholesterol?
+  - Current diet, exercise, smoking, and alcohol habits?
+  - Any muscle pain, weakness, or dark urine on current medications?
+  - Do you have diabetes, hypertension, or kidney disease?
+  - Are you taking any medications that interact with statins?
+  - Any history of pancreatitis (if triglycerides elevated)?
+key_exam_findings:
+  - Xanthomas on Achilles tendon or extensor tendons (FH)
+  - Xanthelasma around eyelids
+  - Corneal arcus in patient under 45
+  - Carotid or femoral bruits (atherosclerotic disease)
+  - BMI and waist circumference
+treatment_principles:
+  - Lifestyle modifications for all patients (diet, exercise, weight management)
+  - Statin therapy is the cornerstone of pharmacologic treatment
+  - Intensity of statin based on ASCVD risk category, not LDL target alone
+  - Add ezetimibe before PCSK9 inhibitors for additional LDL lowering
+  - Fibrates or icosapent ethyl for significantly elevated triglycerides
+disposition_guidance:
+  - Outpatient management with lipid panel recheck at 4-12 weeks after starting therapy
+  - Urgent evaluation if triglycerides >500 (pancreatitis risk)
+  - Cardiology referral for familial hypercholesterolemia or refractory cases

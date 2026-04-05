@@ -1,0 +1,75 @@
+id: cough_adult
+display_name: Cough (Adult)
+aliases:
+- Chronic cough
+- Acute cough
+- Persistent cough
+snomed: '49727002'
+icd10:
+- R05.9
+- R05.3
+category: acute
+system: pulmonary
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: cough
+    probability: 1.0
+    description: dry or productive, acute (<3 wk) or chronic (>8 wk)
+  - name: sputum production
+    probability: 0.5
+    description: clear, purulent, or blood-tinged
+  - name: postnasal drip
+    probability: 0.4
+    description: throat clearing, nasal congestion
+  - name: heartburn
+    probability: 0.3
+    description: GERD-associated cough, often worse supine
+  - name: dyspnea
+    probability: 0.25
+    description: suggests asthma, COPD, or heart failure
+  - name: wheezing
+    probability: 0.2
+    description: cough-variant asthma or reactive airways
+  physical_exam:
+  - system: pulmonary
+    finding: Clear lung fields in most outpatient presentations
+    probability: 0.55
+  - system: pulmonary
+    finding: Wheezing on forced expiration
+    probability: 0.2
+  - system: ent
+    finding: Cobblestoning of posterior pharynx from postnasal drip
+    probability: 0.35
+  - system: ent
+    finding: Nasal mucosal edema or discharge
+    probability: 0.3
+treatment:
+  approach: treat_underlying_cause
+  medications:
+  - agent: Benzonatate
+    rxnorm: '1292'
+    frequency: three times daily
+    route: oral
+    indication: antitussive for symptomatic relief
+  - agent: Guaifenesin
+    rxnorm: '5032'
+    frequency: every 12 hours
+    route: oral
+    indication: expectorant for productive cough
+  - agent: Fluticasone nasal spray
+    rxnorm: '41126'
+    frequency: once daily
+    route: intranasal
+    indication: upper airway cough syndrome (postnasal drip)
+  - agent: Omeprazole
+    rxnorm: '7646'
+    frequency: once daily before breakfast
+    route: oral
+    indication: GERD-associated cough

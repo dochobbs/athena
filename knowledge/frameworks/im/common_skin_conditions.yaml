@@ -1,0 +1,54 @@
+id: common_skin_conditions
+topic: Common Skin Conditions (Dermatitis, Tinea, Warts)
+category: dermatology
+specialties:
+- im
+teaching_goals:
+- Differentiate major dermatitis types (atopic, contact, seborrheic, stasis) by distribution and morphology
+- Diagnose tinea infections clinically and with KOH preparation
+- Apply appropriate topical steroid potency by body region
+- Know when to use topical vs. oral antifungals
+- Manage common warts and counsel on expected timeline
+common_mistakes:
+- Using high-potency steroids on face or intertriginous areas (causes atrophy, striae, acneiform eruptions)
+- Treating tinea with topical steroids (partially treats symptoms but worsens infection - tinea incognito)
+- Not performing KOH prep when tinea is suspected (simple bedside test)
+- Overtreating warts aggressively (many resolve spontaneously within 2 years)
+- Missing contact dermatitis by not taking exposure history (new products, occupational exposure)
+red_flags:
+- Rapidly spreading dermatitis with systemic symptoms (erythroderma, DRESS, SJS/TEN)
+- Dermatitis unresponsive to appropriate treatment (consider biopsy for cutaneous T-cell lymphoma)
+- Extensive tinea in immunocompromised patient (deeper fungal infection)
+- Wart-like lesion that is painful, bleeding, or rapidly growing (rule out squamous cell carcinoma)
+- Eczema herpeticum (widespread vesicles on eczematous skin; HSV superinfection)
+clinical_pearls:
+- 'Steroid potency ladder: use lowest effective potency; class VI-VII for face, class III-V for body, class I-II only for thick skin (palms, soles)'
+- KOH prep showing septate hyphae confirms tinea; treat with topical antifungal for 2-4 weeks
+- 'Tinea corporis: annular with central clearing. Tinea versicolor: hypo/hyperpigmented macules, not true tinea (Malassezia yeast)'
+- Most common warts (HPV) resolve spontaneously in 65% of cases within 2 years
+- Atopic dermatitis follows the atopic march (eczema -> allergic rhinitis -> asthma)
+key_history_questions:
+- Distribution, onset, and progression of the rash?
+- Pruritus severity and impact on sleep?
+- New exposures (soaps, detergents, metals, plants, occupational chemicals)?
+- History of atopy (eczema, asthma, allergic rhinitis)?
+- Response to prior treatments (OTC creams, steroids)?
+- Immunosuppression or diabetes (risk for extensive fungal infection)?
+key_exam_findings:
+- Distribution pattern (flexural = atopic, geometric = contact, annular = tinea)
+- Morphology (papules, vesicles, plaques, scales, erosions)
+- Annular plaque with raised scaly border and central clearing (tinea)
+- Verrucous papule with black dots on disruption of skin lines (wart)
+- Lichenification and excoriations (chronic eczema)
+- Interdigital maceration and scaling (tinea pedis)
+treatment_principles:
+- 'Dermatitis: moisturize liberally; topical steroids matched to location and severity'
+- 'Tinea: topical antifungal (terbinafine, clotrimazole) for 2-4 weeks; oral for nail, scalp, or extensive disease'
+- 'Warts: patient choice - watch and wait, salicylic acid, cryotherapy; combination approaches most effective'
+- Steroid-sparing agents (tacrolimus, pimecrolimus) for maintenance on face and skin folds
+- Treat secondary bacterial infection (impetiginized eczema) with topical mupirocin or oral antibiotics
+disposition_guidance:
+- 'Outpatient: Most common skin conditions managed in primary care'
+- 'Dermatology referral: Refractory to standard treatment, diagnostic uncertainty, or need for biopsy'
+- 'Urgent referral: Eczema herpeticum, erythroderma, suspected SJS/TEN'
+- 'Follow-up: 4-6 weeks to assess treatment response and adjust therapy'

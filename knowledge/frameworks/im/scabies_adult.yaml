@@ -1,0 +1,52 @@
+id: scabies_adult
+topic: Scabies (Adult)
+category: dermatology
+specialties:
+- im
+teaching_goals:
+- Recognize classic distribution and nocturnal pruritus pattern
+- Differentiate scabies from other pruritic dermatoses (eczema, contact dermatitis)
+- Know to treat all household contacts simultaneously
+- Understand environmental decontamination measures
+- Identify crusted (Norwegian) scabies in immunocompromised patients
+common_mistakes:
+- Treating only the symptomatic patient and not close contacts
+- Not repeating treatment in 7-14 days (to kill newly hatched mites)
+- Confusing post-scabetic pruritus (can last 2-4 weeks after treatment) with treatment failure
+- Missing scabies in elderly or immunosuppressed who may present atypically
+- Not applying permethrin to entire body from neck down (head in infants/elderly)
+red_flags:
+- Crusted (Norwegian) scabies in immunocompromised (highly contagious, requires aggressive treatment)
+- Secondary bacterial infection (impetigo, cellulitis) from scratching
+- Widespread rash in institutionalized patients (outbreak potential)
+- Post-streptococcal glomerulonephritis from secondary strep infection
+clinical_pearls:
+- Pruritus is an allergic response to mite proteins; takes 2-6 weeks to develop in first infestation
+- Burrows in finger web spaces are pathognomonic but often missed due to excoriation
+- Mineral oil scraping of a burrow can reveal mites, eggs, or scybala under microscopy
+- Post-treatment itch can persist 2-4 weeks; does not indicate treatment failure
+- Ivermectin is particularly useful for outbreaks in institutional settings (easy dosing)
+key_history_questions:
+- When did itching start and is it worse at night?
+- Does anyone else in the household have similar symptoms?
+- Recent close physical contact or shared bedding?
+- Prior episodes of scabies and treatments used?
+- Immunosuppressed status (HIV, transplant, chronic steroids)?
+key_exam_findings:
+- Papulovesicular rash in web spaces, wrists, axillae, waistline, buttocks
+- Linear burrows (pathognomonic)
+- Excoriations from scratching
+- Nodular lesions on genitalia or axillae (nodular scabies)
+- Thick crusted plaques in crusted scabies (immunocompromised)
+- Secondary impetiginization
+treatment_principles:
+- Permethrin 5% cream from neck down, left on 8-14 hours, repeat in 7 days
+- Treat ALL household members and close contacts simultaneously
+- Oral ivermectin 200 mcg/kg for crusted scabies, widespread disease, or institutional outbreaks
+- 'Environmental measures: wash bedding and clothing in hot water, items that cannot be washed in sealed bag for 72 hours'
+- Antihistamines for symptomatic pruritus relief during and after treatment
+disposition_guidance:
+- 'Outpatient: Standard scabies managed with topical permethrin'
+- 'Follow-up: 2-4 weeks to confirm resolution; persistent symptoms may need retreatment'
+- 'Infectious disease or dermatology: Crusted scabies requiring combined oral and topical therapy'
+- 'Public health: Report institutional outbreaks; contact tracing essential'

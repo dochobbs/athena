@@ -1,0 +1,53 @@
+id: fibromyalgia
+topic: Fibromyalgia
+category: rheumatology
+specialties:
+- im
+teaching_goals:
+- Diagnose fibromyalgia using 2016 ACR criteria (WPI + SSS; no tender point exam required)
+- Understand the central sensitization model of pain processing
+- Emphasize exercise as the most evidence-based non-pharmacologic intervention
+- Know FDA-approved medications (duloxetine, pregabalin, milnacipran)
+- Manage common comorbidities (depression, anxiety, sleep disorders, IBS)
+common_mistakes:
+- Ordering extensive rheumatologic workup (ANA, RF) in classic fibromyalgia presentations
+- Prescribing opioids for fibromyalgia pain (ineffective and harmful)
+- Not emphasizing aerobic exercise as cornerstone of treatment
+- Overusing the old 18 tender point exam (no longer required for diagnosis)
+- Missing comorbid sleep apnea or hypothyroidism as treatable contributors
+red_flags:
+- Objective joint swelling or synovitis (consider inflammatory arthritis, not fibromyalgia)
+- Focal neurologic deficits (suggests neurologic disease)
+- Elevated inflammatory markers (ESR/CRP; should be normal in fibromyalgia)
+- Significant weight loss or new-onset symptoms after age 50
+- Progressive weakness (consider myopathy, not fibromyalgia)
+clinical_pearls:
+- Fibromyalgia is a clinical diagnosis; no lab test or imaging confirms it
+- ANA is positive in 10-15% of the general population; do not chase a low-titer ANA in classic fibromyalgia
+- Graduated aerobic exercise 20-30 min, 2-3x/week is the single best intervention
+- Sleep improvement often reduces pain; target sleep quality aggressively
+- Fibromyalgia commonly coexists with other conditions (RA, SLE); both can be present simultaneously
+key_history_questions:
+- Duration and distribution of pain (widespread, both sides, above and below waist)?
+- Fatigue severity and impact on daily function?
+- Sleep quality (unrefreshing sleep, difficulty falling/staying asleep)?
+- Cognitive complaints (concentration, memory, word-finding)?
+- Comorbid conditions (depression, anxiety, IBS, headaches)?
+- Current exercise habits?
+key_exam_findings:
+- Widespread tenderness to palpation without joint swelling
+- Normal joint range of motion and no synovitis
+- Normal neurologic exam (strength, reflexes, sensation)
+- Normal inflammatory markers (ESR, CRP)
+- Frequently anxious or distressed affect
+treatment_principles:
+- Exercise is the most effective non-pharmacologic therapy (start low, go slow)
+- 'FDA-approved medications: duloxetine, pregabalin, milnacipran (moderate effect sizes)'
+- Low-dose amitriptyline or cyclobenzaprine at bedtime for pain and sleep
+- CBT for pain management and coping strategies
+- Avoid opioids, NSAIDs (limited efficacy), and excessive diagnostic testing
+disposition_guidance:
+- 'Outpatient: Fibromyalgia is managed in primary care with multimodal approach'
+- 'Rheumatology referral: Diagnostic uncertainty or concern for coexisting inflammatory disease'
+- 'Physical therapy: Guided exercise program for deconditioning'
+- 'Psychology: CBT for chronic pain management and comorbid mood disorders'

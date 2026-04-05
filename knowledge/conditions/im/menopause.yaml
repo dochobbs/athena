@@ -1,0 +1,76 @@
+id: menopause
+display_name: "Menopause and Perimenopause"
+aliases:
+  - Menopausal syndrome
+  - Climacteric
+  - Perimenopausal transition
+snomed: "161712005"
+icd10:
+  - "N95.1"
+  - "N95.0"
+  - "E28.310"
+category: chronic
+system: gynecology
+specialties:
+  - im
+age_range:
+  min_months: 480
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: hot flashes
+      probability: 0.75
+      description: "sudden warmth spreading to face and upper body"
+    - name: night sweats
+      probability: 0.60
+      description: "nocturnal diaphoresis disrupting sleep"
+    - name: irregular menses
+      probability: 0.80
+      description: "perimenopause with variable cycle length and flow"
+    - name: vaginal dryness
+      probability: 0.55
+      description: "genitourinary syndrome of menopause"
+    - name: sleep disturbance
+      probability: 0.50
+      description: "insomnia independent of or related to vasomotor symptoms"
+    - name: mood changes
+      probability: 0.45
+      description: "irritability, anxiety, depressive symptoms"
+  physical_exam:
+    - system: gynecologic
+      finding: "Vaginal atrophy with pale, thin mucosa"
+      probability: 0.55
+    - system: gynecologic
+      finding: "Decreased vaginal rugae"
+      probability: 0.50
+    - system: skin
+      finding: "Decreased skin elasticity"
+      probability: 0.40
+    - system: musculoskeletal
+      finding: "Normal exam; DEXA indicated for osteoporosis screening"
+      probability: 0.70
+treatment:
+  approach: hormone_and_symptomatic_therapy
+  medications:
+    - agent: "Estradiol"
+      rxnorm: "4083"
+      frequency: "once daily"
+      route: oral
+      indication: "systemic HRT for moderate-severe vasomotor symptoms"
+    - agent: "Medroxyprogesterone"
+      rxnorm: "6691"
+      frequency: "once daily cyclically or continuously"
+      route: oral
+      indication: "endometrial protection in women with uterus on estrogen"
+    - agent: "Vaginal estradiol cream"
+      rxnorm: "4099"
+      frequency: "twice weekly"
+      route: vaginal
+      indication: "genitourinary syndrome of menopause"
+    - agent: "Paroxetine"
+      rxnorm: "32937"
+      frequency: "once daily"
+      route: oral
+      indication: "FDA-approved non-hormonal option for hot flashes"

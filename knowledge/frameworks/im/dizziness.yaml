@@ -1,0 +1,54 @@
+id: dizziness
+topic: "Dizziness and Vertigo"
+category: neurology
+specialties:
+  - im
+teaching_goals:
+  - Classify dizziness into vertigo, presyncope, disequilibrium, and non-specific lightheadedness
+  - Perform and interpret the Dix-Hallpike maneuver for BPPV
+  - Apply the HINTS exam to distinguish central from peripheral vertigo
+  - Treat BPPV with canalith repositioning (Epley) maneuver
+  - Recognize that acute vestibular syndrome can be stroke until proven otherwise
+common_mistakes:
+  - Using meclizine long-term for BPPV instead of performing canalith repositioning
+  - Not performing the Dix-Hallpike test on patients with positional dizziness
+  - Missing posterior circulation stroke presenting as isolated vertigo
+  - Ordering head CT for vertigo (insensitive for posterior fossa stroke; MRI with DWI needed)
+  - Attributing vertigo to cervical spine disease without evidence
+red_flags:
+  - New vertigo with headache, diplopia, dysarthria, or ataxia (posterior circulation stroke)
+  - Vertical nystagmus or direction-changing nystagmus (central cause)
+  - Acute hearing loss with vertigo (labyrinthitis or stroke)
+  - Abnormal HINTS exam (central pattern)
+  - Dizziness with focal neurologic deficits
+clinical_pearls:
+  - BPPV is the most common cause of vertigo, accounting for about 25% of dizziness presentations
+  - Epley maneuver is >80% effective for posterior canal BPPV in a single treatment
+  - HINTS exam (Head Impulse, Nystagmus, Test of Skew) outperforms MRI in first 48 hours of acute vestibular syndrome
+  - Peripheral nystagmus is unidirectional and suppressed by visual fixation; central is not
+  - Orthostatic hypotension is a common cause of presyncope dizziness in elderly patients
+key_history_questions:
+  - What do you mean by dizzy - spinning, lightheadedness, or unsteadiness?
+  - Does it come on with specific head positions or movements?
+  - How long does each episode last (seconds, minutes, hours, days)?
+  - Any hearing loss, tinnitus, or ear fullness?
+  - Any headache, visual changes, numbness, or weakness?
+  - What medications are you taking (antihypertensives, sedatives, ototoxics)?
+key_exam_findings:
+  - Dix-Hallpike maneuver (torsional upbeat nystagmus with latency = posterior canal BPPV)
+  - HINTS exam for acute continuous vertigo
+  - Orthostatic vital signs
+  - Romberg test and gait assessment
+  - Cranial nerve exam including hearing (Weber and Rinne)
+  - Cerebellar testing (finger-nose-finger, rapid alternating movements)
+treatment_principles:
+  - Canalith repositioning (Epley) maneuver is treatment of choice for BPPV
+  - Vestibular suppressants (meclizine) only for acute symptom relief, not long-term
+  - Vestibular rehabilitation therapy for chronic uncompensated vestibular hypofunction
+  - Low-salt diet and diuretics for Meniere disease
+  - Do not use meclizine as a substitute for proper diagnosis
+disposition_guidance:
+  - Outpatient management for BPPV after successful repositioning
+  - Emergency MRI with diffusion-weighted imaging if central vertigo suspected
+  - ENT referral for Meniere disease or recurrent undiagnosed vertigo
+  - Neurology referral for vestibular migraine or suspected central cause

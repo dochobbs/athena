@@ -1,0 +1,73 @@
+id: diverticular_disease
+display_name: "Diverticular Disease (Non-Acute Management)"
+aliases:
+  - Diverticulosis
+  - Diverticular disease
+  - Colonic diverticula
+  - Chronic diverticular disease
+snomed: "3722003"
+icd10:
+  - "K57.30"
+  - "K57.90"
+category: chronic
+system: gi
+specialties:
+  - im
+age_range:
+  min_months: 480
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: left_lower_quadrant_pain
+      probability: 0.50
+      description: "Chronic or intermittent LLQ discomfort, mild and self-limited"
+    - name: bloating
+      probability: 0.45
+      description: "Abdominal distention and gas"
+    - name: altered_bowel_habits
+      probability: 0.40
+      description: "Constipation or alternating constipation and diarrhea"
+    - name: asymptomatic
+      probability: 0.60
+      description: "Most patients with diverticulosis are asymptomatic"
+    - name: rectal_bleeding
+      probability: 0.15
+      description: "Painless hematochezia from diverticular bleed"
+  physical_exam:
+    - system: abdomen
+      finding: "Mild LLQ tenderness; no peritoneal signs"
+      probability: 0.35
+    - system: abdomen
+      finding: "Normal abdominal exam in asymptomatic diverticulosis"
+      probability: 0.60
+    - system: rectal
+      finding: "Guaiac-positive stool if occult bleeding"
+      probability: 0.10
+    - system: vital_signs
+      finding: "Normal vital signs in non-acute setting"
+      probability: 0.95
+treatment:
+  approach: dietary_modification_and_risk_reduction
+  medications:
+    - agent: "Psyllium"
+      rxnorm: "8923"
+      frequency: "1 tablespoon daily in water"
+      route: oral
+      indication: "High-fiber supplement to reduce diverticular complications"
+    - agent: "Mesalamine"
+      rxnorm: "30166"
+      frequency: "2.4 g daily (cyclic or continuous)"
+      route: oral
+      indication: "SUDD (symptomatic uncomplicated diverticular disease); evidence evolving"
+    - agent: "Rifaximin"
+      rxnorm: "190099"
+      frequency: "400 mg BID for 7 days/month (cyclic)"
+      route: oral
+      indication: "Cyclic for recurrent symptomatic diverticular disease (European data)"

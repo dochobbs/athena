@@ -1,0 +1,87 @@
+id: oral_disease
+display_name: "Oral/Dental Disease in Primary Care"
+aliases:
+  - Dental caries
+  - Periodontal disease
+  - Gingivitis
+  - Oral lesions
+  - Aphthous ulcers
+snomed: "65413006"
+icd10:
+  - "K02.9"
+  - "K05.10"
+  - "K12.0"
+  - "K13.70"
+category: acute
+system: ent
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 100.0]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: tooth_pain
+      probability: 0.55
+      description: "Localized dental pain, may be aggravated by hot/cold/sweet"
+    - name: gingival_bleeding
+      probability: 0.45
+      description: "Bleeding gums with brushing or spontaneously"
+    - name: oral_ulcers
+      probability: 0.30
+      description: "Painful mucosal ulcers; recurrent aphthous stomatitis most common"
+    - name: swelling
+      probability: 0.25
+      description: "Facial or gingival swelling suggesting abscess"
+    - name: halitosis
+      probability: 0.35
+      description: "Bad breath from periodontal disease or infection"
+    - name: dysphagia
+      probability: 0.10
+      description: "Difficulty swallowing if deep space infection or large lesion"
+  physical_exam:
+    - system: oral
+      finding: "Dental caries visible as cavitation; gingival erythema and recession"
+      probability: 0.50
+    - system: oral
+      finding: "Aphthous ulcers with gray-white base and erythematous halo"
+      probability: 0.30
+    - system: oral
+      finding: "Fluctuant gingival or periapical abscess"
+      probability: 0.15
+    - system: neck
+      finding: "Submandibular lymphadenopathy"
+      probability: 0.30
+    - system: oral
+      finding: "Leukoplakia or erythroplakia (premalignant lesions)"
+      probability: 0.05
+treatment:
+  approach: symptom_directed_with_dental_referral
+  medications:
+    - agent: "Amoxicillin"
+      rxnorm: "723"
+      frequency: "500 mg three times daily for 7-10 days"
+      route: oral
+      indication: "Dental abscess or periapical infection"
+    - agent: "Clindamycin"
+      rxnorm: "2582"
+      frequency: "300 mg four times daily for 7 days"
+      route: oral
+      indication: "Dental infection with penicillin allergy"
+    - agent: "Chlorhexidine 0.12% oral rinse"
+      rxnorm: "2396"
+      frequency: "15 mL swish and spit twice daily"
+      route: oral_rinse
+      indication: "Gingivitis and periodontal disease adjunct"
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "400-600 mg every 6 hours"
+      route: oral
+      indication: "Dental pain management"

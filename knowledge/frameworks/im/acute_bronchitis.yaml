@@ -1,0 +1,52 @@
+id: acute_bronchitis
+topic: "Acute Bronchitis"
+category: pulmonology
+specialties:
+  - im
+teaching_goals:
+  - Recognize acute bronchitis as a clinical diagnosis that rarely requires testing
+  - Avoid unnecessary antibiotic prescription for acute bronchitis
+  - Distinguish acute bronchitis from pneumonia using clinical findings
+  - Counsel patients on expected duration of cough (up to 3 weeks)
+  - Identify patients who need chest X-ray to exclude pneumonia
+common_mistakes:
+  - Prescribing antibiotics for acute bronchitis (>90% viral, NNT >20 for antibiotics)
+  - Interpreting purulent sputum as indication for antibiotics
+  - Ordering chest X-ray for all patients with cough
+  - Not counseling patients that cough can last 2-3 weeks
+  - Missing pneumonia in elderly or immunosuppressed patients with subtle findings
+red_flags:
+  - Heart rate >100, respiratory rate >24, temperature >38C (evaluate for pneumonia)
+  - Crackles or egophony on lung exam
+  - Hemoptysis
+  - Elderly or immunosuppressed with new cough and malaise
+  - Symptoms persisting beyond 3 weeks
+clinical_pearls:
+  - Acute bronchitis is the most common reason for inappropriate antibiotic prescription
+  - Sputum color does not distinguish viral from bacterial infection
+  - Chest X-ray indicated if HR >100, RR >24, temp >38C, or focal lung findings
+  - Albuterol inhaler helps only if wheezing is present; routine use is not supported
+  - Procalcitonin <0.25 ng/mL makes bacterial infection unlikely and can guide antibiotic avoidance
+key_history_questions:
+  - When did the cough start and is it getting better or worse?
+  - Do you have fever, chills, or shortness of breath?
+  - Any wheezing or chest tightness?
+  - Are you producing sputum and what does it look like?
+  - Do you smoke or have you been exposed to respiratory irritants?
+  - Any recent sick contacts or travel?
+key_exam_findings:
+  - Clear lungs or scattered rhonchi (not focal crackles)
+  - No tachycardia or tachypnea
+  - No hypoxia on pulse oximetry
+  - Absence of egophony or dullness to percussion
+  - Mild pharyngeal erythema from URI
+treatment_principles:
+  - Supportive care is the mainstay (fluids, rest, honey for cough)
+  - Avoid antibiotics; use shared decision-making to address patient expectations
+  - Antitussives (benzonatate, dextromethorphan) for symptomatic relief only
+  - Bronchodilators only if wheezing is present
+  - NSAIDs or acetaminophen for malaise and fever
+disposition_guidance:
+  - Outpatient management for all uncomplicated cases
+  - Return if fever develops, shortness of breath worsens, or cough persists beyond 3 weeks
+  - Chest X-ray follow-up if initial imaging showed infiltrate

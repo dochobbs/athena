@@ -1,0 +1,54 @@
+id: alcohol_withdrawal
+topic: Alcohol Withdrawal Syndrome
+category: psychiatry
+specialties:
+- im
+teaching_goals:
+- Predict withdrawal risk using PAWSS (Prediction of Alcohol Withdrawal Severity Scale) on admission
+- Apply CIWA-Ar protocol for symptom-triggered benzodiazepine dosing
+- Recognize the temporal progression of withdrawal (tremor -> seizures -> DTs)
+- Give thiamine BEFORE glucose to prevent precipitating Wernicke encephalopathy
+- Differentiate alcohol withdrawal from other causes of agitation and delirium
+common_mistakes:
+- Fixed-schedule benzodiazepine dosing instead of symptom-triggered CIWA protocol
+- Giving glucose before thiamine (can precipitate Wernicke encephalopathy)
+- Underdosing benzodiazepines in severe withdrawal (may require very high doses)
+- Discharging after seizure without adequate withdrawal treatment and observation
+- Using phenytoin for alcohol withdrawal seizures (ineffective; benzodiazepines are treatment)
+red_flags:
+- Delirium tremens (mortality 5-15% if untreated; onset 48-96 hours)
+- Seizures (especially recurrent or status epilepticus)
+- Temperature >104F with severe autonomic instability
+- Refractory agitation despite high-dose benzodiazepines (consider phenobarbital or propofol)
+- Concurrent Wernicke encephalopathy (confusion, ophthalmoplegia, ataxia)
+clinical_pearls:
+- CIWA-Ar >10 triggers treatment; >20 indicates severe withdrawal requiring close monitoring
+- Symptom-triggered therapy uses less medication and has shorter treatment courses than fixed-schedule
+- Lorazepam preferred in liver disease (no active metabolites, glucuronide conjugation)
+- Withdrawal seizures are typically generalized tonic-clonic and occur 12-48 hours after last drink
+- Delirium tremens has a mortality of 5-15% if untreated but <1% with appropriate treatment
+key_history_questions:
+- Last drink and quantity? Daily drinking pattern and duration?
+- Prior withdrawal episodes, seizures, or DTs?
+- Prior ICU admissions for withdrawal?
+- Current medications and other substance use?
+- Medical comorbidities (liver disease, pancreatitis, head injury)?
+- Nutritional status and last meal?
+key_exam_findings:
+- Vital signs (tachycardia, hypertension, fever, diaphoresis)
+- Tremor assessment (outstretched hands)
+- Orientation and level of consciousness
+- Visual or tactile hallucinations
+- Seizure activity or signs of prior seizure (tongue bite, incontinence)
+- Stigmata of chronic liver disease (spider angiomata, jaundice, ascites)
+treatment_principles:
+- CIWA-Ar protocol with symptom-triggered benzodiazepine dosing
+- Thiamine 500 mg IV TID for 3 days (high-dose for Wernicke prevention), then 100 mg daily
+- Lorazepam preferred with hepatic impairment; chlordiazepoxide for mild-moderate cases
+- Phenobarbital for benzodiazepine-refractory withdrawal
+- Aggressive fluid and electrolyte replacement (magnesium, potassium, phosphate)
+disposition_guidance:
+- 'Observation/floor: Mild withdrawal (CIWA <15) responding to symptom-triggered therapy'
+- 'ICU: Severe withdrawal (CIWA >20), DTs, refractory seizures, hemodynamic instability'
+- 'Addiction medicine: Link to treatment (naltrexone, acamprosate) before discharge'
+- 'Discharge planning: Outpatient detox only for mild cases with reliable social support'

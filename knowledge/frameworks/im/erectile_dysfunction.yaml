@@ -1,0 +1,53 @@
+id: erectile_dysfunction
+topic: "Erectile Dysfunction"
+category: urology
+specialties:
+  - im
+teaching_goals:
+  - Evaluate ED as a potential marker of cardiovascular disease
+  - Distinguish organic from psychogenic ED using clinical history
+  - Know first-line treatment with PDE5 inhibitors and their contraindications
+  - Screen for and address modifiable risk factors (obesity, smoking, diabetes, medications)
+  - Assess for testosterone deficiency with morning total testosterone
+common_mistakes:
+  - Not screening for cardiovascular risk factors (ED precedes MI by 3-5 years)
+  - Prescribing PDE5 inhibitors with nitrates (absolute contraindication, severe hypotension)
+  - Not checking morning testosterone before concluding hypogonadism
+  - Missing medication-induced ED (SSRIs, beta-blockers, spironolactone, 5-alpha reductase inhibitors)
+  - Failing to address relationship or psychological factors
+red_flags:
+  - ED in young patient with no risk factors (consider pelvic steal syndrome or psychogenic cause)
+  - ED with gynecomastia and small testes (prolactinoma or hypogonadism)
+  - Peyronie disease with painful curvature on erection
+  - ED after pelvic surgery or radiation (neurogenic cause)
+clinical_pearls:
+  - Preserved morning erections suggest psychogenic rather than organic etiology
+  - ED shares risk factors with coronary artery disease; treat it as a cardiovascular risk equivalent
+  - PDE5 inhibitors need 6-8 adequate trials before declaring failure
+  - Tadalafil 5mg daily is preferred for men who also have BPH/LUTS
+  - Testosterone replacement alone does not reliably improve erections; combine with PDE5i if hypogonadal
+key_history_questions:
+  - Do you have difficulty getting erections, maintaining them, or both?
+  - Do you still get morning or nocturnal erections?
+  - How long has this been going on and was onset gradual or sudden?
+  - Do you have diabetes, hypertension, high cholesterol, or heart disease?
+  - What medications are you taking?
+  - Any relationship stress, depression, or anxiety?
+key_exam_findings:
+  - Genital exam (penile plaques, testicular size and consistency)
+  - Peripheral pulses (femoral, dorsalis pedis)
+  - BMI and waist circumference
+  - Blood pressure
+  - Secondary sex characteristics (body hair distribution, gynecomastia)
+  - Focused neurologic exam (bulbocavernosus reflex, perineal sensation)
+treatment_principles:
+  - Lifestyle modification first (exercise, weight loss, smoking cessation)
+  - PDE5 inhibitors are first-line pharmacotherapy
+  - Never combine PDE5 inhibitors with nitrates
+  - Check morning total testosterone and treat deficiency if confirmed
+  - Refer to urology for PDE5i failure (vacuum devices, injections, implant)
+disposition_guidance:
+  - Outpatient management in primary care for most patients
+  - Cardiovascular risk assessment for all men presenting with new ED
+  - Urology referral for treatment failure, Peyronie disease, or consideration of penile prosthesis
+  - Endocrinology referral for complex hypogonadism or pituitary pathology

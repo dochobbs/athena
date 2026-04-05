@@ -1,0 +1,84 @@
+id: restless_leg_syndrome
+display_name: "Restless Legs Syndrome"
+aliases:
+  - RLS
+  - Willis-Ekbom disease
+  - Restless legs
+snomed: "32914008"
+icd10:
+  - "G25.81"
+category: chronic
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: urge_to_move_legs
+      probability: 0.95
+      description: "Irresistible urge to move legs, often with uncomfortable sensations"
+    - name: worse_at_rest
+      probability: 0.90
+      description: "Symptoms begin or worsen during rest or inactivity"
+    - name: evening_worsening
+      probability: 0.85
+      description: "Symptoms worse in evening or nighttime"
+    - name: relief_with_movement
+      probability: 0.90
+      description: "Partial or total relief with walking, stretching, or movement"
+    - name: sleep_disruption
+      probability: 0.75
+      description: "Difficulty falling or staying asleep due to leg discomfort"
+    - name: periodic_limb_movements
+      probability: 0.60
+      description: "Involuntary leg jerking during sleep reported by bed partner"
+  physical_exam:
+    - system: neurologic
+      finding: "Normal neurologic exam between episodes"
+      probability: 0.90
+    - system: vascular
+      finding: "Normal peripheral pulses and no signs of venous insufficiency"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "No joint swelling, deformity, or tenderness"
+      probability: 0.95
+    - system: skin
+      finding: "Possible signs of iron deficiency (koilonychia, pallor)"
+      probability: 0.10
+treatment:
+  approach: iron_repletion_first_then_dopamine_agonist
+  medications:
+    - agent: "Ferrous sulfate"
+      rxnorm: "4479"
+      frequency: "325 mg every other day with vitamin C"
+      route: oral
+      indication: "First-line if ferritin <75 mcg/L (target >75)"
+    - agent: "Iron sucrose"
+      rxnorm: "236745"
+      frequency: "200 mg IV x 5 doses"
+      route: iv
+      indication: "IV iron if oral intolerant or ferritin persistently low"
+    - agent: "Gabapentin"
+      rxnorm: "25480"
+      frequency: "300-600 mg at bedtime"
+      route: oral
+      indication: "First-line pharmacotherapy; preferred over dopamine agonists"
+    - agent: "Pregabalin"
+      rxnorm: "187832"
+      frequency: "75-300 mg at bedtime"
+      route: oral
+      indication: "Alpha-2-delta ligand alternative to gabapentin"
+    - agent: "Pramipexole"
+      rxnorm: "67108"
+      frequency: "0.125-0.5 mg 2-3 hours before bedtime"
+      route: oral
+      indication: "Dopamine agonist; risk of augmentation with long-term use"

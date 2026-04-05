@@ -1,0 +1,72 @@
+id: contraception_adult
+display_name: "Contraception (Adult)"
+aliases:
+  - Birth control
+  - Family planning
+  - Contraceptive counseling
+snomed: "13197004"
+icd10:
+  - "Z30.9"
+  - "Z30.011"
+  - "Z30.49"
+category: chronic
+system: gynecology
+specialties:
+  - im
+age_range:
+  min_months: 168
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: desire for contraception
+      probability: 1.00
+      description: "request for pregnancy prevention counseling"
+    - name: menorrhagia
+      probability: 0.25
+      description: "heavy menses may guide method selection"
+    - name: dysmenorrhea
+      probability: 0.30
+      description: "painful periods may benefit from hormonal methods"
+    - name: acne
+      probability: 0.20
+      description: "may improve with combined hormonal contraceptives"
+  physical_exam:
+    - system: cardiovascular
+      finding: "Blood pressure measurement (required before combined hormonal methods)"
+      probability: 1.00
+    - system: general
+      finding: "BMI calculation for method counseling"
+      probability: 1.00
+    - system: gynecologic
+      finding: "Pelvic exam not required for most methods per CDC MEC"
+      probability: 0.80
+treatment:
+  approach: patient_centered_counseling
+  medications:
+    - agent: "Combined oral contraceptive"
+      rxnorm: "757594"
+      frequency: "once daily"
+      route: oral
+      indication: "first-line reversible hormonal contraception"
+    - agent: "Medroxyprogesterone injection"
+      rxnorm: "6691"
+      frequency: "every 12 weeks"
+      route: im
+      indication: "long-acting injectable progestin contraception"
+    - agent: "Levonorgestrel IUD"
+      rxnorm: "284207"
+      frequency: "replaced every 5-8 years"
+      route: intrauterine
+      indication: "LARC, highly effective, reduces menstrual bleeding"
+    - agent: "Copper IUD"
+      rxnorm: "1359133"
+      frequency: "replaced every 10 years"
+      route: intrauterine
+      indication: "non-hormonal LARC option"
+    - agent: "Etonogestrel implant"
+      rxnorm: "580795"
+      frequency: "replaced every 3 years"
+      route: subdermal
+      indication: "most effective reversible contraceptive"

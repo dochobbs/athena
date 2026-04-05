@@ -1,0 +1,81 @@
+id: insomnia
+display_name: "Insomnia"
+aliases:
+  - Chronic insomnia disorder
+  - Primary insomnia
+  - Sleep-onset insomnia
+  - Sleep-maintenance insomnia
+snomed: "193462001"
+icd10:
+  - "G47.00"
+  - "F51.01"
+category: chronic
+system: psychiatry
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: difficulty_falling_asleep
+      probability: 0.75
+      description: "Sleep latency >30 minutes despite adequate opportunity"
+    - name: difficulty_maintaining_sleep
+      probability: 0.70
+      description: "Frequent nighttime awakenings with difficulty returning to sleep"
+    - name: early_morning_awakening
+      probability: 0.45
+      description: "Waking earlier than desired with inability to return to sleep"
+    - name: daytime_fatigue
+      probability: 0.85
+      description: "Fatigue, low energy, or difficulty concentrating during the day"
+    - name: irritability
+      probability: 0.55
+      description: "Mood disturbance, irritability, or anxiety related to sleep"
+    - name: impaired_performance
+      probability: 0.50
+      description: "Reduced work or social performance due to poor sleep"
+  physical_exam:
+    - system: general
+      finding: "Fatigued appearance, dark circles under eyes"
+      probability: 0.40
+    - system: psych
+      finding: "Anxious or depressed affect on mental status exam"
+      probability: 0.35
+    - system: vital_signs
+      finding: "Normal vital signs; may have mildly elevated BP from sleep deprivation"
+      probability: 0.20
+    - system: airway
+      finding: "Large neck circumference or Mallampati class III-IV (OSA screening)"
+      probability: 0.15
+treatment:
+  approach: cbt_i_first_then_pharmacotherapy
+  medications:
+    - agent: "Melatonin"
+      rxnorm: "6693"
+      frequency: "1-5 mg 1-2 hours before bedtime"
+      route: oral
+      indication: "First-line supplement for circadian rhythm support"
+    - agent: "Trazodone"
+      rxnorm: "10737"
+      frequency: "25-100 mg at bedtime"
+      route: oral
+      indication: "Low-dose for sleep maintenance, favorable safety profile"
+    - agent: "Suvorexant"
+      rxnorm: "1546358"
+      frequency: "10-20 mg at bedtime"
+      route: oral
+      indication: "Orexin receptor antagonist for sleep onset and maintenance"
+    - agent: "Zolpidem"
+      rxnorm: "39993"
+      frequency: "5-10 mg at bedtime (short-term only)"
+      route: oral
+      indication: "Short-term use for acute insomnia; risk of dependence"

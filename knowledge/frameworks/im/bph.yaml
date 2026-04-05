@@ -1,0 +1,52 @@
+id: bph
+topic: Benign Prostatic Hyperplasia
+category: urology
+specialties:
+- im
+teaching_goals:
+- Quantify symptom severity using IPSS (International Prostate Symptom Score)
+- Differentiate BPH from prostate cancer and overactive bladder
+- Know watchful waiting criteria vs. medical vs. surgical indications
+- Understand alpha-blocker vs. 5-ARI mechanism and when to use combination therapy
+- Interpret PSA in context of BPH (5-ARIs reduce PSA by ~50%)
+common_mistakes:
+- Not calculating IPSS before starting treatment (establishes baseline and tracks response)
+- Starting finasteride for small prostates (most effective for prostate >30-40g)
+- Forgetting that 5-ARIs take 6-12 months for full effect
+- Not warning about orthostatic hypotension with alpha-blockers
+- Missing urinary retention as indication for urgent catheterization and referral
+red_flags:
+- Acute urinary retention (inability to void)
+- Recurrent UTIs from incomplete bladder emptying
+- Hematuria (requires cystoscopy to rule out bladder cancer)
+- Elevated creatinine from obstructive uropathy
+- Rapidly rising PSA or hard irregular prostate on DRE (prostate cancer)
+clinical_pearls:
+- IPSS 0-7 mild, 8-19 moderate, 20-35 severe; guides treatment decisions
+- Alpha-blockers (tamsulosin) provide symptom relief within days to weeks
+- 5-ARIs (finasteride, dutasteride) reduce prostate volume but take 6-12 months
+- Combination therapy (alpha-blocker + 5-ARI) is superior for larger prostates
+- Tadalafil 5 mg daily treats both BPH/LUTS and erectile dysfunction
+key_history_questions:
+- LUTS severity (frequency, urgency, nocturia, weak stream, hesitancy)?
+- IPSS score?
+- Hematuria or history of UTIs?
+- Sexual function and impact of symptoms?
+- Current medications (anticholinergics, decongestants can worsen retention)?
+- Family history of prostate cancer?
+key_exam_findings:
+- DRE for prostate size, symmetry, nodularity, and tenderness
+- Suprapubic palpation for bladder distention
+- Focused neurologic exam (perineal sensation, anal tone)
+- Post-void residual by bladder scan
+treatment_principles:
+- 'Mild symptoms (IPSS <8): watchful waiting with annual reassessment'
+- 'Moderate-severe: alpha-blocker (tamsulosin) for rapid symptom relief'
+- 'Large prostate (>30g): add 5-ARI (finasteride or dutasteride)'
+- Tadalafil 5 mg daily for concurrent ED and LUTS
+- 'Surgical referral: refractory symptoms, retention, recurrent UTIs, bladder stones, renal insufficiency'
+disposition_guidance:
+- 'Outpatient: Most BPH managed in primary care with stepwise pharmacotherapy'
+- 'Urology referral: Failed medical therapy, recurrent retention, hematuria, elevated PVR >200 mL'
+- 'Urgent: Acute urinary retention requires catheterization and urology consultation'
+- 'Follow-up: 4-6 weeks after starting alpha-blocker; 6 months for 5-ARI'

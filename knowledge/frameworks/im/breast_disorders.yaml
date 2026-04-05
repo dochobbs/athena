@@ -1,0 +1,53 @@
+id: breast_disorders
+topic: Breast Disorders (Masses, Pain, Discharge)
+category: gynecology
+specialties:
+- im
+teaching_goals:
+- Develop a systematic approach to breast masses based on age and imaging
+- Differentiate cyclic mastalgia from pathologic breast pain
+- Evaluate nipple discharge by characteristics (unilateral/bloody vs. bilateral/milky)
+- Know imaging algorithm (ultrasound <30, mammogram >30, MRI for high-risk)
+- Apply BI-RADS classification and understand follow-up recommendations
+common_mistakes:
+- Reassuring a patient with a palpable mass based on a normal mammogram (sensitivity ~85%; ultrasound needed)
+- Not pursuing tissue sampling for a solid mass in patient >30 regardless of imaging appearance
+- Ordering mammogram in women under 30 (ultrasound is first-line for dense breast tissue)
+- Attributing bloody nipple discharge to benign cause without further workup
+- Missing inflammatory breast cancer (diffuse erythema, peau d'orange, no discrete mass)
+red_flags:
+- Hard, fixed, irregular mass with or without skin changes
+- Bloody or spontaneous unilateral nipple discharge (intraductal papilloma or carcinoma)
+- Peau d'orange, skin dimpling, or nipple retraction
+- Axillary lymphadenopathy with breast mass
+- Family history of BRCA mutations with new breast finding
+clinical_pearls:
+- Triple test (clinical exam + imaging + tissue sampling) approaches 99% accuracy for breast masses
+- Most breast masses in women <30 are fibroadenomas; in women >50 think cancer first
+- Cyclic bilateral mastalgia is almost always benign (fibrocystic changes)
+- Galactorrhea (bilateral milky discharge) warrants prolactin and TSH, not breast imaging
+- BI-RADS 4 or 5 requires tissue biopsy regardless of clinical impression
+key_history_questions:
+- When was the mass/symptom discovered? Changing in size?
+- Relationship to menstrual cycle (cyclic vs. noncyclic)?
+- Nipple discharge characteristics (color, spontaneous vs. expressed, unilateral vs. bilateral)?
+- Personal or family history of breast or ovarian cancer?
+- Prior breast biopsies and results?
+- Current medications (hormones, antipsychotics)?
+key_exam_findings:
+- Systematic breast palpation documenting mass size, shape, mobility, tenderness
+- Nipple discharge assessment (color, unilateral, from single or multiple ducts)
+- Skin inspection for dimpling, retraction, erythema, peau d'orange
+- Axillary and supraclavicular lymph node assessment
+- Contralateral breast examination for comparison
+treatment_principles:
+- 'Palpable mass: imaging first (US if <30, mammogram if >=30), then biopsy if indicated'
+- 'Mastalgia: supportive bra, NSAIDs, evening primrose oil; consider tamoxifen for severe cases'
+- 'Nipple discharge: duct excision for bloody/unilateral; prolactin/TSH for galactorrhea'
+- Simple cysts can be aspirated; complex cysts require biopsy
+- High-risk patients (BRCA, strong family history) need enhanced screening with breast MRI
+disposition_guidance:
+- 'Outpatient: Cyclic mastalgia and fibrocystic changes managed in primary care'
+- 'Imaging center: Diagnostic mammogram and/or ultrasound for palpable findings'
+- 'Surgical referral: BI-RADS 4-5, bloody discharge, or tissue sampling needed'
+- 'Genetics referral: Strong family history or known BRCA mutation for risk assessment'

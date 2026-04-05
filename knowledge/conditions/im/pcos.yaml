@@ -1,0 +1,74 @@
+id: pcos
+display_name: Polycystic Ovary Syndrome
+aliases:
+- PCOS
+- Stein-Leventhal syndrome
+- Polycystic ovarian syndrome
+snomed: '69878008'
+icd10:
+- E28.2
+category: chronic
+system: endocrine
+specialties:
+- im
+age_range:
+  min_months: 168
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: irregular menses
+    probability: 0.85
+    description: oligomenorrhea or amenorrhea
+  - name: hirsutism
+    probability: 0.7
+    description: excess terminal hair in male pattern distribution
+  - name: acne
+    probability: 0.5
+    description: hormonal acne along jawline and chin
+  - name: weight gain
+    probability: 0.55
+    description: central obesity with insulin resistance
+  - name: infertility
+    probability: 0.4
+    description: anovulatory cycles
+  - name: alopecia
+    probability: 0.25
+    description: androgen-mediated scalp hair thinning
+  physical_exam:
+  - system: skin
+    finding: Hirsutism scored by modified Ferriman-Gallwey scale
+    probability: 0.7
+  - system: skin
+    finding: Acanthosis nigricans suggesting insulin resistance
+    probability: 0.3
+  - system: skin
+    finding: Inflammatory acne on face, chest, or back
+    probability: 0.5
+  - system: abdomen
+    finding: Central adiposity
+    probability: 0.55
+treatment:
+  approach: metabolic_and_hormonal_management
+  medications:
+  - agent: Combined oral contraceptive
+    rxnorm: '757594'
+    frequency: once daily cyclically
+    route: oral
+    indication: menstrual regulation, androgen suppression
+  - agent: Metformin
+    rxnorm: '6809'
+    frequency: twice daily with meals
+    route: oral
+    indication: insulin sensitizer for metabolic features
+  - agent: Spironolactone
+    rxnorm: '9997'
+    frequency: once or twice daily
+    route: oral
+    indication: anti-androgen for hirsutism and acne
+  - agent: Letrozole
+    rxnorm: '72965'
+    frequency: daily, cycle days 3-7
+    route: oral
+    indication: ovulation induction for infertility

@@ -1,0 +1,54 @@
+id: sti_adult
+topic: "Sexually Transmitted Infections (Adult)"
+category: infectious_disease
+specialties:
+  - im
+teaching_goals:
+  - Apply CDC STI screening guidelines based on age, sex, and risk factors
+  - Recognize syndromic presentations (urethritis, cervicitis, genital ulcer, genital warts)
+  - Treat gonorrhea and chlamydia empirically when suspected (do not wait for culture)
+  - Know expedited partner therapy and public health reporting requirements
+  - Counsel on risk reduction and PrEP for HIV prevention
+common_mistakes:
+  - Not screening asymptomatic patients per guidelines (chlamydia in women <25 annually)
+  - Treating gonorrhea without concurrent chlamydia treatment
+  - Missing extragenital infections (pharyngeal, rectal) when not testing all exposed sites
+  - Not offering HIV and syphilis testing to all sexually active patients
+  - Failing to treat sexual partners (reinfection is the most common cause of treatment failure)
+red_flags:
+  - Disseminated gonococcal infection (arthritis, dermatitis, tenosynovitis triad)
+  - Syphilitic meningitis or cranial nerve palsies (neurosyphilis)
+  - PID with tubo-ovarian abscess (fever, pelvic mass, peritoneal signs)
+  - Acute retinal necrosis with HSV or syphilis
+  - Genital ulcer with inguinal bubo (LGV, chancroid)
+clinical_pearls:
+  - Treat gonorrhea and chlamydia together empirically when either is suspected (high co-infection rate)
+  - Single-dose ceftriaxone 500mg IM is current CDC recommendation for gonorrhea
+  - RPR/VDRL is screening; FTA-ABS or TP-PA is confirmatory for syphilis
+  - Nucleic acid amplification test (NAAT) is gold standard for gonorrhea and chlamydia
+  - Expedited partner therapy (prescribing for partner without exam) is legal in most US states
+key_history_questions:
+  - Any genital discharge, sores, or painful urination?
+  - Number and gender of sexual partners in past 3 months?
+  - Do you use condoms consistently?
+  - Any history of STIs and when were you last tested?
+  - Any anal or oral sexual contact (guides testing sites)?
+  - Have you been vaccinated for HPV and hepatitis B?
+key_exam_findings:
+  - Urethral discharge on expression
+  - Genital ulcers (painless = syphilis, painful grouped vesicles = herpes)
+  - Mucopurulent cervicitis on speculum exam
+  - Inguinal lymphadenopathy
+  - Palmar or plantar rash (secondary syphilis)
+  - Condylomata acuminata or lata
+treatment_principles:
+  - Empiric treatment at time of clinical suspicion; do not wait for results
+  - Always co-treat for chlamydia when treating gonorrhea
+  - Partner notification and treatment is essential to prevent reinfection
+  - Screen all STI patients for HIV and syphilis
+  - PrEP counseling for patients at ongoing high risk for HIV
+disposition_guidance:
+  - Outpatient treatment for uncomplicated gonorrhea, chlamydia, syphilis, and herpes
+  - Admit for disseminated gonococcal infection, neurosyphilis, or PID with TOA
+  - Report gonorrhea, chlamydia, syphilis, and HIV to public health per state requirements
+  - Test of cure at 3 months for gonorrhea; RPR follow-up at 6 and 12 months for syphilis

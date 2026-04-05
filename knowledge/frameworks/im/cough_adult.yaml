@@ -1,0 +1,58 @@
+id: cough_adult
+topic: Cough (Adult)
+category: pulmonology
+specialties:
+- im
+teaching_goals:
+- 'Classify cough by duration: acute (<3 weeks), subacute (3-8 weeks), chronic (>8
+  weeks)'
+- 'Identify the three most common causes of chronic cough: upper airway cough syndrome,
+  asthma, GERD'
+- Recognize when cough warrants chest imaging
+- Apply empiric treatment trials in a stepwise fashion for chronic cough
+- Know ACE inhibitor cough as a common iatrogenic cause
+common_mistakes:
+- Prescribing antibiotics for acute bronchitis (viral in >90%)
+- Not discontinuing ACE inhibitors as a diagnostic trial
+- Ordering chest CT for cough without first getting a chest X-ray
+- Failing to consider combination of causes for chronic cough
+- Stopping empiric therapy too early before adequate treatment trial
+red_flags:
+- Hemoptysis (malignancy, PE, TB)
+- Weight loss with chronic cough (malignancy)
+- Fever with productive cough >10 days (pneumonia)
+- New cough in immunosuppressed patient
+- Stridor or progressive dyspnea
+clinical_pearls:
+- ACE inhibitor cough can develop months to years after starting the drug
+- Upper airway cough syndrome (formerly postnasal drip) is the most common cause of
+  chronic cough
+- GERD-associated cough may occur without heartburn in up to 75% of cases
+- Post-infectious cough can persist 3-8 weeks and is self-limited
+- Cough-variant asthma presents with cough as sole symptom; diagnose with methacholine
+  challenge
+key_history_questions:
+- How long have you had the cough and was onset sudden or gradual?
+- Is the cough dry or productive? What does the sputum look like?
+- Do you take an ACE inhibitor?
+- Any heartburn, sour taste, or worse cough when lying down?
+- Do you have nasal congestion, postnasal drip, or throat clearing?
+- Smoking history and occupational exposures?
+key_exam_findings:
+- Cobblestoning of posterior pharynx (postnasal drip)
+- Wheezing on forced expiration (asthma)
+- Crackles or egophony (pneumonia)
+- Nasal polyps or mucosal edema
+- Clubbing (bronchiectasis, malignancy)
+- Clear lungs does not exclude asthma
+treatment_principles:
+- Avoid antibiotics for acute bronchitis unless pneumonia suspected
+- Empiric trial of intranasal steroids for upper airway cough syndrome
+- Empiric PPI for 8 weeks if GERD-cough suspected
+- Switch ACE inhibitor to ARB if drug-related cough suspected
+- Inhaled corticosteroid trial for suspected cough-variant asthma
+disposition_guidance:
+- Outpatient management for uncomplicated chronic cough
+- Chest X-ray for any cough >8 weeks or with red flags
+- Pulmonology referral for refractory cough after empiric treatment trials
+- Urgent evaluation for hemoptysis, severe dyspnea, or systemic symptoms

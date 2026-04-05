@@ -1,0 +1,54 @@
+id: low_back_pain
+topic: "Low Back Pain"
+category: musculoskeletal
+specialties:
+  - im
+teaching_goals:
+  - Classify low back pain as mechanical, radicular, or secondary to systemic disease
+  - Apply the evidence-based approach of avoiding early imaging in non-specific LBP
+  - Recognize red flags for cauda equina, fracture, malignancy, and infection
+  - Counsel on active recovery and avoiding bed rest
+  - Know indications for MRI and surgical referral
+common_mistakes:
+  - Ordering MRI for acute LBP without red flags (degenerative findings are ubiquitous)
+  - Prescribing opioids as first-line therapy
+  - Recommending prolonged bed rest
+  - Missing cauda equina syndrome (urinary retention, saddle anesthesia)
+  - Overinterpreting disc bulges on MRI that are incidental and asymptomatic
+red_flags:
+  - Urinary retention or incontinence with saddle anesthesia (cauda equina syndrome - emergency)
+  - Progressive motor weakness in legs
+  - History of cancer with new back pain (metastatic disease)
+  - Fever or IV drug use with back pain (epidural abscess, osteomyelitis)
+  - Trauma with suspected fracture, especially in osteoporotic patients
+clinical_pearls:
+  - 90% of acute LBP resolves within 6 weeks regardless of treatment
+  - Imaging findings of disc degeneration are present in >50% of asymptomatic adults over 40
+  - Straight leg raise is 91% sensitive for L5-S1 disc herniation
+  - NSAIDs are more effective than acetaminophen for acute LBP per ACP guidelines
+  - Early physical therapy referral improves outcomes and reduces healthcare utilization
+key_history_questions:
+  - Did the pain start suddenly or gradually, and was there a precipitating event?
+  - Does the pain radiate below the knee?
+  - Any numbness, tingling, or weakness in the legs?
+  - Any bowel or bladder changes (especially urinary retention)?
+  - History of cancer, recent infection, or IV drug use?
+  - How is the pain affecting your daily activities and work?
+key_exam_findings:
+  - Straight leg raise test (positive if leg pain reproduced at 30-70 degrees)
+  - Motor strength testing (hip flexion L2, knee extension L3-L4, ankle dorsiflexion L5, plantarflexion S1)
+  - Deep tendon reflexes (patellar L4, Achilles S1)
+  - Dermatomal sensory exam
+  - Perianal sensation and rectal tone (if cauda equina suspected)
+  - Gait assessment including heel and toe walking
+treatment_principles:
+  - NSAIDs are first-line pharmacotherapy
+  - Short-term muscle relaxants for acute spasm only
+  - Encourage staying active; avoid bed rest
+  - Physical therapy for subacute or chronic LBP
+  - Reserve imaging for red flags or symptoms persisting beyond 6 weeks
+disposition_guidance:
+  - Outpatient management for non-specific acute LBP
+  - Emergency MRI and surgical consult for suspected cauda equina syndrome
+  - MRI for persistent radiculopathy beyond 6 weeks or progressive neurologic deficit
+  - Spine surgery referral for refractory radiculopathy with correlating imaging

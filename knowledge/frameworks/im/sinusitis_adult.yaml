@@ -1,0 +1,57 @@
+id: sinusitis_adult
+topic: Acute/Chronic Sinusitis (Adult)
+category: ent
+specialties:
+- im
+teaching_goals:
+- Distinguish viral rhinosinusitis from acute bacterial rhinosinusitis using clinical
+  criteria
+- Apply watchful waiting and avoid unnecessary antibiotics for viral URI
+- Know the three clinical criteria suggesting bacterial sinusitis (>10 days, double
+  worsening, severe onset)
+- Recognize complications of sinusitis (orbital, intracranial)
+- Manage chronic rhinosinusitis and know when to refer to ENT
+common_mistakes:
+- Prescribing antibiotics for viral URI with colored nasal discharge
+- Using CT sinus for uncomplicated acute sinusitis (clinical diagnosis)
+- Not recognizing that purulent discharge alone does not indicate bacterial infection
+- Prescribing decongestant nasal spray beyond 3 days (rebound congestion)
+- Missing periorbital complications of ethmoid sinusitis
+red_flags:
+- Periorbital edema, proptosis, or ophthalmoplegia (orbital cellulitis/abscess)
+- Severe headache with high fever and altered mental status (intracranial complication)
+- Visual changes or diplopia
+- Unilateral symptoms with bloody discharge (consider malignancy)
+clinical_pearls:
+- Viral URI lasts 7-10 days; bacterial sinusitis suspected if symptoms persist >10
+  days without improvement
+- Double worsening = initial improvement then new worsening around day 5-6
+- Amoxicillin-clavulanate is preferred over amoxicillin alone due to beta-lactamase
+  resistance
+- Intranasal corticosteroids are beneficial as adjunct therapy for all sinusitis
+- Saline irrigation has evidence-based benefit for symptom relief
+key_history_questions:
+- How long have you had symptoms and are they getting better or worse?
+- Do you have facial pain/pressure, and where is it located?
+- What does your nasal discharge look like?
+- Any fever, dental pain, or headache?
+- How many episodes per year (recurrent vs chronic)?
+- Any history of nasal polyps, asthma, or aspirin sensitivity?
+key_exam_findings:
+- Sinus tenderness on palpation (maxillary, frontal)
+- Purulent drainage in nasal cavity or posteriorly
+- Erythematous, edematous turbinates
+- Periorbital edema (complication)
+- Dental tenderness (odontogenic sinusitis)
+treatment_principles:
+- Watchful waiting for 10 days if mild symptoms (offer delayed prescription)
+- 'Antibiotics for bacterial criteria: symptoms >10 days, double worsening, or severe
+  onset'
+- Amoxicillin-clavulanate first-line, doxycycline if penicillin-allergic
+- Intranasal steroids and saline irrigation as adjunctive therapy
+- Avoid routine imaging for uncomplicated cases
+disposition_guidance:
+- Outpatient management for uncomplicated sinusitis
+- ENT referral for chronic sinusitis (>12 weeks), recurrent episodes (>4/year), or
+  nasal polyps
+- Emergency evaluation for orbital or intracranial complications

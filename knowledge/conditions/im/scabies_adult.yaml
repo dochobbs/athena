@@ -1,0 +1,71 @@
+id: scabies_adult
+display_name: "Scabies (Adult)"
+aliases:
+  - Sarcoptes scabiei infestation
+  - Scabies infestation
+  - Norwegian scabies
+snomed: "128869009"
+icd10:
+  - "B86"
+category: acute
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: intense_pruritus
+      probability: 0.95
+      description: "Intense itching, characteristically worse at night"
+    - name: rash
+      probability: 0.90
+      description: "Papular or vesicular rash in web spaces, wrists, axillae, waistline"
+    - name: burrows
+      probability: 0.40
+      description: "Linear burrows representing mite tunnels in epidermis"
+    - name: household_contacts
+      probability: 0.60
+      description: "Close contacts with similar symptoms"
+    - name: secondary_infection
+      probability: 0.20
+      description: "Excoriation with secondary bacterial infection from scratching"
+  physical_exam:
+    - system: skin
+      finding: "Erythematous papules in interdigital web spaces, wrists, elbows"
+      probability: 0.85
+    - system: skin
+      finding: "Linear burrows (pathognomonic) in finger webs or wrists"
+      probability: 0.40
+    - system: skin
+      finding: "Excoriations from scratching; may obscure primary lesions"
+      probability: 0.60
+    - system: skin
+      finding: "Nodular scabies with red-brown nodules on genitalia or axillae"
+      probability: 0.15
+treatment:
+  approach: topical_scabicide_with_environmental_measures
+  medications:
+    - agent: "Permethrin 5% cream"
+      rxnorm: "8031"
+      frequency: "Apply neck down, wash off after 8-14 hours; repeat in 7 days"
+      route: topical
+      indication: "First-line treatment for scabies"
+    - agent: "Ivermectin"
+      rxnorm: "6468"
+      frequency: "200 mcg/kg single dose, repeat in 7-14 days"
+      route: oral
+      indication: "Alternative or crusted scabies; easier compliance"
+    - agent: "Hydroxyzine"
+      rxnorm: "5553"
+      frequency: "25-50 mg at bedtime"
+      route: oral
+      indication: "Symptomatic relief of pruritus"

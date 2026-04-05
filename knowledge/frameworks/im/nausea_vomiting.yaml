@@ -1,0 +1,53 @@
+id: nausea_vomiting
+topic: "Nausea and Vomiting (Adult)"
+category: gastroenterology
+specialties:
+  - im
+teaching_goals:
+  - Systematically categorize nausea/vomiting by mechanism (GI, CNS, metabolic, drug-related, vestibular)
+  - Assess hydration status and determine need for IV fluids
+  - Select appropriate antiemetic based on suspected mechanism
+  - Recognize red flags requiring urgent evaluation
+  - Know common medication causes of nausea and vomiting
+common_mistakes:
+  - Not checking pregnancy test in reproductive-age women with nausea
+  - Overlooking medication side effects as the cause (metformin, opioids, SSRIs, antibiotics)
+  - Using promethazine IV without recognizing tissue necrosis risk
+  - Anchoring on gastroenteritis without considering SBO, pancreatitis, or DKA
+  - Not assessing electrolytes in prolonged vomiting (hypokalemic metabolic alkalosis)
+red_flags:
+  - Bilious or feculent vomiting (bowel obstruction)
+  - Hematemesis or coffee-ground emesis (GI bleeding)
+  - Severe dehydration with hypotension or tachycardia
+  - Headache with projectile vomiting (elevated ICP)
+  - Abdominal rigidity with vomiting (surgical abdomen)
+clinical_pearls:
+  - Ondansetron does not mask surgical abdomen and is safe to give in acute abdominal pain
+  - Early morning nausea/vomiting suggests pregnancy, increased ICP, or uremia
+  - Vomiting >1 hour after eating suggests gastroparesis or gastric outlet obstruction
+  - Cyclic vomiting syndrome and cannabinoid hyperemesis are increasingly recognized in adults
+  - Hot showers providing relief is pathognomonic for cannabinoid hyperemesis syndrome
+key_history_questions:
+  - When did the nausea/vomiting start and how often are you vomiting?
+  - What does the vomit look like (food, bile, blood, coffee-grounds)?
+  - Is it related to meals and how long after eating?
+  - Any abdominal pain, diarrhea, fever, or headache?
+  - Could you be pregnant?
+  - What medications are you taking, including cannabis use?
+key_exam_findings:
+  - Hydration status (mucous membranes, skin turgor, capillary refill)
+  - Orthostatic vital signs
+  - Abdominal distension or succussion splash (gastroparesis, obstruction)
+  - Peritoneal signs (surgical abdomen)
+  - Papilledema or focal neuro deficits (CNS cause)
+  - Fruity breath or Kussmaul respirations (DKA)
+treatment_principles:
+  - Correct dehydration and electrolyte abnormalities first
+  - Match antiemetic to mechanism (5-HT3 for GI, anticholinergic for vestibular, dopamine antagonist for gastroparesis)
+  - Avoid promethazine IV; use oral, rectal, or IM routes
+  - Address underlying cause rather than just treating symptoms
+  - Capsaicin cream to abdomen for cannabinoid hyperemesis syndrome
+disposition_guidance:
+  - Admit for dehydration not correctable with PO, bowel obstruction, or surgical abdomen
+  - Outpatient management for mild gastroenteritis with ability to tolerate oral fluids
+  - Return precautions for bloody vomit, inability to keep fluids down, or worsening pain

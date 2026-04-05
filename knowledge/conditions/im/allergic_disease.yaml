@@ -1,0 +1,93 @@
+id: allergic_disease
+display_name: "Allergic Disease (Allergic Rhinitis, Urticaria, Anaphylaxis)"
+aliases:
+  - Allergic rhinitis
+  - Hay fever
+  - Urticaria
+  - Hives
+  - Anaphylaxis
+  - Allergic reaction
+snomed: "61582004"
+icd10:
+  - "J30.9"
+  - "L50.0"
+  - "T78.2XXA"
+  - "T78.00XA"
+category: chronic
+system: immunology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 95
+presentation:
+  symptoms:
+    - name: nasal_congestion
+      probability: 0.75
+      description: "Nasal stuffiness, rhinorrhea, sneezing (allergic rhinitis)"
+    - name: pruritus
+      probability: 0.70
+      description: "Itching of eyes, nose, palate, or skin"
+    - name: urticaria
+      probability: 0.40
+      description: "Raised, pruritic, erythematous wheals that migrate"
+    - name: watery_eyes
+      probability: 0.60
+      description: "Bilateral watery, itchy eyes with conjunctival injection"
+    - name: postnasal_drip
+      probability: 0.50
+      description: "Throat clearing, cough from postnasal drainage"
+    - name: dyspnea
+      probability: 0.15
+      description: "Shortness of breath, wheeze (anaphylaxis or asthma component)"
+  physical_exam:
+    - system: ent
+      finding: "Boggy, pale, edematous nasal turbinates; clear rhinorrhea"
+      probability: 0.70
+    - system: eyes
+      finding: "Bilateral conjunctival injection with chemosis; allergic shiners"
+      probability: 0.50
+    - system: skin
+      finding: "Raised erythematous wheals that blanch (urticaria)"
+      probability: 0.40
+    - system: oropharynx
+      finding: "Cobblestoning of posterior pharynx from chronic drainage"
+      probability: 0.35
+    - system: pulmonary
+      finding: "Wheezing if concurrent asthma or anaphylaxis"
+      probability: 0.15
+treatment:
+  approach: allergen_avoidance_plus_stepwise_pharmacotherapy
+  medications:
+    - agent: "Cetirizine"
+      rxnorm: "20610"
+      frequency: "10 mg daily"
+      route: oral
+      indication: "Second-generation antihistamine for rhinitis and urticaria"
+    - agent: "Fluticasone nasal spray"
+      rxnorm: "896163"
+      frequency: "1-2 sprays each nostril daily"
+      route: intranasal
+      indication: "Intranasal corticosteroid; most effective for allergic rhinitis"
+    - agent: "Epinephrine auto-injector"
+      rxnorm: "727316"
+      frequency: "0.3 mg IM into lateral thigh; may repeat in 5-15 minutes"
+      route: intramuscular
+      indication: "First-line for anaphylaxis; prescribe for at-risk patients"
+    - agent: "Montelukast"
+      rxnorm: "88249"
+      frequency: "10 mg daily"
+      route: oral
+      indication: "Add-on for allergic rhinitis with concurrent asthma"
+    - agent: "Diphenhydramine"
+      rxnorm: "3498"
+      frequency: "25-50 mg every 6 hours"
+      route: oral
+      indication: "Adjunctive for acute urticaria or anaphylaxis (not monotherapy)"

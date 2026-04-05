@@ -1,0 +1,78 @@
+id: chronic_diarrhea
+display_name: Chronic Diarrhea
+aliases:
+- Persistent diarrhea
+- Chronic loose stools
+- Diarrhea lasting more than 4 weeks
+snomed: '236071009'
+icd10:
+- K59.1
+- R19.7
+category: chronic
+system: gi
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+presentation:
+  symptoms:
+  - name: loose stools
+    probability: 1.0
+    description: 3+ loose or watery stools per day for >4 weeks
+  - name: abdominal cramping
+    probability: 0.65
+    description: periumbilical or lower abdominal cramps
+  - name: bloating
+    probability: 0.55
+    description: abdominal distension and gas
+  - name: urgency
+    probability: 0.5
+    description: need to defecate with little warning
+  - name: weight loss
+    probability: 0.35
+    description: suggests malabsorption or inflammatory etiology
+  - name: nocturnal diarrhea
+    probability: 0.15
+    description: red flag for organic rather than functional etiology
+  physical_exam:
+  - system: abdomen
+    finding: Mild diffuse tenderness
+    probability: 0.4
+  - system: abdomen
+    finding: Hyperactive bowel sounds
+    probability: 0.35
+  - system: general
+    finding: Weight loss or signs of malnutrition
+    probability: 0.25
+  - system: skin
+    finding: Pallor suggesting anemia from malabsorption
+    probability: 0.15
+  - system: rectal
+    finding: Perianal fistulae or skin tags (Crohn disease)
+    probability: 0.05
+treatment:
+  approach: etiology_directed_management
+  medications:
+  - agent: Loperamide
+    rxnorm: '6468'
+    frequency: after each loose stool, max 16mg/day
+    route: oral
+    indication: symptomatic control of non-inflammatory diarrhea
+  - agent: Cholestyramine
+    rxnorm: '2447'
+    frequency: once to three times daily before meals
+    route: oral
+    indication: bile acid malabsorption diarrhea
+  - agent: Bismuth subsalicylate
+    rxnorm: '1356'
+    frequency: four times daily
+    route: oral
+    indication: symptomatic relief and mild antimicrobial effect
+  - agent: Rifaximin
+    rxnorm: '190376'
+    frequency: three times daily x 14 days
+    route: oral
+    indication: IBS-D or small intestinal bacterial overgrowth

@@ -1,0 +1,84 @@
+id: fibromyalgia
+display_name: "Fibromyalgia"
+aliases:
+  - Fibromyalgia syndrome
+  - FMS
+  - Chronic widespread pain syndrome
+snomed: "203082005"
+icd10:
+  - "M79.7"
+category: chronic
+system: rheumatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: widespread_pain
+      probability: 0.95
+      description: "Chronic widespread musculoskeletal pain in all four quadrants for >3 months"
+    - name: fatigue
+      probability: 0.85
+      description: "Persistent fatigue not relieved by rest"
+    - name: unrefreshing_sleep
+      probability: 0.80
+      description: "Waking unrefreshed despite adequate sleep duration"
+    - name: cognitive_dysfunction
+      probability: 0.70
+      description: "Difficulty concentrating, memory problems (fibro fog)"
+    - name: headaches
+      probability: 0.50
+      description: "Chronic tension-type or migraine headaches"
+    - name: paresthesias
+      probability: 0.40
+      description: "Numbness, tingling in hands or feet"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Widespread tenderness to palpation; no joint swelling or deformity"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "Tender points at classic locations (trapezius, lateral epicondyle, gluteal)"
+      probability: 0.75
+    - system: neurologic
+      finding: "Normal neurologic exam; no focal deficits"
+      probability: 0.95
+    - system: general
+      finding: "Normal joint range of motion; no synovitis"
+      probability: 0.90
+treatment:
+  approach: multimodal_exercise_plus_pharmacotherapy
+  medications:
+    - agent: "Duloxetine"
+      rxnorm: "72625"
+      frequency: "30 mg daily x 1 week, then 60 mg daily"
+      route: oral
+      indication: "FDA-approved SNRI for fibromyalgia pain"
+    - agent: "Pregabalin"
+      rxnorm: "187832"
+      frequency: "75 mg BID, titrate to 150-225 mg BID"
+      route: oral
+      indication: "FDA-approved for fibromyalgia; improves pain and sleep"
+    - agent: "Milnacipran"
+      rxnorm: "588250"
+      frequency: "12.5 mg daily, titrate to 50 mg BID"
+      route: oral
+      indication: "FDA-approved SNRI for fibromyalgia"
+    - agent: "Amitriptyline"
+      rxnorm: "704"
+      frequency: "10-50 mg at bedtime"
+      route: oral
+      indication: "Low-dose TCA for pain and sleep improvement"
+    - agent: "Cyclobenzaprine"
+      rxnorm: "3112"
+      frequency: "5-10 mg at bedtime"
+      route: oral
+      indication: "Muscle relaxant for sleep and pain; structurally similar to TCAs"

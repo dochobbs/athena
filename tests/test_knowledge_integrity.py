@@ -92,8 +92,8 @@ class TestConditionIntegrity:
       "geriatrics",
       "orthopedic", "ophthalmology", "eye",
       "urology", "general",
-      "neurodevelopmental", "developmental", "immunological",
-      "wellness",
+      "neurodevelopmental", "developmental", "immunological", "immunology",
+      "wellness", "gynecology", "reproductive",
     }
     unknown = set()
     for c in store.get_all_conditions():

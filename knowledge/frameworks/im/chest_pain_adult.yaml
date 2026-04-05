@@ -1,0 +1,54 @@
+id: chest_pain_adult
+topic: Chest Pain (Adult)
+category: cardiovascular
+specialties:
+- im
+teaching_goals:
+- Develop a systematic approach to chest pain using a broad differential
+- Apply HEART score to risk-stratify for acute coronary syndrome
+- Differentiate life-threatening causes (ACS, PE, dissection, tension pneumothorax, tamponade)
+- Recognize common benign causes (GERD, MSK, anxiety) and their features
+- Know when to order troponin, ECG, D-dimer, and chest imaging
+common_mistakes:
+- Anchoring on a single diagnosis before ruling out life threats
+- Not obtaining serial troponins (single negative troponin insufficient)
+- Missing atypical ACS presentations (women, diabetics, elderly)
+- Attributing chest pain to anxiety without adequate workup
+- Forgetting aortic dissection in severe tearing pain radiating to back
+red_flags:
+- Acute ST elevation or new LBBB on ECG
+- Hypotension, tachycardia, or hemodynamic instability with chest pain
+- Tearing chest/back pain with pulse or BP differential (aortic dissection)
+- Pleuritic pain with tachycardia and hypoxia (pulmonary embolism)
+- Subcutaneous emphysema (esophageal rupture or pneumothorax)
+clinical_pearls:
+- HEART score (History, ECG, Age, Risk factors, Troponin) efficiently stratifies ACS risk
+- A normal ECG does not rule out ACS; serial ECGs and troponins are essential
+- Chest wall tenderness can coexist with ACS; reproducibility alone does not exclude cardiac cause
+- D-dimer is useful only to rule OUT PE in low-to-moderate pretest probability (use Wells or PERC)
+- GERD is the most common cause of noncardiac chest pain; trial of PPI is both diagnostic and therapeutic
+key_history_questions:
+- Onset, location, character, radiation, severity (0-10)?
+- Exertional vs. rest? Positional? Pleuritic? Reproducible with palpation?
+- Associated symptoms (dyspnea, diaphoresis, nausea, palpitations)?
+- Cardiac risk factors (HTN, DM, smoking, family history, hyperlipidemia)?
+- Recent immobilization, travel, or surgery (VTE risk)?
+- History of GERD, anxiety, or prior similar episodes?
+key_exam_findings:
+- Blood pressure in both arms (asymmetry suggests dissection)
+- Heart sounds (murmur, rub, muffled sounds)
+- Lung exam (crackles, decreased breath sounds, wheeze)
+- Chest wall palpation for reproducible tenderness
+- JVD assessment (tamponade, tension pneumothorax, PE)
+- Lower extremity edema or calf tenderness (DVT)
+treatment_principles:
+- Stabilize hemodynamics first; ABC approach for unstable patients
+- ECG within 10 minutes of presentation for any acute chest pain
+- Serial troponins at 0 and 3 hours (high-sensitivity) or 0 and 6 hours
+- Aspirin 325 mg if ACS suspected (do not delay for confirmation)
+- PPI trial for suspected GERD; NSAIDs for musculoskeletal or pericarditis
+disposition_guidance:
+- 'ED: Any hemodynamic instability, concerning ECG, or elevated troponin'
+- 'Observation: Intermediate HEART score (4-6) for serial troponins and stress testing'
+- 'Outpatient: Low HEART score (0-3), low-risk features, and normal serial troponins'
+- 'Cardiology referral: Positive stress test, recurrent angina, or need for catheterization'

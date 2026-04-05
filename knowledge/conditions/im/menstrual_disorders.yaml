@@ -1,0 +1,89 @@
+id: menstrual_disorders
+display_name: "Menstrual Disorders (Abnormal Uterine Bleeding)"
+aliases:
+  - Abnormal uterine bleeding
+  - AUB
+  - Menorrhagia
+  - Metrorrhagia
+  - Irregular periods
+snomed: "64996003"
+icd10:
+  - "N93.9"
+  - "N92.0"
+  - "N92.1"
+  - "N91.2"
+category: chronic
+system: gynecology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.05
+  rr_multiplier: 1.0
+  spo2_min: 97
+presentation:
+  symptoms:
+    - name: heavy_menstrual_bleeding
+      probability: 0.70
+      description: "Bleeding >80 mL per cycle; soaking pad/tampon every 1-2 hours"
+    - name: irregular_cycles
+      probability: 0.65
+      description: "Cycle length <21 or >35 days, or unpredictable"
+    - name: intermenstrual_bleeding
+      probability: 0.40
+      description: "Bleeding between expected periods"
+    - name: fatigue
+      probability: 0.55
+      description: "Fatigue and weakness from chronic blood loss anemia"
+    - name: dysmenorrhea
+      probability: 0.50
+      description: "Painful menstruation, cramping"
+    - name: postcoital_bleeding
+      probability: 0.15
+      description: "Bleeding after intercourse, concerning for cervical pathology"
+  physical_exam:
+    - system: abdomen
+      finding: "Suprapubic tenderness or palpable uterine enlargement (fibroids)"
+      probability: 0.25
+    - system: pelvic
+      finding: "Cervical polyps visible on speculum exam"
+      probability: 0.15
+    - system: pelvic
+      finding: "Enlarged, irregular uterus on bimanual exam (fibroids)"
+      probability: 0.30
+    - system: general
+      finding: "Pallor from iron deficiency anemia"
+      probability: 0.35
+treatment:
+  approach: palm_coein_classification_directed
+  medications:
+    - agent: "Levonorgestrel IUD"
+      rxnorm: "1366345"
+      frequency: "Insertion; effective for up to 5 years"
+      route: intrauterine
+      indication: "First-line for heavy menstrual bleeding; reduces flow 90%"
+    - agent: "Tranexamic acid"
+      rxnorm: "10759"
+      frequency: "1300 mg three times daily during menses (up to 5 days)"
+      route: oral
+      indication: "Antifibrinolytic for acute heavy bleeding episodes"
+    - agent: "Combined oral contraceptive"
+      rxnorm: "748856"
+      frequency: "One tablet daily (cyclic or continuous)"
+      route: oral
+      indication: "Cycle regulation and reduced menstrual blood loss"
+    - agent: "Medroxyprogesterone acetate"
+      rxnorm: "6691"
+      frequency: "10 mg daily for 10-14 days per month"
+      route: oral
+      indication: "Cyclic progestin for anovulatory bleeding"
+    - agent: "Ferrous sulfate"
+      rxnorm: "4479"
+      frequency: "325 mg daily or every other day"
+      route: oral
+      indication: "Iron supplementation for associated iron deficiency anemia"

@@ -1,0 +1,54 @@
+id: abdominal_pain
+topic: "Acute/Chronic Abdominal Pain"
+category: gastroenterology
+specialties:
+  - im
+teaching_goals:
+  - Systematically localize abdominal pain by quadrant and character to generate a focused differential
+  - Distinguish surgical from non-surgical abdominal pain using history and exam findings
+  - Apply appropriate initial workup including labs and imaging based on clinical suspicion
+  - Recognize red flags requiring emergent evaluation
+  - Understand visceral vs somatic vs referred pain patterns
+common_mistakes:
+  - Anchoring on a single diagnosis without considering a broad differential
+  - Ordering CT scan for all abdominal pain without clinical indication
+  - Attributing abdominal pain to constipation without excluding serious pathology
+  - Delaying imaging or surgical consult when peritoneal signs are present
+  - Forgetting to check pregnancy test in reproductive-age women
+red_flags:
+  - Rigid abdomen with guarding and rebound tenderness (peritonitis)
+  - Hemodynamic instability with abdominal pain (ruptured AAA, ectopic)
+  - Pain out of proportion to exam (mesenteric ischemia)
+  - New-onset abdominal pain in elderly or immunosuppressed
+  - Fever with localized tenderness (abscess, appendicitis, diverticulitis)
+clinical_pearls:
+  - Periumbilical pain migrating to RLQ is classic for appendicitis
+  - Pain out of proportion to exam is mesenteric ischemia until proven otherwise
+  - RUQ pain with Murphy sign positive suggests acute cholecystitis
+  - Epigastric pain radiating to the back suggests pancreatitis
+  - Elderly patients may have minimal exam findings despite serious pathology
+key_history_questions:
+  - Where exactly is the pain and does it radiate?
+  - When did it start and was onset sudden or gradual?
+  - What makes it better or worse (eating, position, movement)?
+  - Any associated nausea, vomiting, diarrhea, or constipation?
+  - Last menstrual period and possibility of pregnancy?
+  - Any prior abdominal surgeries?
+key_exam_findings:
+  - Localized vs diffuse tenderness with quadrant mapping
+  - Peritoneal signs (guarding, rigidity, rebound)
+  - Bowel sounds (absent, hyperactive, normal)
+  - Murphy sign for cholecystitis
+  - McBurney point tenderness for appendicitis
+  - Costovertebral angle tenderness for pyelonephritis
+treatment_principles:
+  - Analgesics do not mask peritoneal signs; treat pain early
+  - Surgical consultation before imaging if peritonitis is clear
+  - Empiric PPI trial reasonable for epigastric pain in young patients without red flags
+  - Avoid opioids as first-line; use NSAIDs for renal colic and mild-moderate pain
+  - Address hydration and electrolytes with vomiting
+disposition_guidance:
+  - Admit for peritoneal signs, hemodynamic instability, or inability to tolerate PO
+  - Outpatient follow-up appropriate for mild, non-specific pain with normal workup
+  - Surgical consultation for suspected appendicitis, cholecystitis, or bowel obstruction
+  - Return precautions for worsening pain, fever, or inability to eat or drink

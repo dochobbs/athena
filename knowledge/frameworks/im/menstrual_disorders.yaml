@@ -1,0 +1,54 @@
+id: menstrual_disorders
+topic: Menstrual Disorders (Abnormal Uterine Bleeding)
+category: gynecology
+specialties:
+- im
+teaching_goals:
+- Apply the PALM-COEIN classification for abnormal uterine bleeding
+- Differentiate structural (polyp, adenomyosis, leiomyoma, malignancy) from non-structural causes
+- Know initial workup including pregnancy test, CBC, TSH, and pelvic ultrasound
+- Understand first-line treatments by etiology (LNG-IUD, hormonal, tranexamic acid)
+- Recognize when to refer for endometrial biopsy (age >45 or risk factors)
+common_mistakes:
+- Not obtaining pregnancy test in all reproductive-age women with AUB
+- Skipping endometrial biopsy in women >45 or with risk factors for endometrial cancer
+- Treating heavy menstrual bleeding without checking for iron deficiency
+- Not considering coagulopathy in young women with heavy menses since menarche
+- Overlooking thyroid dysfunction as a cause of menstrual irregularity
+red_flags:
+- Postmenopausal bleeding (endometrial cancer until proven otherwise)
+- Hemodynamic instability from acute heavy bleeding
+- AUB in women >45 or with risk factors for endometrial cancer (obesity, PCOS, tamoxifen)
+- New-onset heavy menses with easy bruising (von Willebrand disease)
+- Intermenstrual or postcoital bleeding (cervical pathology)
+clinical_pearls:
+- 'PALM-COEIN: Polyp, Adenomyosis, Leiomyoma, Malignancy - Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, Not yet classified'
+- LNG-IUD reduces menstrual blood loss by 90% and is first-line for heavy menstrual bleeding
+- Tranexamic acid reduces blood loss by 40-50% and can be used with hormonal methods
+- Von Willebrand disease affects up to 13% of women with heavy menstrual bleeding
+- Anovulatory bleeding is most common in adolescents and perimenopausal women
+key_history_questions:
+- Cycle length, duration, and volume of bleeding (pads/tampons per day)?
+- Intermenstrual or postcoital bleeding?
+- Last menstrual period and pregnancy possibility?
+- Bleeding disorder symptoms (easy bruising, epistaxis, family history)?
+- Current medications (anticoagulants, hormones)?
+- Menopausal status and age?
+key_exam_findings:
+- Pelvic exam with speculum to identify cervical source
+- Bimanual exam for uterine size and adnexal masses
+- Signs of anemia (pallor, tachycardia)
+- Signs of PCOS (hirsutism, acne, obesity)
+- Thyroid exam
+- Signs of coagulopathy (petechiae, ecchymoses)
+treatment_principles:
+- Always check pregnancy test, CBC, and iron studies
+- LNG-IUD is first-line for heavy menstrual bleeding regardless of etiology
+- Hormonal contraceptives for ovulatory dysfunction or cycle regulation
+- Tranexamic acid as adjunct for acute heavy bleeding episodes
+- Endometrial biopsy for women >45 or with risk factors before treatment
+disposition_guidance:
+- 'Outpatient: Most AUB managed in primary care with hormonal therapy'
+- 'Urgent: Hemodynamic instability from acute hemorrhage requires IV estrogen or procedural intervention'
+- 'GYN referral: Structural lesions (fibroids, polyps), failed medical management, surgical candidates'
+- 'Endometrial biopsy: Women >45, persistent AUB despite treatment, or risk factors for malignancy'

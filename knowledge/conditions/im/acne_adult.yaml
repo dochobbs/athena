@@ -1,0 +1,82 @@
+id: acne_adult
+display_name: "Acne Vulgaris (Adult)"
+aliases:
+  - Adult acne
+  - Hormonal acne
+  - Late-onset acne
+snomed: "11381005"
+icd10:
+  - "L70.0"
+  - "L70.8"
+category: chronic
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: comedones
+      probability: 0.85
+      description: "Open (blackheads) and closed (whiteheads) comedones on face"
+    - name: inflammatory_papules
+      probability: 0.75
+      description: "Red, tender papules and pustules"
+    - name: nodules_cysts
+      probability: 0.25
+      description: "Deep painful nodules or cysts in severe cases"
+    - name: scarring
+      probability: 0.30
+      description: "Post-inflammatory hyperpigmentation or atrophic scars"
+    - name: psychological_distress
+      probability: 0.45
+      description: "Anxiety, depression, or reduced self-esteem from skin lesions"
+  physical_exam:
+    - system: skin
+      finding: "Comedones, papules, and pustules on face, chest, or back"
+      probability: 0.90
+    - system: skin
+      finding: "Nodulocystic lesions in severe acne"
+      probability: 0.25
+    - system: skin
+      finding: "Post-inflammatory hyperpigmentation or scarring"
+      probability: 0.35
+    - system: endocrine
+      finding: "Signs of hyperandrogenism in women (hirsutism, alopecia)"
+      probability: 0.15
+treatment:
+  approach: stepwise_severity_based
+  medications:
+    - agent: "Tretinoin"
+      rxnorm: "10555"
+      frequency: "Apply thin layer to affected area nightly"
+      route: topical
+      indication: "First-line topical retinoid for comedonal and inflammatory acne"
+    - agent: "Benzoyl peroxide"
+      rxnorm: "1489"
+      frequency: "Apply once or twice daily"
+      route: topical
+      indication: "Antimicrobial; reduces P. acnes and antibiotic resistance"
+    - agent: "Doxycycline"
+      rxnorm: "3640"
+      frequency: "100 mg daily or twice daily for 3 months"
+      route: oral
+      indication: "Moderate inflammatory acne not responding to topicals"
+    - agent: "Spironolactone"
+      rxnorm: "9997"
+      frequency: "50-200 mg daily"
+      route: oral
+      indication: "Hormonal acne in adult women (anti-androgen)"
+    - agent: "Isotretinoin"
+      rxnorm: "5759"
+      frequency: "0.5-1 mg/kg/day for 4-6 months"
+      route: oral
+      indication: "Severe nodulocystic acne refractory to other treatments"

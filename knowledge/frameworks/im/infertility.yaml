@@ -1,0 +1,54 @@
+id: infertility
+topic: Infertility (Male and Female)
+category: reproductive
+specialties:
+- im
+teaching_goals:
+- Define infertility (12 months if <35; 6 months if >=35) and initiate basic workup
+- Know the initial evaluation for both partners simultaneously
+- Identify common female causes (anovulation, tubal disease, endometriosis, age)
+- Identify common male causes (varicocele, hypogonadism, obstructive)
+- Understand when to refer to reproductive endocrinology vs. manage in primary care
+common_mistakes:
+- Evaluating only one partner (male factor contributes to ~40% of infertility)
+- Not checking semen analysis early in workup (simple, inexpensive, high yield)
+- Waiting 12 months to initiate workup in women >=35 (time-sensitive)
+- Missing thyroid disease or hyperprolactinemia as treatable causes
+- Ordering unnecessary advanced testing before completing basic workup
+red_flags:
+- Age >=40 (significantly declining ovarian reserve, time-critical referral)
+- Known bilateral tubal disease or prior tubal ligation
+- Azoospermia on semen analysis
+- History of cancer treatment (chemotherapy, radiation) affecting fertility
+- Recurrent pregnancy loss (>=2 miscarriages) requiring separate workup
+clinical_pearls:
+- Semen analysis is the single most important initial test for male evaluation
+- Day 3 FSH and AMH assess ovarian reserve; elevated FSH or low AMH indicates diminished reserve
+- PCOS is the most common cause of anovulatory infertility and is treatable
+- Letrozole is now preferred over clomiphene for ovulation induction in PCOS (NICHD trial)
+- Unexplained infertility accounts for 15-30% of cases after complete workup
+key_history_questions:
+- Duration of trying to conceive and frequency of intercourse?
+- Menstrual cycle regularity and ovulation symptoms (mittelschmerz, cervical mucus)?
+- Prior pregnancies for either partner?
+- History of STIs, PID, endometriosis, or pelvic surgery (female)?
+- Erectile dysfunction, ejaculatory problems, or testicular issues (male)?
+- Medications, substance use, and environmental exposures?
+key_exam_findings:
+- BMI (extremes affect ovulation and spermatogenesis)
+- Thyroid exam
+- Signs of hyperandrogenism in women (hirsutism, acne)
+- Galactorrhea (hyperprolactinemia)
+- Testicular size, varicocele, and vas deferens presence (male)
+- Pelvic exam for cervical, uterine, or adnexal abnormalities
+treatment_principles:
+- Evaluate BOTH partners simultaneously from the start
+- 'Basic female workup: cycle day 3 FSH/estradiol, AMH, TSH, prolactin, pelvic ultrasound, HSG'
+- 'Basic male workup: semen analysis (two samples if abnormal)'
+- Letrozole first-line for ovulation induction in PCOS
+- Refer to reproductive endocrinology for tubal factor, endometriosis, diminished ovarian reserve, or failed empiric treatment
+disposition_guidance:
+- 'Primary care: Basic workup, ovulation induction for anovulatory infertility, lifestyle counseling'
+- 'REI referral: Age >=38, tubal disease, diminished ovarian reserve, failed 3-6 cycles of ovulation induction'
+- 'Urology referral: Azoospermia, severe oligospermia, varicocele with abnormal semen analysis'
+- 'Psychological support: Infertility is emotionally distressing; screen for depression and offer resources'

@@ -1,0 +1,81 @@
+id: fatigue
+display_name: "Chronic Fatigue"
+aliases:
+  - Tiredness
+  - Exhaustion
+  - Lethargy
+  - Chronic fatigue syndrome
+  - Myalgic encephalomyelitis
+snomed: "84229001"
+icd10:
+  - "R53.83"
+  - "R53.1"
+  - "G93.32"
+category: chronic
+system: general
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 1.00
+      description: "persistent tiredness not relieved by rest, lasting >6 months"
+    - name: unrefreshing sleep
+      probability: 0.65
+      description: "waking feeling unrestored despite adequate sleep"
+    - name: difficulty concentrating
+      probability: 0.55
+      description: "brain fog, cognitive impairment"
+    - name: exercise intolerance
+      probability: 0.45
+      description: "post-exertional malaise, worsening after activity"
+    - name: myalgia
+      probability: 0.40
+      description: "diffuse muscle aches"
+    - name: low mood
+      probability: 0.50
+      description: "concurrent depressive symptoms common"
+  physical_exam:
+    - system: general
+      finding: "Normal general appearance without acute distress"
+      probability: 0.70
+    - system: thyroid
+      finding: "Normal thyroid exam (must exclude hypothyroidism)"
+      probability: 0.85
+    - system: lymphatic
+      finding: "No lymphadenopathy"
+      probability: 0.90
+    - system: neurologic
+      finding: "Normal neurologic exam"
+      probability: 0.85
+    - system: cardiovascular
+      finding: "Normal cardiac exam"
+      probability: 0.90
+treatment:
+  approach: workup_directed_and_supportive
+  medications:
+    - agent: "Ferrous sulfate"
+      rxnorm: "4471"
+      frequency: "once daily on empty stomach"
+      route: oral
+      indication: "iron deficiency anemia if identified"
+    - agent: "Levothyroxine"
+      rxnorm: "10582"
+      frequency: "once daily on empty stomach"
+      route: oral
+      indication: "hypothyroidism if identified"
+    - agent: "Vitamin D3"
+      rxnorm: "11253"
+      frequency: "once daily or weekly"
+      route: oral
+      indication: "vitamin D deficiency if identified"
+    - agent: "Sertraline"
+      rxnorm: "36437"
+      frequency: "once daily"
+      route: oral
+      indication: "concurrent depression contributing to fatigue"

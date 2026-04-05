@@ -1,0 +1,81 @@
+id: bph
+display_name: "Benign Prostatic Hyperplasia"
+aliases:
+  - BPH
+  - Enlarged prostate
+  - Lower urinary tract symptoms
+  - LUTS
+snomed: "266569009"
+icd10:
+  - "N40.0"
+  - "N40.1"
+category: chronic
+system: urology
+specialties:
+  - im
+age_range:
+  min_months: 480
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: urinary_frequency
+      probability: 0.80
+      description: "Increased frequency of urination, especially nocturia"
+    - name: weak_stream
+      probability: 0.75
+      description: "Weak or intermittent urinary stream"
+    - name: hesitancy
+      probability: 0.65
+      description: "Difficulty initiating urination"
+    - name: incomplete_emptying
+      probability: 0.60
+      description: "Sensation of incomplete bladder emptying"
+    - name: urgency
+      probability: 0.55
+      description: "Sudden compelling urge to urinate"
+    - name: nocturia
+      probability: 0.70
+      description: "Waking 2+ times at night to urinate"
+  physical_exam:
+    - system: genitourinary
+      finding: "Smooth, symmetrically enlarged prostate on DRE"
+      probability: 0.75
+    - system: abdomen
+      finding: "Suprapubic fullness or distention if significant retention"
+      probability: 0.15
+    - system: genitourinary
+      finding: "Normal prostate tone without nodules or induration"
+      probability: 0.70
+    - system: neurologic
+      finding: "Intact perineal sensation and anal tone (rule out neurogenic bladder)"
+      probability: 0.95
+treatment:
+  approach: stepwise_watchful_waiting_to_combination
+  medications:
+    - agent: "Tamsulosin"
+      rxnorm: "77492"
+      frequency: "0.4 mg daily"
+      route: oral
+      indication: "First-line alpha-blocker for LUTS; rapid symptom relief"
+    - agent: "Finasteride"
+      rxnorm: "4450"
+      frequency: "5 mg daily"
+      route: oral
+      indication: "5-alpha reductase inhibitor for enlarged prostate (>30g)"
+    - agent: "Dutasteride"
+      rxnorm: "358263"
+      frequency: "0.5 mg daily"
+      route: oral
+      indication: "5-alpha reductase inhibitor; dual inhibition"
+    - agent: "Tadalafil"
+      rxnorm: "358827"
+      frequency: "5 mg daily"
+      route: oral
+      indication: "PDE5 inhibitor for BPH with concurrent erectile dysfunction"

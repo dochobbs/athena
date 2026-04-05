@@ -1,0 +1,55 @@
+id: contraception_adult
+topic: Contraception (Adult)
+category: gynecology
+specialties:
+- im
+teaching_goals:
+- Counsel on all contraceptive methods using tiered effectiveness framework
+- Apply CDC Medical Eligibility Criteria (MEC) to identify safe options per patient
+- Understand LARC methods (IUDs, implant) as most effective reversible options
+- Recognize absolute contraindications to combined hormonal contraceptives
+- Provide emergency contraception counseling
+common_mistakes:
+- Requiring unnecessary tests before initiating contraception (pelvic exam, Pap smear)
+- Not offering LARC as first-line options due to provider bias
+- Prescribing combined hormonal contraceptives to patients with migraines with aura
+- Forgetting to check blood pressure before starting combined methods
+- Not counseling on emergency contraception options
+red_flags:
+- Migraine with aura on combined hormonal contraceptives (stroke risk)
+- Undiagnosed abnormal uterine bleeding (evaluate before IUD placement)
+- History of VTE or known thrombophilia (avoid combined methods)
+- Breast cancer current or recent (avoid hormonal methods)
+- Severe hypertension on combined hormonal contraceptives
+clinical_pearls:
+- Only blood pressure measurement is required before starting combined hormonal contraceptives
+- Etonogestrel implant is the most effective reversible contraceptive (>99.9%)
+- Copper IUD is the most effective emergency contraception if placed within 5 days
+- 'Quick start method: start any hormonal method same day regardless of cycle day'
+- Progestin-only methods (pills, implant, hormonal IUD) are safe with migraines with
+  aura
+key_history_questions:
+- What are your reproductive goals and preferred timing for pregnancy?
+- Do you get migraines, and if so, do you have aura?
+- Any history of blood clots, stroke, or heart disease?
+- Are you breastfeeding?
+- What methods have you tried and what did you like or dislike?
+- Do you smoke and if so how much?
+key_exam_findings:
+- Blood pressure (required before combined hormonal methods)
+- BMI (effectiveness of some methods may vary with weight)
+- Pelvic exam not required for most method initiation
+- Uterine size and position if IUD planned
+- Skin exam for acne if relevant to method choice
+treatment_principles:
+- LARC methods (IUDs, implant) should be offered first due to superior efficacy
+- Match method to patient priorities (efficacy, non-hormonal, menstrual control, STI
+  protection)
+- Use CDC MEC categories to determine safety for individual patients
+- Same-day start improves uptake and reduces unintended pregnancy
+- Dual method counseling (hormonal + condoms) for STI prevention
+disposition_guidance:
+- Most methods can be initiated in a single primary care visit
+- Follow-up 1-3 months after starting new method for side effect assessment
+- IUD string check at 4-6 weeks post-insertion
+- Refer for IUD or implant insertion if not performed in primary care

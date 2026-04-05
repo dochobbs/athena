@@ -1,0 +1,75 @@
+id: erectile_dysfunction
+display_name: "Erectile Dysfunction"
+aliases:
+  - ED
+  - Impotence
+  - Male sexual dysfunction
+snomed: "860914002"
+icd10:
+  - "N52.9"
+  - "N52.01"
+category: chronic
+system: urology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: inability to achieve erection
+      probability: 0.80
+      description: "difficulty achieving sufficient rigidity for intercourse"
+    - name: inability to maintain erection
+      probability: 0.70
+      description: "loss of erection during sexual activity"
+    - name: decreased libido
+      probability: 0.35
+      description: "may suggest hypogonadism or depression"
+    - name: premature ejaculation
+      probability: 0.20
+      description: "may coexist with erectile dysfunction"
+    - name: morning erections absent
+      probability: 0.40
+      description: "loss of nocturnal erections suggests organic etiology"
+  physical_exam:
+    - system: genitourinary
+      finding: "Normal penile and testicular exam"
+      probability: 0.75
+    - system: genitourinary
+      finding: "Small or soft testes suggesting hypogonadism"
+      probability: 0.10
+    - system: vascular
+      finding: "Diminished peripheral pulses (vascular disease)"
+      probability: 0.15
+    - system: neurologic
+      finding: "Reduced bulbocavernosus reflex or perineal sensation"
+      probability: 0.05
+    - system: cardiovascular
+      finding: "Elevated BMI; screen for metabolic syndrome"
+      probability: 0.40
+treatment:
+  approach: pde5_inhibitor_first_line
+  medications:
+    - agent: "Sildenafil"
+      rxnorm: "136411"
+      frequency: "as needed, 1 hour before activity"
+      route: oral
+      indication: "first-line PDE5 inhibitor for ED"
+    - agent: "Tadalafil"
+      rxnorm: "307027"
+      frequency: "as needed or 2.5-5mg daily"
+      route: oral
+      indication: "longer-acting PDE5 inhibitor, daily option available"
+    - agent: "Testosterone cypionate"
+      rxnorm: "10437"
+      frequency: "every 1-2 weeks"
+      route: im
+      indication: "testosterone replacement if documented hypogonadism"
+    - agent: "Alprostadil"
+      rxnorm: "426"
+      frequency: "as needed, max once daily"
+      route: injection
+      indication: "intracavernosal injection for PDE5i non-responders"

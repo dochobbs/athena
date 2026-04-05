@@ -1,0 +1,54 @@
+id: oral_disease
+topic: Oral/Dental Disease in Primary Care
+category: ent
+specialties:
+- im
+teaching_goals:
+- Identify common oral conditions (caries, periodontitis, aphthous ulcers, oral candidiasis)
+- Manage dental emergencies (abscess, avulsion) when dentist unavailable
+- Recognize oral manifestations of systemic disease (DM, HIV, autoimmune)
+- Screen for oral cancer risk factors and premalignant lesions
+- Know when antibiotics are and are not indicated for dental infections
+common_mistakes:
+- Prescribing antibiotics for dental pain without signs of systemic infection or abscess
+- Missing oral cancer in a non-healing ulcer or persistent leukoplakia
+- Not referring dental abscesses for definitive drainage (antibiotics alone insufficient)
+- Overlooking oral disease as a contributor to poor glycemic control in diabetics
+- Prescribing opioids for dental pain when NSAIDs/acetaminophen combination is more effective
+red_flags:
+- Non-healing oral ulcer >2 weeks (oral squamous cell carcinoma)
+- Ludwig angina (bilateral submandibular space infection with floor of mouth elevation)
+- Trismus with dental infection (deep space infection)
+- Oral lesion with induration, fixation, or cervical lymphadenopathy
+- Rapidly spreading facial cellulitis from dental source
+clinical_pearls:
+- Ibuprofen 400 mg + acetaminophen 1000 mg is more effective than opioids for dental pain
+- Antibiotics are indicated for dental abscess only with systemic signs (fever, facial swelling, lymphadenopathy)
+- Aphthous ulcers are self-limited (1-2 weeks); recurrent or numerous suggests systemic disease (Behcet's, celiac, IBD)
+- Oral candidiasis in a non-immunosuppressed patient warrants HIV testing
+- Leukoplakia has 3-5% malignant transformation rate; biopsy any persistent lesion
+key_history_questions:
+- Location, duration, and pain level of the oral complaint?
+- Dental care history and last dental visit?
+- Tobacco and alcohol use (oral cancer risk)?
+- Immunosuppression or diabetes?
+- Difficulty swallowing, breathing, or opening mouth (deep space infection)?
+- Medications causing dry mouth (anticholinergics, diuretics)?
+key_exam_findings:
+- Visual inspection of all oral mucosal surfaces (systematic approach)
+- Palpation of floor of mouth and tongue for induration
+- Lymph node assessment (submandibular, cervical)
+- Dental caries and gingival inflammation assessment
+- Trismus measurement (limited opening suggests deep space infection)
+- Fluctuance suggesting abscess
+treatment_principles:
+- 'Dental pain: ibuprofen + acetaminophen first-line; avoid opioids'
+- 'Dental abscess: antibiotics (amoxicillin or clindamycin) PLUS dental referral for drainage'
+- 'Aphthous ulcers: topical steroids (triamcinolone paste), magic mouthwash for symptom relief'
+- 'Oral candidiasis: nystatin swish-and-swallow or fluconazole for refractory cases'
+- Dental referral for definitive management of caries, periodontitis, and abscesses
+disposition_guidance:
+- 'Outpatient: Most oral conditions managed with symptom relief and dental referral'
+- 'Urgent dental referral: Dental abscess, avulsed tooth, significant dental trauma'
+- 'ED: Ludwig angina, trismus with deep space infection, airway compromise'
+- 'Oral surgery/ENT: Biopsy of suspicious lesions, deep space infections requiring I&D'

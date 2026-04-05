@@ -1,0 +1,73 @@
+id: dyspepsia
+display_name: Dyspepsia/Functional Dyspepsia
+aliases:
+- Indigestion
+- Functional dyspepsia
+- Non-ulcer dyspepsia
+- Epigastric distress
+snomed: '162031009'
+icd10:
+- K30
+- R10.13
+category: chronic
+system: gi
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: epigastric pain
+    probability: 0.85
+    description: burning or gnawing pain in upper abdomen
+  - name: postprandial fullness
+    probability: 0.7
+    description: uncomfortable sense of prolonged food retention
+  - name: early satiety
+    probability: 0.55
+    description: inability to finish normal-sized meal
+  - name: bloating
+    probability: 0.6
+    description: upper abdominal distension
+  - name: nausea
+    probability: 0.45
+    description: without vomiting in most functional cases
+  - name: belching
+    probability: 0.4
+    description: excessive eructation
+  physical_exam:
+  - system: abdomen
+    finding: Mild epigastric tenderness without guarding
+    probability: 0.5
+  - system: abdomen
+    finding: Normal abdominal exam
+    probability: 0.45
+  - system: abdomen
+    finding: No palpable masses
+    probability: 0.95
+treatment:
+  approach: stepwise_empiric_therapy
+  medications:
+  - agent: Omeprazole
+    rxnorm: '7646'
+    frequency: once daily before breakfast x 4-8 weeks
+    route: oral
+    indication: empiric PPI trial for uninvestigated dyspepsia
+  - agent: Famotidine
+    rxnorm: '4278'
+    frequency: twice daily
+    route: oral
+    indication: H2RA alternative to PPI
+  - agent: Amitriptyline
+    rxnorm: '704'
+    frequency: once daily at bedtime, low dose
+    route: oral
+    indication: neuromodulator for refractory functional dyspepsia
+  - agent: Bismuth subsalicylate
+    rxnorm: '1356'
+    frequency: four times daily
+    route: oral
+    indication: H. pylori quad therapy component

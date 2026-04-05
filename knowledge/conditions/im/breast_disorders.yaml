@@ -1,0 +1,79 @@
+id: breast_disorders
+display_name: "Breast Disorders (Masses, Pain, Discharge)"
+aliases:
+  - Breast mass
+  - Breast pain
+  - Mastalgia
+  - Nipple discharge
+  - Fibrocystic changes
+snomed: "79604008"
+icd10:
+  - "N63.0"
+  - "N64.4"
+  - "N64.52"
+  - "N60.19"
+category: acute
+system: gynecology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: breast_mass
+      probability: 0.50
+      description: "Palpable lump; assess mobility, tenderness, borders"
+    - name: breast_pain
+      probability: 0.65
+      description: "Cyclic or noncyclic mastalgia; bilateral suggests benign"
+    - name: nipple_discharge
+      probability: 0.20
+      description: "Spontaneous discharge; bloody or unilateral is concerning"
+    - name: skin_changes
+      probability: 0.10
+      description: "Dimpling, peau d'orange, or retraction concerning for malignancy"
+    - name: cyclic_tenderness
+      probability: 0.55
+      description: "Bilateral breast fullness and tenderness premenstrually"
+  physical_exam:
+    - system: breast
+      finding: "Palpable mass with assessment of size, shape, mobility, tenderness"
+      probability: 0.50
+    - system: breast
+      finding: "Diffuse nodularity and tenderness (fibrocystic changes)"
+      probability: 0.40
+    - system: breast
+      finding: "Nipple discharge elicited on exam; note color, unilateral vs bilateral"
+      probability: 0.20
+    - system: lymphatic
+      finding: "Axillary lymphadenopathy (concerning for malignancy)"
+      probability: 0.10
+    - system: breast
+      finding: "Skin dimpling, retraction, or peau d'orange"
+      probability: 0.05
+treatment:
+  approach: age_and_risk_stratified_imaging_workup
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "400-600 mg three times daily as needed"
+      route: oral
+      indication: "First-line for cyclic mastalgia"
+    - agent: "Tamoxifen"
+      rxnorm: "10324"
+      frequency: "10-20 mg daily"
+      route: oral
+      indication: "Severe refractory mastalgia (off-label) or chemoprevention"
+    - agent: "Cephalexin"
+      rxnorm: "2231"
+      frequency: "500 mg four times daily for 10-14 days"
+      route: oral
+      indication: "Lactational mastitis or breast abscess"

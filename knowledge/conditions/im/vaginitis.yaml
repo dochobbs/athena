@@ -1,0 +1,78 @@
+id: vaginitis
+display_name: "Vaginitis/Vulvovaginitis (Adult)"
+aliases:
+  - Vulvovaginitis
+  - Vaginal infection
+  - Vaginal discharge
+  - Yeast infection
+  - Bacterial vaginosis
+snomed: "30800001"
+icd10:
+  - "N76.0"
+  - "N77.1"
+  - "B37.3"
+category: acute
+system: gynecology
+specialties:
+  - im
+age_range:
+  min_months: 168
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: vaginal discharge
+      probability: 0.85
+      description: "character varies by etiology: thin/gray (BV), thick/white (candida), frothy/yellow-green (trichomonas)"
+    - name: vaginal pruritus
+      probability: 0.65
+      description: "prominent with candidiasis"
+    - name: vaginal odor
+      probability: 0.55
+      description: "fishy odor classic for bacterial vaginosis"
+    - name: dysuria
+      probability: 0.30
+      description: "external dysuria from vulvar irritation"
+    - name: dyspareunia
+      probability: 0.35
+      description: "pain with intercourse"
+    - name: vulvar irritation
+      probability: 0.50
+      description: "burning, erythema, or swelling"
+  physical_exam:
+    - system: gynecologic
+      finding: "Abnormal vaginal discharge on speculum exam"
+      probability: 0.80
+    - system: gynecologic
+      finding: "Vulvar erythema and edema"
+      probability: 0.45
+    - system: gynecologic
+      finding: "Cervicitis (strawberry cervix with trichomoniasis)"
+      probability: 0.10
+    - system: gynecologic
+      finding: "Normal external exam with BV (discharge only)"
+      probability: 0.40
+treatment:
+  approach: etiology_specific_antimicrobial
+  medications:
+    - agent: "Fluconazole"
+      rxnorm: "4450"
+      frequency: "single dose 150mg"
+      route: oral
+      indication: "uncomplicated vulvovaginal candidiasis"
+    - agent: "Metronidazole"
+      rxnorm: "6922"
+      frequency: "twice daily x 7 days"
+      route: oral
+      indication: "bacterial vaginosis or trichomoniasis"
+    - agent: "Metronidazole vaginal gel"
+      rxnorm: "6922"
+      frequency: "once daily intravaginally x 5 days"
+      route: vaginal
+      indication: "topical alternative for bacterial vaginosis"
+    - agent: "Clindamycin vaginal cream"
+      rxnorm: "2582"
+      frequency: "once daily intravaginally x 7 days"
+      route: vaginal
+      indication: "alternative for bacterial vaginosis"

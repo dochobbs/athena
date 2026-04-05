@@ -1,0 +1,54 @@
+id: concussion_adult
+topic: Concussion (Adult)
+category: neurology
+specialties:
+- im
+teaching_goals:
+- Recognize concussion using clinical criteria without relying on imaging
+- Apply Canadian CT Head Rule to determine need for neuroimaging
+- Understand graded return-to-activity protocol (cognitive then physical)
+- Identify post-concussive syndrome and its management
+- Counsel patients on expected recovery timeline and red flags for return
+common_mistakes:
+- Over-reliance on CT imaging (normal CT does not exclude concussion)
+- Prescribing strict bed rest instead of relative rest with gradual return
+- Failing to screen for depression and anxiety in prolonged recovery
+- Missing cervicogenic headache as a treatable contributor
+- Returning patients to contact sports too early without stepwise protocol
+red_flags:
+- Worsening headache, repeated vomiting, or seizure
+- Focal neurologic deficit or deteriorating consciousness
+- Signs of basilar skull fracture (Battle sign, raccoon eyes, CSF leak)
+- Anticoagulant use with head injury (low threshold for CT)
+- Persistent symptoms beyond 4 weeks (refer to concussion specialist)
+clinical_pearls:
+- Most concussions resolve in 7-10 days; prolonged recovery more common in women and those with prior concussions
+- Brief period of relative rest (24-48 hours) followed by gradual return to activity is current best practice
+- SCAT6 is the standardized sideline assessment tool for sport-related concussion
+- Neuropsychological testing is useful for return-to-play decisions in athletes
+- Post-concussive headache often responds better to preventive therapy than acute analgesics
+key_history_questions:
+- Mechanism and force of injury?
+- Loss of consciousness, amnesia, or confusion at time of injury?
+- Current symptoms (headache, dizziness, cognitive difficulty, sleep changes)?
+- Prior concussion history and recovery timeline?
+- Use of anticoagulants or antiplatelet agents?
+- Impact on work, school, or daily activities?
+key_exam_findings:
+- Glasgow Coma Scale (should be 13-15 for concussion)
+- Vestibular and oculomotor screening (smooth pursuit, saccades, VOR)
+- Tandem gait and Romberg test for balance
+- Cervical spine tenderness and range of motion
+- Cognitive screening (orientation, digit span, serial 7s)
+- Cranial nerve exam to rule out focal deficits
+treatment_principles:
+- Brief relative rest (24-48 hours) then gradual return to cognitive and physical activity
+- Symptom-limited activity (stay below symptom-exacerbation threshold)
+- Acetaminophen preferred over NSAIDs acutely for headache
+- CBT-I for persistent sleep disturbance; amitriptyline for refractory post-concussive headache
+- Avoid opioids and benzodiazepines
+disposition_guidance:
+- 'Outpatient: Most concussions managed in primary care'
+- 'CT head: Apply Canadian CT Head Rule; image if LOC >5 min, GCS <15 at 2h, or focal deficit'
+- 'Referral: Symptoms persisting >4 weeks to concussion specialist or sports medicine'
+- 'Return to work/sport: Stepwise protocol with medical clearance required'

@@ -1,0 +1,54 @@
+id: shoulder_pain
+topic: "Shoulder Pain"
+category: musculoskeletal
+specialties:
+  - im
+teaching_goals:
+  - Perform a systematic shoulder exam with provocative maneuvers
+  - Distinguish rotator cuff pathology from adhesive capsulitis, labral tears, and referred pain
+  - Know when imaging is indicated and what modality to choose
+  - Initiate conservative management with physical therapy as cornerstone
+  - Recognize shoulder pain as potential referred pain from cardiac, diaphragmatic, or cervical sources
+common_mistakes:
+  - Ordering MRI for all shoulder pain without trial of conservative management
+  - Missing adhesive capsulitis (restricted passive ROM in all directions)
+  - Not examining the cervical spine when evaluating shoulder pain
+  - Administering more than 3 corticosteroid injections per year to same joint
+  - Immobilizing the shoulder excessively, leading to stiffness and adhesive capsulitis
+red_flags:
+  - Acute traumatic dislocation (deformity, loss of deltoid contour)
+  - Shoulder pain with exertional chest pain or dyspnea (cardiac referral)
+  - Fever with shoulder pain and limited ROM (septic arthritis)
+  - Acute loss of strength after trauma in young patient (acute rotator cuff tear)
+  - Chronic unrelenting pain with weight loss (malignancy)
+clinical_pearls:
+  - Painful arc between 60-120 degrees of abduction suggests subacromial impingement
+  - Adhesive capsulitis restricts both active AND passive ROM equally, especially external rotation
+  - Drop arm test positive = likely full-thickness rotator cuff tear (refer to orthopedics)
+  - AC joint pathology causes pain with cross-body adduction test
+  - Subacromial corticosteroid injection is both diagnostic and therapeutic for impingement
+key_history_questions:
+  - Was there a specific injury or did pain develop gradually?
+  - Where exactly is the pain and does it radiate to the arm or neck?
+  - What movements or activities make it worse?
+  - Does pain wake you at night or prevent you from sleeping on that side?
+  - Any history of shoulder dislocations or prior injuries?
+  - Is the shoulder getting stiffer over time?
+key_exam_findings:
+  - Active and passive range of motion (flexion, abduction, internal/external rotation)
+  - Neer and Hawkins tests (impingement)
+  - Empty can test (supraspinatus)
+  - External rotation lag sign (infraspinatus)
+  - Speed and Yergason tests (biceps tendon)
+  - Cross-body adduction (AC joint)
+treatment_principles:
+  - Physical therapy is the mainstay of treatment for most shoulder conditions
+  - NSAIDs for pain control during active rehabilitation
+  - Subacromial corticosteroid injection for impingement not responding to 4-6 weeks of PT
+  - Avoid immobilization beyond 1-2 weeks after acute injury
+  - MRI for suspected full-thickness tear, labral tear, or failure of conservative management
+disposition_guidance:
+  - Outpatient management with physical therapy referral for most shoulder pain
+  - Orthopedics referral for suspected full-thickness rotator cuff tear or recurrent instability
+  - Urgent orthopedic evaluation for acute dislocation or fracture
+  - X-ray first for traumatic injury or suspected arthritis; MRI for soft tissue evaluation

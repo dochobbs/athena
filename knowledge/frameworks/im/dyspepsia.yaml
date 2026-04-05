@@ -1,0 +1,55 @@
+id: dyspepsia
+topic: Dyspepsia/Functional Dyspepsia
+category: gastroenterology
+specialties:
+- im
+teaching_goals:
+- Distinguish dyspepsia from GERD using symptom patterns
+- Apply test-and-treat strategy for H. pylori in uninvestigated dyspepsia
+- Identify alarm features warranting endoscopy
+- Understand Rome IV criteria for functional dyspepsia
+- Manage refractory functional dyspepsia with neuromodulators
+common_mistakes:
+- Continuing long-term PPI without reassessing need or diagnosis
+- Not testing for H. pylori before empiric PPI therapy in appropriate populations
+- Missing alarm features that require endoscopy (weight loss, anemia, dysphagia)
+- Attributing symptoms to gallstones without typical biliary colic features
+- Failing to address psychosocial contributors in functional dyspepsia
+red_flags:
+- Unintentional weight loss (malignancy)
+- Dysphagia or odynophagia (esophageal pathology)
+- Iron deficiency anemia (GI blood loss)
+- Persistent vomiting (obstruction)
+- Age >60 with new-onset dyspepsia (higher malignancy risk)
+clinical_pearls:
+- Test-and-treat for H. pylori is cost-effective in patients under 60 without alarm
+  features
+- 'Functional dyspepsia has two subtypes: postprandial distress syndrome and epigastric
+  pain syndrome'
+- PPI trial should last 4-8 weeks at standard dose before declaring failure
+- Urea breath test or stool antigen preferred for H. pylori diagnosis (avoid serology)
+- Tricyclic antidepressants at low dose are first-line neuromodulators for functional
+  dyspepsia
+key_history_questions:
+- Where is the pain and what does it feel like?
+- Is the pain related to meals (worse or better with eating)?
+- Any weight loss, difficulty swallowing, or vomiting?
+- Do you use NSAIDs, aspirin, or alcohol regularly?
+- Have you ever been tested or treated for H. pylori?
+- Any family history of gastric cancer or peptic ulcer disease?
+key_exam_findings:
+- Epigastric tenderness without guarding
+- Normal abdominal exam in many functional cases
+- Absence of palpable masses or organomegaly
+- Stool guaiac for occult blood
+- Signs of anemia (pallor, tachycardia)
+treatment_principles:
+- Test-and-treat H. pylori if not previously done
+- Empiric PPI for 4-8 weeks if H. pylori negative
+- EGD if alarm features or failure of empiric therapy
+- Low-dose TCA (amitriptyline 10-25mg) for functional dyspepsia
+- Avoid long-term PPI use without clear indication
+disposition_guidance:
+- Outpatient management with step-up approach
+- Urgent endoscopy for dysphagia, GI bleeding, or significant weight loss
+- GI referral for refractory symptoms after PPI and H. pylori treatment

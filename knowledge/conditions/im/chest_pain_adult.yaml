@@ -1,0 +1,85 @@
+id: chest_pain_adult
+display_name: Chest Pain (Adult)
+aliases:
+- Chest pain workup
+- Acute chest pain
+- Noncardiac chest pain
+snomed: '29857009'
+icd10:
+- R07.9
+- R07.89
+category: acute
+system: cardiology
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  temp_f:
+  - 97.8
+  - 99.0
+  hr_multiplier: 1.1
+  rr_multiplier: 1.1
+  spo2_min: 94
+presentation:
+  symptoms:
+  - name: chest_pain
+    probability: 1.0
+    description: Central or left-sided chest pain; character varies by etiology
+  - name: dyspnea
+    probability: 0.5
+    description: Shortness of breath, may indicate cardiac or pulmonary cause
+  - name: diaphoresis
+    probability: 0.3
+    description: Sweating associated with pain, concerning for ACS
+  - name: radiation
+    probability: 0.35
+    description: Pain radiating to jaw, left arm, or back
+  - name: nausea
+    probability: 0.3
+    description: Nausea or vomiting, especially with inferior MI
+  - name: reproducible_pain
+    probability: 0.4
+    description: Pain reproducible with palpation suggests musculoskeletal etiology
+  physical_exam:
+  - system: cardiovascular
+    finding: Regular rate and rhythm; assess for murmurs, rubs, gallops
+    probability: 0.9
+  - system: chest_wall
+    finding: Reproducible tenderness on palpation (costochondritis)
+    probability: 0.35
+  - system: pulmonary
+    finding: Decreased breath sounds or crackles if pulmonary cause
+    probability: 0.2
+  - system: cardiovascular
+    finding: Unequal blood pressures concerning for aortic dissection
+    probability: 0.05
+  - system: abdomen
+    finding: Epigastric tenderness suggesting GERD or PUD
+    probability: 0.25
+treatment:
+  approach: risk_stratification_and_etiology_directed
+  medications:
+  - agent: Aspirin
+    rxnorm: '1191'
+    frequency: 325 mg once if ACS suspected
+    route: oral
+    indication: Empiric antiplatelet if acute coronary syndrome suspected
+  - agent: Nitroglycerin
+    rxnorm: '4917'
+    frequency: 0.4 mg sublingual every 5 minutes x 3 doses
+    route: sublingual
+    indication: Anginal chest pain relief
+  - agent: Omeprazole
+    rxnorm: '7646'
+    frequency: 20-40 mg daily
+    route: oral
+    indication: GERD-related chest pain
+  - agent: Naproxen
+    rxnorm: '7258'
+    frequency: 500 mg twice daily
+    route: oral
+    indication: Musculoskeletal chest pain or pericarditis

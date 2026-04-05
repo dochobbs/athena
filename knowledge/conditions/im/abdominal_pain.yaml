@@ -1,0 +1,80 @@
+id: abdominal_pain
+display_name: Acute/Chronic Abdominal Pain
+aliases:
+- Abdominal pain
+- Belly pain
+- Stomach pain
+- Abdominodynia
+snomed: '21522001'
+icd10:
+- R10.9
+- R10.10
+- R10.30
+category: acute
+system: gi
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+vitals_impact:
+  hr_multiplier: 1.1
+  bp_systolic:
+  - 90
+  - 140
+presentation:
+  symptoms:
+  - name: abdominal pain
+    probability: 1.0
+    description: localized or diffuse pain varying in character
+  - name: nausea
+    probability: 0.55
+    description: frequently accompanies visceral pain
+  - name: vomiting
+    probability: 0.35
+    description: may suggest obstruction, pancreatitis, or biliary disease
+  - name: anorexia
+    probability: 0.45
+    description: decreased appetite common in acute presentations
+  - name: change in bowel habits
+    probability: 0.4
+    description: diarrhea or constipation depending on etiology
+  - name: fever
+    probability: 0.25
+    description: suggests infectious or inflammatory etiology
+  physical_exam:
+  - system: abdomen
+    finding: Tenderness localized to specific quadrant or diffuse
+    probability: 0.9
+  - system: abdomen
+    finding: Guarding or rigidity suggesting peritoneal irritation
+    probability: 0.2
+  - system: abdomen
+    finding: Rebound tenderness
+    probability: 0.15
+  - system: abdomen
+    finding: Hypoactive or absent bowel sounds
+    probability: 0.15
+  - system: abdomen
+    finding: Distension
+    probability: 0.25
+treatment:
+  approach: etiology_directed_management
+  medications:
+  - agent: Ondansetron
+    rxnorm: '26225'
+    frequency: every 8 hours as needed
+    route: oral
+    indication: antiemetic for associated nausea/vomiting
+  - agent: Ketorolac
+    rxnorm: '6370'
+    frequency: every 6 hours x 5 days max
+    route: iv
+    indication: non-opioid analgesia for moderate pain
+  - agent: Morphine
+    rxnorm: '7052'
+    frequency: every 4 hours as needed
+    route: iv
+    indication: severe pain not controlled with non-opioids

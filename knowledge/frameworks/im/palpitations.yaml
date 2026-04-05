@@ -1,0 +1,53 @@
+id: palpitations
+topic: Palpitations
+category: cardiovascular
+specialties:
+- im
+teaching_goals:
+- Classify palpitations by rhythm (regular vs. irregular) and rate (fast vs. normal)
+- Differentiate benign premature beats from clinically significant arrhythmias
+- Know the appropriate monitoring strategy based on symptom frequency
+- Identify reversible causes (caffeine, thyroid, anemia, medications)
+- Determine when electrophysiology referral is needed
+common_mistakes:
+- Ordering only a resting 12-lead ECG (often normal between episodes)
+- Not checking TSH and CBC in the initial workup
+- Missing medication causes (stimulants, decongestants, albuterol, QT-prolonging drugs)
+- Attributing all palpitations to anxiety without monitoring
+- Failing to ask about syncope or near-syncope (stratifies risk)
+red_flags:
+- Syncope or presyncope with palpitations (risk of sustained VT)
+- Palpitations during exertion (hypertrophic cardiomyopathy, long QT)
+- Family history of sudden cardiac death at young age
+- New heart failure symptoms (dyspnea, edema) with palpitations
+- Wide-complex tachycardia on ECG
+clinical_pearls:
+- Most palpitations are benign PACs or PVCs; reassurance is often sufficient
+- Holter monitor for daily symptoms, event monitor for weekly, implantable loop recorder for rare events
+- 'Ask patients to tap out the rhythm they feel: regular rapid = SVT, irregularly irregular = AF'
+- High PVC burden (>10-15% on Holter) can cause cardiomyopathy
+- Apple Watch and consumer ECG devices can capture paroxysmal AF but have false positives
+key_history_questions:
+- Regular or irregular? Fast or pounding? Duration of episodes?
+- Onset and offset (sudden or gradual)? What terminates them?
+- Associated syncope, presyncope, chest pain, or dyspnea?
+- Caffeine, alcohol, stimulant use, or new medications?
+- Family history of sudden death, cardiomyopathy, or arrhythmia?
+- History of structural heart disease?
+key_exam_findings:
+- Heart rate and rhythm during symptomatic episode
+- Murmur (mitral valve prolapse click, hypertrophic cardiomyopathy)
+- Thyroid enlargement or signs of thyrotoxicosis
+- Irregular pulse suggesting atrial fibrillation
+- JVD or peripheral edema suggesting heart failure
+treatment_principles:
+- Identify and correct reversible causes (caffeine, thyroid, anemia, medications)
+- Reassurance alone for infrequent benign PACs/PVCs
+- Beta-blockers first-line for symptomatic SVT or frequent PVCs
+- Catheter ablation for recurrent SVT (AVNRT, AVRT, atrial flutter)
+- Anticoagulation assessment (CHA2DS2-VASc) for atrial fibrillation
+disposition_guidance:
+- 'Outpatient: Isolated palpitations without syncope or structural heart disease'
+- 'Ambulatory monitoring: Holter or event monitor to capture arrhythmia'
+- 'Cardiology referral: Syncope with palpitations, wide-complex tachycardia, or high PVC burden'
+- 'ED: Hemodynamically unstable arrhythmia or sustained VT'

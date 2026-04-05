@@ -1,0 +1,53 @@
+id: insomnia
+topic: Insomnia
+category: psychiatry
+specialties:
+- im
+teaching_goals:
+- Apply diagnostic criteria for chronic insomnia disorder (>=3 nights/week for >=3 months)
+- Recognize CBT-I as first-line treatment over pharmacotherapy
+- Screen for and address comorbid conditions driving insomnia (depression, OSA, RLS, pain)
+- Understand appropriate and inappropriate use of sedative-hypnotics
+- Counsel on sleep hygiene as a foundation but not sole intervention
+common_mistakes:
+- Prescribing benzodiazepines or Z-drugs as first-line without trying CBT-I
+- Not screening for obstructive sleep apnea (especially in obese or snoring patients)
+- Recommending sleep hygiene alone without structured CBT-I
+- Missing medication causes (steroids, SSRIs, beta-blockers, stimulants)
+- Continuing sedative-hypnotics long-term without reassessment
+red_flags:
+- Excessive daytime sleepiness with snoring and witnessed apneas (OSA)
+- Insomnia with suicidal ideation (depression screening critical)
+- Parasomnias or complex sleep behaviors on sedative-hypnotics
+- Rebound insomnia after abrupt discontinuation of chronic benzodiazepine
+- New-onset insomnia in elderly with cognitive decline (evaluate for delirium)
+clinical_pearls:
+- CBT-I is the most effective long-term treatment for chronic insomnia (NNT ~2-3)
+- Sleep restriction therapy (limiting time in bed) is the most powerful CBT-I component
+- Trazodone at low doses (25-50 mg) is widely used for sleep but has limited RCT evidence
+- Suvorexant and lemborexant (orexin antagonists) are newer options with lower abuse potential
+- Melatonin is most useful for circadian rhythm disorders, not chronic insomnia per se
+key_history_questions:
+- Sleep onset latency, nighttime awakenings, early morning awakening pattern?
+- Sleep environment and bedtime routine?
+- Daytime consequences (fatigue, mood, concentration, driving)?
+- Caffeine, alcohol, screen use, and exercise timing?
+- Snoring, gasping, or restless legs at night?
+- Psychiatric symptoms (depression, anxiety, PTSD)?
+key_exam_findings:
+- BMI and neck circumference (OSA screening)
+- Mallampati score and oropharyngeal exam
+- Thyroid exam
+- Mental status exam for depression and anxiety
+- Neurologic exam if restless legs suspected
+treatment_principles:
+- CBT-I is first-line for chronic insomnia (in-person, group, or digital)
+- Sleep restriction and stimulus control are core behavioral interventions
+- 'If pharmacotherapy needed: trazodone, suvorexant, or low-dose doxepin preferred over Z-drugs'
+- Z-drugs (zolpidem) only for short-term use (<4 weeks); avoid in elderly
+- Treat underlying comorbidities (depression, pain, OSA, RLS)
+disposition_guidance:
+- 'Outpatient: Most insomnia managed in primary care with CBT-I referral'
+- 'Sleep study: If clinical suspicion for OSA (snoring, obesity, witnessed apneas)'
+- 'Psychiatry referral: Insomnia with refractory depression or complex medication management'
+- 'Reassess: Follow up in 4-6 weeks after initiating treatment'

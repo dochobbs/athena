@@ -1,0 +1,80 @@
+id: dizziness
+display_name: "Dizziness and Vertigo"
+aliases:
+  - Vertigo
+  - Lightheadedness
+  - Disequilibrium
+  - BPPV
+snomed: "404640003"
+icd10:
+  - "R42"
+  - "H81.10"
+  - "H81.49"
+category: acute
+system: neurology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: challenging
+  resident: moderate
+presentation:
+  symptoms:
+    - name: vertigo
+      probability: 0.50
+      description: "illusion of spinning or movement"
+    - name: lightheadedness
+      probability: 0.40
+      description: "sense of near-faint or unsteadiness"
+    - name: nausea
+      probability: 0.55
+      description: "accompanies vestibular vertigo"
+    - name: vomiting
+      probability: 0.30
+      description: "with acute vestibular episodes"
+    - name: hearing changes
+      probability: 0.15
+      description: "unilateral hearing loss suggests Meniere or acoustic neuroma"
+    - name: positional triggers
+      probability: 0.45
+      description: "BPPV triggered by head position changes"
+  physical_exam:
+    - system: neurologic
+      finding: "Positive Dix-Hallpike maneuver (BPPV)"
+      probability: 0.35
+    - system: neurologic
+      finding: "Direction-changing nystagmus (central cause)"
+      probability: 0.05
+    - system: neurologic
+      finding: "Horizontal nystagmus with latency (peripheral cause)"
+      probability: 0.30
+    - system: neurologic
+      finding: "Normal HINTS exam (low risk for stroke)"
+      probability: 0.70
+    - system: cardiovascular
+      finding: "Orthostatic hypotension on vitals"
+      probability: 0.20
+treatment:
+  approach: etiology_directed
+  medications:
+    - agent: "Meclizine"
+      rxnorm: "6627"
+      frequency: "three times daily as needed"
+      route: oral
+      indication: "vestibular suppressant for acute vertigo"
+    - agent: "Diazepam"
+      rxnorm: "3322"
+      frequency: "every 8 hours as needed x 3 days"
+      route: oral
+      indication: "vestibular suppressant for severe acute vertigo"
+    - agent: "Ondansetron"
+      rxnorm: "26225"
+      frequency: "every 8 hours as needed"
+      route: oral
+      indication: "antiemetic for vertigo-associated nausea"
+    - agent: "Betahistine"
+      rxnorm: "1272"
+      frequency: "three times daily"
+      route: oral
+      indication: "prophylaxis for Meniere disease attacks"

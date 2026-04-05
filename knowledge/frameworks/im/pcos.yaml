@@ -1,0 +1,58 @@
+id: pcos
+topic: Polycystic Ovary Syndrome
+category: endocrinology
+specialties:
+- im
+teaching_goals:
+- 'Apply Rotterdam criteria for diagnosis (2 of 3: oligo/anovulation, hyperandrogenism,
+  polycystic ovaries)'
+- Screen for metabolic comorbidities (insulin resistance, diabetes, dyslipidemia)
+- Tailor treatment to patient goals (cycle regulation, fertility, or hyperandrogenism)
+- Recognize long-term health risks including endometrial cancer and cardiovascular
+  disease
+- Understand the role of lifestyle modification as first-line therapy
+common_mistakes:
+- Diagnosing PCOS based on ultrasound alone without clinical or biochemical criteria
+- Not excluding other causes of hyperandrogenism (CAH, Cushing, androgen-secreting
+  tumor)
+- Forgetting to screen for diabetes and dyslipidemia at diagnosis
+- Not counseling on endometrial cancer risk from chronic anovulation
+- Using ultrasound criteria in adolescents (polycystic morphology is normal in teens)
+red_flags:
+- Virilization with rapid onset (voice deepening, clitoromegaly) suggesting androgen-secreting
+  tumor
+- Markedly elevated testosterone (>200 ng/dL) or DHEA-S (>700 mcg/dL)
+- Cushingoid features (exclude Cushing syndrome)
+- Prolonged amenorrhea without withdrawal bleed (endometrial evaluation needed)
+clinical_pearls:
+- PCOS is a diagnosis of exclusion; always rule out thyroid disease, hyperprolactinemia,
+  and CAH
+- 5-10% weight loss can restore ovulatory cycles in overweight patients
+- Spironolactone requires reliable contraception (teratogenic)
+- Letrozole is preferred over clomiphene for ovulation induction per ASRM
+- Metformin improves insulin resistance but is no longer first-line for cycle regulation
+key_history_questions:
+- How often do you get your period and how long do they last?
+- Have you noticed increased facial or body hair, or hair thinning on your scalp?
+- Are you trying to conceive or interested in contraception?
+- Any significant weight gain and where do you tend to carry weight?
+- Family history of diabetes, PCOS, or infertility?
+- Any symptoms of depression or anxiety?
+key_exam_findings:
+- Hirsutism score using modified Ferriman-Gallwey scale
+- Acanthosis nigricans (neck, axillae, groin)
+- Acne distribution (jawline, chin)
+- BMI and waist circumference
+- Androgenic alopecia pattern
+- Normal pelvic exam in most cases
+treatment_principles:
+- Lifestyle modification (diet, exercise) is first-line for all patients
+- Combined OCP for cycle regulation and androgen suppression
+- Spironolactone for hirsutism (takes 6+ months for effect)
+- Metformin for insulin resistance, especially if glucose intolerance present
+- Letrozole for ovulation induction when fertility is desired
+disposition_guidance:
+- Outpatient management with endocrinology or gynecology co-management as needed
+- Screen for type 2 diabetes every 1-3 years (OGTT preferred over HbA1c)
+- Endometrial evaluation if amenorrhea >3 months without progestin withdrawal
+- Mental health screening and support given high rates of depression and anxiety

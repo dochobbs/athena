@@ -1,0 +1,79 @@
+id: acute_bronchitis
+display_name: Acute Bronchitis
+aliases:
+- Chest cold
+- Acute tracheobronchitis
+- Bronchitis
+snomed: '10509002'
+icd10:
+- J20.9
+category: acute
+system: pulmonary
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f:
+  - 98.6
+  - 100.8
+  hr_multiplier: 1.05
+presentation:
+  symptoms:
+  - name: cough
+    probability: 0.95
+    description: persistent cough lasting 1-3 weeks, initially dry then productive
+  - name: sputum production
+    probability: 0.6
+    description: clear to purulent; color does not indicate bacterial infection
+  - name: malaise
+    probability: 0.55
+    description: general fatigue and feeling unwell
+  - name: low-grade fever
+    probability: 0.3
+    description: mild temperature elevation
+  - name: chest tightness
+    probability: 0.4
+    description: substernal discomfort with coughing
+  - name: sore throat
+    probability: 0.35
+    description: often present early with URI prodrome
+  physical_exam:
+  - system: pulmonary
+    finding: Scattered rhonchi that may clear with cough
+    probability: 0.4
+  - system: pulmonary
+    finding: Clear lungs to auscultation
+    probability: 0.5
+  - system: pulmonary
+    finding: Occasional wheezing
+    probability: 0.2
+  - system: ent
+    finding: Mildly erythematous pharynx
+    probability: 0.35
+treatment:
+  approach: supportive_care
+  medications:
+  - agent: Benzonatate
+    rxnorm: '1292'
+    frequency: three times daily as needed
+    route: oral
+    indication: antitussive for symptomatic cough relief
+  - agent: Guaifenesin
+    rxnorm: '5032'
+    frequency: every 12 hours
+    route: oral
+    indication: expectorant for productive cough
+  - agent: Albuterol inhaler
+    rxnorm: '435'
+    frequency: every 4-6 hours as needed
+    route: inhaled
+    indication: bronchodilator if significant wheezing present
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: every 6-8 hours as needed
+    route: oral
+    indication: antipyretic and analgesic for malaise

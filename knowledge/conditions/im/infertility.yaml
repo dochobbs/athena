@@ -1,0 +1,75 @@
+id: infertility
+display_name: "Infertility (Male and Female)"
+aliases:
+  - Subfertility
+  - Failure to conceive
+  - Reproductive failure
+snomed: "6738008"
+icd10:
+  - "N97.9"
+  - "N46.9"
+category: chronic
+system: reproductive
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: failure_to_conceive
+      probability: 1.00
+      description: "Inability to conceive after 12 months of unprotected intercourse (6 months if age >35)"
+    - name: irregular_menses
+      probability: 0.35
+      description: "Irregular or absent menstrual cycles suggesting anovulation"
+    - name: dysmenorrhea
+      probability: 0.25
+      description: "Severe menstrual pain suggesting endometriosis"
+    - name: sexual_dysfunction
+      probability: 0.15
+      description: "Erectile dysfunction, decreased libido, or ejaculatory problems"
+    - name: galactorrhea
+      probability: 0.05
+      description: "Nipple discharge suggesting hyperprolactinemia"
+  physical_exam:
+    - system: pelvic
+      finding: "Uterine enlargement or adnexal mass (fibroids, ovarian cyst)"
+      probability: 0.15
+    - system: thyroid
+      finding: "Thyromegaly suggesting thyroid dysfunction"
+      probability: 0.10
+    - system: genitourinary
+      finding: "Small or absent testes, varicocele on scrotal exam"
+      probability: 0.20
+    - system: general
+      finding: "BMI extremes (obesity or underweight) affecting ovulation"
+      probability: 0.30
+    - system: endocrine
+      finding: "Hirsutism or acne suggesting PCOS"
+      probability: 0.20
+treatment:
+  approach: simultaneous_male_and_female_evaluation
+  medications:
+    - agent: "Clomiphene citrate"
+      rxnorm: "2567"
+      frequency: "50-150 mg daily for 5 days (cycle days 3-7)"
+      route: oral
+      indication: "Ovulation induction for anovulatory infertility"
+    - agent: "Letrozole"
+      rxnorm: "72965"
+      frequency: "2.5-7.5 mg daily for 5 days (cycle days 3-7)"
+      route: oral
+      indication: "First-line ovulation induction, especially in PCOS"
+    - agent: "Metformin"
+      rxnorm: "6809"
+      frequency: "500-2000 mg daily"
+      route: oral
+      indication: "Adjunctive for PCOS-related anovulation with insulin resistance"

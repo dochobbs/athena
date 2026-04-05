@@ -1,0 +1,54 @@
+id: fatigue
+topic: "Chronic Fatigue"
+category: general
+specialties:
+  - im
+teaching_goals:
+  - Develop a systematic approach to the differential diagnosis of chronic fatigue
+  - Order appropriate initial laboratory workup (CBC, CMP, TSH, ferritin, CRP)
+  - Screen for depression and sleep disorders as common contributors
+  - Apply diagnostic criteria for myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS)
+  - Recognize that fatigue is a symptom requiring diagnosis of the underlying cause
+common_mistakes:
+  - Ordering extensive workups without thorough history and focused exam first
+  - Missing depression or anxiety as the primary driver of fatigue
+  - Not asking about sleep quality and screening for OSA
+  - Attributing fatigue to low-normal ferritin without considering iron supplementation trial
+  - Diagnosing chronic fatigue syndrome too early without excluding other conditions
+red_flags:
+  - Unintentional weight loss with fatigue (malignancy, endocrine disease)
+  - Fatigue with lymphadenopathy (lymphoma, HIV, mononucleosis)
+  - Progressive weakness rather than fatigue (neuromuscular disease)
+  - Fatigue with fever and night sweats (infection, malignancy)
+  - New fatigue in patient on multiple medications (drug side effect)
+clinical_pearls:
+  - The most common causes of chronic fatigue are depression, sleep disorders, and anemia
+  - Ferritin <30 ng/mL warrants iron supplementation trial even without frank anemia
+  - Post-exertional malaise is the hallmark of ME/CFS (symptoms worsen 12-72 hours after activity)
+  - OSA should be considered in all patients with fatigue, especially with snoring or obesity
+  - Vitamin D deficiency is common but evidence for fatigue improvement with supplementation is limited
+key_history_questions:
+  - How long have you been fatigued and was onset sudden or gradual?
+  - Do you feel sleepy (want to sleep) or tired (lack of energy)?
+  - How is your sleep? Do you snore or wake unrefreshed?
+  - Any changes in mood, interest in activities, or appetite?
+  - What medications are you taking including OTC and supplements?
+  - Does activity make fatigue significantly worse in the following days?
+key_exam_findings:
+  - Thyroid exam (enlargement, nodules)
+  - Lymph node survey (cervical, axillary, inguinal)
+  - Skin exam for pallor, jaundice, or rashes
+  - Cardiac exam (murmurs, gallops suggesting heart failure)
+  - Neurologic exam for focal deficits or proximal weakness
+  - Mental status and affect assessment
+treatment_principles:
+  - Treat identifiable underlying causes first
+  - Graded exercise therapy (careful if ME/CFS suspected)
+  - CBT for fatigue associated with depression or chronic illness
+  - Sleep hygiene optimization and OSA screening
+  - Iron supplementation if ferritin <30 even without anemia
+disposition_guidance:
+  - Outpatient workup with structured follow-up
+  - Refer to sleep medicine if OSA suspected
+  - Psychiatry referral for treatment-resistant depression with fatigue
+  - Rheumatology referral if inflammatory markers elevated or autoimmune features present

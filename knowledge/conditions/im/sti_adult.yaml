@@ -1,0 +1,80 @@
+id: sti_adult
+display_name: "Sexually Transmitted Infections (Adult)"
+aliases:
+  - STI
+  - STD
+  - Sexually transmitted disease
+  - Venereal disease
+snomed: "8098009"
+icd10:
+  - "A64"
+  - "A56.2"
+  - "A54.9"
+category: acute
+system: infectious_disease
+specialties:
+  - im
+age_range:
+  min_months: 168
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+    - name: urethral discharge
+      probability: 0.45
+      description: "purulent (gonorrhea) or mucopurulent (chlamydia)"
+    - name: dysuria
+      probability: 0.50
+      description: "painful urination, especially with urethritis"
+    - name: genital ulcer
+      probability: 0.25
+      description: "painless (syphilis), painful (herpes), or mixed"
+    - name: vaginal discharge
+      probability: 0.40
+      description: "cervicitis from chlamydia or gonorrhea"
+    - name: asymptomatic
+      probability: 0.50
+      description: "many STIs are subclinical, especially chlamydia in women"
+    - name: genital warts
+      probability: 0.15
+      description: "condylomata acuminata from HPV"
+  physical_exam:
+    - system: genitourinary
+      finding: "Urethral discharge on exam or expression"
+      probability: 0.35
+    - system: genitourinary
+      finding: "Genital ulcer(s)"
+      probability: 0.20
+    - system: gynecologic
+      finding: "Mucopurulent cervicitis on speculum exam"
+      probability: 0.30
+    - system: lymphatic
+      finding: "Inguinal lymphadenopathy"
+      probability: 0.25
+    - system: skin
+      finding: "Palmar or plantar rash (secondary syphilis)"
+      probability: 0.05
+treatment:
+  approach: empiric_and_targeted_antimicrobial
+  medications:
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "single IM dose 500mg"
+      route: im
+      indication: "gonorrhea treatment"
+    - agent: "Doxycycline"
+      rxnorm: "3640"
+      frequency: "twice daily x 7 days"
+      route: oral
+      indication: "chlamydia treatment"
+    - agent: "Benzathine penicillin G"
+      rxnorm: "1110"
+      frequency: "single IM dose 2.4 million units"
+      route: im
+      indication: "primary, secondary, or early latent syphilis"
+    - agent: "Valacyclovir"
+      rxnorm: "69120"
+      frequency: "twice daily x 7-10 days (initial), then suppressive"
+      route: oral
+      indication: "genital herpes treatment"

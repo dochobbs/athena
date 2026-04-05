@@ -1,0 +1,56 @@
+id: headache_adult
+topic: Headache (Adult, Undifferentiated)
+category: neurology
+specialties:
+- im
+teaching_goals:
+- Classify headache as primary (tension, migraine, cluster) vs secondary
+- Apply SNOOP mnemonic to identify red flags for secondary headache
+- Know indications for neuroimaging in headache evaluation
+- Develop an acute and preventive treatment plan for common headache types
+- Recognize medication overuse headache and manage appropriately
+common_mistakes:
+- Ordering brain MRI for every headache without red flags
+- Missing medication overuse headache from frequent analgesic or triptan use
+- Failing to screen for depression and anxiety in chronic headache patients
+- Not asking about the worst headache of my life (thunderclap = SAH)
+- Prescribing opioids for primary headache disorders
+red_flags:
+- Thunderclap headache reaching max intensity in seconds (SAH)
+- New headache in patient over 50 (GCA, malignancy)
+- Headache with focal neurologic deficits
+- Headache with papilledema or altered mental status
+- Positional headache worse upright (CSF leak) or supine (elevated ICP)
+clinical_pearls:
+- Tension-type headache is bilateral, pressing, mild-moderate; migraine is unilateral,
+  pulsating, moderate-severe with nausea or photophobia
+- CT head is preferred emergent study; MRI for elective workup
+- Medication overuse headache occurs with analgesics >15 days/month or triptans >10
+  days/month
+- ESR and CRP should be checked in all new headaches in patients over 50 (GCA screen)
+- 'Cluster headache has autonomic features: tearing, rhinorrhea, ptosis, miosis'
+key_history_questions:
+- 'Describe the headache: location, quality, severity, and duration?'
+- How quickly did it reach maximum intensity?
+- How often do you get headaches and how many days per month?
+- What medications do you take for headaches and how often?
+- Any visual changes, nausea, vomiting, or light/sound sensitivity?
+- Any recent head trauma, fever, neck stiffness, or weight loss?
+key_exam_findings:
+- Fundoscopic exam for papilledema
+- Temporal artery tenderness and scalp allodynia
+- Nuchal rigidity (meningitis, SAH)
+- Focal neurologic deficits (stroke, mass lesion)
+- Pericranial muscle tenderness (tension-type headache)
+- Cranial nerve exam including visual fields
+treatment_principles:
+- Abortive therapy should be taken early in the headache course
+- Limit abortive medication to <10-15 days per month to avoid rebound
+- Preventive therapy when headaches occur >4 days per month
+- Non-pharmacologic approaches (sleep hygiene, stress management, exercise)
+- Withdraw overused medications gradually with bridge therapy
+disposition_guidance:
+- ED evaluation for thunderclap headache, worst headache of life, or focal deficits
+- Outpatient neurology referral for refractory or atypical headaches
+- Urgent imaging for new headache with red flags
+- Primary care follow-up for preventive medication titration

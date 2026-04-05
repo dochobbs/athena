@@ -1,0 +1,53 @@
+id: diverticular_disease
+topic: Diverticular Disease (Non-Acute Management)
+category: gi
+specialties:
+- im
+teaching_goals:
+- Distinguish diverticulosis (anatomic) from diverticular disease (symptomatic) from diverticulitis (acute inflammation)
+- Know that most patients with diverticulosis are asymptomatic and require no treatment
+- Counsel on high-fiber diet for prevention of complications
+- Understand updated guidance that nuts, seeds, and popcorn are NOT restricted
+- Recognize indications for colonoscopy after an episode of diverticulitis
+common_mistakes:
+- Advising patients to avoid nuts, seeds, and popcorn (outdated; no evidence of harm)
+- Prescribing antibiotics for uncomplicated mild diverticulitis (recent evidence supports observation)
+- Not performing colonoscopy 6-8 weeks after acute diverticulitis to exclude malignancy
+- Confusing symptomatic uncomplicated diverticular disease (SUDD) with IBS
+- Recommending elective surgery after two episodes (now individualized, not automatic)
+red_flags:
+- Acute diverticulitis with perforation, abscess, or peritonitis
+- Diverticular hemorrhage with hemodynamic instability
+- Fistula formation (colovesical with pneumaturia, colovaginal with feculent vaginal discharge)
+- Stricture causing large bowel obstruction
+- Recurrent episodes raising concern for underlying malignancy
+clinical_pearls:
+- Diverticulosis is present in >50% of adults over age 60; most remain asymptomatic
+- High-fiber diet (25-30 g/day) reduces risk of diverticulitis by ~40%
+- No evidence that nuts, seeds, or popcorn trigger diverticulitis (large Nurses Health Study)
+- Colonoscopy 6-8 weeks after acute diverticulitis is standard to rule out colon cancer
+- SUDD (symptomatic uncomplicated diverticular disease) may respond to mesalamine (European data)
+key_history_questions:
+- History of prior episodes of diverticulitis and treatment?
+- Current symptoms (chronic LLQ pain, bloating, altered bowel habits)?
+- Dietary fiber intake and eating habits?
+- Prior colonoscopy results and date?
+- Family history of colon cancer or IBD?
+- NSAID or aspirin use (risk factor for diverticular complications)?
+key_exam_findings:
+- Mild LLQ tenderness without peritoneal signs
+- Normal bowel sounds
+- Normal rectal exam
+- No fever or tachycardia in chronic disease
+- Assess for signs of complication if new symptoms (rebound, guarding)
+treatment_principles:
+- High-fiber diet (25-30 g/day) is the cornerstone of prevention
+- Adequate hydration with increased fiber intake
+- No dietary restrictions on nuts, seeds, or popcorn
+- Mesalamine or cyclic rifaximin for SUDD (evidence evolving, European guidelines)
+- Elective surgery decision is individualized based on recurrence, severity, and patient factors
+disposition_guidance:
+- 'Outpatient: Chronic diverticular disease managed in primary care with dietary counseling'
+- 'Colonoscopy: 6-8 weeks after acute diverticulitis episode; age-appropriate CRC screening'
+- 'GI referral: Recurrent episodes, SUDD refractory to fiber, or need for colonoscopy'
+- 'Surgical referral: Recurrent complicated diverticulitis, fistula, or stricture'

@@ -1,0 +1,100 @@
+id: common_skin_conditions
+display_name: "Common Skin Conditions (Dermatitis, Tinea, Warts)"
+aliases:
+  - Contact dermatitis
+  - Atopic dermatitis
+  - Eczema
+  - Tinea corporis
+  - Ringworm
+  - Verruca vulgaris
+  - Common warts
+snomed: "43116000"
+icd10:
+  - "L30.9"
+  - "L23.9"
+  - "L20.9"
+  - "B35.4"
+  - "B07.9"
+category: chronic
+system: dermatology
+specialties:
+  - im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+vitals_impact:
+  temp_f: [97.8, 98.6]
+  hr_multiplier: 1.0
+  rr_multiplier: 1.0
+  spo2_min: 98
+presentation:
+  symptoms:
+    - name: pruritus
+      probability: 0.80
+      description: "Itching; hallmark of dermatitis and tinea"
+    - name: rash
+      probability: 0.90
+      description: "Erythematous patches, plaques, or papules depending on etiology"
+    - name: scaling
+      probability: 0.55
+      description: "Fine scaling in dermatitis; annular scaling in tinea"
+    - name: vesicles
+      probability: 0.25
+      description: "Small vesicles in acute contact dermatitis or dyshidrotic eczema"
+    - name: skin_thickening
+      probability: 0.30
+      description: "Lichenification from chronic scratching in atopic dermatitis"
+    - name: wart_lesions
+      probability: 0.35
+      description: "Flesh-colored papules with rough surface (verrucae)"
+  physical_exam:
+    - system: skin
+      finding: "Erythematous, scaly patches in flexural distribution (atopic dermatitis)"
+      probability: 0.35
+    - system: skin
+      finding: "Annular, well-demarcated plaque with raised scaly border and central clearing (tinea)"
+      probability: 0.30
+    - system: skin
+      finding: "Vesicles and erythema in geometric distribution (contact dermatitis)"
+      probability: 0.25
+    - system: skin
+      finding: "Flesh-colored verrucous papules with black dots (thrombosed capillaries in warts)"
+      probability: 0.30
+    - system: skin
+      finding: "Excoriations and lichenification from chronic scratching"
+      probability: 0.25
+treatment:
+  approach: diagnosis_specific_topical_therapy
+  medications:
+    - agent: "Triamcinolone 0.1% cream"
+      rxnorm: "10759"
+      frequency: "Apply thin layer twice daily to affected areas"
+      route: topical
+      indication: "Medium-potency topical steroid for dermatitis (body)"
+    - agent: "Hydrocortisone 1% cream"
+      rxnorm: "5492"
+      frequency: "Apply twice daily"
+      route: topical
+      indication: "Low-potency steroid for face, intertriginous areas"
+    - agent: "Terbinafine 1% cream"
+      rxnorm: "37801"
+      frequency: "Apply once or twice daily for 2-4 weeks"
+      route: topical
+      indication: "Topical antifungal for tinea corporis, cruris, pedis"
+    - agent: "Terbinafine"
+      rxnorm: "37801"
+      frequency: "250 mg daily for 2-4 weeks"
+      route: oral
+      indication: "Oral antifungal for extensive tinea or onychomycosis"
+    - agent: "Salicylic acid 17%"
+      rxnorm: "9524"
+      frequency: "Apply daily to wart after soaking"
+      route: topical
+      indication: "First-line wart treatment; keratolytic"
+    - agent: "Tacrolimus 0.1% ointment"
+      rxnorm: "68084"
+      frequency: "Apply twice daily"
+      route: topical
+      indication: "Calcineurin inhibitor for eczema on face/skin folds (steroid-sparing)"

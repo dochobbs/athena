@@ -1,0 +1,78 @@
+id: palpitations
+display_name: Palpitations
+aliases:
+- Heart palpitations
+- Cardiac awareness
+- Racing heart
+snomed: '80313002'
+icd10:
+- R00.2
+- R00.0
+category: acute
+system: cardiology
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+vitals_impact:
+  temp_f:
+  - 97.8
+  - 98.6
+  hr_multiplier: 1.15
+  rr_multiplier: 1.05
+  spo2_min: 96
+presentation:
+  symptoms:
+  - name: palpitations
+    probability: 1.0
+    description: Awareness of heartbeat; may be rapid, irregular, or pounding
+  - name: lightheadedness
+    probability: 0.45
+    description: Dizziness or near-syncope during episodes
+  - name: dyspnea
+    probability: 0.35
+    description: Shortness of breath accompanying palpitations
+  - name: chest_discomfort
+    probability: 0.3
+    description: Chest tightness or pressure during episodes
+  - name: anxiety
+    probability: 0.5
+    description: Anxiety or panic sensation, may be cause or effect
+  - name: exercise_intolerance
+    probability: 0.25
+    description: Reduced exercise capacity during symptomatic periods
+  physical_exam:
+  - system: cardiovascular
+    finding: Irregular rhythm or tachycardia if symptomatic during exam
+    probability: 0.3
+  - system: cardiovascular
+    finding: Midsystolic click or murmur (mitral valve prolapse)
+    probability: 0.1
+  - system: thyroid
+    finding: Thyromegaly or thyroid nodule suggesting hyperthyroidism
+    probability: 0.1
+  - system: general
+    finding: Tremor, diaphoresis, or lid lag if thyrotoxic
+    probability: 0.08
+treatment:
+  approach: etiology_directed_after_risk_stratification
+  medications:
+  - agent: Metoprolol succinate
+    rxnorm: '866924'
+    frequency: 25-100 mg daily
+    route: oral
+    indication: Rate control and symptom relief for benign palpitations
+  - agent: Verapamil
+    rxnorm: '11170'
+    frequency: 120-240 mg daily (extended-release)
+    route: oral
+    indication: Alternative rate control if beta-blocker contraindicated
+  - agent: Flecainide
+    rxnorm: '4441'
+    frequency: 50-150 mg twice daily
+    route: oral
+    indication: Rhythm control for SVT or atrial fibrillation (structurally normal
+      heart)

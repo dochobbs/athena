@@ -1,0 +1,53 @@
+id: ibs
+topic: Irritable Bowel Syndrome
+category: gi
+specialties:
+- im
+teaching_goals:
+- Apply Rome IV criteria for IBS diagnosis (positive diagnosis, not exclusion)
+- Subtype IBS correctly (IBS-D, IBS-C, IBS-M) to guide targeted therapy
+- Know limited but appropriate workup (CBC, CRP, celiac serologies, age-appropriate CRC screening)
+- Understand the low FODMAP diet and its evidence base
+- Recognize the gut-brain axis and role of neuromodulators in treatment
+common_mistakes:
+- Ordering excessive testing (colonoscopy, CT, extensive labs) for classic IBS presentation
+- Not subtyping IBS (treatment is subtype-specific)
+- Ignoring the psychological component and not addressing anxiety or depression
+- Prescribing opioids for IBS pain (worsens motility and leads to narcotic bowel syndrome)
+- Missing celiac disease (present in 4% of IBS-D patients; always screen)
+red_flags:
+- Unintentional weight loss (suggests organic disease, not IBS)
+- Rectal bleeding or iron deficiency anemia
+- Nocturnal symptoms waking patient from sleep
+- Onset after age 50 without prior history (late-onset warrants colonoscopy)
+- Family history of colon cancer, IBD, or celiac disease
+clinical_pearls:
+- IBS is a positive diagnosis using Rome IV criteria, not a diagnosis of exclusion
+- Low FODMAP diet improves symptoms in 50-80% of patients; best implemented with dietitian
+- Rifaximin for IBS-D can be repeated if symptoms recur (FDA-approved for IBS-D)
+- Low-dose TCAs (amitriptyline 10-25 mg) are effective neuromodulators for IBS-D with pain
+- Fecal calprotectin is useful to distinguish IBS from IBD (normal in IBS)
+key_history_questions:
+- Abdominal pain frequency and relation to bowel movements?
+- Stool pattern (diarrhea-predominant, constipation-predominant, or mixed)?
+- Onset and duration of symptoms (>=6 months)?
+- Dietary triggers (dairy, gluten, high-FODMAP foods)?
+- Stress, anxiety, or depression correlation with symptoms?
+- Nocturnal symptoms, weight loss, or blood in stool (alarm features)?
+key_exam_findings:
+- Mild abdominal tenderness, often left lower quadrant
+- No peritoneal signs or rebound
+- Normal rectal exam without masses
+- Normal vital signs and general appearance
+- Possible abdominal distention
+treatment_principles:
+- Start with dietary modification (low FODMAP, adequate fiber, trigger avoidance)
+- 'IBS-D: loperamide for diarrhea, rifaximin for bloating, low-dose TCA for pain'
+- 'IBS-C: soluble fiber, linaclotide or lubiprostone, PEG for constipation'
+- Antispasmodics (dicyclomine, hyoscyamine) for postprandial cramping
+- Address psychological comorbidity with CBT, SSRIs, or gut-directed hypnotherapy
+disposition_guidance:
+- 'Outpatient: IBS is managed entirely in primary care for most patients'
+- 'GI referral: Atypical features, alarm symptoms, or refractory to standard therapy'
+- 'Dietitian referral: Low FODMAP diet implementation and reintroduction phases'
+- 'Psychology/psychiatry: CBT for gut-brain axis modulation; gut-directed hypnotherapy'

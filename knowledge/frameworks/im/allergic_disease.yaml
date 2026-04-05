@@ -1,0 +1,54 @@
+id: allergic_disease
+topic: Allergic Disease (Allergic Rhinitis, Urticaria, Anaphylaxis)
+category: immunology
+specialties:
+- im
+teaching_goals:
+- Differentiate allergic rhinitis from non-allergic rhinitis and sinusitis
+- Classify urticaria as acute vs. chronic and identify triggers
+- Recognize and treat anaphylaxis with epinephrine as first-line
+- Know stepwise allergic rhinitis therapy (intranasal steroids > antihistamines)
+- Understand indications for allergy testing and immunotherapy referral
+common_mistakes:
+- Using intranasal decongestants (oxymetazoline) for >3 days (rhinitis medicamentosa)
+- Treating anaphylaxis with antihistamines instead of epinephrine first
+- Not prescribing epinephrine auto-injectors for patients with prior anaphylaxis
+- Ordering allergy panels without clinical correlation (high false positive rate)
+- Missing chronic urticaria as autoimmune (most chronic urticaria is idiopathic/autoimmune)
+red_flags:
+- Anaphylaxis (hypotension, airway compromise, multi-system involvement)
+- Urticaria with angioedema of tongue or larynx
+- Chronic urticaria unresponsive to high-dose antihistamines (consider vasculitis or mastocytosis)
+- Drug reaction with eosinophilia and systemic symptoms (DRESS)
+- Recurrent anaphylaxis with unknown trigger
+clinical_pearls:
+- Intranasal corticosteroids are the single most effective therapy for allergic rhinitis
+- Anaphylaxis is a clinical diagnosis; do not delay epinephrine for confirmation
+- Biphasic anaphylaxis occurs in 5-20% of cases; observe 4-6 hours after treatment
+- Chronic urticaria (>6 weeks) is rarely allergic; IgE testing is usually not helpful
+- Allergen immunotherapy (SCIT or SLIT) is the only disease-modifying treatment for allergic rhinitis
+key_history_questions:
+- Seasonal vs. perennial symptoms? Identified triggers?
+- Nasal symptoms (congestion, rhinorrhea, sneezing, postnasal drip)?
+- Eye symptoms (itching, tearing, redness)?
+- Urticaria pattern (timing, duration of individual wheals, angioedema)?
+- History of anaphylaxis or severe allergic reaction?
+- Family history of atopy (asthma, eczema, allergic rhinitis)?
+key_exam_findings:
+- Pale, boggy nasal turbinates with clear rhinorrhea
+- Allergic shiners and Dennie-Morgan lines
+- Conjunctival injection and chemosis
+- Wheals (raised, erythematous, blanching) in urticaria
+- Oropharyngeal or tongue edema in angioedema
+- Wheezing or stridor in anaphylaxis
+treatment_principles:
+- 'Allergic rhinitis: intranasal corticosteroid first-line; add second-gen antihistamine if needed'
+- 'Acute urticaria: second-generation antihistamine; short course of prednisone for severe cases'
+- 'Chronic urticaria: up-titrate antihistamine to 4x standard dose before adding omalizumab'
+- 'Anaphylaxis: IM epinephrine immediately; position patient supine; IV fluids; observe 4-6 hours'
+- All anaphylaxis patients need epinephrine auto-injector prescription and action plan
+disposition_guidance:
+- 'Outpatient: Allergic rhinitis and mild urticaria managed in primary care'
+- 'ED: Anaphylaxis, angioedema with airway compromise'
+- 'Allergy/immunology referral: Recurrent anaphylaxis, chronic urticaria refractory to antihistamines, immunotherapy candidates'
+- 'Post-anaphylaxis: Epinephrine prescription, allergy referral, and action plan at discharge'

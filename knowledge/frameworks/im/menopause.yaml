@@ -1,0 +1,52 @@
+id: menopause
+topic: "Menopause and Perimenopause"
+category: gynecology
+specialties:
+  - im
+teaching_goals:
+  - Define menopause (12 months amenorrhea) and distinguish from perimenopause
+  - Counsel on benefits and risks of hormone replacement therapy
+  - Evaluate and manage genitourinary syndrome of menopause
+  - Screen for and manage associated cardiovascular and bone health risks
+  - Identify non-hormonal alternatives for patients with contraindications to HRT
+common_mistakes:
+  - Ordering FSH to diagnose menopause in women over 45 with classic symptoms (clinical diagnosis)
+  - Prescribing estrogen without progesterone in women with intact uterus
+  - Withholding HRT from symptomatic women under 60 or within 10 years of menopause
+  - Not screening for osteoporosis at appropriate age
+  - Failing to address genitourinary symptoms because patient does not volunteer them
+red_flags:
+  - Postmenopausal bleeding (endometrial pathology until proven otherwise)
+  - Vaginal bleeding on HRT outside expected pattern
+  - New breast mass on HRT
+  - Unilateral leg swelling on systemic estrogen (DVT)
+clinical_pearls:
+  - HRT is safest when initiated within 10 years of menopause or before age 60
+  - Vaginal estrogen is safe for most women including many breast cancer survivors (low systemic absorption)
+  - Paroxetine 7.5mg is the only FDA-approved non-hormonal drug for hot flashes
+  - Menopause is a clinical diagnosis in women over 45; labs are not needed
+  - Genitourinary syndrome of menopause is progressive and does not resolve without treatment
+key_history_questions:
+  - When was your last menstrual period?
+  - Are you having hot flashes, night sweats, or sleep disturbance?
+  - Any vaginal dryness, pain with intercourse, or urinary symptoms?
+  - Family history of breast cancer, cardiovascular disease, or osteoporosis?
+  - Any history of blood clots or stroke?
+  - Current medications and any prior hormone therapy?
+key_exam_findings:
+  - Vaginal atrophy with pale, smooth, dry mucosa
+  - Loss of labial fullness and vaginal rugae
+  - Elevated pH on vaginal testing (>4.5)
+  - Breast exam for masses before starting HRT
+  - BMI and blood pressure assessment
+treatment_principles:
+  - Hormone therapy is most effective treatment for vasomotor symptoms
+  - Use lowest effective dose for shortest necessary duration
+  - Always add progestogen if patient has a uterus
+  - Vaginal estrogen for isolated genitourinary symptoms
+  - Non-hormonal options include SSRIs/SNRIs, gabapentin, and CBT
+disposition_guidance:
+  - Outpatient management with 3-month follow-up after starting HRT
+  - Urgent referral for postmenopausal bleeding (endometrial evaluation)
+  - Gynecology referral if HRT management is complex
+  - DEXA scan at age 65 or earlier with risk factors

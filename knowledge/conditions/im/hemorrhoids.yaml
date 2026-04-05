@@ -1,0 +1,74 @@
+id: hemorrhoids
+display_name: Hemorrhoids
+aliases:
+- Piles
+- Internal hemorrhoids
+- External hemorrhoids
+- Hemorrhoidal disease
+snomed: '70153002'
+icd10:
+- K64.9
+- K64.0
+- K64.1
+category: chronic
+system: gi
+specialties:
+- im
+age_range:
+  min_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: rectal bleeding
+    probability: 0.8
+    description: painless bright red blood on toilet paper or in bowl
+  - name: perianal pruritus
+    probability: 0.55
+    description: itching around anal area
+  - name: perianal mass
+    probability: 0.45
+    description: palpable lump, especially with thrombosis or prolapse
+  - name: rectal pain
+    probability: 0.4
+    description: sharp pain with thrombosed external hemorrhoids
+  - name: soiling
+    probability: 0.25
+    description: mucoid discharge or fecal staining
+  physical_exam:
+  - system: rectal
+    finding: External hemorrhoidal skin tags or prolapsing tissue
+    probability: 0.5
+  - system: rectal
+    finding: Thrombosed external hemorrhoid - tender, blue-purple nodule
+    probability: 0.2
+  - system: rectal
+    finding: Internal hemorrhoids visible on anoscopy
+    probability: 0.6
+  - system: rectal
+    finding: Normal digital rectal exam; hemorrhoids not palpable
+    probability: 0.35
+treatment:
+  approach: conservative_and_procedural
+  medications:
+  - agent: Docusate sodium
+    rxnorm: '3528'
+    frequency: once or twice daily
+    route: oral
+    indication: stool softener to reduce straining
+  - agent: Psyllium
+    rxnorm: '8898'
+    frequency: once or twice daily with water
+    route: oral
+    indication: fiber supplementation for bulking stool
+  - agent: Hydrocortisone rectal cream
+    rxnorm: '5492'
+    frequency: twice daily x 7 days max
+    route: rectal
+    indication: topical anti-inflammatory for symptomatic relief
+  - agent: Lidocaine ointment
+    rxnorm: '6387'
+    frequency: up to three times daily
+    route: topical
+    indication: local anesthetic for pain relief

@@ -1,0 +1,51 @@
+id: acne_adult
+topic: Acne Vulgaris (Adult)
+category: dermatology
+specialties:
+- im
+teaching_goals:
+- Classify acne severity (comedonal, mild inflammatory, moderate, severe nodulocystic)
+- Prescribe stepwise therapy matching severity
+- Understand hormonal acne patterns in adult women and role of spironolactone
+- Know isotretinoin indications, monitoring, and iPLEDGE requirements
+- Counsel on realistic treatment timeline (6-8 weeks for improvement)
+common_mistakes:
+- Using topical antibiotics as monotherapy (promotes resistance; always combine with benzoyl peroxide)
+- Not pairing oral antibiotics with topical retinoid for maintenance
+- Prescribing prolonged courses of oral antibiotics beyond 3-4 months
+- Missing PCOS as a driver of hormonal acne in women
+- Not counseling on dryness and irritation from retinoids (start slow, moisturize)
+red_flags:
+- Sudden severe acne with virilization in women (androgen-secreting tumor)
+- Acne fulminans (explosive onset with systemic symptoms and bone pain)
+- Severe scarring requiring early aggressive treatment
+- Isotretinoin use in pregnancy (absolute contraindication; teratogenic)
+clinical_pearls:
+- Adult female acne often involves the jawline and chin (hormonal pattern)
+- Benzoyl peroxide prevents antibiotic resistance; always use as adjunct with antibiotics
+- Spironolactone 50-200 mg is very effective for hormonal acne in women but requires K+ monitoring
+- Topical retinoids are the backbone of maintenance therapy after clearing
+- Low-dose isotretinoin (0.25-0.5 mg/kg) can be effective with fewer side effects
+key_history_questions:
+- Distribution and type of lesions (comedones, papules, nodules)?
+- Prior treatments tried and response?
+- Menstrual regularity and hormonal symptoms (women)?
+- Current skincare routine and products?
+- Family history of severe acne or isotretinoin use?
+- Impact on quality of life and psychosocial functioning?
+key_exam_findings:
+- Comedones (open and closed) on face, chest, and back
+- Inflammatory papules and pustules with severity grading
+- Nodules or cysts (indicates severe acne)
+- Scarring (atrophic, ice pick, rolling, boxcar)
+- Signs of hyperandrogenism in women (hirsutism, androgenic alopecia)
+treatment_principles:
+- 'Mild comedonal: topical retinoid +/- benzoyl peroxide'
+- 'Mild inflammatory: add topical antibiotic (always with benzoyl peroxide)'
+- 'Moderate: oral antibiotic (doxycycline) + topical retinoid + benzoyl peroxide'
+- 'Hormonal (women): spironolactone or combined OCP'
+- 'Severe nodulocystic: isotretinoin (iPLEDGE program, pregnancy prevention, LFTs)'
+disposition_guidance:
+- 'Outpatient: All acne managed outpatient with stepwise therapy'
+- 'Dermatology referral: Nodulocystic acne, isotretinoin candidacy, treatment failure'
+- 'Follow-up: 6-8 weeks after initiating or changing therapy'

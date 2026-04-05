@@ -1,0 +1,53 @@
+id: tobacco_dependence
+topic: Tobacco Use Disorder / Smoking Cessation
+category: psychiatry
+specialties:
+- im
+teaching_goals:
+- Apply the 5 A's framework (Ask, Advise, Assess, Assist, Arrange) at every visit
+- Know first-line pharmacotherapy options and their relative efficacy
+- Understand combination NRT (patch + short-acting) for improved quit rates
+- Counsel on e-cigarettes and harm reduction in context of current evidence
+- Recognize and manage nicotine withdrawal symptoms
+common_mistakes:
+- Not asking about tobacco use at every visit (brief intervention is effective)
+- Prescribing NRT alone without behavioral counseling
+- Not offering combination NRT (patch + gum/lozenge) which is more effective than single NRT
+- Starting bupropion without screening for seizure risk
+- Giving up after first relapse (average smoker makes 6-7 quit attempts before success)
+red_flags:
+- COPD exacerbation or new pulmonary nodule in active smoker
+- Unintentional weight loss or hemoptysis (lung cancer screening)
+- Peripheral vascular disease progression
+- Pregnancy with continued smoking (urgent cessation support)
+- Suicidal ideation during cessation (monitor closely, especially with varenicline/bupropion)
+clinical_pearls:
+- Varenicline is the most effective single agent (OR 2.2-2.9 for sustained abstinence)
+- Combination NRT (patch + short-acting form) approaches varenicline efficacy
+- Behavioral counseling doubles quit rates regardless of pharmacotherapy
+- Even brief advice from a physician increases quit rates by 1-3%
+- Low-dose CT screening for lung cancer in adults 50-80 with >=20 pack-year history
+key_history_questions:
+- How many cigarettes per day and how many years (pack-year history)?
+- Time to first cigarette after waking (Fagerstrom score)?
+- Previous quit attempts and what worked or did not work?
+- Readiness to quit (precontemplation, contemplation, preparation, action)?
+- Triggers for smoking (stress, social, habitual)?
+- Concurrent substance use (alcohol, cannabis)?
+key_exam_findings:
+- Tobacco odor and nicotine staining of fingers and teeth
+- Oral exam for leukoplakia, gingivitis, or oral cancer
+- Lung exam (wheezing, decreased breath sounds, prolonged expiration)
+- Peripheral pulses and signs of peripheral vascular disease
+- Blood pressure (smoking is a cardiovascular risk factor)
+treatment_principles:
+- Combine behavioral counseling with pharmacotherapy for best outcomes
+- 'First-line options: varenicline, combination NRT, or bupropion SR'
+- Set a quit date 1-2 weeks after starting pharmacotherapy
+- NRT patch provides steady-state nicotine; add gum or lozenge for breakthrough cravings
+- Continue pharmacotherapy for at least 12 weeks; longer duration reduces relapse
+disposition_guidance:
+- 'Outpatient: All smoking cessation managed in primary care'
+- 'Quitline referral: 1-800-QUIT-NOW for free counseling and sometimes free NRT'
+- 'Follow-up: Contact within 1 week of quit date, then monthly'
+- 'Relapse: Reframe as learning opportunity; re-engage with treatment plan'

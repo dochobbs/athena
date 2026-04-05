@@ -1,0 +1,52 @@
+id: hemorrhoids
+topic: "Hemorrhoids"
+category: gastroenterology
+specialties:
+  - im
+teaching_goals:
+  - Classify hemorrhoids as internal (above dentate line) or external (below dentate line)
+  - Grade internal hemorrhoids (I-IV) and match treatment to grade
+  - Distinguish hemorrhoidal bleeding from other causes of rectal bleeding
+  - Manage thrombosed external hemorrhoids appropriately
+  - Counsel on dietary and lifestyle modifications for prevention
+common_mistakes:
+  - Attributing all rectal bleeding to hemorrhoids without age-appropriate cancer screening
+  - Not performing digital rectal exam and anoscopy
+  - Recommending surgery for Grade I-II internal hemorrhoids (conservative management first)
+  - Prolonged use of topical steroids (>1 week causes skin atrophy)
+  - Missing thrombosed hemorrhoid window for excision (within 48-72 hours)
+red_flags:
+  - Rectal bleeding in patient over 45 without recent colonoscopy (exclude malignancy)
+  - Change in bowel habits with rectal bleeding
+  - Weight loss or iron deficiency anemia with rectal bleeding
+  - Severe perianal pain disproportionate to exam (abscess, fissure)
+clinical_pearls:
+  - Internal hemorrhoids cause painless bright red bleeding; external cause pain when thrombosed
+  - Thrombosed external hemorrhoid can be excised (not just drained) within 48-72 hours for fastest relief
+  - Grade I-II internal hemorrhoids respond to conservative measures in most patients
+  - Rubber band ligation is most effective office procedure for Grade I-III internal hemorrhoids
+  - Fiber supplementation (25-30g/day) reduces bleeding and recurrence by 50%
+key_history_questions:
+  - Do you see blood on the toilet paper, in the bowl, or mixed with stool?
+  - Any pain with bowel movements or between movements?
+  - Do you strain during bowel movements or sit on the toilet for prolonged periods?
+  - How much fiber and water do you consume daily?
+  - Any history of perianal lumps that come and go?
+  - When was your last colonoscopy?
+key_exam_findings:
+  - External hemorrhoidal skin tags on visual inspection
+  - Thrombosed external hemorrhoid (blue-purple, tense, tender nodule)
+  - Internal hemorrhoids visible on anoscopy
+  - Prolapsing tissue with Valsalva
+  - Digital rectal exam to exclude mass
+treatment_principles:
+  - Fiber supplementation and adequate hydration are foundational
+  - Topical steroids for short-term flares only (7 days maximum)
+  - Sitz baths for symptom relief
+  - Office procedures (rubber band ligation, sclerotherapy) for Grade I-III
+  - Surgical hemorrhoidectomy reserved for Grade III-IV or failed conservative management
+disposition_guidance:
+  - Outpatient management for uncomplicated hemorrhoids
+  - Urgent surgical referral for acutely thrombosed external hemorrhoid within 48-72 hours
+  - Colonoscopy referral if age >45 or red flags for malignancy
+  - Colorectal surgery referral for Grade IV or recurrent Grade III hemorrhoids

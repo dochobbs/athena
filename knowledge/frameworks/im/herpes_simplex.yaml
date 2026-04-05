@@ -1,0 +1,53 @@
+id: herpes_simplex
+topic: Herpes Simplex Virus (HSV-1/HSV-2)
+category: infectious_disease
+specialties:
+- im
+teaching_goals:
+- Distinguish primary from recurrent HSV infection clinically
+- Know appropriate diagnostic testing (PCR preferred over viral culture and serology)
+- Prescribe episodic vs. suppressive antiviral therapy based on recurrence frequency
+- Counsel patients on transmission risk and risk reduction strategies
+- Recognize HSV complications (meningitis, keratitis, neonatal herpes, erythema multiforme)
+common_mistakes:
+- Ordering type-specific serology in asymptomatic patients (high false positive rate for HSV-1 IgG)
+- Not swabbing active lesions for HSV PCR (gold standard for diagnosis)
+- Failing to discuss suppressive therapy for frequent recurrences or discordant couples
+- Missing HSV keratitis (dendritic ulcer) as cause of painful red eye
+- Not counseling on asymptomatic viral shedding and transmission risk
+red_flags:
+- HSV in immunocompromised (disseminated, chronic, or resistant disease)
+- HSV encephalitis (fever, altered mental status, temporal lobe findings)
+- HSV keratitis (eye pain, photophobia, dendritic corneal ulcer)
+- Primary HSV with urinary retention (sacral radiculopathy)
+- HSV in third trimester of pregnancy (neonatal transmission risk)
+clinical_pearls:
+- HSV PCR is 3-4x more sensitive than viral culture; always preferred for active lesions
+- HSV-1 now causes ~50% of new genital herpes cases in young adults
+- Type-specific serology (HerpeSelect) has poor PPV for HSV-2 at low index values (1.1-3.5)
+- Valacyclovir suppression reduces transmission risk to serodiscordant partners by ~50%
+- Recurrent erythema multiforme is often triggered by HSV; consider suppressive antivirals
+key_history_questions:
+- Location, appearance, and duration of lesions?
+- Prodromal symptoms (tingling, burning) before outbreak?
+- First episode or recurrent? How many episodes per year?
+- Sexual history and partner notification?
+- Immunosuppression or HIV status?
+- Pregnancy status or plans?
+key_exam_findings:
+- Grouped vesicles on erythematous base (classic appearance)
+- Shallow painful ulcers if vesicles have ruptured
+- Tender inguinal or cervical lymphadenopathy
+- Crusting lesions in healing phase
+- Fluorescein uptake with dendritic pattern (HSV keratitis)
+treatment_principles:
+- Episodic antiviral therapy shortens outbreak duration by 1-2 days if started early
+- 'Suppressive therapy indications: >=6 outbreaks/year, serodiscordant couples, psychological distress'
+- Valacyclovir preferred over acyclovir for better bioavailability and simpler dosing
+- Primary episode requires longer treatment course (7-10 days) than recurrence (3-5 days)
+- Counsel on condom use, disclosure, and that antivirals reduce but do not eliminate transmission
+disposition_guidance:
+- 'Outpatient: All uncomplicated HSV managed in primary care'
+- 'Ophthalmology: Suspected HSV keratitis requires same-day referral'
+- 'ED/admission: HSV encephalitis, disseminated HSV, or urinary retention'
+- 'OB/GYN: Pregnant patients with active genital HSV near delivery'
