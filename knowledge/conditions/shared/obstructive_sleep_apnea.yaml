@@ -7,7 +7,7 @@ aliases:
 icd10:
 - G47.33
 category: chronic
-system: respiratory
+system: pulmonary
 specialties:
 - peds
 - im

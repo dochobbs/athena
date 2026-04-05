@@ -7,7 +7,7 @@ icd10:
 - K59.00
 - K59.09
 category: chronic
-system: gastrointestinal
+system: gi
 specialties:
 - peds
 - im

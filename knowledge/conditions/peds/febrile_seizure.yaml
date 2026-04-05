@@ -7,7 +7,7 @@ icd10:
 - R56.00
 - R56.01
 category: acute
-system: neurological
+system: neurology
 specialties:
 - peds
 age_range:

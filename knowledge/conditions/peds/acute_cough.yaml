@@ -6,7 +6,7 @@ aliases:
 icd10:
 - R05
 category: acute
-system: respiratory
+system: pulmonary
 specialties:
 - peds
 age_range:

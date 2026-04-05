@@ -6,7 +6,7 @@ aliases:
 icd10:
 - E11.9
 category: chronic
-system: metabolic
+system: endocrine
 specialties:
 - peds
 age_range:

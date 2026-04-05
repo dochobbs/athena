@@ -8,7 +8,7 @@ snomed: '195967001'
 icd10:
 - J45.20
 category: chronic
-system: respiratory
+system: pulmonary
 specialties:
 - peds
 age_range:

@@ -9,7 +9,7 @@ icd10:
 - J06.9
 - J00
 category: acute
-system: respiratory
+system: pulmonary
 specialties:
 - peds
 age_range:

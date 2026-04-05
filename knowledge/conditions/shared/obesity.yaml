@@ -7,7 +7,7 @@ icd10:
 - E66.9
 - E66.01
 category: chronic
-system: metabolic
+system: endocrine
 specialties:
 - peds
 - im

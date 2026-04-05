@@ -7,7 +7,7 @@ icd10:
 - R73.03
 - R73.09
 category: chronic
-system: metabolic
+system: endocrine
 specialties:
 - peds
 - im

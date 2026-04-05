@@ -8,7 +8,7 @@ icd10:
 - J21.0
 - J21.9
 category: acute
-system: respiratory
+system: pulmonary
 specialties:
 - peds
 age_range:

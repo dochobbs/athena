@@ -7,7 +7,7 @@ aliases:
 icd10:
 - R21
 category: acute
-system: dermatological
+system: dermatology
 specialties:
 - peds
 age_range:

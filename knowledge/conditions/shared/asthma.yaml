@@ -10,7 +10,7 @@ icd10:
 - J45.40
 - J45.50
 category: chronic
-system: respiratory
+system: pulmonary
 specialties:
 - peds
 - im

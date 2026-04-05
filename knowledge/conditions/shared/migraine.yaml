@@ -6,7 +6,7 @@ aliases:
 icd10:
 - G43.909
 category: chronic
-system: neurological
+system: neurology
 specialties:
 - peds
 - im

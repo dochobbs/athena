@@ -10,7 +10,7 @@ icd10:
 - J15.9
 - J12.9
 category: acute
-system: respiratory
+system: pulmonary
 specialties:
 - peds
 age_range:

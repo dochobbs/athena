@@ -7,7 +7,7 @@ snomed: '71186008'
 icd10:
 - J05.0
 category: acute
-system: respiratory
+system: pulmonary
 specialties:
 - peds
 age_range:

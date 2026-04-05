@@ -7,7 +7,7 @@ icd10:
 - F98.0
 - R32
 category: chronic
-system: genitourinary
+system: renal
 specialties:
 - peds
 age_range:

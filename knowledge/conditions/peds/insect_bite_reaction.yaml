@@ -7,7 +7,7 @@ icd10:
 - T63.4
 - W57
 category: acute
-system: dermatological
+system: dermatology
 specialties:
 - peds
 age_range:

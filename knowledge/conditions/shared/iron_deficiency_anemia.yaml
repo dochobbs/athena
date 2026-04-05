@@ -6,7 +6,7 @@ aliases:
 icd10:
 - D50.9
 category: chronic
-system: hematological
+system: hematology
 specialties:
 - peds
 - im

@@ -7,7 +7,7 @@ aliases:
 icd10:
 - B08.20
 category: acute
-system: infectious
+system: infectious_disease
 specialties:
 - peds
 age_range:

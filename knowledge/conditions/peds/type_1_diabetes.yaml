@@ -9,7 +9,7 @@ icd10:
 - E10.9
 - E10.65
 category: chronic
-system: metabolic
+system: endocrine
 specialties:
 - peds
 age_range:

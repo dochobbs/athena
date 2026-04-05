@@ -9,7 +9,7 @@ icd10:
 - N39.0
 - N30.90
 category: acute
-system: genitourinary
+system: renal
 specialties:
 - peds
 - im

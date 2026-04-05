@@ -8,7 +8,7 @@ icd10:
 - G47.9
 - F51.0
 category: chronic
-system: neurological
+system: neurology
 specialties:
 - peds
 age_range:

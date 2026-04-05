@@ -6,7 +6,7 @@ aliases:
 icd10:
 - L01.0
 category: acute
-system: dermatological
+system: dermatology
 specialties:
 - peds
 age_range:
