@@ -1,0 +1,57 @@
+id: safe_sleep_sids
+display_name: "Safe Sleep and SIDS Prevention"
+aliases:
+  - SIDS
+  - Sudden Infant Death Syndrome
+  - SUID
+  - Safe sleep counseling
+  - Back to sleep
+snomed: "51178009"
+icd10:
+  - R95
+  - R99
+category: preventive
+system: general
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 12
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "SIDS rate ~0.33/1000 live births; leading cause of postneonatal infant death"
+presentation:
+  symptoms: []
+  physical_exam: []
+treatment:
+  approach: anticipatory_guidance
+  items:
+    - category: education
+      description: "Supine (back) sleep for every sleep until age 1"
+    - category: education
+      description: "Firm, flat sleep surface (CPSC-approved crib, bassinet, or play yard)"
+    - category: education
+      description: "Nothing in the crib: no blankets, pillows, bumpers, toys, or positioners"
+    - category: education
+      description: "Room-sharing (not bed-sharing) for at least first 6 months"
+    - category: education
+      description: "Breastfeeding reduces SIDS risk"
+    - category: education
+      description: "Offer pacifier at sleep time (protective factor)"
+    - category: education
+      description: "Avoid smoke exposure, alcohol, and illicit drug use"
+    - category: education
+      description: "Avoid overheating: dress in one layer more than adult, no hats indoors"
+    - category: education
+      description: "Supervised tummy time while awake for motor development"
+    - category: education
+      description: "Keep immunizations up to date (associated with reduced SIDS risk)"
+counseling_points:
+  - "AAP 2022 updated safe sleep recommendations"
+  - "Weighted swaddles, inclined sleepers, and dock-a-tots are NOT safe"
+  - "Skin-to-skin is encouraged but return to crib when parent ready to sleep"
+  - "Car seats, swings, and strollers are NOT safe sleep surfaces"
+  - "Address cultural practices (co-sleeping) non-judgmentally"
+  - "Counsel at every visit in first 6 months"

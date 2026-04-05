@@ -1,0 +1,90 @@
+id: clavicle_fracture
+display_name: Clavicle Fracture
+aliases:
+- Broken collarbone
+- Fractured clavicle
+- Birth-related clavicle fracture
+snomed: '58150001'
+icd10:
+- S42.001A
+- S42.002A
+- P13.4
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 96
+    - 168
+    max: 216
+  gender_bias:
+    male: 0.60
+    female: 0.40
+  risk_factors:
+  - birth_trauma
+  - macrosomia
+  - sports_participation
+  - falls
+prevalence:
+  notes: Most common fracture in children; also common birth injury (0.5-1.6% of deliveries)
+presentation:
+  symptoms:
+  - name: shoulder pain
+    probability: 0.90
+    description: "pain over clavicle, worsened by arm movement"
+  - name: refusal to move arm
+    probability: 0.80
+    description: "guarding, holding arm against body (neonates: pseudoparalysis)"
+  - name: swelling over clavicle
+    probability: 0.70
+    description: "visible or palpable swelling at fracture site"
+  - name: asymmetric Moro reflex
+    probability: 0.60
+    description: "in neonates — absent or decreased on affected side"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Point tenderness over clavicle with palpable deformity"
+    probability: 0.85
+  - system: musculoskeletal
+    finding: "Swelling and ecchymosis over clavicle"
+    probability: 0.70
+  - system: musculoskeletal
+    finding: "Crepitus at fracture site"
+    probability: 0.40
+  - system: neurologic
+    finding: "Intact neurovascular status distally"
+    probability: 0.95
+diagnostics:
+  imaging:
+  - name: AP clavicle radiograph
+    indication: "confirm fracture location and displacement"
+treatment:
+  approach: conservative_sling_immobilization
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "pain management"
+  - agent: Acetaminophen
+    rxnorm: '161'
+    dose_mg_kg: 15
+    max_dose_mg: 1000
+    frequency: "Q4-6H PRN"
+    route: oral
+    indication: "pain management"
+  patient_instructions:
+  - Sling or figure-of-eight brace for comfort (2-4 weeks)
+  - Neonatal fractures heal rapidly, often found as callus at 2-week visit
+  - Most pediatric clavicle fractures heal without surgery
+  - Surgical referral if open fracture, neurovascular compromise, or significant displacement
+  - Return to sports when pain-free with full ROM (typically 4-6 weeks)

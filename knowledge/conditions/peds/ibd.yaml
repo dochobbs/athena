@@ -1,0 +1,107 @@
+id: ibd
+display_name: "Inflammatory Bowel Disease"
+aliases:
+  - Crohn disease
+  - Ulcerative colitis
+  - IBD
+  - Crohn's disease
+snomed: "24526004"
+icd10:
+  - K50.90
+  - K51.90
+  - K50.00
+  - K51.00
+category: chronic
+system: gi
+specialties:
+  - peds
+age_range:
+  min_months: 24
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+prevalence:
+  notes: "Incidence increasing; ~25% of IBD diagnosed before age 20; peak onset 15-25 years"
+presentation:
+  symptoms:
+    - name: chronic diarrhea
+      probability: 0.85
+      description: "Persistent diarrhea >4 weeks, may be bloody"
+    - name: abdominal pain
+      probability: 0.80
+      description: "Crampy, often periumbilical or RLQ (Crohn) or LLQ (UC)"
+    - name: rectal bleeding
+      probability: 0.65
+      description: "Hematochezia; more prominent in ulcerative colitis"
+    - name: weight loss
+      probability: 0.55
+      description: "Unintentional weight loss, poor weight gain"
+    - name: growth failure
+      probability: 0.40
+      description: "Linear growth deceleration, delayed puberty"
+    - name: fatigue
+      probability: 0.60
+      description: "Chronic fatigue, often from anemia"
+    - name: extraintestinal manifestations
+      probability: 0.25
+      description: "Joint pain, mouth ulcers, skin lesions (erythema nodosum), eye inflammation"
+    - name: perianal disease
+      probability: 0.20
+      description: "Fistulae, tags, abscesses (suggests Crohn)"
+  physical_exam:
+    - system: abdomen
+      finding: "Tenderness, especially RLQ (Crohn) or LLQ (UC)"
+      probability: 0.70
+    - system: general
+      finding: "Pallor from anemia, thin habitus"
+      probability: 0.40
+    - system: skin
+      finding: "Perianal fissures, skin tags, or fistulae"
+      probability: 0.20
+    - system: musculoskeletal
+      finding: "Joint swelling or tenderness"
+      probability: 0.15
+    - system: heent
+      finding: "Aphthous ulcers"
+      probability: 0.15
+diagnostics:
+  labs:
+    - "CBC (anemia, thrombocytosis)"
+    - "ESR, CRP (elevated inflammatory markers)"
+    - "Albumin (low suggests protein-losing enteropathy)"
+    - "Fecal calprotectin (sensitive screening marker)"
+    - "Stool culture and C. diff to rule out infection"
+  imaging:
+    - "Colonoscopy with biopsies (gold standard)"
+    - "MR enterography for small bowel evaluation (Crohn)"
+    - "Upper endoscopy (EGD) to assess upper GI involvement"
+treatment:
+  approach: induction_and_maintenance
+  medications:
+    - agent: "Mesalamine"
+      rxnorm: "30166"
+      frequency: "Daily or divided BID"
+      route: oral
+      indication: "Mild ulcerative colitis"
+    - agent: "Prednisone"
+      rxnorm: "8640"
+      frequency: "Daily (taper over 6-8 weeks)"
+      route: oral
+      indication: "Induction of remission for moderate-severe flares"
+    - agent: "Infliximab"
+      rxnorm: "191831"
+      frequency: "IV infusion at weeks 0, 2, 6, then every 8 weeks"
+      route: intravenous
+      indication: "Moderate-severe Crohn or UC; steroid-sparing"
+    - agent: "Azathioprine"
+      rxnorm: "1256"
+      frequency: "Daily"
+      route: oral
+      indication: "Maintenance therapy (check TPMT first)"
+  patient_instructions:
+    - "Refer to pediatric gastroenterology for diagnosis and management"
+    - "Monitor growth and nutritional status at every visit"
+    - "Screening for bone density, vitamin D, iron, B12"
+    - "Psychosocial support for chronic illness management"
+    - "Transition planning to adult GI care in adolescence"

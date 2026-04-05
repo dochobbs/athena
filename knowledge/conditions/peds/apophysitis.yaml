@@ -1,0 +1,78 @@
+id: apophysitis
+display_name: "Apophysitis"
+aliases:
+  - Osgood-Schlatter disease
+  - Sever disease
+  - Growth plate inflammation
+  - Traction apophysitis
+  - Calcaneal apophysitis
+snomed: "72047008"
+icd10:
+  - M92.50
+  - M92.60
+  - M92.00
+category: chronic
+system: rheumatology
+specialties:
+  - peds
+age_range:
+  min_months: 96
+  max_months: 192
+  peak:
+    - 120
+    - 168
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Osgood-Schlatter affects ~10% of adolescent athletes; Sever disease most common in ages 8-14"
+presentation:
+  symptoms:
+    - name: activity-related pain
+      probability: 0.95
+      description: "Pain at tendon insertion on growth plate, worsened by running, jumping, sports"
+    - name: localized swelling
+      probability: 0.50
+      description: "Mild swelling over tibial tubercle (Osgood-Schlatter) or heel (Sever)"
+    - name: pain with palpation
+      probability: 0.90
+      description: "Point tenderness at apophysis"
+    - name: limping after activity
+      probability: 0.40
+      description: "Antalgic gait after sports"
+    - name: bilateral involvement
+      probability: 0.30
+      description: "Both sides affected in ~30% of cases"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Point tenderness over tibial tubercle (Osgood-Schlatter)"
+      probability: 0.50
+    - system: musculoskeletal
+      finding: "Point tenderness at calcaneal apophysis with mediolateral squeeze test (Sever)"
+      probability: 0.40
+    - system: musculoskeletal
+      finding: "Pain reproduced with resisted knee extension or ankle dorsiflexion"
+      probability: 0.80
+    - system: musculoskeletal
+      finding: "No joint effusion, no warmth"
+      probability: 0.95
+diagnostics:
+  imaging:
+    - "X-ray generally not needed; clinical diagnosis"
+    - "X-ray if atypical presentation to rule out fracture or tumor"
+treatment:
+  approach: activity_modification_and_rehab
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "Q6-8H PRN"
+      route: oral
+      indication: "Pain management during flares"
+  patient_instructions:
+    - "Relative rest from aggravating activities, not complete rest"
+    - "Ice after activity for 15-20 minutes"
+    - "Stretching and strengthening of quadriceps and hamstrings"
+    - "Heel cups or gel inserts for Sever disease"
+    - "Patellar tendon strap for Osgood-Schlatter if helpful"
+    - "Condition is self-limited; resolves when growth plate fuses"
+    - "May take 12-24 months for full resolution"

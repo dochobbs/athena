@@ -1,0 +1,52 @@
+id: subconjunctival_hemorrhage
+display_name: "Subconjunctival Hemorrhage"
+aliases:
+  - Broken blood vessel in eye
+  - Red eye from hemorrhage
+snomed: "78615007"
+icd10:
+  - H11.30
+  - H11.31
+  - H11.32
+  - H11.33
+category: acute
+system: ophthalmology
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: bright red area on sclera
+      probability: 0.99
+      description: "Well-demarcated, flat, bright red area on white of eye"
+    - name: no pain
+      probability: 0.90
+      description: "Painless; may notice it incidentally"
+    - name: no vision change
+      probability: 0.95
+      description: "Visual acuity unaffected"
+    - name: history of coughing, vomiting, or straining
+      probability: 0.40
+      description: "Often follows Valsalva event"
+  physical_exam:
+    - system: eyes
+      finding: "Flat, bright red blood beneath conjunctiva, sharply demarcated"
+      probability: 0.99
+    - system: eyes
+      finding: "Normal pupil reactivity and visual acuity"
+      probability: 0.98
+    - system: eyes
+      finding: "No proptosis, no pain with extraocular movements"
+      probability: 0.98
+treatment:
+  approach: reassurance
+  patient_instructions:
+    - "No treatment necessary; resolves spontaneously in 1-3 weeks"
+    - "Artificial tears if mild irritation"
+    - "Return if pain, vision changes, or recurrent episodes"
+    - "If recurrent, consider checking blood pressure and coagulation studies"

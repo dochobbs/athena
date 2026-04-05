@@ -1,0 +1,80 @@
+id: stis
+display_name: "Sexually Transmitted Infections"
+aliases:
+  - STDs
+  - Sexually transmitted diseases
+  - Chlamydia
+  - Gonorrhea
+  - Adolescent STI
+snomed: "8098009"
+icd10:
+  - A56.0
+  - A56.2
+  - A54.0
+  - A54.9
+  - A60.0
+category: acute
+system: infectious_disease
+specialties:
+  - peds
+age_range:
+  min_months: 132
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  notes: "Peak ages 15-24; chlamydia most common bacterial STI in adolescents"
+presentation:
+  symptoms:
+    - name: vaginal or urethral discharge
+      probability: 0.60
+      description: "Mucopurulent discharge; may be asymptomatic"
+    - name: dysuria
+      probability: 0.45
+      description: "Painful urination without typical UTI symptoms"
+    - name: pelvic or testicular pain
+      probability: 0.30
+      description: "Lower abdominal pain (females), scrotal pain (males)"
+    - name: genital lesions
+      probability: 0.20
+      description: "Ulcers (HSV, syphilis) or warts (HPV)"
+    - name: asymptomatic
+      probability: 0.50
+      description: "Many infections, especially chlamydia, are silent"
+  physical_exam:
+    - system: genitourinary
+      finding: "Cervical motion tenderness or adnexal tenderness"
+      probability: 0.25
+    - system: genitourinary
+      finding: "Mucopurulent cervical or urethral discharge"
+      probability: 0.40
+    - system: dermatology
+      finding: "Genital ulcers or vesicles"
+      probability: 0.15
+diagnostics:
+  labs:
+    - "NAAT for chlamydia and gonorrhea (urine or swab)"
+    - "RPR/VDRL for syphilis"
+    - "HIV testing offered"
+    - "Wet mount if vaginitis symptoms"
+treatment:
+  approach: antimicrobial_and_partner_treatment
+  medications:
+    - agent: "Doxycycline"
+      rxnorm: "3640"
+      frequency: "BID x 7 days"
+      route: oral
+      indication: "Chlamydia treatment"
+    - agent: "Ceftriaxone"
+      rxnorm: "2193"
+      frequency: "Single dose 500mg IM"
+      route: intramuscular
+      indication: "Gonorrhea treatment"
+  patient_instructions:
+    - "Treat all sexual partners from prior 60 days"
+    - "Abstain from intercourse for 7 days after treatment"
+    - "Test of cure in 4 weeks for pharyngeal gonorrhea"
+    - "Retest in 3 months (high reinfection rate)"
+    - "Confidential care for minors per state law"
+    - "Screen for intimate partner violence"

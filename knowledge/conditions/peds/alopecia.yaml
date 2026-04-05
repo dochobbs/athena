@@ -1,0 +1,88 @@
+id: alopecia
+display_name: Alopecia in Children
+aliases:
+- Hair loss
+- Alopecia areata
+- Pediatric alopecia
+snomed: '56317004'
+icd10:
+- L63.9
+- L63.0
+- L65.9
+category: chronic
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 24
+    - 144
+    max: 216
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - family_history_autoimmune
+  - atopic_dermatitis
+  - thyroid_disease
+  - trichotillomania
+prevalence:
+  percent: 2
+  notes: Alopecia areata most common cause; tinea capitis in younger children
+presentation:
+  symptoms:
+  - name: patchy hair loss
+    probability: 0.80
+    description: "well-circumscribed round patches of hair loss"
+  - name: diffuse thinning
+    probability: 0.20
+    description: "generalized hair thinning"
+  - name: broken hairs
+    probability: 0.40
+    description: "exclamation point hairs at margins of patches"
+  - name: scalp scaling
+    probability: 0.30
+    description: "suggests tinea capitis"
+  physical_exam:
+  - system: skin
+    finding: "Well-demarcated oval patches of non-scarring alopecia"
+    probability: 0.75
+  - system: skin
+    finding: "Exclamation point hairs at patch margins"
+    probability: 0.50
+  - system: skin
+    finding: "Positive hair pull test at active margins"
+    probability: 0.40
+  - system: skin
+    finding: "Scalp scaling, broken hairs, posterior lymphadenopathy (tinea capitis)"
+    probability: 0.30
+diagnostics:
+  labs:
+  - name: TSH
+    loinc: "11580-8"
+    indication: "rule out thyroid disease"
+  - name: KOH prep / fungal culture
+    indication: "if tinea capitis suspected"
+treatment:
+  approach: observation_or_topical_immunotherapy
+  medications:
+  - agent: Triamcinolone Acetonide
+    rxnorm: '10759'
+    frequency: "intralesional injection Q4-6 weeks"
+    route: intralesional
+    indication: "localized alopecia areata"
+  - agent: Clobetasol Propionate
+    rxnorm: '2002'
+    frequency: "BID application to patches"
+    route: topical
+    indication: "high-potency topical steroid for alopecia areata"
+  patient_instructions:
+  - Many cases of alopecia areata resolve spontaneously
+  - Psychosocial support is important for children
+  - Rule out tinea capitis in younger children with scaling
+  - Referral to dermatology for extensive or refractory cases

@@ -1,0 +1,63 @@
+id: oral_lacerations
+display_name: Oral Lacerations
+aliases:
+- Mouth laceration
+- Tongue laceration
+- Lip laceration
+- Intraoral wound
+snomed: '110374008'
+icd10:
+- S01.501A
+- S01.511A
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: oral bleeding after trauma
+    probability: 0.95
+    description: "Active bleeding from lip, tongue, or buccal mucosa after fall or impact"
+  - name: pain with eating or drinking
+    probability: 0.80
+    description: "Refusal to eat or drink due to oral pain"
+  - name: drooling
+    probability: 0.40
+    description: "Drooling in younger children due to pain with swallowing"
+  physical_exam:
+  - system: heent
+    finding: "Through-and-through lip laceration crossing vermilion border"
+    probability: 0.30
+  - system: heent
+    finding: "Tongue laceration, often from bite injury during fall"
+    probability: 0.35
+  - system: heent
+    finding: "Torn frenulum (upper labial or lingual)"
+    probability: 0.25
+  - system: heent
+    finding: "Buccal mucosa laceration from teeth"
+    probability: 0.30
+treatment:
+  approach: observation_or_repair
+  medications:
+  - agent: Acetaminophen
+    rxnorm: '161'
+    frequency: "Q4-6H PRN"
+    route: oral
+    indication: "Pain management"
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "Pain and anti-inflammatory"
+  - agent: Lidocaine viscous 2%
+    rxnorm: '6387'
+    frequency: "Q3H PRN, thin layer"
+    route: topical
+    indication: "Topical anesthesia for oral pain relief"

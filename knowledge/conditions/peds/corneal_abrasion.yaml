@@ -1,0 +1,88 @@
+id: corneal_abrasion
+display_name: Corneal Abrasion
+aliases:
+- Scratched cornea
+- Corneal scratch
+- Eye abrasion
+snomed: '70232002'
+icd10:
+- S05.00XA
+- S05.01XA
+- S05.02XA
+category: acute
+system: ophthalmology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 12
+    - 120
+    max: 216
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - fingernail_scratch
+  - foreign_body
+  - contact_lens_use
+  - sports_injury
+prevalence:
+  notes: Very common; most common ocular injury in children
+presentation:
+  symptoms:
+  - name: eye pain
+    probability: 0.90
+    description: "sharp, foreign body sensation in eye"
+  - name: tearing
+    probability: 0.85
+    description: "excessive tearing of affected eye"
+  - name: photophobia
+    probability: 0.60
+    description: "light sensitivity"
+  - name: blepharospasm
+    probability: 0.50
+    description: "involuntary squinting or eye closure"
+  - name: blurred vision
+    probability: 0.30
+    description: "if abrasion involves visual axis"
+  physical_exam:
+  - system: eye
+    finding: "Fluorescein uptake with blue light — epithelial defect"
+    probability: 0.95
+  - system: eye
+    finding: "Conjunctival injection"
+    probability: 0.80
+  - system: eye
+    finding: "Normal pupil reactivity and visual acuity (unless large central abrasion)"
+    probability: 0.85
+  - system: eye
+    finding: "Evert upper lid to rule out foreign body"
+    probability: 1.0
+treatment:
+  approach: topical_antibiotics_and_pain_control
+  medications:
+  - agent: Erythromycin Ophthalmic Ointment
+    rxnorm: '4053'
+    frequency: "QID for 5 days"
+    route: ophthalmic
+    indication: "prophylactic antibiotic for corneal abrasion"
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "pain management"
+  patient_instructions:
+  - Most corneal abrasions heal within 24-48 hours
+  - Do NOT patch the eye (does not improve healing, may delay it)
+  - Fluorescein exam is essential for diagnosis
+  - Always evert upper lid to check for foreign body
+  - Follow up in 24 hours if not improving
+  - Ophthalmology referral for large, central, or non-healing abrasions
+  - Red flag — white infiltrate on cornea suggests infection (corneal ulcer)

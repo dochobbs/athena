@@ -1,0 +1,57 @@
+id: nail_bed_injury
+display_name: Nail Bed Injury
+aliases:
+- Subungual hematoma
+- Nail avulsion
+- Fingertip injury
+snomed: '283371002'
+icd10:
+- S60.10XA
+- S61.10XA
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: finger pain after crush injury
+    probability: 0.90
+    description: "Severe throbbing pain in fingertip following crush or slam injury"
+  - name: subungual hematoma
+    probability: 0.70
+    description: "Blood collection under nail with blue-purple discoloration"
+  - name: nail deformity
+    probability: 0.40
+    description: "Partial or complete nail avulsion or disruption"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Subungual hematoma with intact or disrupted nail plate"
+    probability: 0.70
+  - system: musculoskeletal
+    finding: "Nail bed laceration visible through or beneath nail"
+    probability: 0.40
+  - system: musculoskeletal
+    finding: "Distal phalanx tenderness suggesting tuft fracture"
+    probability: 0.30
+  - system: neurologic
+    finding: "Intact two-point discrimination distal to injury"
+    probability: 0.85
+treatment:
+  approach: trephination_or_repair
+  medications:
+  - agent: Lidocaine
+    rxnorm: '6387'
+    frequency: "Single dose digital block"
+    route: local
+    indication: "Digital nerve block for nail bed repair"
+  - agent: Cephalexin
+    rxnorm: '2231'
+    frequency: "QID for 5-7 days"
+    route: oral
+    indication: "Prophylactic antibiotics for open nail bed injuries"

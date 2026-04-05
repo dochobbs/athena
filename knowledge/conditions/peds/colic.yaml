@@ -1,0 +1,75 @@
+id: colic
+display_name: Infantile Colic
+aliases:
+- Colic
+- Infant colic
+- Excessive crying
+snomed: '5765001'
+icd10:
+- R10.83
+category: acute
+system: gi
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 4
+  peak:
+  - 1
+  - 2
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 4
+    - 8
+    max: 4
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - maternal_smoking
+  - formula_feeding
+  - maternal_anxiety
+prevalence:
+  percent: 20
+  notes: Affects 10-25% of infants; defined by Wessel criteria (rule of 3s)
+presentation:
+  symptoms:
+  - name: excessive crying
+    probability: 0.95
+    description: "crying >3 hours/day, >3 days/week, >3 weeks (Wessel criteria)"
+  - name: evening predominance
+    probability: 0.70
+    description: "crying episodes cluster in late afternoon/evening"
+  - name: drawing up legs
+    probability: 0.60
+    description: "pulling knees to chest, appearing uncomfortable"
+  - name: facial flushing
+    probability: 0.50
+    description: "red face during crying episodes"
+  - name: abdominal distension
+    probability: 0.30
+    description: "mild bloating with gas"
+  physical_exam:
+  - system: general
+    finding: "Well-appearing infant between episodes, gaining weight appropriately"
+    probability: 0.90
+  - system: abdomen
+    finding: "Soft, non-tender, mildly distended abdomen"
+    probability: 0.70
+  - system: general
+    finding: "Normal growth parameters"
+    probability: 0.85
+treatment:
+  approach: reassurance_and_soothing
+  medications: []
+  patient_instructions:
+  - Colic is a diagnosis of exclusion — rule out organic causes
+  - Resolves by 3-4 months in nearly all infants
+  - Soothing techniques — swaddling, shushing, swinging, side position, sucking (5 Ss)
+  - Trial of dairy/soy elimination if breastfeeding (rule out CMPI)
+  - Trial of extensively hydrolyzed formula if formula-fed
+  - No evidence for simethicone, gripe water, or probiotics (limited data for L. reuteri)
+  - Assess parental stress and coping — screen for PPD
+  - It is OK to put baby down safely and take a break

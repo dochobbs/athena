@@ -1,0 +1,68 @@
+id: pertussis
+display_name: Pertussis
+aliases:
+- Whooping cough
+- Bordetella pertussis
+- 100-day cough
+snomed: '27836007'
+icd10:
+- A37.00
+- A37.01
+category: acute
+system: pulmonary
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: paroxysmal cough
+    probability: 0.90
+    description: "Severe coughing fits with multiple rapid coughs followed by inspiratory whoop"
+  - name: post-tussive emesis
+    probability: 0.70
+    description: "Vomiting after coughing paroxysms"
+  - name: inspiratory whoop
+    probability: 0.50
+    description: "Characteristic whoop sound on inspiration after coughing fit"
+  - name: apnea
+    probability: 0.30
+    description: "Apneic episodes especially in young infants, may be only symptom"
+  - name: coryza preceding cough
+    probability: 0.60
+    description: "1-2 week catarrhal phase with rhinorrhea before paroxysmal cough"
+  physical_exam:
+  - system: respiratory
+    finding: "Normal lung exam between paroxysms"
+    probability: 0.80
+  - system: heent
+    finding: "Subconjunctival hemorrhage from coughing"
+    probability: 0.20
+  - system: skin
+    finding: "Facial petechiae from increased venous pressure during cough"
+    probability: 0.15
+  - system: respiratory
+    finding: "Cyanosis during paroxysm in infants"
+    probability: 0.25
+treatment:
+  approach: macrolide_and_supportive
+  medications:
+  - agent: Azithromycin
+    rxnorm: '18631'
+    frequency: "Daily for 5 days"
+    route: oral
+    indication: "First-line treatment and post-exposure prophylaxis"
+  - agent: Erythromycin
+    rxnorm: '4053'
+    frequency: "QID for 14 days"
+    route: oral
+    indication: "Alternative macrolide for treatment"
+  - agent: Trimethoprim-Sulfamethoxazole
+    rxnorm: '10831'
+    frequency: "BID for 14 days"
+    route: oral
+    indication: "Macrolide-intolerant patients"

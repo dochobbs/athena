@@ -1,0 +1,66 @@
+id: otitis_externa
+display_name: Otitis Externa
+aliases:
+- Swimmer's ear
+- External ear infection
+- AOE
+snomed: '3135009'
+icd10:
+- H60.90
+- H60.91
+- H60.92
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 24
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: ear pain
+    probability: 0.95
+    description: "Otalgia worsened by tragal pressure or pinna manipulation"
+  - name: otorrhea
+    probability: 0.60
+    description: "Purulent or clear ear discharge"
+  - name: pruritus
+    probability: 0.55
+    description: "Itching in ear canal, especially early in course"
+  - name: hearing decrease
+    probability: 0.35
+    description: "Conductive hearing loss from canal edema and debris"
+  physical_exam:
+  - system: heent
+    finding: "Pain with tragal pressure and pinna traction (pathognomonic)"
+    probability: 0.95
+  - system: heent
+    finding: "Erythematous, edematous ear canal with debris"
+    probability: 0.90
+  - system: heent
+    finding: "Canal narrowing from soft tissue swelling"
+    probability: 0.60
+  - system: heent
+    finding: "Intact TM when visualized (differentiates from otitis media)"
+    probability: 0.85
+treatment:
+  approach: topical_antibiotics
+  medications:
+  - agent: Ciprofloxacin-Dexamethasone otic
+    rxnorm: '2551'
+    frequency: "BID for 7 days"
+    route: otic
+    indication: "First-line topical fluoroquinolone with steroid"
+  - agent: Ofloxacin otic
+    rxnorm: '7623'
+    frequency: "BID for 7 days"
+    route: otic
+    indication: "Alternative topical fluoroquinolone if TM perforation uncertain"
+  - agent: Acetic acid otic
+    rxnorm: '167'
+    frequency: "TID-QID for 7 days"
+    route: otic
+    indication: "Mild otitis externa or prevention"

@@ -1,0 +1,68 @@
+id: pediatric_fractures
+display_name: Pediatric Fractures
+aliases:
+- Broken bone
+- Greenstick fracture
+- Torus fracture
+- Buckle fracture
+- Growth plate fracture
+snomed: '125605004'
+icd10:
+- S52.009A
+- S42.009A
+- S82.009A
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: pain at injury site
+    probability: 0.95
+    description: "Localized pain worsened by movement or palpation"
+  - name: swelling
+    probability: 0.85
+    description: "Soft tissue swelling at fracture site"
+  - name: refusal to use extremity
+    probability: 0.80
+    description: "Guarding, splinting, or refusal to bear weight"
+  - name: deformity
+    probability: 0.30
+    description: "Visible angulation or shortening with displaced fractures"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Point tenderness over fracture site or growth plate"
+    probability: 0.90
+  - system: musculoskeletal
+    finding: "Swelling and ecchymosis at injury site"
+    probability: 0.85
+  - system: musculoskeletal
+    finding: "Decreased range of motion and guarding"
+    probability: 0.80
+  - system: neurologic
+    finding: "Intact distal pulses, sensation, and motor function"
+    probability: 0.90
+treatment:
+  approach: immobilization_and_orthopedic_referral
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "Q6H"
+    route: oral
+    indication: "Pain and anti-inflammatory management"
+  - agent: Acetaminophen
+    rxnorm: '161'
+    frequency: "Q4-6H PRN"
+    route: oral
+    indication: "Additional pain management"
+  - agent: Acetaminophen with Codeine
+    rxnorm: '2670'
+    frequency: "Q4-6H PRN for 3-5 days"
+    route: oral
+    indication: "Moderate-severe fracture pain, short course"

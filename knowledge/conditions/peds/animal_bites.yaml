@@ -1,0 +1,81 @@
+id: animal_bites
+display_name: Animal Bites
+aliases:
+- Dog bite
+- Cat bite
+- Mammalian bite wound
+snomed: '283682007'
+icd10:
+- W54.0XXA
+- W55.01XA
+- T14.1XXA
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+demographics:
+  age_months:
+    min: 6
+    peak:
+    - 24
+    - 120
+    max: 216
+  gender_bias:
+    male: 0.60
+    female: 0.40
+  risk_factors:
+  - pet_ownership
+  - approaching_unfamiliar_animals
+  - young_age
+prevalence:
+  notes: Dog bites account for 80-90% of animal bites in children; cat bites have higher infection rate
+presentation:
+  symptoms:
+  - name: wound
+    probability: 1.0
+    description: "puncture, laceration, or crush injury from bite"
+  - name: pain
+    probability: 0.95
+    description: "pain at bite site"
+  - name: bleeding
+    probability: 0.80
+    description: "active bleeding from wound"
+  - name: swelling
+    probability: 0.60
+    description: "edema around wound, especially if delayed presentation"
+  - name: signs of infection
+    probability: 0.15
+    description: "erythema, warmth, purulent drainage if presenting late"
+  physical_exam:
+  - system: skin
+    finding: "Puncture wound, laceration, or avulsion at bite site"
+    probability: 0.95
+  - system: skin
+    finding: "Surrounding erythema or cellulitis"
+    probability: 0.20
+  - system: musculoskeletal
+    finding: "Assess tendon and neurovascular integrity"
+    probability: 0.30
+treatment:
+  approach: wound_care_and_prophylaxis
+  medications:
+  - agent: Amoxicillin-Clavulanate
+    rxnorm: '1043'
+    dose_mg_kg: 25
+    frequency: "TID for 3-5 days"
+    route: oral
+    indication: "prophylaxis for cat bites, hand bites, deep punctures, immunocompromised"
+  - agent: Tetanus toxoid
+    rxnorm: '10412'
+    frequency: "single dose if not up to date"
+    route: intramuscular
+    indication: "tetanus prophylaxis"
+  patient_instructions:
+  - Irrigate wound copiously with normal saline
+  - Do NOT primary close puncture wounds or cat bites (high infection risk)
+  - Dog bite lacerations on face may be closed for cosmesis
+  - Report bite to animal control; assess rabies risk
+  - Return if signs of infection develop

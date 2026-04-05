@@ -1,0 +1,73 @@
+id: toddlers_fracture
+display_name: "Toddler's Fracture"
+aliases:
+  - Spiral tibial fracture
+  - Non-displaced tibial fracture
+  - CAST fracture
+snomed: "263235000"
+icd10:
+  - S82.101A
+  - S82.109A
+category: acute
+system: rheumatology
+specialties:
+  - peds
+age_range:
+  min_months: 9
+  max_months: 48
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  notes: "Most common occult fracture in children ages 1-4; often no witnessed injury"
+presentation:
+  symptoms:
+    - name: refusal to bear weight
+      probability: 0.90
+      description: "Acute onset limp or refusal to walk"
+    - name: no clear history of trauma
+      probability: 0.50
+      description: "Mechanism may be minor or unwitnessed"
+    - name: leg pain
+      probability: 0.70
+      description: "Fussy with leg manipulation; points to lower leg"
+    - name: low-grade swelling
+      probability: 0.40
+      description: "Mild soft tissue swelling over tibia"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Point tenderness over distal tibial shaft"
+      probability: 0.80
+    - system: musculoskeletal
+      finding: "Positive tibial torsion test (pain with twisting)"
+      probability: 0.70
+    - system: musculoskeletal
+      finding: "No effusion at knee or ankle"
+      probability: 0.85
+    - system: musculoskeletal
+      finding: "Normal neurovascular exam distally"
+      probability: 0.98
+diagnostics:
+  imaging:
+    - "AP and lateral tibia/fibula X-ray (may be normal initially)"
+    - "Oblique view may reveal subtle spiral fracture"
+    - "Repeat X-ray in 10-14 days if initial films negative and suspicion high"
+treatment:
+  approach: immobilization
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "Q6-8H PRN"
+      route: oral
+      indication: "Pain management"
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "Q4-6H PRN"
+      route: oral
+      indication: "Pain management"
+  patient_instructions:
+    - "Long leg cast or walking boot for 3-4 weeks"
+    - "Follow up with orthopedics in 1-2 weeks"
+    - "Expect full recovery without complications"
+    - "If non-ambulatory child or inconsistent history, consider non-accidental trauma"
+    - "Repeat X-ray if initially negative; periosteal reaction confirms diagnosis"

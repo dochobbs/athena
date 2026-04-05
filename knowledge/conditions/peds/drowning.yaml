@@ -1,0 +1,90 @@
+id: drowning
+display_name: Drowning
+aliases:
+- Submersion injury
+- Near-drowning
+- Water submersion
+snomed: '397825006'
+icd10:
+- T75.1XXA
+- W67.XXXA
+- W65.XXXA
+category: acute
+system: pulmonary
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+  peak:
+  - 12
+  - 48
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 12
+    - 48
+    max: 216
+  gender_bias:
+    male: 0.65
+    female: 0.35
+  risk_factors:
+  - pool_access
+  - lack_of_supervision
+  - bathtub_submersion
+  - seizure_disorder
+  - inability_to_swim
+prevalence:
+  notes: Leading cause of death in children 1-4 years; second leading cause of injury death in children
+presentation:
+  symptoms:
+  - name: respiratory distress
+    probability: 0.80
+    description: "cough, tachypnea, dyspnea after submersion"
+  - name: altered consciousness
+    probability: 0.50
+    description: "ranging from confusion to unresponsiveness"
+  - name: cough
+    probability: 0.70
+    description: "persistent cough, may produce frothy sputum"
+  - name: hypothermia
+    probability: 0.40
+    description: "especially with cold water submersion"
+  - name: vomiting
+    probability: 0.35
+    description: "swallowed water"
+  physical_exam:
+  - system: respiratory
+    finding: "Crackles, rhonchi, or wheezing bilaterally"
+    probability: 0.60
+  - system: neurologic
+    finding: "Altered mental status — GCS assessment critical"
+    probability: 0.40
+  - system: cardiovascular
+    finding: "Tachycardia or bradycardia depending on severity"
+    probability: 0.50
+  - system: general
+    finding: "Hypothermia"
+    probability: 0.35
+vitals_impact:
+  hr_multiplier: 1.2
+  rr_multiplier: 1.4
+  spo2_min: 80
+treatment:
+  approach: resuscitation_and_supportive_care
+  medications:
+  - agent: Albuterol
+    rxnorm: '435'
+    frequency: "nebulized Q20 min PRN"
+    route: inhaled
+    indication: "bronchospasm"
+  patient_instructions:
+  - ABCs — airway, breathing, circulation first
+  - Initiate CPR immediately if pulseless
+  - All submersion events warrant ED evaluation
+  - Observe 6-8 hours minimum for delayed pulmonary edema
+  - Do NOT use abdominal thrusts to expel water
+  - CXR and monitoring even for asymptomatic patients initially
+  - Hypothermia is neuroprotective — rewarm gradually, no one is dead until warm and dead
+  - Prevention — pool fencing, swim lessons, constant supervision, drain bathtub immediately

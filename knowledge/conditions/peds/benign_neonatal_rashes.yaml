@@ -1,0 +1,73 @@
+id: benign_neonatal_rashes
+display_name: Benign Neonatal Rashes
+aliases:
+- Erythema toxicum neonatorum
+- Neonatal acne
+- Milia
+- Transient neonatal pustular melanosis
+snomed: '206321006'
+icd10:
+- P83.1
+- L70.4
+- L72.0
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 3
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 1
+    max: 3
+  gender_bias:
+    male: 0.50
+    female: 0.50
+prevalence:
+  percent: 50
+  notes: Erythema toxicum affects up to 50% of term newborns; collectively very common
+presentation:
+  symptoms:
+  - name: erythema toxicum
+    probability: 0.50
+    description: "erythematous macules with central papule/pustule, migratory, days 1-14"
+  - name: milia
+    probability: 0.40
+    description: "1-2mm white papules on nose, cheeks, chin"
+  - name: neonatal acne
+    probability: 0.20
+    description: "comedones and papules on face at 2-4 weeks"
+  - name: miliaria
+    probability: 0.15
+    description: "heat rash — tiny vesicles in skin folds and covered areas"
+  - name: transient neonatal pustular melanosis
+    probability: 0.05
+    description: "superficial pustules that rupture leaving hyperpigmented macules"
+  physical_exam:
+  - system: skin
+    finding: "Erythematous blotchy macules with small central papule (erythema toxicum)"
+    probability: 0.50
+  - system: skin
+    finding: "Tiny white papules on nose and face (milia)"
+    probability: 0.40
+  - system: skin
+    finding: "Papules and comedones on cheeks and forehead (neonatal acne)"
+    probability: 0.20
+  - system: general
+    finding: "Well-appearing, afebrile neonate"
+    probability: 0.95
+treatment:
+  approach: reassurance_and_observation
+  medications: []
+  patient_instructions:
+  - All benign neonatal rashes are self-limited
+  - No treatment needed — reassurance is key
+  - Erythema toxicum resolves within days to weeks
+  - Milia resolve spontaneously by 1-2 months
+  - Neonatal acne resolves by 3-4 months
+  - Do NOT apply lotions, oils, or topical medications
+  - Distinguish from HSV (grouped vesicles) or bacterial infection (ill-appearing)

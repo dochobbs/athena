@@ -1,0 +1,95 @@
+id: contact_dermatitis
+display_name: Contact Dermatitis
+aliases:
+- Allergic contact dermatitis
+- Irritant contact dermatitis
+- Poison ivy
+- Poison oak
+snomed: '40275004'
+icd10:
+- L25.9
+- L23.9
+- L24.9
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 36
+    - 144
+    max: 216
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - nickel_exposure
+  - poison_ivy_exposure
+  - fragrance_exposure
+  - latex_exposure
+  - frequent_hand_washing
+prevalence:
+  notes: Very common; poison ivy/oak is most common allergic contact dermatitis in children
+presentation:
+  symptoms:
+  - name: pruritus
+    probability: 0.90
+    description: "intense itching at contact site"
+  - name: erythema
+    probability: 0.85
+    description: "redness in pattern matching exposure"
+  - name: vesicles or bullae
+    probability: 0.50
+    description: "blisters in allergic contact dermatitis (especially poison ivy)"
+  - name: dry, cracked skin
+    probability: 0.40
+    description: "especially in irritant contact dermatitis"
+  - name: linear streaks
+    probability: 0.35
+    description: "linear vesicular pattern classic for plant contact"
+  physical_exam:
+  - system: skin
+    finding: "Erythematous, vesicular rash in linear or geometric pattern"
+    probability: 0.60
+  - system: skin
+    finding: "Well-demarcated borders matching contact area"
+    probability: 0.70
+  - system: skin
+    finding: "Weeping, crusted lesions in acute phase"
+    probability: 0.40
+  - system: skin
+    finding: "Lichenification in chronic exposure"
+    probability: 0.15
+treatment:
+  approach: allergen_avoidance_and_topical_steroids
+  medications:
+  - agent: Triamcinolone Acetonide 0.1%
+    rxnorm: '10759'
+    frequency: "BID to affected areas for 2-3 weeks"
+    route: topical
+    indication: "moderate contact dermatitis on body"
+  - agent: Prednisone
+    rxnorm: '8640'
+    dose_mg_kg: 1
+    max_dose_mg: 60
+    frequency: "daily, taper over 2-3 weeks"
+    route: oral
+    indication: "severe or widespread allergic contact dermatitis (e.g., extensive poison ivy)"
+  - agent: Diphenhydramine
+    rxnorm: '3498'
+    dose_mg_kg: 1.25
+    max_dose_mg: 50
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "pruritus relief, especially at bedtime"
+  patient_instructions:
+  - Identify and avoid the causative agent
+  - Wash skin with soap and water immediately after contact
+  - Poison ivy/oak — wash clothing and pets, fluid from blisters is NOT contagious
+  - Short course of systemic steroids for severe cases — do not taper too quickly (rebound)
+  - Cool compresses for symptomatic relief

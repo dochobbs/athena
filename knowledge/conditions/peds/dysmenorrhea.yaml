@@ -1,0 +1,85 @@
+id: dysmenorrhea
+display_name: Dysmenorrhea
+aliases:
+- Menstrual cramps
+- Painful periods
+- Primary dysmenorrhea
+snomed: '431'
+icd10:
+- N94.6
+- N94.4
+category: chronic
+system: gynecology
+specialties:
+- peds
+age_range:
+  min_months: 108
+  max_months: 216
+demographics:
+  age_months:
+    min: 108
+    peak:
+    - 144
+    - 204
+    max: 216
+  gender_bias:
+    male: 0.0
+    female: 1.0
+  risk_factors:
+  - early_menarche
+  - heavy_menstrual_flow
+  - family_history
+  - nulliparity
+  - smoking
+prevalence:
+  percent: 70
+  notes: Most common gynecologic complaint in adolescents; up to 90% experience some degree
+presentation:
+  symptoms:
+  - name: crampy lower abdominal pain
+    probability: 0.95
+    description: "suprapubic cramping starting with or just before menses"
+  - name: nausea
+    probability: 0.40
+    description: "nausea accompanying cramping"
+  - name: headache
+    probability: 0.30
+    description: "menstrual-associated headache"
+  - name: fatigue
+    probability: 0.45
+    description: "tiredness and malaise during menses"
+  - name: school absence
+    probability: 0.35
+    description: "missing school or activities due to pain"
+  physical_exam:
+  - system: abdomen
+    finding: "Suprapubic tenderness, otherwise soft and non-tender"
+    probability: 0.60
+  - system: general
+    finding: "Normal exam between episodes"
+    probability: 0.90
+treatment:
+  approach: nsaids_and_hormonal_therapy
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "400-600mg Q6H, start 1-2 days before menses"
+    route: oral
+    indication: "first-line — prostaglandin synthesis inhibitor"
+  - agent: Naproxen
+    rxnorm: '7258'
+    frequency: "250-500mg Q12H"
+    route: oral
+    indication: "alternative NSAID, longer acting"
+  - agent: Norethindrone-Ethinyl Estradiol
+    rxnorm: '7514'
+    frequency: "daily"
+    route: oral
+    indication: "combined OCP for refractory dysmenorrhea"
+  patient_instructions:
+  - NSAIDs are most effective when started BEFORE pain onset
+  - Take NSAIDs regularly during menses, not PRN
+  - Heat application to lower abdomen for comfort
+  - If NSAIDs ineffective after 3 months — consider hormonal therapy
+  - Secondary dysmenorrhea (later onset, worsening) warrants further evaluation
+  - Red flags — irregular cycles, intermenstrual bleeding, pelvic mass

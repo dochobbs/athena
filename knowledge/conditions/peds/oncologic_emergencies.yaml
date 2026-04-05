@@ -1,0 +1,75 @@
+id: oncologic_emergencies
+display_name: Pediatric Oncologic Emergencies
+aliases:
+- Cancer emergency
+- Tumor lysis syndrome
+- Superior mediastinal syndrome
+- Spinal cord compression
+snomed: '363346000'
+icd10:
+- C80.1
+- E88.3
+- G95.20
+category: acute
+system: hematology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: fever with neutropenia
+    probability: 0.40
+    description: "Febrile neutropenia is the most common oncologic emergency"
+  - name: respiratory distress
+    probability: 0.30
+    description: "Dyspnea, orthopnea from mediastinal mass or SVC syndrome"
+  - name: back pain with neurologic deficits
+    probability: 0.15
+    description: "Progressive back pain with weakness suggesting cord compression"
+  - name: oliguria
+    probability: 0.25
+    description: "Decreased urine output from tumor lysis syndrome"
+  - name: altered mental status
+    probability: 0.20
+    description: "Confusion from hypercalcemia, hyperuricemia, or CNS involvement"
+  physical_exam:
+  - system: cardiovascular
+    finding: "SVC syndrome: facial/upper extremity swelling, plethora, JVD"
+    probability: 0.15
+  - system: neurologic
+    finding: "Lower extremity weakness, sensory level, bowel/bladder dysfunction"
+    probability: 0.15
+  - system: abdomen
+    finding: "Hepatosplenomegaly or abdominal mass"
+    probability: 0.30
+  - system: skin
+    finding: "Petechiae, purpura from thrombocytopenia"
+    probability: 0.35
+treatment:
+  approach: emergent_stabilization
+  medications:
+  - agent: Cefepime
+    rxnorm: '2180'
+    frequency: "Q8H IV"
+    route: intravenous
+    indication: "Empiric broad-spectrum coverage for febrile neutropenia"
+  - agent: Rasburicase
+    rxnorm: '337526'
+    frequency: "Single dose IV"
+    route: intravenous
+    indication: "Tumor lysis syndrome with hyperuricemia"
+  - agent: Dexamethasone
+    rxnorm: '3264'
+    frequency: "Q6H IV"
+    route: intravenous
+    indication: "Spinal cord compression or mediastinal mass with airway compromise"
+  - agent: Normal Saline
+    rxnorm: '313002'
+    frequency: "Continuous IV at 2-3x maintenance"
+    route: intravenous
+    indication: "Aggressive hydration for tumor lysis prevention and treatment"

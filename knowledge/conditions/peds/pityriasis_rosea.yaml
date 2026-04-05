@@ -1,0 +1,55 @@
+id: pityriasis_rosea
+display_name: Pityriasis Rosea
+aliases:
+- Christmas tree rash
+- Herald patch rash
+snomed: '77252004'
+icd10:
+- L42
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 60
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: herald patch
+    probability: 0.80
+    description: "Initial single large (2-10 cm) oval salmon-pink plaque with collarette scale"
+  - name: generalized rash
+    probability: 0.90
+    description: "Diffuse smaller oval papules and plaques 1-2 weeks after herald patch"
+  - name: mild pruritus
+    probability: 0.50
+    description: "Mild to moderate itching"
+  - name: prodromal symptoms
+    probability: 0.30
+    description: "Mild malaise, headache, or URI symptoms before rash onset"
+  physical_exam:
+  - system: skin
+    finding: "Herald patch: large oval plaque with trailing collarette scale"
+    probability: 0.80
+  - system: skin
+    finding: "Christmas tree pattern: oval lesions along skin cleavage lines on trunk"
+    probability: 0.85
+  - system: skin
+    finding: "Salmon-pink papules with fine peripheral scale"
+    probability: 0.90
+treatment:
+  approach: reassurance_and_symptomatic
+  medications:
+  - agent: Hydrocortisone cream
+    rxnorm: '5492'
+    frequency: "BID for pruritus"
+    route: topical
+    indication: "Symptomatic relief of itching"
+  - agent: Diphenhydramine
+    rxnorm: '3498'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "Oral antihistamine for significant pruritus"

@@ -1,0 +1,88 @@
+id: erythema_multiforme
+display_name: Erythema Multiforme
+aliases:
+- EM
+- Erythema multiforme minor
+- Target lesions
+snomed: '36715001'
+icd10:
+- L51.9
+- L51.0
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 216
+demographics:
+  age_months:
+    min: 12
+    peak:
+    - 60
+    - 144
+    max: 216
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - HSV_infection
+  - Mycoplasma_infection
+  - medication_exposure
+prevalence:
+  notes: 90% of cases in children are infection-triggered (HSV, Mycoplasma); distinguish from SJS
+presentation:
+  symptoms:
+  - name: target lesions
+    probability: 0.85
+    description: "classic three-zone target lesions — dark center, pale ring, red halo"
+  - name: rash onset
+    probability: 0.90
+    description: "acute onset of symmetric rash, often on extremities"
+  - name: pruritus or burning
+    probability: 0.40
+    description: "mild itching or burning at lesion sites"
+  - name: preceding illness
+    probability: 0.60
+    description: "URI, cold sore, or Mycoplasma symptoms before rash"
+  - name: oral lesions
+    probability: 0.30
+    description: "painful oral erosions (EM major)"
+  physical_exam:
+  - system: skin
+    finding: "True target lesions — 3 concentric zones, fixed, symmetric on extremities"
+    probability: 0.80
+  - system: skin
+    finding: "Acral distribution — palms, soles, dorsal hands"
+    probability: 0.70
+  - system: heent
+    finding: "Oral erosions or lip crusting (if EM major)"
+    probability: 0.25
+  - system: general
+    finding: "No systemic toxicity — well-appearing"
+    probability: 0.80
+treatment:
+  approach: supportive_and_treat_trigger
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "symptom relief"
+  - agent: Diphenhydramine
+    rxnorm: '3498'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "pruritus"
+  - agent: Acyclovir
+    rxnorm: '281'
+    frequency: "chronic suppressive therapy if recurrent HSV-triggered EM"
+    route: oral
+    indication: "prevent recurrent EM in HSV-associated cases"
+  patient_instructions:
+  - EM minor is self-limited — resolves in 1-3 weeks
+  - TRUE target lesions distinguish EM from SJS/TEN (atypical targets)
+  - EM — fixed lesions, acral; SJS — spreading lesions, trunk, mucosal involvement
+  - If HSV-triggered and recurrent, consider suppressive acyclovir
+  - If drug-triggered, discontinue offending agent
+  - Oral lesions — magic mouthwash for comfort, ensure adequate hydration

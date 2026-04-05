@@ -1,0 +1,53 @@
+id: oral_thrush
+display_name: Oral Thrush
+aliases:
+- Oral candidiasis
+- Thrush
+- Oropharyngeal candidiasis
+snomed: '79740000'
+icd10:
+- B37.0
+category: acute
+system: infectious_disease
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 24
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: white oral plaques
+    probability: 0.95
+    description: "White, curd-like patches on buccal mucosa, tongue, or palate"
+  - name: feeding difficulty
+    probability: 0.50
+    description: "Fussiness or refusal to feed due to oral discomfort"
+  - name: diaper rash
+    probability: 0.40
+    description: "Concurrent candidal diaper dermatitis with satellite lesions"
+  physical_exam:
+  - system: heent
+    finding: "White adherent plaques on buccal mucosa that bleed when scraped"
+    probability: 0.95
+  - system: heent
+    finding: "Erythematous base visible beneath plaques"
+    probability: 0.80
+  - system: skin
+    finding: "Beefy red perineal rash with satellite papules (candidal diaper dermatitis)"
+    probability: 0.40
+treatment:
+  approach: antifungal_therapy
+  medications:
+  - agent: Nystatin oral suspension
+    rxnorm: '7597'
+    frequency: "QID for 7-14 days"
+    route: oral
+    indication: "First-line treatment for oral thrush"
+  - agent: Fluconazole
+    rxnorm: '4450'
+    frequency: "Daily for 7-14 days"
+    route: oral
+    indication: "Refractory thrush not responding to nystatin"

@@ -1,0 +1,68 @@
+id: skin_abscess
+display_name: Skin Abscess
+aliases:
+- Cutaneous abscess
+- Boil
+- Furuncle
+- Carbuncle
+- MRSA abscess
+snomed: '44132006'
+icd10:
+- L02.91
+- L02.211
+- L02.411
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: painful swelling
+    probability: 0.95
+    description: "Tender, erythematous, fluctuant nodule"
+  - name: warmth and erythema
+    probability: 0.90
+    description: "Surrounding skin warmth and redness"
+  - name: spontaneous drainage
+    probability: 0.25
+    description: "Purulent material draining from lesion"
+  - name: fever
+    probability: 0.20
+    description: "Low-grade fever, more common with larger abscesses"
+  physical_exam:
+  - system: skin
+    finding: "Fluctuant, tender, erythematous nodule"
+    probability: 0.90
+  - system: skin
+    finding: "Central point or area of fluctuance"
+    probability: 0.80
+  - system: skin
+    finding: "Surrounding cellulitis"
+    probability: 0.40
+  - system: lymphatic
+    finding: "Regional lymphadenopathy"
+    probability: 0.30
+treatment:
+  approach: incision_and_drainage
+  medications:
+  - agent: Trimethoprim-Sulfamethoxazole
+    rxnorm: '10831'
+    frequency: "BID for 7-10 days"
+    route: oral
+    indication: "Adjunctive antibiotics for surrounding cellulitis or MRSA coverage"
+  - agent: Clindamycin
+    rxnorm: '2582'
+    frequency: "TID for 7-10 days"
+    route: oral
+    indication: "Alternative for MRSA coverage post-drainage"
+  - agent: Lidocaine
+    rxnorm: '6387'
+    frequency: "Single dose local infiltration"
+    route: local
+    indication: "Local anesthesia for incision and drainage"

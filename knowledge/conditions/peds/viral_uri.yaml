@@ -1,0 +1,99 @@
+id: viral_uri
+display_name: "Viral Upper Respiratory Infection"
+aliases:
+  - Common cold
+  - URI
+  - Upper respiratory infection
+  - Nasopharyngitis
+snomed: "82272006"
+icd10:
+  - J06.9
+  - J00
+category: acute
+system: ent
+specialties:
+  - peds
+age_range:
+  min_months: 1
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  annual_episodes: 8
+  notes: "Children average 6-10 URIs per year; more frequent in daycare attendees"
+seasonality:
+  peak_months:
+    - 9
+    - 10
+    - 11
+    - 12
+    - 1
+    - 2
+    - 3
+  weight_multiplier: 1.5
+vitals_impact:
+  temp_f:
+    - 99.0
+    - 101.5
+  hr_multiplier: 1.05
+presentation:
+  symptoms:
+    - name: rhinorrhea
+      probability: 0.90
+      description: "Clear to yellow-green nasal discharge (color does not indicate bacterial)"
+    - name: nasal congestion
+      probability: 0.85
+      description: "Stuffy nose, mouth breathing"
+    - name: cough
+      probability: 0.70
+      description: "May persist 2-3 weeks; post-nasal drip"
+    - name: low-grade fever
+      probability: 0.50
+      description: "Temperature 99-101F, typically first 2-3 days"
+    - name: sore throat
+      probability: 0.40
+      description: "Mild pharyngeal discomfort"
+    - name: sneezing
+      probability: 0.60
+      description: "Paroxysmal sneezing"
+  duration_days:
+    - 7
+    - 14
+  physical_exam:
+    - system: heent
+      finding: "Erythematous nasal turbinates with clear or mucopurulent discharge"
+      probability: 0.85
+    - system: heent
+      finding: "Mild pharyngeal erythema without exudates"
+      probability: 0.50
+    - system: heent
+      finding: "Normal tympanic membranes"
+      probability: 0.70
+    - system: respiratory
+      finding: "Clear lung fields, no respiratory distress"
+      probability: 0.90
+treatment:
+  approach: supportive
+  medications:
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "Q4-6H PRN"
+      route: oral
+      indication: "Fever and discomfort"
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "Q6-8H PRN"
+      route: oral
+      indication: "Fever and discomfort (>6 months only)"
+    - agent: "Normal saline nasal drops"
+      rxnorm: "313002"
+      frequency: "PRN before feeds and sleep"
+      route: intranasal
+      indication: "Nasal congestion, especially in infants"
+  patient_instructions:
+    - "Antibiotics are NOT indicated for viral URI"
+    - "No OTC cough/cold medications for children under 6"
+    - "Honey (>1 year old) may help with cough"
+    - "Humidifier, saline drops, and bulb suction for congestion"
+    - "Return if symptoms worsen after day 7, fever >5 days, or ear pain develops"

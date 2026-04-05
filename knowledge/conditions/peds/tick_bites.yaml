@@ -1,0 +1,90 @@
+id: tick_bites
+display_name: "Tick Bites and Tick-Borne Illness"
+aliases:
+  - Tick bite
+  - Lyme disease
+  - Rocky Mountain spotted fever
+  - Ehrlichiosis
+  - Tick-borne illness
+snomed: "397000007"
+icd10:
+  - S90.469A
+  - A69.20
+  - A77.0
+  - A77.40
+category: acute
+system: infectious_disease
+specialties:
+  - peds
+age_range:
+  min_months: 6
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+seasonality:
+  peak_months:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+  weight_multiplier: 2.0
+presentation:
+  symptoms:
+    - name: embedded tick or bite mark
+      probability: 0.70
+      description: "Visible tick or erythematous papule at bite site"
+    - name: erythema migrans
+      probability: 0.30
+      description: "Expanding annular rash (bull's-eye) characteristic of Lyme"
+    - name: fever
+      probability: 0.40
+      description: "High fever may indicate RMSF, ehrlichiosis"
+    - name: headache
+      probability: 0.35
+      description: "Common with systemic tick-borne infections"
+    - name: myalgias and arthralgias
+      probability: 0.30
+      description: "Diffuse muscle and joint pain"
+    - name: petechial rash
+      probability: 0.10
+      description: "Starts wrists/ankles, spreads centrally (RMSF)"
+  physical_exam:
+    - system: skin
+      finding: "Erythema migrans: expanding erythematous patch >5cm, may have central clearing"
+      probability: 0.30
+    - system: skin
+      finding: "Erythematous papule at bite site (local reaction)"
+      probability: 0.60
+    - system: musculoskeletal
+      finding: "Joint effusion, especially knee (Lyme arthritis)"
+      probability: 0.10
+    - system: neurological
+      finding: "Facial nerve palsy (Lyme neuroborreliosis)"
+      probability: 0.05
+diagnostics:
+  labs:
+    - "Lyme serology (ELISA then Western blot if positive)"
+    - "CBC, CMP if systemic illness"
+    - "Blood smear or PCR for ehrlichiosis/anaplasmosis"
+treatment:
+  approach: prophylaxis_or_treatment
+  medications:
+    - agent: "Doxycycline"
+      rxnorm: "3640"
+      frequency: "BID x 10-21 days"
+      route: oral
+      indication: "Lyme disease treatment (all ages); RMSF empiric"
+    - agent: "Amoxicillin"
+      rxnorm: "723"
+      frequency: "TID x 14-21 days"
+      route: oral
+      indication: "Lyme disease alternative for young children"
+  patient_instructions:
+    - "Remove tick with fine-tipped tweezers, pull straight up"
+    - "Consider single-dose doxycycline prophylaxis if Ixodes tick attached >36 hours"
+    - "Monitor for erythema migrans rash for 30 days after bite"
+    - "Seek care immediately for fever, rash, or joint swelling after tick exposure"
+    - "Doxycycline is safe in children of all ages for short courses"

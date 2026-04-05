@@ -1,0 +1,54 @@
+id: umbilical_hernia
+display_name: "Umbilical Hernia"
+aliases:
+  - Belly button hernia
+  - Umbilical ring defect
+snomed: "396232000"
+icd10:
+  - K42.9
+  - K42.0
+category: chronic
+system: gi
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 72
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  percent: 20
+  notes: "Very common; ~20% of infants; higher prevalence in African American infants and preterm infants"
+presentation:
+  symptoms:
+    - name: umbilical bulge
+      probability: 0.95
+      description: "Soft, compressible bulge at umbilicus, more prominent with crying or straining"
+    - name: usually asymptomatic
+      probability: 0.90
+      description: "No pain in most cases"
+    - name: incarceration signs
+      probability: 0.02
+      description: "Pain, firmness, discoloration, irreducibility (rare but requires urgent care)"
+  physical_exam:
+    - system: abdomen
+      finding: "Soft, reducible protrusion at umbilicus"
+      probability: 0.95
+    - system: abdomen
+      finding: "Palpable fascial defect at umbilical ring"
+      probability: 0.90
+    - system: abdomen
+      finding: "Increases with Valsalva (crying, coughing)"
+      probability: 0.85
+treatment:
+  approach: observation
+  items:
+    - category: education
+      description: "Most close spontaneously by age 4-5 years"
+    - category: education
+      description: "No need for belly bands, taping, or coins (ineffective)"
+    - category: referral
+      description: "Surgical referral if not closed by age 5, defect >2cm, or symptomatic"
+    - category: education
+      description: "Seek urgent care if hernia becomes firm, painful, or irreducible"

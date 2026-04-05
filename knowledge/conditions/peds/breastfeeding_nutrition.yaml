@@ -1,0 +1,59 @@
+id: breastfeeding_nutrition
+display_name: "Breastfeeding and Infant Nutrition"
+aliases:
+  - Breastfeeding counseling
+  - Infant feeding
+  - Lactation support
+  - Introduction of solids
+  - Complementary feeding
+snomed: "169741004"
+icd10:
+  - Z39.1
+  - Z71.89
+category: preventive
+system: general
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 24
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "~84% initiate breastfeeding; ~58% at 6 months; ~36% at 12 months"
+presentation:
+  symptoms: []
+  physical_exam: []
+treatment:
+  approach: anticipatory_guidance
+  items:
+    - category: education
+      description: "Exclusive breastfeeding recommended for first 6 months"
+    - category: education
+      description: "Continue breastfeeding with complementary foods through 12-24 months"
+    - category: education
+      description: "Vitamin D 400 IU/day for all breastfed infants starting at birth"
+    - category: education
+      description: "Iron supplementation 1 mg/kg/day for breastfed infants starting at 4 months"
+    - category: education
+      description: "Formula is safe alternative; standard cow-milk formula for most infants"
+    - category: education
+      description: "Introduce complementary foods around 6 months (developmental readiness)"
+    - category: education
+      description: "Iron-rich foods first (fortified cereal, pureed meats)"
+    - category: education
+      description: "Introduce allergenic foods early (peanut, egg) per current guidelines"
+    - category: education
+      description: "No cow milk as primary drink before 12 months; no honey before 12 months"
+    - category: education
+      description: "Avoid juice before 12 months; limit to 4 oz/day ages 1-3"
+    - category: referral
+      description: "Lactation consultant for breastfeeding difficulties"
+counseling_points:
+  - "Breastfeeding reduces risk of otitis media, GI infections, asthma, obesity, SIDS"
+  - "Feed on demand, typically 8-12 times per 24 hours in first weeks"
+  - "Adequate intake: 6+ wet diapers/day by day 5, regain birth weight by 10-14 days"
+  - "No water supplementation needed for breastfed or formula-fed infants under 6 months"
+  - "Baby-led weaning is safe alternative to traditional spoon feeding"
+  - "Choking hazards: whole grapes, hot dogs, nuts, popcorn, hard candy"

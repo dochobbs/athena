@@ -1,0 +1,65 @@
+id: umbilical_issues
+display_name: "Umbilical Cord and Stump Issues"
+aliases:
+  - Umbilical granuloma
+  - Omphalitis
+  - Umbilical cord care
+  - Delayed cord separation
+snomed: "206401000"
+icd10:
+  - P38.9
+  - P38.1
+  - L92.9
+category: acute
+system: general
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 3
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Umbilical granuloma most common; omphalitis rare but serious"
+presentation:
+  symptoms:
+    - name: persistent moist umbilicus
+      probability: 0.60
+      description: "Ongoing drainage or wetness after cord separation"
+    - name: pink granulation tissue
+      probability: 0.50
+      description: "Small, moist, pink-red mass at umbilicus (granuloma)"
+    - name: periumbilical erythema
+      probability: 0.15
+      description: "Spreading redness around umbilicus (omphalitis - urgent)"
+    - name: foul-smelling drainage
+      probability: 0.20
+      description: "Malodorous discharge suggesting infection"
+    - name: delayed cord separation
+      probability: 0.10
+      description: "Cord not separated by 3 weeks (consider immune deficiency if >4 weeks)"
+  physical_exam:
+    - system: abdomen
+      finding: "Small, pedunculated, moist pink granuloma at umbilical base"
+      probability: 0.50
+    - system: abdomen
+      finding: "Periumbilical cellulitis, warmth, induration (omphalitis)"
+      probability: 0.10
+    - system: general
+      finding: "Well-appearing infant with isolated umbilical finding"
+      probability: 0.85
+treatment:
+  approach: condition_specific
+  medications:
+    - agent: "Silver nitrate"
+      rxnorm: "9795"
+      frequency: "Office application, 1-3 treatments"
+      route: topical
+      indication: "Chemical cauterization of umbilical granuloma"
+  patient_instructions:
+    - "Umbilical granuloma: treated with silver nitrate application in office"
+    - "Keep umbilicus clean and dry; fold diaper below stump"
+    - "Omphalitis is a medical emergency - requires IV antibiotics and hospitalization"
+    - "Return if spreading redness, fever, or foul-smelling drainage"
+    - "Cord separation normally occurs 7-21 days after birth"

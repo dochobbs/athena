@@ -1,0 +1,83 @@
+id: meningitis
+display_name: Pediatric Meningitis
+aliases:
+- Bacterial meningitis
+- Viral meningitis
+- Aseptic meningitis
+snomed: '7180009'
+icd10:
+- G00.9
+- G03.9
+- G02
+category: acute
+system: infectious_disease
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: fever
+    probability: 0.90
+    description: "High fever, often >39C"
+  - name: headache
+    probability: 0.75
+    description: "Severe headache in verbal children"
+  - name: neck stiffness
+    probability: 0.70
+    description: "Nuchal rigidity, may be absent in infants"
+  - name: altered mental status
+    probability: 0.50
+    description: "Lethargy, irritability, confusion"
+  - name: vomiting
+    probability: 0.60
+    description: "Often projectile, from increased intracranial pressure"
+  - name: photophobia
+    probability: 0.45
+    description: "Light sensitivity in older children"
+  - name: bulging fontanelle
+    probability: 0.40
+    description: "Full, tense anterior fontanelle in infants"
+  - name: seizures
+    probability: 0.25
+    description: "May be presenting sign, especially in neonates"
+  physical_exam:
+  - system: neurologic
+    finding: "Nuchal rigidity with positive Brudzinski and Kernig signs"
+    probability: 0.65
+  - system: neurologic
+    finding: "Bulging fontanelle in infants"
+    probability: 0.40
+  - system: skin
+    finding: "Petechial or purpuric rash (suggests meningococcal disease)"
+    probability: 0.20
+  - system: neurologic
+    finding: "Altered level of consciousness"
+    probability: 0.50
+treatment:
+  approach: empiric_antibiotics_and_supportive
+  medications:
+  - agent: Ceftriaxone
+    rxnorm: '2193'
+    frequency: "Q12-24H IV"
+    route: intravenous
+    indication: "Empiric coverage for bacterial meningitis (>1 month)"
+  - agent: Vancomycin
+    rxnorm: '11124'
+    frequency: "Q6H IV"
+    route: intravenous
+    indication: "Empiric coverage for resistant pneumococcus"
+  - agent: Ampicillin
+    rxnorm: '733'
+    frequency: "Q4-6H IV"
+    route: intravenous
+    indication: "Added for Listeria coverage in neonates and infants <3 months"
+  - agent: Dexamethasone
+    rxnorm: '3264'
+    frequency: "Q6H IV for 2-4 days"
+    route: intravenous
+    indication: "Adjunctive therapy to reduce inflammation, given before or with first antibiotic dose"

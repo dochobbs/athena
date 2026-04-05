@@ -1,0 +1,62 @@
+id: pinworms
+display_name: Pinworm Infection
+aliases:
+- Enterobius vermicularis
+- Pinworms
+- Seatworm
+- Threadworm
+snomed: '266147006'
+icd10:
+- B80
+category: acute
+system: infectious_disease
+specialties:
+- peds
+age_range:
+  min_months: 24
+  max_months: 144
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: perianal pruritus
+    probability: 0.95
+    description: "Intense nighttime itching around anus from egg deposition"
+  - name: sleep disturbance
+    probability: 0.70
+    description: "Restlessness and frequent awakening from perianal itching"
+  - name: irritability
+    probability: 0.50
+    description: "Daytime irritability from poor sleep"
+  - name: vulvar pruritus
+    probability: 0.30
+    description: "Vulvar itching in girls from migrating worms"
+  physical_exam:
+  - system: skin
+    finding: "Perianal excoriations from scratching"
+    probability: 0.50
+  - system: skin
+    finding: "Visible white thread-like worms (2-13 mm) on perianal skin"
+    probability: 0.30
+  - system: genitourinary
+    finding: "Vulvovaginitis in girls from worm migration"
+    probability: 0.15
+treatment:
+  approach: anthelmintic
+  medications:
+  - agent: Mebendazole
+    rxnorm: '6670'
+    frequency: "Single dose, repeat in 2 weeks"
+    route: oral
+    indication: "First-line treatment for pinworm infection"
+  - agent: Albendazole
+    rxnorm: '429'
+    frequency: "Single dose, repeat in 2 weeks"
+    route: oral
+    indication: "Alternative first-line anthelmintic"
+  - agent: Pyrantel pamoate
+    rxnorm: '8916'
+    frequency: "Single dose, repeat in 2 weeks"
+    route: oral
+    indication: "OTC option, safe for ages >2 years"

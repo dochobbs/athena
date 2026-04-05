@@ -1,0 +1,73 @@
+id: contraception
+display_name: "Adolescent Contraception"
+aliases:
+  - Birth control
+  - Family planning
+  - Contraceptive counseling
+  - Teen pregnancy prevention
+snomed: "13197004"
+icd10:
+  - Z30.09
+  - Z30.011
+  - Z30.012
+  - Z30.49
+category: preventive
+system: gynecology
+specialties:
+  - peds
+age_range:
+  min_months: 132
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  notes: "~40% of US high school students have had sexual intercourse; teen pregnancy rate declining"
+presentation:
+  symptoms: []
+  physical_exam:
+    - system: general
+      finding: "Well-appearing adolescent requesting contraception"
+      probability: 0.90
+diagnostics:
+  labs:
+    - "Urine pregnancy test before starting hormonal contraception"
+    - "STI screening (chlamydia, gonorrhea) at initial visit"
+    - "Blood pressure (required before combined hormonal methods)"
+    - "Pelvic exam NOT required before starting contraception"
+treatment:
+  approach: tiered_counseling
+  medications:
+    - agent: "Etonogestrel implant (Nexplanon)"
+      rxnorm: "1111011"
+      frequency: "Single insertion, lasts 3-5 years"
+      route: subdermal
+      indication: "First-line LARC; most effective reversible method"
+    - agent: "Levonorgestrel IUD (Mirena/Kyleena)"
+      rxnorm: "312115"
+      frequency: "Single insertion, lasts 5-8 years"
+      route: intrauterine
+      indication: "First-line LARC; appropriate for nulliparous adolescents"
+    - agent: "Medroxyprogesterone (Depo-Provera)"
+      rxnorm: "6691"
+      frequency: "IM every 13 weeks"
+      route: intramuscular
+      indication: "Injectable option; concern for bone density with long-term use"
+    - agent: "Combined oral contraceptive"
+      rxnorm: "748797"
+      frequency: "Daily"
+      route: oral
+      indication: "Common choice; requires daily adherence"
+    - agent: "Levonorgestrel 1.5mg (Plan B)"
+      rxnorm: "483216"
+      frequency: "Single dose"
+      route: oral
+      indication: "Emergency contraception; OTC all ages"
+  patient_instructions:
+    - "LARC methods (implant, IUD) are first-line per AAP and ACOG"
+    - "Condoms recommended in addition to hormonal methods for STI prevention"
+    - "Confidential care for minors in most states"
+    - "Quick-start method: begin hormonal contraception same day (no need to wait for period)"
+    - "Discuss emergency contraception availability"
+    - "No pelvic exam required before prescribing"
+    - "Screen for reproductive coercion and intimate partner violence"

@@ -1,0 +1,92 @@
+id: celiac
+display_name: Celiac Disease
+aliases:
+- Celiac sprue
+- Gluten enteropathy
+- Celiac
+snomed: '396331005'
+icd10:
+- K90.0
+category: chronic
+system: gi
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+demographics:
+  age_months:
+    min: 6
+    peak:
+    - 12
+    - 60
+    max: 216
+  gender_bias:
+    male: 0.40
+    female: 0.60
+  risk_factors:
+  - family_history_celiac
+  - type_1_diabetes
+  - down_syndrome
+  - turner_syndrome
+  - IgA_deficiency
+  - autoimmune_thyroid
+prevalence:
+  percent: 1
+  notes: ~1% prevalence; many undiagnosed; screen high-risk groups
+presentation:
+  symptoms:
+  - name: chronic diarrhea
+    probability: 0.60
+    description: "loose, bulky, foul-smelling stools"
+  - name: abdominal distension
+    probability: 0.55
+    description: "bloating, distended abdomen"
+  - name: failure to thrive
+    probability: 0.50
+    description: "poor weight gain, growth deceleration"
+  - name: abdominal pain
+    probability: 0.45
+    description: "recurrent periumbilical pain"
+  - name: irritability
+    probability: 0.40
+    description: "especially in young children"
+  - name: iron deficiency anemia
+    probability: 0.30
+    description: "refractory to oral iron, due to malabsorption"
+  physical_exam:
+  - system: abdomen
+    finding: "Abdominal distension, tympanitic"
+    probability: 0.50
+  - system: general
+    finding: "Wasting of buttocks and proximal muscles"
+    probability: 0.30
+  - system: skin
+    finding: "Dermatitis herpetiformis — grouped vesicles on extensor surfaces"
+    probability: 0.10
+  - system: general
+    finding: "Short stature or growth deceleration"
+    probability: 0.35
+diagnostics:
+  labs:
+  - name: Tissue Transglutaminase IgA (tTG-IgA)
+    loinc: "31017-1"
+    indication: "screening test of choice"
+  - name: Total serum IgA
+    loinc: "2458-8"
+    indication: "rule out IgA deficiency (false negative tTG)"
+  - name: Deamidated Gliadin Peptide IgG
+    indication: "if IgA deficient"
+  - name: Small bowel biopsy
+    indication: "gold standard for diagnosis — villous atrophy"
+treatment:
+  approach: strict_gluten_free_diet
+  medications: []
+  patient_instructions:
+  - Lifelong strict gluten-free diet is the only treatment
+  - Avoid wheat, barley, rye; oats controversial
+  - Refer to pediatric GI for biopsy confirmation
+  - Refer to dietitian for gluten-free diet education
+  - Screen first-degree relatives
+  - Monitor tTG-IgA for adherence
+  - Assess for nutritional deficiencies (iron, vitamin D, calcium, folate)

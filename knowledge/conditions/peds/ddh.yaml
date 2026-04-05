@@ -1,0 +1,89 @@
+id: ddh
+display_name: Developmental Dysplasia of the Hip
+aliases:
+- DDH
+- Hip dysplasia
+- Congenital hip dislocation
+- Hip click
+snomed: '34111000'
+icd10:
+- Q65.89
+- Q65.00
+- Q65.2
+category: chronic
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 24
+  peak:
+  - 0
+  - 6
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 6
+    max: 24
+  gender_bias:
+    male: 0.20
+    female: 0.80
+  risk_factors:
+  - breech_presentation
+  - female_sex
+  - family_history
+  - first_born
+  - oligohydramnios
+  - swaddling_with_legs_extended
+prevalence:
+  percent: 1
+  notes: 1-3% have hip instability; frank dislocation in 1-2 per 1000; female:male 4-6:1
+presentation:
+  symptoms:
+  - name: hip click or clunk
+    probability: 0.50
+    description: "palpable clunk on Barlow or Ortolani maneuver"
+  - name: asymmetric thigh folds
+    probability: 0.40
+    description: "unequal gluteal or thigh skin folds"
+  - name: limited hip abduction
+    probability: 0.60
+    description: "inability to fully abduct hip to 60-70 degrees"
+  - name: leg length discrepancy
+    probability: 0.30
+    description: "Galeazzi sign — unequal knee heights with hips flexed"
+  - name: limping
+    probability: 0.15
+    description: "Trendelenburg gait if diagnosed late (walking age)"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Positive Ortolani — clunk as hip reduces from dislocated position"
+    probability: 0.30
+  - system: musculoskeletal
+    finding: "Positive Barlow — hip dislocates with posterior pressure"
+    probability: 0.30
+  - system: musculoskeletal
+    finding: "Limited hip abduction"
+    probability: 0.60
+  - system: musculoskeletal
+    finding: "Asymmetric thigh or gluteal folds"
+    probability: 0.40
+diagnostics:
+  imaging:
+  - name: Hip ultrasound
+    indication: "screening tool for age <4-6 months (cartilaginous hip)"
+  - name: AP pelvis radiograph
+    indication: "for infants >4-6 months (ossified femoral head)"
+treatment:
+  approach: pavlik_harness_or_surgical
+  medications: []
+  patient_instructions:
+  - Pavlik harness for age <6 months — maintains hips in flexion and abduction
+  - Wear harness 23 hours/day for 6-12 weeks
+  - Serial ultrasounds to monitor progress
+  - Closed reduction + spica cast if Pavlik fails or age 6-18 months
+  - Open reduction for late diagnosis or failed closed reduction
+  - Screen all newborns at every well visit — Ortolani/Barlow
+  - Ultrasound screening for risk factors (breech, family history, female)

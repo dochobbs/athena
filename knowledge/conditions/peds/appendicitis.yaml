@@ -1,0 +1,107 @@
+id: appendicitis
+display_name: Acute Appendicitis
+aliases:
+- Appendicitis
+- Appy
+snomed: '74400008'
+icd10:
+- K35.80
+- K35.89
+- K35.30
+category: acute
+system: gi
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 216
+  peak:
+  - 120
+  - 180
+demographics:
+  age_months:
+    min: 12
+    peak:
+    - 120
+    - 180
+    max: 216
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - family_history
+  - low_fiber_diet
+prevalence:
+  notes: Most common surgical emergency in children; perforation rate higher in young children
+presentation:
+  symptoms:
+  - name: periumbilical pain migrating to RLQ
+    probability: 0.80
+    description: "classic migration pattern over 12-24 hours"
+  - name: anorexia
+    probability: 0.85
+    description: "loss of appetite, often early symptom"
+  - name: nausea and vomiting
+    probability: 0.75
+    description: "vomiting typically follows onset of pain"
+  - name: fever
+    probability: 0.60
+    description: "low-grade fever, higher if perforated"
+  - name: diarrhea
+    probability: 0.20
+    description: "small volume loose stools, especially if pelvic appendix"
+  physical_exam:
+  - system: abdomen
+    finding: "RLQ tenderness with guarding at McBurney point"
+    probability: 0.85
+  - system: abdomen
+    finding: "Positive Rovsing sign (RLQ pain with LLQ palpation)"
+    probability: 0.50
+  - system: abdomen
+    finding: "Positive psoas sign"
+    probability: 0.30
+  - system: abdomen
+    finding: "Rebound tenderness"
+    probability: 0.60
+  - system: abdomen
+    finding: "Rigid abdomen with diffuse peritonitis (if perforated)"
+    probability: 0.20
+vitals_impact:
+  temp_f:
+  - 100.0
+  - 102.0
+  hr_multiplier: 1.15
+diagnostics:
+  labs:
+  - name: CBC with differential
+    loinc: "57021-8"
+    indication: "leukocytosis with left shift"
+  - name: CRP
+    loinc: "1988-5"
+    indication: "elevated in appendicitis"
+  imaging:
+  - name: Ultrasound of appendix
+    indication: "first-line imaging in pediatrics"
+  - name: CT abdomen
+    indication: "if ultrasound equivocal"
+treatment:
+  approach: surgical_appendectomy
+  medications:
+  - agent: Piperacillin-Tazobactam
+    rxnorm: '8105'
+    frequency: "Q6-8H IV"
+    route: intravenous
+    indication: "preoperative and perforated appendicitis"
+  - agent: Morphine
+    rxnorm: '7052'
+    dose_mg_kg: 0.1
+    max_dose_mg: 4
+    frequency: "Q3-4H PRN"
+    route: intravenous
+    indication: "pain management — does NOT mask exam findings"
+  patient_instructions:
+  - Appendicitis requires surgical consultation
+  - NPO status once diagnosis suspected
+  - Pain medication does NOT delay diagnosis
+  - Perforation risk increases with delayed diagnosis
+  - Pediatric Surgery score (PAS) guides workup

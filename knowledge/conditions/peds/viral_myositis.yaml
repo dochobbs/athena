@@ -1,0 +1,86 @@
+id: viral_myositis
+display_name: "Viral Myositis (Benign Acute Childhood Myositis)"
+aliases:
+  - Benign acute childhood myositis
+  - Influenza myositis
+  - Calf pain after flu
+snomed: "26889001"
+icd10:
+  - M60.009
+  - M33.20
+category: acute
+system: rheumatology
+specialties:
+  - peds
+age_range:
+  min_months: 36
+  max_months: 144
+  peak:
+    - 48
+    - 108
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  male_to_female_ratio: 2.0
+  notes: "Most common after influenza B; typically school-age boys"
+seasonality:
+  peak_months:
+    - 11
+    - 12
+    - 1
+    - 2
+    - 3
+  weight_multiplier: 1.8
+presentation:
+  symptoms:
+    - name: bilateral calf pain
+      probability: 0.90
+      description: "Severe bilateral lower leg pain, worse with walking"
+    - name: refusal to walk or toe-walking
+      probability: 0.70
+      description: "Child walks on toes or refuses to bear weight due to calf tenderness"
+    - name: preceding viral illness
+      probability: 0.85
+      description: "URI or influenza symptoms 2-5 days prior"
+    - name: resolution of fever
+      probability: 0.60
+      description: "Myositis onset often as febrile illness is resolving"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Bilateral, symmetric calf tenderness and swelling"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "Normal joints without effusion"
+      probability: 0.95
+    - system: neurological
+      finding: "Normal strength, normal reflexes"
+      probability: 0.90
+    - system: general
+      finding: "Non-toxic appearing"
+      probability: 0.85
+diagnostics:
+  labs:
+    - "CK (creatine kinase) - typically elevated 1000-30000 IU/L"
+    - "Urinalysis for myoglobinuria (dark urine)"
+    - "BMP (monitor renal function if CK very elevated)"
+    - "CBC (may show mild leukopenia)"
+treatment:
+  approach: supportive_with_monitoring
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "Q6-8H"
+      route: oral
+      indication: "Pain management (with adequate hydration)"
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "Q4-6H PRN"
+      route: oral
+      indication: "Pain management alternative"
+  patient_instructions:
+    - "Push oral fluids to prevent myoglobin-induced renal injury"
+    - "Expect resolution within 3-7 days"
+    - "Recheck CK if symptoms persist beyond 1 week"
+    - "Return for dark/cola-colored urine, decreased urine output, or worsening pain"
+    - "Admit if unable to walk, severe rhabdomyolysis, or renal concerns"

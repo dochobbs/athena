@@ -1,0 +1,68 @@
+id: torticollis
+display_name: "Congenital Muscular Torticollis"
+aliases:
+  - Torticollis
+  - Wry neck
+  - CMT
+  - Sternocleidomastoid fibrosis
+snomed: "23590003"
+icd10:
+  - M43.6
+  - Q68.0
+category: chronic
+system: rheumatology
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 24
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  percent: 2
+  notes: "0.3-2% of newborns; associated with breech presentation and birth trauma"
+presentation:
+  symptoms:
+    - name: head tilt
+      probability: 0.95
+      description: "Persistent tilt toward affected SCM with chin rotation to opposite side"
+    - name: limited neck range of motion
+      probability: 0.85
+      description: "Decreased rotation and lateral flexion"
+    - name: SCM mass
+      probability: 0.30
+      description: "Palpable fibrotic mass in SCM muscle (pseudotumor of infancy)"
+    - name: positional preference
+      probability: 0.70
+      description: "Always turns head to one side; may have associated plagiocephaly"
+  physical_exam:
+    - system: neck
+      finding: "Head tilted toward affected side, chin rotated to opposite side"
+      probability: 0.95
+    - system: neck
+      finding: "Tight or shortened sternocleidomastoid on palpation"
+      probability: 0.80
+    - system: neck
+      finding: "Palpable SCM mass (if present, typically resolves by 6 months)"
+      probability: 0.30
+    - system: skull
+      finding: "Associated positional plagiocephaly (flattening)"
+      probability: 0.50
+diagnostics:
+  imaging:
+    - "Cervical spine X-ray if atypical or acquired torticollis (rule out bony anomaly)"
+    - "Ultrasound of SCM if mass palpated"
+treatment:
+  approach: physical_therapy
+  items:
+    - category: referral
+      description: "Pediatric physical therapy for stretching exercises"
+    - category: education
+      description: "Positioning: encourage looking toward restricted side, tummy time"
+    - category: education
+      description: "Stimulate from non-preferred side during play"
+    - category: follow-up
+      description: "Most resolve by 12 months with consistent stretching"
+    - category: referral
+      description: "Orthopedic or neurosurgery referral if no improvement by 12 months"

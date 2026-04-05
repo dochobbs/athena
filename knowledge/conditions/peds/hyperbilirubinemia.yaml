@@ -1,0 +1,102 @@
+id: hyperbilirubinemia
+display_name: Neonatal Hyperbilirubinemia
+aliases:
+- Neonatal jaundice
+- Newborn jaundice
+- Physiologic jaundice
+- Pathologic jaundice
+snomed: '387712008'
+icd10:
+- P59.9
+- P59.0
+- P58.9
+category: acute
+system: hematology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 1
+  peak:
+  - 0
+  - 0
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 0
+    max: 1
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - prematurity
+  - ABO_incompatibility
+  - Rh_incompatibility
+  - G6PD_deficiency
+  - breastfeeding_jaundice
+  - cephalohematoma
+  - East_Asian_ethnicity
+  - prior_sibling_phototherapy
+prevalence:
+  percent: 60
+  notes: 60% of term and 80% of preterm newborns develop visible jaundice; ~5% require treatment
+presentation:
+  symptoms:
+  - name: jaundice
+    probability: 0.95
+    description: "yellow discoloration of skin and sclera, cephalocaudal progression"
+  - name: poor feeding
+    probability: 0.30
+    description: "if bilirubin significantly elevated"
+  - name: lethargy
+    probability: 0.15
+    description: "decreased alertness — may indicate severe hyperbilirubinemia"
+  - name: high-pitched cry
+    probability: 0.05
+    description: "sign of acute bilirubin encephalopathy — emergency"
+  physical_exam:
+  - system: skin
+    finding: "Yellow discoloration progressing from face downward"
+    probability: 0.90
+  - system: eye
+    finding: "Scleral icterus"
+    probability: 0.80
+  - system: general
+    finding: "Well-appearing, feeding well (physiologic jaundice)"
+    probability: 0.70
+  - system: neurologic
+    finding: "Hypertonia, opisthotonus, setting-sun sign (acute bilirubin encephalopathy — EMERGENCY)"
+    probability: 0.02
+diagnostics:
+  labs:
+  - name: Total and direct bilirubin
+    loinc: "1975-2"
+    indication: "quantify bilirubin level; plot on Bhutani nomogram"
+  - name: Blood type and Coombs (DAT)
+    indication: "assess for hemolytic disease"
+  - name: CBC with reticulocyte count
+    indication: "assess for hemolysis"
+  - name: G6PD level
+    indication: "if hemolysis without identifiable cause"
+  - name: Transcutaneous bilirubin (TcB)
+    indication: "screening tool — confirm with serum if elevated"
+treatment:
+  approach: phototherapy_per_aap_guidelines
+  medications:
+  - agent: Intravenous Immunoglobulin (IVIG)
+    rxnorm: '5784'
+    frequency: "single dose over 2 hours"
+    route: intravenous
+    indication: "isoimmune hemolytic disease if TSB rising despite phototherapy"
+  patient_instructions:
+  - Use AAP phototherapy nomogram — plot bilirubin against age in hours
+  - Phototherapy lowers bilirubin by photoisomerization
+  - Intensive phototherapy — irradiance >30 uW/cm2/nm
+  - Exchange transfusion if bilirubin at exchange threshold or signs of encephalopathy
+  - Risk factors lower the treatment threshold
+  - Recheck bilirubin 4-6 hours after starting phototherapy
+  - Rebound bilirubin 12-24 hours after discontinuation
+  - Pathologic jaundice — onset <24 hours, rising rapidly, conjugated (direct) >20%
+  - Breast milk jaundice (>1 week) is benign; breastfeeding jaundice (days 3-5) is intake-related

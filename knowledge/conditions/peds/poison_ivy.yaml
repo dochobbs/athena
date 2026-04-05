@@ -1,0 +1,61 @@
+id: poison_ivy
+display_name: Poison Ivy Dermatitis
+aliases:
+- Contact dermatitis from plants
+- Rhus dermatitis
+- Toxicodendron dermatitis
+- Poison oak
+- Poison sumac
+snomed: '111211003'
+icd10:
+- L23.7
+- L25.5
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: intense pruritus
+    probability: 0.95
+    description: "Severe itching at contact sites, begins 12-72 hours after exposure"
+  - name: linear vesicular rash
+    probability: 0.85
+    description: "Vesicles and bullae in linear streaks where plant brushed skin"
+  - name: progressive spreading
+    probability: 0.60
+    description: "Rash appears to spread over days due to varying skin thickness absorption"
+  physical_exam:
+  - system: skin
+    finding: "Linear or streaky erythematous papules, vesicles, and bullae"
+    probability: 0.90
+  - system: skin
+    finding: "Weeping, crusted vesicles and bullae"
+    probability: 0.70
+  - system: skin
+    finding: "Marked edema, especially periorbital or genital involvement"
+    probability: 0.25
+treatment:
+  approach: topical_or_systemic_steroids
+  medications:
+  - agent: Triamcinolone cream
+    rxnorm: '10759'
+    frequency: "BID for 2-3 weeks"
+    route: topical
+    indication: "Localized mild-moderate contact dermatitis"
+  - agent: Prednisone
+    rxnorm: '8640'
+    frequency: "Daily taper over 14-21 days"
+    route: oral
+    indication: "Extensive involvement, facial/genital involvement, or severe cases"
+  - agent: Diphenhydramine
+    rxnorm: '3498'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "Pruritus relief, especially at night"

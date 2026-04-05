@@ -1,0 +1,78 @@
+id: tinea_capitis
+display_name: "Tinea Capitis"
+aliases:
+  - Scalp ringworm
+  - Fungal scalp infection
+snomed: "5441008"
+icd10:
+  - B35.0
+category: acute
+system: dermatology
+specialties:
+  - peds
+age_range:
+  min_months: 12
+  max_months: 144
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  notes: "Most common in African American children ages 3-9; Trichophyton tonsurans predominant in US"
+presentation:
+  symptoms:
+    - name: patchy hair loss
+      probability: 0.80
+      description: "Well-demarcated patches of alopecia with broken hairs (black dot pattern)"
+    - name: scaling
+      probability: 0.85
+      description: "Diffuse or patchy scaling resembling dandruff"
+    - name: pruritus
+      probability: 0.60
+      description: "Mild to moderate scalp itching"
+    - name: kerion
+      probability: 0.15
+      description: "Boggy, tender, pustular mass representing inflammatory response"
+    - name: posterior cervical lymphadenopathy
+      probability: 0.50
+      description: "Occipital or posterior cervical lymph nodes"
+  physical_exam:
+    - system: skin
+      finding: "Patchy alopecia with black dots (broken hair shafts) and scale"
+      probability: 0.75
+    - system: skin
+      finding: "Posterior cervical or occipital lymphadenopathy"
+      probability: 0.50
+    - system: skin
+      finding: "Kerion: boggy, erythematous, tender nodule with pustules"
+      probability: 0.15
+diagnostics:
+  labs:
+    - "KOH prep of broken hairs showing endothrix spores"
+    - "Fungal culture (gold standard but takes 2-4 weeks)"
+    - "Wood lamp generally negative (T. tonsurans does not fluoresce)"
+treatment:
+  approach: systemic_antifungal
+  medications:
+    - agent: "Griseofulvin"
+      rxnorm: "25789"
+      dose_mg_kg: 20
+      frequency: "Daily x 6-8 weeks"
+      route: oral
+      indication: "First-line systemic treatment; take with fatty food"
+    - agent: "Terbinafine"
+      rxnorm: "37801"
+      frequency: "Daily x 4-6 weeks"
+      route: oral
+      indication: "Alternative; better for Trichophyton species"
+    - agent: "Ketoconazole 2% shampoo"
+      rxnorm: "6135"
+      frequency: "2-3 times per week"
+      route: topical
+      indication: "Adjunctive to reduce fungal shedding (not curative alone)"
+  patient_instructions:
+    - "Oral antifungal REQUIRED; topical alone will not cure tinea capitis"
+    - "Use antifungal shampoo to reduce transmission"
+    - "Treat household contacts with antifungal shampoo"
+    - "Do not share combs, brushes, hats, or pillows"
+    - "Child may attend school while on treatment"
+    - "Kerion is an immune response, not bacterial; do NOT incise"

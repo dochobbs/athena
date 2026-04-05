@@ -1,0 +1,60 @@
+id: limping_child
+display_name: Limping Child
+aliases:
+- Acute limp
+- Pediatric limp
+- Gait disturbance
+snomed: '16973004'
+icd10:
+- R26.0
+- R26.89
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: antalgic gait
+    probability: 0.85
+    description: "Shortened stance phase on affected limb due to pain"
+  - name: refusal to bear weight
+    probability: 0.60
+    description: "Child refuses to walk or stand on affected leg"
+  - name: hip or knee pain
+    probability: 0.70
+    description: "May report hip, knee, or thigh pain; hip pathology often refers to knee"
+  - name: fever
+    probability: 0.25
+    description: "Suggests infectious etiology (septic joint, osteomyelitis)"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Limited and painful range of motion at affected joint"
+    probability: 0.75
+  - system: musculoskeletal
+    finding: "Antalgic gait with shortened stance phase"
+    probability: 0.85
+  - system: musculoskeletal
+    finding: "Obligate external rotation of hip with flexion (septic joint)"
+    probability: 0.20
+  - system: musculoskeletal
+    finding: "Point tenderness over growth plate or metaphysis"
+    probability: 0.35
+treatment:
+  approach: etiology_dependent
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "Q6H"
+    route: oral
+    indication: "Pain management and anti-inflammatory for transient synovitis"
+  - agent: Cefazolin
+    rxnorm: '2180'
+    frequency: "Q8H IV"
+    route: intravenous
+    indication: "Empiric antibiotics for suspected septic arthritis"

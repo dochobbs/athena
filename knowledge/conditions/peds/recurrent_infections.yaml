@@ -1,0 +1,63 @@
+id: recurrent_infections
+display_name: Recurrent Infections
+aliases:
+- Frequent infections
+- Immunodeficiency evaluation
+- Recurrent fevers
+snomed: '234532001'
+icd10:
+- D84.9
+- R68.89
+category: chronic
+system: infectious_disease
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: frequent upper respiratory infections
+    probability: 0.80
+    description: "More than 8 URIs per year or persistent symptoms beyond expected duration"
+  - name: recurrent sinusitis or pneumonia
+    probability: 0.40
+    description: ">=2 serious sinus infections or pneumonias in one year"
+  - name: failure to thrive
+    probability: 0.30
+    description: "Poor growth from chronic or recurrent infections"
+  - name: recurrent skin or soft tissue infections
+    probability: 0.35
+    description: "Repeated abscesses or deep-seated skin infections"
+  - name: family history of immunodeficiency
+    probability: 0.15
+    description: "Known immunodeficiency in siblings or relatives"
+  physical_exam:
+  - system: heent
+    finding: "Absent or hypoplastic tonsils and lymphoid tissue"
+    probability: 0.15
+  - system: lymphatic
+    finding: "Absent or generalized lymphadenopathy"
+    probability: 0.25
+  - system: skin
+    finding: "Eczematous dermatitis or recurrent abscesses"
+    probability: 0.30
+  - system: respiratory
+    finding: "Chronic cough or bronchiectasis findings"
+    probability: 0.20
+treatment:
+  approach: evaluation_and_targeted_therapy
+  medications:
+  - agent: Amoxicillin
+    rxnorm: '723'
+    frequency: "Daily prophylactic dose"
+    route: oral
+    indication: "Antibiotic prophylaxis for recurrent bacterial infections"
+  - agent: Intravenous Immunoglobulin (IVIG)
+    rxnorm: '5784'
+    frequency: "Every 3-4 weeks"
+    route: intravenous
+    indication: "Immunoglobulin replacement for humoral immunodeficiency"

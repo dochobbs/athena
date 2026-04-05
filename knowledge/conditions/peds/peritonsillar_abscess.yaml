@@ -1,0 +1,70 @@
+id: peritonsillar_abscess
+display_name: Peritonsillar Abscess
+aliases:
+- PTA
+- Quinsy
+- Peritonsillar infection
+snomed: '18099001'
+icd10:
+- J36
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 60
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: severe sore throat
+    probability: 0.95
+    description: "Unilateral severe throat pain, often worse than typical pharyngitis"
+  - name: trismus
+    probability: 0.70
+    description: "Difficulty opening mouth due to pterygoid muscle inflammation"
+  - name: drooling
+    probability: 0.50
+    description: "Inability or refusal to swallow saliva"
+  - name: hot potato voice
+    probability: 0.60
+    description: "Muffled voice quality"
+  - name: referred ear pain
+    probability: 0.45
+    description: "Ipsilateral otalgia"
+  - name: fever
+    probability: 0.80
+    description: "High fever with systemic toxicity"
+  physical_exam:
+  - system: heent
+    finding: "Unilateral tonsillar bulging with uvular deviation to contralateral side"
+    probability: 0.85
+  - system: heent
+    finding: "Trismus limiting oral examination"
+    probability: 0.70
+  - system: heent
+    finding: "Erythematous, edematous soft palate on affected side"
+    probability: 0.85
+  - system: neck
+    finding: "Ipsilateral tender cervical lymphadenopathy"
+    probability: 0.70
+treatment:
+  approach: drainage_and_antibiotics
+  medications:
+  - agent: Ampicillin-Sulbactam
+    rxnorm: '733'
+    frequency: "Q6H IV"
+    route: intravenous
+    indication: "Broad-spectrum coverage for polymicrobial infection"
+  - agent: Clindamycin
+    rxnorm: '2582'
+    frequency: "Q8H IV"
+    route: intravenous
+    indication: "Alternative for penicillin-allergic patients"
+  - agent: Dexamethasone
+    rxnorm: '3264'
+    frequency: "Single dose IV"
+    route: intravenous
+    indication: "Reduce edema and improve symptoms"

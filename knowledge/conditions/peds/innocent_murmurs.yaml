@@ -1,0 +1,44 @@
+id: innocent_murmurs
+display_name: Innocent Heart Murmurs
+aliases:
+- Functional murmur
+- Still murmur
+- Flow murmur
+- Benign murmur
+snomed: '88610006'
+icd10:
+- R01.0
+category: chronic
+system: cardiology
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: incidental murmur on exam
+    probability: 0.95
+    description: "Detected during routine well-child visit or febrile illness"
+  - name: asymptomatic
+    probability: 0.95
+    description: "No chest pain, syncope, exercise intolerance, or dyspnea"
+  physical_exam:
+  - system: cardiovascular
+    finding: "Grade I-II/VI systolic ejection murmur, musical or vibratory quality (Still murmur)"
+    probability: 0.60
+  - system: cardiovascular
+    finding: "Systolic murmur that varies with position and decreases when standing"
+    probability: 0.80
+  - system: cardiovascular
+    finding: "Venous hum: continuous murmur in neck that resolves with compression of jugular vein"
+    probability: 0.25
+  - system: cardiovascular
+    finding: "Normal S1 and S2 with no clicks or gallops"
+    probability: 0.95
+treatment:
+  approach: reassurance_and_observation
+  medications: []

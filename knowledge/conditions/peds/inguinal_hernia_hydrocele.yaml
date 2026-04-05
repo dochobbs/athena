@@ -1,0 +1,60 @@
+id: inguinal_hernia_hydrocele
+display_name: Inguinal Hernia and Hydrocele
+aliases:
+- Inguinal hernia
+- Hydrocele
+- Pediatric hernia
+snomed: '396232000'
+icd10:
+- K40.90
+- N43.3
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: inguinal or scrotal swelling
+    probability: 0.95
+    description: "Intermittent or persistent bulge in groin or scrotum"
+  - name: swelling with crying or straining
+    probability: 0.80
+    description: "Bulge worsens with increased intra-abdominal pressure"
+  - name: painless scrotal swelling
+    probability: 0.60
+    description: "Non-tender transilluminating scrotal mass (hydrocele)"
+  - name: irritability with incarceration
+    probability: 0.20
+    description: "Crying, vomiting, and tenderness with incarcerated hernia"
+  physical_exam:
+  - system: genitourinary
+    finding: "Reducible inguinal bulge that increases with Valsalva"
+    probability: 0.70
+  - system: genitourinary
+    finding: "Transilluminating scrotal swelling (hydrocele)"
+    probability: 0.55
+  - system: genitourinary
+    finding: "Silk glove sign - thickened cord palpable at external ring"
+    probability: 0.50
+  - system: abdomen
+    finding: "Tender, non-reducible inguinal mass (incarcerated hernia)"
+    probability: 0.15
+treatment:
+  approach: surgical_referral
+  medications:
+  - agent: Acetaminophen
+    rxnorm: '161'
+    frequency: "Q4-6H PRN"
+    route: oral
+    indication: "Pain management pre-operatively"
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "Pain and inflammation management"

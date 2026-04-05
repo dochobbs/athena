@@ -1,0 +1,59 @@
+id: seborrheic_dermatitis
+display_name: Seborrheic Dermatitis
+aliases:
+- Cradle cap
+- Infantile seborrheic dermatitis
+- Dandruff
+snomed: '86708008'
+icd10:
+- L21.0
+- L21.1
+category: chronic
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: greasy scalp scale
+    probability: 0.90
+    description: "Thick, yellowish, greasy scales on scalp (cradle cap in infants)"
+  - name: erythematous patches
+    probability: 0.60
+    description: "Salmon-pink patches in skin folds and face"
+  - name: minimal pruritus
+    probability: 0.40
+    description: "Usually not very itchy, distinguishing from eczema"
+  physical_exam:
+  - system: skin
+    finding: "Thick, yellow, greasy adherent scales on vertex of scalp"
+    probability: 0.85
+  - system: skin
+    finding: "Erythematous patches with greasy scale in nasolabial folds, eyebrows, behind ears"
+    probability: 0.55
+  - system: skin
+    finding: "Involvement of skin folds: axillae, neck, inguinal creases"
+    probability: 0.35
+treatment:
+  approach: topical_antifungal_and_emollient
+  medications:
+  - agent: Ketoconazole shampoo 2%
+    rxnorm: '6135'
+    frequency: "2-3 times weekly"
+    route: topical
+    indication: "Antifungal for scalp seborrheic dermatitis"
+  - agent: Hydrocortisone cream 1%
+    rxnorm: '5492'
+    frequency: "BID for 1-2 weeks"
+    route: topical
+    indication: "Short-term for inflamed areas"
+  - agent: Ketoconazole cream 2%
+    rxnorm: '6135'
+    frequency: "BID for 2-4 weeks"
+    route: topical
+    indication: "Facial or body seborrheic dermatitis"

@@ -1,0 +1,72 @@
+id: substance_use
+display_name: "Adolescent Substance Use"
+aliases:
+  - Teen drug use
+  - Alcohol use
+  - Marijuana use
+  - Vaping
+  - E-cigarette use
+  - Substance abuse
+snomed: "66214007"
+icd10:
+  - F10.10
+  - F12.10
+  - F17.210
+  - F19.10
+category: chronic
+system: mental_health
+specialties:
+  - peds
+age_range:
+  min_months: 132
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+prevalence:
+  notes: "By 12th grade ~47% have tried alcohol, ~35% marijuana, ~25% vaping"
+presentation:
+  symptoms:
+    - name: declining school performance
+      probability: 0.50
+      description: "Drop in grades, truancy, loss of interest"
+    - name: behavioral changes
+      probability: 0.60
+      description: "Mood swings, new peer group, secretiveness"
+    - name: physical signs
+      probability: 0.30
+      description: "Red eyes, unusual odors, weight changes"
+    - name: sleep disturbance
+      probability: 0.40
+      description: "Irregular sleep patterns, fatigue"
+    - name: self-reported use
+      probability: 0.70
+      description: "Positive screen on CRAFFT or similar tool"
+  physical_exam:
+    - system: general
+      finding: "May appear normal; look for signs of intoxication or withdrawal"
+      probability: 0.80
+    - system: heent
+      finding: "Conjunctival injection, nasal irritation"
+      probability: 0.20
+    - system: respiratory
+      finding: "Wheezing or cough if vaping/smoking"
+      probability: 0.15
+diagnostics:
+  screening:
+    - "CRAFFT 2.1 screening tool (validated for ages 12-21)"
+    - "SBIRT (Screening, Brief Intervention, Referral to Treatment)"
+    - "Urine drug screen if clinically indicated"
+treatment:
+  approach: screening_brief_intervention_referral
+  items:
+    - category: screening
+      description: "Annual CRAFFT screening at well-visits starting age 11-12"
+    - category: education
+      description: "Motivational interviewing for identified use"
+    - category: referral
+      description: "Behavioral health or addiction medicine for moderate-severe use"
+    - category: education
+      description: "Confidential care; explain limits of confidentiality (safety)"
+    - category: follow-up
+      description: "Close follow-up every 2-4 weeks if active use"

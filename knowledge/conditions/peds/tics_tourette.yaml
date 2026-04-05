@@ -1,0 +1,83 @@
+id: tics_tourette
+display_name: "Tics and Tourette Syndrome"
+aliases:
+  - Tic disorder
+  - Tourette syndrome
+  - Motor tics
+  - Vocal tics
+  - Transient tic disorder
+snomed: "5765003"
+icd10:
+  - F95.0
+  - F95.1
+  - F95.2
+  - F95.9
+category: chronic
+system: neurology
+specialties:
+  - peds
+age_range:
+  min_months: 48
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  percent: 6
+  male_to_female_ratio: 3.0
+  notes: "Transient tics in up to 20% of children; Tourette in ~1%"
+presentation:
+  symptoms:
+    - name: motor tics
+      probability: 0.90
+      description: "Eye blinking, facial grimacing, head jerking, shoulder shrugging"
+    - name: vocal tics
+      probability: 0.50
+      description: "Throat clearing, sniffing, grunting"
+    - name: premonitory urge
+      probability: 0.60
+      description: "Uncomfortable sensation relieved by performing the tic"
+    - name: waxing and waning pattern
+      probability: 0.85
+      description: "Tics increase and decrease in frequency and type over weeks to months"
+    - name: suppressibility
+      probability: 0.70
+      description: "Can temporarily suppress tics with effort, followed by rebound"
+  physical_exam:
+    - system: neurological
+      finding: "Observable motor tics during exam (may be suppressed)"
+      probability: 0.60
+    - system: neurological
+      finding: "Normal neurological examination otherwise"
+      probability: 0.95
+diagnostics:
+  screening:
+    - "Vanderbilt scales for comorbid ADHD"
+    - "SCARED or similar for comorbid anxiety"
+    - "Yale Global Tic Severity Scale (YGTSS)"
+treatment:
+  approach: education_and_behavioral
+  medications:
+    - agent: "Guanfacine"
+      rxnorm: "35636"
+      frequency: "Daily or divided BID"
+      route: oral
+      indication: "Tics with comorbid ADHD"
+    - agent: "Clonidine"
+      rxnorm: "2599"
+      frequency: "BID-TID"
+      route: oral
+      indication: "Tics, especially with sleep difficulty"
+  patient_instructions:
+    - "Tics are involuntary; do not draw attention to or punish them"
+    - "Many children outgrow tics by late adolescence"
+    - "Treat only if tics cause functional impairment or social distress"
+    - "CBIT (Comprehensive Behavioral Intervention for Tics) is first-line therapy"
+    - "Refer to neurology if severe or worsening"
+comorbidities:
+  strong:
+    - adhd
+    - ocd
+  moderate:
+    - anxiety
+    - learning_disabilities

@@ -1,0 +1,81 @@
+id: type1_diabetes_sick_day
+display_name: "Type 1 Diabetes Sick Day Management"
+aliases:
+  - DKA prevention
+  - Sick day rules T1D
+  - Diabetic ketoacidosis prevention
+  - T1D sick day management
+snomed: "420868002"
+icd10:
+  - E10.65
+  - E10.10
+  - E10.11
+category: acute
+system: endocrine
+specialties:
+  - peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+prevalence:
+  notes: "Acute illness in T1D patients is high risk for DKA; leading cause of T1D morbidity"
+presentation:
+  symptoms:
+    - name: hyperglycemia
+      probability: 0.80
+      description: "Blood glucose >250 mg/dL during illness"
+    - name: nausea and vomiting
+      probability: 0.60
+      description: "May be from illness or early DKA"
+    - name: ketonuria or ketonemia
+      probability: 0.50
+      description: "Moderate to large ketones on urine or blood testing"
+    - name: abdominal pain
+      probability: 0.40
+      description: "May indicate DKA if with hyperglycemia and ketones"
+    - name: increased thirst and urination
+      probability: 0.55
+      description: "Polyuria and polydipsia from osmotic diuresis"
+    - name: Kussmaul respirations
+      probability: 0.15
+      description: "Deep, rapid breathing indicating metabolic acidosis (DKA)"
+  physical_exam:
+    - system: general
+      finding: "Signs of dehydration: dry mucous membranes, decreased skin turgor"
+      probability: 0.40
+    - system: respiratory
+      finding: "Kussmaul breathing (deep and labored)"
+      probability: 0.15
+    - system: general
+      finding: "Fruity breath odor"
+      probability: 0.20
+diagnostics:
+  labs:
+    - "Blood glucose (point of care)"
+    - "Blood or urine ketones"
+    - "BMP if concern for DKA (glucose, bicarb, anion gap)"
+    - "VBG or ABG if acidosis suspected"
+treatment:
+  approach: sick_day_protocol
+  medications:
+    - agent: "Insulin (rapid-acting)"
+      rxnorm: "274783"
+      frequency: "Correction doses per sliding scale Q2-4H"
+      route: subcutaneous
+      indication: "Supplemental correction for hyperglycemia with ketones"
+    - agent: "Ondansetron"
+      rxnorm: "26225"
+      frequency: "Q8H PRN"
+      route: oral
+      indication: "Anti-emetic to maintain oral hydration"
+  patient_instructions:
+    - "NEVER stop basal insulin, even if not eating"
+    - "Check blood glucose every 2-4 hours"
+    - "Check ketones every 2-4 hours if BG >250"
+    - "Give supplemental rapid-acting insulin for hyperglycemia and ketones"
+    - "Push sugar-free fluids; if BG <250 use sugar-containing fluids"
+    - "Go to ED if: persistent vomiting, large ketones >3.0, BG >500, altered mental status, Kussmaul breathing"
+    - "Contact endocrinology for insulin dose guidance during illness"

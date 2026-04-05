@@ -1,0 +1,58 @@
+id: intussusception
+display_name: Intussusception
+aliases:
+- Intestinal intussusception
+- Telescoping bowel
+snomed: '55888003'
+icd10:
+- K56.1
+category: acute
+system: gi
+specialties:
+- peds
+age_range:
+  min_months: 3
+  max_months: 60
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: intermittent colicky abdominal pain
+    probability: 0.90
+    description: "Episodic severe cramping with drawing up of legs, every 15-20 minutes"
+  - name: vomiting
+    probability: 0.80
+    description: "Initially non-bilious, may become bilious with progression"
+  - name: currant jelly stools
+    probability: 0.40
+    description: "Bloody mucoid stools, a late finding"
+  - name: lethargy between episodes
+    probability: 0.50
+    description: "Pallor and altered consciousness between pain episodes"
+  physical_exam:
+  - system: abdomen
+    finding: "Sausage-shaped mass in right upper quadrant"
+    probability: 0.60
+  - system: abdomen
+    finding: "Dance sign - empty right lower quadrant"
+    probability: 0.40
+  - system: abdomen
+    finding: "Abdominal distension and tenderness"
+    probability: 0.55
+  - system: rectal
+    finding: "Bloody mucus on rectal exam"
+    probability: 0.40
+treatment:
+  approach: air_or_contrast_enema_reduction
+  medications:
+  - agent: Normal Saline
+    rxnorm: '313002'
+    frequency: "Continuous IV bolus 20 mL/kg"
+    route: intravenous
+    indication: "Fluid resuscitation for dehydration"
+  - agent: Ondansetron
+    rxnorm: '26225'
+    frequency: "Q8H PRN"
+    route: intravenous
+    indication: "Antiemetic prior to reduction"

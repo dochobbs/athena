@@ -1,0 +1,90 @@
+id: chest_pain
+display_name: Chest Pain in Children
+aliases:
+- Pediatric chest pain
+- Musculoskeletal chest pain
+- Costochondritis
+snomed: '29857009'
+icd10:
+- R07.9
+- R07.89
+- M94.0
+category: acute
+system: cardiology
+specialties:
+- peds
+age_range:
+  min_months: 48
+  max_months: 216
+demographics:
+  age_months:
+    min: 48
+    peak:
+    - 120
+    - 192
+    max: 216
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - musculoskeletal_strain
+  - anxiety
+  - asthma
+  - family_history_cardiac_disease
+prevalence:
+  notes: Very common complaint; cardiac cause in <1% of pediatric chest pain cases
+presentation:
+  symptoms:
+  - name: chest wall pain
+    probability: 0.60
+    description: "sharp, localized, reproducible with palpation"
+  - name: pain with deep breathing
+    probability: 0.40
+    description: "pleuritic component, may suggest musculoskeletal or respiratory"
+  - name: exertional pain
+    probability: 0.20
+    description: "pain during exercise — warrants cardiac evaluation"
+  - name: associated anxiety
+    probability: 0.30
+    description: "hyperventilation, palpitations, stress-related"
+  - name: shortness of breath
+    probability: 0.25
+    description: "may indicate respiratory or cardiac etiology"
+  physical_exam:
+  - system: chest
+    finding: "Reproducible chest wall tenderness (costochondritis)"
+    probability: 0.55
+  - system: cardiovascular
+    finding: "Normal cardiac exam — no murmur, regular rhythm"
+    probability: 0.85
+  - system: respiratory
+    finding: "Clear lungs bilaterally"
+    probability: 0.80
+  - system: cardiovascular
+    finding: "Pathologic murmur, rub, or click (rare but critical)"
+    probability: 0.05
+diagnostics:
+  labs:
+  - name: ECG
+    indication: "if exertional, syncope, palpitations, or family history of sudden death"
+  imaging:
+  - name: Chest X-ray
+    indication: "if respiratory symptoms, trauma, or fever"
+  - name: Echocardiogram
+    indication: "if abnormal ECG, pathologic murmur, or exertional symptoms"
+treatment:
+  approach: reassurance_and_targeted_workup
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "musculoskeletal chest pain"
+  patient_instructions:
+  - Cardiac causes are rare in children (<1%)
+  - Costochondritis is the most common cause
+  - Red flags — exertional chest pain, syncope, palpitations, family history sudden death
+  - ECG recommended if any red flags present
+  - Reassurance is often the most important intervention

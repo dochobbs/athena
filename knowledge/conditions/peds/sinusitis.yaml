@@ -1,0 +1,69 @@
+id: sinusitis
+display_name: Pediatric Sinusitis
+aliases:
+- Acute bacterial sinusitis
+- Rhinosinusitis
+- Sinus infection
+snomed: '36971009'
+icd10:
+- J01.90
+- J01.00
+- J01.10
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: persistent nasal symptoms
+    probability: 0.85
+    description: "Nasal discharge or daytime cough lasting >10 days without improvement"
+  - name: purulent nasal discharge
+    probability: 0.60
+    description: "Thick, colored nasal discharge (green or yellow)"
+  - name: facial pain or pressure
+    probability: 0.40
+    description: "Facial pressure or headache, more common in older children"
+  - name: fever
+    probability: 0.50
+    description: "Low-grade fever with persistent symptoms, or high fever with severe onset"
+  - name: cough
+    probability: 0.70
+    description: "Daytime or nighttime cough, may worsen at night"
+  physical_exam:
+  - system: heent
+    finding: "Purulent nasal discharge in middle meatus"
+    probability: 0.60
+  - system: heent
+    finding: "Erythematous and edematous nasal turbinates"
+    probability: 0.70
+  - system: heent
+    finding: "Facial tenderness over maxillary or frontal sinuses"
+    probability: 0.35
+  - system: heent
+    finding: "Post-nasal drip visible in oropharynx"
+    probability: 0.50
+treatment:
+  approach: antibiotic_therapy
+  medications:
+  - agent: Amoxicillin
+    rxnorm: '723'
+    frequency: "BID-TID for 10-14 days"
+    route: oral
+    indication: "First-line for acute bacterial sinusitis"
+  - agent: Amoxicillin-Clavulanate
+    rxnorm: '1043'
+    frequency: "BID for 10-14 days"
+    route: oral
+    indication: "Treatment failure, recent antibiotic use, or daycare attendance"
+  - agent: Saline nasal irrigation
+    rxnorm: '313002'
+    frequency: "BID-TID"
+    route: intranasal
+    indication: "Adjunctive therapy for symptom relief"

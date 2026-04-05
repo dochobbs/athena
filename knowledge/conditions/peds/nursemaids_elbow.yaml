@@ -1,0 +1,55 @@
+id: nursemaids_elbow
+display_name: Nursemaid's Elbow
+aliases:
+- Radial head subluxation
+- Pulled elbow
+- Annular ligament displacement
+snomed: '128264003'
+icd10:
+- S53.031A
+- S53.032A
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 60
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: sudden refusal to use arm
+    probability: 0.95
+    description: "Child holds arm at side, slightly flexed and pronated after axial traction"
+  - name: no significant swelling
+    probability: 0.90
+    description: "No visible deformity or significant swelling of elbow"
+  - name: history of pulling mechanism
+    probability: 0.75
+    description: "Lifting or pulling child by hand or wrist"
+  - name: mild pain with supination
+    probability: 0.80
+    description: "Discomfort when attempting to supinate forearm"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Arm held in slight flexion and pronation at side"
+    probability: 0.95
+  - system: musculoskeletal
+    finding: "No swelling, deformity, or ecchymosis"
+    probability: 0.90
+  - system: musculoskeletal
+    finding: "Tenderness to palpation over radial head"
+    probability: 0.60
+  - system: musculoskeletal
+    finding: "Refusal to supinate or reach for objects"
+    probability: 0.90
+treatment:
+  approach: reduction_maneuver
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "Pain management post-reduction if needed"

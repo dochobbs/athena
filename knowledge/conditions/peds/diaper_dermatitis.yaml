@@ -1,0 +1,83 @@
+id: diaper_dermatitis
+display_name: Diaper Dermatitis
+aliases:
+- Diaper rash
+- Nappy rash
+- Candidal diaper rash
+snomed: '91487003'
+icd10:
+- L22
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 36
+  peak:
+  - 6
+  - 18
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 9
+    - 12
+    max: 36
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - prolonged_wet_diaper
+  - diarrhea
+  - antibiotic_use
+  - formula_feeding
+prevalence:
+  percent: 50
+  notes: Most common skin condition in infants; peaks at 9-12 months
+presentation:
+  symptoms:
+  - name: diaper area erythema
+    probability: 0.90
+    description: "redness in diaper-covered areas"
+  - name: irritability with diaper changes
+    probability: 0.70
+    description: "crying or fussiness during changes"
+  - name: satellite lesions
+    probability: 0.35
+    description: "papules/pustules beyond rash border — suggests candidal infection"
+  physical_exam:
+  - system: skin
+    finding: "Erythema on convex surfaces (buttocks, thighs, lower abdomen) sparing creases — irritant"
+    probability: 0.55
+  - system: skin
+    finding: "Beefy red erythema IN skin folds with satellite papules/pustules — candidal"
+    probability: 0.35
+  - system: skin
+    finding: "Erosions or ulceration in severe cases"
+    probability: 0.10
+treatment:
+  approach: barrier_protection_and_antifungal
+  medications:
+  - agent: Zinc Oxide paste
+    rxnorm: '11526'
+    frequency: "with every diaper change"
+    route: topical
+    indication: "barrier protection for irritant dermatitis"
+  - agent: Nystatin Cream
+    rxnorm: '7597'
+    frequency: "QID to affected areas for 7-10 days"
+    route: topical
+    indication: "candidal diaper dermatitis"
+  - agent: Hydrocortisone 1%
+    rxnorm: '5492'
+    frequency: "BID for 3-5 days only"
+    route: topical
+    indication: "severe inflammation — short course, low potency only"
+  patient_instructions:
+  - Frequent diaper changes — keep area clean and dry
+  - Thick barrier cream (zinc oxide, petroleum jelly) at every change
+  - Diaper-free time when possible
+  - If satellite lesions present — treat as candidal with antifungal
+  - Do NOT use combination steroid-antifungal creams with high-potency steroids
+  - Consider oral thrush examination if candidal diaper rash

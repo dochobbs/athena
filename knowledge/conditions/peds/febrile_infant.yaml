@@ -1,0 +1,115 @@
+id: febrile_infant
+display_name: Febrile Infant
+aliases:
+- Fever in young infant
+- Febrile neonate
+- Fever without source
+snomed: '386661006'
+icd10:
+- R50.9
+- P81.9
+category: acute
+system: infectious_disease
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 3
+  peak:
+  - 0
+  - 2
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 2
+    max: 3
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - age_less_than_28_days
+  - prematurity
+  - ill_appearance
+  - no_source_identified
+prevalence:
+  notes: 2-3% of febrile infants <90 days have serious bacterial infection; highest risk <28 days
+presentation:
+  symptoms:
+  - name: fever
+    probability: 1.0
+    description: "rectal temperature >=38.0C (100.4F)"
+  - name: irritability
+    probability: 0.50
+    description: "fussiness, inconsolable crying"
+  - name: poor feeding
+    probability: 0.40
+    description: "decreased intake, weak suck"
+  - name: lethargy
+    probability: 0.20
+    description: "decreased activity — high-risk finding"
+  physical_exam:
+  - system: general
+    finding: "Well-appearing infant with fever"
+    probability: 0.70
+  - system: general
+    finding: "Ill-appearing, lethargic, or toxic-appearing infant"
+    probability: 0.15
+  - system: general
+    finding: "No identifiable source of fever on exam"
+    probability: 0.60
+vitals_impact:
+  temp_f:
+  - 100.4
+  - 104.0
+  hr_multiplier: 1.2
+diagnostics:
+  labs:
+  - name: CBC with differential
+    indication: "WBC, ANC, bands"
+  - name: Blood culture
+    indication: "gold standard for bacteremia"
+  - name: Urinalysis and urine culture
+    indication: "catheterized specimen required"
+  - name: CRP and/or Procalcitonin
+    indication: "inflammatory markers for risk stratification"
+  - name: CSF analysis (LP)
+    indication: "cell count, glucose, protein, culture, HSV PCR"
+  - name: Chest X-ray
+    indication: "if respiratory symptoms present"
+treatment:
+  approach: age_stratified_risk_assessment
+  medications:
+  - agent: Ampicillin
+    rxnorm: '733'
+    dose_mg_kg: 50
+    frequency: "Q6-8H IV"
+    route: intravenous
+    indication: "empiric coverage <28 days"
+  - agent: Gentamicin
+    rxnorm: '4684'
+    dose_mg_kg: 4
+    frequency: "Q24H IV"
+    route: intravenous
+    indication: "gram-negative coverage <28 days"
+  - agent: Ceftriaxone
+    rxnorm: '2193'
+    dose_mg_kg: 50
+    frequency: "daily IV/IM"
+    route: intravenous
+    indication: "empiric for 29-60 day old well-appearing infants"
+  - agent: Acyclovir
+    rxnorm: '281'
+    dose_mg_kg: 20
+    frequency: "Q8H IV"
+    route: intravenous
+    indication: "HSV coverage if <21 days, vesicles, ill-appearing, or elevated AST/ALT"
+  patient_instructions:
+  - Follow AAP 2021 febrile infant guideline for age-based stratification
+  - Age 0-28 days — full sepsis workup + admission + empiric antibiotics always
+  - Age 29-60 days — risk stratify with labs; may observe if low-risk
+  - Age 61-90 days — urinalysis required; further workup based on appearance and markers
+  - Procalcitonin <0.5 and normal UA are reassuring
+  - HSV must be considered in neonates — vesicles, seizures, elevated LFTs
+  - Rectal temperature is the standard for infants

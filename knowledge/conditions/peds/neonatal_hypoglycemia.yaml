@@ -1,0 +1,65 @@
+id: neonatal_hypoglycemia
+display_name: Neonatal Hypoglycemia
+aliases:
+- Newborn low blood sugar
+- Neonatal low glucose
+snomed: '52767006'
+icd10:
+- P70.4
+- P70.1
+category: acute
+system: endocrine
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 1
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: jitteriness
+    probability: 0.60
+    description: "Tremors and jitteriness, most common symptom"
+  - name: poor feeding
+    probability: 0.55
+    description: "Weak suck, feeding intolerance"
+  - name: lethargy
+    probability: 0.45
+    description: "Decreased activity and responsiveness"
+  - name: hypothermia
+    probability: 0.30
+    description: "Temperature instability"
+  - name: seizures
+    probability: 0.15
+    description: "Tonic-clonic movements from severe hypoglycemia"
+  - name: apnea
+    probability: 0.20
+    description: "Pauses in breathing"
+  physical_exam:
+  - system: neurologic
+    finding: "Jitteriness or tremors that stop with passive flexion"
+    probability: 0.60
+  - system: neurologic
+    finding: "Hypotonia and poor suck reflex"
+    probability: 0.45
+  - system: neurologic
+    finding: "Exaggerated Moro reflex"
+    probability: 0.30
+  - system: skin
+    finding: "Pallor or cyanosis"
+    probability: 0.25
+treatment:
+  approach: glucose_supplementation
+  medications:
+  - agent: Dextrose 10% in water (D10W)
+    rxnorm: '4850'
+    frequency: "2 mL/kg IV bolus then continuous infusion"
+    route: intravenous
+    indication: "Symptomatic hypoglycemia or glucose <25 mg/dL in first 4 hours"
+  - agent: Dextrose gel 40%
+    rxnorm: '4850'
+    frequency: "Single dose buccal application"
+    route: buccal
+    indication: "Asymptomatic hypoglycemia as adjunct to feeding"

@@ -1,0 +1,49 @@
+id: food_allergy_prevention
+display_name: "Early Food Allergen Introduction"
+aliases:
+  - Allergen introduction
+  - Peanut allergy prevention
+  - LEAP study guidance
+  - Early allergen exposure
+snomed: "418471000"
+icd10:
+  - Z71.3
+category: preventive
+system: general
+specialties:
+  - peds
+age_range:
+  min_months: 4
+  max_months: 12
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "AAP/NIAID guidelines for prevention; based on LEAP and EAT studies"
+presentation:
+  symptoms: []
+  physical_exam: []
+treatment:
+  approach: anticipatory_guidance
+  items:
+    - category: education
+      description: "Introduce peanut protein at 4-6 months for high-risk infants (severe eczema or egg allergy)"
+    - category: education
+      description: "High-risk infants: SPT or sIgE testing before introduction; if negative, introduce at home"
+    - category: education
+      description: "Moderate-risk infants (mild-moderate eczema): introduce peanut around 6 months without testing"
+    - category: education
+      description: "Low-risk infants: introduce peanut along with other foods"
+    - category: education
+      description: "Early introduction of egg, milk, wheat, soy also recommended"
+    - category: education
+      description: "Delay of allergenic foods does NOT prevent allergy and may increase risk"
+    - category: education
+      description: "Thin peanut butter mixed with breastmilk/formula or peanut puffs (not whole peanuts)"
+    - category: referral
+      description: "Allergist for high-risk infants before peanut introduction"
+counseling_points:
+  - "LEAP study: early peanut introduction reduced peanut allergy by 80% in high-risk infants"
+  - "Exclusive breastfeeding for 4-6 months does not prevent food allergy"
+  - "No evidence that maternal avoidance during pregnancy or lactation prevents allergy"
+  - "Introduce one new allergen every 3-5 days to identify reactions"

@@ -1,0 +1,89 @@
+id: cmpi
+display_name: "Cow's Milk Protein Intolerance"
+aliases:
+- CMPI
+- CMPA
+- Milk protein allergy
+- "Cow's milk protein allergy"
+- Milk sensitive enteropathy
+snomed: '782555009'
+icd10:
+- K52.29
+- L27.2
+category: chronic
+system: gi
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 24
+  peak:
+  - 1
+  - 6
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 1
+    - 6
+    max: 24
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - family_history_atopy
+  - formula_feeding
+  - atopic_dermatitis
+prevalence:
+  percent: 3
+  notes: 2-3% of infants; majority outgrow by age 1-2 years
+presentation:
+  symptoms:
+  - name: bloody stools
+    probability: 0.60
+    description: "blood-streaked or occult blood-positive stools"
+  - name: excessive fussiness
+    probability: 0.70
+    description: "irritability, especially with feeds"
+  - name: vomiting
+    probability: 0.40
+    description: "frequent spitting up or vomiting after feeds"
+  - name: diarrhea
+    probability: 0.45
+    description: "loose, mucousy stools"
+  - name: poor weight gain
+    probability: 0.25
+    description: "failure to thrive in severe cases"
+  - name: eczema
+    probability: 0.30
+    description: "atopic dermatitis, especially refractory"
+  physical_exam:
+  - system: abdomen
+    finding: "Mildly distended, non-tender abdomen"
+    probability: 0.30
+  - system: skin
+    finding: "Perianal erythema or excoriation"
+    probability: 0.35
+  - system: skin
+    finding: "Eczematous patches"
+    probability: 0.30
+  - system: general
+    finding: "Well-appearing infant in most cases"
+    probability: 0.85
+diagnostics:
+  labs:
+  - name: Stool guaiac / fecal occult blood
+    indication: "confirm occult blood in stool"
+  - name: CBC
+    indication: "may show eosinophilia or anemia"
+treatment:
+  approach: dietary_elimination
+  medications: []
+  patient_instructions:
+  - Breastfed infants — maternal elimination of dairy (and often soy)
+  - Formula-fed — switch to extensively hydrolyzed formula (e.g., Nutramigen, Alimentum)
+  - If hydrolyzed formula fails — amino acid-based formula (EleCare, Neocate)
+  - Improvement expected within 2-4 weeks of elimination
+  - Reintroduce dairy around 9-12 months under guidance
+  - Most children outgrow CMPI by 12-18 months
+  - Soy formula NOT recommended — 30-50% cross-reactivity

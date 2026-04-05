@@ -1,0 +1,64 @@
+id: insect_bites_stings
+display_name: Insect Bites and Stings
+aliases:
+- Bug bites
+- Bee sting
+- Mosquito bites
+- Hymenoptera sting
+snomed: '262587004'
+icd10:
+- T63.441A
+- T63.481A
+- W57.XXXA
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: localized pain and swelling
+    probability: 0.90
+    description: "Erythema, edema, and pain at bite or sting site"
+  - name: pruritus
+    probability: 0.85
+    description: "Intense itching, especially with mosquito or flea bites"
+  - name: large local reaction
+    probability: 0.25
+    description: "Swelling >10 cm extending beyond bite site"
+  - name: anaphylaxis
+    probability: 0.02
+    description: "Urticaria, angioedema, wheezing, hypotension within minutes"
+  physical_exam:
+  - system: skin
+    finding: "Erythematous papule or wheal at bite site"
+    probability: 0.90
+  - system: skin
+    finding: "Central punctum with surrounding erythema"
+    probability: 0.60
+  - system: skin
+    finding: "Urticaria or diffuse erythema (systemic reaction)"
+    probability: 0.05
+treatment:
+  approach: symptomatic_care
+  medications:
+  - agent: Diphenhydramine
+    rxnorm: '3498'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "Pruritus and local allergic reaction"
+  - agent: Hydrocortisone cream
+    rxnorm: '5492'
+    frequency: "BID-TID for 5-7 days"
+    route: topical
+    indication: "Local inflammation and pruritus"
+  - agent: Epinephrine auto-injector
+    rxnorm: '3992'
+    frequency: "Single dose IM, may repeat in 5-15 min"
+    route: intramuscular
+    indication: "Anaphylaxis from Hymenoptera sting"

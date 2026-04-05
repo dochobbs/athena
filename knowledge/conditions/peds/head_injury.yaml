@@ -1,0 +1,96 @@
+id: head_injury
+display_name: Head Injury
+aliases:
+- Concussion
+- Pediatric head trauma
+- Minor head injury
+- Traumatic brain injury
+snomed: '82271004'
+icd10:
+- S09.90XA
+- S06.0X0A
+- S06.0X1A
+category: acute
+system: neurology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 6
+    - 24
+    - 144
+    max: 216
+  gender_bias:
+    male: 0.60
+    female: 0.40
+  risk_factors:
+  - falls
+  - sports_participation
+  - bicycle_accidents
+  - non_accidental_trauma
+prevalence:
+  notes: Most common reason for pediatric ED visits; PECARN criteria guide CT decision
+presentation:
+  symptoms:
+  - name: headache
+    probability: 0.70
+    description: "post-traumatic headache"
+  - name: vomiting
+    probability: 0.30
+    description: "single or multiple episodes after injury"
+  - name: loss of consciousness
+    probability: 0.15
+    description: "brief LOC at time of injury"
+  - name: confusion or altered behavior
+    probability: 0.25
+    description: "acting differently, amnesia, disorientation"
+  - name: scalp swelling
+    probability: 0.50
+    description: "scalp hematoma at impact site"
+  - name: irritability
+    probability: 0.40
+    description: "in younger children who cannot report headache"
+  physical_exam:
+  - system: neurologic
+    finding: "Normal GCS (15) with intact cranial nerves"
+    probability: 0.80
+  - system: head
+    finding: "Scalp hematoma — location matters (parietal/temporal higher risk)"
+    probability: 0.45
+  - system: neurologic
+    finding: "Altered mental status"
+    probability: 0.10
+  - system: head
+    finding: "Palpable skull fracture or crepitus"
+    probability: 0.05
+  - system: general
+    finding: "Battle sign, raccoon eyes, hemotympanum (basilar skull fracture)"
+    probability: 0.03
+diagnostics:
+  imaging:
+  - name: CT head without contrast
+    indication: "per PECARN criteria if any high-risk features"
+treatment:
+  approach: pecarn_risk_stratification
+  medications:
+  - agent: Acetaminophen
+    rxnorm: '161'
+    dose_mg_kg: 15
+    max_dose_mg: 1000
+    frequency: "Q4-6H PRN"
+    route: oral
+    indication: "headache — avoid ibuprofen acutely (bleeding risk)"
+  patient_instructions:
+  - Use PECARN criteria to guide CT imaging decision
+  - Age <2 — high risk if GCS <15, palpable skull fracture, AMS, non-frontal hematoma
+  - Age >2 — high risk if GCS <15, signs of basilar skull fracture, AMS
+  - Observe 4-6 hours for low-risk patients
+  - Concussion — physical and cognitive rest, gradual return to activity
+  - Return to school before return to sports
+  - No same-day return to play after concussion
+  - Return precautions — persistent vomiting, worsening headache, confusion, seizure

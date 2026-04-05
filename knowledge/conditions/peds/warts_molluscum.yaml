@@ -1,0 +1,70 @@
+id: warts_molluscum
+display_name: "Warts and Molluscum Contagiosum"
+aliases:
+  - Verruca vulgaris
+  - Common warts
+  - Molluscum contagiosum
+  - Water warts
+snomed: "57058005"
+icd10:
+  - B07.9
+  - B07.0
+  - B08.1
+category: acute
+system: dermatology
+specialties:
+  - peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  percent: 10
+  notes: "Warts affect ~10% of children; molluscum common ages 2-12"
+presentation:
+  symptoms:
+    - name: skin-colored papules (warts)
+      probability: 0.55
+      description: "Rough, hyperkeratotic papules on hands, feet, or periungual areas"
+    - name: dome-shaped papules with central umbilication (molluscum)
+      probability: 0.45
+      description: "Flesh-colored, pearly papules 2-5mm with central dimple"
+    - name: mild pruritus
+      probability: 0.30
+      description: "Itching, especially with molluscum"
+    - name: spread by autoinoculation
+      probability: 0.50
+      description: "Lesions spread to new areas by scratching or contact"
+  physical_exam:
+    - system: skin
+      finding: "Verrucous papules with black dots (thrombosed capillaries)"
+      probability: 0.50
+    - system: skin
+      finding: "Dome-shaped, umbilicated, pearly papules (molluscum)"
+      probability: 0.45
+    - system: skin
+      finding: "DPAID (dermatitis papulosa around implanted device) - eczematous halo around molluscum"
+      probability: 0.15
+treatment:
+  approach: observation_or_destruction
+  medications:
+    - agent: "Salicylic acid 17%"
+      rxnorm: "8787"
+      frequency: "Daily application"
+      route: topical
+      indication: "OTC wart treatment"
+    - agent: "Cantharidin"
+      rxnorm: "1727"
+      frequency: "Office application every 2-4 weeks"
+      route: topical
+      indication: "In-office painless blistering agent for warts and molluscum"
+  patient_instructions:
+    - "Warts and molluscum are benign and self-limited"
+    - "Molluscum typically resolves within 6-18 months without treatment"
+    - "Warts may take 1-2 years to resolve spontaneously"
+    - "Treat if symptomatic, spreading, or cosmetically bothersome"
+    - "Cryotherapy available in office for warts"
+    - "Avoid sharing towels; cover lesions during swimming"
+    - "Molluscum inflammation (BOTE - beginning of the end) signals immune response"

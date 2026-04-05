@@ -1,0 +1,80 @@
+id: foreign_body_ear_nose
+display_name: Foreign Body — Ear and Nose
+aliases:
+- Nasal foreign body
+- Ear foreign body
+- Aural foreign body
+- Object in nose
+- Object in ear
+snomed: '102589003'
+icd10:
+- T16.1XXA
+- T17.1XXA
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 96
+  peak:
+  - 18
+  - 48
+demographics:
+  age_months:
+    min: 12
+    peak:
+    - 24
+    - 48
+    max: 96
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - toddler_age
+  - access_to_small_objects
+prevalence:
+  notes: Peak incidence age 2-4 years; beads, food, paper, batteries most common
+presentation:
+  symptoms:
+  - name: unilateral nasal discharge
+    probability: 0.70
+    description: "foul-smelling, purulent, unilateral nasal discharge (nasal FB)"
+  - name: nasal obstruction
+    probability: 0.50
+    description: "one-sided nasal blockage"
+  - name: ear pain
+    probability: 0.60
+    description: "otalgia or sense of fullness (aural FB)"
+  - name: hearing change
+    probability: 0.30
+    description: "decreased hearing on affected side"
+  - name: epistaxis
+    probability: 0.25
+    description: "unilateral nosebleed from mucosal irritation"
+  physical_exam:
+  - system: heent
+    finding: "Visible foreign body in nasal cavity or ear canal"
+    probability: 0.75
+  - system: heent
+    finding: "Unilateral foul-smelling nasal discharge"
+    probability: 0.60
+  - system: heent
+    finding: "Surrounding mucosal edema and granulation tissue"
+    probability: 0.30
+treatment:
+  approach: removal
+  medications:
+  - agent: Oxymetazoline Nasal Spray
+    rxnorm: '7762'
+    frequency: "single application to decongest before nasal FB removal"
+    route: nasal
+    indication: "reduce mucosal swelling for better visualization"
+  patient_instructions:
+  - "BUTTON BATTERY in nose or ear is an EMERGENCY — causes tissue necrosis in hours"
+  - Button battery — do NOT irrigate, remove immediately
+  - Parent kiss technique for nasal FB — parent blows into child's mouth while occluding unaffected nostril
+  - Aural FB — irrigation for non-organic, non-battery objects (NOT for button battery or live insect)
+  - Kill live insects first with mineral oil or lidocaine drops, then remove
+  - If object cannot be removed on first attempt — refer to ENT (avoid pushing deeper)
+  - Maximum 1-2 removal attempts in ED before ENT consultation

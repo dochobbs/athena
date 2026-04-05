@@ -1,0 +1,67 @@
+id: itp
+display_name: Immune Thrombocytopenic Purpura
+aliases:
+- ITP
+- Idiopathic thrombocytopenic purpura
+- Immune thrombocytopenia
+snomed: '32273002'
+icd10:
+- D69.3
+category: acute
+system: hematology
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: petechiae
+    probability: 0.90
+    description: "Diffuse non-blanching pinpoint red-purple spots"
+  - name: purpura and ecchymoses
+    probability: 0.80
+    description: "Larger areas of bruising disproportionate to trauma"
+  - name: epistaxis
+    probability: 0.40
+    description: "Recurrent or prolonged nosebleeds"
+  - name: gingival bleeding
+    probability: 0.25
+    description: "Bleeding from gums with brushing or spontaneously"
+  - name: preceding viral illness
+    probability: 0.60
+    description: "URI or viral illness 1-4 weeks before onset"
+  physical_exam:
+  - system: skin
+    finding: "Diffuse petechiae and purpura, especially dependent areas"
+    probability: 0.90
+  - system: skin
+    finding: "Ecchymoses in various stages of healing"
+    probability: 0.70
+  - system: heent
+    finding: "Oral mucosal petechiae or wet purpura (blood blisters)"
+    probability: 0.30
+  - system: abdomen
+    finding: "No hepatosplenomegaly (presence suggests other diagnosis)"
+    probability: 0.95
+treatment:
+  approach: observation_or_immunotherapy
+  medications:
+  - agent: Prednisone
+    rxnorm: '8640'
+    frequency: "Daily for 5-7 days"
+    route: oral
+    indication: "Moderate bleeding or platelets <20,000 with symptoms"
+  - agent: Intravenous Immunoglobulin (IVIG)
+    rxnorm: '5784'
+    frequency: "Single dose over 6-8 hours"
+    route: intravenous
+    indication: "Significant mucosal bleeding or need for rapid platelet rise"
+  - agent: Anti-D Immunoglobulin
+    rxnorm: '10112'
+    frequency: "Single IV dose"
+    route: intravenous
+    indication: "Rh-positive, non-splenectomized patients as alternative to IVIG"

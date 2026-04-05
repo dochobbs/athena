@@ -1,0 +1,85 @@
+id: balanitis
+display_name: Balanitis
+aliases:
+- Balanoposthitis
+- Foreskin infection
+- Glans inflammation
+snomed: '44882003'
+icd10:
+- N48.1
+- N47.6
+category: acute
+system: urology
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 120
+demographics:
+  age_months:
+    min: 6
+    peak:
+    - 24
+    - 60
+    max: 120
+  gender_bias:
+    male: 1.0
+    female: 0.0
+  risk_factors:
+  - uncircumcised
+  - poor_hygiene
+  - phimosis
+  - diaper_use
+prevalence:
+  notes: Common in uncircumcised boys; up to 3-11% lifetime incidence
+presentation:
+  symptoms:
+  - name: penile pain
+    probability: 0.85
+    description: "pain and tenderness of glans or foreskin"
+  - name: erythema and swelling
+    probability: 0.90
+    description: "red, swollen glans or foreskin"
+  - name: discharge
+    probability: 0.50
+    description: "purulent or smegmatic discharge from under foreskin"
+  - name: dysuria
+    probability: 0.40
+    description: "painful urination"
+  - name: difficulty retracting foreskin
+    probability: 0.60
+    description: "foreskin edema prevents retraction"
+  physical_exam:
+  - system: genitourinary
+    finding: "Erythematous, edematous glans and/or prepuce"
+    probability: 0.90
+  - system: genitourinary
+    finding: "Purulent discharge under foreskin"
+    probability: 0.45
+  - system: genitourinary
+    finding: "Phimosis with inability to retract foreskin"
+    probability: 0.40
+treatment:
+  approach: topical_care_and_hygiene
+  medications:
+  - agent: Mupirocin
+    rxnorm: '7233'
+    frequency: "TID to affected area for 7 days"
+    route: topical
+    indication: "bacterial balanitis"
+  - agent: Clotrimazole
+    rxnorm: '2347'
+    frequency: "BID to affected area for 7-14 days"
+    route: topical
+    indication: "candidal balanitis"
+  - agent: Cephalexin
+    rxnorm: '2231'
+    dose_mg_kg: 25
+    frequency: "divided QID for 7 days"
+    route: oral
+    indication: "cellulitis or significant infection"
+  patient_instructions:
+  - Warm soaks 2-3 times daily
+  - Gentle retraction and cleaning when possible
+  - Do not force foreskin retraction in young children
+  - Recurrent episodes may warrant urology referral for circumcision

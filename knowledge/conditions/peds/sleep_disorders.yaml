@@ -1,0 +1,75 @@
+id: sleep_disorders
+display_name: "Pediatric Sleep Disorders"
+aliases:
+  - Sleep problems
+  - Behavioral insomnia of childhood
+  - Parasomnias
+  - Night terrors
+  - Obstructive sleep apnea in children
+snomed: "39898005"
+icd10:
+  - G47.9
+  - G47.0
+  - G47.33
+  - F51.4
+  - F51.5
+category: chronic
+system: neurology
+specialties:
+  - peds
+age_range:
+  min_months: 1
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  percent: 25
+  notes: "Behavioral insomnia most common in toddlers; OSA affects 1-5% of children"
+presentation:
+  symptoms:
+    - name: bedtime resistance
+      probability: 0.70
+      description: "Difficulty settling, frequent curtain calls"
+    - name: night wakings
+      probability: 0.65
+      description: "Repeated awakenings requiring parental intervention"
+    - name: snoring
+      probability: 0.30
+      description: "Habitual snoring suggesting obstructive sleep apnea"
+    - name: daytime sleepiness
+      probability: 0.40
+      description: "Excessive fatigue, difficulty waking, inattention"
+    - name: parasomnias
+      probability: 0.25
+      description: "Night terrors, sleepwalking, confusional arousals"
+    - name: restless sleep
+      probability: 0.35
+      description: "Frequent position changes, teeth grinding"
+  physical_exam:
+    - system: heent
+      finding: "Tonsillar hypertrophy (3+ or 4+)"
+      probability: 0.25
+    - system: general
+      finding: "Allergic facies, mouth breathing"
+      probability: 0.20
+treatment:
+  approach: behavioral_and_targeted
+  medications:
+    - agent: "Melatonin"
+      rxnorm: "48521"
+      frequency: "Nightly at bedtime"
+      route: oral
+      indication: "Sleep-onset delay, especially in ASD/ADHD"
+  patient_instructions:
+    - "Consistent bedtime routine (bath, book, bed)"
+    - "Remove screens 1 hour before bed"
+    - "Dark, cool, quiet sleep environment"
+    - "Refer to ENT if snoring with apneic pauses, enuresis, or behavioral concerns"
+comorbidities:
+  strong:
+    - adhd
+    - anxiety
+  moderate:
+    - autism_spectrum_disorder
+    - obesity

@@ -1,0 +1,83 @@
+id: acne
+display_name: Acne Vulgaris
+aliases:
+- Pimples
+- Teenage acne
+- Acne
+snomed: '11381005'
+icd10:
+- L70.0
+category: chronic
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 96
+  max_months: 216
+demographics:
+  age_months:
+    min: 96
+    peak:
+    - 144
+    - 204
+    max: 216
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - family_history
+  - hormonal_changes
+  - oily_skin
+prevalence:
+  percent: 85
+  notes: Nearly universal in adolescents; peaks age 14-17
+presentation:
+  symptoms:
+  - name: comedones
+    probability: 0.95
+    description: "open (blackheads) and closed (whiteheads) comedones on face"
+  - name: inflammatory papules
+    probability: 0.70
+    description: "red, tender bumps on face, chest, or back"
+  - name: pustules
+    probability: 0.50
+    description: "pus-filled lesions"
+  - name: nodules or cysts
+    probability: 0.15
+    description: "deep, painful nodules indicating severe acne"
+  - name: psychosocial distress
+    probability: 0.40
+    description: "self-consciousness, low self-esteem related to skin"
+  physical_exam:
+  - system: skin
+    finding: "Open and closed comedones on face, forehead, nose"
+    probability: 0.95
+  - system: skin
+    finding: "Inflammatory papules and pustules"
+    probability: 0.70
+  - system: skin
+    finding: "Post-inflammatory hyperpigmentation or scarring"
+    probability: 0.25
+treatment:
+  approach: stepwise_topical_then_systemic
+  medications:
+  - agent: Benzoyl Peroxide
+    rxnorm: '1292'
+    frequency: "daily application"
+    route: topical
+    indication: "mild acne, first-line"
+  - agent: Tretinoin
+    rxnorm: '10379'
+    frequency: "nightly application"
+    route: topical
+    indication: "comedonal acne"
+  - agent: Doxycycline
+    rxnorm: '3640'
+    frequency: "100mg daily"
+    route: oral
+    indication: "moderate inflammatory acne"
+  patient_instructions:
+  - Use gentle, non-comedogenic cleanser
+  - Apply sunscreen daily when using retinoids
+  - Results take 6-8 weeks; be patient with treatment
+  - Avoid picking or squeezing lesions

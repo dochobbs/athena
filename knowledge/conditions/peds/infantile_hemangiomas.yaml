@@ -1,0 +1,54 @@
+id: infantile_hemangiomas
+display_name: Infantile Hemangiomas
+aliases:
+- Strawberry hemangioma
+- Infantile hemangioma
+- Capillary hemangioma
+snomed: '400210000'
+icd10:
+- D18.00
+- D18.01
+category: chronic
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 60
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: rapidly growing red lesion
+    probability: 0.90
+    description: "Bright red, raised, well-demarcated vascular lesion appearing in first weeks of life"
+  - name: precursor lesion
+    probability: 0.50
+    description: "Pale macule, telangiectatic patch, or bruise-like area at birth"
+  - name: ulceration
+    probability: 0.15
+    description: "Surface breakdown with pain and bleeding during proliferative phase"
+  physical_exam:
+  - system: skin
+    finding: "Bright red, compressible, rubbery nodule or plaque"
+    probability: 0.90
+  - system: skin
+    finding: "Deep component with bluish hue and overlying skin-colored surface"
+    probability: 0.30
+  - system: skin
+    finding: "Ulceration with fibrinous base"
+    probability: 0.15
+treatment:
+  approach: observation_or_propranolol
+  medications:
+  - agent: Propranolol
+    rxnorm: '8787'
+    frequency: "BID-TID, titrated over 1-2 weeks"
+    route: oral
+    indication: "High-risk hemangiomas (airway, periocular, large facial, ulcerated)"
+  - agent: Timolol
+    rxnorm: '10600'
+    frequency: "BID"
+    route: topical
+    indication: "Small, superficial, low-risk hemangiomas"

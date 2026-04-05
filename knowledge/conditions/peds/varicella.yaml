@@ -1,0 +1,90 @@
+id: varicella
+display_name: "Varicella (Chickenpox)"
+aliases:
+  - Chickenpox
+  - Varicella zoster
+snomed: "38907003"
+icd10:
+  - B01.9
+  - B01.0
+  - B01.89
+category: acute
+system: infectious_disease
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Dramatically decreased since vaccine introduction (1995); still seen in unvaccinated or breakthrough"
+seasonality:
+  peak_months:
+    - 3
+    - 4
+    - 5
+    - 6
+  weight_multiplier: 1.5
+vitals_impact:
+  temp_f:
+    - 100.0
+    - 102.0
+  hr_multiplier: 1.1
+presentation:
+  symptoms:
+    - name: pruritic vesicular rash
+      probability: 0.95
+      description: "Crops of lesions in various stages (papule, vesicle, pustule, crust)"
+    - name: fever
+      probability: 0.80
+      description: "Low-grade fever, usually precedes or accompanies rash"
+    - name: malaise
+      probability: 0.70
+      description: "Fatigue, decreased appetite, irritability"
+    - name: headache
+      probability: 0.40
+      description: "Often with prodromal symptoms"
+  physical_exam:
+    - system: skin
+      finding: "Diffuse vesicular lesions in various stages, starting on trunk and spreading centrifugally"
+      probability: 0.95
+    - system: skin
+      finding: "Dew drop on rose petal appearance of vesicles"
+      probability: 0.80
+    - system: heent
+      finding: "Vesicles on oral mucosa or scalp"
+      probability: 0.40
+diagnostics:
+  labs:
+    - "Usually clinical diagnosis"
+    - "VZV PCR of vesicle fluid if confirmation needed"
+    - "Tzanck smear (multinucleated giant cells)"
+treatment:
+  approach: supportive_and_antiviral
+  medications:
+    - agent: "Acyclovir"
+      rxnorm: "281"
+      dose_mg_kg: 20
+      max_dose_mg: 800
+      frequency: "QID x 5 days"
+      route: oral
+      indication: "Consider for adolescents, chronic skin conditions, or immunocompromised"
+    - agent: "Diphenhydramine"
+      rxnorm: "3498"
+      frequency: "Q6H PRN"
+      route: oral
+      indication: "Pruritus relief"
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "Q4-6H PRN"
+      route: oral
+      indication: "Fever and discomfort (DO NOT USE ASPIRIN - Reye syndrome risk)"
+  patient_instructions:
+    - "Infectious until all lesions have crusted over"
+    - "Exclude from school/daycare until all vesicles crusted"
+    - "Calamine lotion, cool baths with oatmeal for itch relief"
+    - "Keep fingernails short to prevent secondary bacterial infection"
+    - "Do NOT give aspirin or ibuprofen (Reye syndrome and necrotizing fasciitis risk)"
+    - "Contact provider if immunocompromised, neonatal exposure, or complications"

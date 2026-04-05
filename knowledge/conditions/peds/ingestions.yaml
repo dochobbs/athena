@@ -1,0 +1,68 @@
+id: ingestions
+display_name: Pediatric Ingestions and Poisonings
+aliases:
+- Poisoning
+- Accidental ingestion
+- Toxic ingestion
+snomed: '75478009'
+icd10:
+- T65.91XA
+- T50.901A
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: altered mental status
+    probability: 0.40
+    description: "Lethargy, confusion, or agitation depending on substance"
+  - name: vomiting
+    probability: 0.55
+    description: "Nausea and emesis from GI irritation"
+  - name: witnessed ingestion
+    probability: 0.60
+    description: "Caregiver reports child found with open container or substance"
+  - name: tachycardia or bradycardia
+    probability: 0.35
+    description: "Heart rate changes depending on toxidrome"
+  - name: respiratory depression
+    probability: 0.20
+    description: "Slowed breathing with opioid or sedative ingestion"
+  physical_exam:
+  - system: neurologic
+    finding: "Altered mental status ranging from lethargy to agitation"
+    probability: 0.40
+  - system: heent
+    finding: "Pupil changes: miosis or mydriasis depending on substance"
+    probability: 0.45
+  - system: cardiovascular
+    finding: "Tachycardia or bradycardia based on toxidrome"
+    probability: 0.35
+  - system: skin
+    finding: "Diaphoresis or dry flushed skin depending on toxidrome"
+    probability: 0.30
+treatment:
+  approach: decontamination_and_supportive_care
+  medications:
+  - agent: Activated Charcoal
+    rxnorm: '259255'
+    frequency: "Single dose within 1-2 hours of ingestion"
+    route: oral
+    indication: "GI decontamination for most ingestions within time window"
+  - agent: N-Acetylcysteine
+    rxnorm: '161'
+    frequency: "Per protocol (72-hour oral or 21-hour IV)"
+    route: oral
+    indication: "Acetaminophen toxicity"
+  - agent: Naloxone
+    rxnorm: '7242'
+    frequency: "Q2-3 min PRN"
+    route: intravenous
+    indication: "Opioid toxicity with respiratory depression"

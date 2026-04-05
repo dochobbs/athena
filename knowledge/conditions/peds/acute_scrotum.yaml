@@ -1,0 +1,83 @@
+id: acute_scrotum
+display_name: Acute Scrotum
+aliases:
+- Testicular torsion
+- Scrotal pain
+- Acute scrotal pain
+snomed: '44882003'
+icd10:
+- N44.00
+- N44.01
+- N45.1
+category: acute
+system: urology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+  peak:
+  - 0
+  - 12
+  - 144
+  - 204
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 168
+    max: 216
+  gender_bias:
+    male: 1.0
+    female: 0.0
+  risk_factors:
+  - bell_clapper_deformity
+  - undescended_testis
+  - prior_torsion
+prevalence:
+  notes: Testicular torsion accounts for 25-35% of acute scrotal presentations in children
+presentation:
+  symptoms:
+  - name: acute scrotal pain
+    probability: 0.95
+    description: "sudden onset severe unilateral scrotal pain"
+  - name: nausea and vomiting
+    probability: 0.60
+    description: "often accompanies torsion"
+  - name: scrotal swelling
+    probability: 0.80
+    description: "edema and erythema of affected hemiscrotum"
+  - name: abdominal pain
+    probability: 0.30
+    description: "referred pain to lower abdomen"
+  physical_exam:
+  - system: genitourinary
+    finding: "High-riding testis with horizontal lie"
+    probability: 0.70
+  - system: genitourinary
+    finding: "Absent cremasteric reflex"
+    probability: 0.80
+  - system: genitourinary
+    finding: "Diffuse scrotal edema and erythema"
+    probability: 0.75
+  - system: genitourinary
+    finding: "Tender, swollen epididymis (if epididymitis)"
+    probability: 0.40
+diagnostics:
+  imaging:
+  - name: Scrotal ultrasound with Doppler
+    indication: "assess blood flow; do NOT delay surgery if torsion clinically suspected"
+treatment:
+  approach: emergent_surgical_evaluation
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "pain management while awaiting evaluation"
+  patient_instructions:
+  - Testicular torsion is a surgical emergency — 6-hour window
+  - Do not delay imaging if clinical suspicion is high
+  - Surgical exploration is both diagnostic and therapeutic
+  - Bilateral orchiopexy performed to prevent recurrence

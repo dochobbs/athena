@@ -1,0 +1,83 @@
+id: learning_disabilities
+display_name: "Learning Disabilities"
+aliases:
+  - Learning disorder
+  - Dyslexia
+  - Dyscalculia
+  - Dysgraphia
+  - Specific learning disorder
+snomed: "1855002"
+icd10:
+  - F81.0
+  - F81.2
+  - F81.81
+  - F81.9
+category: chronic
+system: developmental
+specialties:
+  - peds
+age_range:
+  min_months: 60
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  percent: 8
+  male_to_female_ratio: 2.0
+  notes: "5-10% of school-age children; dyslexia most common type"
+presentation:
+  symptoms:
+    - name: academic difficulty
+      probability: 0.90
+      description: "Performance below expected for age and intelligence in reading, math, or writing"
+    - name: reading difficulty
+      probability: 0.60
+      description: "Slow reading, poor decoding, difficulty with comprehension (dyslexia)"
+    - name: math difficulty
+      probability: 0.30
+      description: "Difficulty with number sense, calculations, math reasoning (dyscalculia)"
+    - name: writing difficulty
+      probability: 0.25
+      description: "Poor handwriting, spelling errors, difficulty organizing written expression"
+    - name: avoidance of schoolwork
+      probability: 0.55
+      description: "Frustration, homework battles, school refusal"
+    - name: low self-esteem
+      probability: 0.50
+      description: "Feeling stupid, comparing self to peers negatively"
+  physical_exam:
+    - system: neurological
+      finding: "Normal neurological examination"
+      probability: 0.95
+    - system: general
+      finding: "Normal vision and hearing screening"
+      probability: 0.90
+diagnostics:
+  screening:
+    - "Psychoeducational testing (IQ plus achievement testing)"
+    - "School-based evaluation for IEP eligibility"
+    - "Vision and hearing screening to rule out sensory causes"
+    - "Screen for comorbid ADHD and anxiety"
+treatment:
+  approach: educational_intervention
+  items:
+    - category: referral
+      description: "Request school psychoeducational evaluation"
+    - category: education
+      description: "IEP (Individualized Education Program) or 504 Plan accommodations"
+    - category: referral
+      description: "Specialized reading instruction (Orton-Gillingham for dyslexia)"
+    - category: education
+      description: "Accommodations: extra time, audiobooks, calculator use, reduced writing load"
+    - category: education
+      description: "Strengths-based approach to build confidence"
+    - category: follow-up
+      description: "Monitor academic progress and emotional well-being yearly"
+comorbidities:
+  strong:
+    - adhd
+  moderate:
+    - anxiety
+    - depression
+    - speech_delay

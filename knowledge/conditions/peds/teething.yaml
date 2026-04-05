@@ -1,0 +1,67 @@
+id: teething
+display_name: "Teething"
+aliases:
+  - Tooth eruption
+  - Primary dentition
+  - Eruption symptoms
+snomed: "87024004"
+icd10:
+  - K00.7
+category: acute
+system: ent
+specialties:
+  - peds
+age_range:
+  min_months: 4
+  max_months: 36
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Universal; lower central incisors typically first at 6-10 months"
+presentation:
+  symptoms:
+    - name: irritability
+      probability: 0.85
+      description: "Fussiness, especially preceding tooth eruption"
+    - name: drooling
+      probability: 0.80
+      description: "Increased salivation"
+    - name: gum swelling
+      probability: 0.70
+      description: "Localized gum edema and erythema over erupting tooth"
+    - name: gnawing or biting
+      probability: 0.75
+      description: "Desire to chew on objects for counterpressure"
+    - name: low-grade fever
+      probability: 0.30
+      description: "Temp <100.4F; higher fevers NOT attributed to teething"
+    - name: decreased appetite
+      probability: 0.40
+      description: "Refusal of feeds due to gum discomfort"
+  physical_exam:
+    - system: heent
+      finding: "Erythematous, swollen gum with visible or palpable tooth bud"
+      probability: 0.80
+    - system: heent
+      finding: "Eruption cyst (bluish swelling over erupting tooth)"
+      probability: 0.10
+treatment:
+  approach: symptomatic_relief
+  medications:
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "Q4-6H PRN"
+      route: oral
+      indication: "Pain relief for significant discomfort"
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "Q6-8H PRN"
+      route: oral
+      indication: "Pain relief (only if >6 months old)"
+  patient_instructions:
+    - "Chilled (not frozen) teething ring or washcloth"
+    - "Gentle gum massage with clean finger"
+    - "Do NOT use topical benzocaine (risk of methemoglobinemia)"
+    - "Do NOT use homeopathic teething tablets (belladonna risk)"
+    - "Fever >100.4F or diarrhea should be evaluated for other causes"

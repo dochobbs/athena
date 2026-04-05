@@ -1,0 +1,93 @@
+id: hematuria_proteinuria
+display_name: Hematuria and Proteinuria
+aliases:
+- Blood in urine
+- Pediatric hematuria
+- Pediatric proteinuria
+- Microscopic hematuria
+snomed: '34436003'
+icd10:
+- R31.9
+- R31.21
+- R80.9
+category: chronic
+system: renal
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 60
+    - 144
+    max: 216
+  gender_bias:
+    male: 0.45
+    female: 0.55
+  risk_factors:
+  - recent_URI
+  - vigorous_exercise
+  - family_history_renal_disease
+  - sickle_cell_trait
+prevalence:
+  notes: Microscopic hematuria found in 1-2% of school-age children on screening; most is benign
+presentation:
+  symptoms:
+  - name: microscopic hematuria
+    probability: 0.70
+    description: "detected on dipstick, often asymptomatic"
+  - name: gross hematuria
+    probability: 0.25
+    description: "visible red or brown urine — more likely to have pathology"
+  - name: proteinuria
+    probability: 0.40
+    description: "protein on dipstick, may be orthostatic"
+  - name: edema
+    probability: 0.10
+    description: "periorbital or pedal edema suggests nephrotic/nephritic"
+  - name: hypertension
+    probability: 0.10
+    description: "elevated BP suggests glomerular disease"
+  physical_exam:
+  - system: general
+    finding: "Often completely normal exam"
+    probability: 0.70
+  - system: general
+    finding: "Periorbital edema (nephrotic syndrome)"
+    probability: 0.10
+  - system: cardiovascular
+    finding: "Hypertension (nephritic syndrome)"
+    probability: 0.10
+  - system: abdomen
+    finding: "Flank mass or tenderness (Wilms tumor, hydronephrosis)"
+    probability: 0.03
+diagnostics:
+  labs:
+  - name: Urinalysis with microscopy
+    loinc: "24356-8"
+    indication: "confirm hematuria, assess for casts, quantify protein"
+  - name: Urine protein-to-creatinine ratio
+    indication: "quantify proteinuria — first morning sample"
+  - name: BMP (Cr, BUN)
+    indication: "renal function"
+  - name: C3, C4
+    indication: "low C3 suggests post-infectious GN, MPGN, or lupus nephritis"
+  - name: ASO titer / anti-DNase B
+    indication: "post-streptococcal glomerulonephritis"
+  - name: Renal ultrasound
+    indication: "structural evaluation"
+treatment:
+  approach: workup_and_monitoring
+  medications: []
+  patient_instructions:
+  - Isolated microscopic hematuria — repeat UA in 1-2 weeks, often transient
+  - Persistent hematuria (3+ positive UAs over weeks) warrants workup
+  - Orthostatic proteinuria is benign — first AM urine protein negative, afternoon positive
+  - Combined hematuria + proteinuria = higher likelihood of glomerular disease
+  - Gross hematuria with URI — consider IgA nephropathy
+  - Gross hematuria 1-3 weeks after pharyngitis — post-streptococcal GN
+  - Nephrology referral for persistent hematuria + proteinuria, hypertension, renal dysfunction
+  - Hypercalciuria is common cause of isolated microscopic hematuria

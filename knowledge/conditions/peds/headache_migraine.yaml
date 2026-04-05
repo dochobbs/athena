@@ -1,0 +1,114 @@
+id: headache_migraine
+display_name: "Headache and Migraine"
+aliases:
+  - Migraine
+  - Tension headache
+  - Pediatric headache
+  - Chronic daily headache
+snomed: "37796009"
+icd10:
+  - G43.909
+  - G43.009
+  - G43.109
+  - G44.1
+  - R51.9
+category: chronic
+system: neurology
+specialties:
+  - peds
+age_range:
+  min_months: 48
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  percent: 10
+  notes: "Migraine affects ~8-10% of children; tension-type headache even more common"
+presentation:
+  symptoms:
+    - name: headache pain
+      probability: 0.95
+      description: "Bilateral in younger children (differs from adults); unilateral in adolescents"
+    - name: nausea or vomiting
+      probability: 0.60
+      description: "Prominent with migraines; vomiting may be presenting symptom"
+    - name: photophobia
+      probability: 0.55
+      description: "Light sensitivity; child retreats to dark room"
+    - name: phonophobia
+      probability: 0.45
+      description: "Noise sensitivity"
+    - name: aura
+      probability: 0.20
+      description: "Visual aura (flashing lights, scotomata) less common in children"
+    - name: abdominal pain
+      probability: 0.30
+      description: "Abdominal migraine variant; cyclic vomiting"
+    - name: pallor
+      probability: 0.35
+      description: "Child appears pale during headache episode"
+  physical_exam:
+    - system: neurological
+      finding: "Normal neurological examination"
+      probability: 0.95
+    - system: general
+      finding: "Blood pressure normal"
+      probability: 0.90
+    - system: heent
+      finding: "Fundoscopic exam normal (no papilledema)"
+      probability: 0.95
+    - system: heent
+      finding: "No nuchal rigidity"
+      probability: 0.98
+diagnostics:
+  labs:
+    - "Usually none needed if normal exam"
+    - "Neuroimaging (MRI) if: abnormal neuro exam, nocturnal/early morning headaches, progressive pattern, <6 years"
+  red_flags:
+    - "Worst headache of life"
+    - "Headache awakening from sleep"
+    - "Progressive worsening over weeks"
+    - "Abnormal neurological exam"
+    - "Age <6 years with new headaches"
+    - "Associated with Valsalva (cough, strain)"
+treatment:
+  approach: acute_and_preventive
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      dose_mg_kg: 10
+      max_dose_mg: 400
+      frequency: "At headache onset"
+      route: oral
+      indication: "First-line acute treatment"
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      dose_mg_kg: 15
+      max_dose_mg: 1000
+      frequency: "At headache onset"
+      route: oral
+      indication: "Alternative acute treatment"
+    - agent: "Sumatriptan nasal spray"
+      rxnorm: "37418"
+      frequency: "Single dose at onset"
+      route: intranasal
+      indication: "Abortive for moderate-severe migraine (age 12+)"
+    - agent: "Amitriptyline"
+      rxnorm: "704"
+      frequency: "Nightly"
+      route: oral
+      indication: "Preventive therapy for frequent migraines"
+    - agent: "Topiramate"
+      rxnorm: "38404"
+      frequency: "Daily or divided BID"
+      route: oral
+      indication: "Preventive therapy (FDA-approved age 12+)"
+  patient_instructions:
+    - "Headache diary to identify triggers"
+    - "Treat early: take medication at headache onset, not after it worsens"
+    - "Regular sleep, meals, hydration, and exercise"
+    - "Limit caffeine and screen time"
+    - "Preventive medication if >4 headaches/month or significant disability"
+    - "Avoid medication overuse (>2-3 days per week of analgesics)"
+    - "CBT and biofeedback effective for chronic headache"

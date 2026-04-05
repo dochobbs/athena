@@ -1,0 +1,103 @@
+id: strep_pharyngitis
+display_name: "Streptococcal Pharyngitis"
+aliases:
+  - Strep throat
+  - GAS pharyngitis
+  - Group A strep
+snomed: "43878008"
+icd10:
+  - J02.0
+category: acute
+system: ent
+specialties:
+  - peds
+age_range:
+  min_months: 36
+  max_months: 216
+  peak:
+    - 60
+    - 144
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Accounts for 15-30% of pharyngitis in children 5-15 years; rare under age 3"
+seasonality:
+  peak_months:
+    - 11
+    - 12
+    - 1
+    - 2
+    - 3
+    - 4
+  weight_multiplier: 1.6
+vitals_impact:
+  temp_f:
+    - 101.0
+    - 103.5
+  hr_multiplier: 1.1
+presentation:
+  symptoms:
+    - name: sore throat
+      probability: 0.95
+      description: "Acute onset, severe throat pain"
+    - name: fever
+      probability: 0.85
+      description: "Temperature often >101F"
+    - name: headache
+      probability: 0.50
+      description: "Frontal headache"
+    - name: abdominal pain
+      probability: 0.35
+      description: "Nausea, vomiting, abdominal pain (especially younger children)"
+    - name: absence of cough
+      probability: 0.80
+      description: "Cough suggests viral etiology"
+  physical_exam:
+    - system: heent
+      finding: "Tonsillar erythema and exudates"
+      probability: 0.75
+    - system: heent
+      finding: "Petechiae on soft palate"
+      probability: 0.40
+    - system: heent
+      finding: "Anterior cervical lymphadenopathy, tender"
+      probability: 0.70
+    - system: heent
+      finding: "Scarlatiniform rash (sandpaper texture)"
+      probability: 0.15
+diagnostics:
+  labs:
+    - "Rapid strep antigen test"
+    - "Throat culture if rapid test negative"
+treatment:
+  approach: antibiotic_therapy
+  medications:
+    - agent: "Amoxicillin"
+      rxnorm: "723"
+      dose_mg_kg: 50
+      max_dose_mg: 1000
+      frequency: "Daily or divided BID"
+      duration_days: 10
+      route: oral
+      indication: "First-line treatment for GAS pharyngitis"
+    - agent: "Penicillin V"
+      rxnorm: "7980"
+      frequency: "BID-TID x 10 days"
+      route: oral
+      indication: "Alternative first-line"
+    - agent: "Azithromycin"
+      rxnorm: "18631"
+      frequency: "Daily x 5 days"
+      route: oral
+      indication: "Penicillin-allergic patients"
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "Q6H PRN"
+      route: oral
+      indication: "Pain and fever management"
+  patient_instructions:
+    - "Complete full 10-day antibiotic course"
+    - "May return to school after 12 hours on antibiotics and afebrile"
+    - "Return if worsening sore throat, difficulty swallowing or breathing, or drooling"
+    - "No routine test of cure needed unless recurrent"

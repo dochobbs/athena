@@ -1,0 +1,62 @@
+id: impetigo_mrsa
+display_name: Impetigo (including MRSA)
+aliases:
+- Impetigo
+- Skin infection MRSA
+- School sores
+snomed: '48277006'
+icd10:
+- L01.00
+- L01.01
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: honey-crusted lesions
+    probability: 0.85
+    description: "Golden-yellow crusted plaques, typically perioral or perinasal"
+  - name: bullous lesions
+    probability: 0.30
+    description: "Flaccid bullae with clear fluid, more common in neonates"
+  - name: pruritus
+    probability: 0.60
+    description: "Itching at lesion sites"
+  - name: regional lymphadenopathy
+    probability: 0.35
+    description: "Tender nodes draining affected area"
+  physical_exam:
+  - system: skin
+    finding: "Honey-colored crusted erosions on erythematous base"
+    probability: 0.85
+  - system: skin
+    finding: "Satellite lesions from autoinoculation"
+    probability: 0.50
+  - system: lymphatic
+    finding: "Regional lymphadenopathy"
+    probability: 0.35
+treatment:
+  approach: topical_or_systemic_antibiotic
+  medications:
+  - agent: Mupirocin
+    rxnorm: '7233'
+    frequency: "TID for 5 days"
+    route: topical
+    indication: "Localized non-bullous impetigo"
+  - agent: Cephalexin
+    rxnorm: '2231'
+    frequency: "QID for 7 days"
+    route: oral
+    indication: "Extensive impetigo or treatment failure"
+  - agent: Trimethoprim-Sulfamethoxazole
+    rxnorm: '10831'
+    frequency: "BID for 7-10 days"
+    route: oral
+    indication: "Suspected or confirmed MRSA impetigo"

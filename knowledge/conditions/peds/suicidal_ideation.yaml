@@ -1,0 +1,72 @@
+id: suicidal_ideation
+display_name: "Suicidal Ideation"
+aliases:
+  - Suicidality
+  - Self-harm ideation
+  - Suicide risk assessment
+snomed: "6471006"
+icd10:
+  - R45.851
+  - T14.91XA
+category: acute
+system: mental_health
+specialties:
+  - peds
+age_range:
+  min_months: 120
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+prevalence:
+  notes: "Second leading cause of death ages 10-24; 22% of HS students report serious consideration"
+presentation:
+  symptoms:
+    - name: expressed wish to die
+      probability: 0.80
+      description: "Direct statements about wanting to die or not wanting to live"
+    - name: hopelessness
+      probability: 0.75
+      description: "Pervasive sense that things will not improve"
+    - name: social withdrawal
+      probability: 0.65
+      description: "Isolation from friends, family, activities"
+    - name: giving away possessions
+      probability: 0.20
+      description: "Warning sign of active planning"
+    - name: self-harm
+      probability: 0.40
+      description: "Cutting, burning, or other self-injurious behaviors"
+    - name: mood changes
+      probability: 0.70
+      description: "Irritability, sadness, or sudden calmness after agitation"
+  physical_exam:
+    - system: skin
+      finding: "Evidence of self-harm (cuts, burns, scars)"
+      probability: 0.30
+    - system: general
+      finding: "Flat affect, poor eye contact, psychomotor retardation"
+      probability: 0.40
+diagnostics:
+  screening:
+    - "PHQ-A (Patient Health Questionnaire - Adolescent)"
+    - "Columbia Suicide Severity Rating Scale (C-SSRS)"
+    - "ASQ (Ask Suicide-Screening Questions)"
+    - "Safety plan assessment"
+treatment:
+  approach: risk_stratification_and_safety
+  items:
+    - category: assessment
+      description: "Determine passive vs active ideation, plan, intent, means access"
+    - category: safety
+      description: "Means restriction counseling (firearms, medications)"
+    - category: referral
+      description: "ED transfer if imminent risk; outpatient crisis services if lower risk"
+    - category: referral
+      description: "Behavioral health for ongoing therapy (CBT, DBT)"
+    - category: medication
+      description: "Consider SSRI for underlying depression with close monitoring"
+    - category: follow-up
+      description: "Safety plan with 24-48 hour follow-up contact"
+    - category: education
+      description: "988 Suicide and Crisis Lifeline; Crisis Text Line (text HOME to 741741)"

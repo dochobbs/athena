@@ -1,0 +1,59 @@
+id: phimosis
+display_name: Phimosis
+aliases:
+- Tight foreskin
+- Physiologic phimosis
+- Pathologic phimosis
+- Paraphimosis
+snomed: '449826002'
+icd10:
+- N47.0
+- N47.1
+- N47.2
+category: chronic
+system: urology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: inability to retract foreskin
+    probability: 0.90
+    description: "Normal physiologic phimosis in young boys, pathologic if persists or scarred"
+  - name: ballooning of foreskin with urination
+    probability: 0.40
+    description: "Foreskin balloons during voiding"
+  - name: recurrent balanitis
+    probability: 0.25
+    description: "Recurrent redness and swelling of glans or foreskin"
+  - name: painful erections
+    probability: 0.15
+    description: "Discomfort with erections in older boys (pathologic phimosis)"
+  physical_exam:
+  - system: genitourinary
+    finding: "Non-retractable foreskin with narrow preputial ring"
+    probability: 0.90
+  - system: genitourinary
+    finding: "White scarring ring at preputial opening (BXO/lichen sclerosus)"
+    probability: 0.20
+  - system: genitourinary
+    finding: "Erythema and edema of foreskin (balanitis)"
+    probability: 0.25
+treatment:
+  approach: topical_steroid_or_observation
+  medications:
+  - agent: Betamethasone cream
+    rxnorm: '1514'
+    frequency: "BID with gentle retraction for 4-6 weeks"
+    route: topical
+    indication: "First-line for pathologic phimosis, 80-90% success rate"
+  - agent: Triamcinolone cream
+    rxnorm: '10759'
+    frequency: "BID for 4-6 weeks"
+    route: topical
+    indication: "Alternative topical steroid for phimosis"

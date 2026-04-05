@@ -1,0 +1,76 @@
+id: dacryostenosis
+display_name: Dacryostenosis
+aliases:
+- Nasolacrimal duct obstruction
+- Blocked tear duct
+- Congenital dacryostenosis
+- NLDO
+snomed: '11934000'
+icd10:
+- Q10.5
+- H04.559
+category: chronic
+system: ophthalmology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 12
+  peak:
+  - 0
+  - 3
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 3
+    max: 12
+  gender_bias:
+    male: 0.50
+    female: 0.50
+prevalence:
+  percent: 6
+  notes: Up to 6% of newborns; 90% resolve spontaneously by 12 months
+presentation:
+  symptoms:
+  - name: excessive tearing
+    probability: 0.90
+    description: "persistent tearing (epiphora) from affected eye"
+  - name: crusting on eyelashes
+    probability: 0.80
+    description: "mucoid discharge, especially upon waking"
+  - name: matting of eyelids
+    probability: 0.70
+    description: "eyelids stuck together in the morning"
+  - name: recurrent conjunctivitis
+    probability: 0.25
+    description: "secondary bacterial infection"
+  physical_exam:
+  - system: eye
+    finding: "Excessive tearing with mucoid discharge pooling in inner canthus"
+    probability: 0.85
+  - system: eye
+    finding: "Reflux of mucopurulent material with pressure over lacrimal sac"
+    probability: 0.60
+  - system: eye
+    finding: "No conjunctival injection (unless superinfected)"
+    probability: 0.70
+  - system: eye
+    finding: "Erythema and swelling over lacrimal sac (if dacryocystitis)"
+    probability: 0.10
+treatment:
+  approach: conservative_with_lacrimal_massage
+  medications:
+  - agent: Erythromycin Ophthalmic Ointment
+    rxnorm: '4053'
+    frequency: "QID for 7 days"
+    route: ophthalmic
+    indication: "secondary bacterial infection only"
+  patient_instructions:
+  - Nasolacrimal duct massage (Crigler technique) 2-3 times daily
+  - Clean discharge with warm, damp cloth
+  - 90% resolve by 12 months with conservative management
+  - Antibiotics only for superinfection (purulent discharge, conjunctival injection)
+  - Ophthalmology referral for probing if not resolved by 12 months
+  - Urgent referral if dacryocystitis develops (red, swollen lacrimal sac)

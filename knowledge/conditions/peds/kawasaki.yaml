@@ -1,0 +1,75 @@
+id: kawasaki
+display_name: Kawasaki Disease
+aliases:
+- Kawasaki syndrome
+- Mucocutaneous lymph node syndrome
+snomed: '75053002'
+icd10:
+- M30.3
+category: acute
+system: cardiology
+specialties:
+- peds
+age_range:
+  min_months: 1
+  max_months: 60
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: fever >= 5 days
+    probability: 0.95
+    description: "High fever (>39C) persisting >= 5 days, unresponsive to antibiotics"
+  - name: bilateral conjunctival injection
+    probability: 0.85
+    description: "Non-exudative, limbus-sparing conjunctival injection"
+  - name: oral mucosal changes
+    probability: 0.85
+    description: "Strawberry tongue, erythematous cracked lips"
+  - name: extremity changes
+    probability: 0.75
+    description: "Erythema and edema of hands/feet, later periungual desquamation"
+  - name: polymorphous rash
+    probability: 0.80
+    description: "Diffuse maculopapular, erythema multiforme-like, or scarlatiniform rash"
+  - name: cervical lymphadenopathy
+    probability: 0.65
+    description: "Unilateral node >= 1.5 cm, usually anterior cervical"
+  - name: irritability
+    probability: 0.80
+    description: "Extreme irritability, especially in infants"
+  physical_exam:
+  - system: cardiovascular
+    finding: "Tachycardia, may have gallop rhythm or murmur"
+    probability: 0.60
+  - system: heent
+    finding: "Bilateral non-exudative conjunctival injection"
+    probability: 0.85
+  - system: heent
+    finding: "Strawberry tongue and cracked erythematous lips"
+    probability: 0.85
+  - system: skin
+    finding: "Polymorphous rash, often accentuated in groin"
+    probability: 0.80
+  - system: extremities
+    finding: "Edema and erythema of hands and feet"
+    probability: 0.75
+treatment:
+  approach: ivig_and_aspirin
+  medications:
+  - agent: Intravenous Immunoglobulin (IVIG)
+    rxnorm: '5784'
+    frequency: "Single dose over 10-12 hours"
+    route: intravenous
+    indication: "First-line treatment within 10 days of fever onset"
+  - agent: Aspirin (high-dose)
+    rxnorm: '1191'
+    frequency: "QID until afebrile 48 hours"
+    route: oral
+    indication: "Anti-inflammatory during acute phase"
+  - agent: Aspirin (low-dose)
+    rxnorm: '1191'
+    frequency: "Daily for 6-8 weeks"
+    route: oral
+    indication: "Antiplatelet therapy during convalescent phase"

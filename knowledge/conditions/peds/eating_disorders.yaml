@@ -1,0 +1,110 @@
+id: eating_disorders
+display_name: Eating Disorders
+aliases:
+- Anorexia nervosa
+- Bulimia nervosa
+- ARFID
+- Avoidant restrictive food intake disorder
+snomed: '72366004'
+icd10:
+- F50.00
+- F50.02
+- F50.81
+- F50.89
+category: chronic
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 96
+  max_months: 216
+  peak:
+  - 144
+  - 204
+demographics:
+  age_months:
+    min: 96
+    peak:
+    - 144
+    - 204
+    max: 216
+  gender_bias:
+    male: 0.15
+    female: 0.85
+  risk_factors:
+  - female_sex
+  - perfectionism
+  - family_history
+  - athletes_dancers
+  - type_1_diabetes
+  - bullying
+  - trauma
+prevalence:
+  percent: 3
+  notes: Anorexia nervosa has highest mortality of any psychiatric illness in adolescents
+presentation:
+  symptoms:
+  - name: weight loss or failure to gain
+    probability: 0.80
+    description: "significant weight loss or failure to meet expected growth"
+  - name: restrictive eating
+    probability: 0.70
+    description: "food avoidance, calorie counting, food rituals"
+  - name: body image distortion
+    probability: 0.60
+    description: "perceiving self as overweight despite underweight status"
+  - name: amenorrhea
+    probability: 0.50
+    description: "loss of menstrual periods in females"
+  - name: purging behaviors
+    probability: 0.30
+    description: "self-induced vomiting, laxative abuse, excessive exercise"
+  - name: cold intolerance
+    probability: 0.35
+    description: "hypothermia due to malnutrition"
+  physical_exam:
+  - system: general
+    finding: "Low BMI, cachexia, or growth deceleration"
+    probability: 0.70
+  - system: cardiovascular
+    finding: "Bradycardia, orthostatic hypotension"
+    probability: 0.50
+  - system: skin
+    finding: "Lanugo hair, dry skin, brittle nails"
+    probability: 0.30
+  - system: heent
+    finding: "Parotid enlargement, dental erosion (if purging)"
+    probability: 0.20
+  - system: extremities
+    finding: "Russell sign — calluses on knuckles from self-induced vomiting"
+    probability: 0.15
+vitals_impact:
+  hr_multiplier: 0.7
+  temp_f:
+  - 96.0
+  - 97.5
+diagnostics:
+  labs:
+  - name: BMP
+    indication: "electrolytes — hypokalemia, metabolic alkalosis (purging)"
+  - name: CBC
+    indication: "leukopenia, anemia, thrombocytopenia"
+  - name: TSH
+    indication: "rule out thyroid disease"
+  - name: ESR
+    indication: "rule out IBD"
+  - name: Urinalysis
+    indication: "specific gravity, pH"
+  - name: ECG
+    indication: "QTc prolongation, bradycardia"
+treatment:
+  approach: multidisciplinary_team
+  medications: []
+  patient_instructions:
+  - Hospitalize if HR <50, BP <80/50, temp <96F, or electrolyte abnormalities
+  - Refeeding syndrome risk — monitor phosphorus, magnesium, potassium
+  - Start refeeding slowly, increase calories gradually
+  - Multidisciplinary team — physician, therapist, dietitian, psychiatry
+  - Family-based treatment (Maudsley method) is first-line for adolescent AN
+  - Screen with SCOFF or EDE-Q questionnaires
+  - ARFID is distinct — no body image distortion, sensory-based food avoidance

@@ -1,0 +1,63 @@
+id: stye_chalazion
+display_name: "Stye and Chalazion"
+aliases:
+  - Hordeolum
+  - Stye
+  - Chalazion
+  - Eyelid bump
+snomed: "397513003"
+icd10:
+  - H00.019
+  - H00.11
+  - H00.19
+category: acute
+system: ophthalmology
+specialties:
+  - peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+    - name: eyelid swelling
+      probability: 0.95
+      description: "Localized, tender bump on eyelid"
+    - name: eyelid pain
+      probability: 0.75
+      description: "Tenderness to palpation at lesion site"
+    - name: eyelid erythema
+      probability: 0.70
+      description: "Redness surrounding the bump"
+    - name: tearing
+      probability: 0.30
+      description: "Increased lacrimation from irritation"
+    - name: foreign body sensation
+      probability: 0.25
+      description: "Feeling of something in the eye"
+  physical_exam:
+    - system: eyes
+      finding: "Localized erythematous, tender nodule on eyelid margin (hordeolum)"
+      probability: 0.60
+    - system: eyes
+      finding: "Non-tender, firm nodule within eyelid (chalazion)"
+      probability: 0.40
+    - system: eyes
+      finding: "Normal visual acuity"
+      probability: 0.95
+treatment:
+  approach: warm_compresses
+  medications:
+    - agent: "Erythromycin ophthalmic ointment"
+      rxnorm: "310163"
+      frequency: "BID-QID x 7 days"
+      route: ophthalmic
+      indication: "If secondary infection suspected"
+  patient_instructions:
+    - "Warm compresses 10-15 minutes QID"
+    - "Gentle lid massage after warm compress"
+    - "Do not squeeze or attempt to pop"
+    - "Most resolve within 1-2 weeks"
+    - "Refer to ophthalmology if persistent >4-6 weeks or recurrent"

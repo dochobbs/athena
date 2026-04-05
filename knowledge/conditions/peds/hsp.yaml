@@ -1,0 +1,111 @@
+id: hsp
+display_name: "Henoch-Sch\xF6nlein Purpura (IgA Vasculitis)"
+aliases:
+- HSP
+- IgA vasculitis
+- Henoch-Schonlein purpura
+- Anaphylactoid purpura
+snomed: '191306005'
+icd10:
+- D69.0
+category: acute
+system: rheumatology
+specialties:
+- peds
+age_range:
+  min_months: 24
+  max_months: 144
+  peak:
+  - 48
+  - 84
+demographics:
+  age_months:
+    min: 24
+    peak:
+    - 48
+    - 84
+    max: 144
+  gender_bias:
+    male: 0.60
+    female: 0.40
+  risk_factors:
+  - preceding_URI
+  - male_sex
+  - fall_or_winter_season
+prevalence:
+  notes: Most common vasculitis in children; peak age 4-7 years; usually self-limited
+seasonality:
+  peak_months:
+  - 10
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+presentation:
+  symptoms:
+  - name: palpable purpura
+    probability: 0.95
+    description: "non-thrombocytopenic purpura on buttocks and lower extremities"
+  - name: arthritis or arthralgia
+    probability: 0.75
+    description: "joint pain/swelling, especially knees and ankles"
+  - name: abdominal pain
+    probability: 0.65
+    description: "colicky abdominal pain, may precede rash"
+  - name: hematuria
+    probability: 0.40
+    description: "microscopic or gross hematuria from renal involvement"
+  - name: scrotal swelling
+    probability: 0.15
+    description: "testicular involvement in boys — can mimic torsion"
+  physical_exam:
+  - system: skin
+    finding: "Palpable purpura concentrated on buttocks and lower extremities"
+    probability: 0.95
+  - system: musculoskeletal
+    finding: "Joint swelling and tenderness — knees, ankles most common"
+    probability: 0.65
+  - system: abdomen
+    finding: "Diffuse abdominal tenderness"
+    probability: 0.50
+  - system: genitourinary
+    finding: "Scrotal edema and tenderness (boys)"
+    probability: 0.15
+diagnostics:
+  labs:
+  - name: Urinalysis
+    indication: "screen for hematuria and proteinuria — monitor weekly for 6 months"
+  - name: CBC with platelet count
+    indication: "platelets normal or elevated — distinguishes from ITP"
+  - name: BMP
+    indication: "renal function"
+  - name: IgA level
+    indication: "elevated in 50% of cases"
+  - name: Stool guaiac
+    indication: "assess for GI bleeding"
+treatment:
+  approach: supportive_with_renal_monitoring
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: "Q6H"
+    route: oral
+    indication: "arthritis pain — use with caution if GI involvement"
+  - agent: Prednisone
+    rxnorm: '8640'
+    dose_mg_kg: 1
+    max_dose_mg: 60
+    frequency: "daily for 1-2 weeks with taper"
+    route: oral
+    indication: "severe abdominal pain, scrotal involvement, or significant GI bleeding"
+  patient_instructions:
+  - Most cases are self-limited — resolve in 4-6 weeks
+  - Normal platelets distinguish from ITP
+  - Renal involvement is the major long-term concern
+  - Monitor urinalysis weekly during acute phase, then monthly for 6 months
+  - Intussusception risk — typically ileoileal (not ileocecal)
+  - Recurrence in up to 33% of patients
+  - Nephrology referral if persistent hematuria/proteinuria or renal insufficiency

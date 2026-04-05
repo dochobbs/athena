@@ -1,0 +1,100 @@
+id: chronic_cough
+display_name: Chronic Cough
+aliases:
+- Persistent cough
+- Cough lasting >4 weeks
+- Protracted bacterial bronchitis
+snomed: '68154008'
+icd10:
+- R05.9
+- J98.09
+- R05.3
+category: chronic
+system: pulmonary
+specialties:
+- peds
+age_range:
+  min_months: 3
+  max_months: 216
+demographics:
+  age_months:
+    min: 3
+    peak:
+    - 12
+    - 72
+    max: 216
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - recurrent_URIs
+  - asthma
+  - allergic_rhinitis
+  - smoke_exposure
+  - GERD
+  - foreign_body_aspiration
+prevalence:
+  percent: 10
+  notes: Defined as >4 weeks in children; most common causes are asthma, post-nasal drip, protracted bacterial bronchitis
+presentation:
+  symptoms:
+  - name: persistent wet cough
+    probability: 0.50
+    description: "productive/wet cough >4 weeks, suggests protracted bacterial bronchitis"
+  - name: persistent dry cough
+    probability: 0.40
+    description: "dry cough, worse at night or with exercise, suggests asthma"
+  - name: nasal congestion
+    probability: 0.35
+    description: "post-nasal drip contributing to cough"
+  - name: nocturnal cough
+    probability: 0.45
+    description: "cough predominantly at night — asthma or post-nasal drip"
+  - name: exercise-triggered cough
+    probability: 0.30
+    description: "cough with activity suggests asthma"
+  physical_exam:
+  - system: respiratory
+    finding: "Clear lungs or scattered wheezes"
+    probability: 0.70
+  - system: heent
+    finding: "Cobblestoning of posterior pharynx (post-nasal drip)"
+    probability: 0.30
+  - system: heent
+    finding: "Boggy, pale turbinates (allergic rhinitis)"
+    probability: 0.25
+  - system: respiratory
+    finding: "Unilateral wheeze or decreased breath sounds (foreign body)"
+    probability: 0.05
+diagnostics:
+  labs:
+  - name: Spirometry
+    indication: "if age-appropriate (>5-6 years), assess for asthma"
+  imaging:
+  - name: Chest X-ray
+    indication: "rule out structural, infectious, or foreign body etiology"
+treatment:
+  approach: identify_and_treat_underlying_cause
+  medications:
+  - agent: Amoxicillin-Clavulanate
+    rxnorm: '1043'
+    dose_mg_kg: 45
+    frequency: "divided BID for 14 days"
+    route: oral
+    indication: "protracted bacterial bronchitis"
+  - agent: Fluticasone Propionate
+    rxnorm: '41126'
+    frequency: "1-2 puffs BID"
+    route: inhaled
+    indication: "asthma-related chronic cough"
+  - agent: Cetirizine
+    rxnorm: '20610'
+    frequency: "daily"
+    route: oral
+    indication: "allergic rhinitis component"
+  patient_instructions:
+  - Chronic cough >4 weeks warrants investigation
+  - Most common causes — asthma, protracted bacterial bronchitis, upper airway cough syndrome
+  - Chest X-ray for all children with chronic cough
+  - Trial of antibiotics for wet cough; trial of inhaled steroids for dry cough
+  - Red flags — hemoptysis, weight loss, digital clubbing, recurrent pneumonia

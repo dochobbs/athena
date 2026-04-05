@@ -1,0 +1,99 @@
+id: atopic_dermatitis
+display_name: Atopic Dermatitis
+aliases:
+- Eczema
+- Atopic eczema
+- Infantile eczema
+snomed: '24079001'
+icd10:
+- L20.9
+- L20.84
+- L20.89
+category: chronic
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 1
+  max_months: 216
+  peak:
+  - 3
+  - 24
+demographics:
+  age_months:
+    min: 1
+    peak:
+    - 3
+    - 24
+    max: 216
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - family_history_atopy
+  - asthma
+  - allergic_rhinitis
+  - food_allergy
+  - filaggrin_mutation
+prevalence:
+  percent: 15
+  notes: Up to 20% of children; 60% develop by age 1, 90% by age 5
+presentation:
+  symptoms:
+  - name: pruritus
+    probability: 0.95
+    description: "intense itching, worse at night"
+  - name: dry skin
+    probability: 0.90
+    description: "xerosis, rough skin texture"
+  - name: erythematous patches
+    probability: 0.85
+    description: "red, inflamed patches; distribution varies by age"
+  - name: sleep disturbance
+    probability: 0.50
+    description: "waking from itching"
+  - name: excoriations
+    probability: 0.60
+    description: "scratch marks from chronic itching"
+  physical_exam:
+  - system: skin
+    finding: "Erythematous, scaly patches on cheeks and extensor surfaces (infants)"
+    probability: 0.80
+  - system: skin
+    finding: "Lichenified plaques in flexural areas — antecubital, popliteal (older children)"
+    probability: 0.70
+  - system: skin
+    finding: "Excoriations and crusting"
+    probability: 0.60
+  - system: skin
+    finding: "Dennie-Morgan lines, allergic shiners"
+    probability: 0.30
+treatment:
+  approach: moisturize_and_topical_steroids
+  medications:
+  - agent: Hydrocortisone 2.5%
+    rxnorm: '5492'
+    frequency: "BID to affected areas"
+    route: topical
+    indication: "mild eczema, face and body folds"
+  - agent: Triamcinolone Acetonide 0.1%
+    rxnorm: '10759'
+    frequency: "BID to affected areas"
+    route: topical
+    indication: "moderate eczema on body"
+  - agent: Tacrolimus 0.03%
+    rxnorm: '42316'
+    frequency: "BID to affected areas"
+    route: topical
+    indication: "steroid-sparing for face and sensitive areas, age 2+"
+  - agent: Cetirizine
+    rxnorm: '20610'
+    frequency: "daily"
+    route: oral
+    indication: "adjunct for pruritus"
+  patient_instructions:
+  - Moisturize liberally BID with thick emollient (ointment > cream > lotion)
+  - Soak and seal — lukewarm bath then immediate moisturizer
+  - Use fragrance-free products
+  - Short fingernails to reduce excoriation
+  - Identify and avoid triggers (heat, wool, certain foods)

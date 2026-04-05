@@ -1,0 +1,62 @@
+id: lacerations
+display_name: Pediatric Lacerations
+aliases:
+- Cut
+- Wound
+- Skin laceration
+snomed: '284009009'
+icd10:
+- T14.1XXA
+- S01.80XA
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: open wound with bleeding
+    probability: 0.95
+    description: "Active hemorrhage from disrupted skin and soft tissue"
+  - name: pain at wound site
+    probability: 0.90
+    description: "Sharp pain localized to laceration"
+  - name: wound contamination
+    probability: 0.40
+    description: "Debris, soil, or foreign material in wound"
+  physical_exam:
+  - system: skin
+    finding: "Linear or stellate wound with dermal disruption"
+    probability: 0.95
+  - system: skin
+    finding: "Active bleeding requiring pressure for hemostasis"
+    probability: 0.70
+  - system: neurologic
+    finding: "Intact sensation and motor function distal to wound"
+    probability: 0.90
+  - system: musculoskeletal
+    finding: "Intact tendon function across wound"
+    probability: 0.90
+treatment:
+  approach: wound_closure
+  medications:
+  - agent: Lidocaine
+    rxnorm: '6387'
+    frequency: "Single dose local infiltration"
+    route: local
+    indication: "Local anesthesia for wound repair"
+  - agent: LET gel (Lidocaine-Epinephrine-Tetracaine)
+    rxnorm: '6387'
+    frequency: "Single application for 20-30 minutes"
+    route: topical
+    indication: "Topical anesthesia for facial and scalp lacerations"
+  - agent: Cephalexin
+    rxnorm: '2231'
+    frequency: "QID for 5-7 days"
+    route: oral
+    indication: "Prophylactic antibiotics for contaminated or bite wounds"

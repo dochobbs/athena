@@ -1,0 +1,77 @@
+id: sprains_strains
+display_name: "Sprains and Strains"
+aliases:
+  - Ligament sprain
+  - Muscle strain
+  - Ankle sprain
+  - Knee sprain
+snomed: "44465007"
+icd10:
+  - S93.401A
+  - S93.409A
+  - S83.509A
+  - S39.012A
+category: acute
+system: rheumatology
+specialties:
+  - peds
+age_range:
+  min_months: 60
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Common in school-age and adolescent athletes; ankle sprains most frequent"
+presentation:
+  symptoms:
+    - name: pain at injured joint or muscle
+      probability: 0.95
+      description: "Localized pain worsened by movement"
+    - name: swelling
+      probability: 0.85
+      description: "Soft tissue swelling at injury site"
+    - name: bruising
+      probability: 0.50
+      description: "Ecchymosis may develop over 24-48 hours"
+    - name: difficulty bearing weight
+      probability: 0.60
+      description: "Limping or inability to walk (ankle/knee)"
+    - name: decreased range of motion
+      probability: 0.70
+      description: "Limited by pain and swelling"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Point tenderness over ligament or muscle belly"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "Swelling and ecchymosis at injury site"
+      probability: 0.80
+    - system: musculoskeletal
+      finding: "Intact distal pulses and sensation"
+      probability: 0.98
+    - system: musculoskeletal
+      finding: "Negative Ottawa ankle rules (if ankle)"
+      probability: 0.70
+diagnostics:
+  imaging:
+    - "X-ray if concern for fracture (Ottawa rules, physis tenderness)"
+    - "Note: children more likely to fracture through growth plate than sprain"
+treatment:
+  approach: rice_and_rehabilitation
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "Q6-8H PRN"
+      route: oral
+      indication: "Pain and inflammation"
+    - agent: "Acetaminophen"
+      rxnorm: "161"
+      frequency: "Q4-6H PRN"
+      route: oral
+      indication: "Pain relief"
+  patient_instructions:
+    - "RICE: Rest, Ice (20 min on/off), Compression, Elevation"
+    - "Weight bearing as tolerated with crutches if needed"
+    - "Return if no improvement in 5-7 days or worsening symptoms"
+    - "In children, have low threshold for X-ray to rule out growth plate injury"

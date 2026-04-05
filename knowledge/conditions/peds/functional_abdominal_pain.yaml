@@ -1,0 +1,103 @@
+id: functional_abdominal_pain
+display_name: Functional Abdominal Pain
+aliases:
+- Recurrent abdominal pain
+- Functional abdominal pain disorder
+- Abdominal migraine
+- Irritable bowel syndrome in children
+snomed: '197232005'
+icd10:
+- R10.84
+- K58.9
+- G43.D0
+category: chronic
+system: gi
+specialties:
+- peds
+age_range:
+  min_months: 48
+  max_months: 216
+  peak:
+  - 60
+  - 120
+demographics:
+  age_months:
+    min: 48
+    peak:
+    - 60
+    - 120
+    max: 216
+  gender_bias:
+    male: 0.40
+    female: 0.60
+  risk_factors:
+  - anxiety
+  - family_stress
+  - perfectionism
+  - family_history_IBS
+  - school_stress
+prevalence:
+  percent: 15
+  notes: 10-20% of school-age children; diagnosed by Rome IV criteria; organic cause <5%
+presentation:
+  symptoms:
+  - name: periumbilical pain
+    probability: 0.80
+    description: "recurrent, poorly localized periumbilical pain"
+  - name: episodic pattern
+    probability: 0.70
+    description: "occurs in episodes, often with pain-free intervals"
+  - name: headache
+    probability: 0.30
+    description: "may have comorbid headache (abdominal migraine)"
+  - name: nausea
+    probability: 0.35
+    description: "nausea without vomiting"
+  - name: school avoidance
+    probability: 0.40
+    description: "missing school due to abdominal symptoms"
+  - name: pallor
+    probability: 0.20
+    description: "especially with abdominal migraine variant"
+  physical_exam:
+  - system: abdomen
+    finding: "Soft, non-tender or mild periumbilical tenderness"
+    probability: 0.70
+  - system: abdomen
+    finding: "No organomegaly, masses, or peritoneal signs"
+    probability: 0.95
+  - system: general
+    finding: "Normal growth parameters"
+    probability: 0.90
+diagnostics:
+  labs:
+  - name: CBC
+    indication: "screening for anemia, infection"
+  - name: CRP/ESR
+    indication: "rule out inflammatory process"
+  - name: Celiac panel (tTG-IgA)
+    indication: "screen for celiac disease"
+  - name: Stool studies
+    indication: "fecal calprotectin if IBD concern"
+treatment:
+  approach: biopsychosocial_model
+  medications:
+  - agent: Cyproheptadine
+    rxnorm: '3014'
+    frequency: "BID"
+    route: oral
+    indication: "abdominal migraine prophylaxis"
+  - agent: Amitriptyline
+    rxnorm: '704'
+    frequency: "nightly, low dose"
+    route: oral
+    indication: "neuromodulator for functional pain in older children"
+  patient_instructions:
+  - Functional pain is REAL — not imaginary or made up
+  - Diagnosis based on Rome IV criteria — symptom-based, not diagnosis of exclusion
+  - Alarm signs warrant further workup — weight loss, blood in stool, nighttime awakening, fever
+  - Goal is return to normal function, not complete pain elimination
+  - Cognitive behavioral therapy is first-line
+  - Maintain normal school attendance
+  - Avoid reinforcing sick role — no excessive attention to pain episodes
+  - Dietary modifications may help — fiber, low FODMAP trial

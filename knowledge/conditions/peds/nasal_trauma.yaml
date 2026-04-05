@@ -1,0 +1,66 @@
+id: nasal_trauma
+display_name: Nasal Trauma
+aliases:
+- Nasal fracture
+- Broken nose
+- Nasal bone fracture
+- Septal hematoma
+snomed: '81448000'
+icd10:
+- S02.2XXA
+- S09.90XA
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 24
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: nasal pain and swelling
+    probability: 0.95
+    description: "Pain, tenderness, and soft tissue swelling of nose after trauma"
+  - name: epistaxis
+    probability: 0.80
+    description: "Nosebleed at time of injury"
+  - name: nasal deformity
+    probability: 0.40
+    description: "Visible deviation or depression of nasal bridge"
+  - name: nasal obstruction
+    probability: 0.50
+    description: "Difficulty breathing through one or both nares"
+  physical_exam:
+  - system: heent
+    finding: "Nasal bridge swelling, ecchymosis, and tenderness to palpation"
+    probability: 0.90
+  - system: heent
+    finding: "Nasal deviation or crepitus on palpation"
+    probability: 0.40
+  - system: heent
+    finding: "Septal hematoma: boggy, blue-purple bulging of nasal septum (requires urgent drainage)"
+    probability: 0.10
+  - system: heent
+    finding: "Periorbital ecchymosis (raccoon eyes)"
+    probability: 0.30
+treatment:
+  approach: reduction_and_supportive
+  medications:
+  - agent: Acetaminophen
+    rxnorm: '161'
+    frequency: "Q4-6H PRN"
+    route: oral
+    indication: "Pain management"
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "Pain and swelling"
+  - agent: Oxymetazoline
+    rxnorm: '7878'
+    frequency: "BID for 3 days max"
+    route: intranasal
+    indication: "Nasal congestion and epistaxis control"

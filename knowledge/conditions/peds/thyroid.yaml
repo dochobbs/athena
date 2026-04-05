@@ -1,0 +1,87 @@
+id: thyroid
+display_name: "Pediatric Thyroid Disorders"
+aliases:
+  - Hypothyroidism
+  - Hyperthyroidism
+  - Hashimoto thyroiditis
+  - Graves disease
+  - Congenital hypothyroidism
+snomed: "14304000"
+icd10:
+  - E03.9
+  - E05.00
+  - E06.3
+  - E03.1
+category: chronic
+system: endocrine
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  notes: "Congenital hypothyroidism 1:2000-4000; acquired hypothyroidism most common thyroid disorder in children"
+presentation:
+  symptoms:
+    - name: fatigue
+      probability: 0.70
+      description: "Lethargy, decreased energy (hypothyroid)"
+    - name: weight changes
+      probability: 0.60
+      description: "Weight gain (hypo) or weight loss (hyper)"
+    - name: growth deceleration
+      probability: 0.50
+      description: "Crossing growth percentiles downward (hypothyroid)"
+    - name: cold or heat intolerance
+      probability: 0.45
+      description: "Cold intolerance (hypo), heat intolerance (hyper)"
+    - name: constipation
+      probability: 0.40
+      description: "Slowed GI motility in hypothyroidism"
+    - name: tachycardia or palpitations
+      probability: 0.35
+      description: "Resting tachycardia, tremor in hyperthyroidism"
+    - name: goiter
+      probability: 0.30
+      description: "Visible or palpable thyroid enlargement"
+  physical_exam:
+    - system: neck
+      finding: "Diffusely enlarged, firm thyroid (Hashimoto) or smooth goiter (Graves)"
+      probability: 0.40
+    - system: skin
+      finding: "Dry skin, coarse hair (hypo) or warm moist skin (hyper)"
+      probability: 0.50
+    - system: cardiovascular
+      finding: "Bradycardia (hypo) or tachycardia with wide pulse pressure (hyper)"
+      probability: 0.35
+    - system: eyes
+      finding: "Exophthalmos, lid lag (Graves disease)"
+      probability: 0.15
+diagnostics:
+  labs:
+    - "TSH (primary screening test)"
+    - "Free T4"
+    - "Thyroid antibodies (anti-TPO, anti-thyroglobulin) if Hashimoto suspected"
+    - "TSI (thyroid-stimulating immunoglobulin) if Graves suspected"
+    - "Newborn screen for congenital hypothyroidism"
+treatment:
+  approach: hormone_replacement_or_suppression
+  medications:
+    - agent: "Levothyroxine"
+      rxnorm: "10582"
+      frequency: "Daily"
+      route: oral
+      indication: "Hypothyroidism replacement therapy"
+    - agent: "Methimazole"
+      rxnorm: "6835"
+      frequency: "Daily or divided BID"
+      route: oral
+      indication: "Hyperthyroidism (Graves disease)"
+  patient_instructions:
+    - "Take levothyroxine on empty stomach, 30-60 minutes before food"
+    - "Monitor TSH every 4-6 weeks after dose changes, then every 3-6 months"
+    - "Refer to pediatric endocrinology for initial management"
+    - "Monitor growth velocity closely"

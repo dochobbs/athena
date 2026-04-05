@@ -1,0 +1,91 @@
+id: finger_injuries
+display_name: Finger Injuries
+aliases:
+- Finger fracture
+- Mallet finger
+- Nail bed injury
+- Fingertip injury
+- Subungual hematoma
+snomed: '125605004'
+icd10:
+- S62.609A
+- S61.009A
+- S60.00XA
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+demographics:
+  age_months:
+    min: 6
+    peak:
+    - 24
+    - 144
+    max: 216
+  gender_bias:
+    male: 0.60
+    female: 0.40
+  risk_factors:
+  - door_crush_injury
+  - sports
+  - playground_falls
+prevalence:
+  notes: Very common in children; fingertip crush injuries most frequent in toddlers (door hinges)
+presentation:
+  symptoms:
+  - name: pain
+    probability: 0.95
+    description: "pain at injury site, often throbbing"
+  - name: swelling
+    probability: 0.85
+    description: "edema of affected finger"
+  - name: deformity
+    probability: 0.30
+    description: "angulation or rotation if fracture present"
+  - name: subungual hematoma
+    probability: 0.35
+    description: "blood under nail from crush injury"
+  - name: nail bed laceration
+    probability: 0.25
+    description: "disruption of nail bed visible"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Point tenderness, swelling at fracture site"
+    probability: 0.80
+  - system: musculoskeletal
+    finding: "Test FDP and FDS tendon function individually"
+    probability: 1.0
+  - system: musculoskeletal
+    finding: "Assess rotational alignment with finger flexion"
+    probability: 0.90
+  - system: neurologic
+    finding: "Two-point discrimination for digital nerve integrity"
+    probability: 0.70
+  - system: skin
+    finding: "Subungual hematoma >50% of nail surface"
+    probability: 0.30
+diagnostics:
+  imaging:
+  - name: Finger X-ray (AP, lateral, oblique)
+    indication: "assess for fracture; include growth plate in children"
+treatment:
+  approach: splinting_and_wound_care
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "pain management"
+  patient_instructions:
+  - Buddy tape or aluminum splint for stable fractures
+  - Subungual hematoma >50% — trephination for pain relief
+  - Nail bed laceration requires repair under digital block
+  - Seymour fracture (open SH I/II of distal phalanx) — requires irrigation and antibiotics
+  - Check for rotational malalignment — all fingers should point toward scaphoid when flexed
+  - Hand surgery referral for tendon injuries, displaced fractures, open fractures
+  - Salter-Harris fractures common at physis — follow-up X-ray in 10-14 days

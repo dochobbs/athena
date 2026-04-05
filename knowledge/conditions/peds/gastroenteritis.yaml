@@ -1,0 +1,95 @@
+id: gastroenteritis
+display_name: "Acute Gastroenteritis"
+aliases:
+  - Stomach flu
+  - Acute diarrhea
+  - AGE
+  - Vomiting and diarrhea
+snomed: "25374005"
+icd10:
+  - A09
+  - A08.4
+  - A08.0
+  - K52.9
+category: acute
+system: gi
+specialties:
+  - peds
+age_range:
+  min_months: 1
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  annual_episodes: 1.5
+  notes: "Most common cause of dehydration in children; viral etiology in >70%"
+seasonality:
+  peak_months:
+    - 11
+    - 12
+    - 1
+    - 2
+    - 3
+  weight_multiplier: 1.5
+vitals_impact:
+  temp_f:
+    - 99.0
+    - 101.5
+  hr_multiplier: 1.15
+presentation:
+  symptoms:
+    - name: diarrhea
+      probability: 0.90
+      description: "Watery, non-bloody stools; bloody stool suggests bacterial"
+    - name: vomiting
+      probability: 0.80
+      description: "Non-bilious vomiting, often precedes diarrhea"
+    - name: abdominal cramps
+      probability: 0.65
+      description: "Periumbilical cramping, intermittent"
+    - name: low-grade fever
+      probability: 0.50
+      description: "Temperature 99-101F"
+    - name: decreased appetite
+      probability: 0.75
+      description: "Refusing feeds or eating less"
+    - name: dehydration signs
+      probability: 0.35
+      description: "Decreased tears, dry mouth, decreased urine output"
+  duration_days:
+    - 3
+    - 7
+  physical_exam:
+    - system: abdomen
+      finding: "Soft, diffusely tender, hyperactive bowel sounds"
+      probability: 0.80
+    - system: general
+      finding: "Assess dehydration: mucous membranes, skin turgor, capillary refill"
+      probability: 0.90
+    - system: skin
+      finding: "Tenting of skin if moderate dehydration"
+      probability: 0.15
+diagnostics:
+  labs:
+    - "Usually none needed for mild gastroenteritis"
+    - "BMP if moderate-severe dehydration or IV fluid needed"
+    - "Stool studies if bloody diarrhea, >7 days, or immunocompromised"
+treatment:
+  approach: oral_rehydration
+  medications:
+    - agent: "Ondansetron"
+      rxnorm: "26225"
+      dose_mg_kg: 0.15
+      max_dose_mg: 8
+      frequency: "x1 dose PRN"
+      route: oral
+      indication: "Persistent vomiting preventing oral rehydration"
+  patient_instructions:
+    - "Oral rehydration: small frequent sips (1-2 tsp every 5 minutes)"
+    - "Use Pedialyte or similar ORS; avoid juice and sports drinks"
+    - "Advance diet as tolerated; no dietary restriction needed"
+    - "Continue breastfeeding or formula"
+    - "Return if: no urine in 8 hours, bloody stool, bilious vomiting, lethargy"
+    - "No antibiotics for viral gastroenteritis"
+    - "Good hand hygiene to prevent spread"

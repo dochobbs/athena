@@ -1,0 +1,70 @@
+id: jia
+display_name: Juvenile Idiopathic Arthritis
+aliases:
+- JIA
+- Juvenile rheumatoid arthritis
+- JRA
+- Childhood arthritis
+snomed: '410795001'
+icd10:
+- M08.00
+- M08.20
+- M08.40
+category: chronic
+system: rheumatology
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 192
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: joint swelling
+    probability: 0.90
+    description: "Persistent arthritis in one or more joints for >=6 weeks"
+  - name: morning stiffness
+    probability: 0.80
+    description: "Joint stiffness lasting >30 minutes on awakening"
+  - name: limp or gait change
+    probability: 0.60
+    description: "Antalgic gait, especially in younger children"
+  - name: daily quotidian fever
+    probability: 0.30
+    description: "High spiking fever with systemic-onset JIA"
+  - name: rash
+    probability: 0.25
+    description: "Salmon-colored evanescent rash with systemic JIA"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Warm, swollen joint with effusion, limited range of motion"
+    probability: 0.90
+  - system: musculoskeletal
+    finding: "Joint contracture from chronic inflammation"
+    probability: 0.30
+  - system: ophthalmologic
+    finding: "Anterior uveitis (often asymptomatic, requires slit-lamp)"
+    probability: 0.20
+  - system: lymphatic
+    finding: "Generalized lymphadenopathy and hepatosplenomegaly (systemic JIA)"
+    probability: 0.25
+treatment:
+  approach: antiinflammatory_and_dmard
+  medications:
+  - agent: Naproxen
+    rxnorm: '7258'
+    frequency: "BID"
+    route: oral
+    indication: "First-line NSAID for joint pain and inflammation"
+  - agent: Methotrexate
+    rxnorm: '6851'
+    frequency: "Weekly"
+    route: oral
+    indication: "DMARD for polyarticular disease or NSAID failure"
+  - agent: Triamcinolone acetonide
+    rxnorm: '10759'
+    frequency: "Single intra-articular injection"
+    route: intra-articular
+    indication: "Oligoarticular JIA or flare in individual joint"

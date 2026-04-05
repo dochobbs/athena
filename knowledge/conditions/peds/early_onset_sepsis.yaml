@@ -1,0 +1,108 @@
+id: early_onset_sepsis
+display_name: Early-Onset Neonatal Sepsis
+aliases:
+- EOS
+- Neonatal sepsis
+- Early onset sepsis
+- Neonatal GBS sepsis
+snomed: '206384003'
+icd10:
+- P36.0
+- P36.9
+- P36.10
+category: acute
+system: infectious_disease
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 0
+  peak:
+  - 0
+  - 0
+demographics:
+  age_months:
+    min: 0
+    max: 0
+  risk_factors:
+  - maternal_GBS_colonization
+  - preterm_birth
+  - prolonged_rupture_of_membranes
+  - maternal_fever
+  - chorioamnionitis
+  - inadequate_intrapartum_antibiotics
+prevalence:
+  notes: 0.5-1 per 1000 live births; GBS and E. coli are most common organisms
+presentation:
+  symptoms:
+  - name: temperature instability
+    probability: 0.70
+    description: "fever or hypothermia in first 72 hours of life"
+  - name: respiratory distress
+    probability: 0.80
+    description: "tachypnea, grunting, retractions, apnea"
+  - name: poor feeding
+    probability: 0.65
+    description: "feeding intolerance, weak suck"
+  - name: lethargy
+    probability: 0.60
+    description: "decreased activity, hypotonia"
+  - name: irritability
+    probability: 0.40
+    description: "inconsolable or high-pitched cry"
+  physical_exam:
+  - system: general
+    finding: "Ill-appearing neonate with poor perfusion"
+    probability: 0.60
+  - system: respiratory
+    finding: "Tachypnea, grunting, nasal flaring, retractions"
+    probability: 0.70
+  - system: cardiovascular
+    finding: "Poor capillary refill, mottling, tachycardia"
+    probability: 0.50
+  - system: neurologic
+    finding: "Hypotonia, weak cry, decreased responsiveness"
+    probability: 0.50
+vitals_impact:
+  temp_f:
+  - 96.0
+  - 101.5
+  hr_multiplier: 1.3
+  rr_multiplier: 1.4
+  spo2_min: 85
+diagnostics:
+  labs:
+  - name: Blood culture
+    indication: "gold standard — must obtain BEFORE antibiotics"
+  - name: CBC with differential
+    loinc: "57021-8"
+    indication: "WBC, I:T ratio, platelet count"
+  - name: CRP
+    loinc: "1988-5"
+    indication: "serial CRP for monitoring"
+  - name: Lumbar puncture
+    indication: "CSF culture, cell count, glucose, protein"
+  - name: Chest X-ray
+    indication: "if respiratory symptoms present"
+treatment:
+  approach: empiric_antibiotics
+  medications:
+  - agent: Ampicillin
+    rxnorm: '733'
+    dose_mg_kg: 50
+    frequency: "Q12H for age <7 days, Q8H for age 7-28 days"
+    route: intravenous
+    indication: "empiric coverage for GBS and Listeria"
+  - agent: Gentamicin
+    rxnorm: '4684'
+    dose_mg_kg: 4
+    frequency: "Q24H"
+    route: intravenous
+    indication: "empiric coverage for gram-negative organisms"
+  patient_instructions:
+  - Obtain cultures BEFORE starting antibiotics
+  - Do NOT delay antibiotics for LP if infant is unstable
+  - Use Kaiser EOS calculator or AAP guidelines for risk stratification
+  - 36-48 hour rule-out if blood cultures negative and infant well
+  - GBS meningitis requires 14-21 days of treatment
+  - Repeat LP at 24-48 hours for documented meningitis

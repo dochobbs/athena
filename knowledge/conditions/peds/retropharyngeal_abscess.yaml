@@ -1,0 +1,67 @@
+id: retropharyngeal_abscess
+display_name: Retropharyngeal Abscess
+aliases:
+- RPA
+- Deep neck space infection
+- Retropharyngeal infection
+snomed: '18099001'
+icd10:
+- J39.0
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 72
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: fever
+    probability: 0.90
+    description: "High fever, often >39C with toxic appearance"
+  - name: neck stiffness
+    probability: 0.75
+    description: "Neck rigidity with refusal to extend neck"
+  - name: dysphagia and drooling
+    probability: 0.70
+    description: "Difficulty or refusal to swallow with drooling"
+  - name: muffled voice or stridor
+    probability: 0.40
+    description: "Hot potato voice or inspiratory stridor from airway compression"
+  - name: torticollis
+    probability: 0.50
+    description: "Head held in extension or tilted to one side"
+  physical_exam:
+  - system: heent
+    finding: "Unilateral posterior pharyngeal wall bulge"
+    probability: 0.60
+  - system: neck
+    finding: "Limited neck extension and rotation"
+    probability: 0.75
+  - system: neck
+    finding: "Tender cervical lymphadenopathy"
+    probability: 0.70
+  - system: respiratory
+    finding: "Stridor or signs of upper airway obstruction"
+    probability: 0.30
+treatment:
+  approach: iv_antibiotics_and_drainage
+  medications:
+  - agent: Ampicillin-Sulbactam
+    rxnorm: '733'
+    frequency: "Q6H IV"
+    route: intravenous
+    indication: "First-line broad-spectrum coverage"
+  - agent: Clindamycin
+    rxnorm: '2582'
+    frequency: "Q8H IV"
+    route: intravenous
+    indication: "Alternative or adjunctive for anaerobic coverage"
+  - agent: Dexamethasone
+    rxnorm: '3264'
+    frequency: "Q6H IV for 24-48 hours"
+    route: intravenous
+    indication: "Reduce airway edema"

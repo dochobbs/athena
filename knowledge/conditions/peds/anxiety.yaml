@@ -1,0 +1,100 @@
+id: anxiety
+display_name: "Pediatric Anxiety Disorders"
+aliases:
+  - Generalized anxiety disorder
+  - Separation anxiety
+  - Social anxiety
+  - School refusal
+  - Panic disorder
+snomed: "197480006"
+icd10:
+  - F41.1
+  - F93.0
+  - F40.10
+  - F41.0
+  - F41.9
+category: chronic
+system: mental_health
+specialties:
+  - peds
+age_range:
+  min_months: 36
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  percent: 8
+  notes: "Most common mental health condition in children; ~7-9% prevalence; median onset age 11"
+presentation:
+  symptoms:
+    - name: excessive worry
+      probability: 0.85
+      description: "Persistent, disproportionate worry about school, health, safety, performance"
+    - name: somatic complaints
+      probability: 0.70
+      description: "Headaches, stomachaches, nausea without organic cause"
+    - name: sleep difficulty
+      probability: 0.60
+      description: "Difficulty falling asleep, nighttime fears, nightmares"
+    - name: avoidance behavior
+      probability: 0.75
+      description: "Avoiding school, social situations, separating from parents"
+    - name: irritability
+      probability: 0.55
+      description: "Easily frustrated, emotional outbursts, especially in younger children"
+    - name: difficulty concentrating
+      probability: 0.50
+      description: "Distracted by worries; may mimic ADHD"
+    - name: physical symptoms of panic
+      probability: 0.30
+      description: "Rapid heart rate, shortness of breath, dizziness, tingling"
+  physical_exam:
+    - system: general
+      finding: "Anxious-appearing child; may cling to parent"
+      probability: 0.50
+    - system: general
+      finding: "Normal physical examination (important to document)"
+      probability: 0.90
+    - system: cardiovascular
+      finding: "Tachycardia during anxiety episode"
+      probability: 0.25
+diagnostics:
+  screening:
+    - "SCARED (Screen for Child Anxiety Related Disorders)"
+    - "GAD-7 (for older adolescents)"
+    - "PSC (Pediatric Symptom Checklist)"
+    - "PHQ-A to screen for comorbid depression"
+treatment:
+  approach: cbt_and_medication
+  medications:
+    - agent: "Sertraline"
+      rxnorm: "36437"
+      frequency: "Daily"
+      route: oral
+      indication: "First-line SSRI for pediatric anxiety (FDA-approved age 6+)"
+    - agent: "Fluoxetine"
+      rxnorm: "4493"
+      frequency: "Daily"
+      route: oral
+      indication: "SSRI option for anxiety with comorbid depression"
+    - agent: "Escitalopram"
+      rxnorm: "321988"
+      frequency: "Daily"
+      route: oral
+      indication: "SSRI option for adolescents 12+"
+  patient_instructions:
+    - "CBT (Cognitive Behavioral Therapy) is first-line for mild-moderate anxiety"
+    - "SSRI medication for moderate-severe or CBT-refractory cases"
+    - "Black box warning: monitor for suicidality in first 1-2 months of SSRI"
+    - "Gradual exposure to feared situations with therapist support"
+    - "Do not accommodate avoidance behavior"
+    - "School accommodations (504 plan) may be helpful"
+comorbidities:
+  strong:
+    - depression
+    - adhd
+  moderate:
+    - ocd
+    - sleep_disorders
+    - somatic_symptom_disorder

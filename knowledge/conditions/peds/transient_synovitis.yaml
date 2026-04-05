@@ -1,0 +1,81 @@
+id: transient_synovitis
+display_name: "Transient Synovitis"
+aliases:
+  - Toxic synovitis
+  - Irritable hip
+snomed: "240004002"
+icd10:
+  - M67.30
+  - M67.351
+  - M67.352
+category: acute
+system: rheumatology
+specialties:
+  - peds
+age_range:
+  min_months: 18
+  max_months: 120
+  peak:
+    - 36
+    - 72
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  male_to_female_ratio: 2.0
+  notes: "Most common cause of acute hip pain in children 3-10; must differentiate from septic arthritis"
+presentation:
+  symptoms:
+    - name: hip pain or limp
+      probability: 0.95
+      description: "Acute onset limping, hip pain, or refusal to bear weight"
+    - name: antecedent viral illness
+      probability: 0.50
+      description: "URI or GI illness in preceding 1-2 weeks"
+    - name: low-grade or no fever
+      probability: 0.80
+      description: "Temperature typically <38.5C; high fever suggests septic arthritis"
+    - name: knee pain
+      probability: 0.30
+      description: "Referred pain to medial knee (hip pathology)"
+  physical_exam:
+    - system: musculoskeletal
+      finding: "Limited hip internal rotation and abduction"
+      probability: 0.90
+    - system: musculoskeletal
+      finding: "Hip held in flexion, external rotation, and abduction (position of comfort)"
+      probability: 0.70
+    - system: musculoskeletal
+      finding: "Non-toxic appearing child"
+      probability: 0.85
+    - system: general
+      finding: "Ambulatory but with antalgic gait"
+      probability: 0.60
+diagnostics:
+  labs:
+    - "CBC (usually normal or mildly elevated WBC)"
+    - "ESR and CRP (normal or mildly elevated)"
+    - "Blood culture if septic arthritis considered"
+  imaging:
+    - "Hip ultrasound (may show small effusion)"
+    - "Kocher criteria: fever >38.5, non-weight-bearing, ESR >40, WBC >12000"
+    - "If 0-1 Kocher criteria met, low risk for septic joint"
+treatment:
+  approach: supportive_with_monitoring
+  medications:
+    - agent: "Ibuprofen"
+      rxnorm: "5640"
+      frequency: "Q6-8H"
+      route: oral
+      indication: "Anti-inflammatory and pain relief"
+    - agent: "Naproxen"
+      rxnorm: "7258"
+      frequency: "BID"
+      route: oral
+      indication: "Alternative NSAID"
+  patient_instructions:
+    - "Rest and limited weight-bearing until pain resolves"
+    - "Expect improvement within 24-48 hours of starting NSAIDs"
+    - "Full resolution typically within 1-2 weeks"
+    - "Return immediately if fever develops, pain worsens, or child stops walking"
+    - "Follow up in 1-2 weeks to confirm resolution"

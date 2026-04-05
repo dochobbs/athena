@@ -1,0 +1,51 @@
+id: screen_time
+display_name: "Screen Time and Digital Media Use"
+aliases:
+  - Screen time counseling
+  - Digital media
+  - Media use guidelines
+  - Technology use
+snomed: "409063005"
+icd10:
+  - Z71.89
+category: preventive
+system: general
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Average child 8-12 uses screens 4-6 hours/day; teens 7-9 hours/day"
+presentation:
+  symptoms: []
+  physical_exam: []
+treatment:
+  approach: anticipatory_guidance
+  items:
+    - category: education
+      description: "Under 18 months: avoid screen media except video chatting"
+    - category: education
+      description: "18-24 months: if introducing, choose high-quality programming and co-view"
+    - category: education
+      description: "2-5 years: limit to 1 hour/day of high-quality programs"
+    - category: education
+      description: "6+ years: consistent limits on time and types of media"
+    - category: education
+      description: "Create a Family Media Use Plan (HealthyChildren.org/MediaUsePlan)"
+    - category: education
+      description: "No screens during meals or 1 hour before bedtime"
+    - category: education
+      description: "Designate media-free zones (bedrooms)"
+    - category: education
+      description: "Prioritize sleep, physical activity, and face-to-face interaction"
+counseling_points:
+  - "AAP Family Media Plan is a concrete tool for families"
+  - "Associated risks: obesity, sleep disruption, behavioral issues, language delay"
+  - "Model healthy media habits as parents"
+  - "Monitor content, not just time"
+  - "Discuss online safety, cyberbullying, and privacy with older children"
+  - "Screen at well visits using AAP media use questions"

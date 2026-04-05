@@ -1,0 +1,67 @@
+id: torticollis_plagiocephaly
+display_name: "Positional Plagiocephaly"
+aliases:
+  - Flat head syndrome
+  - Deformational plagiocephaly
+  - Positional skull deformity
+  - Brachycephaly
+snomed: "21850009"
+icd10:
+  - Q67.3
+  - M43.6
+category: chronic
+system: rheumatology
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 18
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  percent: 20
+  notes: "Up to 20% of infants by 4 months; increased since Back to Sleep campaign"
+presentation:
+  symptoms:
+    - name: asymmetric head shape
+      probability: 0.95
+      description: "Flattening of one side of occiput (plagiocephaly) or entire back (brachycephaly)"
+    - name: ear asymmetry
+      probability: 0.60
+      description: "Anterior displacement of ear on flattened side"
+    - name: facial asymmetry
+      probability: 0.40
+      description: "Ipsilateral frontal bossing, cheek fullness"
+    - name: positional preference
+      probability: 0.75
+      description: "Prefers turning head to one side; often associated torticollis"
+  physical_exam:
+    - system: skull
+      finding: "Posterior flattening with ipsilateral frontal bossing (parallelogram shape)"
+      probability: 0.85
+    - system: skull
+      finding: "Sutures open and mobile (distinguishes from craniosynostosis)"
+      probability: 0.95
+    - system: neck
+      finding: "Limited cervical rotation suggesting associated torticollis"
+      probability: 0.50
+diagnostics:
+  imaging:
+    - "Usually clinical diagnosis"
+    - "Skull X-ray or CT only if concern for craniosynostosis (ridging, closed suture)"
+treatment:
+  approach: repositioning_and_therapy
+  items:
+    - category: education
+      description: "Supervised tummy time 30+ minutes daily while awake"
+    - category: education
+      description: "Alternate head position during sleep, reposition crib"
+    - category: referral
+      description: "Physical therapy if associated torticollis"
+    - category: referral
+      description: "Cranial orthosis (helmet) if severe and age 4-12 months"
+    - category: education
+      description: "Most cases self-correct; helmet controversial for mild cases"
+    - category: follow-up
+      description: "Monitor at well visits; refer to craniofacial if concern for craniosynostosis"

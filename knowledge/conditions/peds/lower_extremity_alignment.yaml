@@ -1,0 +1,52 @@
+id: lower_extremity_alignment
+display_name: Lower Extremity Alignment Variants
+aliases:
+- Bowlegs
+- Knock knees
+- Genu varum
+- Genu valgum
+- Intoeing
+- Out-toeing
+snomed: '299345009'
+icd10:
+- Q68.2
+- Q68.3
+- M21.06
+- M21.16
+category: chronic
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 144
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: parental concern about leg alignment
+    probability: 0.90
+    description: "Parent notes bowing, knock knees, or intoeing during walking"
+  - name: tripping or clumsiness
+    probability: 0.40
+    description: "Frequent tripping especially with intoeing"
+  - name: painless
+    probability: 0.90
+    description: "Physiologic variants are typically pain-free"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Bilateral symmetric genu varum in toddlers (physiologic bowlegs)"
+    probability: 0.50
+  - system: musculoskeletal
+    finding: "Bilateral symmetric genu valgum in children age 3-6 (physiologic knock knees)"
+    probability: 0.40
+  - system: musculoskeletal
+    finding: "Increased femoral anteversion with internal rotation >70 degrees"
+    probability: 0.30
+  - system: musculoskeletal
+    finding: "Internal tibial torsion with thigh-foot angle <10 degrees"
+    probability: 0.25
+treatment:
+  approach: reassurance_and_observation
+  medications: []

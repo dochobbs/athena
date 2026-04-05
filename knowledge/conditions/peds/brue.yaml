@@ -1,0 +1,72 @@
+id: brue
+display_name: Brief Resolved Unexplained Event (BRUE)
+aliases:
+- BRUE
+- ALTE
+- Apparent life-threatening event
+- Brief resolved unexplained event
+snomed: '471291000124101'
+icd10:
+- R68.13
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 12
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 1
+    - 4
+    max: 12
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - prematurity
+  - recent_URI
+  - GERD
+  - young_age
+prevalence:
+  notes: Estimated 0.5-1 per 1000 live births; replaced ALTE terminology in 2016 AAP guideline
+presentation:
+  symptoms:
+  - name: color change
+    probability: 0.85
+    description: "cyanosis, pallor, or erythema"
+  - name: absent or irregular breathing
+    probability: 0.80
+    description: "apnea or irregular respirations"
+  - name: altered tone
+    probability: 0.60
+    description: "hypertonia or hypotonia"
+  - name: altered responsiveness
+    probability: 0.50
+    description: "unresponsive or decreased level of consciousness"
+  - name: event resolved
+    probability: 1.0
+    description: "by definition, event has fully resolved at presentation"
+  physical_exam:
+  - system: general
+    finding: "Well-appearing infant at presentation"
+    probability: 0.90
+  - system: neurologic
+    finding: "Normal neurologic exam including tone and alertness"
+    probability: 0.85
+  - system: respiratory
+    finding: "Normal respiratory exam"
+    probability: 0.90
+treatment:
+  approach: risk_stratification
+  medications: []
+  patient_instructions:
+  - Risk-stratify as lower vs higher risk per AAP guideline
+  - Lower risk — age >60 days, gestational age >32 wk, first event, event <1 min
+  - Lower-risk patients may be observed briefly and discharged
+  - Higher-risk patients warrant further workup (labs, ECG, observation)
+  - Consider pertussis, GERD, seizure, NAT, cardiac arrhythmia in differential
+  - CPR education for caregivers is recommended
+  - Home monitoring generally NOT recommended for lower-risk BRUE

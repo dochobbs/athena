@@ -1,0 +1,65 @@
+id: puberty_disorders
+display_name: Puberty Disorders
+aliases:
+- Precocious puberty
+- Delayed puberty
+- Premature thelarche
+- Premature adrenarche
+snomed: '400179000'
+icd10:
+- E30.1
+- E30.0
+- E30.8
+category: chronic
+system: endocrine
+specialties:
+- peds
+age_range:
+  min_months: 48
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: breast development before age 8 (girls)
+    probability: 0.40
+    description: "Thelarche before age 8 in girls suggests precocious puberty"
+  - name: testicular enlargement before age 9 (boys)
+    probability: 0.20
+    description: "Testicular volume >4 mL before age 9 in boys"
+  - name: pubic or axillary hair
+    probability: 0.50
+    description: "Early adrenarche with pubic/axillary hair development"
+  - name: rapid linear growth
+    probability: 0.45
+    description: "Growth acceleration with advanced bone age"
+  - name: absent pubertal development
+    probability: 0.30
+    description: "No breast development by age 13 (girls) or testicular enlargement by age 14 (boys)"
+  physical_exam:
+  - system: endocrine
+    finding: "Tanner staging showing premature or delayed sexual maturation"
+    probability: 0.90
+  - system: endocrine
+    finding: "Advanced or delayed height for age"
+    probability: 0.60
+  - system: skin
+    finding: "Acne, body odor, oily skin (adrenarche signs)"
+    probability: 0.40
+  - system: genitourinary
+    finding: "Testicular volume assessment with orchidometer"
+    probability: 0.50
+treatment:
+  approach: endocrine_evaluation_and_management
+  medications:
+  - agent: Leuprolide
+    rxnorm: '6373'
+    frequency: "Monthly or every 3 months IM"
+    route: intramuscular
+    indication: "GnRH agonist for central precocious puberty"
+  - agent: Growth Hormone
+    rxnorm: '52582'
+    frequency: "Daily subcutaneous"
+    route: subcutaneous
+    indication: "Growth hormone deficiency with delayed puberty"

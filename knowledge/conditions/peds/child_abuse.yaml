@@ -1,0 +1,101 @@
+id: child_abuse
+display_name: Child Abuse / Non-Accidental Trauma
+aliases:
+- Non-accidental trauma
+- NAT
+- Child maltreatment
+- Physical abuse
+snomed: '386702006'
+icd10:
+- T74.12XA
+- T76.12XA
+- T74.22XA
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+  peak:
+  - 0
+  - 36
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 24
+    max: 216
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - young_parental_age
+  - substance_abuse
+  - domestic_violence
+  - social_isolation
+  - prematurity
+  - colic
+  - disability
+prevalence:
+  notes: Leading cause of traumatic death in infants; mandatory reporting required
+presentation:
+  symptoms:
+  - name: injuries inconsistent with history
+    probability: 0.85
+    description: "mechanism does not match injury pattern or developmental stage"
+  - name: multiple injuries in various stages of healing
+    probability: 0.50
+    description: "bruises of different ages"
+  - name: delay in seeking care
+    probability: 0.40
+    description: "significant time between injury and presentation"
+  - name: changing history
+    probability: 0.35
+    description: "story changes between providers or over time"
+  - name: bruising in non-mobile infant
+    probability: 0.70
+    description: "TEN-4 rule: torso, ear, neck bruising in <4 years or any bruising in <4 months"
+  physical_exam:
+  - system: skin
+    finding: "Patterned bruises — loop marks, bite marks, belt marks"
+    probability: 0.40
+  - system: skin
+    finding: "Burns — stocking-glove distribution, cigarette burns, splash pattern"
+    probability: 0.15
+  - system: musculoskeletal
+    finding: "Classic metaphyseal lesions (corner fractures) on skeletal survey"
+    probability: 0.25
+  - system: neurologic
+    finding: "Altered mental status, bulging fontanelle (abusive head trauma)"
+    probability: 0.20
+  - system: ophthalmologic
+    finding: "Retinal hemorrhages (abusive head trauma)"
+    probability: 0.15
+diagnostics:
+  labs:
+  - name: CBC, CMP, lipase
+    indication: "baseline labs, assess for abdominal trauma"
+  - name: PT/PTT
+    indication: "rule out bleeding disorder"
+  - name: Urinalysis
+    indication: "assess for hematuria from abdominal trauma"
+  - name: AST/ALT
+    indication: "screen for occult liver injury (>80 suggests abdominal trauma)"
+  imaging:
+  - name: Skeletal survey
+    indication: "mandatory for all children <2 years with suspected abuse"
+  - name: CT head without contrast
+    indication: "if concern for abusive head trauma"
+treatment:
+  approach: protect_child_and_report
+  medications: []
+  patient_instructions:
+  - Mandatory reporting to CPS — required by law
+  - Document injuries meticulously with photographs
+  - Skeletal survey in all children <2 years with suspected NAT
+  - Repeat skeletal survey in 2 weeks to detect healing fractures
+  - Dilated fundoscopic exam for retinal hemorrhages
+  - Admit child to ensure safety while investigation proceeds
+  - Consult child abuse team if available

@@ -1,0 +1,53 @@
+id: labial_adhesions
+display_name: Labial Adhesions
+aliases:
+- Labial agglutination
+- Labial fusion
+- Vulvar adhesions
+snomed: '62250003'
+icd10:
+- N90.5
+category: chronic
+system: gynecology
+specialties:
+- peds
+age_range:
+  min_months: 3
+  max_months: 72
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: incidental finding on exam
+    probability: 0.70
+    description: "Noted during routine well-child exam or diaper change"
+  - name: urinary symptoms
+    probability: 0.25
+    description: "Post-void dribbling, deflected stream, or recurrent UTI"
+  - name: vulvar discomfort
+    probability: 0.15
+    description: "Irritation or discomfort in vulvar area"
+  physical_exam:
+  - system: genitourinary
+    finding: "Thin translucent midline raphe fusing labia minora"
+    probability: 0.95
+  - system: genitourinary
+    finding: "Partial or complete obscuring of vaginal introitus"
+    probability: 0.80
+  - system: genitourinary
+    finding: "Normal clitoris and urethral meatus visible superiorly"
+    probability: 0.85
+treatment:
+  approach: topical_estrogen_or_observation
+  medications:
+  - agent: Conjugated Estrogen cream
+    rxnorm: '2812'
+    frequency: "BID for 2-4 weeks, then nightly for 2-4 weeks"
+    route: topical
+    indication: "Symptomatic labial adhesions"
+  - agent: Betamethasone cream
+    rxnorm: '1514'
+    frequency: "BID for 4-6 weeks"
+    route: topical
+    indication: "Alternative to estrogen cream"

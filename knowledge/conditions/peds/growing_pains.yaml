@@ -1,0 +1,80 @@
+id: growing_pains
+display_name: Growing Pains
+aliases:
+- Benign nocturnal limb pains
+- Recurrent limb pain of childhood
+snomed: '29883002'
+icd10:
+- M79.3
+category: chronic
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 36
+  max_months: 144
+  peak:
+  - 36
+  - 72
+demographics:
+  age_months:
+    min: 36
+    peak:
+    - 36
+    - 72
+    max: 144
+  gender_bias:
+    male: 0.45
+    female: 0.55
+  risk_factors:
+  - active_child
+  - family_history
+  - hypermobility
+prevalence:
+  percent: 35
+  notes: 25-40% of children age 3-12; diagnosis of exclusion
+presentation:
+  symptoms:
+  - name: bilateral leg pain
+    probability: 0.90
+    description: "deep, aching pain in thighs, calves, or behind knees"
+  - name: evening or nighttime pain
+    probability: 0.85
+    description: "pain occurs late in day or awakens child at night"
+  - name: normal by morning
+    probability: 0.80
+    description: "pain resolves completely by morning, normal activity next day"
+  - name: intermittent pattern
+    probability: 0.75
+    description: "episodes separated by pain-free days to weeks"
+  - name: no limp
+    probability: 0.90
+    description: "no limping or functional limitation"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Completely normal exam — no swelling, tenderness, or warmth"
+    probability: 0.95
+  - system: musculoskeletal
+    finding: "Full range of motion of all joints"
+    probability: 0.95
+  - system: general
+    finding: "Normal gait"
+    probability: 0.95
+treatment:
+  approach: reassurance_and_symptomatic_relief
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: "PRN for episodes"
+    route: oral
+    indication: "pain during episodes"
+  patient_instructions:
+  - Growing pains are benign and self-limited
+  - Classic features — bilateral, lower extremity, nocturnal, normal exam
+  - Massage and warm compresses during episodes
+  - Red flags requiring workup — unilateral, persistent, morning stiffness, limp, joint swelling
+  - Red flags — bone pain, nocturnal bone pain, systemic symptoms (fever, weight loss)
+  - If red flags present — consider X-ray, CBC, ESR/CRP, LDH to rule out malignancy
+  - Resolve spontaneously, usually by adolescence

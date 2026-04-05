@@ -1,0 +1,75 @@
+id: vulvovaginitis
+display_name: "Prepubertal Vulvovaginitis"
+aliases:
+  - Vulvitis
+  - Vaginitis
+  - Vulvar irritation
+  - Nonspecific vulvovaginitis
+snomed: "30800001"
+icd10:
+  - N76.0
+  - N77.1
+category: acute
+system: gynecology
+specialties:
+  - peds
+age_range:
+  min_months: 24
+  max_months: 120
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Most common gynecologic complaint in prepubertal girls; usually nonspecific"
+presentation:
+  symptoms:
+    - name: vulvar redness and irritation
+      probability: 0.90
+      description: "Erythema and soreness of vulvar area"
+    - name: vaginal discharge
+      probability: 0.60
+      description: "Thin, non-foul-smelling discharge (if foul or bloody, evaluate further)"
+    - name: dysuria
+      probability: 0.40
+      description: "External dysuria from urine contacting irritated skin"
+    - name: pruritus
+      probability: 0.70
+      description: "Vulvar itching"
+    - name: odor
+      probability: 0.25
+      description: "Mild odor; foul odor suggests foreign body or specific infection"
+  physical_exam:
+    - system: genitourinary
+      finding: "Vulvar erythema and excoriation"
+      probability: 0.85
+    - system: genitourinary
+      finding: "Thin, non-estrogenized mucosa (normal prepubertal)"
+      probability: 0.90
+    - system: genitourinary
+      finding: "No foreign body visible on external exam"
+      probability: 0.85
+    - system: skin
+      finding: "Perianal excoriation or pinworm evidence"
+      probability: 0.15
+diagnostics:
+  labs:
+    - "Urinalysis to rule out UTI"
+    - "Vaginal culture if persistent or purulent discharge"
+    - "Scotch tape test for pinworms if perianal symptoms"
+    - "Consider STI testing if abuse suspected"
+treatment:
+  approach: hygiene_measures
+  medications:
+    - agent: "Mupirocin 2% ointment"
+      rxnorm: "67043"
+      frequency: "BID x 7 days"
+      route: topical
+      indication: "If secondary bacterial infection suspected"
+  patient_instructions:
+    - "Front-to-back wiping technique"
+    - "Avoid bubble baths, harsh soaps, tight clothing"
+    - "Cotton underwear, no underwear at night"
+    - "Sitz baths with warm water 1-2 times daily"
+    - "Apply barrier cream (petroleum jelly or zinc oxide)"
+    - "Return if bloody or foul-smelling discharge, or no improvement in 2 weeks"
+    - "Consider foreign body if persistent foul, bloody discharge"

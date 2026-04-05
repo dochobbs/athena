@@ -1,0 +1,71 @@
+id: cryptorchidism
+display_name: Cryptorchidism
+aliases:
+- Undescended testis
+- Undescended testicle
+- UDT
+snomed: '204878001'
+icd10:
+- Q53.9
+- Q53.10
+- Q53.20
+category: chronic
+system: urology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 24
+  peak:
+  - 0
+  - 6
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 0
+    - 6
+    max: 24
+  gender_bias:
+    male: 1.0
+    female: 0.0
+  risk_factors:
+  - prematurity
+  - low_birth_weight
+  - family_history
+  - maternal_smoking
+prevalence:
+  percent: 3
+  notes: 3% of term newborns, 30% of premature; 80% descend by 3-6 months spontaneously
+presentation:
+  symptoms:
+  - name: absent testis in scrotum
+    probability: 0.95
+    description: "testis not palpable in scrotum on well-child exam"
+  - name: inguinal bulge
+    probability: 0.30
+    description: "palpable testis in inguinal canal"
+  physical_exam:
+  - system: genitourinary
+    finding: "Empty hemiscrotum — testis not palpable in scrotum"
+    probability: 0.90
+  - system: genitourinary
+    finding: "Testis palpable in inguinal canal (palpable UDT)"
+    probability: 0.60
+  - system: genitourinary
+    finding: "Testis non-palpable (may be intra-abdominal or absent)"
+    probability: 0.30
+  - system: genitourinary
+    finding: "Distinguish from retractile testis — can be manipulated to scrotum and stays"
+    probability: 0.20
+treatment:
+  approach: surgical_orchiopexy
+  medications: []
+  patient_instructions:
+  - If testis has not descended by 6 months, unlikely to descend spontaneously
+  - Orchiopexy recommended by 6-12 months of age
+  - Distinguish true UDT from retractile testis (normal variant)
+  - Bilateral non-palpable testes in newborn — urgent evaluation for DSD
+  - Risks of untreated UDT — infertility, testicular cancer, torsion, inguinal hernia
+  - Hormonal therapy (hCG, GnRH) generally not recommended — low success rate
+  - Laparoscopy for non-palpable testis to locate or confirm absent testis

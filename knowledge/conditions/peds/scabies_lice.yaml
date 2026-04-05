@@ -1,0 +1,68 @@
+id: scabies_lice
+display_name: Scabies and Lice
+aliases:
+- Scabies
+- Head lice
+- Pediculosis
+- Sarcoptes scabiei
+- Pediculosis capitis
+snomed: '128869009'
+icd10:
+- B86
+- B85.0
+- B85.2
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: intense pruritus
+    probability: 0.95
+    description: "Severe itching, worse at night (scabies) or scalp itching (lice)"
+  - name: scalp pruritus
+    probability: 0.60
+    description: "Itching of scalp, especially behind ears and at nape (lice)"
+  - name: rash in web spaces
+    probability: 0.50
+    description: "Papules, vesicles, and burrows in finger web spaces, wrists, axillae (scabies)"
+  - name: household contacts affected
+    probability: 0.50
+    description: "Family members or close contacts with similar symptoms"
+  physical_exam:
+  - system: skin
+    finding: "Burrows, papules, and vesicles in web spaces, wrists, waistline (scabies)"
+    probability: 0.60
+  - system: skin
+    finding: "Excoriations and secondary impetiginization from scratching"
+    probability: 0.50
+  - system: skin
+    finding: "Nits (eggs) firmly attached to hair shafts near scalp (lice)"
+    probability: 0.55
+  - system: skin
+    finding: "Live lice on scalp or nape of neck"
+    probability: 0.40
+treatment:
+  approach: topical_antiparasitic
+  medications:
+  - agent: Permethrin 5% cream
+    rxnorm: '8055'
+    frequency: "Single overnight application, repeat in 1 week"
+    route: topical
+    indication: "First-line treatment for scabies"
+  - agent: Permethrin 1% rinse
+    rxnorm: '8055'
+    frequency: "Single application for 10 minutes, repeat in 7-10 days"
+    route: topical
+    indication: "First-line treatment for head lice"
+  - agent: Ivermectin
+    rxnorm: '6474'
+    frequency: "Single dose, repeat in 1-2 weeks"
+    route: oral
+    indication: "Crusted scabies or treatment-resistant cases"

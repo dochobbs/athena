@@ -1,0 +1,63 @@
+id: tongue_tie
+display_name: "Tongue-Tie (Ankyloglossia)"
+aliases:
+  - Ankyloglossia
+  - Short frenulum
+  - Lip tie
+snomed: "67787004"
+icd10:
+  - Q38.1
+category: acute
+system: ent
+specialties:
+  - peds
+age_range:
+  min_months: 0
+  max_months: 72
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  percent: 5
+  male_to_female_ratio: 2.5
+  notes: "4-10% of newborns; many are asymptomatic"
+presentation:
+  symptoms:
+    - name: breastfeeding difficulty
+      probability: 0.60
+      description: "Poor latch, nipple pain, inadequate milk transfer"
+    - name: restricted tongue mobility
+      probability: 0.90
+      description: "Unable to extend tongue past lower gum ridge"
+    - name: heart-shaped tongue tip
+      probability: 0.50
+      description: "Tongue tip notched when extended"
+    - name: clicking during feeding
+      probability: 0.40
+      description: "Loss of suction, clicking sounds while nursing"
+    - name: slow weight gain
+      probability: 0.25
+      description: "Inadequate weight gain from poor feeding"
+  physical_exam:
+    - system: heent
+      finding: "Short, tight lingual frenulum restricting tongue elevation and protrusion"
+      probability: 0.90
+    - system: heent
+      finding: "Heart-shaped or notched tongue tip on extension"
+      probability: 0.50
+    - system: heent
+      finding: "Hazelbaker score indicating significant restriction"
+      probability: 0.40
+treatment:
+  approach: frenotomy_if_symptomatic
+  items:
+    - category: assessment
+      description: "Assess functional impact on breastfeeding before intervention"
+    - category: procedure
+      description: "Frenotomy (frenulotomy) for symptomatic cases; quick bedside procedure"
+    - category: referral
+      description: "Lactation consultant for feeding support before and after procedure"
+    - category: education
+      description: "Not all tongue-ties require treatment; treat only if functionally impaired"
+    - category: follow-up
+      description: "Reassess feeding within 1-2 weeks post-procedure"

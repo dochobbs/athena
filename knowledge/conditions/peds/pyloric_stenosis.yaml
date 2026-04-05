@@ -1,0 +1,59 @@
+id: pyloric_stenosis
+display_name: Pyloric Stenosis
+aliases:
+- Infantile hypertrophic pyloric stenosis
+- IHPS
+snomed: '8601000'
+icd10:
+- Q40.0
+- K31.1
+category: acute
+system: gi
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 4
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: projectile vomiting
+    probability: 0.95
+    description: "Non-bilious, forceful projectile vomiting after feeds, worsening over days"
+  - name: hungry after vomiting
+    probability: 0.85
+    description: "Infant remains hungry and eager to feed immediately after emesis"
+  - name: weight loss or poor gain
+    probability: 0.70
+    description: "Failure to thrive from progressive feeding intolerance"
+  - name: dehydration
+    probability: 0.60
+    description: "Decreased wet diapers, sunken fontanelle, dry mucous membranes"
+  physical_exam:
+  - system: abdomen
+    finding: "Palpable olive-shaped mass in right upper quadrant (pyloric olive)"
+    probability: 0.50
+  - system: abdomen
+    finding: "Visible gastric peristaltic waves moving left to right"
+    probability: 0.40
+  - system: skin
+    finding: "Signs of dehydration: dry mucous membranes, decreased skin turgor"
+    probability: 0.55
+  - system: heent
+    finding: "Sunken anterior fontanelle"
+    probability: 0.40
+treatment:
+  approach: surgical_pyloromyotomy
+  medications:
+  - agent: Normal Saline
+    rxnorm: '313002'
+    frequency: "IV bolus and maintenance"
+    route: intravenous
+    indication: "Fluid resuscitation and correction of hypochloremic metabolic alkalosis"
+  - agent: Potassium Chloride
+    rxnorm: '8591'
+    frequency: "Added to IV fluids per electrolyte correction"
+    route: intravenous
+    indication: "Correction of hypokalemia from vomiting"

@@ -1,0 +1,61 @@
+id: short_stature
+display_name: Short Stature
+aliases:
+- Growth failure
+- Growth delay
+- Constitutional growth delay
+- Familial short stature
+snomed: '237837007'
+icd10:
+- E34.3
+- R62.52
+category: chronic
+system: endocrine
+specialties:
+- peds
+age_range:
+  min_months: 24
+  max_months: 216
+complexity:
+  student: moderate
+  resident: moderate
+presentation:
+  symptoms:
+  - name: height below 3rd percentile
+    probability: 0.90
+    description: "Height consistently below 3rd percentile or >2 SD below mean"
+  - name: decreased growth velocity
+    probability: 0.60
+    description: "Growth rate crossing percentiles downward"
+  - name: delayed puberty
+    probability: 0.35
+    description: "Constitutional delay with late pubertal onset"
+  - name: short parental height
+    probability: 0.40
+    description: "Familial short stature with midparental height in low range"
+  physical_exam:
+  - system: endocrine
+    finding: "Height below 3rd percentile or >2 SD below mean for age"
+    probability: 0.90
+  - system: endocrine
+    finding: "Proportionate short stature with normal body proportions"
+    probability: 0.70
+  - system: endocrine
+    finding: "Delayed bone age on wrist radiograph (constitutional delay)"
+    probability: 0.40
+  - system: endocrine
+    finding: "Disproportionate short stature with short limbs (skeletal dysplasia)"
+    probability: 0.10
+treatment:
+  approach: evaluation_and_targeted_therapy
+  medications:
+  - agent: Growth Hormone
+    rxnorm: '52582'
+    frequency: "Daily subcutaneous injection"
+    route: subcutaneous
+    indication: "Growth hormone deficiency, Turner syndrome, SGA without catch-up"
+  - agent: Levothyroxine
+    rxnorm: '10582'
+    frequency: "Daily"
+    route: oral
+    indication: "Hypothyroidism-related growth failure"

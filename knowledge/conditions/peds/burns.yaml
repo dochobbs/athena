@@ -1,0 +1,94 @@
+id: burns
+display_name: Burns
+aliases:
+- Thermal burn
+- Scald burn
+- Pediatric burn
+snomed: '125666000'
+icd10:
+- T30.0
+- T20.00XA
+- T21.00XA
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+  peak:
+  - 12
+  - 48
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 12
+    - 36
+    max: 216
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - toddler_age
+  - inadequate_supervision
+  - hot_liquid_access
+  - house_fire_exposure
+prevalence:
+  notes: Scalds are most common burn type in young children; consider NAT with atypical patterns
+presentation:
+  symptoms:
+  - name: pain
+    probability: 0.95
+    description: "pain at burn site, severity varies with depth"
+  - name: erythema
+    probability: 0.90
+    description: "redness of affected skin"
+  - name: blistering
+    probability: 0.50
+    description: "vesicles or bullae indicate partial thickness"
+  - name: tissue damage
+    probability: 0.20
+    description: "white, leathery, or charred tissue in full thickness burns"
+  physical_exam:
+  - system: skin
+    finding: "Superficial — erythema, painful, blanches"
+    probability: 0.40
+  - system: skin
+    finding: "Partial thickness — blisters, moist, very painful"
+    probability: 0.40
+  - system: skin
+    finding: "Full thickness — white or charred, insensate, does not blanch"
+    probability: 0.15
+  - system: general
+    finding: "Assess TBSA using Lund-Browder chart (NOT rule of 9s in children)"
+    probability: 1.0
+treatment:
+  approach: wound_care_and_fluid_resuscitation
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: "Q6H"
+    route: oral
+    indication: "pain management for minor burns"
+  - agent: Silver Sulfadiazine
+    rxnorm: '9524'
+    frequency: "BID topical application"
+    route: topical
+    indication: "partial thickness burns (NOT face, NOT <2 months)"
+  - agent: Morphine
+    rxnorm: '7052'
+    dose_mg_kg: 0.1
+    max_dose_mg: 4
+    frequency: "Q3-4H PRN"
+    route: intravenous
+    indication: "moderate-severe burn pain"
+  patient_instructions:
+  - Cool running water for 20 minutes (NOT ice)
+  - Parkland formula for fluid resuscitation if >10% TBSA
+  - Use Lund-Browder chart for TBSA in children
+  - Burn center referral for >10% TBSA, full thickness, face/hands/feet/genitals
+  - Always assess for non-accidental trauma — pattern burns, stocking-glove distribution
+  - Tetanus prophylaxis if not up to date

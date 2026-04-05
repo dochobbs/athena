@@ -1,0 +1,51 @@
+id: scoliosis
+display_name: Scoliosis
+aliases:
+- Adolescent idiopathic scoliosis
+- AIS
+- Spinal curvature
+snomed: '298382003'
+icd10:
+- M41.00
+- M41.119
+- M41.129
+category: chronic
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 96
+  max_months: 216
+complexity:
+  student: moderate
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: asymmetric shoulders or waistline
+    probability: 0.80
+    description: "Uneven shoulder heights, asymmetric waist creases, or trunk shift"
+  - name: incidental finding on screening
+    probability: 0.60
+    description: "Detected on school screening or well-child exam"
+  - name: back pain
+    probability: 0.25
+    description: "Mild back discomfort, more common in larger curves"
+  - name: clothing fit asymmetry
+    probability: 0.40
+    description: "Uneven hemline or pant legs of different apparent length"
+  physical_exam:
+  - system: musculoskeletal
+    finding: "Positive Adams forward bend test with rib hump or lumbar prominence"
+    probability: 0.85
+  - system: musculoskeletal
+    finding: "Asymmetric shoulder heights"
+    probability: 0.70
+  - system: musculoskeletal
+    finding: "Asymmetric scapular prominence"
+    probability: 0.60
+  - system: musculoskeletal
+    finding: "Trunk shift or asymmetric waist creases"
+    probability: 0.50
+treatment:
+  approach: observation_bracing_or_surgery
+  medications: []

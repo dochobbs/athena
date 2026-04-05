@@ -1,0 +1,87 @@
+id: breath_holding_spells
+display_name: Breath-Holding Spells
+aliases:
+- Breath holding
+- Cyanotic breath holding
+- Pallid breath holding
+snomed: '271823003'
+icd10:
+- R06.89
+category: acute
+system: neurology
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 72
+  peak:
+  - 12
+  - 24
+demographics:
+  age_months:
+    min: 6
+    peak:
+    - 12
+    - 24
+    max: 72
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - family_history
+  - iron_deficiency
+  - temperamental_intensity
+prevalence:
+  percent: 5
+  notes: Up to 5% of children 6mo-6yr; resolve by age 6 in most
+presentation:
+  symptoms:
+  - name: crying spell followed by apnea
+    probability: 0.95
+    description: "vigorous crying triggered by pain or frustration, then sudden breath holding"
+  - name: cyanosis
+    probability: 0.70
+    description: "child turns blue (cyanotic type) during spell"
+  - name: pallor
+    probability: 0.25
+    description: "child turns pale (pallid type), often after minor injury"
+  - name: loss of consciousness
+    probability: 0.60
+    description: "brief LOC with limpness, may have brief tonic posturing"
+  - name: rapid recovery
+    probability: 0.95
+    description: "returns to baseline within 1-2 minutes"
+  physical_exam:
+  - system: general
+    finding: "Well-appearing child between spells"
+    probability: 0.95
+  - system: neurologic
+    finding: "Normal neurologic exam"
+    probability: 0.95
+  - system: cardiovascular
+    finding: "Normal cardiac exam"
+    probability: 0.95
+diagnostics:
+  labs:
+  - name: CBC
+    loinc: "57021-8"
+    indication: "check for iron deficiency anemia"
+  - name: Ferritin
+    loinc: "2276-4"
+    indication: "iron stores — treat if low"
+treatment:
+  approach: reassurance_and_iron_supplementation
+  medications:
+  - agent: Ferrous Sulfate
+    rxnorm: '4479'
+    dose_mg_kg: 6
+    frequency: "daily, elemental iron"
+    route: oral
+    indication: "iron deficiency — may reduce spell frequency"
+  patient_instructions:
+  - Spells are involuntary — child is NOT doing this on purpose
+  - Place child on side during spell for safety
+  - Do not shake, splash water, or put objects in mouth
+  - Spells are benign and do not cause brain damage
+  - Resolve by age 6 in nearly all children
+  - Check iron studies — iron supplementation may help

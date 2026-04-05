@@ -1,0 +1,84 @@
+id: dental_trauma
+display_name: Dental Trauma
+aliases:
+- Tooth injury
+- Avulsed tooth
+- Tooth fracture
+- Dental avulsion
+snomed: '82271004'
+icd10:
+- S02.5XXA
+- S03.2XXA
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 216
+demographics:
+  age_months:
+    min: 6
+    peak:
+    - 18
+    - 36
+    - 96
+    - 144
+    max: 216
+  gender_bias:
+    male: 0.60
+    female: 0.40
+  risk_factors:
+  - toddler_falls
+  - sports_participation
+  - overjet_malocclusion
+prevalence:
+  notes: 10-30% of children experience dental trauma; peaks at toddler age and school-age sports
+presentation:
+  symptoms:
+  - name: tooth pain
+    probability: 0.80
+    description: "pain at injured tooth or surrounding tissue"
+  - name: bleeding from mouth
+    probability: 0.75
+    description: "bleeding from gingiva or tooth socket"
+  - name: loose tooth
+    probability: 0.50
+    description: "subluxation or luxation of tooth"
+  - name: missing tooth
+    probability: 0.25
+    description: "complete avulsion"
+  - name: tooth fracture
+    probability: 0.40
+    description: "visible chip or fracture line"
+  physical_exam:
+  - system: heent
+    finding: "Fractured tooth — enamel only, dentin exposed (yellow), or pulp exposed (pink/bleeding)"
+    probability: 0.40
+  - system: heent
+    finding: "Subluxated or luxated tooth — increased mobility"
+    probability: 0.30
+  - system: heent
+    finding: "Empty socket — avulsed tooth"
+    probability: 0.20
+  - system: heent
+    finding: "Gingival laceration or contusion"
+    probability: 0.50
+treatment:
+  approach: urgent_dental_referral
+  medications:
+  - agent: Ibuprofen
+    rxnorm: '5640'
+    dose_mg_kg: 10
+    max_dose_mg: 400
+    frequency: "Q6H PRN"
+    route: oral
+    indication: "pain management"
+  patient_instructions:
+  - "PRIMARY TOOTH avulsion — do NOT reimplant (risk of ankylosis/damage to permanent bud)"
+  - "PERMANENT TOOTH avulsion — reimplant ASAP or store in milk/saliva, dental emergency"
+  - Time is critical for permanent teeth — best outcomes if reimplanted within 30 minutes
+  - Handle avulsed tooth by crown only, NOT the root
+  - Dental follow-up within 24 hours for all dental trauma
+  - Ellis class 3 fracture (pulp exposed) requires urgent dental care
+  - Tetanus prophylaxis if not up to date

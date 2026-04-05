@@ -1,0 +1,97 @@
+id: cervical_lymphadenopathy
+display_name: Cervical Lymphadenopathy
+aliases:
+- Swollen lymph nodes
+- Neck lymphadenopathy
+- Cervical adenitis
+snomed: '127087003'
+icd10:
+- R59.0
+- L04.0
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 3
+  max_months: 216
+demographics:
+  age_months:
+    min: 3
+    peak:
+    - 24
+    - 96
+    max: 216
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - recent_URI
+  - dental_infection
+  - cat_exposure
+  - TB_exposure
+prevalence:
+  notes: Extremely common in children; reactive nodes are benign in majority
+presentation:
+  symptoms:
+  - name: palpable neck mass
+    probability: 0.95
+    description: "enlarged, often tender lymph node(s) in neck"
+  - name: tenderness
+    probability: 0.70
+    description: "tender nodes suggest reactive or bacterial etiology"
+  - name: fever
+    probability: 0.50
+    description: "if acute bacterial lymphadenitis"
+  - name: overlying erythema
+    probability: 0.30
+    description: "warmth and redness over node if suppurative"
+  - name: preceding URI symptoms
+    probability: 0.60
+    description: "rhinorrhea, sore throat preceding lymphadenopathy"
+  physical_exam:
+  - system: neck
+    finding: "Enlarged, mobile, tender anterior cervical node(s)"
+    probability: 0.70
+  - system: neck
+    finding: "Fluctuant, erythematous mass (suppurative adenitis)"
+    probability: 0.20
+  - system: heent
+    finding: "Pharyngitis or dental caries as source"
+    probability: 0.40
+  - system: general
+    finding: "Generalized lymphadenopathy (consider systemic illness)"
+    probability: 0.10
+diagnostics:
+  labs:
+  - name: CBC with differential
+    indication: "if concern for systemic illness or malignancy"
+  - name: CRP/ESR
+    indication: "assess degree of inflammation"
+  - name: Bartonella titers
+    indication: "if cat scratch disease suspected"
+  - name: PPD or IGRA
+    indication: "if TB exposure risk"
+  imaging:
+  - name: Ultrasound of neck
+    indication: "differentiate solid vs cystic, assess for abscess"
+treatment:
+  approach: treat_underlying_cause
+  medications:
+  - agent: Amoxicillin-Clavulanate
+    rxnorm: '1043'
+    dose_mg_kg: 45
+    frequency: "divided BID for 10 days"
+    route: oral
+    indication: "bacterial cervical adenitis"
+  - agent: Clindamycin
+    rxnorm: '2582'
+    dose_mg_kg: 30
+    frequency: "divided TID for 10 days"
+    route: oral
+    indication: "if MRSA suspected or penicillin allergy"
+  patient_instructions:
+  - Most cervical lymphadenopathy is reactive and self-limited
+  - Red flags for biopsy — supraclavicular node, >2cm firm/fixed, persistent >4-6 weeks
+  - Bacterial adenitis treated with antibiotics; abscess may need I&D
+  - Consider Kawasaki if unilateral node >1.5cm with fever >5 days

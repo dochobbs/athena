@@ -1,0 +1,52 @@
+id: molluscum
+display_name: Molluscum Contagiosum
+aliases:
+- Molluscum
+- Water warts
+snomed: '40070004'
+icd10:
+- B08.1
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 144
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: flesh-colored papules
+    probability: 0.95
+    description: "Dome-shaped, umbilicated papules 2-5 mm in diameter"
+  - name: pruritus
+    probability: 0.30
+    description: "Mild itching at lesion sites"
+  - name: surrounding eczematous dermatitis
+    probability: 0.25
+    description: "Molluscum dermatitis - eczematous reaction around lesions"
+  physical_exam:
+  - system: skin
+    finding: "Pearly, flesh-colored dome-shaped papules with central umbilication"
+    probability: 0.95
+  - system: skin
+    finding: "Grouped lesions from autoinoculation in skin folds"
+    probability: 0.50
+  - system: skin
+    finding: "Inflamed or erythematous lesions (BOTE sign - beginning of the end)"
+    probability: 0.20
+treatment:
+  approach: observation_or_destruction
+  medications:
+  - agent: Cantharidin
+    rxnorm: '1810'
+    frequency: "Applied in clinic, washed off in 2-4 hours"
+    route: topical
+    indication: "Office-based treatment for bothersome lesions"
+  - agent: Imiquimod
+    rxnorm: '57616'
+    frequency: "3 times weekly at bedtime for 8-16 weeks"
+    route: topical
+    indication: "Home treatment option for persistent lesions"

@@ -1,0 +1,56 @@
+id: paronychia
+display_name: Paronychia
+aliases:
+- Nail infection
+- Periungual infection
+- Whitlow
+snomed: '71906004'
+icd10:
+- L03.019
+category: acute
+system: dermatology
+specialties:
+- peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+presentation:
+  symptoms:
+  - name: periungual pain and swelling
+    probability: 0.95
+    description: "Throbbing pain along lateral or proximal nail fold"
+  - name: erythema at nail fold
+    probability: 0.90
+    description: "Red, warm, swollen skin adjacent to nail"
+  - name: purulent drainage
+    probability: 0.50
+    description: "Pus visible beneath or alongside nail fold"
+  - name: history of nail biting or hangnail
+    probability: 0.60
+    description: "Preceding trauma from nail biting, thumb sucking, or hangnail"
+  physical_exam:
+  - system: skin
+    finding: "Erythema and edema of lateral or proximal nail fold"
+    probability: 0.95
+  - system: skin
+    finding: "Fluctuant abscess at nail margin"
+    probability: 0.50
+  - system: skin
+    finding: "Purulent material visible beneath cuticle or nail edge"
+    probability: 0.45
+treatment:
+  approach: warm_soaks_or_drainage
+  medications:
+  - agent: Cephalexin
+    rxnorm: '2231'
+    frequency: "QID for 7 days"
+    route: oral
+    indication: "Surrounding cellulitis or failed conservative management"
+  - agent: Trimethoprim-Sulfamethoxazole
+    rxnorm: '10831'
+    frequency: "BID for 7 days"
+    route: oral
+    indication: "Suspected MRSA paronychia"

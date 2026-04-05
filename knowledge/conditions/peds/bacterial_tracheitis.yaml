@@ -1,0 +1,109 @@
+id: bacterial_tracheitis
+display_name: Bacterial Tracheitis
+aliases:
+- Bacterial croup
+- Membranous tracheitis
+- Pseudomembranous croup
+snomed: '81325006'
+icd10:
+- J04.10
+category: acute
+system: pulmonary
+specialties:
+- peds
+age_range:
+  min_months: 6
+  max_months: 96
+  peak:
+  - 12
+  - 60
+demographics:
+  age_months:
+    min: 6
+    peak:
+    - 24
+    - 48
+    max: 96
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - preceding_viral_croup
+  - recent_intubation
+prevalence:
+  notes: Rare but life-threatening; most common cause of acute upper airway obstruction requiring ICU
+seasonality:
+  peak_months:
+  - 10
+  - 11
+  - 12
+  - 1
+  - 2
+presentation:
+  symptoms:
+  - name: high fever
+    probability: 0.90
+    description: "toxic-appearing with fever >39C"
+  - name: barky cough
+    probability: 0.80
+    description: "croup-like cough that does not respond to standard treatment"
+  - name: stridor
+    probability: 0.85
+    description: "progressive stridor, biphasic"
+  - name: respiratory distress
+    probability: 0.75
+    description: "worsening despite racemic epinephrine and dexamethasone"
+  - name: purulent secretions
+    probability: 0.70
+    description: "thick, purulent tracheal secretions"
+  physical_exam:
+  - system: respiratory
+    finding: "Stridor — inspiratory or biphasic"
+    probability: 0.85
+  - system: respiratory
+    finding: "Retractions — suprasternal, intercostal, subcostal"
+    probability: 0.75
+  - system: general
+    finding: "Toxic appearance with high fever"
+    probability: 0.85
+  - system: respiratory
+    finding: "Poor response to nebulized epinephrine"
+    probability: 0.70
+vitals_impact:
+  temp_f:
+  - 102.0
+  - 104.0
+  hr_multiplier: 1.25
+  rr_multiplier: 1.3
+  spo2_min: 88
+diagnostics:
+  labs:
+  - name: CBC with differential
+    indication: "leukocytosis with bandemia"
+  - name: Blood culture
+    indication: "identify bacteremia"
+  imaging:
+  - name: AP neck radiograph
+    indication: "subglottic narrowing with irregular tracheal margins, pseudomembrane"
+treatment:
+  approach: airway_management_and_iv_antibiotics
+  medications:
+  - agent: Ceftriaxone
+    rxnorm: '2193'
+    dose_mg_kg: 50
+    max_dose_mg: 2000
+    frequency: "daily IV"
+    route: intravenous
+    indication: "broad-spectrum coverage pending cultures"
+  - agent: Vancomycin
+    rxnorm: '11124'
+    dose_mg_kg: 15
+    frequency: "Q6H IV"
+    route: intravenous
+    indication: "MRSA coverage if suspected"
+  patient_instructions:
+  - Requires ICU admission and close airway monitoring
+  - Often requires intubation for airway protection and suctioning
+  - S. aureus is the most common pathogen
+  - Differentiate from croup — does not respond to racemic epi or steroids
+  - Typical course 3-7 days of IV antibiotics

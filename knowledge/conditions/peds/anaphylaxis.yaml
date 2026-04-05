@@ -1,0 +1,104 @@
+id: anaphylaxis
+display_name: Anaphylaxis
+aliases:
+- Anaphylactic reaction
+- Severe allergic reaction
+- Anaphylactic shock
+snomed: '39579001'
+icd10:
+- T78.2XXA
+- T78.00XA
+category: acute
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 216
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 12
+    - 120
+    max: 216
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - known_food_allergy
+  - prior_anaphylaxis
+  - asthma
+  - atopic_dermatitis
+  - insect_venom_allergy
+prevalence:
+  notes: Incidence rising; food is the most common trigger in children
+presentation:
+  symptoms:
+  - name: urticaria
+    probability: 0.85
+    description: "diffuse hives, pruritus, flushing"
+  - name: angioedema
+    probability: 0.60
+    description: "swelling of lips, tongue, face, or throat"
+  - name: respiratory distress
+    probability: 0.70
+    description: "wheezing, stridor, dyspnea, throat tightness"
+  - name: vomiting or diarrhea
+    probability: 0.45
+    description: "abdominal pain, nausea, vomiting"
+  - name: hypotension
+    probability: 0.30
+    description: "dizziness, syncope, shock"
+  physical_exam:
+  - system: skin
+    finding: "Diffuse urticaria and erythema"
+    probability: 0.85
+  - system: respiratory
+    finding: "Wheezing, stridor, or decreased air entry"
+    probability: 0.60
+  - system: cardiovascular
+    finding: "Tachycardia, hypotension"
+    probability: 0.40
+  - system: heent
+    finding: "Lip and tongue angioedema"
+    probability: 0.50
+vitals_impact:
+  hr_multiplier: 1.3
+  rr_multiplier: 1.2
+  spo2_min: 88
+treatment:
+  approach: epinephrine_first
+  medications:
+  - agent: Epinephrine
+    rxnorm: '3992'
+    dose_mg_kg: 0.01
+    max_dose_mg: 0.5
+    frequency: "IM, repeat Q5-15 min PRN"
+    route: intramuscular
+    indication: "first-line for anaphylaxis — do not delay"
+  - agent: Diphenhydramine
+    rxnorm: '3498'
+    dose_mg_kg: 1.25
+    max_dose_mg: 50
+    frequency: "Q6H"
+    route: oral
+    indication: "adjunct for urticaria, NOT a substitute for epinephrine"
+  - agent: Methylprednisolone
+    rxnorm: '6902'
+    dose_mg_kg: 1
+    max_dose_mg: 125
+    frequency: "single dose"
+    route: intravenous
+    indication: "prevent biphasic reaction"
+  - agent: Albuterol
+    rxnorm: '435'
+    frequency: "nebulized Q20 min PRN"
+    route: inhaled
+    indication: "bronchospasm"
+  patient_instructions:
+  - Epinephrine is FIRST-LINE — give immediately
+  - Observe 4-6 hours minimum for biphasic reaction
+  - Prescribe epinephrine auto-injector at discharge
+  - Refer to allergist for trigger identification
+  - Develop anaphylaxis action plan for school

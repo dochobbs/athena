@@ -1,0 +1,80 @@
+id: epistaxis
+display_name: Epistaxis
+aliases:
+- Nosebleed
+- Nasal bleeding
+- Anterior epistaxis
+snomed: '12441001'
+icd10:
+- R04.0
+category: acute
+system: ent
+specialties:
+- peds
+age_range:
+  min_months: 24
+  max_months: 216
+  peak:
+  - 36
+  - 120
+demographics:
+  age_months:
+    min: 24
+    peak:
+    - 36
+    - 120
+    max: 216
+  gender_bias:
+    male: 0.55
+    female: 0.45
+  risk_factors:
+  - nose_picking
+  - dry_air
+  - allergic_rhinitis
+  - topical_nasal_steroids
+  - bleeding_disorder
+prevalence:
+  percent: 30
+  notes: Very common; 30% of children have at least one episode; 90% are anterior from Kiesselbach plexus
+presentation:
+  symptoms:
+  - name: unilateral nasal bleeding
+    probability: 0.90
+    description: "bleeding from one nostril, typically anterior"
+  - name: recurrent episodes
+    probability: 0.40
+    description: "repeated nosebleeds, often from same side"
+  - name: blood swallowing
+    probability: 0.20
+    description: "posterior drainage with nausea/hematemesis"
+  physical_exam:
+  - system: heent
+    finding: "Active bleeding from anterior septum (Kiesselbach plexus)"
+    probability: 0.80
+  - system: heent
+    finding: "Visible prominent vessel or excoriation on septum"
+    probability: 0.50
+  - system: heent
+    finding: "Dry, crusted nasal mucosa"
+    probability: 0.40
+treatment:
+  approach: direct_pressure_and_prevention
+  medications:
+  - agent: Oxymetazoline Nasal Spray
+    rxnorm: '7762'
+    frequency: "2 sprays to bleeding nostril, then pinch"
+    route: nasal
+    indication: "vasoconstriction for active bleeding"
+  - agent: Petroleum Jelly
+    rxnorm: '8031'
+    frequency: "BID to anterior septum"
+    route: topical
+    indication: "prevention — moisturize nasal mucosa"
+  patient_instructions:
+  - Pinch soft part of nose firmly for 10-15 continuous minutes
+  - Lean FORWARD, not back (prevent blood swallowing)
+  - Oxymetazoline spray before pressure can help
+  - Prevent recurrence — humidifier, saline spray, petroleum jelly to septum
+  - Red flags — bilateral, posterior, recurrent despite treatment, easy bruising
+  - If bleeding disorder suspected — check CBC, PT/PTT, von Willebrand panel
+  - ENT referral for recurrent epistaxis — may need cauterization

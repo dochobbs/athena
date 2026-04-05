@@ -1,0 +1,79 @@
+id: speech_delay
+display_name: "Speech and Language Delay"
+aliases:
+  - Language delay
+  - Late talker
+  - Expressive language delay
+  - Receptive language delay
+snomed: "229721007"
+icd10:
+  - F80.1
+  - F80.2
+  - F80.9
+  - R47.89
+category: chronic
+system: developmental
+specialties:
+  - peds
+age_range:
+  min_months: 12
+  max_months: 72
+complexity:
+  student: moderate
+  resident: straightforward
+prevalence:
+  percent: 10
+  male_to_female_ratio: 2.0
+  notes: "5-10% of preschoolers; boys affected more often"
+presentation:
+  symptoms:
+    - name: limited vocabulary for age
+      probability: 0.90
+      description: "Fewer than 50 words by 24 months or no 2-word phrases"
+    - name: difficulty following directions
+      probability: 0.50
+      description: "Cannot follow 1-step commands by 12-15 months"
+    - name: reduced babbling
+      probability: 0.40
+      description: "Limited consonant-vowel combinations by 9-12 months"
+    - name: frustration with communication
+      probability: 0.60
+      description: "Tantrums, pointing instead of verbalizing"
+    - name: difficulty being understood
+      probability: 0.70
+      description: "Speech intelligibility below expected for age"
+  physical_exam:
+    - system: heent
+      finding: "Normal ear exam (rule out effusion)"
+      probability: 0.85
+    - system: neurological
+      finding: "Normal tone and motor milestones"
+      probability: 0.80
+    - system: general
+      finding: "Appropriate social engagement and eye contact"
+      probability: 0.75
+diagnostics:
+  screening:
+    - "MCHAT-R/F at 18 and 24 months"
+    - "ASQ-3 developmental screening"
+    - "Audiogram to rule out hearing loss"
+treatment:
+  approach: early_intervention_referral
+  items:
+    - category: referral
+      description: "Speech-language pathology evaluation"
+    - category: referral
+      description: "Audiology for hearing assessment"
+    - category: referral
+      description: "Early Intervention (birth-3) or school district (3+)"
+    - category: education
+      description: "Read aloud daily, narrate activities, reduce screen time"
+    - category: follow-up
+      description: "Reassess in 3 months; consider developmental pediatrics if global delay"
+comorbidities:
+  strong:
+    - autism_spectrum_disorder
+    - hearing_loss
+  moderate:
+    - chronic_otitis_media
+    - learning_disabilities

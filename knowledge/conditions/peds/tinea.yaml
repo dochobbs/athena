@@ -1,0 +1,68 @@
+id: tinea
+display_name: "Tinea Corporis"
+aliases:
+  - Ringworm (body)
+  - Dermatophyte infection
+  - Tinea corporis
+snomed: "47382004"
+icd10:
+  - B35.4
+category: acute
+system: dermatology
+specialties:
+  - peds
+age_range:
+  min_months: 12
+  max_months: 216
+complexity:
+  student: straightforward
+  resident: straightforward
+prevalence:
+  notes: "Common in school-age children; spread by contact with infected persons, animals, or fomites"
+presentation:
+  symptoms:
+    - name: annular rash
+      probability: 0.90
+      description: "Ring-shaped, erythematous patch with central clearing"
+    - name: pruritus
+      probability: 0.70
+      description: "Mild to moderate itching"
+    - name: scaling
+      probability: 0.80
+      description: "Fine scale at advancing border"
+    - name: gradual expansion
+      probability: 0.75
+      description: "Lesion slowly enlarges over days to weeks"
+  physical_exam:
+    - system: skin
+      finding: "Annular erythematous plaque with raised, scaly border and central clearing"
+      probability: 0.85
+    - system: skin
+      finding: "May have multiple lesions or satellite lesions"
+      probability: 0.30
+    - system: skin
+      finding: "KOH prep positive for hyphae"
+      probability: 0.85
+diagnostics:
+  labs:
+    - "KOH preparation of skin scraping showing hyphae"
+    - "Fungal culture if diagnosis uncertain"
+treatment:
+  approach: topical_antifungal
+  medications:
+    - agent: "Clotrimazole 1% cream"
+      rxnorm: "2623"
+      frequency: "BID x 2-4 weeks"
+      route: topical
+      indication: "First-line for limited tinea corporis"
+    - agent: "Terbinafine 1% cream"
+      rxnorm: "37801"
+      frequency: "Daily-BID x 1-2 weeks"
+      route: topical
+      indication: "Alternative topical antifungal"
+  patient_instructions:
+    - "Apply antifungal 1-2 cm beyond border of rash"
+    - "Continue treatment 1 week after rash has cleared"
+    - "Do not share towels, clothing, or sports equipment"
+    - "Keep skin clean and dry"
+    - "If no improvement in 2-4 weeks, may need oral antifungal"

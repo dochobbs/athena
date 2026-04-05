@@ -1,0 +1,99 @@
+id: failure_to_thrive
+display_name: Failure to Thrive
+aliases:
+- FTT
+- Poor weight gain
+- Growth faltering
+- Faltering growth
+snomed: '432788009'
+icd10:
+- R62.51
+- P92.6
+category: chronic
+system: general
+specialties:
+- peds
+age_range:
+  min_months: 0
+  max_months: 60
+  peak:
+  - 0
+  - 24
+demographics:
+  age_months:
+    min: 0
+    peak:
+    - 3
+    - 18
+    max: 60
+  gender_bias:
+    male: 0.50
+    female: 0.50
+  risk_factors:
+  - poverty
+  - food_insecurity
+  - parental_mental_illness
+  - breastfeeding_difficulties
+  - neglect
+  - prematurity
+  - chronic_illness
+prevalence:
+  percent: 5
+  notes: 5-10% of primary care encounters; inadequate caloric intake is cause in >90%
+presentation:
+  symptoms:
+  - name: poor weight gain
+    probability: 0.95
+    description: "weight <3rd percentile or crossing 2+ major percentile lines downward"
+  - name: decreased subcutaneous fat
+    probability: 0.60
+    description: "visible loss of subcutaneous tissue"
+  - name: developmental delay
+    probability: 0.30
+    description: "if chronic and severe malnutrition"
+  - name: feeding difficulties
+    probability: 0.50
+    description: "poor latch, picky eating, oral aversion"
+  - name: irritability or lethargy
+    probability: 0.25
+    description: "behavioral changes with severe malnutrition"
+  physical_exam:
+  - system: general
+    finding: "Weight <3rd percentile or falling across 2+ percentile lines"
+    probability: 0.90
+  - system: general
+    finding: "Decreased subcutaneous fat — loose skin, visible ribs"
+    probability: 0.50
+  - system: general
+    finding: "Muscle wasting — temporal, gluteal"
+    probability: 0.30
+  - system: skin
+    finding: "Thin, dry skin and sparse hair"
+    probability: 0.20
+diagnostics:
+  labs:
+  - name: CBC
+    indication: "anemia screening"
+  - name: CMP
+    indication: "electrolytes, renal function, liver function"
+  - name: Lead level
+    indication: "if risk factors present"
+  - name: Urinalysis
+    indication: "UTI or renal disease screening"
+  - name: TSH
+    indication: "thyroid disease screening"
+  - name: Celiac panel (tTG-IgA)
+    indication: "if GI symptoms or age >1 year"
+treatment:
+  approach: increase_caloric_intake
+  medications: []
+  patient_instructions:
+  - Detailed feeding history is the most important diagnostic tool
+  - Calculate caloric intake — most FTT is inadequate caloric intake
+  - Goal 150% of recommended calories for catch-up growth
+  - Fortify breast milk or formula (concentrate to 24-27 kcal/oz)
+  - Frequent weight checks — weekly initially
+  - Address social determinants — WIC, food assistance, home visiting
+  - Organic causes (<10%) — celiac, GERD, CF, UTI, heart disease
+  - Consider neglect or food insecurity — mandatory reporting if suspected
+  - Hospitalization if severe (<60% expected weight) or concern for abuse/neglect
