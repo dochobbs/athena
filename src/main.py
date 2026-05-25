@@ -23,17 +23,24 @@ from .routers import (
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+  import sys
   settings = get_settings()
   knowledge_path = settings.get_knowledge_path()
   print(f"Athena starting on {settings.athena_host}:{settings.athena_port}")
   print(f"Loading knowledge from: {knowledge_path}")
-  store = KnowledgeStore(knowledge_path)
-  resolver = KnowledgeResolver(store)
-  init_knowledge(store, resolver)
-  conds = store.get_all_conditions()
-  fws = store.get_all_frameworks()
-  specs = store.get_all_specialties()
-  print(f"Loaded: {len(conds)} conditions, {len(fws)} frameworks, {len(specs)} specialties")
+  try:
+    store = KnowledgeStore(knowledge_path)
+    resolver = KnowledgeResolver(store)
+    init_knowledge(store, resolver)
+    conds = store.get_all_conditions()
+    fws = store.get_all_frameworks()
+    specs = store.get_all_specialties()
+    print(f"Loaded: {len(conds)} conditions, {len(fws)} frameworks, {len(specs)} specialties")
+    if not conds and not fws:
+      print("WARNING: Athena loaded 0 conditions and 0 frameworks. Check knowledge_path.", file=sys.stderr)
+  except Exception as e:
+    print(f"FATAL: Athena failed to initialize knowledge store: {e}", file=sys.stderr)
+    raise
   yield
   print("Athena shutting down")
 

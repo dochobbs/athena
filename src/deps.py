@@ -5,6 +5,8 @@ Separating these from main.py avoids circular imports
 """
 from __future__ import annotations
 
+from fastapi import HTTPException
+
 from .loader import KnowledgeStore
 from .resolver import KnowledgeResolver
 
@@ -19,10 +21,24 @@ def init_knowledge(store: KnowledgeStore, resolver: KnowledgeResolver):
 
 
 def get_store() -> KnowledgeStore:
-  assert _store is not None, "KnowledgeStore not initialized — call init_knowledge first"
+  if _store is None:
+    raise HTTPException(status_code=503, detail="Athena knowledge store not initialized")
   return _store
 
 
 def get_resolver() -> KnowledgeResolver:
-  assert _resolver is not None, "KnowledgeResolver not initialized — call init_knowledge first"
+  if _resolver is None:
+    raise HTTPException(status_code=503, detail="Athena resolver not initialized")
   return _resolver
+
+
+VALID_SPECIALTIES = {"pediatrics", "internal_medicine", "family_practice"}
+
+
+def validate_specialty(specialty: str | None) -> None:
+  """Reject unknown specialty values with 400 instead of silently returning []."""
+  if specialty and specialty not in VALID_SPECIALTIES:
+    raise HTTPException(
+      status_code=400,
+      detail=f"Unknown specialty '{specialty}'. Valid: {sorted(VALID_SPECIALTIES)}",
+    )

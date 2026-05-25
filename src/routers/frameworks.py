@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Query
 
-from ..deps import get_resolver, get_store
+from ..deps import get_resolver, get_store, validate_specialty
 
 router = APIRouter(prefix="/api/frameworks", tags=["frameworks"])
 
@@ -10,6 +10,7 @@ async def list_frameworks(
   specialty: str | None = Query(None),
   category: str | None = Query(None),
 ):
+  validate_specialty(specialty)
   if specialty:
     resolver = get_resolver()
     frameworks = resolver.resolve_frameworks(specialty=specialty, category=category)
@@ -27,6 +28,7 @@ async def get_framework_for_condition(
   specialty: str = Query(..., description="Required: which specialty context"),
   level: str | None = Query(None),
 ):
+  validate_specialty(specialty)
   resolver = get_resolver()
   fw = resolver.resolve_framework_for_condition(
     condition=condition_id, specialty=specialty, level=level,

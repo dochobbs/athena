@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Query
 
-from ..deps import get_resolver, get_store
+from ..deps import get_resolver, get_store, validate_specialty
 
 router = APIRouter(prefix="/api/disease-arcs", tags=["disease-arcs"])
 
@@ -9,6 +9,7 @@ router = APIRouter(prefix="/api/disease-arcs", tags=["disease-arcs"])
 async def list_disease_arcs(
   specialty: str | None = Query(None),
 ):
+  validate_specialty(specialty)
   if specialty:
     resolver = get_resolver()
     arcs = resolver.resolve_disease_arcs(specialty=specialty)

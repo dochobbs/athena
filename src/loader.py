@@ -39,8 +39,11 @@ class KnowledgeStore:
   def _load_yaml(self, path: Path) -> dict | list | None:
     if not path.exists():
       return None
-    with open(path, "r") as f:
-      return yaml.safe_load(f)
+    try:
+      with open(path, "r") as f:
+        return yaml.safe_load(f)
+    except yaml.YAMLError as e:
+      raise RuntimeError(f"Malformed YAML in {path}: {e}") from e
 
   def _load_yaml_dir(self, directory: Path) -> list[tuple[dict, str]]:
     """Load all YAML files from a directory. Returns (data, filename_stem) pairs."""

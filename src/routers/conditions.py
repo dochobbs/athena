@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Query
 
-from ..deps import get_resolver, get_store
+from ..deps import get_resolver, get_store, validate_specialty
 
 router = APIRouter(prefix="/api/conditions", tags=["conditions"])
 
@@ -12,6 +12,7 @@ async def list_conditions(
   level: str | None = Query(None, description="Filter by learner level: student, resident, attending"),
   system: str | None = Query(None, description="Filter by organ system: pulmonary, gi, cardiology, etc."),
 ):
+  validate_specialty(specialty)
   if specialty:
     resolver = get_resolver()
     conditions = resolver.resolve_conditions(

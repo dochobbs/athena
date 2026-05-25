@@ -151,8 +151,34 @@ class TestDiseaseArcsAPI:
     assert r.status_code == 200
 
 
-class TestImmunizationsAPI:
-  def test_list_immunizations_empty(self, client):
-    r = client.get("/api/immunizations")
+class TestSpecialtyValidation:
+  """Unknown specialty returns 400, not silent empty results."""
+
+  def test_unknown_specialty_conditions(self, client):
+    r = client.get("/api/conditions?specialty=dermatology")
+    assert r.status_code == 400
+    assert "dermatology" in r.json()["detail"]
+
+  def test_unknown_specialty_frameworks(self, client):
+    r = client.get("/api/frameworks?specialty=dermatology")
+    assert r.status_code == 400
+
+  def test_unknown_specialty_disease_arcs(self, client):
+    r = client.get("/api/disease-arcs?specialty=dermatology")
+    assert r.status_code == 400
+
+  def test_unknown_specialty_learner_tracks(self, client):
+    r = client.get("/api/learner-tracks?specialty=dermatology")
+    assert r.status_code == 400
+
+  def test_valid_specialty_still_works(self, client):
+    r = client.get("/api/conditions?specialty=pediatrics")
     assert r.status_code == 200
-    assert r.json() == []
+
+
+class TestImmunizationsAPI:
+  def test_list_immunizations_not_implemented(self, client):
+    """Endpoint returns 501 until immunization loader is wired (YAMLs exist)."""
+    r = client.get("/api/immunizations")
+    assert r.status_code == 501
+    assert "not yet implemented" in r.json()["detail"].lower()
