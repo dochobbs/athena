@@ -108,6 +108,7 @@ class Condition(BaseModel):
 class Framework(BaseModel):
   id: str
   topic: str
+  aliases: list[str] = Field(default_factory=list)
   category: str = ""
   specialties: list[str] = Field(default_factory=list)
   age_range_months: list[int] | None = None
