@@ -1,0 +1,85 @@
+# Hypertension - Teaching Framework (peds + IM)
+id: hypertension
+topic: "Hypertension"
+aliases: ["hypertension", "high blood pressure", "elevated BP"]
+category: nephrology
+specialties: [peds, im]
+age_range_months: [36, 804]
+
+teaching_goals:
+  - "Know to use proper cuff size and technique"
+  - "Apply age-appropriate guidelines: 2017 AAP tables in children, ACC/AHA 2017 in adults"
+  - "Understand secondary causes are more common in children and young adults"
+  - "Screen appropriately starting at age 3"
+  - "Select first-line antihypertensive based on comorbidities"
+  - "Recognize target organ damage"
+
+common_mistakes:
+  - "Using wrong cuff size (too small = falsely high)"
+  - "Diagnosing HTN on single reading"
+  - "Not evaluating for secondary causes in children"
+  - "Missing white coat hypertension"
+  - "Not checking for orthostatic hypotension before starting treatment"
+  - "Starting multiple medications simultaneously rather than stepwise"
+  - "Never combine ACE inhibitor + ARB (hyperkalemia, renal failure, no benefit)"
+
+red_flags:
+  - "Stage 2 hypertension (children: >=95th percentile + 12 mmHg or >=140/90)"
+  - "Hypertensive emergency: severe elevation with symptoms (headache, vision change, chest pain)"
+  - "End-organ damage (LVH, retinopathy, proteinuria, renal failure)"
+  - "Secondary causes (renal, cardiac, endocrine)"
+  - "Papilledema on fundoscopy"
+
+clinical_pearls:
+  - "Cuff size: Bladder width >=40% of arm circumference - use larger if between sizes"
+  - "Pediatrics (AAP 2017): Simplified table ages 1-13; >=130/80 for all >=13 years old"
+  - "Adults (ACC/AHA 2017): Stage 1 = 130-139/80-89"
+  - "Three separate elevated readings needed for diagnosis at any age"
+  - "Secondary causes: Renal disease most common in children; more likely if younger, severe, or symptomatic"
+  - "ACE inhibitors and ARBs are first-line with diabetes or proteinuria"
+  - "Ambulatory BP monitoring: Confirms diagnosis, detects white coat HTN"
+  - "Resistant HTN = uncontrolled on 3 drugs including a diuretic; screen for secondary causes"
+
+key_history_questions:
+  - "Headaches, vision changes, chest pain?"
+  - "History of urinary tract infections, kidney problems?"
+  - "Snoring, sleep apnea symptoms?"
+  - "Family history of hypertension, kidney disease, heart disease?"
+  - "Medications, supplements, energy drinks?"
+  - "Diet, salt intake?"
+  - "Physical activity level?"
+  - "Obesity history?"
+  - "In adults: diabetes, kidney disease, prior medication trials and side effects?"
+
+key_exam_findings:
+  - "Blood pressure: Correct technique, correct cuff, seated, after rest; both arms in adults"
+  - "Repeat if elevated"
+  - "BMI"
+  - "Fundoscopic exam"
+  - "Cardiac exam (S3, S4, murmurs)"
+  - "Abdominal bruits (renal artery stenosis)"
+  - "Femoral pulses (coarctation)"
+  - "Signs of endocrine disorders (thyroid, cushingoid)"
+
+treatment_principles:
+  - "Confirm diagnosis: 3 separate visits with elevated BP"
+  - "Lifestyle first: DASH diet, sodium restriction, weight management, exercise"
+  - "Medications if: Stage 2, stage 1 + symptoms/target organ damage, or lifestyle fails"
+  - "First-line: ACE inhibitor or ARB (especially if proteinuria), CCB, or thiazide"
+  - "Start single agent, titrate before adding second"
+  - "Target: <90th percentile (children) or <130/80 (teens/adults)"
+
+disposition_guidance:
+  - "Reconfirm: 3 separate readings needed for diagnosis"
+  - "Labs: BMP, urinalysis, lipids"
+  - "Echo: If starting medication or sustained hypertension"
+  - "Nephrology: Secondary hypertension suspected, refractory, young child"
+  - "Ambulatory BP monitoring: Confirm diagnosis, white coat HTN"
+  - "Urgent: Stage 2 with symptoms = hypertensive emergency"
+
+parent_styles: [surprised-by-diagnosis, family-history-aware, skeptical]
+
+sources:
+  - "Flynn JT, et al. AAP Clinical Practice Guideline: Pediatric Hypertension (2017)"
+  - "Whelton PK, et al. ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults (2017)"
+  - "NHLBI Expert Panel: Integrated Guidelines for Cardiovascular Health"

@@ -1,0 +1,75 @@
+# Lyme Disease - Teaching Framework (peds + IM)
+id: lyme_disease
+topic: "Lyme Disease"
+aliases: ["Lyme", "erythema migrans", "tick-borne illness"]
+category: infectious
+specialties: [peds, im]
+age_range_months: [12, 804]
+
+teaching_goals:
+  - "Recognize erythema migrans as clinical diagnosis"
+  - "Understand the two-tier testing algorithm (ELISA then Western blot) and when serology is appropriate"
+  - "Know doxycycline is safe for short courses in children"
+  - "Stage Lyme disease (early localized, early disseminated, late)"
+  - "Understand when prophylaxis is indicated"
+  - "Avoid overtesting with serology early"
+
+common_mistakes:
+  - "Ordering serology for erythema migrans (will be negative early)"
+  - "Avoiding doxycycline in children <8 years (safe for <21 days)"
+  - "Missing prophylaxis opportunity for high-risk tick bites"
+  - "Treating every tick bite regardless of risk factors"
+  - "Interpreting positive IgM Western blot without clinical correlation (false positives common)"
+  - "Treating with prolonged courses beyond evidence-based duration"
+  - "Attributing chronic nonspecific symptoms to 'chronic Lyme'"
+
+red_flags:
+  - "Facial palsy (Lyme cranial neuritis); bilateral facial palsy is highly suggestive"
+  - "Heart block (Lyme carditis - may need temporary pacing)"
+  - "Meningitis symptoms with cranial nerve palsies"
+  - "Arthritis (late manifestation; acute monoarthritis of the knee)"
+
+clinical_pearls:
+  - "Erythema Migrans: CLINICAL diagnosis - do NOT order serology (negative early)"
+  - "Erythema migrans >=5 cm is diagnostic without lab testing in endemic areas"
+  - "Doxycycline is SAFE for children <8y for <21 days (no tooth staining)"
+  - "Doxycycline is preferred treatment for all ages"
+  - "Prophylaxis: Single-dose doxycycline if tick attached >36h, engorged, prevalence >20%"
+  - "Serology is often negative in early disease (seroconversion takes 2-4 weeks)"
+  - "Bilateral Bell palsy in summer is Lyme until proven otherwise in endemic areas"
+  - "Lyme arthritis may persist despite antibiotics due to autoimmune mechanism"
+
+key_history_questions:
+  - "Known tick bite? When removed?"
+  - "How long was tick attached? Engorged?"
+  - "Geographic location of exposure? Time of year?"
+  - "Rash - when appeared, expanding?"
+  - "Fever, fatigue, arthralgias?"
+  - "Any facial weakness or palpitations?"
+  - "Joint pain, especially large joint (knee)?"
+
+key_exam_findings:
+  - "Erythema migrans (expanding red ring, may have central clearing)"
+  - "Size and location of rash"
+  - "Facial nerve exam"
+  - "Joint exam (effusion, especially knee)"
+  - "Cardiac exam; ECG for heart block"
+  - "Neurologic exam; meningeal signs"
+
+treatment_principles:
+  - "Early Lyme: Doxycycline 4.4 mg/kg/day divided BID x 10-14 days"
+  - "Alternatives: Amoxicillin, Cefuroxime"
+  - "Prophylaxis: Single dose doxycycline 4.4 mg/kg (max 200mg)"
+  - "Disseminated: Longer course, may need IV"
+  - "Carditis or CNS involvement: IV ceftriaxone"
+
+disposition_guidance:
+  - "Outpatient: Early localized Lyme disease"
+  - "Cardiology/Neuro consult: Heart block, meningitis, facial palsy"
+  - "Admit: Severe carditis, CNS involvement"
+
+parent_styles: [anxious-about-Lyme, wants-testing, outdoor-family]
+
+sources:
+  - "IDSA/AAN/ACR CPG: Prevention, Diagnosis, Treatment of Lyme Disease (2021)"
+  - "AAP Red Book: Lyme Disease"
