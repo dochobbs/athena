@@ -11,9 +11,9 @@ Named after the Greek goddess of wisdom — Athena knows *what to teach* while o
 ## Quick Start
 
 ```bash
-cd /Users/dochobbs/Downloads/Consult/MedEd/athena
+cd /Users/dochobbs/consult/MedEd/athena
 source .venv/bin/activate
-cd /Users/dochobbs/Downloads/Consult/MedEd
+cd /Users/dochobbs/consult/MedEd
 PYTHONPATH=. uvicorn athena.src.main:app --host 0.0.0.0 --port 9105 --reload
 ```
 
@@ -95,7 +95,7 @@ Falls back gracefully if Athena is unreachable — returns empty lists or None.
 ## Testing
 
 ```bash
-cd /Users/dochobbs/Downloads/Consult/MedEd
+cd /Users/dochobbs/consult/MedEd
 source athena/.venv/bin/activate
 PYTHONPATH=. pytest athena/tests/ -v
 ```
